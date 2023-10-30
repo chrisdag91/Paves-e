@@ -2,7 +2,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Lettera 03</title>
+				<title>Lettera 03 - A Mario Sturani</title>
 			</titleStmt>
 			<publicationStmt>
 				<p>Publication Information</p>
@@ -43,10 +43,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190443763",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190833152",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-10-30T18:04:43.763Z",
-	"dcterms:modified": "2023-10-30T18:08:33.152Z",
+	"dcterms:created": "2023-10-30T18:08:33.152Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chrisdag91",
 		"@type": [
@@ -57,7 +56,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190443763#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190833152#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml",
@@ -71,7 +70,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190443763#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190833152#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/dateline/placeName"
 		}
@@ -516,10 +515,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190804290",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190837050",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-10-30T18:08:04.290Z",
-	"dcterms:modified": "2023-10-30T18:08:37.050Z",
+	"dcterms:created": "2023-10-30T18:08:37.050Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chrisdag91",
 		"@type": [
@@ -530,7 +528,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190804290#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190837050#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml",
@@ -544,7 +542,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190804290#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03.xml?place_annotation_20231030190837050#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[5]/placeName[3]"
 		}
@@ -569,7 +567,7 @@
 			<div type="lettera" n="03">
 				<head>A <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" corresp="#MarioSturiani">Mario Sturani</persName>, <placeName key="Monza Lombardy Italy" ref="https://geonames.org/3172629" corresp="#Monza">Monza</placeName></head>
 			<dateline>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" corresp="#Torino">Torino</placeName>, in risposta a una lettera del <date when="1923-02-23">23 febbraio 1923</date>]</dateline>
-			<opener>Caro <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" corresp="#MarioSturiani">Sturani</persName>,</opener>
+			<opener>Caro Sturani,</opener>
 			<p>in questo momento che ti scrivo sono abbastanza soddisfatto di me stesso. In altri momenti invece darei la vita per quattro soldi.</p>
 			<p>Ho fatto molta strada in quest’ultimo anno. Vado sempre più convincendomi che valgo ancora ben poco, ma in me, sotto sotto, intravedo in qualche raro istante di felicità piena una buona forza per il futuro. Mi si chiariscono ed allargano sempre più le idee. Scopro una mia personalità. Molte vaghe intuizioni di anni addietro mi si presentano ora più precise e rientrano perfettamente ordinate nel gran quadro del mio io. Sono sempre in fermento, anche, anzi allora più che mai, quando sono disperato. Mi convinco che qualcosa di buono l’ho già fatto e che andrò avanti...</p>
 			<p>Ed ora che ti sei sorbito uno studio di me stesso, con quanta seccaggine me lo immagino, ché c’è niente di più scocciante che ascoltare gli altri parlare di se stessi, che cosa vorresti sentire?</p>
