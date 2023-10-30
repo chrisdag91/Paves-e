@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
-			<titleStmt>
-				<title>Lettera 03 - A Mario Sturani</title>
-			</titleStmt>
-			<publicationStmt>
-				<p>Publication Information</p>
-			</publicationStmt>
-			<sourceDesc>
-				<p>Information about the source</p>
-			</sourceDesc>
-		</fileDesc>
-	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+				<titleStmt>
+						<title>Lettera 03 - A Mario Sturani</title>
+					<respStmt>
+						<name>Nome del responsabile</name>
+						<resp>Responsabile scientifico del testo</resp>
+					</respStmt>
+					<respStmt>
+						<name>Nome codificatore</name>
+						<resp>Codifica del testo in XML-TEI</resp>
+					</respStmt>
+				</titleStmt>
+				<publicationStmt>
+					<authority>Università di Catania</authority>
+					<authority>Università di Torino</authority>
+					<date>2023</date>
+					<availability>
+						<p>Questo documento digitale fa parte del progetto PRIN Paves-e ed è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato</p>
+					</availability>
+				</publicationStmt>
+				<seriesStmt>
+					<title>Paves-e</title>
+				</seriesStmt>
+				<sourceDesc>
+					<bibl>
+						<title>Lettere 1924-1944</title>
+						<author>Cesare Pavese</author>
+						<editor role="curatore">Lorenzo Mondo</editor>
+						<publisher>Einaudi</publisher>
+						<pubPlace>Torino</pubPlace>
+						<date>1966</date>
+						<citedRange>8</citedRange>
+					</bibl>
+				</sourceDesc>
+			</fileDesc>
+			<encodingDesc>
+				<projectDesc>
+					<p>Testo digitalizzato e codificato nell'ambito del progetto PRIN Paves-e</p>
+				</projectDesc>
+			</encodingDesc>
+			<profileDesc>
+				<correspDesc xml:id="Lettera03.xml">
+					<correspAction type="sent"> 
+						<persName corresp="#PaveseCesare">Cesare Pavese</persName>
+						<placeName corresp="#Torino">Torino</placeName>
+						<date when="1923-02-23">23 febbraio 1923</date>
+					</correspAction>
+					<correspAction type="received">
+						<persName corresp="SturaniMario">Mario Sturani</persName>
+					</correspAction>
+				</correspDesc>
+			</profileDesc>
+	<xenoData>
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -720,13 +762,20 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+      </rdf:RDF>
+	</xenoData>
+		<revisionDesc>
+			<change who="#DAgataChristian">Prima revisione in data *</change>
+		</revisionDesc>
+	</teiHeader>
 	<text>
 		<body>
 			<div type="lettera" n="03">
 				<head>A <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" corresp="#MarioSturiani">Mario Sturani</persName>, <placeName key="Monza Lombardy Italy" ref="https://geonames.org/3172629" corresp="#Monza">Monza</placeName></head>
-			<dateline>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" corresp="#Torino">Torino</placeName>, in risposta a una lettera del <date when="1923-02-23">23 febbraio 1923</date>]</dateline>
-			<opener>Caro <persName key="Sturani, Mario" ref="http://viaf.org/viaf/9853159248242304870000/" corresp="#SturaniMario">Sturani</persName>,</opener>
+				<opener>
+				<dateline>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" corresp="#Torino">Torino</placeName>, in risposta a una lettera del <date when="1923-02-23">23 febbraio 1923</date>]</dateline>
+				<salute>Caro <persName key="Sturani, Mario" ref="http://viaf.org/viaf/9853159248242304870000/" corresp="#SturaniMario">Sturani</persName></salute>,
+				</opener>
 			<p>in questo momento che ti scrivo sono abbastanza soddisfatto di me stesso. In altri momenti invece darei la vita per quattro soldi.</p>
 			<p>Ho fatto molta strada in quest’ultimo anno. Vado sempre più convincendomi che valgo ancora ben poco, ma in me, sotto sotto, intravedo in qualche raro istante di felicità piena una buona forza per il futuro. Mi si chiariscono ed allargano sempre più le idee. Scopro una mia personalità. Molte vaghe intuizioni di anni addietro mi si presentano ora più precise e rientrano perfettamente ordinate nel gran quadro del mio io. Sono sempre in fermento, anche, anzi allora più che mai, quando sono disperato. Mi convinco che qualcosa di buono l’ho già fatto e che andrò avanti...</p>
 			<p>Ed ora che ti sei sorbito uno studio di me stesso, con quanta seccaggine me lo immagino, ché c’è niente di più scocciante che ascoltare gli altri parlare di se stessi, che cosa vorresti sentire?</p>
