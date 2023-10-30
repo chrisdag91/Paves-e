@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>I mari del Sud</title>
+				<author>Cesare Pavese</author>
+				<respStmt>
+					<name>Nome del responsabile</name>
+					<resp>Responsabile scientifico del testo</resp>
+				</respStmt>
+				<respStmt>
+					<name>Nome codificatore</name>
+					<resp>Codifica del testo in XML-TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Università di Catania</authority>
+				<authority>Università di Torino</authority>
+				<date>2023</date>
+				<availability>
+					<p>Questo documento digitale fa parte del progetto PRIN Paves-e ed è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato</p>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Paves-e</title>
+			</seriesStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Le Poesie</title>
+					<author>Cesare Pavese</author>
+					<editor role="curatore">Antonio Sichera</editor>
+					<editor role="curatore">Antonio Di Silvestro</editor>
+					<editor role="collaborazione">Liborio Pietro Barbarino</editor>
+					<editor role="collaborazione">Christian D'Agata</editor>
+					<editor role="collaborazione">Miryam Grasso</editor>
+					<editor role="collaborazione">Maria Concetta Trovato</editor>
+					<editor role="collaborazione">Eliana Vitale</editor>
+					<publisher>Mondadori</publisher>
+					<pubPlace>Milano</pubPlace>
+					<date>2022</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo digitalizzato e codificato nell'ambito del progetto PRIN Paves-e</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<abstract><p>Prima poesia di Lavorare Stanca (1936)</p></abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head type="titolo">I MARI DEL SUD</head>
+			<head type="dedica">(a Monti)</head>
+			<lg>
+			<l>Camminiamo una sera sul fianco di un colle,</l>
+			<l>in silenzio. Nell'ombra del tardo crepuscolo</l>
+			<l>mio cugino è un gigante vestito di bianco,</l>
+			<l>che si muove pacato, abbronzato nel volto,</l>
+			<l>taciturno. Tacere è la nostra virtù.</l>
+			<l>Qualche nostro antenato dev'essere stato ben solo</l>
+			<l>– un grand'uomo tra idioti o un povero folle –</l>
+			<l>per insegnare ai suoi tanto silenzio.</l>
+			</lg>
+			<lg>
+			<l>Mio cugino ha parlato stasera. Mi ha chiesto</l>
+			<l>se salivo con lui: dalla vetta si scorge</l>
+			<l>nelle notti serene il riflesso del faro</l>
+			<l>lontano, di Torino. «Tu che abiti a Torino…»</l>
+			<l>mi ha detto «… ma hai ragione. La vita va vissuta</l>
+			<l>lontano dal paese: si profitta e si gode</l>
+			<l>e poi, quando si torna, come me, a quarant'anni,</l>
+			<l>si trova tutto nuovo. Le Langhe non si perdono».</l>
+			<l>Tutto questo mi ha detto e non parla italiano,</l>
+			<l>ma adopera lento il dialetto, che, come le pietre</l>
+			<l>di questo stesso colle, è scabro tanto</l>
+			<l>che vent'anni di idiomi e di oceani diversi</l>
+			<l>non gliel'hanno scalfito. E cammina per l'erta</l>
+			<l>con lo sguardo raccolto che ho visto, bambino,</l>
+			<l>usare ai contadini un poco stanchi.</l>
+			</lg>
+			<lg>
+			<l>Vent'anni è stato in giro per il mondo.</l>
+			<l>Se n'andò ch'io ero ancora un bambino portato da donne</l>
+			<l>e lo dissero morto. Sentii poi parlarne</l>
+			<l>da donne, come in favola, talvolta;</l>
+			<l>ma gli uomini, più gravi, lo scordarono.</l>
+			<l>Un inverno a mio padre già morto arrivò un cartoncino</l>
+			<l>con un gran francobollo verdastro di navi in un porto</l>
+			<l>e auguri di buona vendemmia. Fu un grande stupore,</l>
+			<l>ma il bambino cresciuto spiegò avidamente</l>
+			<l>che il biglietto veniva da un'isola detta Tasmania</l>
+			<l>circondata da un mare più azzurro, feroce di squali,</l>
+			<l>nel Pacifico, a sud dell'Australia. E aggiunse che certo</l>
+			<l>il cugino pescava le perle. E staccò il francobollo.</l>
+			<l>Tutti diedero un loro parere, ma tutti conclusero</l>
+			<l>che, se non era morto, morirebbe.</l>
+			<l>Poi scordarono tutti e passò molto tempo.</l>
+			</lg>
+			<lg>
+			<l>Oh da quando ho giocato ai pirati malesi,</l>
+			<l>quanto tempo è trascorso. E dall'ultima volta</l>
+			<l>che son sceso a bagnarmi in un punto mortale</l>
+			<l>e ho inseguito un compagno di giochi su un albero</l>
+			<l>spaccandone i bei rami e ho rotta la testa</l>
+			<l>a un rivale e son stato picchiato,</l>
+			<l>quanta vita è trascorsa. Altri giorni, altri giochi,</l>
+			<l>altri squassi del sangue dinanzi a rivali</l>
+			<l>più elusivi: i pensieri ed i sogni.</l>
+			<l>La città mi ha insegnato infinite paure:</l>
+			<l>una folla, una strada mi han fatto tremare,</l>
+			<l>un pensiero talvolta, spiato su un viso.</l>
+			<l>Sento ancora negli occhi la luce beffarda</l>
+			<l>dei lampioni a migliaia sul gran scalpiccìo.</l>
+			</lg>
+			<lg>
+			<l>Mio cugino è tornato, finita la guerra,</l>
+			<l>gigantesco, fra i pochi. E aveva denaro.</l>
+			<l>I parenti dicevano piano: «Fra un anno a dir molto,</l>
+			<l>se li è mangiati tutti e torna in giro.</l>
+			<l>I disperati muoiono così».</l>
+			<l>Mio cugino ha una faccia recisa. Comprò un pianterreno</l>
+			<l>nel paese e ci fece riuscire un garage di cemento</l>
+			<l>con dinanzi fiammante la pila per dar la benzina</l>
+			<l>e sul ponte ben grossa alla curva una targa-réclame.</l>
+			<l>Poi ci mise un meccanico dentro a ricevere i soldi</l>
+			<l>e lui girò tutte le Langhe fumando.</l>
+			<l>S'era intanto sposato, in paese. Pigliò una ragazza</l>
+			<l>esile e bionda come le straniere</l>
+			<l>che aveva certo un giorno incontrato nel mondo.</l>
+			<l>Ma uscì ancora da solo. Vestito di bianco,</l>
+			<l>con le mani alla schiena e il volto abbronzato,</l>
+			<l>al mattino batteva le fiere e con aria sorniona</l>
+			<l>contrattava i cavalli. Spiegò poi a me,</l>
+			<l>quando fallì il disegno, che il suo piano</l>
+			<l>era stato di togliere tutte le bestie alla valle</l>
+			<l>e obbligare la gente a comprargli i motori.</l>
+			<l>«Ma la bestia» diceva «più grossa di tutte,</l>
+			<l>sono stato io a pensarlo. Dovevo sapere</l>
+			<l>che qui buoi e persone son tutta una razza».</l>
+			</lg>
+			<lg>
+			<l>Camminiamo da più di mezz'ora. La vetta è vicina,</l>
+			<l>sempre aumenta d'intorno il frusciare e il fischiare del vento.</l>
+			<l>Mio cugino si ferma d'un tratto e si volge: «Quest'anno</l>
+			<l>scrivo sul manifesto: – Santo Stefano</l>
+			<l>è sempre stato il primo nelle feste</l>
+			<l>della valle del Belbo – e che la dicano</l>
+			<l>quei di Canelli». Poi riprende l'erta.</l>
+			<l>Un profumo di terra e vento ci avvolge nel buio,</l>
+			<l>qualche lume in distanza: cascine, automobili</l>
+			<l>che si sentono appena: e io penso alla forza</l>
+			<l>che mi ha reso quest'uomo, strappandolo al mare,</l>
+			<l>alle terre lontane, al silenzio che dura.</l>
+			<l>Mio cugino non parla dei viaggi compiuti.</l>
+			<l>Dice asciutto che è stato in quel luogo e in quell'altro</l>
+			<l>e pensa ai suoi motori.</l>
+			<l>Solo un sogno</l>
+			<l>gli è rimasto nel sangue: ha incrociato una volta</l>
+			<l>da fuochista su un legno olandese da pesca, il Cetaceo,</l>
+			<l>e ha veduto volare i ramponi pesanti nel sole,</l>
+			<l>ha veduto fuggire balene tra schiume di sangue</l>
+			<l>e inseguirle e innalzarsi le code e lottare alla lancia.</l>
+			<l>Me ne accenna talvolta.</l>
+			<l>Ma quando gli dico</l>
+			<l>ch'egli è tra i fortunati che han visto l'aurora</l>
+			<l>sulle isole più belle della terra,</l>
+			<l>al ricordo sorride e risponde che il sole</l>
+			<l>si levava che il giorno era vecchio per loro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
