@@ -330,9 +330,9 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" cert="high" corresp="#MarioSturiani" type="real">Mario Sturani</persName>, <placeName key="Monza Lombardy Italy" ref="https://geonames.org/3172629" corresp="#Monza">Monza</placeName></p>
+			<p>A <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" corresp="#MarioSturiani">Mario Sturani</persName>, <placeName key="Monza Lombardy Italy" ref="https://geonames.org/3172629" corresp="#Monza">Monza</placeName></p>
 			<p>[Torino, in risposta a una lettera del <date when="1923-02-23">23 febbraio 1923</date>]</p>
-			<p>Caro <persName key="Sturani, Mario" ref="http://viaf.org/viaf/9853159248242304870000/" corresp="#MarioSturiani">Sturani</persName>,</p>
+			<p>Caro <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" corresp="#MarioSturiani">Sturani</persName>,</p>
 			<p>in questo momento che ti scrivo sono abbastanza soddisfatto di me stesso. In altri momenti invece darei la vita per quattro soldi.</p>
 			<p>Ho fatto molta strada in quest’ultimo anno. Vado sempre più convincendomi che valgo ancora ben poco, ma in me, sotto sotto, intravedo in qualche raro istante di felicità piena una buona forza per il futuro. Mi si chiariscono ed allargano sempre più le idee. Scopro una mia personalità. Molte vaghe intuizioni di anni addietro mi si presentano ora più precise e rientrano perfettamente ordinate nel gran quadro del mio io. Sono sempre in fermento, anche, anzi allora più che mai, quando sono disperato. Mù convinco che qualcosa di buono l’ho già fatto e che andrò avanti...</p>
 			<p>Ed ora che ti sei sorbito uno studio di me stesso, con quanta seccaggine me lo immagino, ché c’è niente di più scocciante che ascoltare gli altri parlare di se stessi, che cosa vorresti sentire?</p>
