@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+	<text>
+		<body>
+			<opener>Alla sorella Maria, Torino</opener>
+			<dateline>Brancaleone 2 ottobre 1935</dateline>
+			<ab>Cara Maria,</ab>
+			<ab>ricevo 18 e 22 settembre. A Ruata ho scritto io.</ab>
+			<ab>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</ab>
+			<ab>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a Torino, poiché scrive sempre delle stupidaggini sui film nella «Gazzetta». La risposta di Mondadori, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</ab>
+			<ab>La nevralgia è passata ma adesso comincia la stagione della febbre e l’aspetto da un giorno all’altro. Ti ho già scritto che non voglio assolutamente trasferimenti.</ab>
+			<ab>I Promessi Sposi regalali alla signorina cui piacciono molto. Le poesie le ho corrette e spedite. Aspetto che Carocci mi scriva di averle ricevute. Se usciranno, ne riceverà certo una copia anche lei. Ma dille che di tutte vale qualcosa soltanto quella intitolata Dopo.</ab>
+			<ab>Sturani mi ha scritto e mandato due pipe un po’ meglio delle vostre. Mandami alla prima occasione (con le camicie dalle maniche lunghe) i volumetti miei dell’Iliade e Odissea (verdi o bruni con Minerva sopra) in greco.</ab>
+			<ab>Libri da mettere in nota:</ab>
+			<ab>Jonathan Swift, A Tale of a Tub (Dent)</ab>
+			<ab>Jonathan Swift, Journal to Stella (Dent)</ab>
+			<ab>Edmund Spencer, The Faerie Queene (2 volumi) (Dent)</ab>
+			<ab>William Congreve, The complete Plays (2 volumi) (Oxford)</ab>
+			<ab>William Faulkner (americano), Light in August (?)</ab>
+			<ab>Pylon (?) romanzi recenti</ab>
+			<ab>Mi stupisce che mi chiediate se ho voglia di tornare a Torino. Non va bene lamentarsi, perché c’è sempre chi sta peggio, ma certo che non c’è ancora stato filosofo che abbia sopportato il mal di denti con calma. A me dà qualche sollievo mangiare un carciofino tutte le domeniche, e poi fumare col succhino. Piaceri che non tutti capiscono, anche perché non tutti sono a Brancaleone. Amen.</ab>
+			<ab>Cesare</ab>
+		</body>
+	</text>
+</TEI>
