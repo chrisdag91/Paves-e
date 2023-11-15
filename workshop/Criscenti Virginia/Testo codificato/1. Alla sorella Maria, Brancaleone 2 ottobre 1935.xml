@@ -358,85 +358,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182145654",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-15T17:21:45.654Z",
-	"dcterms:modified": "2023-11-15T17:21:45.654Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/vcriscenti",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Virginia Criscenti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182145654#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182145654#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "http://viaf.org/viaf/8528165326482416290007/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115182244737",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-15T17:22:44.737Z",
@@ -1272,6 +1193,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115184047447",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-15T17:40:47.447Z",
+	"dcterms:modified": "2023-11-15T17:40:47.447Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/vcriscenti",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Virginia Criscenti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115184047447#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115184047447#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/185499102/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115184114839",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-15T17:41:14.839Z",
+	"dcterms:modified": "2023-11-15T17:41:14.839Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/vcriscenti",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Virginia Criscenti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115184114839#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Criscenti%20Virginia/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115184114839#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/9319152502868810800003/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1282,11 +1361,11 @@
 			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
 			<p>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, poiché scrive sempre delle stupidaggini sui film nella «Gazzetta». La risposta di <orgName key="Arnoldo Mondadori Editore" ref="http://dbpedia.org/resource/Arnoldo_Mondadori_Editore">Mondadori</orgName>, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
 			<p>La nevralgia è passata ma adesso comincia la stagione della febbre e l’aspetto da un giorno all’altro. Ti ho già scritto che non voglio assolutamente trasferimenti.</p>
-			<p>I <title key="Manzoni, Alessandro (1785-1873). | Promessi sposi wybór)" ref="http://viaf.org/viaf/8528165326482416290007/">Promessi Sposi</title> regalali alla signorina cui piacciono molto. Le poesie le ho corrette e spedite. Aspetto che <persName key="Carocci, Alberto" ref="http://viaf.org/viaf/8935159248119104870005/">Carocci</persName> mi scriva di averle ricevute. Se usciranno, ne riceverà certo una copia anche lei. Ma dille che di tutte vale qualcosa soltanto quella intitolata Dopo.</p>
+			<p><title key="Manzoni, Alessandro, 1785-1873. | Promessi sposi" ref="http://viaf.org/viaf/185499102/">I Promessi Sposi</title> regalali alla signorina cui piacciono molto. Le poesie le ho corrette e spedite. Aspetto che <persName key="Carocci, Alberto" ref="http://viaf.org/viaf/8935159248119104870005/">Carocci</persName> mi scriva di averle ricevute. Se usciranno, ne riceverà certo una copia anche lei. Ma dille che di tutte vale qualcosa soltanto quella intitolata Dopo.</p>
 			<p>Sturani mi ha scritto e mandato due pipe un po’ meglio delle vostre. Mandami alla prima occasione (con le camicie dalle maniche lunghe) i volumetti miei dell’<title key="Omero, Iliade" ref="http://viaf.org/viaf/7250154260445424480008/">Iliade</title> e Odissea (verdi o bruni con <persName key="Minerva" ref="http://www.wikidata.org/entity/Q126916">Minerva</persName> sopra) in greco.</p>
 			<p>Libri da mettere in nota:</p>
 			<p><persName key="Swift, Jonathan S." ref="http://viaf.org/viaf/3738148209308400460002/">Jonathan Swift</persName>, <title key="Swift, Jonathan, 1667-1745. | Tale of a tub" ref="http://viaf.org/viaf/211768035/">A Tale of a Tub</title> (Dent)</p>
-			<p><persName key="Swift, Jonathan S." ref="http://viaf.org/viaf/3738148209308400460002/">Jonathan Swift</persName>, Journal to Stella (Dent)</p>
+			<p><persName key="Swift, Jonathan S." ref="http://viaf.org/viaf/3738148209308400460002/">Jonathan Swift</persName>, <title key="Swift, Jonathan, 1667-1745. | Journal to Stella" ref="http://viaf.org/viaf/9319152502868810800003/">Journal to Stella</title> (Dent)</p>
 			<p><persName key="Spencer, Edmund, 1552?-1599" ref="http://viaf.org/viaf/139167802707417770087/">Edmund Spencer</persName>, The Faerie Queene (2 volumi) (Dent)</p>
 			<p><persName key="Congreve, William" ref="http://viaf.org/viaf/7927163877751246060001/">William Congreve</persName>, The complete Plays (2 volumi) (Oxford)</p>
 			<p>William Faulkner (americano), Light in August (?)</p>
