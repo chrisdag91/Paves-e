@@ -73,7 +73,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115180753695#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/placeName"
+			"rdf:value": "TEI/text/body/p[3]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -152,7 +152,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115180838307#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
+			"rdf:value": "TEI/text/body/p[2]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -231,7 +231,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115180938741#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/persName"
+			"rdf:value": "TEI/text/body/p[5]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -310,7 +310,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115181033573#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/persName"
+			"rdf:value": "TEI/text/body/p[7]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -389,7 +389,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181042953#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/placeName"
+			"rdf:value": "TEI/text/body/p[7]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -468,7 +468,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115181148520#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/title"
+			"rdf:value": "TEI/text/body/p[7]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -547,7 +547,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115181417703#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/date"
+			"rdf:value": "TEI/text/body/p[3]/date"
 		}
 	},
 	"oa:hasBody": {
@@ -625,7 +625,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115181439035#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/date"
+			"rdf:value": "TEI/text/body/p[5]/date"
 		}
 	},
 	"oa:hasBody": {
@@ -703,7 +703,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115181451736#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/date[2]"
+			"rdf:value": "TEI/text/body/p[5]/date[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -781,7 +781,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115181621185#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/date"
+			"rdf:value": "TEI/text/body/p[6]/date"
 		}
 	},
 	"oa:hasBody": {
@@ -859,7 +859,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115181759503#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title"
+			"rdf:value": "TEI/text/body/p[9]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -938,7 +938,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115181920787#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/persName"
+			"rdf:value": "TEI/text/body/p[9]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1017,7 +1017,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115182021768#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[9]/persName"
+			"rdf:value": "TEI/text/body/p[10]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1096,7 +1096,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182040517#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[9]/title"
+			"rdf:value": "TEI/text/body/p[10]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -1175,7 +1175,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182104732#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[9]/title[2]"
+			"rdf:value": "TEI/text/body/p[10]/title[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1254,7 +1254,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182126632#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[9]/title[3]"
+			"rdf:value": "TEI/text/body/p[10]/title[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -1333,7 +1333,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115182308118#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[11]/persName"
+			"rdf:value": "TEI/text/body/p[12]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1412,7 +1412,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182319981#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[11]/title"
+			"rdf:value": "TEI/text/body/p[12]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -1491,7 +1491,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115182507917#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[12]/persName"
+			"rdf:value": "TEI/text/body/p[13]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1570,7 +1570,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182522096#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[12]/title"
+			"rdf:value": "TEI/text/body/p[13]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -1649,7 +1649,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115182541846#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[13]/persName"
+			"rdf:value": "TEI/text/body/p[14]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1728,7 +1728,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182554579#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[13]/title"
+			"rdf:value": "TEI/text/body/p[14]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -1807,7 +1807,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115182608279#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/persName"
+			"rdf:value": "TEI/text/body/p[15]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1886,7 +1886,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115182648080#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[15]/persName"
+			"rdf:value": "TEI/text/body/p[16]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1965,7 +1965,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182658993#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[15]/title"
+			"rdf:value": "TEI/text/body/p[16]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -2044,7 +2044,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182737760#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[16]/title"
+			"rdf:value": "TEI/text/body/p[17]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -2123,7 +2123,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115182751494#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[17]/placeName"
+			"rdf:value": "TEI/text/body/p[18]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -2202,7 +2202,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115182856477#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[17]/placeName[2]"
+			"rdf:value": "TEI/text/body/p[18]/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -2281,7 +2281,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Resio%20Lorenzo/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115182916344#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[18]/persName"
+			"rdf:value": "TEI/text/body/p[19]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -2301,7 +2301,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella Maria, <placeName key="Turin" ref="http://viaf.org/viaf/6960158188272720260000/">Torino</placeName></p>
+			<p>Alla sorella &amp;lt;persName&amp;gt;Maria&amp;lt;/persName</p><p>, <placeName key="Turin" ref="http://viaf.org/viaf/6960158188272720260000/">Torino</placeName></p>
 			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName> <date when="1935-10-02">2 ottobre 1935</date></p>
 			<p>Cara Maria,</p>
 			<p>ricevo <date when="1935-09-18">18</date> e <date when="1935-09-22">22 settembre</date>. A <persName key="Ruata, Adolfo." ref="http://viaf.org/viaf/103523466/">Ruata</persName> ho scritto io.</p>
