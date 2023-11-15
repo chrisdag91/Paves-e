@@ -649,9 +649,9 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella <persName cert="high" ref="#MariaSiniPavese" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="high"/></placeName></p>
+			<p>Alla sorella <persName cert="high" ref="#MariaSiniPavese" type="real"><persName ref="#MariaSiniPavese">Maria</persName></persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="high"/></placeName></p>
 			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName> <date when="1935-10-02" cert="high">2 ottobre 1935</date></p>
-			<p>Cara Maria,</p>
+			<p>Cara <persName cert="high" ref="#MariaSiniPavese" type="real">Maria</persName>,</p>
 			<p cert="high" part="Y" xml:space="default">ricevo <date when="1935-09-18">18</date> e <date when="1935-09-22" cert="high">22 settembre</date>. A Ruata ho scritto io.</p>
 			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
 			<p>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="high"/></placeName>, poiché scrive sempre delle stupidaggini sui film nella «Gazzetta». La risposta di Mondadori, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
