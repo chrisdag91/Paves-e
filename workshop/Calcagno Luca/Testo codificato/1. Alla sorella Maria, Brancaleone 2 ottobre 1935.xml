@@ -43,10 +43,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115180755285",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181057047",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-15T17:07:55.285Z",
-	"dcterms:modified": "2023-11-15T17:07:55.285Z",
+	"dcterms:created": "2023-11-15T17:10:57.047Z",
+	"dcterms:modified": "2023-11-15T17:10:57.047Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -57,7 +57,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115180755285#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181057047#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
@@ -71,14 +71,14 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115180755285#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181057047#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/placeName"
+			"rdf:value": "TEI/text/body/p[2]/placeName/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2525505",
+		"@id": "https://geonames.org/2525507",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -94,7 +94,7 @@
 	<text>
 		<body>
 			<p>Alla sorella Maria, Torino</p>
-			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName> 2 ottobre 1935</p>
+			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505"><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525507">Brancaleone</placeName></placeName> 2 ottobre 1935</p>
 			<p>Cara Maria,</p>
 			<p>ricevo 18 e 22 settembre. A Ruata ho scritto io.</p>
 			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
