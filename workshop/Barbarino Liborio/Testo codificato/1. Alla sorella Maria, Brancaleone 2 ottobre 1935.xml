@@ -204,7 +204,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181411561",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-15T17:14:11.561Z",
-	"dcterms:modified": "2023-11-15T17:14:11.561Z",
+	"dcterms:modified": "2023-11-15T17:18:03.817Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/liboriob",
 		"@type": [
@@ -245,7 +245,9 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.2.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
       
@@ -329,6 +331,85 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181736963",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-15T17:17:36.963Z",
+	"dcterms:modified": "2023-11-15T17:17:36.963Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/liboriob",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Liborio Barbarino"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181736963#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181736963#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[17]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2525505",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -337,7 +418,7 @@
 			<p>Cara Maria,</p>
 			<p>ricevo 18 e 22 settembre. A Ruata ho scritto io.</p>
 			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
-			<p>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, poiché scrive sempre delle stupidaggini sui film nella «Gazzetta». La risposta di Mondadori, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
+			<p>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="high"/></placeName>, poiché scrive sempre delle stupidaggini sui film nella «Gazzetta». La risposta di Mondadori, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
 			<p>La nevralgia è passata ma adesso comincia la stagione della febbre e l’aspetto da un giorno all’altro. Ti ho già scritto che non voglio assolutamente trasferimenti.</p>
 			<p>I Promessi Sposi regalali alla signorina cui piacciono molto. Le poesie le ho corrette e spedite. Aspetto che Carocci mi scriva di averle ricevute. Se usciranno, ne riceverà certo una copia anche lei. Ma dille che di tutte vale qualcosa soltanto quella intitolata Dopo.</p>
 			<p>Sturani mi ha scritto e mandato due pipe un po’ meglio delle vostre. Mandami alla prima occasione (con le camicie dalle maniche lunghe) i volumetti miei dell’Iliade e Odissea (verdi o bruni con Minerva sopra) in greco.</p>
@@ -348,7 +429,7 @@
 			<p>William Congreve, The complete Plays (2 volumi) (Oxford)</p>
 			<p>William Faulkner (americano), Light in August (?)</p>
 			<p>Pylon (?) romanzi recenti</p>
-			<p>Mi stupisce che mi chiediate se ho voglia di tornare a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="high"/></placeName>. Non va bene lamentarsi, perché c’è sempre chi sta peggio, ma certo che non c’è ancora stato filosofo che abbia sopportato il mal di denti con calma. A me dà qualche sollievo mangiare un carciofino tutte le domeniche, e poi fumare col succhino. Piaceri che non tutti capiscono, anche perché non tutti sono a Brancaleone. Amen.</p>
+			<p>Mi stupisce che mi chiediate se ho voglia di tornare a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="high"/></placeName>. Non va bene lamentarsi, perché c’è sempre chi sta peggio, ma certo che non c’è ancora stato filosofo che abbia sopportato il mal di denti con calma. A me dà qualche sollievo mangiare un carciofino tutte le domeniche, e poi fumare col succhino. Piaceri che non tutti capiscono, anche perché non tutti sono a <placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>. Amen.</p>
 			<p>Cesare</p>
 		</body>
 	</text>
