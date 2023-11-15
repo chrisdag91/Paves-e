@@ -252,7 +252,7 @@
 		
 			<p>Alla sorella Maria, Torino</p>
 			<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525507">Brancaleone</placeName> 2 ottobre 1935
-			<p>Cara <persName>Maria</persName>,</p>
+			<p>Cara <persName><persName ref="#MariaSiniPavese">Maria</persName></persName>,</p>
 			<p>ricevo 18 e <date when="19350922">22 settembre</date>. A Ruata ho scritto io.</p>
 			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
 			<p>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a <placeName key="Torino Piedmont Italy" ref="https://geonames.org/3165523">Torino</placeName>, poiché scrive sempre delle stupidaggini sui film nella «Gazzetta». La risposta di Mondadori, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
