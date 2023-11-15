@@ -171,7 +171,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella <persName ref="#MariaSiniPavese"><persName ref="#MariaSiniPavese" role="sce">Maria</persName></persName>, Torino</p>
+			<p>Alla sorella Maria, Torino</p>
 			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525507">Brancaleone</placeName> <date when="1935-10-02">2 ottobre 1935</date></p>
 			<p>Cara Maria,</p>
 			ricevo 18 e 22 settembre. A Ruata ho scritto io.
