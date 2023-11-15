@@ -122,10 +122,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115182439375",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115182607233",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-15T17:24:39.375Z",
-	"dcterms:modified": "2023-11-15T17:24:39.375Z",
+	"dcterms:created": "2023-11-15T17:26:07.233Z",
+	"dcterms:modified": "2023-11-15T17:26:07.233Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/AndreaSchembari",
 		"@type": [
@@ -136,7 +136,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115182439375#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115182607233#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
@@ -150,7 +150,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115182439375#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115182607233#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/date"
 		}
@@ -174,7 +174,7 @@
 			<p>Alla sorella Maria, Torino</p>
 			<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525507">Brancaleone</placeName> 2 ottobre 1935
 			<p>Cara Maria,</p>
-			ricevo 18 e <date when="1935-09-22">22 settembr</date>e. A Ruata ho scritto io.
+			ricevo 18 e <date when="1935-09-22">22 settembre</date>. A Ruata ho scritto io.
 			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
 			<p>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a Torino, poiché scrive sempre delle stupidaggini sui film nella «Gazzetta». La risposta di Mondadori, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
 			<p>La nevralgia è passata ma adesso comincia la stagione della febbre e l’aspetto da un giorno all’altro. Ti ho già scritto che non voglio assolutamente trasferimenti.</p>
