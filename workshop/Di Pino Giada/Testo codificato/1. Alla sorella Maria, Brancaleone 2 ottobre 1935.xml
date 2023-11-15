@@ -408,7 +408,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella <persName ref="#MariaSiniPavese">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName></p>
+			<p>Alla sorella <persName ref="#MariaSiniPavese"><persName ref="#MariaSiniPavese">Maria</persName></persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName></p>
 			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525507">Brancaleone</placeName> 2 ottobre 1935</p>
 			<p>Cara Maria,</p>
 			<p>ricevo 18 e <date when="1935-09-22">22 settembre</date>. A Ruata ho scritto io.</p>
