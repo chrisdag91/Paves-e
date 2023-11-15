@@ -310,7 +310,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Di%20Pino%20Giada/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115182309544#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/date"
+			"rdf:value": "TEI/text/body/p[4]/date[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1273,13 +1273,170 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Di%20Pino%20Giada/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115190751090",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-15T18:07:51.090Z",
+	"dcterms:modified": "2023-11-15T18:07:51.090Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/GiadaDiPino",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Giada Di Pino"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Di%20Pino%20Giada/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115190751090#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Di%20Pino%20Giada/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Di%20Pino%20Giada/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115190751090#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q366805",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Di%20Pino%20Giada/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115190815604",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-15T18:08:15.604Z",
+	"dcterms:modified": "2023-11-15T18:08:15.604Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/GiadaDiPino",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Giada Di Pino"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Di%20Pino%20Giada/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115190815604#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Di%20Pino%20Giada/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Di%20Pino%20Giada/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?date_annotation_20231115190815604#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-10-18"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Alla sorella <persName ref="#MariaSiniPavese">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName></p>
 			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525507">Brancaleone</placeName> 2 ottobre 1935</p>
 			<p>Cara <persName ref="#MariaSiniPavese">Maria</persName>,</p>
-			<p>ricevo 18 e <date when="1935-09-22">22 settembre</date>. A Ruata ho scritto io.</p>
+			<p>ricevo <date when="1935-10-18">18</date> e <date when="1935-09-22">22 settembre</date>. A Ruata ho scritto io.</p>
 			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal <date when="1935-08-05">5 agosto</date>) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
 			<p>Mi ha fatto molto piacere <rs ref="#LibroInglese">il libro inglese</rs>, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, poiché scrive sempre delle stupidaggini sui film nella «Gazzetta». La risposta di <orgName key="Arnoldo Mondadori Editore" ref="http://dbpedia.org/resource/Arnoldo_Mondadori_Editore">Mondadori</orgName>, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
 			<p>La <term>nevralgia</term> è passata ma adesso comincia la stagione della febbre e l’aspetto da un giorno all’altro. Ti ho già scritto che non voglio assolutamente trasferimenti.</p>
@@ -1289,7 +1446,7 @@
 			<p><persName key="Jonathan Swift" ref="http://www.wikidata.org/entity/Q41166">Jonathan Swift</persName>, <title key="Swift, Jonathan, 1667-1745. | Tale of a tub" ref="http://viaf.org/viaf/211768035/">A Tale of a Tub</title> (Dent)</p>
 			<p><persName key="Jonathan Swift" ref="http://www.wikidata.org/entity/Q41166">Jonathan Swift</persName>, <title key="Swift, Jonathan, 1667-1745. | Journal to Stella" ref="http://viaf.org/viaf/9319152502868810800003/">Journal to Stella</title> (Dent)</p>
 			<p><persName key="Edmund Spenser" ref="http://www.wikidata.org/entity/Q4352055">Edmund Spencer</persName>, <title key="Spenser, Edmund, 1552?-1599. | Faerie queene" ref="http://viaf.org/viaf/313693962/">The Faerie Queene</title> (2 volumi) (Dent)</p>
-			<p>William Congreve, The complete Plays (2 volumi) (Oxford)</p>
+			<p><persName key="William Congreve" ref="http://www.wikidata.org/entity/Q366805">William Congreve</persName>, The complete Plays (2 volumi) (Oxford)</p>
 			<p>William Faulkner (americano), Light in August (?)</p>
 			<p>Pylon (?) romanzi recenti</p>
 			<p>Mi stupisce che mi chiediate se ho voglia di tornare a Torino. Non va bene lamentarsi, perché c’è sempre chi sta peggio, ma certo che non c’è ancora stato filosofo che abbia sopportato il mal di denti con calma. A me dà qualche sollievo mangiare un carciofino tutte le domeniche, e poi fumare col succhino. Piaceri che non tutti capiscono, anche perché non tutti sono a Brancaleone. Amen.</p>
