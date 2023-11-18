@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>9 ott.</p>
+			<p>Ogni poeta s’è angosciato, meravigliato e ha goduto. L’ammirazione per un gran passo di poesia non va mai alla sua stupefacente abilità, ma alla novità della scoperta che contiene. Anche se proviamo un palpito di gioia a trovare un aggettivo accoppiato con riuscita a un sostantivo, che mai si videro insieme, non è stupore all’eleganza della cosa, alla prontezza dell’ingegno, all’abilità tecnica del poeta che ci tocca, ma meraviglia alla nuova realtà portata in luce.</p>
+			<p>9 ott.</p>
+			<p>È da meditare la grande potenza di immagini come quella delle gru, del serpente o delle cicale; o del giardino, della meretrice e del vento; del bue, del cane, di Trivia, ecc. Anzitutto, sono fatte per le opere a vasta costruzione, poiché rappresentano l’occhiata data alle cose esterne nel corso della attenta narrazione di fatti d’importanza umana. Sono come un sospiro di sollievo, uno sguardo alla finestra. Con quella loro aria di particolari decorativi scoppiati fuori variopinti da un duro tronco, provano la inconscia austerità del creatore. Esigono la naturale incapacità di sentimenti paesistici. Adoperano chiaro – e onestamente la natura come un mezzo, come qualcosa d’inferiore alla sostanza del racconto. Come uno svago. E questo va storicamente compreso, perché la mia idea delle immagini sostanza del racconto lo nega. Perché? Perché noi facciamo poesia breve. Perché noi afferriamo e martelliamo in un significato un singolo stato d’animo, che è principio e fine a se stesso. E non ci è dato quindi infiorare il ritmo del nostro condensato racconto con sfoghi svaghi naturistici, che sarebbero smanceria, ma o dobbiamo, preoccupati d’altro, ignorare la natura vivaio d’immagini, o esprimere appunto uno stato d’animo naturistico, dove lo sguardo alla finestra è la sostanza di tutta la costruzione. | Del resto basta pensare a qualche opera moderna di vasta costruzione – romanzi, penso – ed ecco che ritroviamo in essa, attraverso un intrico di filtrazioni paesistiche dovute alla nostra insopprimibile cultura romantica, nitidi esempi di immaginismo-svago.</p>
+			<p>Supremo sugli antichi e sui moderni – sull’immagine-svago e sull’immag. racconto – è Shakespeare, che costruisce vastamente e insieme è tutto uno sguardo alla finestra; esce in un’immagine rampollante da un ceppo austero di umanità e insieme costruisce la scena, l’intero play come interpretazione immaginista dello stato d’animo. Questo deve nascere dalla felicissima tecnica drammatica, per cui tutto è umanità – la natura, inferiore – ma anche tutto, nel linguaggio immaginoso delle sue persone, è natura.</p>
+			<p>Ha sotto mano pezzi di lirica, di cui fa una struttura solida. Racconta, insomma, e canta indissolubilmente, unico al mondo.</p>
+		</body>
+	</text>
+</TEI>

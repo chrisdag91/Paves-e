@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>17 ott.</p>
+			<p>Avendo ripreso stamattina e finito la poesia della lepre, di cui, appunto per via della lepre, disperavo, mi sento una tal quale baldanza a perseverare nello sforzo inglorioso. Mi pare davvero di avere acquistato un istinto tecnico tale che, senza pensarci deliberatamente, ormai le mie fantasie mi escon fuori immaginate secondo quella fantastica legge che nominavo il 10 ott. E questo ho gran paura voglia dire che è ora di cambiar musica, o almeno, strumento. Se no, arrivo al punto che prima ancor di comporre la poesia, ne abbozzo il saggio critico. E diventa un affare burlesco come il Letto di Procuste.</p>
+			<p>Ed ecco trovata la formula per l’avvenire: se un tempo mi dannavo l’anima a creare un misto dei miei lirismi (apprezzati per foga passionale) e del mio stile epistolare (apprezzabile per controllo logico e immaginoso) e il risultato furono i Mari del Sud con tutta la coda; ora debbo trovare il segreto di fondere la fantastica e sentenziosa vena del Lavorare stanca con quella, pazzerellona e realisticamente intonata a un pubblico, della pornoteca. Ed è indubitato che ci vorrà la prosa.</p>
+			<p>Perché una cosa sola (tra le molte) mi pare insopportabile all’artista; non sentirsi più all’inizio.</p>
+			<p>19 ott.</p>
+			<p>Rileggendo il 16 ottobre, penso che appunto perché espressi già il parallelo tra me e il Piemonte, nella mia poesia futura questo elemento non dovrà più mancare. Poiché immagino che nessuna mia ricerca possa perdersi e il progresso consista in un sempre più comprensivo macinare esperienze, gettando le nuove sulle vecchie.</p>
+		</body>
+	</text>
+</TEI>

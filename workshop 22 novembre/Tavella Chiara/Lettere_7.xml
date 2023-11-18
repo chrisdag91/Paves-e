@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze</p>
+			<p>[Brancaleone,] 11 novembre [1935]</p>
+			<p>Caro Carocci,</p>
+			<p>ricevo un pacco di libri di Solaria e il tuo biglietto. Grazie mille.</p>
+			<p>Per le prenotazioni ti mandai una quarantina di indirizzi nell’inverno scorso, ed ora non saprei proprio come rifare quell’elenco, messo insieme con molte ricerche. Senz’altro manda un pacco di cartoline a mia sorella Maria Sini – V. Lamarmora 35 – e uno a Augusto Monti (presso Sturani), via Cassini 55. Unisci un biglietto: «Ci dice l’autore che Lei è in grado di procurarci sottoscrittori…» Cercheranno loro altri acquirenti.</p>
+			<p>Grazie della scelta per l’antologia. Se tu fossi me, avresti però pensato al Dio Caprone.</p>
+			<p>Cesare Pavese. Nato a Santo Stefano Belbo – 1908. Vissuto sempre in Piemonte. Laureato in lettere. Ha tradotto:</p>
+			<p>H. Melville, Moby Dick, ed. Frassinelli, 1932</p>
+			<p>Sh. Anderson, Riso Nero, ed. Fr., 1932</p>
+			<p>J. Joyce, Dedalus, 1933</p>
+			<p>J. Dos Passos, 42 Parallelo, Mondadori, 1933.</p>
+			<p>Ha scritto di letteratura nordamericana sulla «Cultura» una mezza dozzina di saggi dal 1930 al ’34. Ha atteso alla composizione di Lavorare Stanca fin dal 1930.</p>
+			<p>Ti rinnovo i ringraziamenti e ti saluto tuo</p>
+			<p>Pavese</p>
+			<p>Voce di uno che grida nel deserto</p>
+		</body>
+	</text>
+</TEI>

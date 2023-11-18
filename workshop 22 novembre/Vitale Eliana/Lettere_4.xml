@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Torino</p>
+			<p>[Brancaleone,] 2 novembre [1935]</p>
+			<p>Caro Mario,</p>
+			<p>sei davvero un grande pittore. Dato che tutti i grandi pittori sono pedantissimi, tu batti l’Angelico. Venite al mondo disprezzando l’estetica, perché è un’occupazione pedantesca, e quando vi capita di esporre le vostre teorie siete più noiosi di un filosofo professionista. Che bisogno c’era di spiegarmi la teoria idealistica del bello naturale, tutto perché io mi sono lamentato di non essere a Torino? Lo so anch’io che anche a Brancaleone posso immaginare i paesaggi torinesi riveduti e aumentati, ma il punto è che non riesco a immaginarli, vuoi per la noia vuoi per la troia.</p>
+			<p>Del resto, se sono gli sproloquii estetici che ti piacciono, ecco qui un estratto del mio giornale tale da far risuscitare un morto:</p>
+			<p>28 ottobre «Comincia la…»</p>
+			<p>oppure</p>
+			<p>9 ottobre «È da meditare…»</p>
+			<p>Ho ricevuto sì i libri e le pipe e non finisco mai di benedirti. Grazie del Fabre e del Casanova, ma per ora no. Il Fabre non m’interessa e il Casanova è un regalo fatto e quindi non lo voglio indietro (…anche perché potrebbe suscitarmi immagini troppo allegre, in questo paese dove tutti parlando tra uomini accennano goderecciamente all’Alta Italia). […]</p>
+		</body>
+	</text>
+</TEI>
