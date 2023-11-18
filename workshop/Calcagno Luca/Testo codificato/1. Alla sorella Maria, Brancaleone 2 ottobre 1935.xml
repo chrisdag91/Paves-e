@@ -187,10 +187,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182700776",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115183514159",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-15T17:27:00.776Z",
-	"dcterms:modified": "2023-11-15T17:27:00.776Z",
+	"dcterms:created": "2023-11-15T17:35:14.159Z",
+	"dcterms:modified": "2023-11-15T17:35:14.159Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -201,7 +201,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182700776#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115183514159#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
@@ -215,13 +215,13 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115182700776#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115183514159#Selector",
 			"@type": "oa:XPathSelector"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "bf:Title",
-		"@id": "http://viaf.org/viaf/981158430380406260002/",
+		"@id": "http://viaf.org/viaf/7250154260445424480008/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -265,10 +265,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115182748408",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115184110442",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-15T17:27:48.408Z",
-	"dcterms:modified": "2023-11-15T17:27:48.408Z",
+	"dcterms:created": "2023-11-15T17:41:10.442Z",
+	"dcterms:modified": "2023-11-15T17:41:10.442Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -279,7 +279,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115182748408#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115184110442#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
@@ -293,13 +293,13 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20231115182748408#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Calcagno%20Luca/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?title_annotation_20231115184110442#Selector",
 			"@type": "oa:XPathSelector"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/8935159248119104870005/",
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/185499102/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
