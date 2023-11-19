@@ -803,6 +803,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131916065",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-19T12:19:16.065Z",
+	"dcterms:modified": "2023-11-19T12:19:16.065Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/GiovanniGafa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Giovanni Gafà"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131916065#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131916065#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/640144647699971262821/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -813,7 +892,7 @@
 			<p>Né io aspetto consolationes né attacca il vecchio trucco di dare per consolato il consolando. A smentirla: proprio ieri sera ho fatto le bave, infranto una sedia, sterminato scarafaggi e raggiunto il letto in preda all’asma. Se mi paragona ad <persName key="Achilles" ref="http://dbpedia.org/resource/Achilles" type="fictional">Achille</persName> andiamo bene. Né oceanine né tette giovano alla mia μηνις, che ha questo di singolare: dorme magari una settimana e scoppia nel giorno del Signore, beneficiando dell’energia accumulata.</p>
 			<p>Del mare ho fatto la mia sputacchiera. Lo costeggio e mi ci spurgo, provocandolo a drizzare le corna e inabissare tutto il continente. Ma lui, carogna, mi lecca i piedi.</p>
 			<p>Non mi trovo discretamente che leggendo <persName key="William Shakespeare" ref="http://dbpedia.org/resource/William_Shakespeare" type="real">Shakespeare</persName> o <persName key="Isaiah" ref="http://dbpedia.org/resource/Isaiah">Isaia</persName>. Questi sono che fanno per me e a questi Mani dedico l’anima feroce.</p>
-			<p>Suo genero – ginöria – mi ha mandato un uragano di libri e di pipe. L’ho già coperto di grazie e, se anche lei volesse acquistar merito, mi mandi qualche greco. Qui ho trovato <title key="Book III" ref="http://www.wikidata.org/entity/Q123013544">Iliade III</title>, <title key="Anabasis (Xenophon)" ref="http://dbpedia.org/resource/Anabasis_(Xenophon)">Anabasi I</title>, <persName key="Lysias, c. 445-c. 380 a.C." ref="http://viaf.org/viaf/286159474047427660778/" type="real">Lisia</persName> per l’invalido, Sofocle Edipo re, e tutto ho tradotto o sto terminando di tradurre. Gradirei molto qualcosa della Palatina o meglio ancora il Convito platonico, senza pregiudizio di altre cose, nel testo, commentati. Omero pare che me lo mandino i miei. Inutile dire che detesto il greco e chi l’ha inventato, trovo che è lingua morta, illogica e artificiosa, che specialmente l’Edipo è una menata da ammazzare un bue, ma tant’è: la nostra sorte è da affrontarsi con animo gagliardo e risoluto.</p>
+			<p>Suo genero – ginöria – mi ha mandato un uragano di libri e di pipe. L’ho già coperto di grazie e, se anche lei volesse acquistar merito, mi mandi qualche greco. Qui ho trovato <title key="Book III" ref="http://www.wikidata.org/entity/Q123013544">Iliade III</title>, <title key="Anabasis (Xenophon)" ref="http://dbpedia.org/resource/Anabasis_(Xenophon)">Anabasi I</title>, <persName key="Lysias, c. 445-c. 380 a.C." ref="http://viaf.org/viaf/286159474047427660778/" type="real">Lisia</persName> per l’invalido, <persName key="Sophocles ок.496 - 406 до н.э." ref="http://viaf.org/viaf/640144647699971262821/">Sofocle</persName> Edipo re, e tutto ho tradotto o sto terminando di tradurre. Gradirei molto qualcosa della Palatina o meglio ancora il Convito platonico, senza pregiudizio di altre cose, nel testo, commentati. Omero pare che me lo mandino i miei. Inutile dire che detesto il greco e chi l’ha inventato, trovo che è lingua morta, illogica e artificiosa, che specialmente l’Edipo è una menata da ammazzare un bue, ma tant’è: la nostra sorte è da affrontarsi con animo gagliardo e risoluto.</p>
 			<p>Siccome poi conosco il mio pollo – dirò meglio lo suocero del pollo – le dirò che tutta la sua lettera è un campioncino da antologia.</p>
 			<p>Vi si scorge la penna leggera dei Sanssôssi, fatta alata dall’attualità, svolazzare nel cielo dell’ironia, non senza fittoni improvvisi nella quota della malizia… (se è questo che le fa dire che sono allegro, lei vede come potrei ammazzarmi dal gran ridere).</p>
 			<p>Orsù stia bene</p>
