@@ -799,6 +799,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Resio%20Lorenzo/Lettere_3.xml?person_annotation_20231119120512725",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-19T11:05:12.725Z",
+	"dcterms:modified": "2023-11-19T11:05:12.725Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/LoResio",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lorenzo Resio"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Resio%20Lorenzo/Lettere_3.xml?person_annotation_20231119120512725#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Resio%20Lorenzo/Lettere_3.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Resio%20Lorenzo/Lettere_3.xml?person_annotation_20231119120512725#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/9853159248242304870000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -812,7 +891,7 @@
 			<p>Sta dietro a <persName key="Alberto Rossi" ref="http://www.wikidata.org/entity/Q16025276">Rossi</persName> e digli che il suo libro <note type="citation">Opere</note> di <persName key="Defoë, Daniel, 1661?-1731" ref="http://viaf.org/viaf/2283158188232920260006/">Daniele Defoe</persName> rilegato in bleu (l’unico suo che avevo) l’ho passato or sono due anni, dicendoglielo, a <persName key="Antonicelli, Franco (Italian photographer, flourished 1925-1949)" ref="http://viaf.org/viaf/6503167202610267930004/">Franco Antonicelli</persName>, che doveva farlo leggere per vedere se era il caso di tradurre <title key="Defoe, Daniel, 1661?-1731. | Fortunes and misfortunes of the famous Moll Flanders" ref="http://viaf.org/viaf/825164913181618980003/">Moll Flanders</title>.</p>
 			<p>Che tutti si stupiscano e mi compiangano, potrebbe farmi piacere; viceversa mi secca. Sono inutili tutte queste storie. Non è bello perché uno è apparso uno stupido (ma non per i motivi che credi tu) ricordarglielo continuamente, con la scusa che lo si compiange e lo si trova giovane e disinteressato. Se hanno qualcosa da dirmi, me lo scrivano; come hanno fatto tutte le persone per bene, verso cui conservo stima, altrimenti vadano a dar via quel che han d’avanzo ché ne han molto.</p>
 			<p>Mi rompo la testa a cercare quali siano le piccole cose che volete sapere, e non le trovo. Gli scarafaggi? Ve li ho scritti. I soldi. Ve li ho scritti. Come mangio? Ve l’ho scritto. Quanto spendo al giorno? Ve l’ho scritto. Cosa faccio tutto il giorno? Ve l’ho scritto. Quanto conto di restare? Ve l’ho scritto. Se dormo o no? Ve l’ho scritto. Di che cosa ho bisogno? Ve lo scrivo tutte le volte. Chi mi scrive? Ve l’ho scritto. Se c’è il mare? Ve l’ho scritto. Come va la salute? Ve l’ho scritto. Le poesie? Ve l’ho scritto. Del resto c’è un detto popolare che, quando non si parla di una cosa, vuol dire che la cosa va bene. Potreste ricordarvene. Non capisco poi tutti i misteri del salame, ma ringrazio lo stesso. Un salame è sempre un salame. Ha un unico difetto: è già diventato la metà. Ho avuto anche il <note type="citation">Byron</note> che è stata la mia più grande gioia da quando passeggio su questa costa con le braccia conserte. Accludo due fotografie che, con altre 4 che è inutile mandarvi, mi costano 12 L. Costano care le piccole cose.</p>
-			<p>Un giorno o l’altro manderò la borsa per <persName cert="high" type="real">Cesarina</persName>. Va bene per il Bertola. Farò presto il sunto dell’Autobiogr of a Suicide. Saresti indiscreta se mostrassi la nuova lista di libri a Sturani. Me ne ha già mandato, tra gli altri, uno che costa 80 franchi (4 voll.).</p>
+			<p>Un giorno o l’altro manderò la borsa per <persName cert="high" type="real">Cesarina</persName>. Va bene per il <note type="citation">Bertola</note>. Farò presto il sunto dell’<title cert="medium">Autobiogr of a Suicide</title>. Saresti indiscreta se mostrassi la nuova lista di libri a <persName key="Sturani, Mario" ref="http://viaf.org/viaf/9853159248242304870000/">Sturani</persName>. Me ne ha già mandato, tra gli altri, uno che costa 80 franchi (4 voll.).</p>
 			<p>A me finalmente è stato pagato il sussidio dal 5 agosto a fine settembre. E, per concludere, cosa aspetti per il primo novembre, che non ne vedi l’ora?</p>
 			<p>Cesare</p>
 			<p>P.S. Mi sono comperato un parapioggia con l’elsa a testa di bull-dog. Gli ho messo nome Beethoven. E grappa, voi non me ne mandate?</p>
