@@ -405,13 +405,329 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094149462",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-20T08:41:49.462Z",
+	"dcterms:modified": "2023-11-20T08:41:49.462Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Lvcal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luca Calcagno"
+	},
+	"oa:motivatedBy": "oa:tagging",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094149462#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094149462#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/seg"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:UncontrolledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "poesia"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094251907",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-20T08:42:51.907Z",
+	"dcterms:modified": "2023-11-20T08:42:51.907Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Lvcal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luca Calcagno"
+	},
+	"oa:motivatedBy": "oa:tagging",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094251907#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094251907#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/seg"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:UncontrolledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "poesia"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094305296",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-20T08:43:05.296Z",
+	"dcterms:modified": "2023-11-20T08:43:05.296Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Lvcal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luca Calcagno"
+	},
+	"oa:motivatedBy": "oa:tagging",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094305296#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094305296#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/seg[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:UncontrolledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "immagine"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094316369",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-20T08:43:16.369Z",
+	"dcterms:modified": "2023-11-20T08:43:16.369Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Lvcal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luca Calcagno"
+	},
+	"oa:motivatedBy": "oa:tagging",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094316369#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Mestiere_3.xml?keyword_annotation_20231120094316369#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/seg[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:UncontrolledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "poesia"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p><date when="1936-10-10">10 ott.</date></p>
 			<p>Anche ammesso che io abbia raggiunta la nuova tecnica che cerco di chiarirmi, va però da sé che sparsi qua e là si trovano tratti colati in larve di altre tecniche. Questo m’impedisce di vedere chiaramente l’essenza del mio mondo (sia detto con cautela contro <persName key="Charles Baudelaire" ref="http://www.wikidata.org/entity/Q501">Baudelaire</persName>, in poesia non è tutto prevedibile e componendo si scelgono talvolta forme non per ragione veduta ma ad istinto; e si crea, senza sapere con definita chiarezza come). Che io tenda a sostituire allo sviluppo oggettivo della trama, la calcolata legge fantastica dell’immagine<seg type="keyword"><term>immagine</term></seg>, è vero, perché così difatti intendo; ma fin dove giunga questo calcolo, che cosa importi una legge fantastica, e dove finisca l’immagine<seg type="keyword"><term>immagine</term></seg> e cominci la logica, sono bei problemini.</p>
-			<p>Questa sera, sotto le rocce rosse lunari, pensavo come sarebbe di una grande poesia mostrare il <term cert="high" evaluate="all" ref="#divino" xml:space="default">dio</term> incarnato in questo luogo, con tutte le allusioni d’immagini che simile tratto consentirebbe. Subito mi sorprese la coscienza che questo <term cert="high" evaluate="all" ref="#divino" xml:space="default">dio</term> non c’è, che io lo so, ne sono convinto, e quindi altri avrebbe potuto fare questa poesia, non io. Di qui ho pensato come dovrà essere allusivo e all-pervading ogni mio futuro argomento, | allo stesso modo che doveva essere allusiva e all-pervading la fede nel dio incarnato nelle rocce rosse, se un poeta se ne fosse servito.</p>
-			<p>Perché non posso trattare io delle rocce rosse lunari? Ma perché esse non riflettono nulla di mio, tranne uno scarno turbamento paesistico, quale non dovrebbe mai giustificare una poesia. Se queste rocce fossero in <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831">Piemonte</placeName>, saprei bene però assorbirle in un’immagine e dar loro un significato. Che viene a dire come il primo fondamento della poesia sia l’oscura coscienza del valore dei rapporti, quelli biologici magari, che già vivono una larvale vita d’immagine nella coscienza prepoetica.</p>
+			<p>Questa sera, sotto le rocce rosse lunari, pensavo come sarebbe di una grande poesia mostrare il <term cert="high" evaluate="all" ref="#divino" xml:space="default">dio</term> incarnato in questo luogo, con tutte le allusioni d’immagini che simile tratto consentirebbe. Subito mi sorprese la coscienza che questo <term cert="high" evaluate="all" ref="#divino" xml:space="default">dio</term> non c’è, che io lo so, ne sono convinto, e quindi altri avrebbe potuto fare questa poesia<seg type="keyword"><term>poesia</term></seg>, non io. Di qui ho pensato come dovrà essere allusivo e all-pervading ogni mio futuro argomento, | allo stesso modo che doveva essere allusiva e all-pervading la fede nel <term cert="high" evaluate="all" ref="#divino" xml:space="default">dio</term> incarnato nelle rocce rosse, se un poeta se ne fosse servito.</p>
+			<p>Perché non posso trattare io delle rocce rosse lunari? Ma perché esse non riflettono nulla di mio, tranne uno scarno turbamento paesistico, quale non dovrebbe mai giustificare una poesia<seg type="keyword"><term>poesia</term></seg>. Se queste rocce fossero in <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831">Piemonte</placeName>, saprei bene però assorbirle in un’immagine<seg type="keyword"><term>immagine</term></seg> e dar loro un significato. Che viene a dire come il primo fondamento della poesia<seg type="keyword"><term>poesia</term></seg> sia l’oscura coscienza del valore dei rapporti, quelli biologici magari, che già vivono una larvale vita d’immagine nella coscienza prepoetica.</p>
 			<p>Certamente dev’essere possibile, anche per me, far poesia su materia non piemontese di sfondo. Dev’essere, ma sinora non è stato quasi mai. Ciò significa che non sono ancora uscito dalla semplice rielaborazione dell’immagine materialmente rappresentata dai miei legami d’origine con l’ambiente: che, in altre parole, c’è nel mio lavorío | poetico, un punto morto, gratuito, un sottinteso materiale, di cui non mi riesce di far senza. Ma è poi davvero un residuo oggettivo o sangue indispensabile?</p>
 		</body>
 	</text>
