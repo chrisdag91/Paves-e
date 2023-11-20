@@ -245,6 +245,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231120103131920",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-20T09:31:31.920Z",
+	"dcterms:modified": "2023-11-20T09:31:31.920Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AndreaSchembari",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Andrea Schembari"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231120103131920#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Schembari%20Andrea/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231120103131920#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q495",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -253,7 +332,7 @@
 			<p>Cara Maria,</p>
 			ricevo <date when="1935-09-18">18</date> e <date when="1935-09-22">22 settembre</date>. A Ruata ho scritto io.
 			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
-			<p>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a Torino, poiché scrive sempre delle stupidaggini sui film nella «<title key="Gazzetta del Popolo" ref="http://www.wikidata.org/entity/Q3759098" level="j">Gazzetta</title>». La risposta di <orgName key="Arnoldo Mondadori Editore" ref="http://dbpedia.org/resource/Arnoldo_Mondadori_Editore">Mondadori</orgName>, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
+			<p>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a <placeName key="Turin" ref="http://www.wikidata.org/entity/Q495">Torino</placeName>, poiché scrive sempre delle stupidaggini sui film nella «<title key="Gazzetta del Popolo" ref="http://www.wikidata.org/entity/Q3759098" level="j">Gazzetta</title>». La risposta di <orgName key="Arnoldo Mondadori Editore" ref="http://dbpedia.org/resource/Arnoldo_Mondadori_Editore">Mondadori</orgName>, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
 			<p>La nevralgia è passata ma adesso comincia la stagione della febbre e l’aspetto da un giorno all’altro. Ti ho già scritto che non voglio assolutamente trasferimenti.</p>
 			<p><title key="Manzoni, Alessandro (1785-1873). | Promessi sposi" ref="http://viaf.org/viaf/981158430380406260002/">I Promessi Sposi</title> regalali alla signorina cui piacciono molto. Le poesie le ho corrette e spedite. Aspetto che <persName key="Carocci, Alberto" ref="http://viaf.org/viaf/8935159248119104870005/">Carocci</persName> mi scriva di averle ricevute. Se usciranno, ne riceverà certo una copia anche lei. Ma dille che di tutte vale qualcosa soltanto quella intitolata Dopo.</p>
 			<p>Sturani mi ha scritto e mandato due pipe un po’ meglio delle vostre. Mandami alla prima occasione (con le camicie dalle maniche lunghe) i volumetti miei dell’Iliade e Odissea (verdi o bruni con Minerva sopra) in greco.</p>
