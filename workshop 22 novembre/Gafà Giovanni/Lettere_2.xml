@@ -43,10 +43,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?place_annotation_20231119125713733",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?place_annotation_20231119125713733",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T11:57:13.733Z",
-	"dcterms:modified": "2023-11-19T11:57:13.733Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -57,10 +56,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?place_annotation_20231119125713733#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?place_annotation_20231119125713733#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -71,7 +70,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?place_annotation_20231119125713733#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?place_annotation_20231119125713733#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/placeName"
 		}
@@ -123,10 +122,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?place_annotation_20231119125939025",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?place_annotation_20231119125939025",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T11:59:39.025Z",
-	"dcterms:modified": "2023-11-19T11:59:39.025Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -137,10 +135,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?place_annotation_20231119125939025#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?place_annotation_20231119125939025#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -151,7 +149,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?place_annotation_20231119125939025#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?place_annotation_20231119125939025#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[2]/placeName"
 		}
@@ -202,10 +200,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?date_annotation_20231119130022550",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?date_annotation_20231119130022550",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:00:22.550Z",
-	"dcterms:modified": "2023-11-19T12:00:22.550Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -216,10 +213,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?date_annotation_20231119130022550#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?date_annotation_20231119130022550#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -230,7 +227,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?date_annotation_20231119130022550#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?date_annotation_20231119130022550#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[2]/date"
 		}
@@ -280,10 +277,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?date_annotation_20231119130113015",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?date_annotation_20231119130113015",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:01:13.015Z",
-	"dcterms:modified": "2023-11-19T12:01:13.015Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -294,10 +290,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?date_annotation_20231119130113015#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?date_annotation_20231119130113015#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -308,7 +304,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?date_annotation_20231119130113015#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?date_annotation_20231119130113015#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[4]/date"
 		}
@@ -358,10 +354,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119130646455",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119130646455",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:06:46.455Z",
-	"dcterms:modified": "2023-11-19T12:06:46.455Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -372,10 +367,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119130646455#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119130646455#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -386,7 +381,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119130646455#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119130646455#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[5]/persName"
 		}
@@ -440,10 +435,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119130851814",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119130851814",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:08:51.814Z",
-	"dcterms:modified": "2023-11-19T12:08:51.814Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -454,10 +448,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119130851814#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119130851814#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -468,7 +462,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119130851814#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119130851814#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[7]/persName"
 		}
@@ -519,10 +513,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131102136",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131102136",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:11:02.136Z",
-	"dcterms:modified": "2023-11-19T12:11:02.136Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -533,10 +526,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131102136#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131102136#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -547,7 +540,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131102136#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131102136#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[7]/persName[2]"
 		}
@@ -598,10 +591,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119131348115",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119131348115",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:13:48.115Z",
-	"dcterms:modified": "2023-11-19T12:13:48.115Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -612,10 +604,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119131348115#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119131348115#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -626,7 +618,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119131348115#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119131348115#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/title"
 		}
@@ -677,10 +669,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119131529839",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119131529839",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:15:29.839Z",
-	"dcterms:modified": "2023-11-19T12:15:29.839Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -691,10 +682,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119131529839#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119131529839#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -705,7 +696,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119131529839#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119131529839#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/title[2]"
 		}
@@ -756,10 +747,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131752794",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131752794",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:17:52.794Z",
-	"dcterms:modified": "2023-11-19T12:17:52.794Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -770,10 +760,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131752794#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131752794#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -784,7 +774,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131752794#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131752794#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/persName[2]"
 		}
@@ -835,10 +825,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131916065",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131916065",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:19:16.065Z",
-	"dcterms:modified": "2023-11-19T12:19:16.065Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -849,10 +838,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131916065#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131916065#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -863,7 +852,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119131916065#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131916065#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/persName[3]"
 		}
@@ -914,10 +903,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119132226602",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132226602",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:22:26.602Z",
-	"dcterms:modified": "2023-11-19T12:22:26.602Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -928,10 +916,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119132226602#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132226602#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -942,9 +930,9 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119132226602#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132226602#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title[3]"
+			"rdf:value": "TEI/text/body/p[8]/title[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -993,10 +981,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?organization_annotation_20231119132527215",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?organization_annotation_20231119132527215",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:25:27.215Z",
-	"dcterms:modified": "2023-11-19T12:25:27.215Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1007,10 +994,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?organization_annotation_20231119132527215#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?organization_annotation_20231119132527215#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1021,7 +1008,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?organization_annotation_20231119132527215#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?organization_annotation_20231119132527215#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/orgName"
 		}
@@ -1072,10 +1059,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119132632363",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132632363",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:26:32.363Z",
-	"dcterms:modified": "2023-11-19T12:26:32.363Z",
+	"dcterms:modified": "2023-11-22T16:23:36.223Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1086,10 +1073,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119132632363#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132632363#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1100,9 +1087,9 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119132632363#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132632363#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title[4]"
+			"rdf:value": "TEI/text/body/p[8]/title[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -1151,10 +1138,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119132736885",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119132736885",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:27:36.885Z",
-	"dcterms:modified": "2023-11-19T12:27:36.885Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1165,10 +1151,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119132736885#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119132736885#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1179,7 +1165,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119132736885#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119132736885#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/persName[4]"
 		}
@@ -1230,10 +1216,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119132850830",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132850830",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:28:50.830Z",
-	"dcterms:modified": "2023-11-19T12:28:50.830Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1244,10 +1229,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119132850830#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132850830#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1258,9 +1243,9 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?title_annotation_20231119132850830#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132850830#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title[5]"
+			"rdf:value": "TEI/text/body/p[8]/title[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -1309,10 +1294,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119133428810",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119133428810",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:34:28.810Z",
-	"dcterms:modified": "2023-11-19T12:34:28.810Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1323,10 +1307,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119133428810#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119133428810#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1337,7 +1321,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119133428810#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119133428810#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[5]/persName[2]"
 		}
@@ -1391,10 +1375,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134035952",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134035952",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:40:35.952Z",
-	"dcterms:modified": "2023-11-19T12:40:35.952Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1405,10 +1388,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134035952#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134035952#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1419,7 +1402,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134035952#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134035952#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[7]/persName[3]"
 		}
@@ -1473,10 +1456,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134309127",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134309127",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:43:09.127Z",
-	"dcterms:modified": "2023-11-19T12:43:09.127Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1487,10 +1469,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134309127#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134309127#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1501,7 +1483,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134309127#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134309127#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/persName"
 		}
@@ -1552,10 +1534,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134351105",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134351105",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:43:51.105Z",
-	"dcterms:modified": "2023-11-19T12:43:51.105Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1566,10 +1547,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134351105#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134351105#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1580,7 +1561,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134351105#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134351105#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/persName"
 		}
@@ -1631,10 +1612,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134417993",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134417993",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:44:17.993Z",
-	"dcterms:modified": "2023-11-19T12:44:17.993Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1645,10 +1625,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134417993#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134417993#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1659,7 +1639,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134417993#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134417993#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[3]/persName"
 		}
@@ -1710,10 +1690,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134716624",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134716624",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:47:16.624Z",
-	"dcterms:modified": "2023-11-19T12:47:16.624Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1724,10 +1703,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134716624#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134716624#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1738,7 +1717,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gaf%C3%A0%20Giovanni/Lettere_2.xml?person_annotation_20231119134716624#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134716624#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[5]/persName[3]/persName"
 		}
@@ -1746,6 +1725,85 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://www.wikidata.org/entity/Q825",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231122172327358",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T16:23:27.358Z",
+	"dcterms:modified": "2023-11-22T16:23:27.358Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/GiovanniGafa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Giovanni Gafà"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231122172327358#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231122172327358#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/title[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q15715298",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1767,7 +1825,7 @@
 			<p>Né io aspetto <foreign cert="high" xml:lang="la" xml:space="default">consolationes</foreign> né attacca il vecchio trucco di dare per consolato il consolando. A smentirla: proprio ieri sera ho fatto le bave, infranto una sedia, sterminato scarafaggi e raggiunto il letto in preda all’asma. Se mi paragona ad <persName key="Achilles" ref="http://dbpedia.org/resource/Achilles" type="fictional">Achille</persName> andiamo bene. Né <persName key="Oceanids" ref="http://www.wikidata.org/entity/Q20575671" type="fictional">oceanine</persName> né tette giovano alla mia <foreign cert="high" xml:lang="grc" xml:space="default">μηνις</foreign>, che ha questo di singolare: dorme magari una settimana e scoppia nel giorno del <persName key="God in Christianity" ref="http://www.wikidata.org/entity/Q825" type="both"><persName key="God in Christianity" ref="http://www.wikidata.org/entity/Q825">Signore</persName></persName>, beneficiando dell’energia accumulata.</p>
 			<p>Del mare ho fatto la mia sputacchiera. Lo costeggio e mi ci spurgo, provocandolo a drizzare le corna e inabissare tutto il continente. Ma lui, carogna, mi lecca i piedi.</p>
 			<p>Non mi trovo discretamente che leggendo <persName key="William Shakespeare" ref="http://dbpedia.org/resource/William_Shakespeare" type="real">Shakespeare</persName> o <persName key="Isaiah" ref="http://dbpedia.org/resource/Isaiah">Isaia</persName>. Questi sono che fanno per me e a questi <persName key="Manes" ref="http://www.wikidata.org/entity/Q1164009" type="fictional">Mani</persName> dedico l’anima feroce.</p>
-			<p>Suo <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" type="real">genero</persName> – <foreign>ginöria</foreign> – mi ha mandato un uragano di libri e di pipe. L’ho già coperto di grazie e, se anche lei volesse acquistar merito, mi mandi qualche greco. Qui ho trovato <title key="Book III" ref="http://www.wikidata.org/entity/Q123013544">Iliade III</title>, <title key="Anabasis (Xenophon)" ref="http://dbpedia.org/resource/Anabasis_(Xenophon)">Anabasi I</title>, <persName key="Lysias, c. 445-c. 380 a.C." ref="http://viaf.org/viaf/286159474047427660778/" type="real">Lisia</persName> per l’invalido, <persName key="Sophocles ок.496 - 406 до н.э." ref="http://viaf.org/viaf/640144647699971262821/">Sofocle</persName> <title key="Oedipus Rex" ref="http://dbpedia.org/resource/Oedipus_Rex">Edipo re</title>, e tutto ho tradotto o sto terminando di tradurre. Gradirei molto qualcosa della <orgName key="Biblioteca Palatina, Parma" ref="http://dbpedia.org/resource/Biblioteca_Palatina,_Parma">Palatina</orgName> o meglio ancora il <title key="Symposium (Plato)" ref="http://dbpedia.org/resource/Symposium_(Plato)">Convito platonico</title>, senza pregiudizio di altre cose, nel testo, commentati. <persName key="Homerus ca. v8. Jh." ref="http://viaf.org/viaf/5072169829180737320004/">Omero</persName> pare che me lo mandino i miei. Inutile dire che detesto il greco e chi l’ha inventato, trovo che è lingua morta, illogica e artificiosa, che specialmente l’<title key="Oedipus Rex" ref="http://dbpedia.org/resource/Oedipus_Rex">Edipo</title> è una menata da ammazzare un bue, ma tant’è: la nostra sorte è da affrontarsi con animo gagliardo e risoluto.</p>
+			<p>Suo <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" type="real">genero</persName> – <foreign>ginöria</foreign> – mi ha mandato un uragano di libri e di pipe. L’ho già coperto di grazie e, se anche lei volesse acquistar merito, mi mandi qualche greco. Qui ho trovato <title key="Book III" ref="http://www.wikidata.org/entity/Q123013544">Iliade III</title>, <title key="Anabasis (Xenophon)" ref="http://dbpedia.org/resource/Anabasis_(Xenophon)">Anabasi I</title>, <persName key="Lysias, c. 445-c. 380 a.C." ref="http://viaf.org/viaf/286159474047427660778/" type="real">Lisia</persName> <title key="On the Refusal of a Pension" ref="http://www.wikidata.org/entity/Q15715298">per l’invalido</title>, <persName key="Sophocles ок.496 - 406 до н.э." ref="http://viaf.org/viaf/640144647699971262821/">Sofocle</persName> <title key="Oedipus Rex" ref="http://dbpedia.org/resource/Oedipus_Rex">Edipo re</title>, e tutto ho tradotto o sto terminando di tradurre. Gradirei molto qualcosa della <orgName key="Biblioteca Palatina, Parma" ref="http://dbpedia.org/resource/Biblioteca_Palatina,_Parma">Palatina</orgName> o meglio ancora il <title key="Symposium (Plato)" ref="http://dbpedia.org/resource/Symposium_(Plato)">Convito platonico</title>, senza pregiudizio di altre cose, nel testo, commentati. <persName key="Homerus ca. v8. Jh." ref="http://viaf.org/viaf/5072169829180737320004/">Omero</persName> pare che me lo mandino i miei. Inutile dire che detesto il greco e chi l’ha inventato, trovo che è lingua morta, illogica e artificiosa, che specialmente l’<title key="Oedipus Rex" ref="http://dbpedia.org/resource/Oedipus_Rex">Edipo</title> è una menata da ammazzare un bue, ma tant’è: la nostra sorte è da affrontarsi con animo gagliardo e risoluto.</p>
 			<p>Siccome poi conosco il mio pollo – dirò meglio lo suocero del pollo – le dirò che tutta la sua lettera è un campioncino da antologia.</p>
 			<p>Vi si scorge la penna leggera dei Sanssôssi, fatta alata dall’attualità, svolazzare nel cielo dell’ironia, non senza fittoni improvvisi nella quota della malizia… (se è questo che le fa dire che sono allegro, lei vede come potrei ammazzarmi dal gran ridere).</p>
 			<p>Orsù stia bene</p>
