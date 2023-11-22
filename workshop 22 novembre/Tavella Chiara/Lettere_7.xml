@@ -327,14 +327,251 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml?place_annotation_20231122145004170",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T13:50:04.170Z",
+	"dcterms:modified": "2023-11-22T13:50:04.170Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chiaratavella",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chiara Tavella"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml?place_annotation_20231122145004170#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml?place_annotation_20231122145004170#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q3608203",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml?organization_annotation_20231122145024745",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T13:50:24.745Z",
+	"dcterms:modified": "2023-11-22T13:50:24.745Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chiaratavella",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chiara Tavella"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml?organization_annotation_20231122145024745#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml?organization_annotation_20231122145024745#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/130146822250307381577/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml?person_annotation_20231122145123639",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T13:51:23.639Z",
+	"dcterms:modified": "2023-11-22T13:51:23.639Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chiaratavella",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chiara Tavella"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml?person_annotation_20231122145123639#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Tavella%20Chiara/Lettere_7.xml?person_annotation_20231122145123639#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/5057618/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Alberto Carocci" ref="http://www.wikidata.org/entity/Q3608203" cert="high" type="real">Alberto Carocci</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName></p>
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>,] <date when="1935-11-11">11 novembre [1935]</date></p>
-			<p>Caro Carocci,</p>
-			<p>ricevo un pacco di libri di Solaria e il tuo biglietto. Grazie mille.</p>
-			<p>Per le prenotazioni ti mandai una quarantina di indirizzi nell’inverno scorso, ed ora non saprei proprio come rifare quell’elenco, messo insieme con molte ricerche. Senz’altro manda un pacco di cartoline a mia sorella Maria Sini – V. Lamarmora 35 – e uno a Augusto Monti (presso Sturani), via Cassini 55. Unisci un biglietto: «Ci dice l’autore che Lei è in grado di procurarci sottoscrittori…» Cercheranno loro altri acquirenti.</p>
+			<p>Caro <placeName key="Alberto Carocci" ref="http://www.wikidata.org/entity/Q3608203">Carocci</placeName>,</p>
+			<p>ricevo un pacco di libri di <orgName key="Edizioni di Solaria." ref="http://viaf.org/viaf/130146822250307381577/">Solaria</orgName> e il tuo biglietto. Grazie mille.</p>
+			<p>Per le prenotazioni ti mandai una quarantina di indirizzi nell’inverno scorso, ed ora non saprei proprio come rifare quell’elenco, messo insieme con molte ricerche. Senz’altro manda un pacco di cartoline a mia sorella <placeName ref="SiniPaveseMaria">Maria Sini</placeName> – V. Lamarmora 35 – e uno a <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/">Augusto Monti</persName> (presso Sturani), via Cassini 55. Unisci un biglietto: «Ci dice l’autore che Lei è in grado di procurarci sottoscrittori…» Cercheranno loro altri acquirenti.</p>
 			<p>Grazie della scelta per l’antologia. Se tu fossi me, avresti però pensato al Dio Caprone.</p>
 			<p>Cesare Pavese. Nato a Santo Stefano Belbo – 1908. Vissuto sempre in Piemonte. Laureato in lettere. Ha tradotto:</p>
 			<p>H. Melville, Moby Dick, ed. Frassinelli, 1932</p>
