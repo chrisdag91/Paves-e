@@ -245,6 +245,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Criscenti%20Virginia/Mestiere_8.xml?date_annotation_20231122173605233",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T16:36:05.233Z",
+	"dcterms:modified": "2023-11-22T16:36:05.233Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/vcriscenti",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Virginia Criscenti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Criscenti%20Virginia/Mestiere_8.xml?date_annotation_20231122173605233#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Criscenti%20Virginia/Mestiere_8.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Criscenti%20Virginia/Mestiere_8.xml?date_annotation_20231122173605233#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-11-01"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -257,7 +335,7 @@
 			<p>Comincia la poesia quando uno sciocco dice del mare «Sembra olio». Non è affatto una più esatta descrizione della bonaccia, ma il piacere di avere scoperto la somiglianza, il solletico di un misterioso rapporto, il bisogno di gridare ai quattro venti che si è notato.</p>
 			<p>È però altrettanto sciocco fermarsi qui. Cominciata così la poesia, bisogna finirla e comporre un ricco racconto di rapporti che equivalga abilmente a un giudizio di valore.</p>
 			<p>Questa sarebbe la poesia tipica, l’idea. Ma solitamente le opere sono fatte di sentimento – la esatta descrizione della bonaccia – che a tratti spumeggia in scoperte di rapporti. Può darsi che la poesia tipica sia irreale e – come noi viviamo anche di microbi – quel che si è fatto sinora consti di puri pezzi mimetici (sentimento), di pensieri (logica) e di rapporti alla bell’e meglio (poesia). Una combinazione più assoluta sarebbe forse irrespirabile e sciocca.</p>
-			<p>1 nov.</p>
+			<p><date when="1935-11-01">1 nov.</date></p>
 			<p>È interessante l’idea che il sentimento in arte sia il puro pezzo mimetico, l’esatta descrizione della bonaccia. Una descrizione cioè, fatta con termini proprii, senza scoperte di rapporti immaginosi e senza intrusioni logiche.</p>
 			<p>Ma se è concepibile una descrizione che non conti immagini (che forse la natura stessa del linguaggio nega), può darsi una descrizione al di qua del pensiero logico? Non è già espressione di giudizio osservare che l’albero è verde? O se pare ridicolo trovare un pensiero in simile banalità, dove finisce la banalità e comincia il vero giudizio logico?</p>
 			<p>Rimando a miglior filosofo il secondo capoverso. Mi pare comunque esatto che sentimento sia il descrivere propriamente. Adoperare le commozioni per scoprirvi rapporti è infatti già elaborare razionalmente queste esperienze.</p>
