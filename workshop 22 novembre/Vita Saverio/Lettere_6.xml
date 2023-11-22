@@ -125,7 +125,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Vita%20Saverio/Lettere_6.xml?date_annotation_20231122175007495",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-22T16:50:07.495Z",
-	"dcterms:modified": "2023-11-22T16:50:07.495Z",
+	"dcterms:modified": "2023-11-22T16:50:29.634Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/saveriovita",
 		"@type": [
@@ -157,7 +157,165 @@
 	},
 	"oa:hasBody": {
 		"@type": "xsd:date",
-		"rdf:value": "1935-11-02"
+		"rdf:value": "1935-11-05"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Vita%20Saverio/Lettere_6.xml?person_annotation_20231122175056928",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T16:50:56.928Z",
+	"dcterms:modified": "2023-11-22T16:50:56.928Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Vita%20Saverio/Lettere_6.xml?person_annotation_20231122175056928#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Vita%20Saverio/Lettere_6.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Vita%20Saverio/Lettere_6.xml?person_annotation_20231122175056928#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/103523466/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Vita%20Saverio/Lettere_6.xml?person_annotation_20231122175119352",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T16:51:19.352Z",
+	"dcterms:modified": "2023-11-22T16:51:19.352Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Vita%20Saverio/Lettere_6.xml?person_annotation_20231122175119352#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Vita%20Saverio/Lettere_6.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Vita%20Saverio/Lettere_6.xml?person_annotation_20231122175119352#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/103523466/",
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -171,9 +329,9 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Ad Adolfo Ruata, Torino</p>
-			<p>[<placeName key="Brancaleone" ref="http://www.wikidata.org/entity/Q54578">Brancaleone</placeName>,] <date when="1935-11-02">5 novembre [1935]</date></p>
-			<p>Caro Ruata,</p>
+			<p>Ad <persName key="Ruata, Adolfo." ref="http://viaf.org/viaf/103523466/">Adolfo Ruata</persName>, Torino</p>
+			<p>[<placeName key="Brancaleone" ref="http://www.wikidata.org/entity/Q54578">Brancaleone</placeName>,] <date when="1935-11-05">5 novembre [1935]</date></p>
+			<p>Caro <persName key="Ruata, Adolfo." ref="http://viaf.org/viaf/103523466/">Ruata</persName>,</p>
 			<p>benché sia improbabile che tu, sposo fresco, stipendiato e well-to-do, abbia testa da pensare a chi è rotolato per terra, pure io per passare un altro po’ di questa mattinata che non vuole assoluta mente finire, ti scrivo.</p>
 			<p>Mi sorprende dolorosamente che tu mi creda un riformato, in attesa della visita di controllo. Dimentichi come io sia il più corporalmente bello e integro degli amici e come abbia goduto della ferma minima. Il che non mi impedisce di saltar su, tutte le notti, in preda all’asma e ai 24 diavoli. Il resto del tempo lo passo a far flanella. Studiare è una parola; non si può far niente che valga in questa incertezza di vita, se non assaporare in tutte le sue qualità e quantità più luride, la noia, il tedio, la seccaggine, la sgonfia, lo spleen e il mal di pancia.</p>
 			<p>Esercito il più squallido dei passatempi: acchiappo mosche, traduco dal greco, mi astengo dal guardare il mare, giro i campi, fumo, tengo uno zibaldone, rileggo la corrispondenza dalla patria, serbo una inutile castità. Non capisco perché muoiono tanti padri di famiglia lasciando belle corone di orfani inconsolabili e non crepo io, orfano più che consolato. La caratteristica del Padre Eterno è evidentemente la mancanza di tatto, per cui, esagerando poi dalla parte opposta, riporta vanto di esser l’alta armonia che concilia i contrari. Prendi un esempio: ci sono delle persone cui tutto va male, di quelli che «se vendessero cappelli, la gente nascerebbe senza testa». Ebbene, il Padre Eterno mette al mondo delle altre persone cui tutto va bene, e dopo averle fatte belle e sapienti, le fa ancora vincere alla lotteria. E giustizia è fatta.</p>
