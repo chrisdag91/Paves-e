@@ -151,7 +151,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?date_annotation_20231122163225768#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/date"
+			"rdf:value": "TEI/text/body/date"
 		}
 	},
 	"oa:hasBody": {
@@ -229,7 +229,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?date_annotation_20231122163251922#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/date"
+			"rdf:value": "TEI/text/body/p[4]/date"
 		}
 	},
 	"oa:hasBody": {
@@ -307,7 +307,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?date_annotation_20231122163310789#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/date"
+			"rdf:value": "TEI/text/body/p[5]/date"
 		}
 	},
 	"oa:hasBody": {
@@ -385,7 +385,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?place_annotation_20231122163509148#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/placeName"
+			"rdf:value": "TEI/text/body/p[5]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -464,7 +464,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?title_annotation_20231122165543636#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/title[2]"
+			"rdf:value": "TEI/text/body/p[2]/title[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -485,7 +485,7 @@
 	<text>
 		<body>
 			<p><date when="1935-10-17">17 ott.</date></p>
-			<p>Avendo ripreso stamattina e finito la <title><title ref="#LavorareStancaSemplicità"> poesia della lepre</title></title>, di cui, appunto per via della lepre, disperavo, mi sento una tal quale baldanza a perseverare nello sforzo inglorioso. Mi pare davvero di avere acquistato un istinto tecnico tale che, senza pensarci deliberatamente, ormai le mie fantasie mi escon fuori immaginate secondo quella fantastica legge che nominavo il <date when="1935-10-10">10 ott</date>. E questo ho gran paura voglia dire che è ora di cambiar musica, o almeno, strumento. Se no, arrivo al punto che prima ancor di comporre la poesia, ne abbozzo il saggio critico. E diventa un affare burlesco come il <eg cert="high" sameAs="tentativo di ridurre le persone a un solo modello, un solo modo di pensare e di agire, o più genericamente una situazione difficile e intollerabile o una condizione di spirito tormentosa." xml:space="default">Letto di Procuste</eg>.</p>
+			Avendo ripreso stamattina e finito la <title><title ref="#LavorareStancaSemplicità"> poesia della lepre</title></title>, di cui, appunto per via della lepre, disperavo, mi sento una tal quale baldanza a perseverare nello sforzo inglorioso. Mi pare davvero di avere acquistato un istinto tecnico tale che, senza pensarci deliberatamente, ormai le mie fantasie mi escon fuori immaginate secondo quella fantastica legge che nominavo il <date when="1935-10-10">10 ott</date>. E questo ho gran paura voglia dire che è ora di cambiar musica, o almeno, strumento. Se no, arrivo al punto che prima ancor di comporre la poesia, ne abbozzo il saggio critico. E diventa un affare burlesco come il Letto .
 			<p>Ed ecco trovata la formula per l’avvenire: se un tempo mi dannavo l’anima a creare un misto dei miei lirismi (apprezzati per foga passionale) e del mio stile epistolare (apprezzabile per controllo logico e immaginoso) e il risultato furono <title ref="#LavorareStancaIMaridelSud">i Mari del Sud</title> con tutta la coda; ora debbo trovare il segreto di fondere la fantastica e sentenziosa vena del <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/">Lavorare stanca</title> con quella, pazzerellona e realisticamente intonata a un pubblico, della pornoteca. Ed è indubitato che ci vorrà la prosa.</p>
 			<p>Perché una cosa sola (tra le molte) mi pare insopportabile all’artista; non sentirsi più all’inizio.</p>
 			<p><date when="1935-10-19">19 ott.</date></p>
