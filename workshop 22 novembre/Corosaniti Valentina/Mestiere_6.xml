@@ -167,6 +167,241 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?date_annotation_20231122163251922",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T15:32:51.922Z",
+	"dcterms:modified": "2023-11-22T15:32:51.922Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/valentinacorosaniti",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Valentina Corosaniti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?date_annotation_20231122163251922#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?date_annotation_20231122163251922#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-10-19"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?date_annotation_20231122163310789",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T15:33:10.789Z",
+	"dcterms:modified": "2023-11-22T15:33:10.789Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/valentinacorosaniti",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Valentina Corosaniti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?date_annotation_20231122163310789#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?date_annotation_20231122163310789#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-10-16"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?place_annotation_20231122163509148",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T15:35:09.148Z",
+	"dcterms:modified": "2023-11-22T15:35:09.148Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/valentinacorosaniti",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Valentina Corosaniti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?place_annotation_20231122163509148#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Corosaniti%20Valentina/Mestiere_6.xml?place_annotation_20231122163509148#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3170831",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -174,8 +409,8 @@
 			<p>Avendo ripreso stamattina e finito la poesia della lepre, di cui, appunto per via della lepre, disperavo, mi sento una tal quale baldanza a perseverare nello sforzo inglorioso. Mi pare davvero di avere acquistato un istinto tecnico tale che, senza pensarci deliberatamente, ormai le mie fantasie mi escon fuori immaginate secondo quella fantastica legge che nominavo il <date when="1935-10-10">10 ott</date>. E questo ho gran paura voglia dire che è ora di cambiar musica, o almeno, strumento. Se no, arrivo al punto che prima ancor di comporre la poesia, ne abbozzo il saggio critico. E diventa un affare burlesco come il Letto di Procuste.</p>
 			<p>Ed ecco trovata la formula per l’avvenire: se un tempo mi dannavo l’anima a creare un misto dei miei lirismi (apprezzati per foga passionale) e del mio stile epistolare (apprezzabile per controllo logico e immaginoso) e il risultato furono i Mari del Sud con tutta la coda; ora debbo trovare il segreto di fondere la fantastica e sentenziosa vena del Lavorare stanca con quella, pazzerellona e realisticamente intonata a un pubblico, della pornoteca. Ed è indubitato che ci vorrà la prosa.</p>
 			<p>Perché una cosa sola (tra le molte) mi pare insopportabile all’artista; non sentirsi più all’inizio.</p>
-			<p>19 ott.</p>
-			<p>Rileggendo il 16 ottobre, penso che appunto perché espressi già il parallelo tra me e il Piemonte, nella mia poesia futura questo elemento non dovrà più mancare. Poiché immagino che nessuna mia ricerca possa perdersi e il progresso consista in un sempre più comprensivo macinare esperienze, gettando le nuove sulle vecchie.</p>
+			<p><date when="1935-10-19">19 ott.</date></p>
+			<p>Rileggendo il <date when="1935-10-16">16 ottobre</date>, penso che appunto perché espressi già il parallelo tra me e il <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831">Piemonte</placeName>, nella mia poesia futura questo elemento non dovrà più mancare. Poiché immagino che nessuna mia ricerca possa perdersi e il progresso consista in un sempre più comprensivo macinare esperienze, gettando le nuove sulle vecchie.</p>
 		</body>
 	</text>
 </TEI>
