@@ -201,84 +201,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml?date_annotation_20231120092312280",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-20T08:23:12.280Z",
-	"dcterms:modified": "2023-11-20T08:23:12.280Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/Lvcal",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Luca Calcagno"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml?date_annotation_20231120092312280#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml?date_annotation_20231120092312280#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/date"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "xsd:date",
-		"rdf:value": "1935-11-19"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml?person_annotation_20231120092558164",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-20T08:25:58.164Z",
@@ -316,85 +238,6 @@
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://www.wikidata.org/entity/Q2022",
 		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml?keyword_annotation_20231120093026323",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-20T08:30:26.323Z",
-	"dcterms:modified": "2023-11-20T08:30:26.323Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/Lvcal",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Luca Calcagno"
-	},
-	"oa:motivatedBy": "oa:tagging",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml?keyword_annotation_20231120093026323#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml?keyword_annotation_20231120093026323#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/seg"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "fabio:UncontrolledVocabulary",
-		"dc:format": "text/xml",
-		"rdf:value": "asma"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -484,11 +327,89 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml?date_annotation_20231122182154036",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T17:21:54.036Z",
+	"dcterms:modified": "2023-11-22T17:21:54.036Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Lvcal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luca Calcagno"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml?date_annotation_20231122182154036#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Calcagno%20Luca/Lettera_9.xml?date_annotation_20231122182154036#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-11-19"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Alla sorella <persName ref="#MariaSiniPavese">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName></p>
-			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>,] <date when="1935-11-19">19 novembre [1935]</date></p>
+			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>,] <date when="1935-11-19">19 novembre</date> [1935]</p>
 			<p>Cara <persName ref="#MariaSiniPavese">Maria</persName>,</p>
 			<p>passo il tempo imparando bei proverbi popolari. Esempio:</p>
 			<p>Corna di mamma</p>
@@ -500,7 +421,7 @@
 			<p>Costretto dal freddo ho adottato il braciere. Si tratta di un guerresco bacile di rame munito di maniglie in cui si mette cenere e, al centro, brace; poi si poggiano i piedi su un orlo di legno che corre tutt’intorno, e si passa la sera. L’ho adottato con una differenza. Costando troppo il bacile di rame, ho preso un catino di scarto, l’ho riempito di cenere e vi brucio carbonella comprata al mezzo chilo.</p>
 			<p>Succede però che – come le sartine deluse tappano porte e finestre e, acceso carbone, si stendono sul letto a rendere lo spirito – non vi è nulla di più facile che svegliarsi al mattino cadavere. Bisogna quindi, durante tutta la funzione, tenere spalancata la porta di casa e così il beneficio del calore va in tante correnti maligne, che dànno raffreddori, reumi, dolori di costa e asma essenziale asma. Inoltre, siccome il letto alla sera è incredibilmente umido, bisogna scaldare due mattoni e metterceli dentro. Altrimenti ci si sveglia coperti di muffa e di capelvenere. Col mal di testa, per via del carbone, ci si sveglia sempre; malgrado io, avendo i vetri rotti, sia sempre ventilato.</p>
 			<p>Ho notato che le scrofe, qui numerosissime, viste di dietro hanno una somiglianza impressionante con la vista di dietro delle signorine in genere – tacco alto e fine, gambetta nervosa, vivace sculettamento e codino frisé – e sono tentato di condurmene una a letto per compagnia. Ma non lo faccio perché la carne di maiale è un afrodisiaco.</p>
-			<p>L’asma<seg type="keyword"><term>asma</term></seg> qui viene così forte che non basta fare il fumo prima di coricarsi, ma bisogna ripeterlo alle tre di notte, dopo un doloroso risveglio per soffocamento: alzarsi dal letto nella stanza gelata e così, a culo in aria, bruciare l’incenso al <rs key="God in Christianity" ref="http://www.wikidata.org/entity/Q825">Padre Eterno</rs>, che evidentemente profitta del fatto di essere un puro spirito e s’infischia se un malcontento medita di rompergli il filone della schiena.</p>
+			<p>L’asma qui viene così forte che non basta fare il fumo prima di coricarsi, ma bisogna ripeterlo alle tre di notte, dopo un doloroso risveglio per soffocamento: alzarsi dal letto nella stanza gelata e così, a culo in aria, bruciare l’incenso al <rs key="God in Christianity" ref="http://www.wikidata.org/entity/Q825">Padre Eterno</rs>, che evidentemente profitta del fatto di essere un puro spirito e s’infischia se un malcontento medita di rompergli il filone della schiena.</p>
 			<p>La lettera è molto allegra, ma io no. Saluti.</p>
 			<p><persName key="Cesare Pavese" ref="http://www.wikidata.org/entity/Q2022">Cesare</persName></p>
 		</body>
