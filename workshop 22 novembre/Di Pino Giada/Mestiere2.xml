@@ -323,7 +323,7 @@
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
-	<text>
+	<text cert="high" xml:space="default">
 		
 			<p><date when="1935-10-09">9 ott</date>.</p>
 			<p>Ogni poeta s'è angosciato, meravigliato e ha goduto. L'ammirazione per un gran passo di poesia non va mai alla sua stupefacente abilità, ma alla novità della scoperta che contiene. Anche se proviamo un palpito di gioia a trovare un aggettivo accoppiato con riuscita a un sostantivo, che mai si videro insieme, non è stupore all'eleganza della cosa, alla prontezza dell'ingegno, all'abilità tecnica del poeta che ci tocca, ma meraviglia alla nuova realtà portata in luce.</p>
