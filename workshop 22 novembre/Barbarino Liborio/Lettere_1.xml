@@ -172,11 +172,91 @@
 	"cwrc:hasPrecision": "cwrc:mediumCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Barbarino%20Liborio/Lettere_1.xml?place_annotation_20231122151037843",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T14:10:37.843Z",
+	"dcterms:modified": "2023-11-22T14:10:37.843Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/liboriob",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Liborio Barbarino"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Barbarino%20Liborio/Lettere_1.xml?place_annotation_20231122151037843#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Barbarino%20Liborio/Lettere_1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Barbarino%20Liborio/Lettere_1.xml?place_annotation_20231122151037843#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2525505",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Carocci, Alberto" ref="http://viaf.org/viaf/8935159248119104870005/" cert="high" type="real">Alberto Carocci</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959" cert="high">Firenze<precision match="@ref" precision="medium"/></placeName></p>
-			<p>[Brancaleone,] 24 ottobre [1935]</p>
+			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone<precision match="@ref" precision="high"/></placeName>,] 24 ottobre [1935]</p>
 			<p>Caro Carocci,</p>
 			<p>ho tirato un respiro di sollievo a ricevere che (10 ottobre) per tramite della Prefettura di Firenze le bozze sono finalmente nelle tue mani. A quest’ora anche le nuove otto poesie saranno composte e approvate dall’Ufficio competente. Che destino che il mio libro dovesse trovare tanti e così solleciti lettori tra i regî funzionari. Credo che ormai, a Firenze e a Roma, lo sappiano a memoria. (A Roma, tra l’altro, alloggiando io all’Albergo della Madonna, un funzionario me ne tesseva tra il serio e il faceto un commovente elogio). Altrettanti lettori, una volta che sia pubblicato, tra i privati, e la mia fortuna è fatta!</p>
 			<p>Ti raccomando ancora – e scusa la sedulità, ma siamo poeti – le correzioni fatte e le eventuali da fare alle nuove bozze. Se occorressero altri tagli per uscire, taglia pure senza perdere tempo ad avvertirmi. E appena il libro esiste, una copia a Brancaleone!</p>
