@@ -246,13 +246,171 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?person_annotation_20231122104356278",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T09:43:56.278Z",
+	"dcterms:modified": "2023-11-22T09:43:56.278Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/GiadaDiPino",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Giada Di Pino"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?person_annotation_20231122104356278#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?person_annotation_20231122104356278#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Diana_(mythology)",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?rs_annotation_20231122104521504",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T09:45:21.504Z",
+	"dcterms:modified": "2023-11-22T09:45:21.504Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/GiadaDiPino",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Giada Di Pino"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?rs_annotation_20231122104521504#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?rs_annotation_20231122104521504#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://dbpedia.org/resource/Romanticism",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text cert="high" xml:space="default">
 		<body>
 			<p><date when="1935-10-09">9 ott</date>.</p>
 			<p>Ogni poeta s'è angosciato, meravigliato e ha goduto. L'ammirazione per un gran passo di poesia non va mai alla sua stupefacente abilità, ma alla novità della scoperta che contiene. Anche se proviamo un palpito di gioia a trovare un aggettivo accoppiato con riuscita a un sostantivo, che mai si videro insieme, non è stupore all'eleganza della cosa, alla prontezza dell'ingegno, all'abilità tecnica del poeta che ci tocca, ma meraviglia alla nuova realtà portata in luce.</p>
 			<p><date when="1935-10-09">9 ott</date>.</p>
-			<p>È da meditare la grande potenza di immagini come quella delle gru, del serpente o delle cicale; o del giardino, della <persName key="prostitute" ref="http://www.wikidata.org/entity/Q14915751">meretrice</persName> e del vento; del bue, del cane, di Trivia , ecc. Anzitutto, sono fatte per le opere a vasta costruzione, poiché rappresentano l'occhiata dati alle cose esterne nel corso dell'attenta narrazione di fatti d'importanza umana. Sono come un sospiro di sollievo, uno sguardo alla finestra. Con quella loro aria di particolari decorativi scoppiati fuori variopinti da un duro tronco, provano la inconscia austerità del creatore. Esigono la naturale incapacità di sentimenti paesistici. Adoperano chiaro – e onestamente la natura come un mezzo, come qualcosa d'inferiore alla sostanza del racconto. Vieni uno svago. E questo va storicamente compreso, perché la mia idea delle immagini sostanza del racconto lo nega. Perchè? Perché noi facciamo poesia breve. Perché noi afferriamo e martelliamo in un significato un singolo stato d'animo, che è principio e fine a se stesso. E non ci è dato quindi infiorare il ritmo del nostro condensato racconto con sfoghi svaghi naturistici, che sarebbero smanceria, ma o dobbiamo, preoccupati d'altro, ignorare la natura vivaio d'immagini, o esprimere appunto uno stato d'animo naturistico, dove lo sguardo alla finestra è la sostanza di tutta la costruzione. | Del resto basta pensare a qualche opera moderna di vasta costruzione – romanzi, penso – ed ecco che ritroviamo in essa, attraverso un intrico di filtrazioni paesistiche dovute alla nostra insopprimibile cultura romantica, nitidi esempi di immaginismo-svago.</p>
+			<p>È da meditare la grande potenza di immagini come quella delle gru, del serpente o delle cicale; o del giardino, della <persName key="prostitute" ref="http://www.wikidata.org/entity/Q14915751">meretrice</persName> e del vento; del bue, del cane, di <persName key="Diana (mythology)" ref="http://dbpedia.org/resource/Diana_(mythology)">Trivia</persName> , ecc. Anzitutto, sono fatte per le opere a vasta costruzione, poiché rappresentano l'occhiata dati alle cose esterne nel corso dell'attenta narrazione di fatti d'importanza umana. Sono come un sospiro di sollievo, uno sguardo alla finestra. Con quella loro aria di particolari decorativi scoppiati fuori variopinti da un duro tronco, provano la inconscia austerità del creatore. Esigono la naturale incapacità di sentimenti paesistici. Adoperano chiaro – e onestamente la natura come un mezzo, come qualcosa d'inferiore alla sostanza del racconto. Vieni uno svago. E questo va storicamente compreso, perché la mia idea delle immagini sostanza del racconto lo nega. Perchè? Perché noi facciamo poesia breve. Perché noi afferriamo e martelliamo in un significato un singolo stato d'animo, che è principio e fine a se stesso. E non ci è dato quindi infiorare il ritmo del nostro condensato racconto con sfoghi svaghi naturistici, che sarebbero smanceria, ma o dobbiamo, preoccupati d'altro, ignorare la natura vivaio d'immagini, o esprimere appunto uno stato d'animo naturistico, dove lo sguardo alla finestra è la sostanza di tutta la costruzione. | Del resto basta pensare a qualche opera moderna di vasta costruzione – romanzi, penso – ed ecco che ritroviamo in essa, attraverso un intrico di filtrazioni paesistiche dovute alla nostra insopprimibile cultura <rs key="Romanticism" ref="http://dbpedia.org/resource/Romanticism">romantica</rs>, nitidi esempi di immaginismo-svago.</p>
 			<p>Supremo sugli antichi e sui moderni – sull'immagine-svago e sull'immag. racconto – è Shakespeare , che costruisce vastamente e insieme è tutto uno sguardo alla finestra; esce in un'immagine rampollante da un ceppo austero di umanità e insieme costruisce la scena, l'intero <foreign cert="high" xml:space="default">play</foreign> come interpretazionesta dello stato d'animo. Questo deve nascere dalla felicissima tecnica drammatica, per cui tutto è umanità – la natura, inferiore – ma anche tutto, nel linguaggio immaginoso delle sue persone, è natura.</p>
 			<p>Ha sotto mano pezzi di lirica, di cui fa una struttura solida. Racconta, insomma, e canta indissolubilmente, unico al mondo.</p>
 		</body>
