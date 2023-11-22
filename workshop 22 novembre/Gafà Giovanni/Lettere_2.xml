@@ -1693,6 +1693,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134716624",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:47:16.624Z",
+	"dcterms:modified": "2023-11-22T16:27:27.431Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
