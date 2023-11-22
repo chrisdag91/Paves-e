@@ -46,6 +46,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?date_annotation_20231121220048262",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-21T21:00:48.262Z",
+	"dcterms:modified": "2023-11-21T21:00:48.262Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiadaDiPino",
 		"@type": [
@@ -72,7 +73,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?date_annotation_20231121220048262#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/date"
+			"rdf:value": "TEI/text/p/date"
 		}
 	},
 	"oa:hasBody": {
@@ -123,7 +124,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?date_annotation_20231121212624474",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-21T20:26:24.474Z",
-	"dcterms:modified": "2023-11-21T20:26:24.474Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiadaDiPino",
 		"@type": [
@@ -150,7 +150,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?date_annotation_20231121212624474#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/date"
+			"rdf:value": "TEI/text/p[3]/date"
 		}
 	},
 	"oa:hasBody": {
@@ -279,7 +279,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?person_annotation_20231121214134257",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-21T20:41:34.257Z",
-	"dcterms:modified": "2023-11-21T20:41:34.257Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiadaDiPino",
 		"@type": [
@@ -306,12 +305,12 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?person_annotation_20231121214134257#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/persName"
+			"rdf:value": "TEI/text/p[4]/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://dbpedia.org/resource/Diana_(mythology)",
+		"@id": "http://www.wikidata.org/entity/Q692",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -358,7 +357,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?person_annotation_20231121215545172",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-21T20:55:45.172Z",
-	"dcterms:modified": "2023-11-21T20:55:45.172Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiadaDiPino",
 		"@type": [
@@ -385,7 +383,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?person_annotation_20231121215545172#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/persName"
+			"rdf:value": "TEI/text/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -437,7 +435,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?rs_annotation_20231121220149729",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-21T21:01:49.729Z",
-	"dcterms:modified": "2023-11-21T21:01:49.729Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiadaDiPino",
 		"@type": [
@@ -464,7 +461,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Di%20Pino%20Giada/Mestiere2.xml?rs_annotation_20231121220149729#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/rs"
+			"rdf:value": "TEI/text/rs"
 		}
 	},
 	"oa:hasBody": {
@@ -483,13 +480,13 @@
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
-		<body>
+		
 			<p><date when="1935-10-09">9 ott</date>.</p>
-			<p>Ogni poeta s’è angosciato, meravigliato e ha goduto. L’ammirazione per un gran passo di poesia non va mai alla sua stupefacente abilità, ma alla novità della scoperta che contiene. Anche se proviamo un palpito di gioia a trovare un aggettivo accoppiato con riuscita a un sostantivo, che mai si videro insieme, non è stupore all’eleganza della cosa, alla prontezza dell’ingegno, all’abilità tecnica del poeta che ci tocca, ma meraviglia alla nuova realtà portata in luce.</p>
+			<p>Ogni poeta s'è angosciato, meravigliato e ha goduto. L'ammirazione per un gran passo di poesia non va mai alla sua stupefacente abilità, ma alla novità della scoperta che contiene. Anche se proviamo un palpito di gioia a trovare un aggettivo accoppiato con riuscita a un sostantivo, che mai si videro insieme, non è stupore all'eleganza della cosa, alla prontezza dell'ingegno, all'abilità tecnica del poeta che ci tocca, ma meraviglia alla nuova realtà portata in luce.</p>
 			<p><date when="1935-10-09">9 ott</date>.</p>
-			È da meditare la grande potenza di immagini come quella delle gru, del serpente o delle cicale; o del giardino, della <rs key="prostitute" ref="http://www.wikidata.org/entity/Q14915751">meretrice</rs> e del vento; del bue, del cane, di <persName key="Diana (mythology)" ref="http://dbpedia.org/resource/Diana_(mythology)">Trivia</persName>, ecc. Anzitutto, sono fatte per le opere a vasta costruzione, poiché rappresentano l’occhiata data alle cose esterne nel corso della attenta narrazione di fatti d’importanza umana. Sono come un sospiro di sollievo, uno sguardo alla finestra. Con quella loro aria di particolari decorativi scoppiati fuori variopinti da un duro tronco, provano la inconscia austerità del creatore. Esigono la naturale incapacità di sentimenti paesistici. Adoperano chiaro – e onestamente la natura come un mezzo, come qualcosa d’inferiore alla sostanza del racconto. Come uno svago. E questo va storicamente compreso, perché la mia idea delle immagini sostanza del racconto lo nega. Perché? Perché noi facciamo poesia breve. Perché noi afferriamo e martelliamo in un significato un singolo stato d’animo, che è principio e fine a se stesso. E non ci è dato quindi infiorare il ritmo del nostro condensato racconto con sfoghi svaghi naturistici, che sarebbero smanceria, ma o dobbiamo, preoccupati d’altro, ignorare la natura vivaio d’immagini, o esprimere appunto uno stato d’animo naturistico, dove lo sguardo alla finestra è la sostanza di tutta la costruzione. | Del resto basta pensare a qualche opera moderna di vasta costruzione – romanzi, penso – ed ecco che ritroviamo in essa, attraverso un intrico di filtrazioni paesistiche dovute alla nostra insopprimibile cultura romantica, nitidi esempi di immaginismo-svago.
-			<p>Supremo sugli antichi e sui moderni – sull’immagine-svago e sull’immag. racconto – è <persName key="William Shakespeare" ref="http://www.wikidata.org/entity/Q692">Shakespeare</persName>, che costruisce vastamente e insieme è tutto uno sguardo alla finestra; esce in un’immagine rampollante da un ceppo austero di umanità e insieme costruisce la scena, l’intero <foreign cert="high" xml:space="default">play</foreign> come interpretazione immaginista dello stato d’animo. Questo deve nascere dalla felicissima tecnica drammatica, per cui tutto è umanità – la natura, inferiore – ma anche tutto, nel linguaggio immaginoso delle sue persone, è natura.</p>
+			È da meditare la grande potenza di immagini come quella delle gru, del serpente o delle cicale; o del giardino, della <rs key="prostitute" ref="http://www.wikidata.org/entity/Q14915751">meretrice</rs> e del vento; del bue, del cane, di <persName key="Diana (mythology)" ref="http://dbpedia.org/resource/Diana_(mythology)">Trivia</persName> , ecc. Anzitutto, sono fatte per le opere a vasta costruzione, poiché rappresentano l'occhiata dati alle cose esterne nel corso dell'attenta narrazione di fatti d'importanza umana. Sono come un sospiro di sollievo, uno sguardo alla finestra. Con quella loro aria di particolari decorativi scoppiati fuori variopinti da un duro tronco, provano la inconscia austerità del creatore. Esigono la naturale incapacità di sentimenti paesistici. Adoperano chiaro – e onestamente la natura come un mezzo, come qualcosa d'inferiore alla sostanza del racconto. Vieni uno svago. E questo va storicamente compreso, perché la mia idea delle immagini sostanza del racconto lo nega. Perchè? Perché noi facciamo poesia breve. Perché noi afferriamo e martelliamo in un significato un singolo stato d'animo, che è principio e fine a se stesso. E non ci è dato quindi infiorare il ritmo del nostro condensato racconto con sfoghi svaghi naturistici, che sarebbero smanceria, ma o dobbiamo, preoccupati d'altro, ignorare la natura vivaio d'immagini, o esprimere appunto uno stato d'animo naturistico, dove lo sguardo alla finestra è la sostanza di tutta la costruzione. | Del resto basta pensare a qualche opera moderna di vasta costruzione – romanzi, penso – ed ecco che ritroviamo in essa, attraverso un intrico di filtrazioni paesistiche dovute alla nostra insopprimibile cultura romantica, nitidi esempi di immaginismo-svago.
+			<p>Supremo sugli antichi e sui moderni – sull'immagine-svago e sull'immag. racconto – è <persName key="William Shakespeare" ref="http://www.wikidata.org/entity/Q692">Shakespeare</persName> , che costruisce vastamente e insieme è tutto uno sguardo alla finestra; esce in un'immagine rampollante da un ceppo austero di umanità e insieme costruisce la scena, l'intero <foreign cert="high" xml:space="default">play</foreign> come interpretazionesta dello stato d'animo. Questo deve nascere dalla felicissima tecnica drammatica, per cui tutto è umanità – la natura, inferiore – ma anche tutto, nel linguaggio immaginoso delle sue persone, è natura.</p>
 			<p>Ha sotto mano pezzi di lirica, di cui fa una struttura solida. Racconta, insomma, e canta indissolubilmente, unico al mondo.</p>
-		</body>
+		
 	</text>
 </TEI>
