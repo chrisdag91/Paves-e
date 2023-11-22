@@ -1047,13 +1047,93 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Barbarino%20Liborio/Lettere_1.xml?note_annotation_20231122153234717",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-22T14:32:34.717Z",
+	"dcterms:modified": "2023-11-22T14:32:34.717Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/liboriob",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Liborio Barbarino"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Barbarino%20Liborio/Lettere_1.xml?note_annotation_20231122153234717#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Barbarino%20Liborio/Lettere_1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Barbarino%20Liborio/Lettere_1.xml?note_annotation_20231122153234717#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Si tratta delle otto poesie composte a Brancaleone e aggiunte dall'autore: Ulisse, Atavismo, Avventure, Donne appassionate,\nLuna d’agosto, Terre bruciate, Poggio Reale, Paesaggio [VI]"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Carocci, Alberto" ref="http://viaf.org/viaf/8935159248119104870005/" cert="high" type="real">Alberto Carocci</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959" cert="high">Firenze<precision match="@ref" precision="medium"/></placeName></p>
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone<precision match="@ref" precision="high"/></placeName>,] <date when="1935-10-24" cert="high">24 ottobre [1935]</date></p>
 			<p>Caro <persName key="Carocci, Alberto" ref="http://viaf.org/viaf/8935159248119104870005/">Carocci</persName>,</p>
-			<p>ho tirato un respiro di sollievo a ricevere che (<date when="1935-10-10">10 ottobre</date>) per tramite della <orgName key="Palazzo della Prefettura (Firenze)" ref="http://viaf.org/viaf/68167803549617772337/" cert="medium">Prefettura di Firenze</orgName> le bozze sono finalmente nelle tue mani. A quest’ora anche le nuove otto poesie saranno composte e approvate dall’Ufficio competente. Che destino che il mio libro dovesse trovare tanti e così solleciti lettori tra i regî funzionari. Credo che ormai, a <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959" cert="high">Firenze</placeName> e a <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma<precision match="@ref" precision="high"/></placeName>, lo sappiano a memoria. (A <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070" cert="high">Roma</placeName>, tra l’altro, alloggiando io all’<rs key="Regina Coeli (carceri : Roma)" ref="http://viaf.org/viaf/9780167807402018130005/" cert="high">Albergo della Madonna</rs>, un funzionario me ne tesseva tra il serio e il faceto un commovente elogio). Altrettanti lettori, una volta che sia pubblicato, tra i privati, e la mia fortuna è fatta!</p>
+			<p>ho tirato un respiro di sollievo a ricevere che (<date when="1935-10-10">10 ottobre</date>) per tramite della <orgName key="Palazzo della Prefettura (Firenze)" ref="http://viaf.org/viaf/68167803549617772337/" cert="medium">Prefettura di Firenze</orgName> le bozze sono finalmente nelle tue mani. A quest’ora anche le nuove otto poesie<note>Si tratta delle otto poesie composte a Brancaleone e aggiunte dall'autore: Ulisse, Atavismo, Avventure, Donne appassionate,
+Luna d’agosto, Terre bruciate, Poggio Reale, Paesaggio [VI]</note> saranno composte e approvate dall’Ufficio competente. Che destino che il mio libro dovesse trovare tanti e così solleciti lettori tra i regî funzionari. Credo che ormai, a <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959" cert="high">Firenze</placeName> e a <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma<precision match="@ref" precision="high"/></placeName>, lo sappiano a memoria. (A <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070" cert="high">Roma</placeName>, tra l’altro, alloggiando io all’<rs key="Regina Coeli (carceri : Roma)" ref="http://viaf.org/viaf/9780167807402018130005/" cert="high">Albergo della Madonna</rs>, un funzionario me ne tesseva tra il serio e il faceto un commovente elogio). Altrettanti lettori, una volta che sia pubblicato, tra i privati, e la mia fortuna è fatta!</p>
 			<p>Ti raccomando ancora – e scusa la sedulità, ma siamo poeti – le correzioni fatte e le eventuali da fare alle nuove bozze. Se occorressero altri tagli per uscire, taglia pure senza perdere tempo ad avvertirmi. E appena il libro esiste, una copia a <placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone<precision match="@ref" precision="high"/></placeName>!</p>
 			<p>Siccome io qui faccio una gran flanella, ti sarei grato, se quando hai un libro che ti puzza – scarto di magazzino o regalo intempestivo della zia – me lo volessi inviare. Sono disposto a leggere di tutto, pur di passare il tempo. Ricordati ad ogni modo che le mie curiosità vanno dalla esegesi biblica al romanzo giallo, passando per la lirica giapponese, l’occultismo, i testi di lingua e gli epistolari amorosi.</p>
 			<p>Unico mio disinteresse – ab aeterno e parlo colla mano sul cuore – la letteratura politica.</p>
