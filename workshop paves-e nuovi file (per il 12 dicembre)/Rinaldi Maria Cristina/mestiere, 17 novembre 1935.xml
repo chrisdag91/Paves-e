@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>17 nov.</p>
+			<p>Standone lontano, comincio a inventare (frequent. di invenire) una funzione condizionatrice dell’arte proprio nel Piemonte e centralmente in Torino. Città della *fantasticheria, per la sua aristocratica compiutezza composta di elementi nuovi e antichi; città della *regola, per l’assenza assoluta di stonature nel materiale e nello spirituale; città della *passione, per la sua benevola propizietà agli ozî; città dell’ironia, per il suo buon gusto nella vita; città esemplare, per la sua pacatezza ricca di tumulto. Città vergine in arte, come quella che ha già visto altri fare l’amore e, di suo, non ha tollerato sinora che carezze, ma è pronta ormai se trova l’uomo, a fare il passo. Città infine, dove sono nato spiritualmente, arrivando di fuori: mia amante e non madre né sorella. E molti altri sono con lei in questo rapporto. Non le può mancare una civiltà, ed io faccio parte di una schiera. Le condizioni ci sono tutte.</p>
+		</body>
+	</text>
+</TEI>

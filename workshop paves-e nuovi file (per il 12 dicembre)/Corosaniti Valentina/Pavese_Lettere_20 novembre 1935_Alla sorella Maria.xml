@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino</p>
+			<p>[Brancaleone,] 20 novembre [1935]</p>
+			<p>Cara Maria,</p>
+			<p>ricevo cartoline 10 e 11 e pacco. Invece di interessarvi tanto alle calze e ai condimenti calabresi, leggete bene quello che scrivo: Omero ve lo chiedevo in greco, in tanti volumetti separati, che sono nel mio scaffale. Quei due libracci bleu sono inutili.</p>
+			<p>Il resto del pacco è tutto perfetto, benché le «cotogne di Serralunga» si riducano a una cotogna e due melacce qualunque. Mi ha molto consolato il Formoclone, che mi ricorda un bell’angolino di uno scaffale d altri tempi.</p>
+			<p>Quanto alle calze rammendate, non è Brancaleone che se ne stupisca.</p>
+			<p>Il mal di stomaco mi viene a mangiare robetta (salame, castagne, pane e mele alla sera) e alzarmi la notte al fresco a fare il fumo. E poi, siccome mi arrabbio per l’asma e tutto, la cena mi sta sullo stomaco.</p>
+			<p>Mi piacciono le raccomandazioni di farmi passare l’asma. Non fate ridere. Perché non mi raccomandate anche di tornare a casa in settimana?</p>
+			<p>Ho spedito la borsa per Cesarina</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>
