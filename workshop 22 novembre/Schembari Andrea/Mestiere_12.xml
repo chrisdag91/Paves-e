@@ -11,11 +11,89 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Mestiere_12.xml?date_annotation_20231210084938496",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-12-10T07:49:38.496Z",
+	"dcterms:modified": "2023-12-10T07:49:38.496Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AndreaSchembari",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Andrea Schembari"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Mestiere_12.xml?date_annotation_20231210084938496#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Mestiere_12.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Mestiere_12.xml?date_annotation_20231210084938496#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-11-24"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>5 dic.</p>
-			<p>Deve avere qualche significato il fatto che, scoprendo la mia maniera, non mi sono per nulla aiutato con la facilità della materia sessuale. <title level="a" ref="#imaridelsud">Mari del Sud</title>, <title level="a" ref="#antenati">Antenati</title>, *<title level="a" ref="#fumatoridicarta">Fumatori di carta</title>, ignorano questa vena. E se entravo nell’argomento, era in modo sdegnoso e saputo (ricordare *<title level="a" ref="#donneperdute">Donne Perdute</title>, il *<title level="a" ref="#ilbluesdeiblues">Blues dei blues</title>, *<title level="a" ref="#maestrine">Maestrine</title>). Cominciò la nuova preoccupazione con <title level="a" ref="#canzonedistrada">Canzone di Strada</title> e <title level="a" ref="#tradimento">Tradimento</title>, in forma di vivida descrizione di esperienze sensoriali. Finché scoppiò come nuova materia proiettata nel mondo in <title level="a" ref="#unastagione">Una stagione</title>. Qui l’argomento era proprio l’importanza e la all-pervadingness del sesso, la riduzione di tutte le esperienze sensoriali a equivalenti del sesso («il vento di marzo sui vestiti»). Un ritorno all’abbassamento malizioso delle sensazioni sessuali può essere una via d’uscita dal pantano di abitudinaria facilità descrittiva attuale. Come andranno però d’accordo questa malizia sessuale con l’inquietudine contemplativa segnalata il 24 nov.? A prima vista parrebbe che malizia e inquietudine contrastassero.</p>
+			<p>Deve avere qualche significato il fatto che, scoprendo la mia maniera, non mi sono per nulla aiutato con la facilità della materia sessuale. <title level="a" ref="#imaridelsud">Mari del Sud</title>, <title level="a" ref="#antenati">Antenati</title>, *<title level="a" ref="#fumatoridicarta">Fumatori di carta</title>, ignorano questa vena. E se entravo nell’argomento, era in modo sdegnoso e saputo (ricordare *<title level="a" ref="#donneperdute">Donne Perdute</title>, il *<title level="a" ref="#ilbluesdeiblues">Blues dei blues</title>, *<title level="a" ref="#maestrine">Maestrine</title>). Cominciò la nuova preoccupazione con <title level="a" ref="#canzonedistrada">Canzone di Strada</title> e <title level="a" ref="#tradimento">Tradimento</title>, in forma di vivida descrizione di esperienze sensoriali. Finché scoppiò come nuova materia proiettata nel mondo in <title level="a" ref="#unastagione">Una stagione</title>. Qui l’argomento era proprio l’importanza e la all-pervadingness del sesso, la riduzione di tutte le esperienze sensoriali a equivalenti del sesso («il vento di marzo sui vestiti»). Un ritorno all’abbassamento malizioso delle sensazioni sessuali può essere una via d’uscita dal pantano di abitudinaria facilità descrittiva attuale. Come andranno però d’accordo questa malizia sessuale con l’inquietudine contemplativa segnalata il <date when="1935-11-24">24 nov.</date>? A prima vista parrebbe che malizia e inquietudine contrastassero.</p>
 		</body>
 	</text>
 </TEI>
