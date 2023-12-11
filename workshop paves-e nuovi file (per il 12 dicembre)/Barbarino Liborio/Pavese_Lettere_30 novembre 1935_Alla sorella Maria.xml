@@ -643,6 +643,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Barbarino%20Liborio/Pavese_Lettere_30%20novembre%201935_Alla%20sorella%20Maria.xml?person_annotation_20231211122017112",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-12-11T11:20:17.112Z",
+	"dcterms:modified": "2023-12-11T11:20:17.112Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/liboriob",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Liborio Barbarino"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Barbarino%20Liborio/Pavese_Lettere_30%20novembre%201935_Alla%20sorella%20Maria.xml?person_annotation_20231211122017112#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Barbarino%20Liborio/Pavese_Lettere_30%20novembre%201935_Alla%20sorella%20Maria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Barbarino%20Liborio/Pavese_Lettere_30%20novembre%201935_Alla%20sorella%20Maria.xml?person_annotation_20231211122017112#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/88814384/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -653,7 +732,7 @@
 			<p>Siccome ne ho abbastanza, vi avverto che fra un mese (a <date when="1935-12-31">Capodanno</date>) manderò gli auguri a <placeName key="Serralunga di Crea Piedmont Italy" ref="https://geonames.org/3166666" cert="high">Serralunga</placeName>. Ingegnatevi a farmi tornare prima, perché cascasse il mondo a <date when="1935-12-31">Capodanno</date> scriverò. Da cui s’impara che le disgrazie ingentiliscono l’uomo. E non scrivetemi che dopotutto è colpa mia e non tocca a voi aiutarmi, perché vi risponderei che, appunto, perché è colpa mia, desidero che tutti – anche i nonnini – sappiano e mi giudichino come merito.</p>
 			<p>Baci</p>
 			<p><persName key="Pavese, Cesare, 1908-1950." ref="http://viaf.org/viaf/36922880/" cert="high" type="real">Cesare</persName></p>
-			<p>P.S. Manderò, quando potrò, il dizionario del Ghiotti.</p>
+			<p>P.S. Manderò, quando potrò, il dizionario del <persName key="Ghiotti, Candido" ref="http://viaf.org/viaf/88814384/">Ghiotti</persName>.</p>
 		</body>
 	</text>
 </TEI>
