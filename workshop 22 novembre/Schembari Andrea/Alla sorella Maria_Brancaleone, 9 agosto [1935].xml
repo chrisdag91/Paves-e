@@ -1099,12 +1099,91 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml?person_annotation_20231211164807480#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[16]/persName"
+			"rdf:value": "TEI/text/body/p[16]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://viaf.org/viaf/162516935/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml?person_annotation_20231211165548882",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-12-11T15:55:48.882Z",
+	"dcterms:modified": "2023-12-11T15:55:48.882Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AndreaSchembari",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Andrea Schembari"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml?person_annotation_20231211165548882#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml?person_annotation_20231211165548882#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/1553162669444955500009/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1134,7 +1213,7 @@
 			<p>Insomma, non chiedo che libri, soldi e saluti dalle amicizie.</p>
 			<p>Ciau													Cesare</p>
 			<p>P.S. LIBRI MIEI DA MANDARMI:</p>
-			<p>I due volumi delle Commedie di Molière (gialli, francesi). I due voll. Il Libro della Giungla, Il Secondo Libro della Giungla di R. Kipling (il primo ha copertina a colori coi lupi e un bambino – il secondo id. col serpente e un giovanotto). I due vol. dei Plays by Ben Jonson (rilegati oliva e oro, inglesi). Poi, tra le grammatiche, i due voll. del Rocci, Grammatica Greca e Esercizi Greci. Poi un volume Nozari (?) <title ref="#ildialettoomerico:grammaticaevocabolario">Il dialetto omerico</title>. E finalmente, il Vocabolario italiano-greco, verde, rilegato. Ancora: <title level="m" ref="#verbieformeverbalidellalinguagreca">Forme verbali greche</title> del <persName key="Pechenino, Marco." ref="http://viaf.org/viaf/162516935/">Pechenino</persName>.</p>
+			<p>I due volumi delle Commedie di Molière (gialli, francesi). I due voll. Il Libro della Giungla, Il Secondo Libro della Giungla di R. Kipling (il primo ha copertina a colori coi lupi e un bambino – il secondo id. col serpente e un giovanotto). I due vol. dei Plays by Ben Jonson (rilegati oliva e oro, inglesi). Poi, tra le grammatiche, i due voll. del <persName key="Rocci, Lorenzo" ref="http://viaf.org/viaf/1553162669444955500009/">Rocci</persName>, Grammatica Greca e Esercizi Greci. Poi un volume Nozari (?) <title ref="#ildialettoomerico:grammaticaevocabolario">Il dialetto omerico</title>. E finalmente, il Vocabolario italiano-greco, verde, rilegato. Ancora: <title level="m" ref="#verbieformeverbalidellalinguagreca">Forme verbali greche</title> del <persName key="Pechenino, Marco." ref="http://viaf.org/viaf/162516935/">Pechenino</persName>.</p>
 		</body>
 	</text>
 </TEI>
