@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,13 +11,91 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml?date_annotation_20231211162940532",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-12-11T15:29:40.532Z",
+	"dcterms:modified": "2023-12-11T15:29:40.532Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AndreaSchembari",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Andrea Schembari"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml?date_annotation_20231211162940532#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml?date_annotation_20231211162940532#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-08-04"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Alla sorella Maria, Torino.</p>
 			<p>Brancaleone, 9 agosto [1935]</p>
 			<p>Cara Maria,</p>
-			<p>sono arrivato a Brancaleone domenica 4 nel pomeriggio e tutta la cittadinanza a spasso davanti alla stazione pareva aspettare il criminale che, munito di manette, tra due carabinieri, scendeva con passo fermo, diretto al Municipio.</p>
+			<p>sono arrivato a Brancaleone domenica <date when="1935-08-04">4</date> nel pomeriggio e tutta la cittadinanza a spasso davanti alla stazione pareva aspettare il criminale che, munito di manette, tra due carabinieri, scendeva con passo fermo, diretto al Municipio.</p>
 			<p>Il viaggio di due giorni, con le manette e la valigia, è stata una impresa di alto turismo. Ormai il nome della famiglia è irremediabilmente compromesso. Le stazioni di Napoli e di Roma le ho attraversate nel momento di maggior traffico e bisognava vedere come la gente faceva largo al sinistro terzetto. A Roma, una bambina che va ai bagni, chiede al padre: «Papà, perché nelle manette non fanno passare la corrente elettrica?» A Napoli non è mancata nemmeno la caduta sotto la croce, sotto forma di uno stramazzone – manette, valigia e tutto – preso su una scalinata del cortile delle carceri. Allora un cireneo si è occupato della valigia.</p>
 			<p>A Salerno, cambiamento di vagone con spettacolo educativo ai ragazzini di passaggio. Passato ch’era buio a Paestum, e quindi nemmeno la soddisfazione di vedere i templi greci. A Sapri, pernottamento senza la spigolatrice. Altri cambiamenti di treno: a Sant’Eufemia e a Catanzaro. Un divertimento.</p>
 			<p>Qui ho trovato una grande accoglienza. Brave persone, abituate a peggio, cercano in tutti i modi di tenermi buono e caro. Ti farà certamente piacere sentire che, siccome risulto in grado di mantenermi, il Ministero ha deciso di non passarmi sussidio di sorta. Farò il solito ricorso col solito risultato.</p>
