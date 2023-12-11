@@ -879,6 +879,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml?place_annotation_20231211164444089",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-12-11T15:44:44.089Z",
+	"dcterms:modified": "2023-12-11T15:44:44.089Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AndreaSchembari",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Andrea Schembari"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml?place_annotation_20231211164444089#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Schembari%20Andrea/Alla%20sorella%20Maria_Brancaleone%2C%209%20agosto%20%5B1935%5D.xml?place_annotation_20231211164444089#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q643",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -892,7 +971,7 @@
 			<p>Qui, sono l’unico confinato. Che qui siano sporchi è una leggenda. Sono cotti dal sole. Le donne si pettinano in strada, ma viceversa tutti fanno il bagno. Ci sono molti maiali, e le anfore si portano in bilico sulla testa. Imparerò anch’io e un giorno mi guadagnerò la vita nei varietà di <placeName key="Torino Piedmont Italy" ref="https://geonames.org/3165523">Torino</placeName>.</p>
 			<p>La grappa non sanno cosa sia. Se me ne mandate qualche ventina di bottiglie, io penserei a berle. (DICO SUL SERIO). Ho ricevuto i denari e temo forte che, se il Ministero non cambia opinione sui miei mezzi, due volte al mese ve ne chiederò altrettanti. Aspetto sempre la cassa coi libri.</p>
 			<p>Ho affittato una camera con letto per 45 L., ma tutti i giorni c’è una spesa nuova, e la luce e il catino e lo spirito e lo zucchero ecc. Mi faccio io da mangiare, cioè mangio roba fredda. È brutto metter su famiglia, senza la famiglia.</p>
-			<p>La spiaggia è sul Mar Jonio, che somiglia a tutti gli altri e vale quasi il Po.</p>
+			<p>La spiaggia è sul Mar Jonio, che somiglia a tutti gli altri e vale quasi il <placeName key="Po" ref="http://www.wikidata.org/entity/Q643">Po</placeName>.</p>
 			<p>Ho ricevuto una quantità di cartoline arretrate.</p>
 			<p>Insomma, non chiedo che libri, soldi e saluti dalle amicizie.</p>
 			<p>Ciau													Cesare</p>
