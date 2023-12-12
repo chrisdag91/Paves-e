@@ -405,13 +405,169 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Corosaniti%20Valentina/Pavese_Lettere_20%20novembre%201935_Alla%20sorella%20Maria.xml?date_annotation_20231212180231619",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-12-12T17:02:31.619Z",
+	"dcterms:modified": "2023-12-12T17:02:31.619Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/valentinacorosaniti",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Valentina Corosaniti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Corosaniti%20Valentina/Pavese_Lettere_20%20novembre%201935_Alla%20sorella%20Maria.xml?date_annotation_20231212180231619#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Corosaniti%20Valentina/Pavese_Lettere_20%20novembre%201935_Alla%20sorella%20Maria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Corosaniti%20Valentina/Pavese_Lettere_20%20novembre%201935_Alla%20sorella%20Maria.xml?date_annotation_20231212180231619#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-11-10"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Corosaniti%20Valentina/Pavese_Lettere_20%20novembre%201935_Alla%20sorella%20Maria.xml?date_annotation_20231212180244596",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-12-12T17:02:44.596Z",
+	"dcterms:modified": "2023-12-12T17:02:44.596Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/valentinacorosaniti",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Valentina Corosaniti"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Corosaniti%20Valentina/Pavese_Lettere_20%20novembre%201935_Alla%20sorella%20Maria.xml?date_annotation_20231212180244596#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Corosaniti%20Valentina/Pavese_Lettere_20%20novembre%201935_Alla%20sorella%20Maria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Corosaniti%20Valentina/Pavese_Lettere_20%20novembre%201935_Alla%20sorella%20Maria.xml?date_annotation_20231212180244596#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-11-11"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Alla sorella <persName ref="#MariaSiniPavese">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName></p>
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>,] <date when="1935-11-20">20 novembre [1935]</date></p>
 			<p>Cara <persName ref="#MariaSiniPavese">Maria</persName>,</p>
-			<p>ricevo cartoline 10 e 11 e pacco. Invece di interessarvi tanto alle calze e ai condimenti calabresi, leggete bene quello che scrivo: Omero ve lo chiedevo in greco, in tanti volumetti separati, che sono nel mio scaffale. Quei due libracci bleu sono inutili.</p>
+			<p>ricevo cartoline <date when="1935-11-10">10</date> e <date when="1935-11-11">11</date> e pacco. Invece di interessarvi tanto alle calze e ai condimenti calabresi, leggete bene quello che scrivo: Omero ve lo chiedevo in greco, in tanti volumetti separati, che sono nel mio scaffale. Quei due libracci bleu sono inutili.</p>
 			<p>Il resto del pacco è tutto perfetto, benché le «cotogne di <placeName key="Serralunga di Crea Piedmont Italy" ref="https://geonames.org/3166666">Serralunga</placeName>» si riducano a una cotogna e due melacce qualunque. Mi ha molto consolato il Formoclone, che mi ricorda un bell’angolino di uno scaffale d altri tempi.</p>
 			<p>Quanto alle calze rammendate, non è <placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName> che se ne stupisca.</p>
 			<p>Il mal di stomaco mi viene a mangiare robetta (salame, castagne, pane e mele alla sera) e alzarmi la notte al fresco a fare il fumo. E poi, siccome mi arrabbio per l’asma e tutto, la cena mi sta sullo stomaco.</p>
