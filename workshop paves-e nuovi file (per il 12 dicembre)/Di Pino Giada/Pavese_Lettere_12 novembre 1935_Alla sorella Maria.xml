@@ -122,85 +122,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Di%20Pino%20Giada/Pavese_Lettere_12%20novembre%201935_Alla%20sorella%20Maria.xml?place_annotation_20231212165559894",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-12-12T15:55:59.894Z",
-	"dcterms:modified": "2023-12-12T15:55:59.894Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/GiadaDiPino",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Giada Di Pino"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Di%20Pino%20Giada/Pavese_Lettere_12%20novembre%201935_Alla%20sorella%20Maria.xml?place_annotation_20231212165559894#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Di%20Pino%20Giada/Pavese_Lettere_12%20novembre%201935_Alla%20sorella%20Maria.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Di%20Pino%20Giada/Pavese_Lettere_12%20novembre%201935_Alla%20sorella%20Maria.xml?place_annotation_20231212165559894#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2525505",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Di%20Pino%20Giada/Pavese_Lettere_12%20novembre%201935_Alla%20sorella%20Maria.xml?date_annotation_20231212165639168",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-12T15:56:39.168Z",
@@ -484,18 +405,97 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Di%20Pino%20Giada/Pavese_Lettere_12%20novembre%201935_Alla%20sorella%20Maria.xml?person_annotation_20231212170732906",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-12-12T16:07:32.906Z",
+	"dcterms:modified": "2023-12-12T16:07:32.906Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/GiadaDiPino",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Giada Di Pino"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Di%20Pino%20Giada/Pavese_Lettere_12%20novembre%201935_Alla%20sorella%20Maria.xml?person_annotation_20231212170732906#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Di%20Pino%20Giada/Pavese_Lettere_12%20novembre%201935_Alla%20sorella%20Maria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Di%20Pino%20Giada/Pavese_Lettere_12%20novembre%201935_Alla%20sorella%20Maria.xml?person_annotation_20231212170732906#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q2022",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella Maria, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName></p>
-			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>,] <date when="1935-11-12">12 novembre [1935]</date></p>
+			<p>Alla sorella Maria, Torino</p>
+			<p>[Brancaleone,] <date when="1935-11-12">12 novembre [1935]</date></p>
 			<p>Cara Maria,</p>
 			<p>lèvati dalla testa le amnistie. Dell’amnistia – quand’anche ci fosse – beneficiano coloro che hanno condanne, non quelli che hanno, come me, provvedimenti.</p>
 			<p>Ringrazia <persName key="Frassinelli, Carlo" ref="http://viaf.org/viaf/143145857103522922309/">Frassinelli</persName> del suo comicissimo libro <title key="Lombroso, Gina | Lo sboccio di una vita" level="m">Lo sboccio di una vita</title>. Non so dove vi siate sognato che mi rado dal barbiere. Mandami qualche mutanda più spessa, solo se hai l’occasione di un pacco, ma non fare spedizioni apposta per loro.</p>
 			<p>Nuovi libri: tutte le opere di <persName key="Friedrich Nietzsche" ref="http://www.wikidata.org/entity/Q9358">Federico Nietzsche</persName> (in italiano) escluso <title key="Nietzsche, Friedrich Wilhelm, 1844-1900. | Also sprach Zarathustra" ref="http://viaf.org/viaf/175164071/">Così parlò Zaratustra</title> (Ed. <orgName key="Casa Editrice Monanni"><orgName key="Casa Editrice Monanni"><orgName cert="medium" key="Monanni, Giuseppe | Casa Editrice Monanni">Monanni</orgName></orgName></orgName>).</p>
 			<p>Qui un po’ fa caldo e un po’ fa umido e, fin che non abbia imparato il ritmo, ci soffrirò. Non ho ancora infilato una volta il paletot. Solo, di notte, lo stendo sul letto.</p>
 			<p>Ringraziate Battista e Teresa della cartolina</p>
-			<p>Cesare</p>
+			<p><persName key="Cesare Pavese" ref="http://www.wikidata.org/entity/Q2022">Cesare</persName></p>
 		</body>
 	</text>
 </TEI>
