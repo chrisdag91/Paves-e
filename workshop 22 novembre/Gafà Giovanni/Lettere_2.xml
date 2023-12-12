@@ -361,6 +361,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231208192618956",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-08T18:26:18.956Z",
+	"dcterms:modified": "2023-12-08T18:26:18.956Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -387,7 +388,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231208192618956#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title"
+			"rdf:value": "TEI/text/body/title"
 		}
 	},
 	"oa:hasBody": {
@@ -439,6 +440,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119131529839",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:15:29.839Z",
+	"dcterms:modified": "2023-11-19T12:15:29.839Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -465,7 +467,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119131529839#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title[2]"
+			"rdf:value": "TEI/text/body/title[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -517,6 +519,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131752794",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:17:52.794Z",
+	"dcterms:modified": "2023-11-19T12:17:52.794Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -543,7 +546,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131752794#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/persName[2]"
+			"rdf:value": "TEI/text/body/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -595,6 +598,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131916065",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:19:16.065Z",
+	"dcterms:modified": "2023-11-19T12:19:16.065Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -621,7 +625,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119131916065#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/persName[3]"
+			"rdf:value": "TEI/text/body/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -673,6 +677,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?organization_annotation_20231119132527215",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:25:27.215Z",
+	"dcterms:modified": "2023-11-19T12:25:27.215Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -699,7 +704,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?organization_annotation_20231119132527215#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/orgName"
+			"rdf:value": "TEI/text/body/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -751,6 +756,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231122172336223",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-22T16:23:36.223Z",
+	"dcterms:modified": "2023-11-22T16:23:36.223Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -777,7 +783,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231122172336223#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title[5]"
+			"rdf:value": "TEI/text/body/title[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -829,6 +835,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119132736885",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:27:36.885Z",
+	"dcterms:modified": "2023-11-19T12:27:36.885Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -855,7 +862,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119132736885#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/persName[4]"
+			"rdf:value": "TEI/text/body/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -907,6 +914,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132850830",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-19T12:28:50.830Z",
+	"dcterms:modified": "2023-11-19T12:28:50.830Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -933,7 +941,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231119132850830#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title[6]"
+			"rdf:value": "TEI/text/body/title[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -1102,84 +1110,6 @@
 			"cwrc:FictionalPerson"
 		],
 		"@id": "http://www.wikidata.org/entity/Q1164009",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134309127",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-19T12:43:09.127Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/GiovanniGafa",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Giovanni Gafà"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134309127#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?person_annotation_20231119134309127#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/56763727/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1461,7 +1391,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231122172327358",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-11-22T16:23:27.358Z",
-	"dcterms:modified": "2023-11-22T16:23:27.358Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1488,7 +1417,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231122172327358#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title[3]"
+			"rdf:value": "TEI/text/body/title[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -1540,7 +1469,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231208193241149",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-08T18:32:41.149Z",
-	"dcterms:modified": "2023-12-08T18:32:41.149Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/GiovanniGafa",
 		"@type": [
@@ -1567,7 +1495,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%2022%20novembre/Gafà Giovanni/Lettere_2.xml?title_annotation_20231208193241149#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title[4]/title"
+			"rdf:value": "TEI/text/body/title[4]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -1752,7 +1680,7 @@
 			<p>Né io aspetto <foreign cert="high" xml:lang="la" xml:space="default">consolationes</foreign> né attacca il<pb cert="high" xml:space="default"/> vecchio <persName key="Trucco, Terry" ref="http://viaf.org/viaf/9462161211498640070009/">trucco</persName> di dare per consolato il consolando. A smentirla: proprio ieri sera ho fatto le bave, infranto una sedia, sterminato scarafaggi e raggiunto il letto in preda all’asma. Se mi paragona ad <persName key="Achilles" ref="http://dbpedia.org/resource/Achilles" type="fictional">Achille</persName> andiamo bene. Né <persName key="Oceanids" ref="http://www.wikidata.org/entity/Q20575671" type="fictional">oceanine</persName> né tette giovano alla mia <foreign cert="high" xml:lang="grc" xml:space="default">μηνις</foreign>, che ha questo di singolare: dorme magari una settimana e scoppia nel giorno del <persName key="God in Christianity" ref="http://www.wikidata.org/entity/Q825" type="both"><persName key="God in Christianity" ref="http://www.wikidata.org/entity/Q825">Signore</persName></persName>, beneficiando dell’energia accumulata.</p>
 			<p>Del mare ho fatto la mia sputacchiera. Lo costeggio e mi ci spurgo, provocandolo a drizzare le corna e inabissare tutto il continente. Ma lui, carogna, mi lecca i piedi.</p>
 			<p>Non mi trovo discretamente che leggendo <persName key="William Shakespeare" ref="http://dbpedia.org/resource/William_Shakespeare">Shakespeare</persName> o <persName key="Isaiah" ref="http://dbpedia.org/resource/Isaiah">Isaia</persName>. Questi sono che fanno per me e a questi <persName key="Manes" ref="http://www.wikidata.org/entity/Q1164009" type="fictional">Mani</persName> dedico l’anima feroce.</p>
-			<p>Suo <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" type="real">genero</persName> – <foreign>ginöria</foreign> – mi ha mandato un uragano di libri e di pipe. L’ho già coperto di grazie e, se anche lei volesse acquistar merito, mi mandi qualche greco. Qui ho trovato <title key="Book III" ref="&amp;quot;http://www.wikidata.org/entity/Q123013544&amp;quot; &amp;quot;http://www.pontepiana.com&amp;quot;"><title key="Om" ref="http://viaf.org/viaf/7250154260445424480008/"/>Iliade III</title>, <title key="Anabasis (Xenophon)" ref="http://dbpedia.org/resource/Anabasis_(Xenophon)">Anabasi I</title>, <persName key="Lysias, c. 445-c. 380 a.C." ref="http://viaf.org/viaf/286159474047427660778/" type="real">Lisia</persName> <title key="On the Refusal of a Pension" ref="http://www.wikidata.org/entity/Q15715298">per l’invalido</title>, <persName key="Sophocles ок.496 - 406 до н.э." ref="http://viaf.org/viaf/640144647699971262821/">Sofocle</persName> <title key="Oedipus Rex" ref="http://dbpedia.org/resource/Oedipus_Rex"><title key="Sophocles. | Oedipus rex" ref="http://viaf.org/viaf/274548550/" level="m">Edipo re</title></title>, e tutto ho tradotto o sto terminando di tradurre. Gradirei molto qualcosa della <orgName key="Biblioteca Palatina, Parma" ref="http://dbpedia.org/resource/Biblioteca_Palatina,_Parma"><placeName>Palatina</placeName></orgName> o meglio ancora il <title key="Symposium (Plato)" ref="http://dbpedia.org/resource/Symposium_(Plato)">Convito platonico</title>, senza pregiudizio di altre cose, nel testo, commentati. <persName key="Homerus ca. v8. Jh." ref="http://viaf.org/viaf/5072169829180737320004/">Omero</persName> pare che me lo mandino i miei. Inutile dire che detesto il greco e chi l’ha inventato, trovo che è lingua morta, illogica e artificiosa, che specialmente l’<title key="Oedipus Rex" ref="http://dbpedia.org/resource/Oedipus_Rex">Edipo</title> è una menata da ammazzare un bue, ma tant’è: la nostra sorte è da affrontarsi con animo gagliardo e risoluto.</p>
+			Suo <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" type="real">genero</persName> – <foreign>ginöria</foreign> – mi ha mandato un uragano di libri e di pipe. L’ho già coperto di grazie e, se anche lei volesse acquistar merito, mi mandi qualche greco. Qui ho trovato <title key="Book III" ref="&amp;quot;http://www.wikidata.org/entity/Q123013544&amp;quot; &amp;quot;http://www.pontepiana.com&amp;quot;"><title key="Om" ref="http://viaf.org/viaf/7250154260445424480008/"/>Iliade III</title>, <title key="Anabasis (Xenophon)" ref="http://dbpedia.org/resource/Anabasis_(Xenophon)">Anabasi I</title>, <persName key="Lysias, c. 445-c. 380 a.C." ref="http://viaf.org/viaf/286159474047427660778/" type="real">Lisia</persName> <title key="On the Refusal of a Pension" ref="http://www.wikidata.org/entity/Q15715298">per l’invalido</title>, <persName key="Sophocles ок.496 - 406 до н.э." ref="http://viaf.org/viaf/640144647699971262821/">Sofocle</persName> <title key="Oedipus Rex" ref="http://dbpedia.org/resource/Oedipus_Rex"><title key="Sophocles. | Oedipus rex" ref="http://viaf.org/viaf/274548550/" level="m">Edipo re</title></title>, e tutto ho tradotto o sto terminando di tradurre. Gradirei molto qualcosa della <orgName key="Biblioteca Palatina, Parma" ref="http://dbpedia.org/resource/Biblioteca_Palatina,_Parma"><placeName>Palatina</placeName></orgName> o meglio ancora il <title key="Symposium (Plato)" ref="http://dbpedia.org/resource/Symposium_(Plato)">Convito platonico</title>, senza pregiudizio di altre cose, nel testo, commentati. <persName key="Homerus ca. v8. Jh." ref="http://viaf.org/viaf/5072169829180737320004/">Omero</persName> pare che me lo mandino i miei. Inutile dire che detesto il greco e chi l’ha inventato, trovo che è lingua morta, illogica e artificiosa, che specialmente l’<title key="Oedipus Rex" ref="http://dbpedia.org/resource/Oedipus_Rex">Edipo</title> è una menata da ammazzare un bue, ma tant’è: la nostra sorte è da affrontarsi con animo gagliardo e risoluto.
 			<p>Siccome poi conosco il mio pollo – dirò meglio lo suocero del pollo – le dirò che tutta la sua lettera è un campioncino da antologia.</p>
 			<p>Vi si scorge la penna leggera dei Sanssôssi, fatta alata dall’attualità, svolazzare nel cielo dell’ironia, non senza fittoni improvvisi nella quota della malizia… (se è questo che le fa dire che sono allegro, lei vede come potrei ammazzarmi dal gran ridere).</p>
 			<p>Orsù stia bene</p>
