@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,91 +15,12 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/esperimento%20LS/Prototipo%20Paesaggio%20VI%20word.xml?person_annotation_20240118170629669",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-01-18T16:06:29.669Z",
-	"dcterms:modified": "2024-01-18T16:06:29.669Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/chrisdag91",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Christian D'Agata"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/esperimento%20LS/Prototipo%20Paesaggio%20VI%20word.xml?person_annotation_20240118170629669#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/esperimento%20LS/Prototipo%20Paesaggio%20VI%20word.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/esperimento%20LS/Prototipo%20Paesaggio%20VI%20word.xml?person_annotation_20240118170629669#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/lg/l[2]/w[9]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/7440160667867003560008/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+  </teiHeader>
   <text>
       <body>
          <lg>
-            <l xml:id="sn02043"><w xml:id="mfdss01">Quest</w>’<w xml:id="cvldmvls">è</w> <w xml:id="mvsmòv">il</w> <w xml:id="dmfdls">giorno</w> <w xml:id="zflds">che</w> <w xml:id="mcdksmls">salgono</w> <w xml:id="sldsmvd">le</w> <w xml:id="zsldmvs">nebbie</w> <w xml:id="mvfkddm">dal</w> <w xml:id="vkdsmvd">fiume</w></l>
-         <l><w xml:id="dlsaafs">nella</w> <w xml:id="spcdslmcsds00012">bella</w> <w xml:id="mdaiwofdkniii112">città</w>, <w xml:id="ofmdkdslmckmck12">in</w> <w xml:id="skdmdskmcdks9991">mezzo</w> <w xml:id="dkasdksalkdoiii">a</w> <w xml:id="diw82uueui88">prati</w> <w xml:id="d16tegsdhbsh">e</w> <w xml:id="dfmsjfskaaa111"><persName key="Colline" ref="http://viaf.org/viaf/7440160667867003560008/">colline</persName></w>,</l>
+            <l xml:id="sn02043"><anchor xml:id="mfdss01"/>Quest’<anchor xml:id="cvldmvls"/>è <anchor xml:id="mvsmòv"/>il <anchor xml:id="dmfdls"/>giorno <anchor xml:id="zflds"/>che <anchor xml:id="mcdksmls"/>salgono <anchor xml:id="sldsmvd"/>le <anchor xml:id="zsldmvs"/>nebbie <anchor xml:id="mvfkddm"/>dal<anchor xml:id="vkdsmvd"/>fiume</l>
+         <l><w xml:id="dlsaafs">nella</w> <w xml:id="spcdslmcsds00012">bella</w> <w xml:id="mdaiwofdkniii112">città</w>, <w xml:id="ofmdkdslmckmck12">in</w> <w xml:id="skdmdskmcdks9991">mezzo</w> <w xml:id="dkasdksalkdoiii">a</w> <w xml:id="diw82uueui88">prati</w> <w xml:id="d16tegsdhbsh">e</w> <w xml:id="dfmsjfskaaa111">colline</w>,</l>
          <l><w xml:id="awijdakns">e</w> <w xml:id="fdksfmdsmf111">la</w> <w xml:id="iroendnks25466">sfumano</w> <w xml:id="fids93394">come</w> <w xml:id="s85jfsdnfjsx">un</w> <w xml:id="ndksandjs2223">ricordo</w>. <w xml:id="oie8sahxjsn">I</w> <w xml:id="eiwiue32h2jnd">vapori</w> <w xml:id="fdekdssmkfd02">confondono</w></l>
          <l>ogni verde, ma ancora le donne dai vivi colori</l>
          <l>vi camminano. Vanno nella bianca penombra</l>
