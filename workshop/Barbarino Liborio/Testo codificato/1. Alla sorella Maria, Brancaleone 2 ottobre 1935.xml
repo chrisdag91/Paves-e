@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -43,10 +46,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181117921",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181815858",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-15T17:11:17.921Z",
-	"dcterms:modified": "2023-11-15T17:18:15.858Z",
+	"dcterms:created": "2023-11-15T17:18:15.858Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/liboriob",
 		"@type": [
@@ -57,7 +59,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181117921#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181815858#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
@@ -68,10 +70,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181117921#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181815858#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[2]/placeName"
 		}
@@ -86,7 +88,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	}
 }]]>
         </rdf:Description>
@@ -122,10 +124,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181218787",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181828927",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-15T17:12:18.787Z",
-	"dcterms:modified": "2023-11-15T17:18:28.927Z",
+	"dcterms:created": "2023-11-15T17:18:28.927Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/liboriob",
 		"@type": [
@@ -136,7 +137,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181218787#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181828927#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
@@ -147,10 +148,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181218787#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181828927#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/placeName"
 		}
@@ -165,7 +166,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
@@ -203,10 +204,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181411561",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181803817",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-15T17:14:11.561Z",
-	"dcterms:modified": "2023-11-15T17:18:03.817Z",
+	"dcterms:created": "2023-11-15T17:18:03.817Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/liboriob",
 		"@type": [
@@ -217,7 +217,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181411561#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181803817#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
@@ -228,10 +228,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181411561#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?place_annotation_20231115181803817#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[6]/placeName"
 		}
@@ -246,7 +246,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
@@ -757,10 +757,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?organization_annotation_20231115183618009",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?organization_annotation_20231115183929346",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-15T17:36:18.009Z",
-	"dcterms:modified": "2023-11-15T17:39:29.346Z",
+	"dcterms:created": "2023-11-15T17:39:29.346Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/liboriob",
 		"@type": [
@@ -771,7 +770,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?organization_annotation_20231115183618009#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?organization_annotation_20231115183929346#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
@@ -782,10 +781,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?organization_annotation_20231115183618009#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Barbarino%20Liborio/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?organization_annotation_20231115183929346#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[6]/orgName"
 		}
@@ -800,7 +799,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -892,7 +891,7 @@
 			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName> <date when="1935-10-02" cert="high">2 ottobre 1935</date></p>
 			<p>Cara <persName cert="high" ref="#MariaSiniPavese" type="real">Maria</persName>,</p>
 			<p cert="high" part="Y" xml:space="default">ricevo <date when="1935-09-18">18</date> e <date when="1935-09-22" cert="high">22 settembre</date>. A Ruata ho scritto io.</p>
-			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
+			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e <app/>quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
 			<p>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="high"/></placeName>, poiché scrive sempre delle stupidaggini sui film nella «Gazzetta». La risposta di <orgName key="Arnoldo Mondadori Editore" ref="http://dbpedia.org/resource/Arnoldo_Mondadori_Editore" cert="high">Mondadori</orgName>, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
 			<p>La nevralgia è passata ma adesso comincia la stagione della febbre e l’aspetto da un giorno all’altro. Ti ho già scritto che non voglio assolutamente trasferimenti.</p>
 			<p>I <title key="I promessi sposi" ref="http://viaf.org/viaf/3869154387211430970004/" cert="high" level="m">Promessi Sposi</title> regalali alla signorina cui piacciono molto. Le poesie le ho corrette e spedite. Aspetto che <persName key="Carocci, Alberto" ref="http://viaf.org/viaf/8935159248119104870005/">Carocci</persName> mi scriva di averle ricevute. Se usciranno, ne riceverà certo una copia anche lei. Ma dille che di tutte vale qualcosa soltanto quella intitolata <title level="a" ref="#Dopo">Dopo</title>.</p>
