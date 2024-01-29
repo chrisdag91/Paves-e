@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>10 ott.</p>
+			<p>Anche ammesso che io abbia raggiunta la nuova tecnica che cerco di chiarirmi, va però da sé che sparsi qua e là si trovano tratti colati in larve di altre tecniche. Questo m’impedisce di vedere chiaramente l’essenza del mio modo (sia detto con cautela contro Baudelaire, in poesia non è tutto prevedibile e componendo si scelgono talvolta forme non per ragione veduta ma ad istinto; e si crea, senza sapere con definita chiarezza come). Che io tenda a sostituire allo sviluppo oggettivo della trama, la calcolata legge fantastica dell’immagine, è vero, perché così difatti intendo; ma fin dove giunga questo calcolo, che cosa importi una legge fantastica, e dove finisca l’immagine e cominci la logica, sono bei problemini.</p>
+			<p>Questa sera, sotto le rocce rosse lunari, pensavo come sarebbe di una grande poesia mostrare il dio incarnato in questo luogo, con tutte le allusioni d’immagini che simile tratto consentirebbe. Subito mi sorprese la coscienza che questo dio non c’è, che io lo so, ne sono convinto, e quindi altri avrebbe potuto fare questa poesia, non io. Di qui ho pensato come dovrà essere allusivo e all-pervading ogni mio futuro argomento,  allo stesso modo che doveva essere allusiva e all-pervading la fede nel dio incarnato nelle rocce rosse, se un poeta se ne fosse servito.</p>
+			<p>Perché non posso trattare io delle rocce rosse lunari? Ma perché esse non riflettono nulla di mio, tranne uno scarno turbamento paesistico, quale non dovrebbe mai giustificare una poesia. Se queste rocce fossero in Piemonte, saprei bene però assorbirle in un’immagine e dar loro un significato. Che viene a dire come il primo fondamento della poesia sia l’oscura coscienza del valore dei rapporti, quelli biologici magari, che già vivono una larvale vita d’immagine nella coscienza prepoetica.</p>
+			<p>Certamente dev’essere possibile, anche per me, far poesia su materia non piemontese di sfondo. Dev’essere, ma sinora non è stato quasi mai. Ciò significa che non sono ancora uscito dalla semplice rielaborazione dell’immagine materialmente rappresentata dai miei legami d’origine con l’ambiente: che, in altre parole, c’è nel mio lavorìo poetico, un punto morto, gratuito, un sottinteso materiale, di cui non mi riesce di far senza. Ma è poi davvero un residuo oggettivo o sangue indispensabile?</p>
+		</body>
+	</text>
+</TEI>
