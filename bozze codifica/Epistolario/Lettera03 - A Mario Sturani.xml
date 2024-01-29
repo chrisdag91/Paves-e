@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 				<titleStmt>
@@ -148,6 +151,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03%20-%20A%20Mario%20Sturani.xml?place_annotation_20231030192225519",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-10-30T18:22:25.519Z",
+	"dcterms:modified": "2024-01-29T09:47:55.262Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chrisdag91",
 		"@type": [
@@ -169,7 +173,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/bozze%20codifica/Epistolario/Lettera03%20-%20A%20Mario%20Sturani.xml?place_annotation_20231030192225519#Selector",
@@ -187,7 +191,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	}
 }]]>
         </rdf:Description>
