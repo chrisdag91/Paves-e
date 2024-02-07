@@ -180,13 +180,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Mestiere%20di%20vivere/1935/ottobre/Pavese_Mestiere%20di%20vivere_10%20ottobre%201935.xml?place_annotation_20240207104013756",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-07T09:40:13.756Z",
+	"dcterms:modified": "2024-02-07T09:40:13.756Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/LoResio",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lorenzo Resio"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Mestiere%20di%20vivere/1935/ottobre/Pavese_Mestiere%20di%20vivere_10%20ottobre%201935.xml?place_annotation_20240207104013756#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Mestiere%20di%20vivere/1935/ottobre/Pavese_Mestiere%20di%20vivere_10%20ottobre%201935.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Mestiere%20di%20vivere/1935/ottobre/Pavese_Mestiere%20di%20vivere_10%20ottobre%201935.xml?place_annotation_20240207104013756#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3170831",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>10 ott.</p>
 			<p>Anche ammesso che io abbia raggiunta la nuova tecnica che cerco di chiarirmi, va però da sé che sparsi qua e là si trovano tratti colati in larve di altre tecniche. Questo m’impedisce di vedere chiaramente l’essenza del mio modo (sia detto con cautela contro <persName key="Charles Baudelaire" ref="http://dbpedia.org/resource/Charles_Baudelaire" type="real">Baudelaire</persName>, in poesia non è tutto prevedibile e componendo si scelgono talvolta forme non per ragione veduta ma ad istinto; e si crea, senza sapere con definita chiarezza come). Che io tenda a sostituire allo sviluppo oggettivo della trama, la calcolata legge fantastica dell’immagine, è vero, perché così difatti intendo; ma fin dove giunga questo calcolo, che cosa importi una legge fantastica, e dove finisca l’immagine e cominci la logica, sono bei problemini.</p>
 			<p>Questa sera, sotto le rocce rosse lunari, pensavo come sarebbe di una grande poesia mostrare il dio incarnato in questo luogo, con tutte le allusioni d’immagini che simile tratto consentirebbe. Subito mi sorprese la coscienza che questo dio non c’è, che io lo so, ne sono convinto, e quindi altri avrebbe potuto fare questa poesia, non io. Di qui ho pensato come dovrà essere allusivo e all-pervading ogni mio futuro argomento,  allo stesso modo che doveva essere allusiva e all-pervading la fede nel dio incarnato nelle rocce rosse, se un poeta se ne fosse servito.</p>
-			<p>Perché non posso trattare io delle rocce rosse lunari? Ma perché esse non riflettono nulla di mio, tranne uno scarno turbamento paesistico, quale non dovrebbe mai giustificare una poesia. Se queste rocce fossero in Piemonte, saprei bene però assorbirle in un’immagine e dar loro un significato. Che viene a dire come il primo fondamento della poesia sia l’oscura coscienza del valore dei rapporti, quelli biologici magari, che già vivono una larvale vita d’immagine nella coscienza prepoetica.</p>
+			<p>Perché non posso trattare io delle rocce rosse lunari? Ma perché esse non riflettono nulla di mio, tranne uno scarno turbamento paesistico, quale non dovrebbe mai giustificare una poesia. Se queste rocce fossero in <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831">Piemonte</placeName>, saprei bene però assorbirle in un’immagine e dar loro un significato. Che viene a dire come il primo fondamento della poesia sia l’oscura coscienza del valore dei rapporti, quelli biologici magari, che già vivono una larvale vita d’immagine nella coscienza prepoetica.</p>
 			<p>Certamente dev’essere possibile, anche per me, far poesia su materia non piemontese di sfondo. Dev’essere, ma sinora non è stato quasi mai. Ciò significa che non sono ancora uscito dalla semplice rielaborazione dell’immagine materialmente rappresentata dai miei legami d’origine con l’ambiente: che, in altre parole, c’è nel mio lavorìo poetico, un punto morto, gratuito, un sottinteso materiale, di cui non mi riesce di far senza. Ma è poi davvero un residuo oggettivo o sangue indispensabile?</p>
 		</body>
 	</text>
