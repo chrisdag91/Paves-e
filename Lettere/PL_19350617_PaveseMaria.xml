@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Roma, Carceri di Regina Coeli,] 17 giugno 1935</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>oggi sono malinconico, ma speriamo che passi. La giornata passa discretamente, soltanto è molto difficile avere libri, e quindi sono sovente a terra. A proposito, siccome ho ordinato molti libri e il mio deposito è di sole 380 L. e tra le mie lettere e le vostre risposte ci vuole più di una settimana, sarà bene che mandi qualcosa per aumentare i miei fondi.</p>
+			<p>Qui sono tutti cortesissimi, peccato la mania di chiudere le porte. Ma un bel giorno le apriranno, spero. Mi chiedevi se mi sono portato il paio di scarpe. Ma quello l'ho lasciato a Torino, chiedendo il permesso di farlo ritirare da voi. Andate alle Nuove e lo troverete.</p>
+			<p>Sulla mia sorte non so nulla di preciso. Potresti però andare dal padre di Tullio a chiedergli consiglio.</p>
+			<p>Io qui faccio molta ginnastica e non ho più avuto asma. Ogni tanto mi metto il cappello in testa e passeggio per la cella immaginandomi di essere in Piazza Castello o in Via Roma o in Corso Vittorio. È quasi lo stesso.</p>
+			<p>Mi sono interrotto per mangiare pasta e piselli. Buona. Ora che mi ricordo, degli eventuali denari puoi farli depositare qui da Luigi Romano, o mandare un vaglia. Non mica mettermeli in busta!</p>
+			<p>A me una cosa secca, tra l'altro, in quest'avventura: che non ho potuto rivedere con calma le mie poesie, come mi ripromettevo, e farne un'edizione decente.</p>
+			<p>Ma speriamo che, benché manchino parecchie che volevo aggiungere, e certe volessi ancora tagliare (mai lunghe vanno le poesie) venga fuori lo stesso una cosa sopportabile.</p>
+			<p>Spero che gli amici si facciano sempre vivi. Vedo però che nessuno osa scrivermi. Ho forse la peste?</p>
+			<p>Qui fa un caldo infernale e, se fosse permesso, si starebbe benissimo nudi. Hanno sparato adesso il cannone e su questo vi saluto.</p>
+			<p>Ciau</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

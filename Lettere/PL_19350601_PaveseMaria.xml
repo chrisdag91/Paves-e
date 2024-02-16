@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Torino, Carceri Nuove,] 1° giugno 1935</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>rispondo al 29. Non possiamo scrivere che ai famigliari, ma chiunque può scriverci. Ho visto le altre cento lire. Dalle scuole, Bertola e Dainotti, puoi passare dicendo che ormai per quest'anno non vado più (finiscono al principio di giugno); quanto agli stipendi, con discrezione, se ti pagano prendili.</p>
+			<p>Roba invernale non ne occorre, anzi il pigiama non mi serve. Piuttosto cambierei volentieri il vestito che ho, con un vestito più brutto. Tanto qui non debbo far figura. Ho avuto un po' d'asma, quando ha piovuto di notte, ma è roba da niente. La pipa l'ho comperata io, qui. Da fuori non può venire.</p>
+			<p>Le poesie che hai, tienile in ordine, che non vadano perdute. Hai fatto bene a darne una copia a Sturani. Io ho saputo che è stata soppressa la «Cultura» e probabilmente tutto questo pasticcio viene di là. Ma non capisco come dirigere una rivista autorizzata, possa far andare in prigione. Tanto più che si tratta di una rivista letteraria, in cui io avevo l'unico incarico di leggere gli articoli per approvarli.</p>
+			<p>Saluti</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Torino, Carceri Nuove,] 29 maggio 1935</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>continuo a ricevere regolarmente la biancheria, mangio discretamente e fumo a volontà (la pipa!).</p>
+			<p>Io continuo a non sapere perché sono dentro, ma speriamo che un giorno o l'altro si spieghi. Ho trovato una bellissima occupazione per ingannare il tempo: mi lascio crescere le unghie (la barba no, perché me la fanno).</p>
+			<p>Scrivo qui una poesia che, per non perdere l'abitudine, ho composto, a memoria. Tu, mettila da parte e me la darai quando sarò uscito:</p>
+			<p/>
+			<p>Una breve finestra sul cielo tranquillo</p>
+			<p>calma il cuore: qualcuno c'è morto contento.</p>
+			<p>Non si può avere nuvole e piante, la terra</p>
+			<p>e anche il cielo; ogni cosa ha da far la sua vita.</p>
+			<p>Si può dare un'occhiata tranquilla, sapendo</p>
+			<p>che quel cielo ricopre ogni cosa.</p>
+			<p>I rumori</p>
+			<p>della vita vi salgono. L'immobile cielo</p>
+			<p>vede l'acqua tra i sassi, le case stupite,</p>
+			<p>le colline e le piante, e raccoglie ogni cosa</p>
+			<p>nel quadrato leggero.</p>
+			<p>Compare la nube</p>
+			<p>soda e lieta di quella sua sorte: non vuole spostarsi.</p>
+			<p>Forse a terra cammina un viandante, che vede la nube</p>
+			<p>e non sa com'è chiaro quel cielo. D'intorno</p>
+			<p>sono immobili gli alberi e le grandi colline</p>
+			<p>e il torrente.</p>
+			<p>S'invola uno strido di rondine,</p>
+			<p>ma non tocca quel cielo. Forse un uomo disteso</p>
+			<p>dentro l'erba, occhi schiusi, ne gode la vita.</p>
+			<p>Ma quell'uomo non vede altra cosa. Dev'essere morto.</p>
+			<p/>
+			<p>Non è molto bella, ma è la prima che compongo a memoria e quindi mi pare lodevole.</p>
+			<p>Io aspetto sempre notizie degli amici e delle amiche. Potresti anche dire agli amici di mandarmi una cartolina o meglio una lettera, perché non è bello trascurare gli altri nella sventura. Di' poi</p>
+			<p>a Pinelli, cattolico, di farsi vivo perché «visitare i carcerati» è un santo precetto e, siccome non mi si può visitare, che almeno mi scriva.</p>
+			<p>Spero che stiate bene e che Cesarina studiando Le mie prigioni del Pellico si ricordi che anche lo zio subisce le medesime. Credo però che, dei due, chi ci si secchi di più sia lei. Ho paura che,</p>
+			<p>di questo passo, il mio preside debba rassegnarsi a far gli esami senza di me; prova a dirglielo, perché si premunisca.</p>
+			<p>A voi, saluti svariati e affettuosi</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

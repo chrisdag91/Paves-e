@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Torino, Carceri Nuove,] 16 maggio 1935</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>sto magnificamente e speriamo che duri (il magnificamente, non lo stare). Mangiare ce n'è, avendo io in tasca qualche soldo. Oggi (3 del pomeriggio) ho già mangiato quattro volte. Quello che scarseggia è il fumare, ma economizzo le cicche dei toscani che mi dànno e le fumo nella pipa. Ho anche molto da leggere, e tutto sommato sono contento di non più far lezione. Se qualcuno fosse venuto a cercarmi o se qualche scuola avesse protestato, me lo farete sapere, badando di non far nomi, per non mettere nei pasticci gente che non ne sa nulla. Abbiamo l'impianto di riscaldamento, che sarebbero i vetri alla finestra e quando fa freddo (ma sono pieno di coperte) li chiudiamo.</p>
+			<p>Sulla mia sorte ne saprete più voi di me, non sto quindi a parlarvene. Se scrive Carocci da Firenze per le mie poesie, informatemi al più presto. Una conseguenza dello stare in cella è che si tirano dei rutti formidabili (per tenersi compagnia) e quando uscirò, non sarò più capace a trattenerli nemmeno davanti a persone di riguardo.</p>
+			<p>Ora che ci penso, al D'Azeglio non dire che ho il tifo; va' dal Preside e di' le cose come stanno. Così prenderanno un supplente.</p>
+			<p>Non mettetemi niente in aria nella mia camera. Lasciate i libri e i fogli tutti al loro posto, altrimenti non capirò poi più niente.</p>
+			<p>E voi, non fate baccano, non chiedete consiglio, non scrivete a nessuno; me la caverò presto e bene io da me solo. Di questo sono sicuro, perché in questi ultimi mesi non facevo altro che lavorare e non avevo, nemmeno volendo, il tempo di fare prodezze.</p>
+			<p>Concludo quindi con tanti auguri, specificatamente a tutta la famiglia. Dimenticavo di dire che non ho preso camera a pagamento e nemmeno la prenderò; si sta benissimo così in quella normale.</p>
+			<p>Ciau</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

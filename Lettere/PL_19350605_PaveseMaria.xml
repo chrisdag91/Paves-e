@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Torino,] 5 giugno 1935</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>come vedi sono sempre al fresco. La cosa comincia a seccare, ma d'altra parte libri da leggere ne ho e vada come vuole. Contrariamente all'opinione comune, le giornate in prigione passano molto presto. Mi par ieri che mi han condotto qui ed è già quasi un mese. Ho chiesto tempo fa di parlare al Questore per chiedergli, tra l'altro, se ce n'era ancora per un pezzo, ma finora non mi hanno chiamato. Una volta sola, ho fatto la mia deposizione e poi basta. Se è possibile, vedi di parlargli tu e di chiedergli o di darti una ragione o di chiamar me a discuterla. Mi pare che chiedo poco.</p>
+			<p>Mi avete mandato fin troppa roba da vestirmi. Vi ho rimandato il pigiamino cinese che non mi serve, torno invece a chiedere un vestito più da strapazzo per non rovinare inutilmente questo che ho. La pipa l'ho comperata io qui e di fuori non può venire. Mangio bene, sebbene un po' monotonamente e fumo quanto posso. Altro da dire non ho. Salutami tutti e sta' tranquilla.</p>
+			<p>Cesare</p>
+			<p/>
+			<p>P.S. Ho visto che hai depositato altre 200 L. Devi sapere che vivo ancora sulle 175 che avevo in tasca quando mi hanno messo dentro. E, ripeto, questi augurî non mi piacciono.</p>
+		</body>
+	</text>
+</TEI>

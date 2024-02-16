@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Torino, Carceri Nuove,] 18 maggio 1935</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>Non so niente di nuovo, ma continuo a star bene. Ho ricevuto gli indumenti e li porto tutti indosso. Continuo a credere che uscirò al più presto, ma comunque vada, sono sempre io. Siccome non ho fatto il militare, faccio conto che questo sia il servizio militare. La limitazione di libertà è suppergiù la stessa. Continua però a seccarmi per le scuole, le serali, dove gli allievi avevano bisogno di finire il programma e senza di me perderanno tempo e si faranno bocciare tutti. Il Dainotti (Via Mercanti 3) che non ha telefono, avvertilo tu di persona, se la lettera arriva a tempo, prima di lunedì sera; anzi lunedì sera stesso, quando io alle 8 e un quarto avevo lezione. Di' pure a Sturani che aspetto di bere, sul mezzo milione di sua moglie, molti liquori.</p>
+			<p>Spero che non verrete tutti i giorni a far coda alla porta e se otterrete un colloquio con me, disponetevi fin d'ora a sopportarlo virilmente, altrimenti sarò capace di rifiutarlo. Qui si stà come in convento e sono tutti gentilissimi, meno la porta. Quando uscirò, saprò che cosa pensare della mia vocazione religiosa: se posso decidermi a fare il frate o no. Credo di no, però.</p>
+			<p>Ogni tanto andiamo a spasso e fumiamo lunghi sigari, scelti con particolare cura dal distributore. Non si sa fumar bene, che in prigione. Anche quando sarò fuori, credo che verrò a rifornirmi qui. Oppure sceglierò di restar qui sempre.</p>
+			<p>In questa prigione non manca niente. C'è persino un ragno che conto di addomesticare, e, se Dio vuole che ci resti, quest'estate acchiappargli le mosche. Fra poco coltiverò una pianticella sul davanzale.</p>
+			<p>Mi raccomando ancora una volta: niente ordine nella mia camera. Metteteci sopra un giornale e non toccate più, neanche con questa scusa, per curiosare; perché ci sono lettere non adatte a persone morigerate.</p>
+			<p>Chiunque venga a trovarvi, fategli le mie feste, ma voi non andate a trovar nessuno per me.</p>
+			<p>Rinnovo i più sentiti auguri</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

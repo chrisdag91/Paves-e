@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Roma, Carceri di Regina Coeli,] 14 giugno 1935</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ho ricevuto appunto ieri la vostra lettera del 7 c. m. e così rispondo a tono. Come equipaggiamento, per ora, vado bene, perché fa un caldo infernale. Io approfitto del tempo sempre sereno per fare i bagni di sole durante la passeggiata e siccome non si può levarsi la maglia alla passeggiata io ho studiato un trucco: mi metto solo il gilet di maglia e così lo sbottono e prendo tutto il sole che voglio. Eh!</p>
+			<p>Qui si sta sempre bene per pulizia e tutto. Figuratevi che vengono a cacciarci le cimici con la fiamma ossidrica, procurandoci alcuni minuti di sano divertimento sportivo.</p>
+			<p>La cosa più grave è che continuo a comperare libri per avere da passare il tempo e spenderò somme favolose. Il sopravvitto giornaliero ondeggia dalle 4 alle 5 L. Faccio naturalmente collezione di pipe.</p>
+			<p>Ogni tanto ho un po' d'asma, credo sia per il sudore delle passeggiate, che si raffredda, ma pazienza.</p>
+			<p>Importante: A Carocci (Alberto - Via Maggio 13 - Firenze) rispondi per espresso dicendogli che proceda a stampare e vendere il libro; soltanto, se è ancora in tempo, tolga dal volume l'ultima poesia Una generazione che, più ci penso, meno mi piace. Gliel'avrei scritto io stesso, ma non facevo i conti col funzionario che mi ha messo dentro. Questa poesia fa parte di un ciclo che, essendo in prigione, non ho potuto finire e così leviamo anche lei.</p>
+			<p>Vedo che gli amici vanno aumentando. Chiunque di essi si faccia vivo, nuovo, fammi i suoi saluti e digli di scrivermi, tenendomi informato.</p>
+			<p>Io più penso alla mia situazione e più sono convinto che la terra è una valle di lacrime: il più grande poeta vivente d'Italia, e forse d'Europa, dov'è? A Regina Coeli. Cose dell'altro mondo.</p>
+			<p>Saluti a tutti</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

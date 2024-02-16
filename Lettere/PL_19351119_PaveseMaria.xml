@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino</p>
+			<p>[Brancaleone,] 19 novembre [1935]</p>
+			<p>Cara Maria,</p>
+			<p>passo il tempo imparando bei proverbi popolari. Esempio:</p>
+			<p>Corna di mamma</p>
+			<p>corna di canna;</p>
+			<p>corna di soro</p>
+			<p>corna d’oro;</p>
+			<p>corna di mugliere</p>
+			<p>corna vere.</p>
+			<p>Costretto dal freddo ho adottato il braciere. Si tratta di un guerresco bacile di rame munito di maniglie, in cui si mette cenere e, al centro, brace; poi si poggiano i piedi su un orlo di legno che corre tutt’intorno, e si passa la sera. L’ho adottato con una differenza. Costando troppo il bacile di rame, ho preso un catino di scarto, l’ho riempito di cenere e vi brucio carbonella comprata al mezzo chilo.</p>
+			<p>Succede però che – come le sartine deluse tappano porte e finestre e, acceso carbone, si stendono sul letto a rendere lo spirito – non vi è nulla di più facile che svegliarsi al mattino cadavere. Bisogna quindi, durante tutta la funzione, tenere spalancata la porta di casa e così il beneficio del calore va in tante correnti maligne, che dànno raffreddori, reumi, dolori di costa e asma essenziale. Inoltre, siccome il letto alla sera è incredibilmente umido, bisogna scaldare due mattoni e metterceli dentro. Altrimenti ci si sveglia coperti di muffa e di capelvenere. Col mal di testa, per via del carbone, ci si sveglia sempre; malgrado io, avendo i vetri rotti, sia sempre ventilato.</p>
+			<p>Ho notato che le scrofe, qui numerosissime, viste di dietro hanno una somiglianza impressionante con la vista di dietro delle signorine in genere – tacco alto e fine, gambetta nervosa, vivace sculettamento e codino frisé – e sono tentato di condurmene una a letto per compagnia. Ma non lo faccio perché la carne di maiale è un afrodisiaco.</p>
+			<p>L’asma qui viene così forte che non basta fare il fumo prima di coricarsi, ma bisogna ripeterlo alle tre di notte, dopo un doloroso risveglio per soffocamento: alzarsi dal letto nella stanza gelata e così, a culo in aria, bruciare l’incenso al Padre Eterno, che evidentemente profitta del fatto di essere un puro spirito e s’infischia se un malcontento medita di rompergli il filone della schiena.</p>
+			<p>La lettera è molto allegra, ma io no. Saluti.</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

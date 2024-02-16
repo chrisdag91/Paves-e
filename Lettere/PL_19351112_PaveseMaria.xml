@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino</p>
+			<p>[Brancaleone,] 12 novembre [1935]</p>
+			<p>Cara Maria,</p>
+			<p>lèvati dalla testa le amnistie. Dell’amnistia – quand’anche ci fosse – beneficiano quelli che hanno condanne, non quelli che hanno, come me, provvedimenti.</p>
+			<p>Ringrazia Frassinelli del suo comicissimo libro Lo sboccio di una vita. Non so dove vi siate sognato che mi rado dal barbiere. Mandami qualche mutanda più spessa, solo se hai l’occasione di un pacco, ma non fare spedizioni apposta per loro.</p>
+			<p>Nuovi libri: tutte le opere di Federico Nietzsche (in italiano) escluso Così parlò Zaratustra (Ed. Monanni).</p>
+			<p>Qui un po’ fa caldo e un po’ fa umido e, fin che non abbia imparato il ritmo, ci soffrirò. Non ho ancora infilato una volta il paletot. Solo, di notte, lo stendo sul letto.</p>
+			<p>Ringraziate Battista e Teresa della cartolina</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>
