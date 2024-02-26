@@ -90,7 +90,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "xsd:date",
-		"rdf:value": "1935-10-11"
+		"rdf:value": "undefined/undefined"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -265,8 +265,8 @@
 			<p>11 ott.</p>
 			<p>Che tutte le mie immagini non siano altro che uno sfaccettamento ingegnoso dell’immagine fondamentale: quale il mio paese tale io? Il poeta sarebbe un’immagine impersonata, inscindibile dal termine di paragone paesistico e sociale del <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831" type="real">Piemonte</placeName>.</p>
 			<p>L’essenza della sua parola importerebbe che lui e il suo paese visti in funzione reciproca sono belli. Tutto qui? Questo il <placeName ref="#ScogliodiQuarto" type="real">fatal di Quarto</placeName>?</p>
-			<p>O non piuttosto scorrono semplicemente tra me e il <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831" type="real">Piemonte</placeName> relazioni, alcune coscienti e altre inconsce, che io oggettivo e drammatizzo come posso in immagini: in immagini-racconto? E cominciano queste relazioni dalla materiale simpatia del sangue col clima e il vento, e finiscono nella + faticosa corrente spirituale che agita me e gli altri piemontesi? Ed io esprimo le cose spirituali con racconti di cose materiali e viceversa? E questo lavorio di sostituzione, di allusione, di immagine, vale in quanto segno della allusiva e all-pervading essenza nostra?</p>
-			<p>Contro il sospetto che il mio sia un Piedmontese Revival, sta la buona volontà di credere a un possibile allargamento dei valori piemontesi. La giustificazione? Questa: non è letteratura dialettale la mia – tanto lottai d’istinto e di ragione contro il dialettismo –; non vuole essere bozzettistica – e pagai d’esperienza –; cerca di nutrirsi di tutto il miglior succo nazionale e tradizionale; tenta di tenere gli occhi aperti su tutto il mondo ed è stata particolarmente sensibile ai tentativi e ai risultati nordamericani, dove mi parve di scoprire un tempo un analogo travaglio di formazione. O forse il fatto che ora non m’interessa più per nulla la cultura americana, significa che ho esaurito questo punto di vista piemontese? Credo di sì; almeno, il punto di vista come l’ho tenuto finora.</p>
+			<p>O non piuttosto scorrono semplicemente tra me e il <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831" type="real">Piemonte</placeName> relazioni, alcune coscienti e altre inconsce, che io oggettivo e drammatizzo come posso in immagini: in immagini-racconto? E cominciano queste relazioni dalla materiale simpatia del sangue col clima e il vento, e finiscono nella + faticosa corrente spirituale che agita me e gli altri piemontesi? Ed io esprimo le cose spirituali con racconti di cose materiali e viceversa? E questo lavorio di sostituzione, di allusione, di immagine, vale in quanto segno della allusiva e<term> all-pervading</term> essenza nostra?</p>
+			<p>Contro il sospetto che il mio sia un<term> Piedmontese Revival</term>, sta la buona volontà di credere a un possibile allargamento dei valori piemontesi. La giustificazione? Questa: non è letteratura dialettale la mia – tanto lottai d’istinto e di ragione contro il dialettismo –; non vuole essere bozzettistica – e pagai d’esperienza –; cerca di nutrirsi di tutto il miglior succo nazionale e tradizionale; tenta di tenere gli occhi aperti su tutto il mondo ed è stata particolarmente sensibile ai tentativi e ai risultati nordamericani, dove mi parve di scoprire un tempo un analogo travaglio di formazione. O forse il fatto che ora non m’interessa più per nulla la cultura americana, significa che ho esaurito questo punto di vista piemontese? Credo di sì; almeno, il punto di vista come l’ho tenuto finora.</p>
 		</body>
 	</text>
 </TEI>
