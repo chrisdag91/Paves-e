@@ -1124,10 +1124,167 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Saggi/La%20biografia%20romanzata%2C%20in%20La%20Cultura%2C%20maggio%201934.xml?date_annotation_20240226212621761",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-26T20:26:21.761Z",
+	"dcterms:modified": "2024-02-26T20:26:21.761Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/LoResio",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lorenzo Resio"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Saggi/La%20biografia%20romanzata%2C%20in%20La%20Cultura%2C%20maggio%201934.xml?date_annotation_20240226212621761#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Saggi/La%20biografia%20romanzata%2C%20in%20La%20Cultura%2C%20maggio%201934.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Saggi/La%20biografia%20romanzata%2C%20in%20La%20Cultura%2C%20maggio%201934.xml?date_annotation_20240226212621761#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1930-11-05"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Saggi/La%20biografia%20romanzata%2C%20in%20La%20Cultura%2C%20maggio%201934.xml?title_annotation_20240226212704559",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-26T20:27:04.559Z",
+	"dcterms:modified": "2024-02-26T20:27:04.559Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/LoResio",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lorenzo Resio"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Saggi/La%20biografia%20romanzata%2C%20in%20La%20Cultura%2C%20maggio%201934.xml?title_annotation_20240226212704559#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Saggi/La%20biografia%20romanzata%2C%20in%20La%20Cultura%2C%20maggio%201934.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Saggi/La%20biografia%20romanzata%2C%20in%20La%20Cultura%2C%20maggio%201934.xml?title_annotation_20240226212704559#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/177015450/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p><persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/" cert="high" type="real">Sinclair Lewis</persName>, da quando gli hanno dato il premio Nobel, ha scritto almeno altri due romanzi: Ann Vickers e Work of Art. Si è intanto sempre più chiarita la natura documentaria della sua opera. Episodi come l’esperienza di Ann Vickers nel penitenziario sono pura cronaca, colorita da una retorica molto vivace, ma sempre cronaca, giustapposizione di fatti, documento insomma. Qualcuno ha detto che, della vecchia generazione letteraria nordamericana fiorita dal ‘10 al ‘25, Lee Masters, O’Neill, Anderson, ecc., con le loro introspezioni psicanalitiche, i loro «casi clinici», sono i documentari, i nati morti, mentre il solo <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/">Lewis</persName> avrebbe cominciato a esprimere nei suoi romanzi quella visione del mondo più cordiale e sorridente e umana che tutti, e specialmente i suoi compatrioti, attendevano. Richiederebbe un più attento esame la formula con cui ci si è voluto sbrigare del problema degli «psicanalisti», intorno ai quali non si ripeterà mai abbastanza che, se talvolta qualcuno per una malintesa preoccupazione culturale si compiace di posare in sede di poesia per scientifico ricercatore di esperienze intentate, tuttavia il meglio delle loro opere consta di ricche pagine umane, dove molto sovente il critico ha piuttosto da affaticarsi a degnamente intendere e valutare nuovi mezzi espressivi, nuovi mondi poetici, che non da arricciare il naso accampando pretesti.</p>
+			<p><persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/" cert="high" type="real">Sinclair Lewis</persName>, da <date when="1930-11-05" cert="high">quando</date> gli hanno dato il premio Nobel, ha scritto almeno altri due romanzi: <title key="Lewis, Sinclair, 1885-1951. | Ann Vickers" ref="http://viaf.org/viaf/177015450/" level="m">Ann Vickers</title> e Work of Art. Si è intanto sempre più chiarita la natura documentaria della sua opera. Episodi come l’esperienza di Ann Vickers nel penitenziario sono pura cronaca, colorita da una retorica molto vivace, ma sempre cronaca, giustapposizione di fatti, documento insomma. Qualcuno ha detto che, della vecchia generazione letteraria nordamericana fiorita dal ‘10 al ‘25, Lee Masters, O’Neill, Anderson, ecc., con le loro introspezioni psicanalitiche, i loro «casi clinici», sono i documentari, i nati morti, mentre il solo <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/">Lewis</persName> avrebbe cominciato a esprimere nei suoi romanzi quella visione del mondo più cordiale e sorridente e umana che tutti, e specialmente i suoi compatrioti, attendevano. Richiederebbe un più attento esame la formula con cui ci si è voluto sbrigare del problema degli «psicanalisti», intorno ai quali non si ripeterà mai abbastanza che, se talvolta qualcuno per una malintesa preoccupazione culturale si compiace di posare in sede di poesia per scientifico ricercatore di esperienze intentate, tuttavia il meglio delle loro opere consta di ricche pagine umane, dove molto sovente il critico ha piuttosto da affaticarsi a degnamente intendere e valutare nuovi mezzi espressivi, nuovi mondi poetici, che non da arricciare il naso accampando pretesti.</p>
 			<p>Quanto a <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/" cert="high" type="real">Lewis</persName> è per lo meno crudele imporgli di assommare in sé tutto quel poco che di buono il laborioso ‘900 nordamericano avrebbe prodotto in fatto di poesia. Chi ai suoi tempi abbia, magari amorosamente, molto sfogliato di <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/">Lewis</persName>, si va ora sempre più convincendo che l’interesse per questo scrittore andava piuttosto alla «materia» dei suoi libri che non a quella qualunque sua elaborazione artistica che si vorrebbe definire. Tutti gli elementi della sua opera accennano a un mondo culturale e sociale che, ancor adesso, passata la sorpresa della novità, non lascia di interessarci. Ma tutti, dagli schemi della vicenda alla lingua prestata ai personaggi, c’interessano nella loro materialità: le vicende, come cronaca rappresentativa; la lingua, come documento filologico.</p>
 			<p>Che sia del tutto falsa l’opinione che fa di <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/" cert="high" type="real">Lewis</persName> il semplice satireggiatore della sua società, il soddisfatto creatore di buffi fantocci rappresentativi, mi pare ormai generalmente accettato e chi, letto distrattamente Babbitt, ancora credesse questo, veda specialmente Arrowsmith e Ann Vickers, dov’è tutto, e anche troppo, scoperto l’animo commosso e giovanilmente entusiastico dell’autore. Capita a <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/">Lewis</persName> quel che capitò a Mark Twain: per aver essi lanciato quattro epigrammi contro l’America, tutta la loro opera ha rischiato di passare per una testarda satira di uomini e cose della nazione. Ma, diversamente da Mark Twain che, per esempio nelle avventure dei due monelli sul Mississippi (The adventures of Huckleberry Finn), ha toccato senz’altro corde di vera poesia – non esclusa la creazione di un suo linguaggio, originalissimo nella tradizione stilistica dell’America, nutrito dei vari dialetti della vallata del fiume, – a <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/" cert="high" type="real">Lewis</persName>, che pure materialmente va oltre la satira, manca quella virtù di trasfigurazione, di rinverginamento della realtà, che anche di una freddura può fare qualcosa di definitivo. Bisogna riconoscere, rinunciando all’allettante teoria che <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/">Lewis</persName> segni un passo avanti nella creazione di un mezzo linguistico autoctono, che slang e volgare restano in lui colore lo-cale, non si spogliano della loro materialit??. Conferma ciò il fatto che i suoi fuochi d’artifizi linguistici si limitano al dialogo, e la trama narrativa dello stile non esce dalla generalità un po’ piatta del gergo giornalistico. Per scrivere la storia vera del volgare nordamericano ci si dovrà fermare a nomi come Walt Whitman, Mark Twain, O. Henry, Sh. Anderson e John dos Passos.</p>
 			<p>I suoi personaggi poi hanno tutta l’esteriore molteplicità e intima monotonia degli eroi della cronaca. Premette sarcasticamente <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/" cert="high" type="real">Lewis</persName> a Elmer Gantry: «Nessun personaggio di questo libro è il ritratto di una persona esistente». Il punto sta invece proprio qui: i personaggi di <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/">Lewis</persName> sono «persone esistenti», tanto «esistenti» e cioè quotidiani, di convenzione, men in the street, che i loro odî e amori non vanno oltre la notazione sommaria della cronaca; tanto «persone» che <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/" cert="high" type="real">Lewis</persName> non sa essere con loro francamente caricaturista e farne un mondo coerentemente deformato, una fantasia grottesca che si regga. Può servire a questo proposito un accenno alla tecnica costruttiva di questi romanzi: lo spunto, il pretesto, mi pare venga sempre dall’esterno. Con le debite interferenze s’intende. Main Street è tutto fatto sull’ambiente della cittadina di provincia; Babbitt, sul mondo dell’uomo d’affari; Arrowsmith, su quello dei medici; Elmer Gantry, su quello dei religiosi; Dodsworth, dei grandi industriali, Ann Vickers, delle prigioni. C’è qualcosa di meccanico – di virtuosistico e insieme di facilone – in tutto questo: <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/">Lewis</persName> si propone un ambiente, una professione, e vuota il sacco. A voler essere maligni, questi romanzi d’invenzione si direbbero biografie alla Ludwig: il mestierante sceglie via via per ragioni tutte estrinseche i suoi argomenti (la celebrità di un nome; l’importanza di una professione) e vi impianta la sua ricostruzione. Anzi, i veri personaggi di <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/" cert="high" type="real">Lewis</persName> sono gli ambienti e le professioni, e soltanto ricostruite son le persone. Certo, in questo senso <persName key="Lewis, Sinclair" ref="http://viaf.org/viaf/281473163/">Lewis</persName> è romanzatore, ché i suoi personaggi s’incontrano tali e quali nella vita – anzi, soltanto in America, tanto sono «esistenti» — mentre nessuno incontrerà mai tale e quale nella vita una figura della grande poesia, neanche a imbattersi nel poeta.</p>
