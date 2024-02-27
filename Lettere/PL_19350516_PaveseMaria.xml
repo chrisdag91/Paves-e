@@ -172,7 +172,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella Maria, Torino.</p>
+			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, Torino.</p>
 			<p>[Torino, Carceri Nuove,] <date when="1935-05-16" cert="high">16 maggio 1935</date></p>
 			<p/>
 			<p>Cara Maria,</p>
