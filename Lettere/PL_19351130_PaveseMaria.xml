@@ -93,7 +93,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella Maria, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName></p>
+			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName></p>
 			<p>[Brancaleone,] 30 novembre [1935]</p>
 			<p>Cara Maria,</p>
 			<p>avete del buon tempo a consigliarmi questa e quella mutanda, la coperta, la buona salute e tutto. Potreste anche capire da voi che quello che mi occorre me lo so cercare e, se possibile, provvedere. È poi interessantissimo ricevere che a Torino fa freddo e ci vuole il paletot. Scommetto che quest’estate faceva caldo.</p>
