@@ -327,6 +327,167 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350614_Pavese%20Maria.xml?person_annotation_20240227151214279",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-27T14:12:14.279Z",
+	"dcterms:modified": "2024-02-27T14:12:14.279Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chiaratavella",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chiara Tavella"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350614_Pavese%20Maria.xml?person_annotation_20240227151214279#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350614_Pavese%20Maria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350614_Pavese%20Maria.xml?person_annotation_20240227151214279#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/8935159248119104870005/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350614_Pavese%20Maria.xml?place_annotation_20240227151229215",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-27T14:12:29.215Z",
+	"dcterms:modified": "2024-02-27T14:12:29.215Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chiaratavella",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chiara Tavella"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350614_Pavese%20Maria.xml?place_annotation_20240227151229215#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350614_Pavese%20Maria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350614_Pavese%20Maria.xml?place_annotation_20240227151229215#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3176959",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -338,7 +499,7 @@
 			<p>Qui si sta sempre bene per pulizia e tutto. Figuratevi che vengono a cacciarci le cimici con la fiamma ossidrica, procurandoci alcuni minuti di sano divertimento sportivo.</p>
 			<p>La cosa più grave è che continuo a comperare libri per avere da passare il tempo e spenderò somme favolose. Il sopravvitto giornaliero ondeggia dalle 4 alle 5 L. Faccio naturalmente collezione di pipe.</p>
 			<p>Ogni tanto ho un po' d'asma, credo sia per il sudore delle passeggiate, che si raffredda, ma pazienza.</p>
-			<p>Importante: A Carocci (Alberto - Via Maggio 13 - Firenze) rispondi per espresso dicendogli che proceda a stampare e vendere il libro; soltanto, se è ancora in tempo, tolga dal volume l'ultima poesia Una generazione che, più ci penso, meno mi piace. Gliel'avrei scritto io stesso, ma non facevo i conti col funzionario che mi ha messo dentro. Questa poesia fa parte di un ciclo che, essendo in prigione, non ho potuto finire e così leviamo anche lei.</p>
+			<p>Importante: A <persName key="Carocci, Alberto" ref="http://viaf.org/viaf/8935159248119104870005/" cert="high" type="real">Carocci</persName> (Alberto - Via Maggio 13 - <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959" cert="high">Firenze<precision match="@ref" precision="high"/></placeName>) rispondi per espresso dicendogli che proceda a stampare e vendere il libro; soltanto, se è ancora in tempo, tolga dal volume l'ultima poesia <title cert="high" level="a" ref="#UnaGenerazione">Una generazione</title> che, più ci penso, meno mi piace. Gliel'avrei scritto io stesso, ma non facevo i conti col funzionario che mi ha messo dentro. Questa poesia fa parte di un ciclo che, essendo in prigione, non ho potuto finire e così leviamo anche lei.</p>
 			<p>Vedo che gli amici vanno aumentando. Chiunque di essi si faccia vivo, nuovo, fammi i suoi saluti e digli di scrivermi, tenendomi informato.</p>
 			<p>Io più penso alla mia situazione e più sono convinto che la terra è una valle di lacrime: il più grande poeta vivente d'Italia, e forse d'Europa, dov'è? A Regina Coeli. Cose dell'altro mondo.</p>
 			<p>Saluti a tutti</p>
