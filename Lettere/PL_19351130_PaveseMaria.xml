@@ -437,10 +437,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351130_PaveseMaria.xml?person_annotation_20240227145936108",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351130_PaveseMaria.xml?person_annotation_20240227150154371",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-27T13:59:36.108Z",
-	"dcterms:modified": "2024-02-27T13:59:36.108Z",
+	"dcterms:created": "2024-02-27T14:01:54.371Z",
+	"dcterms:modified": "2024-02-27T14:01:54.371Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/saveriovita",
 		"@type": [
@@ -451,7 +451,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351130_PaveseMaria.xml?person_annotation_20240227145936108#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351130_PaveseMaria.xml?person_annotation_20240227150154371#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351130_PaveseMaria.xml",
@@ -465,7 +465,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351130_PaveseMaria.xml?person_annotation_20240227145936108#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351130_PaveseMaria.xml?person_annotation_20240227150154371#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/persName"
 		}
@@ -494,7 +494,7 @@
 			<p>Siccome ne ho abbastanza, vi avverto che fra un mese (a Capodanno) manderò gli auguri a <placeName key="Serralunga di Crea Piedmont Italy" ref="https://geonames.org/3166666">Serralunga</placeName>. Ingegnatevi a farmi tornare prima, perché cascasse il mondo a Capodanno scriverò. Da cui s’impara che le disgrazie ingentiliscono l’uomo. E non scrivetemi che dopotutto è colpa mia e non tocca a voi aiutarmi, perché vi risponderei che, appunto perché è colpa mia, desidero che tutti – anche i nonnini – sappiano e mi giudichino come merito.</p>
 			<p>Baci</p>
 			<p>Cesare</p>
-			<p>P.S. Manderò, quando potrò, il dizionario del <persName key="Ghiotti, Candido" ref="http://viaf.org/viaf/88814384/">Ghiotti</persName>.</p>
+			<p>P.S. Manderò, quando potrò, il dizionario del <persName key="Ghiotti, Candido" ref="http://viaf.org/viaf/88814384/" type="real">Ghiotti</persName>.</p>
 		</body>
 	</text>
 </TEI>
