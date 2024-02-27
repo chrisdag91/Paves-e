@@ -169,13 +169,91 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?date_annotation_20240227144636213",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-27T13:46:36.213Z",
+	"dcterms:modified": "2024-02-27T13:46:36.213Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chiaratavella",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chiara Tavella"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?date_annotation_20240227144636213#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?date_annotation_20240227144636213#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-05-29"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Alla sorella <persName ref="#PaveseSiniMaria">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
-			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <placeName ref="#CarcereLeNuoveDiTorino">Carceri Nuove</placeName>,] 29 maggio 1935</p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <placeName ref="#CarcereLeNuoveDiTorino">Carceri Nuove</placeName>,] <date when="1935-05-29">29 maggio 1935</date></p>
 			<p/>
-			<p>Cara Maria,</p>
+			<p>Cara <persName cert="high" ref="#PaveseSiniMaria" type="real">Maria</persName>,</p>
 			<p>continuo a ricevere regolarmente la biancheria, mangio discretamente e fumo a volontà (la pipa!).</p>
 			<p>Io continuo a non sapere perché sono dentro, ma speriamo che un giorno o l'altro si spieghi. Ho trovato una bellissima occupazione per ingannare il tempo: mi lascio crescere le unghie (la barba no, perché me la fanno).</p>
 			<p>Scrivo qui una poesia che, per non perdere l'abitudine, ho composto, a memoria. Tu, mettila da parte e me la darai quando sarò uscito:</p>
@@ -203,8 +281,8 @@
 			<p>Ma quell'uomo non vede altra cosa. Dev'essere morto.</p>
 			<p/>
 			<p>Non è molto bella, ma è la prima che compongo a memoria e quindi mi pare lodevole.</p>
-			<p>Io aspetto sempre notizie degli amici e delle amiche. Potresti anche dire agli amici di mandarmi una cartolina o meglio una lettera, perché non è bello trascurare gli altri nella sventura. Di' poi</p>
-			<p>a Pinelli, cattolico, di farsi vivo perché «visitare i carcerati» è un santo precetto e, siccome non mi si può visitare, che almeno mi scriva.</p>
+			<p>Io aspetto sempre notizie degli amici e delle amiche. Potresti anche dire agli amici di mandarmi una cartolina o meglio una lettera, perché non è bello trascurare gli altri nella sventura. Di' poi a</p>
+			<p> Pinelli, cattolico, di farsi vivo perché «visitare i carcerati» è un santo precetto e, siccome non mi si può visitare, che almeno mi scriva.</p>
 			<p>Spero che stiate bene e che Cesarina studiando Le mie prigioni del Pellico si ricordi che anche lo zio subisce le medesime. Credo però che, dei due, chi ci si secchi di più sia lei. Ho paura che,</p>
 			<p>di questo passo, il mio preside debba rassegnarsi a far gli esami senza di me; prova a dirglielo, perché si premunisca.</p>
 			<p>A voi, saluti svariati e affettuosi</p>
