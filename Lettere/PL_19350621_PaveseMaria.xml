@@ -421,7 +421,7 @@
 			<p>Saluti</p>
 			<p>Cesare</p>
 			<p/>
-			<p>P.S. Una persona che potrebbe darvi un consiglio sarebbe l'amico Avv. Vaudagna.</p>
+			<p>P.S. Una persona che potrebbe darvi un consiglio sarebbe l'amico Avv. <persName ref="#VaudagnaGiuseppe" type="real">Vaudagna</persName>.</p>
 			<p>Ces</p>
 		</body>
 	</text>
