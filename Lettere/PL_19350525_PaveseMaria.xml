@@ -169,18 +169,175 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350525_PaveseMaria.xml?date_annotation_20240227143855232",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-27T13:38:55.232Z",
+	"dcterms:modified": "2024-02-27T13:38:55.232Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chiaratavella",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chiara Tavella"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350525_PaveseMaria.xml?date_annotation_20240227143855232#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350525_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350525_PaveseMaria.xml?date_annotation_20240227143855232#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-05-25"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350525_PaveseMaria.xml?place_annotation_20240227144151056",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-27T13:41:51.056Z",
+	"dcterms:modified": "2024-02-27T13:41:51.056Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chiaratavella",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chiara Tavella"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350525_PaveseMaria.xml?place_annotation_20240227144151056#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350525_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350525_PaveseMaria.xml?place_annotation_20240227144151056#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3176959",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Alla sorella <persName ref="#PaveseSiniMaria">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
-			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <placeName ref="#CarcereLeNuoveDiTorino">Carceri Nuove</placeName>,] 25 maggio 1935</p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <placeName ref="#CarcereLeNuoveDiTorino">Carceri Nuove</placeName>,] <date when="1935-05-25">25 maggio 1935</date></p>
 			<p/>
-			<p>Cara Maria,</p>
+			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
 			<p>ho ricevuto anche la tua seconda lettera, dove leggo che vi lamentate delle freddure. E che cosa si può fare altro che freddure?</p>
 			<p>Quanto al mangiare, prendo qualcosa in più ogni tanto, ma - non so come - sono diventato avaro e pongo tutta la mia ambizione a uscire di qui con qualcosa d'avanzo di quei soldi depositati. Di vestiti sto bene. Non posso scrivere che al mercoledì e al sabato. Se il soggiorno dovesse prolungarsi, gradirei ricevere una pipa nuova (purché possibile) marca G.B.D., di quelle che costano quaranta lire e sono grosse. Questa è la volta che riesco a farmi regalare una pipa dalla famiglia. Di libri per ora ne ho abbastanza qui; caso mai penseremo a cercarne più tardi (scongiuri). Continua a seccarmi delle scuole, ma insomma vedremo. Anche all'allievo d'inglese, avrete dato una ragione plausibile, spero. Spero anche che si siano fatti vivi i miei amici, a tenervi compagnia. E se le donne mi cercano ancora al telefono, vorrei sapere.</p>
 			<p>Io qui mi sostengo discretamente. C'è il vantaggio in cella, che non bisogna mai gridare a nessuno "Chiudi l'uscio!" È come facevo in casa. E voi sapete quanto questo doni alla mia tranquillità.</p>
 			<p>Ho tralasciato un momento di scrivere per mangiare una gran gavetta di pasta e fagioli, una delizia, che mi farò cantare da tutte le parti.</p>
-			<p>Non ho capito da quel che dici tu, se sono arrivate da Firenze bozze da correggere o un pacco di una diecina o più di bozze che io avevo chiesto all'editore per rilegarle a mano e regalarle agli intimi. In questo secondo caso, mettile in disparte e conservale gelosamente senza farle leggere ai curiosi, perché ci tengo ad esser fuori quando saranno note. Nel primo caso, metti da parte e rispondi che non posso correggere e che l'editore soprassieda.</p>
+			<p>Non ho capito da quel che dici tu, se sono arrivate da <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName> bozze da correggere o un pacco di una diecina o più di bozze che io avevo chiesto all'editore per rilegarle a mano e regalarle agli intimi. In questo secondo caso, mettile in disparte e conservale gelosamente senza farle leggere ai curiosi, perché ci tengo ad esser fuori quando saranno note. Nel primo caso, metti da parte e rispondi che non posso correggere e che l'editore soprassieda.</p>
 			<p>Il direttore mi ha detto che sei stata a trovarlo e mi ha chiesto come stavo. È cortesissimo e certamente, appena pubblicate le poesie, gliene manderò una copia in omaggio.</p>
 			<p>Salutami quel porco di milionario, se si fa vivo, e voi giocate allotto 15-5-35, la data del mio arresto, nella ruota di Torino, perché non bisogna lasciar sfuggire le occasioni.</p>
 			<p>Saluti</p>
