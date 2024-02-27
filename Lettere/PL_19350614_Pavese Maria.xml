@@ -492,7 +492,7 @@
 	<text>
 		<body>
 			<p>Alla sorella <persName cert="high" ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="high"/></placeName>.</p>
-			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, Carceri di Regina Coeli,] <date when="1935-06-14" cert="high">14 giugno 1935</date></p>
+			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, <placeName ref="#CarceriDiReginaCoeli">Carceri di Regina Coeli</placeName>,] <date when="1935-06-14" cert="high">14 giugno 1935</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
 			<p>ho ricevuto appunto ieri la vostra lettera del <date when="1935-06-07">7</date> c. m. e così rispondo a tono. Come equipaggiamento, per ora, vado bene, perché fa un caldo infernale. Io approfitto del tempo sempre sereno per fare i bagni di sole durante la passeggiata e siccome non si può levarsi la maglia alla passeggiata io ho studiato un trucco: mi metto solo il gilet di maglia e così lo sbottono e prendo tutto il sole che voglio. Eh!</p>
@@ -501,7 +501,7 @@
 			<p>Ogni tanto ho un po' d'asma, credo sia per il sudore delle passeggiate, che si raffredda, ma pazienza.</p>
 			<p>Importante: A <persName key="Carocci, Alberto" ref="http://viaf.org/viaf/8935159248119104870005/" cert="high" type="real">Carocci</persName> (Alberto - Via Maggio 13 - <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959" cert="high">Firenze<precision match="@ref" precision="high"/></placeName>) rispondi per espresso dicendogli che proceda a stampare e vendere il libro; soltanto, se è ancora in tempo, tolga dal volume l'ultima poesia <title cert="high" level="a" ref="#UnaGenerazione">Una generazione</title> che, più ci penso, meno mi piace. Gliel'avrei scritto io stesso, ma non facevo i conti col funzionario che mi ha messo dentro. Questa poesia fa parte di un ciclo che, essendo in prigione, non ho potuto finire e così leviamo anche lei.</p>
 			<p>Vedo che gli amici vanno aumentando. Chiunque di essi si faccia vivo, nuovo, fammi i suoi saluti e digli di scrivermi, tenendomi informato.</p>
-			<p>Io più penso alla mia situazione e più sono convinto che la terra è una valle di lacrime: il più grande poeta vivente d'Italia, e forse d'Europa, dov'è? A Regina Coeli. Cose dell'altro mondo.</p>
+			<p>Io più penso alla mia situazione e più sono convinto che la terra è una valle di lacrime: il più grande poeta vivente d'Italia, e forse d'Europa, dov'è? A <placeName ref="#CarceriDiReginaCoeli">Regina Coeli</placeName>. Cose dell'altro mondo.</p>
 			<p>Saluti a tutti</p>
 			<p>Cesare</p>
 		</body>
