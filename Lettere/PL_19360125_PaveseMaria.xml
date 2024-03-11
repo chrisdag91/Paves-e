@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>Brancaleone, 25 gennaio [1936]</p>
+			<p/>
+			<p>ricevo 15 gennaio. Tutte balle. Un uomo che ha scritto delle poesie come le mie, può ammattire in pace. Grazie delle prenotazioni. Ricevo il sussidio e ho avuto le 200 L. dell'esame. Vi rimborserò al più presto. Il corredo è in ordine.</p>
+			<p>Ricevuto Lavorare stanca. Ci sono tre errori:</p>
+			<p/>
+			<p>pag. 90 - ultima riga.</p>
+			<p>pag. 95 - riga 8: quand'è per quant'è</p>
+			<p>pag.104 - riga 3: od un' per o d'un.</p>
+			<p/>
+			<p>Cartolina da Sauze: pittoresca.</p>
+			<p>A dio</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

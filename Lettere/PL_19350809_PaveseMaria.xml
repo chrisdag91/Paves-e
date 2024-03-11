@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>Brancaleone, 9 agosto [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>sono arrivato a Brancaleone domenica 4 nel pomeriggio e tutta la cittadinanza a spasso davanti alla stazione pareva aspettare il criminale che, munito di manette, tra due carabinieri, scendeva con passo fermo, diretto al Municipio.</p>
+			<p>Il viaggio di due giorni, con le manette e la valigia, è stata un'impresa di alto turismo. Ormai il nome della famiglia è irremediabilmente compromesso. Le stazioni di Napoli e di Roma le ho attraversate nel momento di maggior traffico e bisognava vedere come la gente faceva largo al sinistro terzetto. A Roma, una bambina che va ai bagni, chiede al padre: «Papà, perché nelle manette non fanno passare la corrente elettrica?». A Napoli non è mancata nemmeno la caduta sotto la croce, sotto forma di uno stramazzone - manette, valigia e tutto - preso su una scalinata del cortile delle carceri. Allora un cireneo si è occupato della valigia.</p>
+			<p>A Salerno, cambiamento di vagone con spettacolo educativo ai ragazzini di passaggio. Passato ch'era buio a Paestum, e quindi nemmeno la soddisfazione di vedere i templi greci. A Sapri, pernottamento senza la spigolatrice. Altri cambiamenti di treno: a Sant'Eufemia e a Catanzaro. Un divertimento.</p>
+			<p>Qui ho trovato una grande accoglienza. Brave persone, abituate a peggio, cercano in tutti i modi di tenermi buono e caro. Ti farà certamente piacere sentire che, siccome risulto in grado di mantenermi, il Ministero ha deciso di non passarmi sussidio di sorta. Farò il solito ricorso col solito risultato.</p>
+			<p>Qui, sono l'unico confinato. Che qui siano sporchi è una leggenda. Sono cotti dal sole. Le donne si pettinano in strada, ma viceversa tutti fanno il bagno. Ci sono molti maiali, e le anfore si portano in bilico sulla testa. Imparerò anch'io e un giorno mi guadegnerò la vita nei varietà di Torino.</p>
+			<p>La grappa non sanno cosa sia. Se me ne mandate qualche ventina di bottiglie, io penserei a berle. (Dico sul serio). Ho ricevuto i denari e temo forte che, se il Ministero non cambia opinione sui miei mezzi, due volte al mese ve ne chiederò altrettanti. Aspetto sempre la cassa coi libri.</p>
+			<p>Ho affittato una camera con letto per 45 L., ma tutti i giorni c'è una spesa nuova, e la luce e il catino e lo spirito e lo zucchero ecc. Mi faccio io da mangiare, cioè mangio roba fredda. È brutto metter su famiglia, senza la famiglia.</p>
+			<p>La spiaggia è sul Mar Jonio, che somiglia a tutti gli altri e vale quasi il Po.</p>
+			<p>Ho ricevuto una quantità di cartoline arretrate.</p>
+			<p>Insomma, non chiedo che libri, soldi e saluti dalle amicizie.</p>
+			<p>Ciau</p>
+			<p>Cesare</p>
+			<p/>
+			<p>P.S. LIBRI MIEI DA MANDARMI:</p>
+			<p>I due volumi delle Commedie di Molière (gialli, francesi). I due voll. Il Libro della Giungla, Il Secondo Libro della Giungla di R. Kipling (il primo ha copertina a colori coi lupi e un bambino - il secondo id. col serpente e un giovanotto). I due vol. dei Plays by Ben Jonson (rilegati oliva e oro, inglesi). Poi, tra le grammatiche, i due voll. del Rocci, Grammatica Greca e Esercizi Greci. Poi un volume Nozari (?) Il dialetto omerico. E finalmente, il Vocabolario italiano-greco, verde, rilegato. Ancora: Forme verbali greche del Pechenino.</p>
+		</body>
+	</text>
+</TEI>

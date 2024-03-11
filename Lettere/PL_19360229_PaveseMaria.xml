@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 29 febbraio [1936]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>continuo a non ricevere niente. Siete d'accordo col Padre Eterno: lui mi manda l'asma, voi il mal di cuore. Se sapesse che morso da affamato, da squalo, da cancro ha la lontananza, Agata mi scriverebbe. Il libro (Lavor. stanca) dal 24 genn. era indirizzato a Lei.</p>
+			<p>Non le chiedo che una cartolina con la firma. Il 25 f. è stato il suo compleanno.</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

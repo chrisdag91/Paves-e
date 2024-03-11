@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 5 novembre [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ecco il sunto di quel libro americano che vi interessa leggere: [...].</p>
+			<p>È insomma un mediocre libro sul problema del sesso e del nervoso, quale l'America ne produce tutti gli anni.</p>
+			<p>Leggetevi, se ne avete voglia, Spoon River Anthology e troverete le stesse cose dette 20 anni prima da un poeta vero.</p>
+			<p>Io qui faccio una vita che somiglia un poco a quella dell'autore del libro che vi ho descritto. Purché non finisca allo stesso modo.</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

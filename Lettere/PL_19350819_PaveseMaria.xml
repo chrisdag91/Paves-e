@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>Brancaleone, 19 agosto [1935]</p>
+			<p/>
+			<p>C. Maria,</p>
+			<p>ho ricevuto le vostre del 10 e 12 e una cartol. di Nicchio, e ho già spedito l'istanza firmata al Ministero Educazione Nazion.</p>
+			<p>Ne ho abbastanza anche di Brancaleone. Mi alzo al mattino presto, quando viene quello del latte. Allora faccio bollire il mio 1/4 sulla macch. a spirito, perché, se lo lascio fino a mezzog., caglia. Vado poi al Roma a bere il caffè. Mi fermo fino alle 10, tentando di leggere o far poesie, ma è tanto il caldo e così diverso l'ambiente che riesco a poco. Guardo sempre la Gazz. del Popolo per paura di disgrazie di montagna. Poi vado in mare. Una volta facevo il bagno, ora mi è venuta per l'acqua salata una nevralgia in un orecchio e non posso più sommergermi. Anche questo divertimento se ne andato. Tornando, faccio la spesa, pane e frutta. A mezzog. bevo il latte già bollito, poi o mangio pane e frutta o un uovo all'olio, che mi faccio io in un padellino. Poi cerco di dormire e non ci riesco e leggicchio fino alle 4. Esco per presentarmi al Municipio alle 5, poi torno al centro e cerco di far poesie o di chiacchierare, ma mi secco. Se quel giorno ho avuto poche spese, vado a bere la birra. Torno alle 7 e faccio cena id. Lavo i piatti. Bighellono per casa e intorno, fino alle 8, cercando di far poesie, e rientro e mi cremo nel letto, non senza aver prima preso una pastiglia di chinino (a scopo profilattico, dice il maresciallo).</p>
+			<p>Dalle 7 di sera in giù, per lo sgabuzzino-cucina girano gli scarafaggi. Niente da farci. Il Flit li ingrassa, la Fulminatrice ci pisciano sopra. Amano leccare la scodella del latte e il padellino dell'ovo. Sono grossi come il pollice. Con la prima luce dell'alba, scompaiono. Siccome sto al pianterreno, ho allettato una sera una gallina e l'ho chiusa nello sgabuzzino, perché li distruggesse. Infatti lei mi ha rovesciato lo spirito e mangiato un grappolo d'uva che tenevo di riserva.</p>
+			<p>Una o due volte la settimana vado a pranzo al Roma, per rifarmi le ossa. Eppure, è incredibile, anche con questa vita, quanto si spende. I primi giorni eran sempre venti o trenta L. al giorno, che partivano (dormire, acquisto oggetti, caparre, provv. francobolli, ecc.), ora a meno di 5 L. non me la cavo mai. Tengo un registro quotidiano delle uscite, ma i soldi van lo stesso. Alla sera mi va bene che, tra l'odore dello spirito, quello degli scaraf. e il loro crepitio, e il caldo, ho poco appetito e così risparmio abbastanza.</p>
+			<p>Dicono che l'inverno qui sarà molto umido, e per giunta non sanno nemmeno cosa sia una stufa. Pure non voglio assolutamente cambiar sede. Il paese è molto buono e poi, ne ho abbastanza di viaggi in traduzione straordinaria. Spero molto nella grappa che mi manderete, per passare l'inverno. Ho fatto ricorso per avere il sussidio, ma c'è poco da sperare. Attualmente ho in tasca 450 L.</p>
+			<p>La cartol. della sign. Nina è la cosa più chiara del mondo. Basta sapere che Le è un pronome, oltreché complimentoso di II persona, anche di III. E pensare che avete uno zio prof.</p>
+			<p>La mia stanza ha davanti un cortiletto, poi la ferrovia, poi il mare. Cinque o sei volte al giorno (e la notte) mi si rinnova così la nostalgia dietro i treni che passano. Indifferente mi lasciano invece i piroscafi all'orizzonte e la luna sul mare, che con tutti i suoi chiarori mi fa pensare solo al pesce fritto. Inutile, il mare è una gran vaccata.</p>
+			<p>Quanto alle traduzioni, io vorrei fare A Storyteller's Story di Sherwood Anderson (ce l'ha Rossi). Mondadori diceva che lo traduceva e poi non s'è visto. Se riuscite a scovare il sig. Rusca, Casa Ed. Mondadori, Milano, presentategli il caso e ditegli che farei un libro più bello dell'originale (una traduzione straordinaria). Per 1000 L., per 800, per 600, se è il caso, fanno un ottimo affare. Se accettano, non c'é più che da chiedere al Minist. Interni l'autorizzazione.</p>
+			<p>Mi sono rimaste in tasca certe mie poesie di quest'inverno. Una, intitolata Dopo, è la mia sola compagnia, perché non penso ad altro. Ma questo a voi non interessa.</p>
+			<p>Salutate tutti. Vi autorizzo a far leggere alle mie amicizie la mia lettera.</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

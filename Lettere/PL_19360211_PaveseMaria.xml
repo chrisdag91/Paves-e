@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 11 febbraio [1936]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>saprete che da parecchio tempo non arrivo più a fare poesie. La serenità della mia vita (c'era qualcuno che si esprimeva così) è crepata. Tuttavia si avvicina il 25 febbraio e un ricordo ci vuole. Anche questa poesia si potrebbe intitolare Dopo. Potrete farla recitare da Cesarina alla Signorina sua maestra col nuovo titolo di L'idillio del cacciatore.</p>
+			<p>Conservatemi il V. affetto. Tuo</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

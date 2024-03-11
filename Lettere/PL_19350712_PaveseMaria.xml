@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Roma, Carceri di Regina Coeli,] 12 luglio [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ho saputo, il giorno 10, che sono denunciato alla Commissione per l'assegnazione a confino, come pericoloso per l'ordine nazionale. E va bene. Vedremo che cosa capiterà. Ho avuto facoltà di stendere un memoriale dove mi faccio le mie ragioni e lo consegnerò oggi. Non ho trascurato nulla di essenziale in questo memoriale e, se va male anche questa volta, vuol proprio dire che la mamma, quando io avevo da nascere, trascurò una sua voglia di vedere il mare, e adesso tocca a me accontentarla.</p>
+			<p>Mi rallegro con tutti i miei conoscenti che sono stati rilasciati e ritiro gli auguri che facevo a Sturani, esortandolo però a godersi la sua vincita e a lasciar perdere gli amici che hanno dei grattacapi.</p>
+			<p>Hai fatto bene a scrivere a Luigi di Roma; anche ora, se lo sapesse in tempo, forse potrebbe aiutarmi. Ho ricevuto la tua lunghissima del 3 e ti ripeto che è inutile tu venga a Roma, anche perché al tuo arrivo io potrei già essere partito per altra destinazione.</p>
+			<p>Di' a Carocci che è una canaglia a ritirarsi così davanti alla sventura.</p>
+			<p>Di' alla signorina Tina, che la ricordo sempre e anzi, nella situazione in cui sono, bisogna che me la ricordi per forza.</p>
+			<p>Io qui ho finalmente ricevuto diversi libri che avevo chiesto di comperare, tra cui la Bibbia completa, dove studio a memoria per ingannare i minuti la genealogia dei patriarchi. Finita questa, studierò i Salmi di Davide. Poi chiederò di entrare in qualche convento, se mi vorranno.</p>
+			<p>Una grande novità: non ci sono più ciliege per frutta, ma pesche. Hanno un odore di vigna e di miele che riempie la cella e rallegra le papille.</p>
+			<p>In fondo, se potessi sposarmi, non chiederei di più. Questa, in cui sono, è una posizione come un'altra, al riparo dal vento e dalla pioggia (ma purtroppo non dal caldo). Però, in un modo o nell'altro, sarà presto finita.</p>
+			<p>Io ho mal di capo dal gran fumare e frusto le pipe, come un altro consuma le scatole di sigarette. Una volta la mia pelle sapeva un buon odore di frutta esotica, ora puzza di tabacco, di sudore e di animalità, che è un piacere.</p>
+			<p>Insomma, salutameli tutti e aspetta come andrà a finire.</p>
+			<p>Il disgraziato</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

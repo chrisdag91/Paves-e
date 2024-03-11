@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 5 novembre [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ricevo 24 ott. La febbre non è arrivata, ma l'asma è ormai fissa e comincia qualche disturbino al piloro. Tra polvere per l'asma, chinino, rinoleina, e magnesia, spendo somme favolose. Soldi ne ho ancora.</p>
+			<p>Avrete già ricevute le fotografie e notizie. Altro niente</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Roma, Carceri di Regina Coeli,] 29 luglio [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>non sono ancora partito e ho ricevuto la V / del 22 c. m. Vi ho scritto il giorno 26 due lettere, dove vi spiegavo ogni cosa del mio ricorso secondo il V. / desiderio.</p>
+			<p>Quanto alle vostre suppliche, non parlatene più, altrimenti tronco la corrispondenza. Ho già fatto una volta la parte dello stupido, ne ho abbastanza. A seguire i vostri consigli, e l'avvenire e la carriera e la pace ecc., ho fatto una prima cosa contro la mia coscienza, che si è tirata dietro tutto il presente stato. Io, di suppliche, ne ho fatte qualche volta a una donna, mai ad altri.</p>
+			<p>Il ricorso è una formalità come un'altra, ma c'è poco - niente - da sperarci. Farò i miei tre anni e, se mi seccherò troppo nel decorso dei medesimi, c'è sempre il rimedio del legno di fico, a portata di mano.</p>
+			<p>Di soldi ho ancora 400 L. e presto avrò il sussidio di 5 L. al giorno. Quanto alla tassa del celibato, se non vuoi pagarla, c'è il rimedio di sentire se qualche mia conoscenza mi vuole sposare.</p>
+			<p>Non so dove andrà finire. Forse a qualche isola, in colonia con altri; forse sul continente isolato in qualche paese. In questo ultimo caso è permesso, credo, alla famiglia di convivere.</p>
+			<p>È inutile che scriviate telegrammi perché arrivano 6 giorni dopo, quasi come le lettere. Quando sarò a destinaazione (credo tra due o tre giorni) scriverò, se mi occorre qualcosa, e la lista di libri che mi dovrete mandare.</p>
+			<p>Ho intenzione, durante il confino, di farmi autorizzare a tradurre libri inglesi; tu intanto infòrmati da Frassinelli e Mondadori e altri, se me ne vogliono affidare. Chiedo 100 L. per volume e, se non basta, li traduco per niente, anche. Scrivimi di quella mia poesia Atavismo, di cui ti chiedevo. Sta in contatto con Carocci per sentire se nell'autunno, sarà il caso di farci autorizzare a stampare.</p>
+			<p>Cerca di indurre Alberto Rossi che sta in V. Goffredo Casalis (telefono), a restituirti i romanzi e poesie di Sherwood Anderson che ha in prestito da tre anni. Se non li chiedo ora, non li vedrò più.</p>
+			<p>Tu vai pure a Serralunga in piena libertà. Prima, salutami molto la signorina e di' che non se la pigli, perché io qualche volta perdo la testa; e poi salutami in ordine decrescente tutti gli amici, compreso quel coniglio di Monti che non si è fatto vivo mai. Riunite il consiglio di famiglia, lasciate passare sei mesi, e poi fate qualcosa per me, altrimenti va male.</p>
+			<p>Cesare</p>
+			<p>P.S. Mi diverte un mondo pensare che ai nonni ora dovete dirlo per forza.</p>
+		</body>
+	</text>
+</TEI>

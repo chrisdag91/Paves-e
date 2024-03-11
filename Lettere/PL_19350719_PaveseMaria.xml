@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Roma, Carceri di Regina Coeli,] 19 luglio [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>non so se sapete che sono assegnato a tre anni di confino e non so ancora dove. Lo saprò credo, e vi andrò, fra una settimana. Vi ho mandato un telegramma per fare più effetto.</p>
+			<p>Ho ricevuto tre cartoline vostre e una lettera del 10. Il memoriale, che dici, si presenta sempre, dopo la citazione davanti alla Commissione; ma io l'avevo appena presentato che è arrivata la notizia dei tre anni. Allora mi han detto che si può fare ricorso alla Commissione di Appello, il che sto facendo; ma intanto partirò per la mia destinazione. Se il ricorso ha successo, mi rilascieranno di là, poi.</p>
+			<p>Naturalmente, perché il ricorso passi, ci vorranno dei mesi; e intanto toccherà a voi interessarvi del suo successo e appoggiarlo nei limiti della possibilità.</p>
+			<p>Io non aspetto altro che di partire per la mia nuova destinazione. Sono adesso in cella con un altro, un bel tipo piccolino con una barbetta da profeta e c'imprestiamo i libri.</p>
+			<p>Di' alle conoscenze che sono state rilasciate, che adesso tocca a loro scolpar me, che non ho fatto nulla di più che conoscer loro.</p>
+			<p>Ho ricevuto una cartolina di Nina. Ringraziala.</p>
+			<p>Vedremo, se più tardi, sarà il caso di invitare Sturani o qualcun altro a venirmi a trovare.</p>
+			<p>Saluti</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

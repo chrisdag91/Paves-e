@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Roma, Carceri di Regina Coeli,] 15 luglio [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>sono dentro da due mesi e si sta sempre allegramente. Come ho scritto il 12 sono denunciato alla Commiss. del Confino e attendo sempre una decisione.</p>
+			<p>Ho ricevuto un biglietto di Guglielmo del 4, poi una lettera del 5, poi tre biglietti del 6, 7, e 8. Se credete che mi rallegri molto ricevere biglietti scritti da stazioni, dove si parla di treni che vanno e vengono, vi sbagliate.</p>
+			<p>D'importante vedo che avete parlato a Vaudagna ed altri, ma non ne vedo gli effetti. Se come vi dicono lì, la mia posizione è buona, non capisco la permanenza. In prigione è come nell'armadio: più ci lasci le mele, più quelle marciscono. A forza di starci, viene il giorno che si accorgono che del marcio dev'esserci e allora ti condannano.</p>
+			<p>Ma io non sono marcio, né dentro né fuori. C'è un tarlo che mi rode e cerca di rovinarmi, ma l'affumico con la pipa e lo tengo tranquillo.</p>
+			<p>Non mi piace che abbiate scritto a Luigi di venirmi a trovare. é una persona intelligente e sinora non è venuto, ma se venisse, vorrei sapere che cosa potrei dirgli. Staremmo lì come due salami, a guardarci il naso, maledicendo la parentela. Non fatelo più.</p>
+			<p>Piuttosto datemi notizie sulle voci femminili che mi cercano a telefono. é l'unica consolazione che ho.</p>
+			<p>Raccomanda alla signorina Nicchio di non smarrire le mie poesie che aveva in lettura, specialmente una, intitolata Atavismo di cui l'unica copia si trova da lei. Tengo più a quello che alla mia libertà (si dice per scherzo).</p>
+			<p>Io ho una voglia di vedere il mare che spacca. Sarò, credo, presto accontentato. Tutto dipende dal tempo che ci dovrò stare. Purché non si mangi pesce.</p>
+			<p>Il paradiso delle pesche è presto finito. Ci danno adesso certe mele cotte che sembrano di cenere; ma tutto ha la sua utilità, sono buone contro la stitichezza, che, unita all'asma, mi otturava il corpo da tutte le parti.</p>
+			<p>Io sogno quotidianamente belle malattie a lungo decorso: tifo, nefrite, meningite, rottura di arti, colpo apoplettico con paralisi parziale, ecc. sperando che in questo modo potrei cambiar posto e vedere, nell'infermeria, un po' di mondo. Ma naturalmente non sono mai stato sano come ora. Sono sicuro che se mi dessero la larga, subito farei qualche lunga e dolorosa malattia.</p>
+			<p>Concluderò pregandoti categoricamente di non farmi più quelle lunghe tiritere sugli amici in libertà, e la mia innocenza che deve trionfare e tutto. Sono cose che so anch'io e non vale la pena di parlarne più. Fatemi uscire piuttosto. Col che, ritorno a leggere la Critica della Ragion Pratica di Em. Kant e vi saluto allegramente.</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

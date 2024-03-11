@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Roma, Carceri di Regina Coeli,] venerdì 5 luglio [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>avrai notato che le lettere del venerdì sono più allegre di quelle del lunedì: la ragione è semplice. Al lunedì deve ancora passare una settimana, al venerdì è già quasi finita. é straordinario come si desidera d'invecchiare, stando in prigione.</p>
+			<p>Continuo a godere salute e credo che ingrasserò. I polli, per ottenere quest'effetto, si chiudono nella stia; gli uomini in prigione. Ho ricevuto le 300 L. e il biglietto di Guglielmo che me ne avvertiva. Ho ricevuto la tua lettera del 28 g., dove vedo che prendi parte alle mie afflizioni, ma naturalmente non basta. Fin che tu sola sei convinta della mia innocenza io continuerò a star dentro. E nemmeno basta che persone di specchiata condotta, come Pinelli e Chabod, sappiano del mio disinteresse per ogni sorta di eresia politica e della mia buona fede. Bisogna convincerne Roma.</p>
+			<p>Quanto a Vaudagna non è trasferito ad Alessandria, ma ad Asti, e potresti fargli parlare da Sturani. Un uomo che mi conosce come Vaudagna, che ha convissuto con me settimane e mi apprezza per quel che sono, cioè un poeta serio e bene intenzionato, non avrebbe difficoltà a trovare qualche modo di aiutarmi. Sempre che sia disposto a interessarsi della cosa.</p>
+			<p>Mi fa piacere e mi rovella che M. Luisa e Cesarina siano in campagna, perché mi fa sentire di più la mia vita cittadina, ma via! sono giovani e si divertano.</p>
+			<p>Del caldo è meglio non parlarne. Parliamo piuttosto delle voci femminili che mi hanno cercato al telefono. Amerei sapere chi sono, e naturalmente congratularmi con loro, che pongono il loro interesse in un rottame umano come me.</p>
+			<p>Non parlatemi più di andare in barca in Po, perché mi viene la schiuma alle labbra. Tant'acqua che mi aspetta là, e qui tanto sudore!</p>
+			<p>Per consolarmi sto leggendo le Osservazioni sulla Morale Cattolica del Manzoni e verrà presto il giorno che mi convertirò a vita migliore. Intanto ho chiesto di comperare la Bibbia, che è sempre un gran libro e soprattutto molto lungo, il che mi assicura materia da occuparmi per molto tempo.</p>
+			<p>Ho un solo rimpianto (tra i molti): di non poter far poesie. Ma vuol dire che accumulerò il materiale per quando sarò restituito alla società.</p>
+			<p>Salutami tutti: Pinelli, Chabod, Sturani, Bobbio, Irma, Luigi, la sign.a Gilardini, Battista, Teresa, Guglielmo, le donne, Giovanna, i nonni (se si son fatti vivi) e ogni altro che avessi dimenticato.</p>
+			<p>Ciau</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>
