@@ -642,6 +642,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360302_PaveseMaria.xml?title_annotation_20240314171641118",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-14T16:16:41.118Z",
+	"dcterms:modified": "2024-03-14T16:16:41.118Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360302_PaveseMaria.xml?title_annotation_20240314171641118#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360302_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360302_PaveseMaria.xml?title_annotation_20240314171641118#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[17]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Moby-Dick",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -661,7 +740,7 @@
 			<p>Guardo per dei quarti d'ora su un testo di geografia una veduta del <placeName ref="#GranParadiso">Gran Paradiso</placeName>.</p>
 			<p>Mi tocco il neo sulla guancia per convincermi di essere proprio io.</p>
 			<p>Canterello «<title level="m" ref="#CarognaCarogna">Carogna carogna</title>».</p>
-			<p>Rivedo i tempi che traducevo «la Balena Bianca» e tutto era ancora da avvenire.</p>
+			<p>Rivedo i tempi che traducevo «<title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick">la Balena Bianca</title>» e tutto era ancora da avvenire.</p>
 			<p>Ripenso a quando mi permettevo di non dormire una notte per un po' di gelosia - osavo darle questo nome - e non sapevo quale morso da affamato, da squalo, da cancro abbia la lontananza.</p>
 			<p>Ricordo la rabbia contro i terzi che volevano venire con me in barca in Po e rimpiango la mia passata infelicità.</p>
 			<p>Mi trovo troppo stupido ad aver creduto in passato che l'isolamento individuale, anche di un attimo, fosse la felicità.</p>
