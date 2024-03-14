@@ -253,11 +253,11 @@
 			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>,] <date when="1936-03-02">2 marzo [1936]</date></p>
 			<p/>
-			<p>Cara Maria,</p>
+			<p>Cara <persName ref="#MariaSiniPavese">Maria</persName>,</p>
 			<p>Quando un uomo invece di scrivere poesie, scrive lettere, è finito.</p>
 			<p>Brutta cosa, la memoria.</p>
 			<p>Metto fuori il naso alla sera, e vedo Orione, bello limpido, che mi ricorda un libro letto in altri tempi.</p>
-			<p>Respiro l'odore di linfa, alla finestra, e mi ricordo quando andavo a fare scuola a Corradino in fondo a Via Nizza due anni fa.</p>
+			<p>Respiro l'odore di linfa, alla finestra, e mi ricordo quando andavo a fare scuola a Corradino in fondo a <placeName ref="#TorinoViaNizza">Via Nizza</placeName> due anni fa.</p>
 			<p>Passa il treno e mi viene in mente domani mattina, che ne correrò uno alle quattro attraverso la pineta di Viareggio.</p>
 			<p>Guardo le montagne in distanza e tremo dal freddo, ripensando al Natale di Cheneil (tre giorni allora - ora tre anni).</p>
 			<p>Mi spoglio per andare a letto e compiango il mio nudo, così giovanilmente bello e così solo.</p>
