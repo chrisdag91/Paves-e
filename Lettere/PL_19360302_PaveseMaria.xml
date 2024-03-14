@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360302_PaveseMaria.xml?place_annotation_20240314165422095",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-14T15:54:22.095Z",
+	"dcterms:modified": "2024-03-14T15:54:22.095Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360302_PaveseMaria.xml?place_annotation_20240314165422095#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360302_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360302_PaveseMaria.xml?place_annotation_20240314165422095#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3164433",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -258,7 +337,7 @@
 			<p>Brutta cosa, la memoria.</p>
 			<p>Metto fuori il naso alla sera, e vedo Orione, bello limpido, che mi ricorda un libro letto in altri tempi.</p>
 			<p>Respiro l'odore di linfa, alla finestra, e mi ricordo quando andavo a fare scuola a Corradino in fondo a <placeName ref="#TorinoViaNizza">Via Nizza</placeName> due anni fa.</p>
-			<p>Passa il treno e mi viene in mente domani mattina, che ne correrò uno alle quattro attraverso la pineta di Viareggio.</p>
+			<p>Passa il treno e mi viene in mente domani mattina, che ne correrò uno alle quattro attraverso la pineta di <placeName key="Viareggio Tuscany Italy" ref="https://geonames.org/3164433">Viareggio</placeName>.</p>
 			<p>Guardo le montagne in distanza e tremo dal freddo, ripensando al Natale di Cheneil (tre giorni allora - ora tre anni).</p>
 			<p>Mi spoglio per andare a letto e compiango il mio nudo, così giovanilmente bello e così solo.</p>
 			<p>Esco al mattino presto, appena è consentito, e mi ricordo quando andavo all'alba al caffè, aspettando e fumando la pipa.</p>
