@@ -173,7 +173,7 @@
 	<text>
 		<body>
 			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
-			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, Carceri di Regina Coeli,] 24 giugno 1935</p>
+			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, <placeName ref="#CarceriDiReginaCoeli">Carceri di Regina Coeli</placeName>,] 24 giugno 1935</p>
 			<p/>
 			<p>Cara Maria,</p>
 			<p>rispondo alla lettera del 15 e al biglietto del 16. Ho ricevuto anche la cartolina di Giovanna e Cesarina e di' che le ringrazio.</p>
