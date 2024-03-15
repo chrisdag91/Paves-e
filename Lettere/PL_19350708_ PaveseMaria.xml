@@ -247,14 +247,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350708_%20PaveseMaria.xml?date_annotation_20240315131911703",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-15T12:19:11.703Z",
+	"dcterms:modified": "2024-03-15T12:19:11.703Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350708_%20PaveseMaria.xml?date_annotation_20240315131911703#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350708_%20PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350708_%20PaveseMaria.xml?date_annotation_20240315131911703#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-07-02"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
 			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, <placeName ref="#CarceriDiReginaCoeli">Carceri di Regina Coeli</placeName>,] <date when="1935-07-08">8 luglio [1935]</date></p>
 			<p/>
-			<p>Cara Maria,</p>
-			<p>ricevo, del 2 luglio, la tua lettera e la cartolina di Guglielmo.</p>
+			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
+			<p>ricevo, del <date when="1935-07-02">2 luglio</date>, la tua lettera e la cartolina di <persName ref="#SiniGuglielmo" type="real">Guglielmo</persName>.</p>
 			<p>Io, di nuovo, so che non dipendo più dalla Direzione Generale di Pubb. Sicurezza, ma dalla R.a Questura di Roma. Non vedo chiaro che cosa significhi. Sono contento che qualcuno degli arrestati con me sia in libertà; tutta gente che ne sa tanto come me, e questo mi fa sperare sul mio conto.</p>
 			<p>Hai fatto bene a scrivere a Luigi, ma faresti male a decidere di venire a Roma per un colloquio o altro. Anzitutto non bisogna sprecare il denaro in viaggi inutili e poi sai bene che né io tengo a queste cose, né queste cose servono a nulla. Almeno per deciderti aspetta di sapere definitivamente la mia sorte.</p>
 			<p>Libri ho chiesto di comperarne parecchi, ma sinora ne è giunto uno solo. Oltre al prestito normale di due voll. per settimana dalla Circolante, c'è per noi una Biblioteca Speciale che ci dà sei libri ogni quindici giorni. Finalmente, compro giornali e riviste. Così passo il tempo alla meglio.</p>
