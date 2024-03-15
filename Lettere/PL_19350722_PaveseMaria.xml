@@ -720,6 +720,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350722_PaveseMaria.xml?person_annotation_20240315150826647",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-15T14:08:26.647Z",
+	"dcterms:modified": "2024-03-15T14:08:26.647Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350722_PaveseMaria.xml?person_annotation_20240315150826647#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350722_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350722_PaveseMaria.xml?person_annotation_20240315150826647#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Giulio_Einaudi",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -729,7 +808,7 @@
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
 			<p>probabilmente questa è l'ultima lettera che scrivo da <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, ma non so ancora dove andrò a passare i tre anni di confino.</p>
 			<p>Io, che abbia da scrivere e da leggere, sto bene dappertutto; ma mi secca dei tre anni, perché avevo una cosa da fare a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, che a rimandarla va in tanto veleno. Preferirei mi avessero dato 100 bastonate sulla pianta dei piedi, o tagliato la mano sinistra e il piede destro, piuttosto che farmi stare tre anni lontano da <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>. Non mi dispiace esser lontano dalla famiglia, ma lasciamo stare.</p>
-			<p>Se voi ci tenete a rivedermi, una via di salvezza c'è ancora. Ho fatto ricorso d'appello in data <date when="1935-07-20">20 luglio</date> e, forse presto, forse tra qualche mese, il ricorso sarà discusso dalla Commissione Centrale per il Confino (<orgName key="Ministry of the Interior (Italy)" ref="http://dbpedia.org/resource/Ministry_of_the_Interior_(Italy)">Ministero Interni</orgName>). Interessatevi di questa pratica, anche per mezzo di <persName ref="#SiniLuigi" type="real">Luigi</persName>, ché io non posso certo farci più nulla. (Incombenze a parte) non sono trattenuto per la gerenza della «Cultura». In questo caso non avreste incontrato a spasso per <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> Einaudi.</p>
+			<p>Se voi ci tenete a rivedermi, una via di salvezza c'è ancora. Ho fatto ricorso d'appello in data <date when="1935-07-20">20 luglio</date> e, forse presto, forse tra qualche mese, il ricorso sarà discusso dalla Commissione Centrale per il Confino (<orgName key="Ministry of the Interior (Italy)" ref="http://dbpedia.org/resource/Ministry_of_the_Interior_(Italy)">Ministero Interni</orgName>). Interessatevi di questa pratica, anche per mezzo di <persName ref="#SiniLuigi" type="real">Luigi</persName>, ché io non posso certo farci più nulla. (Incombenze a parte) non sono trattenuto per la gerenza della «Cultura». In questo caso non avreste incontrato a spasso per <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> <persName key="Giulio Einaudi" ref="http://dbpedia.org/resource/Giulio_Einaudi">Einaudi</persName>.</p>
 			<p>Di' ai miei amici autorevoli che s'impicchino: se è quello tutto il credito di cui godono, vadano al diavolo, loro e i loro saluti.</p>
 			<p>Ciau</p>
 			<p>Cesare</p>
