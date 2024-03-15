@@ -325,6 +325,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350628_PaveseMaria.xml?place_annotation_20240315112229586",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-15T10:22:29.586Z",
+	"dcterms:modified": "2024-03-15T10:22:29.586Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350628_PaveseMaria.xml?place_annotation_20240315112229586#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350628_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350628_PaveseMaria.xml?place_annotation_20240315112229586#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3166666",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350628_PaveseMaria.xml?person_annotation_20240315112400938",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-15T10:24:00.938Z",
+	"dcterms:modified": "2024-03-15T10:24:00.938Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350628_PaveseMaria.xml?person_annotation_20240315112400938#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350628_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350628_PaveseMaria.xml?person_annotation_20240315112400938#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/56763727/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -336,8 +494,8 @@
 			<p>Ma d'altra parte, a che cosa serve scrivere? Io ne ho fino alla gola e vorrei solo addormentarmi per non sentire più niente. Non faccio altro che attendere. Ormai tocca a voi interessarvi per ridarmi all'aria, perché di propria iniziativa qui si sa quando si entra, ma non se si esce. Se poi viene l'inverno, il meno che ci lascio è la pelle.</p>
 			<p>Avrete ricevuto dove chiedevo, se potete, di mandarmi denaro. Ne consumo in media 4 L. al giorno, ma ne vanno di più in giornali e libri. È molto educativo il pensiero che potrei non disporre nemmeno di un soldo e allora né fumare, né libri, niente. Attualmente ho ancora 320 L.</p>
 			<p>A parte quanto sopra, qui non si può dire che si stia male. Non è quel che c'è, è quel che non c'è che abbatte. Ed ora basta coi lamenti.</p>
-			<p>Io aspetto sempre notizie delle mie <rs ref="#LavorareStanca">poesie</rs> e dei miei amici e vostre. Vi ho già scritto di fare per Serralunga come niente fosse, tenetemi solo avvertito.</p>
-			<p>Non so se avete già avvertito Luigi di Roma della mia avventura; se no, fatelo. Dite a Mario che gli auguro di andare un giorno o l'altro in prigione anche lui, perché non è giusto: lui si sposa, lui vince alla Lotteria di Tripoli mezzo milione, lui viaggia, e io che gli assomiglio come una goccia d'acqua debbo star dentro? A meno che la ricchezza non sia, come dicono, una prigione d'oro.</p>
+			<p>Io aspetto sempre notizie delle mie <rs ref="#LavorareStanca">poesie</rs> e dei miei amici e vostre. Vi ho già scritto di fare per <placeName key="Serralunga di Crea Piedmont Italy" ref="https://geonames.org/3166666">Serralunga</placeName> come niente fosse, tenetemi solo avvertito.</p>
+			<p>Non so se avete già avvertito Luigi di Roma della mia avventura; se no, fatelo. Dite a <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/">Mario</persName> che gli auguro di andare un giorno o l'altro in prigione anche lui, perché non è giusto: lui si sposa, lui vince alla Lotteria di Tripoli mezzo milione, lui viaggia, e io che gli assomiglio come una goccia d'acqua debbo star dentro? A meno che la ricchezza non sia, come dicono, una prigione d'oro.</p>
 			<p>Io sogno di fare i bagni di mare e li faccio di sudore, il che mi dà alla notte un certo catarrino; non proprio asma, ma quel tanto che basta per star sveglio e sentir passare il tempo. Ché non sarebbe giusto sottrarre alla prigionia le ore di sonno: da noi le cose o si fanno o non si fanno.</p>
 			<p>Ciau</p>
 			<p>Cesare</p>
