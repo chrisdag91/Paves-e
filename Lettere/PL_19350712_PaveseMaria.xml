@@ -404,6 +404,163 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350712_PaveseMaria.xml?date_annotation_20240315133749111",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-15T12:37:49.111Z",
+	"dcterms:modified": "2024-03-15T12:37:49.111Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350712_PaveseMaria.xml?date_annotation_20240315133749111#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350712_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350712_PaveseMaria.xml?date_annotation_20240315133749111#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-07-03"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350712_PaveseMaria.xml?place_annotation_20240315133804984",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-15T12:38:04.984Z",
+	"dcterms:modified": "2024-03-15T12:38:04.984Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350712_PaveseMaria.xml?place_annotation_20240315133804984#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350712_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350712_PaveseMaria.xml?place_annotation_20240315133804984#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3169070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -413,7 +570,7 @@
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
 			<p>ho saputo, il giorno <date when="1935-07-10">10</date>, che sono denunciato alla Commissione per l'assegnazione a confino, come pericoloso per l'ordine nazionale. E va bene. Vedremo che cosa capiterà. Ho avuto facoltà di stendere un memoriale dove mi faccio le mie ragioni e lo consegnerò oggi. Non ho trascurato nulla di essenziale in questo memoriale e, se va male anche questa volta, vuol proprio dire che la mamma, quando io avevo da nascere, trascurò una sua voglia di vedere il mare, e adesso tocca a me accontentarla.</p>
 			<p>Mi rallegro con tutti i miei conoscenti che sono stati rilasciati e ritiro gli auguri che facevo a <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" type="real">Sturani</persName>, esortandolo però a godersi la sua vincita e a lasciar perdere gli amici che hanno dei grattacapi.</p>
-			<p>Hai fatto bene a scrivere a Luigi di Roma; anche ora, se lo sapesse in tempo, forse potrebbe aiutarmi. Ho ricevuto la tua lunghissima del 3 e ti ripeto che è inutile tu venga a Roma, anche perché al tuo arrivo io potrei già essere partito per altra destinazione.</p>
+			<p>Hai fatto bene a scrivere a Luigi di Roma; anche ora, se lo sapesse in tempo, forse potrebbe aiutarmi. Ho ricevuto la tua lunghissima del <date when="1935-07-03">3</date> e ti ripeto che è inutile tu venga a <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, anche perché al tuo arrivo io potrei già essere partito per altra destinazione.</p>
 			<p>Di' a Carocci che è una canaglia a ritirarsi così davanti alla sventura.</p>
 			<p>Di' alla signorina Tina, che la ricordo sempre e anzi, nella situazione in cui sono, bisogna che me la ricordi per forza.</p>
 			<p>Io qui ho finalmente ricevuto diversi libri che avevo chiesto di comperare, tra cui la Bibbia completa, dove studio a memoria per ingannare i minuti la genealogia dei patriarchi. Finita questa, studierò i Salmi di Davide. Poi chiederò di entrare in qualche convento, se mi vorranno.</p>
