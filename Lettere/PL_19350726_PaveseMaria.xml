@@ -874,6 +874,241 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml?date_annotation_20240317231646522",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-17T22:16:46.522Z",
+	"dcterms:modified": "2024-03-17T22:16:46.522Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml?date_annotation_20240317231646522#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml?date_annotation_20240317231646522#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-07-20"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml?date_annotation_20240317231702198",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-17T22:17:02.198Z",
+	"dcterms:modified": "2024-03-17T22:17:02.198Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml?date_annotation_20240317231702198#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml?date_annotation_20240317231702198#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-07-12"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml?place_annotation_20240317231737276",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-17T22:17:37.276Z",
+	"dcterms:modified": "2024-03-17T22:17:37.276Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml?place_annotation_20240317231737276#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350726_PaveseMaria.xml?place_annotation_20240317231737276#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3173435",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -884,7 +1119,7 @@
 			<p>ho ricevuto una lettera del <date when="1935-07-13">13</date>, due cartoline e due telegrammi. Ringrazia <persName ref="#SiniIrma" type="real">Irma</persName> della cartolina. Siccome un telegr. era a risposta pagata, ho risposto per telegramma precisando la data dell'assegnazione (<date when="1935-07-15">15 luglio</date>) e promettendo una lettera. Eccola qui.</p>
 			<p>Naturalmente ho ricorso alla Comm. Centrale per il Confino presso <orgName key="Ministry of the Interior (Italy)" ref="http://dbpedia.org/resource/Ministry_of_the_Interior_(Italy)">Ministero Interni</orgName>. La motivazione della condanna (spero che non sia contro i regolamenti farvela sapere) è: ritenuto pericoloso per l'ordine nazionale, per aver svolto a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> e a <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName> attività politica tale da avere nuociuto agli interessi nazionali.</p>
 			<p>Io, il giorno <date when="1935-07-12">12</date>, avevo presentato un memoriale (detto deduzioni) come da invito della notificazione di denuncia alla Commissione, fatta il <date when="1935-07-10">10</date>. Non ne ho saputo altro e il <date when="1935-07-15">15</date> mi hanno comunicato nelle carceri la condanna.</p>
-			<p>Il mio ricorso, datato del 20 luglio, si richiama al mio memoriale del 12 e respinge l'accusa in blocco, ammettendo semplicemente innocenti rapporti di amicizia con persone che possono essere sospette. Spiegarvi minutamente come nel memoriale io risponda alle imputazioni dell'istruttoria non credo sia permesso. Basti questo: io a Milano ci sono stato nella mia vita due o tre ore per parlare con l'editr. Treves, nel 1932.</p>
+			<p>Il mio ricorso, datato del <date when="1935-07-20">20 luglio</date>, si richiama al mio memoriale del <date when="1935-07-12">12</date> e respinge l'accusa in blocco, ammettendo semplicemente innocenti rapporti di amicizia con persone che possono essere sospette. Spiegarvi minutamente come nel memoriale io risponda alle imputazioni dell'istruttoria non credo sia permesso. Basti questo: io a <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName> ci sono stato nella mia vita due o tre ore per parlare con l'editr. Treves, nel 1932.</p>
 			<p>E adesso che sapete il tutto, dormiteci sopra. Il ricorso può passare subito e può passare fra mesi; qualcuno dovrà interessarsene, anche per sapermene comunicare l'esito al più presto.</p>
 			<p>Io da un momento all'altro aspetto di partire per il confino (non so ancora dove), ma l'attesa può anche durare un mese.</p>
 			<p>Le vostre lettere e cartoline hanno pochissimo sugo. Se non fosse perché in esse mi fate i saluti delle mie amicizie, vi direi di non scrivermi più, che non ne vale la pena. È una bella consolazione ricevere i vostri lamenti che non ho potuto fare il concorso, e che voi non potete farci niente, e che l'innocenza trionferà.</p>
