@@ -169,14 +169,248 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?date_annotation_20240318005439916",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-17T23:54:39.916Z",
+	"dcterms:modified": "2024-03-17T23:54:39.916Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?date_annotation_20240318005439916#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?date_annotation_20240318005439916#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-08-19"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?date_annotation_20240318005517126",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-17T23:55:17.126Z",
+	"dcterms:modified": "2024-03-17T23:55:17.126Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?date_annotation_20240318005517126#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?date_annotation_20240318005517126#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-08-10"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?date_annotation_20240318005531962",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-17T23:55:31.962Z",
+	"dcterms:modified": "2024-03-17T23:55:31.962Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?date_annotation_20240318005531962#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?date_annotation_20240318005531962#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-08-12"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
-			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>, 19 agosto [1935]</p>
+			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>, <date when="1935-08-19">19 agosto [1935]</date></p>
 			<p/>
-			<p>C. Maria,</p>
-			<p>ho ricevuto le vostre del 10 e 12 e una cartol. di Nicchio, e ho già spedito l'istanza firmata al Ministero Educazione Nazion.</p>
+			<p>C. <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
+			<p>ho ricevuto le vostre del <date when="1935-08-10">10</date> e <date when="1935-08-12">12</date> e una cartol. di Nicchio, e ho già spedito l'istanza firmata al Ministero Educazione Nazion.</p>
 			<p>Ne ho abbastanza anche di Brancaleone. Mi alzo al mattino presto, quando viene quello del latte. Allora faccio bollire il mio 1/4 sulla macch. a spirito, perché, se lo lascio fino a mezzog., caglia. Vado poi al Roma a bere il caffè. Mi fermo fino alle 10, tentando di leggere o far poesie, ma è tanto il caldo e così diverso l'ambiente che riesco a poco. Guardo sempre la Gazz. del Popolo per paura di disgrazie di montagna. Poi vado in mare. Una volta facevo il bagno, ora mi è venuta per l'acqua salata una nevralgia in un orecchio e non posso più sommergermi. Anche questo divertimento se ne andato. Tornando, faccio la spesa, pane e frutta. A mezzog. bevo il latte già bollito, poi o mangio pane e frutta o un uovo all'olio, che mi faccio io in un padellino. Poi cerco di dormire e non ci riesco e leggicchio fino alle 4. Esco per presentarmi al Municipio alle 5, poi torno al centro e cerco di far poesie o di chiacchierare, ma mi secco. Se quel giorno ho avuto poche spese, vado a bere la birra. Torno alle 7 e faccio cena id. Lavo i piatti. Bighellono per casa e intorno, fino alle 8, cercando di far poesie, e rientro e mi cremo nel letto, non senza aver prima preso una pastiglia di chinino (a scopo profilattico, dice il maresciallo).</p>
 			<p>Dalle 7 di sera in giù, per lo sgabuzzino-cucina girano gli scarafaggi. Niente da farci. Il Flit li ingrassa, la Fulminatrice ci pisciano sopra. Amano leccare la scodella del latte e il padellino dell'ovo. Sono grossi come il pollice. Con la prima luce dell'alba, scompaiono. Siccome sto al pianterreno, ho allettato una sera una gallina e l'ho chiusa nello sgabuzzino, perché li distruggesse. Infatti lei mi ha rovesciato lo spirito e mangiato un grappolo d'uva che tenevo di riserva.</p>
 			<p>Una o due volte la settimana vado a pranzo al Roma, per rifarmi le ossa. Eppure, è incredibile, anche con questa vita, quanto si spende. I primi giorni eran sempre venti o trenta L. al giorno, che partivano (dormire, acquisto oggetti, caparre, provv. francobolli, ecc.), ora a meno di 5 L. non me la cavo mai. Tengo un registro quotidiano delle uscite, ma i soldi van lo stesso. Alla sera mi va bene che, tra l'odore dello spirito, quello degli scaraf. e il loro crepitio, e il caldo, ho poco appetito e così risparmio abbastanza.</p>
