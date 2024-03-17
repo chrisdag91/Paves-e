@@ -279,10 +279,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350805_PaveseMaria.xml?place_annotation_20240317234754538",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350805_PaveseMaria.xml?place_annotation_20240318002333963",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-17T22:47:54.538Z",
-	"dcterms:modified": "2024-03-17T22:47:54.538Z",
+	"dcterms:created": "2024-03-17T23:23:33.963Z",
+	"dcterms:modified": "2024-03-17T23:23:33.963Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -293,7 +293,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350805_PaveseMaria.xml?place_annotation_20240317234754538#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350805_PaveseMaria.xml?place_annotation_20240318002333963#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350805_PaveseMaria.xml",
@@ -307,7 +307,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350805_PaveseMaria.xml?place_annotation_20240317234754538#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350805_PaveseMaria.xml?place_annotation_20240318002333963#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[4]/placeName"
 		}
@@ -332,7 +332,7 @@
 			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
 			<p><placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>, <date when="1935-08-05">5 agosto 1935</date></p>
 			<p/>
-			<p>ARRIVATO <placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">BRANCALEONE CALABRIA</placeName> ALBERGO ROMA SPEDITE SOLDI SPESE IMPIANTO SEGUE ESPRESSO - CESARE -</p>
+			<p>ARRIVATO <placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">BRANCALEONE</placeName> CALABRIA ALBERGO ROMA SPEDITE SOLDI SPESE IMPIANTO SEGUE ESPRESSO - CESARE -</p>
 		</body>
 	</text>
 </TEI>
