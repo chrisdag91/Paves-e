@@ -640,6 +640,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml?place_annotation_20240317233938508",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-17T22:39:38.508Z",
+	"dcterms:modified": "2024-03-17T22:39:38.508Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml?place_annotation_20240317233938508#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml?place_annotation_20240317233938508#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Serralunga_di_Crea",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -655,7 +734,7 @@
 			<p>È inutile che scriviate telegrammi perché arrivano 6 giorni dopo, quasi come le lettere. Quando sarò a destinaazione (credo tra due o tre giorni) scriverò, se mi occorre qualcosa, e la lista di libri che mi dovrete mandare.</p>
 			<p>Ho intenzione, durante il confino, di farmi autorizzare a tradurre libri inglesi; tu intanto infòrmati da <persName key="Frassinèlli, Carlo (1896-1983)." ref="http://viaf.org/viaf/8584545/" type="real">Frassinelli</persName> e <orgName key="Arnoldo Mondadori Editore" ref="http://dbpedia.org/resource/Arnoldo_Mondadori_Editore">Mondadori</orgName> e altri, se me ne vogliono affidare. Chiedo 100 L. per volume e, se non basta, li traduco per niente, anche. Scrivimi di quella mia poesia <title level="a" ref="#LavorareStanca_Atavismo">Atavismo</title>, di cui ti chiedevo. Sta in contatto con <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/">Carocci</persName> per sentire se nell'autunno, sarà il caso di farci autorizzare a stampare.</p>
 			<p>Cerca di indurre <persName ref="#RossiAlberto" type="real">Alberto Rossi</persName> che sta in V. Goffredo Casalis (telefono), a restituirti i romanzi e poesie di <persName ref="#AndersonSherwood">Sherwood Anderson</persName> che ha in prestito da tre anni. Se non li chiedo ora, non li vedrò più.</p>
-			<p>Tu vai pure a Serralunga in piena libertà. Prima, salutami molto la signorina e di' che non se la pigli, perché io qualche volta perdo la testa; e poi salutami in ordine decrescente tutti gli amici, compreso quel coniglio di Monti che non si è fatto vivo mai. Riunite il consiglio di famiglia, lasciate passare sei mesi, e poi fate qualcosa per me, altrimenti va male.</p>
+			<p>Tu vai pure a <placeName key="Serralunga di Crea" ref="http://dbpedia.org/resource/Serralunga_di_Crea">Serralunga</placeName> in piena libertà. Prima, salutami molto la signorina e di' che non se la pigli, perché io qualche volta perdo la testa; e poi salutami in ordine decrescente tutti gli amici, compreso quel coniglio di Monti che non si è fatto vivo mai. Riunite il consiglio di famiglia, lasciate passare sei mesi, e poi fate qualcosa per me, altrimenti va male.</p>
 			<p>Cesare</p>
 			<p>P.S. Mi diverte un mondo pensare che ai nonni ora dovete dirlo per forza.</p>
 		</body>
