@@ -325,6 +325,163 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml?date_annotation_20240317232433425",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-17T22:24:33.425Z",
+	"dcterms:modified": "2024-03-17T22:24:33.425Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml?date_annotation_20240317232433425#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml?date_annotation_20240317232433425#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-07-26"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml?person_annotation_20240317232810875",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-17T22:28:10.875Z",
+	"dcterms:modified": "2024-03-17T22:28:10.875Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml?person_annotation_20240317232810875#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350729_PaveseMaria.xml?person_annotation_20240317232810875#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/8584545/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -332,13 +489,13 @@
 			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, <placeName ref="#CarceriDiReginaCoeli">Carceri di Regina Coeli</placeName>,] <date when="1935-07-29">29 luglio [1935]</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
-			<p>non sono ancora partito e ho ricevuto la V / del <date when="1935-07-22">22</date> c. m. Vi ho scritto il giorno 26 due lettere, dove vi spiegavo ogni cosa del mio ricorso secondo il V. / desiderio.</p>
+			<p>non sono ancora partito e ho ricevuto la V / del <date when="1935-07-22">22</date> c. m. Vi ho scritto il giorno <date when="1935-07-26">26</date> due lettere, dove vi spiegavo ogni cosa del mio ricorso secondo il V. / desiderio.</p>
 			<p>Quanto alle vostre suppliche, non parlatene più, altrimenti tronco la corrispondenza. Ho già fatto una volta la parte dello stupido, ne ho abbastanza. A seguire i vostri consigli, e l'avvenire e la carriera e la pace ecc., ho fatto una prima cosa contro la mia coscienza, che si è tirata dietro tutto il presente stato. Io, di suppliche, ne ho fatte qualche volta a una donna, mai ad altri.</p>
 			<p>Il ricorso è una formalità come un'altra, ma c'è poco - niente - da sperarci. Farò i miei tre anni e, se mi seccherò troppo nel decorso dei medesimi, c'è sempre il rimedio del legno di fico, a portata di mano.</p>
 			<p>Di soldi ho ancora 400 L. e presto avrò il sussidio di 5 L. al giorno. Quanto alla tassa del celibato, se non vuoi pagarla, c'è il rimedio di sentire se qualche mia conoscenza mi vuole sposare.</p>
 			<p>Non so dove andrà finire. Forse a qualche isola, in colonia con altri; forse sul continente isolato in qualche paese. In questo ultimo caso è permesso, credo, alla famiglia di convivere.</p>
 			<p>È inutile che scriviate telegrammi perché arrivano 6 giorni dopo, quasi come le lettere. Quando sarò a destinaazione (credo tra due o tre giorni) scriverò, se mi occorre qualcosa, e la lista di libri che mi dovrete mandare.</p>
-			<p>Ho intenzione, durante il confino, di farmi autorizzare a tradurre libri inglesi; tu intanto infòrmati da Frassinelli e Mondadori e altri, se me ne vogliono affidare. Chiedo 100 L. per volume e, se non basta, li traduco per niente, anche. Scrivimi di quella mia poesia Atavismo, di cui ti chiedevo. Sta in contatto con Carocci per sentire se nell'autunno, sarà il caso di farci autorizzare a stampare.</p>
+			<p>Ho intenzione, durante il confino, di farmi autorizzare a tradurre libri inglesi; tu intanto infòrmati da <persName key="Frassinèlli, Carlo (1896-1983)." ref="http://viaf.org/viaf/8584545/" type="real">Frassinelli</persName> e Mondadori e altri, se me ne vogliono affidare. Chiedo 100 L. per volume e, se non basta, li traduco per niente, anche. Scrivimi di quella mia poesia Atavismo, di cui ti chiedevo. Sta in contatto con Carocci per sentire se nell'autunno, sarà il caso di farci autorizzare a stampare.</p>
 			<p>Cerca di indurre Alberto Rossi che sta in V. Goffredo Casalis (telefono), a restituirti i romanzi e poesie di Sherwood Anderson che ha in prestito da tre anni. Se non li chiedo ora, non li vedrò più.</p>
 			<p>Tu vai pure a Serralunga in piena libertà. Prima, salutami molto la signorina e di' che non se la pigli, perché io qualche volta perdo la testa; e poi salutami in ordine decrescente tutti gli amici, compreso quel coniglio di Monti che non si è fatto vivo mai. Riunite il consiglio di famiglia, lasciate passare sei mesi, e poi fate qualcosa per me, altrimenti va male.</p>
 			<p>Cesare</p>
