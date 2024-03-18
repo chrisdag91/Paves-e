@@ -417,7 +417,7 @@
 			<p>Mai però come <title level="a" ref="#Dopo">Dopo</title>.</p>
 			<p>Cesare</p>
 			<p/>
-			<p>P.S. Chiedi i libri a <persName ref="#RossiAlberto" type="real">Rossi</persName>, Severi e quello di Frassinelli. Insisti. Picchia. Fatteli dare.</p>
+			<p>P.S. Chiedi i libri a <persName ref="#RossiAlberto" type="real">Rossi</persName>, <persName ref="#SeveriGaleazzo" type="real">Severi</persName> e quello di Frassinelli. Insisti. Picchia. Fatteli dare.</p>
 			<p>Cesare</p>
 		</body>
 	</text>
