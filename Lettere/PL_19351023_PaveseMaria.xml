@@ -414,10 +414,10 @@
 			<p>Cara <persName ref="#PaveseSiniMaria" type="real">Maria</persName>,</p>
 			<p>ho ricevuto il salame e i due volumi del <persName key="Lord Byron" ref="http://dbpedia.org/resource/Lord_Byron" type="real">Byron</persName>. La mia gioia non si può dire. Quindi non la dico. Basti sapere che in un primo momento ho progettato una gita a <placeName key="Taormina Sicily Italy" ref="https://geonames.org/2522975" type="real">Taormina</placeName> per sfogarmi, poi mi sono ricordato che non posso per via del regolamento, e allora ho bastonato un cane. Io ridevo.</p>
 			<p>Non solo, ma faccio anche le poesie.</p>
-			<p>Mai però come Dopo.</p>
+			<p>Mai però come <title level="a" ref="#Dopo">Dopo</title>.</p>
 			<p>Cesare</p>
 			<p/>
-			<p>P.S. Chiedi i libri a Rossi, Severi e quello di Frassinelli. Insisti. Picchia. Fatteli dare.</p>
+			<p>P.S. Chiedi i libri a <persName ref="#RossiAlberto" type="real">Rossi</persName>, Severi e quello di Frassinelli. Insisti. Picchia. Fatteli dare.</p>
 			<p>Cesare</p>
 		</body>
 	</text>
