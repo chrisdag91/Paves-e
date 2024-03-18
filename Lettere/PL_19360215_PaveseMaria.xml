@@ -729,8 +729,8 @@
 			<p>Tutte cose che non mi hanno fatto né caldo né freddo, ma insieme mi è stato consegnato il regalino - quel libro di <persName key="Stendhal" ref="http://dbpedia.org/resource/Stendhal" type="real">Stendhal</persName>, con data - e allora mi sono commosso.</p>
 			<p>Che le mie <rs ref="#LavorareStanca">poesie</rs> facciano furore lo temevo da tempo e mi dispiace disperatamente. Cosa può valere un libro, quando i «colleghi» di qua, i «colleghi» di là, i «giornalisti», i cani e i porci della letteratura insomma, ci trovano dentro «uno squisito sentimento di artista e di osservatore»?</p>
 			<p>M'interessa molto di più la tua visita in <placeName ref="#QuesturaDiTorino">Questura</placeName>. Però, se li rivedi, digli che, a quanto pare, nemmeno con la domanda si ritorna a casa. Ma questo, a titolo di cronaca, ve l'ho già scritto.</p>
-			<p>Sono spiacentissimo per la morte di Giorgio: doveva andarsene il fratello, e di tetano possibilmente.</p>
-			<p>Le mie poesie, causa l'impossibilità di correggere per la distanza le ultime bozze, sono piene di errori. Dice il Carducci:</p>
+			<p>Sono spiacentissimo per la morte di <persName ref="#VaudagnaGiorgio" type="real">Giorgio</persName>: doveva andarsene il fratello, e di tetano possibilmente.</p>
+			<p>Le mie poesie, causa l'impossibilità di correggere per la distanza le ultime bozze, sono piene di errori. Dice il <persName ref="#CarducciGiosue" type="real">Carducci</persName>:</p>
 			<p/>
 			<p>«Tristo Amore, egli odia le Muse (e lascivo i poeti frange o li spegne tragico)».</p>
 			<p/>
