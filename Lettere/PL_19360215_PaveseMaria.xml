@@ -639,6 +639,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360215_PaveseMaria.xml?person_annotation_20240318121002791",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T11:10:02.791Z",
+	"dcterms:modified": "2024-03-18T11:10:02.791Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360215_PaveseMaria.xml?person_annotation_20240318121002791#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360215_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360215_PaveseMaria.xml?person_annotation_20240318121002791#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Stendhal",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -647,7 +726,7 @@
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria" type="real">Maria</persName>,</p>
 			<p>ricevo cart. <date when="1936-01-20">20 genn.</date>, <date when="1936-01-29">29 genn.</date>, <date when="1936-02-02">2 febbr.</date>, una lettera di <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" type="real">Sturani</persName>, una di <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/" type="real">Monti</persName> e una cart. della sign. Carena.</p>
-			<p>Tutte cose che non mi hanno fatto né caldo né freddo, ma insieme mi è stato consegnato il regalino - quel libro di Stendhal, con data - e allora mi sono commosso.</p>
+			<p>Tutte cose che non mi hanno fatto né caldo né freddo, ma insieme mi è stato consegnato il regalino - quel libro di <persName key="Stendhal" ref="http://dbpedia.org/resource/Stendhal" type="real">Stendhal</persName>, con data - e allora mi sono commosso.</p>
 			<p>Che le mie poesie facciano furore lo temevo da tempo e mi dispiace disperatamente. Cosa può valere un libro, quando i «colleghi» di qua, i «colleghi» di là, i «giornalisti», i cani e i porci della letteratura insomma, ci trovano dentro «uno squisito sentimento di artista e di osservatore»?</p>
 			<p>M'interessa molto di più la tua visita in Questura. Però, se li rivedi, digli che, a quanto pare, nemmeno con la domanda si ritorna a casa. Ma questo, a titolo di cronaca, ve l'ho già scritto.</p>
 			<p>Sono spiacentissimo per la morte di Giorgio: doveva andarsene il fratello, e di tetano possibilmente.</p>
