@@ -325,6 +325,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360225-28_PaveseMaria.xml?place_annotation_20240318124647730",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T11:46:47.730Z",
+	"dcterms:modified": "2024-03-18T11:46:47.730Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360225-28_PaveseMaria.xml?place_annotation_20240318124647730#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360225-28_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360225-28_PaveseMaria.xml?place_annotation_20240318124647730#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2523630",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360225-28_PaveseMaria.xml?place_annotation_20240318124735396",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T11:47:35.396Z",
+	"dcterms:modified": "2024-03-18T11:47:35.396Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360225-28_PaveseMaria.xml?place_annotation_20240318124735396#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360225-28_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360225-28_PaveseMaria.xml?place_annotation_20240318124735396#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2523630",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -341,7 +499,7 @@
 			<p>Cesare</p>
 			<p/>
 			<p>*Nota:</p>
-			<p>Abbiamo qui un pezzente - certo <persName ref="#CiccioBrancaleone" type="real">Ciccio</persName> - un tempo primo cameriere a <placeName ref="#ReggioCalabria">Reggio</placeName> - dagli occhi vivissimi e faccia ricciuta da negus. Da sei anni è matto, dorme per terra e le elemosine le spende tutte in fumo e vino. Nelle lunghe conferenze, in cui ho imparato quanto sia rompiballe un uomo cornuto, mi spiega come lui bello, lui giovane (ha 38 anni ora), lui felice, lui ammogliato, sia stato piantato dalla sposa lubrica e allora abbia girato varî giorni, senza più prendere le mance, dall'<placeName ref="#ReggioCalabriaOrologio">Orologio</placeName> al <placeName ref="#ReggioCalabriaCalopinace">Calopinace</placeName> (luoghi di Reggio), senza mangiare, senza dormire, facendo Uh! uh! uh! E così è diventato matto (questo naturalmente non lo dice). Il curioso è che, benché scemo, continua a rimpiangere la moglie e le fa lunghi discorsi immaginarî , durante i quali gli ballonzola la barba.</p>
+			<p>Abbiamo qui un pezzente - certo <persName ref="#CiccioBrancaleone" type="real">Ciccio</persName> - un tempo primo cameriere a <placeName key="Reggio Calabria Calabria Italy" ref="https://geonames.org/2523630">Reggio</placeName> - dagli occhi vivissimi e faccia ricciuta da negus. Da sei anni è matto, dorme per terra e le elemosine le spende tutte in fumo e vino. Nelle lunghe conferenze, in cui ho imparato quanto sia rompiballe un uomo cornuto, mi spiega come lui bello, lui giovane (ha 38 anni ora), lui felice, lui ammogliato, sia stato piantato dalla sposa lubrica e allora abbia girato varî giorni, senza più prendere le mance, dall'<placeName ref="#ReggioCalabriaOrologio">Orologio</placeName> al <placeName ref="#ReggioCalabriaCalopinace">Calopinace</placeName> (luoghi di <placeName key="Reggio Calabria Calabria Italy" ref="https://geonames.org/2523630">Reggio</placeName>), senza mangiare, senza dormire, facendo Uh! uh! uh! E così è diventato matto (questo naturalmente non lo dice). Il curioso è che, benché scemo, continua a rimpiangere la moglie e le fa lunghi discorsi immaginarî , durante i quali gli ballonzola la barba.</p>
 			<p>Dimenticavo: il giorno 21 febbr. ho fatto un'altra domanda di condono. Bisognerebbe spingerla.</p>
 			<p>Ces.</p>
 		</body>
