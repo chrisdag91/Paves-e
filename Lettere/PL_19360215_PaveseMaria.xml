@@ -718,6 +718,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360215_PaveseMaria.xml?person_annotation_20240318121722719",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T11:17:22.719Z",
+	"dcterms:modified": "2024-03-18T11:17:22.719Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360215_PaveseMaria.xml?person_annotation_20240318121722719#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360215_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360215_PaveseMaria.xml?person_annotation_20240318121722719#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/72191994/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -734,7 +813,7 @@
 			<p/>
 			<p>«Tristo Amore, egli odia le Muse (e lascivo i poeti frange o li spegne tragico)».</p>
 			<p/>
-			<p>La lista dei compratori non ce l'ho. Prova a chiederla a Carocci (Via Maggio 13 - Firenze).</p>
+			<p>La lista dei compratori non ce l'ho. Prova a chiederla a <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName> (Via Maggio 13 - Firenze).</p>
 			<p>Siccome non so ancora se mi autorizzeranno a corrispondere con Sturani e Monti, di' tu delle loro lettere a ciascuno. Consola Sturani, che è avvilito di fronte ai miei trionfi, e digli che preferirei essere, come lui, a letto con la moglie, piuttosto che aver scritto questo libro, che pure terrà duro, quando di tutti i miei coetanei nessuno sentirà più nemmeno la puzza. E digli che lui è l'unico che ci capisca qualcosa. (C'è poi anche l'unica). Ed anche Monti ringrazialo molto delle buone intenzioni; digli però che è caduto in un errore che da un prof. come lui non mi sarei mai aspettato: ha confuso biografia con estetica, e loda certe poesie per ragioni documentarie, non per merito poetico.</p>
 			<p>Spero a quest'ora abbiate ricevuto con baci la copia di Lavorare stanca spedita il 24 genn. e le mie del 25 genn., 4 febbr. e 11 febbr., documenti di una crisi di crocifissione, di cui sono ormai convalescente. Le ricadute però saranno letali</p>
 			<p>Cesare</p>
