@@ -799,6 +799,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?place_annotation_20240318151902723",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T14:19:02.723Z",
+	"dcterms:modified": "2024-03-18T14:19:02.723Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?place_annotation_20240318151902723#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?place_annotation_20240318151902723#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/236405863/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?title_annotation_20240318151925155",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T14:19:25.155Z",
+	"dcterms:modified": "2024-03-18T14:19:25.155Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?title_annotation_20240318151925155#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?title_annotation_20240318151925155#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/203067604/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -811,8 +969,8 @@
 			<p>Quanto a <persName ref="#VaudagnaGiuseppe" type="real">Vaudagna</persName> non è trasferito ad <placeName key="Alessandria Piedmont Italy" ref="https://geonames.org/3183299" type="real">Alessandria</placeName>, ma ad <placeName key="Asti Piedmont Italy" ref="https://geonames.org/3182714" type="real">Asti</placeName>, e potresti fargli parlare da <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" type="real">Sturani</persName>. Un uomo che mi conosce come <persName ref="#VaudagnaGiuseppe" type="real">Vaudagna</persName>, che ha convissuto con me settimane e mi apprezza per quel che sono, cioè un poeta serio e bene intenzionato, non avrebbe difficoltà a trovare qualche modo di aiutarmi. Sempre che sia disposto a interessarsi della cosa.</p>
 			<p>Mi fa piacere e mi rovella che <persName ref="#SiniMariaLuisa" type="real">M. Luisa</persName> e <persName ref="#SiniCesarina" type="real">Cesarina</persName> siano in campagna, perché mi fa sentire di più la mia vita cittadina, ma via! sono giovani e si divertano.</p>
 			<p>Del caldo è meglio non parlarne. Parliamo piuttosto delle voci femminili che mi hanno cercato al telefono. Amerei sapere chi sono, e naturalmente congratularmi con loro, che pongono il loro interesse in un rottame umano come me.</p>
-			<p>Non parlatemi più di andare in barca in Po, perché mi viene la schiuma alle labbra. Tant'acqua che mi aspetta là, e qui tanto sudore!</p>
-			<p>Per consolarmi sto leggendo le Osservazioni sulla Morale Cattolica del Manzoni e verrà presto il giorno che mi convertirò a vita migliore. Intanto ho chiesto di comperare la Bibbia, che è sempre un gran libro e soprattutto molto lungo, il che mi assicura materia da occuparmi per molto tempo.</p>
+			<p>Non parlatemi più di andare in barca in <placeName key="Po" ref="http://viaf.org/viaf/236405863/" type="real">Po</placeName>, perché mi viene la schiuma alle labbra. Tant'acqua che mi aspetta là, e qui tanto sudore!</p>
+			<p>Per consolarmi sto leggendo le <title key="Manzoni, Alessandro, 1785-1873. | Osservazioni sulla morale cattolica" ref="http://viaf.org/viaf/203067604/" level="m">Osservazioni sulla Morale Cattolica</title> del Manzoni e verrà presto il giorno che mi convertirò a vita migliore. Intanto ho chiesto di comperare la Bibbia, che è sempre un gran libro e soprattutto molto lungo, il che mi assicura materia da occuparmi per molto tempo.</p>
 			<p>Ho un solo rimpianto (tra i molti): di non poter far poesie. Ma vuol dire che accumulerò il materiale per quando sarò restituito alla società.</p>
 			<p>Salutami tutti: Pinelli, Chabod, Sturani, Bobbio, Irma, Luigi, la sign.a Gilardini, Battista, Teresa, Guglielmo, le donne, Giovanna, i nonni (se si son fatti vivi) e ogni altro che avessi dimenticato.</p>
 			<p>Ciau</p>
