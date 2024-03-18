@@ -325,6 +325,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360116_PaveseMaria.xml?place_annotation_20240318150107496",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T14:01:07.496Z",
+	"dcterms:modified": "2024-03-18T14:01:07.496Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360116_PaveseMaria.xml?place_annotation_20240318150107496#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360116_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360116_PaveseMaria.xml?place_annotation_20240318150107496#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3175384",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360116_PaveseMaria.xml?person_annotation_20240318150141421",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T14:01:41.421Z",
+	"dcterms:modified": "2024-03-18T14:01:41.421Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360116_PaveseMaria.xml?person_annotation_20240318150141421#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360116_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19360116_PaveseMaria.xml?person_annotation_20240318150141421#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/56763727/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -332,7 +490,7 @@
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505" type="real">Brancaleone</placeName>,] <date when="1936-01-16">16 gennaio [1936]</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria" type="real">Maria</persName>,</p>
-			<p>ricevuto cartolina del <date when="1936-01-01">1</date>. Ricevuto pure due libri americani <title level="m" ref="#TheTragedyOfLynching">Tragedy of Lynching</title> e Treatment of Delinquency annunciati da cartolina da Ivrea, ormai tutta inzuppata di lacrime, come il pane che mangio. Se mi permettete tuttavia un dolce rimprovero, vorrei farvi presente che non è il modo migliore per tenermi allegro, regalarmi trattati sulla delinquenza americana, tutti pieni di vivide descrizioni di penitenziarî e sedie elettriche. (Sturani da parte sua mi manda Chi c'è stato una volta di Fallada!) Vincendo l'istintiva ripugnanza, tenterò tuttavia di leggerli e sunteggiarli. Sempre, per guadagnarmi il Paradiso, dopo.</p>
+			<p>ricevuto cartolina del <date when="1936-01-01">1</date>. Ricevuto pure due libri americani <title level="m" ref="#TheTragedyOfLynching">Tragedy of Lynching</title> e <title level="m" ref="#TheTreatmentOfDeliquency">Treatment of Delinquency</title> annunciati da cartolina da <placeName key="Ivrea Piedmont Italy" ref="https://geonames.org/3175384" type="real">Ivrea</placeName>, ormai tutta inzuppata di lacrime, come il pane che mangio. Se mi permettete tuttavia un dolce rimprovero, vorrei farvi presente che non è il modo migliore per tenermi allegro, regalarmi trattati sulla delinquenza americana, tutti pieni di vivide descrizioni di penitenziarî e sedie elettriche. (<persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" type="real">Sturani</persName> da parte sua mi manda Chi c'è stato una volta di Fallada!) Vincendo l'istintiva ripugnanza, tenterò tuttavia di leggerli e sunteggiarli. Sempre, per guadagnarmi il Paradiso, dopo.</p>
 			<p>Sentire che voi sperate che l'asma scompaia, naturalmente me la fa passare. È circa un mese e mezzo che non riesco più a far poesie, e questa è la più grande disgrazia che mi potesse capitare. (Ce ne sarebbe una più grossa, ma in questa ci lascerei la pelle).</p>
 			<p>Qui ho molte consolazioni, oltre a mangiare i carciofini. Per esempio, collezionare sulla spiaggia sassolini colorati (per Maria Luisa), studiare il volo degli uccelli, aspettare la stagione delle seppie e scegliere quale nome imporrò ciascuno dei miei figli, che vorrò allevare forti nella castità. Poiché la castità è la prima delle virtù; per essa si risanano le razze, si accrescono i regni, si perfezionano le arti e ci si salva l'anima. Che cos'è un uomo senza la castità? Un cencio, un fuscello, una piuma sbattuta, una goccia d'acqua in mare, una nuvola in cielo, un capello sulla testa di un pazzo, una locomotiva senza macchinista. Potrei scrivervi infinite cose di questa virtù. In greco si dice ȧyvɛía - la virtù degli agnelli. I miei figli saranno casti e saranno belli, questo è fuori discussione.</p>
 			<p>Sentite questi versi paesani, se non vi paiono notevoli:</p>
