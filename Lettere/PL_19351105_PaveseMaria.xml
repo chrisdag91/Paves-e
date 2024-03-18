@@ -333,9 +333,9 @@
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505" type="real">Brancaleone</placeName>,] <date when="1935-11-05">5 novembre [1935]</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria" type="real">Maria</persName>,</p>
-			<p>ecco il sunto di <rs ref="#AutobiographyOfASuicide">quel libro americano</rs> che vi interessa leggere: [...].</p>
+			<p>ecco il sunto di <rs cert="high" ref="#AutobiographyOfASuicide" xml:space="default" type="work">quel libro americano</rs> che vi interessa leggere: [...].</p>
 			<p>È insomma un mediocre libro sul problema del sesso e del nervoso, quale l'America ne produce tutti gli anni.</p>
-			<p>Leggetevi, se ne avete voglia, <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River Anthology</title> e troverete le stesse cose dette 20 anni prima da un poeta vero.</p>
+			<p>Leggetevi, se ne avete voglia, <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River Anthology</title> e troverete le stesse cose dette 20 anni prima da un <rs ref="#MastersEdgarLee">poeta vero</rs>.</p>
 			<p>Io qui faccio una vita che somiglia un poco a quella dell'autore del libro che vi ho descritto. Purché non finisca allo stesso modo.</p>
 			<p>Cesare</p>
 		</body>
