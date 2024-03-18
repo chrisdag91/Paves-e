@@ -561,6 +561,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?organization_annotation_20240318010643058",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T00:06:43.058Z",
+	"dcterms:modified": "2024-03-18T00:06:43.058Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?organization_annotation_20240318010643058#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350819_PaveseMaria.xml?organization_annotation_20240318010643058#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/Arnoldo_Mondadori_Editore",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -575,7 +654,7 @@
 			<p>Dicono che l'inverno qui sarà molto umido, e per giunta non sanno nemmeno cosa sia una stufa. Pure non voglio assolutamente cambiar sede. Il paese è molto buono e poi, ne ho abbastanza di viaggi in traduzione straordinaria. Spero molto nella grappa che mi manderete, per passare l'inverno. Ho fatto ricorso per avere il sussidio, ma c'è poco da sperare. Attualmente ho in tasca 450 L.</p>
 			<p>La cartol. della sign. <persName ref="#PeriniNina" type="real">Nina</persName> è la cosa più chiara del mondo. Basta sapere che Le è un pronome, oltreché complimentoso di II persona, anche di III. E pensare che avete uno zio prof.</p>
 			<p>La mia stanza ha davanti un cortiletto, poi la ferrovia, poi il mare. Cinque o sei volte al giorno (e la notte) mi si rinnova così la nostalgia dietro i treni che passano. Indifferente mi lasciano invece i piroscafi all'orizzonte e la luna sul mare, che con tutti i suoi chiarori mi fa pensare solo al pesce fritto. Inutile, il mare è una gran vaccata.</p>
-			<p>Quanto alle traduzioni, io vorrei fare <title level="m" ref="#AStorytellersStory">A Storyteller's Story</title> di Sherwood Anderson (ce l'ha Rossi). Mondadori diceva che lo traduceva e poi non s'è visto. Se riuscite a scovare il sig. Rusca, Casa Ed. Mondadori, Milano, presentategli il caso e ditegli che farei un libro più bello dell'originale (una traduzione straordinaria). Per 1000 L., per 800, per 600, se è il caso, fanno un ottimo affare. Se accettano, non c'é più che da chiedere al Minist. Interni l'autorizzazione.</p>
+			<p>Quanto alle traduzioni, io vorrei fare <title level="m" ref="#AStorytellersStory">A Storyteller's Story</title> di <persName ref="#AndersonSherwood">Sherwood Anderson</persName> (ce l'ha <persName ref="#RossiAlberto" type="real">Rossi</persName>). <orgName key="Arnoldo Mondadori Editore" ref="http://dbpedia.org/resource/Arnoldo_Mondadori_Editore">Mondadori</orgName> diceva che lo traduceva e poi non s'è visto. Se riuscite a scovare il sig. Rusca, Casa Ed. Mondadori, Milano, presentategli il caso e ditegli che farei un libro più bello dell'originale (una traduzione straordinaria). Per 1000 L., per 800, per 600, se è il caso, fanno un ottimo affare. Se accettano, non c'é più che da chiedere al Minist. Interni l'autorizzazione.</p>
 			<p>Mi sono rimaste in tasca certe mie poesie di quest'inverno. Una, intitolata Dopo, è la mia sola compagnia, perché non penso ad altro. Ma questo a voi non interessa.</p>
 			<p>Salutate tutti. Vi autorizzo a far leggere alle mie amicizie la mia lettera.</p>
 			<p>Cesare</p>
