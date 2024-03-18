@@ -874,6 +874,242 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml?date_annotation_20240318095619961",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T08:56:19.961Z",
+	"dcterms:modified": "2024-03-18T08:56:19.961Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml?date_annotation_20240318095619961#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml?date_annotation_20240318095619961#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-08-08"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml?title_annotation_20240318095702827",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T08:57:02.827Z",
+	"dcterms:modified": "2024-03-18T08:57:02.827Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml?title_annotation_20240318095702827#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml?title_annotation_20240318095702827#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Aeneid",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml?person_annotation_20240318095724123",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T08:57:24.123Z",
+	"dcterms:modified": "2024-03-18T08:57:24.123Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml?person_annotation_20240318095724123#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350924_PaveseMaria.xml?person_annotation_20240318095724123#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/72191994/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -882,9 +1118,9 @@
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria" type="real">Maria</persName>,</p>
 			<p>ricevo biglietto del <date when="1935-09-03">3</date> da <placeName key="Serralunga di Crea Piedmont Italy" ref="https://geonames.org/3166666">Serralunga</placeName>, cart. postale dell'<date when="1935-09-08">8</date>, dell'<date when="1935-09-11">11</date>, del <date when="1935-09-13">13</date> e lettera (col comunicato del <orgName key="National Fascist Party" ref="http://dbpedia.org/resource/National_Fascist_Party">Partito</orgName>) del <date when="1935-09-13">13</date>. Ho ricevuto anche il pacco postale, tra cui il libro inglese <title level="m" ref="#AutobiographyOfASuicide">Autobiography of a Suicide</title> che non so chi me lo mandi. Gradirei sapere.</p>
-			<p>Ora mi sono deciso e mangio a mezzogiorno in pensione, e alla sera frutta. Il ricorso per il sussidio l'ho fatto al <orgName key="Ministry of the Interior (Italy)" ref="http://dbpedia.org/resource/Ministry_of_the_Interior_(Italy)">Ministero Interno</orgName> fin dall'8 agosto.</p>
+			<p>Ora mi sono deciso e mangio a mezzogiorno in pensione, e alla sera frutta. Il ricorso per il sussidio l'ho fatto al <orgName key="Ministry of the Interior (Italy)" ref="http://dbpedia.org/resource/Ministry_of_the_Interior_(Italy)">Ministero Interno</orgName> fin dall'<date when="1935-08-08">8 agosto</date>.</p>
 			<p>Il chinino è un lusso che mi concedo io, tanto per avere un'occupazione giornaliera. Pigliati guardia a non chiedere nessun trasferimento!!!!! Lasciare il vecchio per il nuovo non conviene, e poi, non ho nessuna voglia di fare un altro viaggio in traduzione. I carabinieri non portano fortuna che quando se ne vede uno solo. O a casa o niente. Di vestiti ci vorrà qualche camicia a maniche lunghe per l'inverno. Calzoni e giacche ho trovato delle pie donne che li curano.</p>
-			<p>Ricordo che i due libri che dici, li restituii già io. L'Eneide in verde e nero è mia. Con Carocci corrispondo io. Fatti pagare dal Bertola e dal Dainotti. Non è una ragione, perché una persona va dentro, per non pagargli la mercede come a tutti gli operai. Mezzo mese ciascuno.</p>
+			<p>Ricordo che i due libri che dici, li restituii già io. L'<title key="Aeneid" ref="http://dbpedia.org/resource/Aeneid" level="m">Eneide</title> in verde e nero è mia. Con <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName> corrispondo io. Fatti pagare dal Bertola e dal Dainotti. Non è una ragione, perché una persona va dentro, per non pagargli la mercede come a tutti gli operai. Mezzo mese ciascuno.</p>
 			<p>E concluderò con un pensierino: invece di aspettarmi come tante oche, fareste meglio a tentare qualcosa per farmi decentemente tornare. È ridicolo star qui tre anni per una sciocchezza che non ha nome.</p>
 			<p>Cesare</p>
 			<p/>
