@@ -332,7 +332,7 @@
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505" type="real">Brancaleone</placeName>,] <date when="1936-02-11">11 febbraio [1936]</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria" type="real">Maria</persName>,</p>
-			<p>saprete che da parecchio tempo non arrivo più a fare poesie. La serenità della mia vita (c'era qualcuno che si esprimeva così) è crepata. Tuttavia si avvicina il <date when="1936-02-25">25 febbraio</date> e un ricordo ci vuole. Anche questa poesia si potrebbe intitolare Dopo. Potrete farla recitare da Cesarina alla Signorina sua maestra col nuovo titolo di L'idillio del cacciatore.</p>
+			<p>saprete che da parecchio tempo non arrivo più a fare poesie. La serenità della mia vita (c'era qualcuno che si esprimeva così) è crepata. Tuttavia si avvicina il <date when="1936-02-25">25 febbraio</date> e un ricordo ci vuole. Anche questa poesia si potrebbe intitolare Dopo. Potrete farla recitare da <persName ref="#SiniCesarina" type="real">Cesarina</persName> alla Signorina sua maestra col nuovo titolo di L'idillio del cacciatore.</p>
 			<p>Conservatemi il V. affetto. Tuo</p>
 			<p>Cesare</p>
 		</body>
