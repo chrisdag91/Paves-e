@@ -404,6 +404,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?person_annotation_20240318151444990",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T14:14:44.990Z",
+	"dcterms:modified": "2024-03-18T14:14:44.990Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?person_annotation_20240318151444990#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?person_annotation_20240318151444990#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/239330340/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?place_annotation_20240318151520645",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T14:15:20.645Z",
+	"dcterms:modified": "2024-03-18T14:15:20.645Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?place_annotation_20240318151520645#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350705_PaveseMaria.xml?place_annotation_20240318151520645#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3169070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -412,8 +570,8 @@
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
 			<p>avrai notato che le lettere del venerdì sono più allegre di quelle del lunedì: la ragione è semplice. Al lunedì deve ancora passare una settimana, al venerdì è già quasi finita. é straordinario come si desidera d'invecchiare, stando in prigione.</p>
-			<p>Continuo a godere salute e credo che ingrasserò. I polli, per ottenere quest'effetto, si chiudono nella stia; gli uomini in prigione. Ho ricevuto le 300 L. e il biglietto di <persName ref="#SiniGuglielmo" type="real">Guglielmo</persName> che me ne avvertiva. Ho ricevuto la tua lettera del <date when="1935-06-28">28 g.</date>, dove vedo che prendi parte alle mie afflizioni, ma naturalmente non basta. Fin che tu sola sei convinta della mia innocenza io continuerò a star dentro. E nemmeno basta che persone di specchiata condotta, come <persName key="Tullio Pinelli" ref="http://dbpedia.org/resource/Tullio_Pinelli" type="real">Pinelli</persName> e Chabod, sappiano del mio disinteresse per ogni sorta di eresia politica e della mia buona fede. Bisogna convincerne Roma.</p>
-			<p>Quanto a Vaudagna non è trasferito ad Alessandria, ma ad Asti, e potresti fargli parlare da Sturani. Un uomo che mi conosce come Vaudagna, che ha convissuto con me settimane e mi apprezza per quel che sono, cioè un poeta serio e bene intenzionato, non avrebbe difficoltà a trovare qualche modo di aiutarmi. Sempre che sia disposto a interessarsi della cosa.</p>
+			<p>Continuo a godere salute e credo che ingrasserò. I polli, per ottenere quest'effetto, si chiudono nella stia; gli uomini in prigione. Ho ricevuto le 300 L. e il biglietto di <persName ref="#SiniGuglielmo" type="real">Guglielmo</persName> che me ne avvertiva. Ho ricevuto la tua lettera del <date when="1935-06-28">28 g.</date>, dove vedo che prendi parte alle mie afflizioni, ma naturalmente non basta. Fin che tu sola sei convinta della mia innocenza io continuerò a star dentro. E nemmeno basta che persone di specchiata condotta, come <persName key="Tullio Pinelli" ref="http://dbpedia.org/resource/Tullio_Pinelli" type="real">Pinelli</persName> e <persName key="Chabod, Renato" ref="http://viaf.org/viaf/239330340/" type="real">Chabod</persName>, sappiano del mio disinteresse per ogni sorta di eresia politica e della mia buona fede. Bisogna convincerne <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070" type="real">Roma</placeName>.</p>
+			<p>Quanto a <persName ref="#VaudagnaGiuseppe" type="real">Vaudagna</persName> non è trasferito ad Alessandria, ma ad Asti, e potresti fargli parlare da Sturani. Un uomo che mi conosce come Vaudagna, che ha convissuto con me settimane e mi apprezza per quel che sono, cioè un poeta serio e bene intenzionato, non avrebbe difficoltà a trovare qualche modo di aiutarmi. Sempre che sia disposto a interessarsi della cosa.</p>
 			<p>Mi fa piacere e mi rovella che M. Luisa e Cesarina siano in campagna, perché mi fa sentire di più la mia vita cittadina, ma via! sono giovani e si divertano.</p>
 			<p>Del caldo è meglio non parlarne. Parliamo piuttosto delle voci femminili che mi hanno cercato al telefono. Amerei sapere chi sono, e naturalmente congratularmi con loro, che pongono il loro interesse in un rottame umano come me.</p>
 			<p>Non parlatemi più di andare in barca in Po, perché mi viene la schiuma alle labbra. Tant'acqua che mi aspetta là, e qui tanto sudore!</p>
