@@ -403,6 +403,163 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351029_PaveseMaria.xml?date_annotation_20240318104012463",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T09:40:12.463Z",
+	"dcterms:modified": "2024-03-18T09:40:12.463Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351029_PaveseMaria.xml?date_annotation_20240318104012463#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351029_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351029_PaveseMaria.xml?date_annotation_20240318104012463#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-10-17"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351029_PaveseMaria.xml?person_annotation_20240318104218592",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-18T09:42:18.592Z",
+	"dcterms:modified": "2024-03-18T09:42:18.592Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351029_PaveseMaria.xml?person_annotation_20240318104218592#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351029_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351029_PaveseMaria.xml?person_annotation_20240318104218592#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/143145857103522922309/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -410,9 +567,9 @@
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505" type="real">Brancaleone</placeName>,] <date when="1935-10-29">29 ottobre [1935]</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria" type="real">Maria</persName>,</p>
-			<p>ricevo <date when="1935-10-03">3 ott.</date> (lett.), <date when="1935-10-11">11 ott.</date> (cart. post.), 17 ottobre (lett.). Mando all'Intendenza la domanda necessaria per il rimborso tassa. Mandatemi Omero.</p>
+			<p>ricevo <date when="1935-10-03">3 ott.</date> (lett.), <date when="1935-10-11">11 ott.</date> (cart. post.), <date when="1935-10-17">17 ottobre</date> (lett.). Mando all'Intendenza la domanda necessaria per il rimborso tassa. Mandatemi Omero.</p>
 			<p>Vedo che vi sognate di notte che torno a casa e vivete sulla fiducia. È un buon fondamento, tanto più che anch'io una volta sognavo spesso di finire papa.</p>
-			<p>Sento di Frassinelli. Se c'è Giac. de Benedetti consulente, è finita anche lì: non riuscirò più a far niente. Da tempo. G. De Benedetti non mi poteva soffrire e trovava che al mondo ero di troppo.</p>
+			<p>Sento di <persName key="Frassinelli, Carlo" ref="http://viaf.org/viaf/143145857103522922309/" type="real">Frassinelli</persName>. Se c'è Giac. de Benedetti consulente, è finita anche lì: non riuscirò più a far niente. Da tempo. G. De Benedetti non mi poteva soffrire e trovava che al mondo ero di troppo.</p>
 			<p>Gli indumenti che dici li ho tutti in relativo ordine. Ho portato tutta l'estate il vestito più leggero. Ora l'ho dato a smacchiare e indosso quello più pesante che vestivo il 15 maggio, dato che alla sera fa già molto freddo e io passo di raffreddore in accesso d'asma e viceversa. Poi c'è l'altro più brutto, intatto. Fazzoletti, calze, mutande, camicie, maglie, li alterno e faccio lavare e rammendare per le solite 12 L. al mese, ma presto non mi basteranno le maniche corte, perché qui non c'è riscaldamento. Fate come volete: se non avete camicie con maniche lunghe, starò senza e terrò sempre la giacca. Di scarpe ho in buon ordine le tre paia, perché l'estate l'ho fatta tutta con un paio da tennis comprate qui per 6 L. Comunque ne gradirei un paio di alte.</p>
 			<p>Sta dietro a Rossi e digli che il suo libro Opere di Daniele Defoe rilegato in bleu (l'unico suo che avevo) l'ho passato or sono due anni, dicendoglielo, a Franco Antonicelli, che doveva farlo leggere per vedere se era il caso di tradurre Moll Flanders.</p>
 			<p>Che tutti si stupiscano e mi compiangano, potrebbe farmi piacere; viceversa mi secca. Sono inutili tutte queste storie. Non è bello perché uno è apparso uno stupido (ma non per i motivi che credi tu) ricordarglielo continuamente, con la scusa che lo si compiange e lo si trova giovane e disinteressato. Se hanno qualcosa da dirmi, me lo scrivano; come hanno fatto tutte le persone per bene, verso cui conservo stima, altrimenti vadano a dar via quel che han d'avanzo ché ne han molto.</p>
