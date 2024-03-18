@@ -1124,7 +1124,7 @@
 			<p>E concluderò con un pensierino: invece di aspettarmi come tante oche, fareste meglio a tentare qualcosa per farmi decentemente tornare. È ridicolo star qui tre anni per una sciocchezza che non ha nome.</p>
 			<p>Cesare</p>
 			<p/>
-			<p>P.S. Ti manderò distintivo e tessera da consegnare all'Uff. Tessere della Federazione di Torino.</p>
+			<p>P.S. Ti manderò distintivo e tessera da consegnare all'<placeName ref="#UfficioTessere">Uff. Tessere</placeName> della <orgName ref="#FederazioneDiTorino">Federazione di Torino</orgName>.</p>
 		</body>
 	</text>
 </TEI>
