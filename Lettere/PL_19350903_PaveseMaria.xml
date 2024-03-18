@@ -493,8 +493,8 @@
 			<p>Ho già scritto il <date when="1935-08-27">27 ag.</date> che ho ricevuto i pacchi.</p>
 			<p>Cerca fra i miei libri e restituisci al Prof. Pascal bibliotecario del D'Azeglio questi libri:</p>
 			<p/>
-			<p><persName key="Niccolò Rodolico" ref="http://dbpedia.org/resource/Niccolò_Rodolico" type="real">Rodolico</persName> Carlo Alberto (grosso, legato in bleu)</p>
-			<p>Sanesi Storia d'Italia e Europa (4 o 5 voll. gialli oliva)</p>
+			<p><persName key="Niccolò Rodolico" ref="http://dbpedia.org/resource/Niccolò_Rodolico" type="real">Rodolico</persName> <title level="m" ref="#CarloAlberto">Carlo Alberto</title> (grosso, legato in bleu)</p>
+			<p>Sanesi <title level="m" ref="#StoriaDItaliaEEuropa">Storia d'Italia e Europa</title> (4 o 5 voll. gialli oliva)</p>
 			<p>Orazio Opere (in latino e francese, grosso, giallo)</p>
 			<p>Orazio Epistole (piccolo, nero e rosso, legato)</p>
 			<p>Virgilio Eneide (3 voll. rosso e nero, legato)</p>
