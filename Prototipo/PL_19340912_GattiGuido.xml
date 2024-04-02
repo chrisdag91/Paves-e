@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Guido M. Gatti?, Torino.</p>
+			<p>[Torino,] 12 settembre 1934</p>
+			<p>Egregio Ingegnere,</p>
+			<p>sono qui con Debenedetti, che lavora disperatamente per rivedere il mio dialogo e non giungerà stasera che alla metà del film. Succede che con la sua maggior esperienza di sincronismo e dialogo teatrale, Debenedetti è costretto a rifare buona parte del lavoro.</p>
+			<p>Se non fosse che c’è tanta fretta, e che Debenedetti ha anche altro lavoro, la revisione potrebbe finirsi senza danno; così come stanno le cose, siamo costretti a mandarLe il dialogo mezzo riveduto e mezzo no. Bisognerà poi decidere se la revisione sarà fatta da qualcuno a Roma o finita qui da Debenedetti.</p>
+			<p>Attendiamo per ora notizie sue.</p>
+			<p>Saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

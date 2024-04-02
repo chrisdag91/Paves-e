@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A ignoto, Vercelli</p>
+			<p>[Torino autunno 1934]</p>
+			<p>Chiarissimo Professore,</p>
+			<p>tempo fa le scrissi un biglietto dicendomi disposto a riprendere la supplenza, sotto condizione di due giornate libere e residenza a Torino.</p>
+			<p>Vedo che non l'ha ricevuto e magari è bene - così non abbiamo ancora deciso. Mi capita di poter lavorare di traduzioni quest'inverno (il mio antico mestiere) e, fatti tutti i conti, mi do a quest'ultimo lavoro (tutti e due sono incompatibili). Non dimentico di considerare che insegnanti di latino migliori di me ce ne sono parecchi e non credo perciò di far troppo danno alla classe abbandonandola. E Lei è certo ancora in tempo a provvedere con calma un buon supplente. Il mio concorso d'inglese è andato mediocremente - bene per lo scritto e la lezione, male per la prova [...].</p>
+			<p>Non ci spero niente, e comunque non accetterei una nomina a Caltanisetta.</p>
+			<p>Le sarò grato di un cenno e di un appuntamento a Vercelli per un giorno del mese entrante; desidero passare a salutarLa e restituire certi libri.</p>
+			<p>Suo</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Alberto Carocci, Firenze.</p>
+			<p>30 marzo '34</p>
+			<p>Via Lamarmora 35</p>
+			<p>Torino</p>
+			<p>Caro Carocci,</p>
+			<p>visto che Lei è così gentile, lascio la cosa alla Sua discrezione. L'avverto che naturalmente le mie poesie in Sue mani non sono rivedute né tutte definitivamente pubblicabili. Ho poi altri pezzi ulteriori, il tutto - antichi e nuovi – fanno circa trenta poesie. Se si facesse la pubblicazione, dovrei riavere le Sue per rivedere e integrare.</p>
+			<p>Quanto all'amico, qui ne siamo ancora all'oscuro quanto Lei. Egli non è il solo, sono circa una dozzina, e pare che per lui e qualche altro le cose vadano male. Non mi stupirei se la faccenda finisse a Roma. Si può dire a nostro magro conforto che egli è ben preparato a tutto questo e, se la cosa non dipenderà che dal suo valore personale, certo se la caverà. Il che non pare altrettanto vero a proposito di qualcuno degli altri. Ho sentito però che il caso non è solo torinese: questo in fondo sarebbe un buon segno.</p>
+			<p>Vedo sua madre sovente e non mancherò di farle il Suo nome: essa è una donna ammirevole e capace di apprezzare questa solidarietà. Però di parlare con l'amico, non si parla. Non vi è riuscita finora nemmeno la signora.</p>
+			<p>Cordiali saluti e mi tenga informato.</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>
