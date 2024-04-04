@@ -484,14 +484,172 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240404152600199",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T13:26:00.199Z",
+	"dcterms:modified": "2024-04-04T13:26:00.199Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240404152600199#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240404152600199#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/34469924/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240404152710462",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T13:27:10.462Z",
+	"dcterms:modified": "2024-04-04T13:27:10.462Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240404152710462#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240404152710462#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/34469924/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A <persName key="Gatti, Guido M., 1892-1973" ref="http://viaf.org/viaf/36965982/" type="real">Guido M. Gatti?</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1934-09-12">12 settembre 1934</date></p>
 			<p>Egregio <rs key="Gatti, Guido M., 1892-1973" ref="http://viaf.org/viaf/36965982/">Ingegnere</rs>,</p>
-			<p>sono qui con <persName key="Debenedetti, Giacomo, 1901-1967" ref="http://viaf.org/viaf/34469924/" type="real">Debenedetti</persName>, che lavora disperatamente per rivedere il mio dialogo e non giungerà stasera che alla metà del film. Succede che con la sua maggior esperienza di sincronismo e dialogo teatrale, Debenedetti è costretto a rifare buona parte del lavoro.</p>
-			<p>Se non fosse che c’è tanta fretta, e che Debenedetti ha anche altro lavoro, la revisione potrebbe finirsi senza danno; così come stanno le cose, siamo costretti a mandarLe il dialogo mezzo riveduto e mezzo no. Bisognerà poi decidere se la revisione sarà fatta da qualcuno a Roma o finita qui da Debenedetti.</p>
+			<p>sono qui con <persName key="Debenedetti, Giacomo, 1901-1967" ref="http://viaf.org/viaf/34469924/" type="real">Debenedetti</persName>, che lavora disperatamente per rivedere il mio dialogo e non giungerà stasera che alla metà del film. Succede che con la sua maggior esperienza di sincronismo e dialogo teatrale, <persName key="Debenedetti, Giacomo, 1901-1967" ref="http://viaf.org/viaf/34469924/" type="real">Debenedetti</persName> è costretto a rifare buona parte del lavoro.</p>
+			<p>Se non fosse che c’è tanta fretta, e che <persName key="Debenedetti, Giacomo, 1901-1967" ref="http://viaf.org/viaf/34469924/" type="real">Debenedetti</persName> ha anche altro lavoro, la revisione potrebbe finirsi senza danno; così come stanno le cose, siamo costretti a mandarLe il dialogo mezzo riveduto e mezzo no. Bisognerà poi decidere se la revisione sarà fatta da qualcuno a Roma o finita qui da Debenedetti.</p>
 			<p>Attendiamo per ora notizie sue.</p>
 			<p>Saluti</p>
 			<p>Pavese</p>
