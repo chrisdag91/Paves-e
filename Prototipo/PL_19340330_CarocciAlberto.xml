@@ -405,6 +405,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340330_CarocciAlberto.xml?rs_annotation_20240404145411737",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T12:54:11.737Z",
+	"dcterms:modified": "2024-04-04T12:54:11.737Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340330_CarocciAlberto.xml?rs_annotation_20240404145411737#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340330_CarocciAlberto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340330_CarocciAlberto.xml?rs_annotation_20240404145411737#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://viaf.org/viaf/94052107/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -414,7 +493,7 @@
 			<p><placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName></p>
 			<p>Caro <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName>,</p>
 			<p>visto che Lei è così gentile, lascio la cosa alla Sua discrezione. L'avverto che naturalmente le mie poesie in Sue mani non sono rivedute né tutte definitivamente pubblicabili. Ho poi altri pezzi ulteriori, il tutto - antichi e nuovi – fanno circa trenta poesie. Se si facesse la pubblicazione, dovrei riavere le Sue per rivedere e integrare.</p>
-			<p>Quanto all'amico, qui ne siamo ancora all'oscuro quanto Lei. Egli non è il solo, sono circa una dozzina, e pare che per lui e qualche altro le cose vadano male. Non mi stupirei se la faccenda finisse a Roma. Si può dire a nostro magro conforto che egli è ben preparato a tutto questo e, se la cosa non dipenderà che dal suo valore personale, certo se la caverà. Il che non pare altrettanto vero a proposito di qualcuno degli altri. Ho sentito però che il caso non è solo torinese: questo in fondo sarebbe un buon segno.</p>
+			<p>Quanto all'<rs key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">amico</rs>, qui ne siamo ancora all'oscuro quanto Lei. Egli non è il solo, sono circa una dozzina, e pare che per lui e qualche altro le cose vadano male. Non mi stupirei se la faccenda finisse a Roma. Si può dire a nostro magro conforto che egli è ben preparato a tutto questo e, se la cosa non dipenderà che dal suo valore personale, certo se la caverà. Il che non pare altrettanto vero a proposito di qualcuno degli altri. Ho sentito però che il caso non è solo torinese: questo in fondo sarebbe un buon segno.</p>
 			<p>Vedo sua madre sovente e non mancherò di farle il Suo nome: essa è una donna ammirevole e capace di apprezzare questa solidarietà. Però di parlare con l'amico, non si parla. Non vi è riuscita finora nemmeno la signora.</p>
 			<p>Cordiali saluti e mi tenga informato.</p>
 			<p>Pavese</p>
