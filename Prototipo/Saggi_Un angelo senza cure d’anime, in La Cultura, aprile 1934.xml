@@ -90,10 +90,89 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405161031063",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-05T14:10:31.063Z",
+	"dcterms:modified": "2024-04-05T14:10:31.063Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405161031063#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405161031063#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/39372890/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p><persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">Faulkner</persName>, cattivo allievo di Anderson, in «La Cultura», aprile 1934</p>
+			<p><persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">Faulkner</persName>, cattivo allievo di <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName>, in «La Cultura», aprile 1934</p>
 			<p>[Un angelo senza cure d’anime]</p>
 			<p/>
 			<p>Il romanzo di William Faulkner (Sanctuary, New York, Cape and Smith, 1931), che sta per diventare di moda, attraverso la versione francese e il film «Perdizione», anche da noi, si svolge negli Stati di Missouri e Tennessee: in un primo tempo in una casa di campagna dove i contrabbandieri fabbricano l’alcool e vivono alla rinfusa; in un secondo, a Memphis e a Jefferson, ora in una casa equivoca, ora in prigione. Vi si parla di una studentessa diciottenne violentata per mezzo di una pannocchia di meliga da un bootlegger impotente, dell’arresto e processo del capo-banda innocente dello stupro, del linciaggio (pannocchia di meliga e benzina) di quest’ultimo da parte della folla e dell’impiccagione legale dello stupratore insospettato, seguìta per il semplice assassinio di una guardia. Temple – la studentessa – violentata come s’è detto da Popeye, l’impotente, nella casa di campagna dov’era capitata con Gowan, studente ubriaco, viene trafugata a Memphis nella casa di tolleranza di Miss Reba, dove vive al chiuso e Popeye se la viene a trovare e gode per mezzo di Red, giovanottone della malavita, che in sua presenza attende alla parte cui non può attendere Popeye. Compaiono prigione e tribunale intorno al capo, Goodwin, uomo misteriosamente superiore, accusato di un assassinio commesso da Popeye e poi dello stupro; e Horace Benbow, avvocato trasognato, s’incarica, in mezzo a diffide e freddezze, della difesa che non ha un esito chiaro; ad ogni modo Goodwin viene linciato dalla folla non senza l’osservanza del contrappasso. Popeye, di cui intanto si è saputo che fin da piccolo aveva la follia sanguinaria (con forbici tagliava in due, vivi, uccelli e gatti), viene inutilmente impiccato per un banale assassinio. Non mancano scorci di vario ambiente: il romanzo vuole un po’ rendere tutta l’atmosfera degli Stati del Sud. Abbiamo un’ombra di politica (la corruzione elettorale), varî interni familiari (pettegoli e gretti), un funerale gangster (cinico), un po’ di torbida psicologia giovanile (i due ragazzotti che si stabiliscono nella casa di Memphis come in una pensione e non se ne accorgono) e finalmente un negro condannato a morte per omicidio, che canta spirituals.</p>
