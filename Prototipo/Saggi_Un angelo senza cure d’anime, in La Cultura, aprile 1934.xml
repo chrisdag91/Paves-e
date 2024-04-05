@@ -1905,6 +1905,243 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405165926331",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-05T14:59:26.331Z",
+	"dcterms:modified": "2024-04-05T14:59:26.331Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405165926331#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405165926331#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName[8]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/3497163464216505680002/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405165955317",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-05T14:59:55.317Z",
+	"dcterms:modified": "2024-04-05T14:59:55.317Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405165955317#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405165955317#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName[9]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/39372890/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405170022300",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-05T15:00:22.300Z",
+	"dcterms:modified": "2024-04-05T15:00:22.300Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405170022300#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Un angelo senza cure d’anime, in La Cultura, aprile 1934.xml?person_annotation_20240405170022300#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName[10]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/3497163464216505680002/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1915,7 +2152,7 @@
 			<p>Tutto questo si dice, non per stroncare alla leggera il romanzo come documento di morbose compiacenze disfattistiche che minaccino il delicato equilibrio latino del lettore o che so io, ma per fissare il tono delle sue pagine che parrebbe, da quanto s’è visto, di amara delusione morale, di rientrato e sconfortato puritanesimo, cui dia da soffrire il tragico contrasto fra la bestialità e la sanzione umana, tutte e due cieche e impotenti.</p>
 			<p>Càpita invece che, come qualcuno ha detto senza valutare, credo, l’importanza dell’espressione, <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">William Faulkner</persName> «scrive come un angelo». Io intendo: col distacco e la proiezione dei casi in una atmosfera rarefatta, quali sarebbero legittimi in un puro spirito. In tante pagine di perversioni, di morbose perplessità, di delitti osceni e sanguinarî, non c’è una sola concessione, non dico alla lascivia – che sarebbe il meno male – ma nemmeno all’indignazione morale o alla cinica compiacenza. <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">William Faulkner</persName> vede le cose dall’alto, tanto dall’alto che tra la pannocchia insanguinata di <persName ref="#Popeye" type="fictional">Popeye</persName> e la pipa dimenticata di <persName ref="#Benbow" type="fictional">Benbow</persName> non c’è differenza di piani. Non è un uomo che scrive, è un angelo; un angelo, s’intende, senza cura d’anime. Occorre quindi assolvere il libro da ogni sospetto di moralismo puritano. <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">William Faulkner</persName> non è, o almeno non riesce qui, né il campione nazionale dell’igienica moralità né il sovvertitore, altrettanto puritano, degli schemi moralistici nazionali, come sono nel Nordamerica quasi tutti i ribelli, da trent’anni a questa parte.</p>
 			<p>C’è nel romanzo un personaggio, uno solo, che accenna a moralizzare, a portare in qualche modo in mezzo alla vicenda la persona giudicante dell’autore: <persName ref="#HoraceBenbow" type="fictional">Horace Benbow</persName>, l’avvocato. Egli, avendo assistito a un po’ di antefatto nella casa di campagna e conosciutovi la compagna di <persName ref="#Goodwin" type="fictional">Goodwin</persName>, donna misteriosamente sommessa e forte, un po’ per attaccamento alla donna, un po’ per amor del giusto, si è assunto la difesa di <persName ref="#Goodwin" type="fictional">Goodwin</persName>; e per tutto il tempo questo <persName ref="#Benbow" type="fictional">Benbow</persName> medita, rimugina, inquisisce, s’arrabatta con ogni sorta di personaggi, rivelando una certa vita interiore giudicante – l’uomo perplesso e trasognato – che è quanto di più disordinato e banale abbia inventato l’autore.</p>
-			<p>A questo tipo di protagonista si può più direttamente riconnettere l’influsso che <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">William Faulkner</persName> ha subìto da <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Sherwood Anderson</persName>. Poiché stati del Sud e personaggi perplessi che da sé vanno analizzandosi sono la vera carne di <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> e un fondo comune di suggestioni e simpatie bisogna certo riconoscere ai due scrittori. Riflettendo come in <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> ogni figura sia fatta di materia introspettiva, sia perplessa a suo modo, si analizzi e racconti a se stessa, si chiarisce la natura di <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">Faulkner</persName> che fino a un certo punto conserva il tono trasognato di incanto incessante, di lenta realtà, che <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> ottiene nelle sue figure col pullulare di una vita interiore mai interrotto e sempre fantasticamente coerente. Ma il tono trasognato, la «lenta realtà» di <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">Faulkner</persName> non nascono da un travaglio narrativo intrinseco a ciascuna figura o per lo meno da un’abile introspezione fantastica (vanno ricordati al proposito i piatti e faticosi «monologhi interiori» di <title key="Faulkner, William, 1897-1962. | As I lay dying" ref="http://viaf.org/viaf/178482013/" level="m">As I lay dying</title> scritto un anno prima di <title key="Faulkner, William, 1897-1962. | Sanctuary" ref="http://viaf.org/viaf/219191961/" level="m">Sanctuary</title>): Faulkner ha semplicemente conservato la tecnica di Anderson nel dare incantato rilievo a certi particolari di umile realtà; nel fare scoppiare una voce, un dialogo, in un alto silenzio, in una tensione quasi di prodigio; nel circondare di alone le sue figure con la ripetizione cadenzata di certi atti o caratteristiche. Manca al ralenti di Faulkner il «qualcosa da dire» che lo giustifichi; ciò che in ciascuna figura di Anderson è la compiacenza, il bisogno fantastico di vedersi agire, di raccontarsi. Raramente infatti in Anderson ci si secca, o comunque accorge, della lentezza dello stile: in Faulkner è un continuo ricadere in quel senso di angoscia, di costrizione quasi fisica che si prova appunto a uno spettacolo al rallentatore. Tutta l’avventura di Temple nella casa di campagna – prima metà del libro – è l’esempio più insigne di questo stile asmatico. E meglio ancora in Popeye si rivela l’esteriorità di questa tecnica trasfiguratrice: in fondo all’avventura, dopo che il «mostro» ha commesso tutto il suo male nell’atmosfera «angelica» di rarefazione che si è vista, l’autore deve ricorrere a una cronistica esposizione del caso clinico – infanzia e giovinezza mostruose dell’eroe – che sola può dar la chiave dei casi narrati. La quale osservazione ci può anche autorizzare a definire con giustificata severità Sanctuary come un troppo ambizioso romanzo giallo.</p>
+			<p>A questo tipo di protagonista si può più direttamente riconnettere l’influsso che <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">William Faulkner</persName> ha subìto da <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Sherwood Anderson</persName>. Poiché stati del Sud e personaggi perplessi che da sé vanno analizzandosi sono la vera carne di <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> e un fondo comune di suggestioni e simpatie bisogna certo riconoscere ai due scrittori. Riflettendo come in <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> ogni figura sia fatta di materia introspettiva, sia perplessa a suo modo, si analizzi e racconti a se stessa, si chiarisce la natura di <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">Faulkner</persName> che fino a un certo punto conserva il tono trasognato di incanto incessante, di lenta realtà, che <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> ottiene nelle sue figure col pullulare di una vita interiore mai interrotto e sempre fantasticamente coerente. Ma il tono trasognato, la «lenta realtà» di <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">Faulkner</persName> non nascono da un travaglio narrativo intrinseco a ciascuna figura o per lo meno da un’abile introspezione fantastica (vanno ricordati al proposito i piatti e faticosi «monologhi interiori» di <title key="Faulkner, William, 1897-1962. | As I lay dying" ref="http://viaf.org/viaf/178482013/" level="m">As I lay dying</title> scritto un anno prima di <title key="Faulkner, William, 1897-1962. | Sanctuary" ref="http://viaf.org/viaf/219191961/" level="m">Sanctuary</title>): <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">Faulkner</persName> ha semplicemente conservato la tecnica di <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> nel dare incantato rilievo a certi particolari di umile realtà; nel fare scoppiare una voce, un dialogo, in un alto silenzio, in una tensione quasi di prodigio; nel circondare di alone le sue figure con la ripetizione cadenzata di certi atti o caratteristiche. Manca al ralenti di <persName key="Faulkner, William" ref="http://viaf.org/viaf/3497163464216505680002/" type="real">Faulkner</persName> il «qualcosa da dire» che lo giustifichi; ciò che in ciascuna figura di Anderson è la compiacenza, il bisogno fantastico di vedersi agire, di raccontarsi. Raramente infatti in Anderson ci si secca, o comunque accorge, della lentezza dello stile: in Faulkner è un continuo ricadere in quel senso di angoscia, di costrizione quasi fisica che si prova appunto a uno spettacolo al rallentatore. Tutta l’avventura di Temple nella casa di campagna – prima metà del libro – è l’esempio più insigne di questo stile asmatico. E meglio ancora in Popeye si rivela l’esteriorità di questa tecnica trasfiguratrice: in fondo all’avventura, dopo che il «mostro» ha commesso tutto il suo male nell’atmosfera «angelica» di rarefazione che si è vista, l’autore deve ricorrere a una cronistica esposizione del caso clinico – infanzia e giovinezza mostruose dell’eroe – che sola può dar la chiave dei casi narrati. La quale osservazione ci può anche autorizzare a definire con giustificata severità Sanctuary come un troppo ambizioso romanzo giallo.</p>
 			<p/>
 		</body>
 	</text>
