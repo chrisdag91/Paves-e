@@ -90,12 +90,91 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Il%20mestiere%20di%20poeta.xml?place_annotation_20240405171231731",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-05T15:12:31.731Z",
+	"dcterms:modified": "2024-04-05T15:12:31.731Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Il%20mestiere%20di%20poeta.xml?place_annotation_20240405171231731#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Il%20mestiere%20di%20poeta.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/Saggi_Il%20mestiere%20di%20poeta.xml?place_annotation_20240405171231731#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3175395",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Il mestiere di poeta (a proposito di <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">Lavorare stanca</title>)</p>
 			<p>La composizione della raccolta è durata tre anni.</p>
-			<p>Tre anni di giovinezza e di scoperte, durante i quali è naturale che la mia idea della poesia e insieme le mie capacità intuitive si sian venute approfondendo. E anche ora, benché questa profondità e quel vigore siano molto scaduti ai miei occhi, non credo che tutta, assolutamente tutta, la mia vita si sia appuntata per tre anni nel vuoto. Farò o non farò altri tentativi di poesia, mi occuperò d’altro o ridurrò ancora ogni esperienza a questo fine: tutto ciò, che già mi ha preoccupato, voglio per ora lasciare in disparte. Semplicemente, ho dinanzi un’opera che m’interessa, non tanto perché composta da me, quanto perché, almeno un tempo, l’ho creduta ciò che di meglio si stesse scrivendo in Italia e, ora come ora, sono l’uomo meglio preparato a comprenderla.</p>
+			<p>Tre anni di giovinezza e di scoperte, durante i quali è naturale che la mia idea della poesia e insieme le mie capacità intuitive si sian venute approfondendo. E anche ora, benché questa profondità e quel vigore siano molto scaduti ai miei occhi, non credo che tutta, assolutamente tutta, la mia vita si sia appuntata per tre anni nel vuoto. Farò o non farò altri tentativi di poesia, mi occuperò d’altro o ridurrò ancora ogni esperienza a questo fine: tutto ciò, che già mi ha preoccupato, voglio per ora lasciare in disparte. Semplicemente, ho dinanzi un’opera che m’interessa, non tanto perché composta da me, quanto perché, almeno un tempo, l’ho creduta ciò che di meglio si stesse scrivendo in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="real">Italia</placeName> e, ora come ora, sono l’uomo meglio preparato a comprenderla.</p>
 			<p>Invece di quella naturale evoluzione da poesia a poesia che ho accennato, qualcuno preferirà scoprire nella raccolta ciò che si chiama una costruzione, una gerarchia di momenti cioè, espressiva di un qualche concetto grande o piccolo, per sua natura astratto, esoterico magari, e cosí, in forme sensibili, rivelato. Ora, io non nego che nella mia raccolta di questi concetti se ne possano scoprire, e anche piú di due, nego soltanto di averceli messi.</p>
 			<p>Mi si intenda bene: io stesso mi sono fermato pensieroso davanti ai veri o presunti canzonieri costruiti (Les Fleurs du Mal o Leaves of Grass), dirò di piú, anch’io sono giunto a invidiarli per quella loro vantata qualità; ma al buono, al tentativo cioè di comprenderli e giustificarmeli, ho dovuto riconoscere che di poesia in poesia non c’è passaggio fantastico e nemmeno, in fondo, concettuale. Tutt’al piú, come nell’Alcione, si tratta di un legame temporale, fantasie da giugno a settembre. Un po’ diverso naturalmente sarà il discorso a proposito di un racconto o poema, dove il passaggio fantastico e concettuale insieme è dato proprio dall’elemento narrativo, dalla consapevolezza cioè di un’unità ideale insieme e materiale che raccoglie i diversi momenti di un’esperienza. Ma allora bisogna rinunciare alla pretesa di costruire un poema semplicemente giustapponendo delle unità: si abbia il coraggio e la forza di concepire l’opera di maggior mole con un solo respiro. Come due poemi non formano un unico racconto (si fermano tutt’al piú a legami di parentela tra i rispettivi personaggi o consimili ripieghi), cosí due o piú poesie non formano un racconto o costruzione, se non a patto di riuscire ciascuna per sé non finita. Dovrebbe bastare alla nostra ambizione, e basta in questa raccolta alla mia, che nel suo giro breve ciascuna poesia riesca una costruzione a sé stante.</p>
 			<p>Tutto ciò pare quasi elementare, ma, non so se per ingenuità mia iniziale o per un gusto poetico che tuttora respiro nell’aria, è proprio in un lungo travaglio intorno a quest’identità – ogni poesia, un racconto – che tecnicamente si giustificano tutti i tentativi compresi in questo libro.</p>
