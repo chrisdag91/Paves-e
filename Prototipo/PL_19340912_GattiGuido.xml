@@ -46,7 +46,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240404152220867",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-04-04T13:22:20.867Z",
-	"dcterms:modified": "2024-04-04T13:22:20.867Z",
+	"dcterms:modified": "2024-04-22T20:46:38.525Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -87,7 +87,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
         </rdf:Description>
       
@@ -645,7 +646,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A <persName key="Gatti, Guido M., 1892-1973" ref="http://viaf.org/viaf/36965982/" type="real">Guido M. Gatti?</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
+			<p>A <persName key="Gatti, Guido M., 1892-1973" ref="http://viaf.org/viaf/36965982/" type="real" cert="medium">Guido M. Gatti?</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1934-09-12">12 settembre 1934</date></p>
 			<p>Egregio <rs key="Gatti, Guido M., 1892-1973" ref="http://viaf.org/viaf/36965982/">Ingegnere</rs>,</p>
 			<p>sono qui con <persName key="Debenedetti, Giacomo, 1901-1967" ref="http://viaf.org/viaf/34469924/" type="real">Debenedetti</persName>, che lavora disperatamente per rivedere il mio dialogo e non giungerà stasera che alla metà del film. Succede che con la sua maggior esperienza di sincronismo e dialogo teatrale, <persName key="Debenedetti, Giacomo, 1901-1967" ref="http://viaf.org/viaf/34469924/" type="real">Debenedetti</persName> è costretto a rifare buona parte del lavoro.</p>
