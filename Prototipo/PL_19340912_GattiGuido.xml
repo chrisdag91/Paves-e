@@ -43,10 +43,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240404152220867",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240422224638525",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-04-04T13:22:20.867Z",
-	"dcterms:modified": "2024-04-22T20:46:38.525Z",
+	"dcterms:created": "2024-04-22T20:46:38.525Z",
+	"dcterms:modified": "2024-04-26T10:33:39.387Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -57,7 +57,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240404152220867#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240422224638525#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml",
@@ -71,7 +71,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240404152220867#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/PL_19340912_GattiGuido.xml?person_annotation_20240422224638525#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/persName"
 		}
