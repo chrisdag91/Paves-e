@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze.</p>
+			<p>18 marzo [1934]</p>
+			<p>Via Lamarmora 35</p>
+			<p>Torino</p>
+			<p>Egregio Signore,</p>
+			<p>so che Lei ha voluto interessarsi di certe mie poesie e pensare addirittura alla pubblicazione. Ultimamente il mio amico Ginzburg mi disse che senza sottoscrizione non se ne faceva nulla. Le scrivo io perché in questi giorni l’amico si trova in una situazione consimile a quella di Benv. Cellini nel cap. 101 del I libro. Veda Lei.</p>
+			<p>Tornando a noi, desidero dirLe che in questo caso non se ne fa nulla delle poesie; e questo non per falsa modestia od orgoglio, ma semplicemente perché mi spiace andar seccando gli amici a raccogliere l’obolo onde consacrarmi poeta. Vuol dire che tornerà un’occasione un giorno o l’altro.</p>
+			<p>Si aggiunga poi che mi hanno preso certi scrupoli sul valore dei miei versi e vorrei ripensarci.</p>
+			<p>Vorrei quindi che Lei fosse tanto gentile — quanto lo è stato finora — e mi rimettesse con suo comodo i saggi poetici miei che si trovano, a quanto mi diceva l’amico, in Sua mano.</p>
+			<p>Resta inteso che conservo per Lei la stessa riconoscenza che Le dovrei se la cosa si fosse fatta; e sarebbe per me un piacere e un onore ricevere due righe di Suo e magari entrare in corrispondenza.</p>
+			<p>Cordialmente</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

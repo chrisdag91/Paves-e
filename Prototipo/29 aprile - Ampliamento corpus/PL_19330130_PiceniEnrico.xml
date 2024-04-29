@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Enrico Piceni, Milano.</p>
+			<p>[Torino, 30 gennaio 1933]</p>
+			<p/>
+			<p>Egregio Signore,</p>
+			<p>che cosa diavolo vuole tradurre di Anderson che Winesburg Ohio e Dark Laughter sono già usciti, e neanche con troppo successo? Proprio a esagerare si potrebbe fare Poor White, un romanzetto uscito nel 1921, oppure A Storyteller Story, un'autobiografia del '24, forse il capolavoro di Anderson, ma già uscita in francese col titolo [...], e poco probabilmente beneaccetta in Italia.</p>
+			<p>Di Dos Passos poi mi dicono che Manhattan Transfer (New York) si vende poco. Comunque se si traducesse The 42nd Parallel bisognerebbe anche fare il seguito 1929 con non so quanto sollazzo del pubblico.</p>
+			<p>Io farei più volentieri Dos Passos, ma non risponderei, in questo caso, della consegna a fine maggio, perché un autore slangy come costui si trova di rado, e il volume è lungo e richiede moltissima cura per lo studio di uno stile appena sufficiente.</p>
+			<p>Tenga ad ogni modo presente che siccome attualmente traduco per vivere, potrei solo accettare un contratto in questi termini: consegna di un'ultima quarantina di pagine del ms, previo versamento dell'intera somma pattuita.</p>
+			<p>Veda se le do pochi fastidi. Suo</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

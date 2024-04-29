@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Enrico Piceni, Milano.</p>
+			<p>[Torino, 14 giugno 1933]</p>
+			<p/>
+			<p>Egregio Signore,</p>
+			<p>ricevo la Sua del 10 c.m. che mi chiede un brano del 42° Parallelo di Dos Passos, che sto attualmente traducendo per la «Medusa», per l’«Almanacco». Molto volentieri soddisferò al più presto al Loro desiderio; soltanto, siccome comincio ora la revisione del dattiloscritto della mia traduzione, chiederei qualche giorno appunto per scegliere con ponderatezza, durante la lettura, il brano in questione.</p>
+			<p>Approfitto intanto dell'occasione per chiedere se, scadendo il mio contratto del 42° Parallelo alla fine di giugno, darebbe noia alla Casa ricevere la traduzione con qualche giorno di ritardo, – la prima o seconda settimana di luglio – e questo semplicemente per lasciarmi agio di rivederla con maggior calma.</p>
+			<p>Unisco il cenno introduttivo per il volume, redatto secondo le direttive comunicatemi nel contratto e sperando che soddisfi ai bisogni della collezione.</p>
+			<p>Voglia avere la cortesia di rispondermi su questi tre punti. Intanto colgo l'occasione di distintamente salutarla.</p>
+		</body>
+	</text>
+</TEI>

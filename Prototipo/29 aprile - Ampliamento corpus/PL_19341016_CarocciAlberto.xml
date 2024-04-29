@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze.</p>
+			<p>16 Ott. ’34</p>
+			<p>Torino - Via Lamarmora 35</p>
+			<p>Caro Carocci,</p>
+			<p>finalmente ho ricevuto notizie e sono tranquillo. Non pare, ma un po’ di tremarella la sento. Dimmi, insieme alle bozze, se potrò aggiungere eventualmente tre o quattro poesie recenti, o no. Pensa ancora se sia il caso di abolire l’ultima, Una generazione. Ho intenzione di dedicarne una a Leone Ginzburg, dimmi se ti va.</p>
+			<p>A proposito, di lui non ho notizie, ma essendo avvenuta l’amnistia e non essendo uscito (come pareva dovesse) credo certo che chiuderanno l’istruttoria e processeranno. Dicono che lui continua a tradurre Trotsky, e sarà l’unica volta nella vita che avrà lavorato con un po’ di applicazione.</p>
+			<p>Unisco un elenco di conoscenze che spero quasi tutte sottoscriveranno. Di una metà sono sicuro. Se me ne viene in mente altre, ti scriverò.</p>
+			<p>Niente trafiletto nella cart. reclame. Spero che nemmeno da parte vostra usiate scriver nulla. Io per me scriverei: Pavese - Lavorare stanca - Poesie - Volete leggerle?</p>
+			<p>Mi lusingo che una copia gratuita per me ci sarà; se non è nelle consuetudini, mandami pure la cartolina che sottoscriverò per mio conto, in perfetta disciplina.</p>
+			<p>Mi sanguina il cuore di non esser pronto a compiacerti per Solaria. Mi fate un simile favore, di stampare i miei versi, e io non sono capace di mettere insieme una prosaccia. Può parere persino una posa, ma ti assicuro che non so onestamente di che cosa parlare. Avrai veduto che anche sulla Cultura non scrivo niente. Comunque, farò un ultimo sforzo e, se qualcosa arriva, sarà per voi.</p>
+			<p>Grazie moltiplicate.</p>
+			<p>Cordialmente, tuo</p>
+			<p>Pavese</p>
+			<p>L’elenco te lo manderò, rimpolpato, tra qualche giorno. Leone è stato rinviato a giudizio per il 31. Si parla di qualche anno.</p>
+			<p>P.</p>
+		</body>
+	</text>
+</TEI>

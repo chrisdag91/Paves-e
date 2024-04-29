@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A ignoto.</p>
+			<p>[Torino, febbraio-marzo 1933]</p>
+			<p>Egregio Signore,</p>
+			<p>ho terminata per una casa editrice la traduzione di […] di J. Joyce.</p>
+			<p>Tra le varie difficoltà, una mi è riuscito impossibile di sormontare: ed è la traduzione esatta della parola […] (p. 100 dell’ed. Tauchnitz). Il signor Alberto Rossi, che scrive la prefazione al testo italiano, mi ha consigliato di rivolgermi a Lei: ed io mi permetto di approfittare senz’altro di tale consiglio.</p>
+			<p>La ringrazio in anticipo e Le esprimo i sensi della mia sincera stima e del mio ossequio.</p>
+			<p/>
+		</body>
+	</text>
+</TEI>

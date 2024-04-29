@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze.</p>
+			<p>[Torino,] 9 Dic. ’34</p>
+			<p>Caro Carocci,</p>
+			<p>va benissimo. Sono tranquillo.</p>
+			<p>In questo caso, visto che io non voglio fare una prefaz. che avrebbe l’aria di un manifesto, approfitto di una crisi spirituale che mi è intervenuta e non ne faccio niente, dello scritto.</p>
+			<p>Grazie e con tuo comodo rimandami il dattiloscritto.</p>
+			<p>Saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

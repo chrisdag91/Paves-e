@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Luigi Rusca, Milano.</p>
+			<p>[Torino,] 30 agosto 1933</p>
+			<p>Egregio Signor Rusca,</p>
+			<p>rifacendomi a una Sua del 20 Luglio, La disturbo per sapere se non c’è nulla di nuovo a proposito delle bozze del 42° Parallelo di Dos Passos. Dovendo io assentarmi in questi giorni, non vorrei che giacessero a lungo inutilmente nella mia cassetta.</p>
+			<p>Intanto vorrei pregarLa di interessarsi affinché mi venga saldato ogni compenso per la mia traduzione, il contratto della quale parla di L. 3000 alla consegna del ms. Io non ho ricevute sinora che 1000. Veda se può far qualcosa.</p>
+			<p/>
+			<p/>
+		</body>
+	</text>
+</TEI>

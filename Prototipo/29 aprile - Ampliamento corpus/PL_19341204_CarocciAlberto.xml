@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze.</p>
+			<p>4 Dicembre ’34</p>
+			<p>V. Lamarmora 35, Torino</p>
+			<p>Caro Carocci,</p>
+			<p>ti mando uno scritto che piglia due piccioni alla fava. Serve per Solaria ed è il discorso sulle mie poesie. Anzitutto giudica se va e se da voi è pubblicabile, e poi prendi nota che non lo voglio assolutamente unito al vol. delle poesie, ma solo sulla rivista e almeno 15 giorni dopo uscite le poesie.</p>
+			<p>A proposito delle quali, credo che Parenti mi stia pigliando in giro, perché́ continuo a non ricevere nulla. Scusa se protesto ancora, quando tutto debbo a voi; ma la ragione è che quando si stampa un volume di versi — il che non capita tutti i giorni — si sta in orgasmo e io, dalla metà di ottobre che si parlava di imminenza, ho ormai due mesi di logorio nei nervi.</p>
+			<p>Ripeto, dico questo scusandomi, ma ogni tanto mi prendono paure strane (perduto il ms., cambiato idea, mancati i fondi, ecc.) che danno gli ultimi strattoni ai miei nervi. Ti chiedo, proprio come un favore, di dirmi una data che serva a tenermi tranquillo. La massima delle mie paure è poi che il libro venga pubbl. senza le mie correzioni e tagli e aggiunte e tutto.</p>
+			<p>L. G. pare faccia il suo servizio tutto a Roma dove — Carceri Giudiziarie — gli si può scrivere.</p>
+			<p>Cordialm.</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>
