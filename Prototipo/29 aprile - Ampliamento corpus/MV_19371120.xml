@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,10 +11,88 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/MV_19371120.xml?date_annotation_20240429131746417",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-29T11:17:46.417Z",
+	"dcterms:modified": "2024-04-29T11:17:46.417Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/MV_19371120.xml?date_annotation_20240429131746417#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/MV_19371120.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/MV_19371120.xml?date_annotation_20240429131746417#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1937-11-20"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>﻿20 nov.</p>
+			<p><date when="1937-11-20">20 nov.</date></p>
 			<p>Tutto quanto potevo concedere alla «poesia pura» risulta dalla unificazione estatica d’ogni poesia nell’attimo contemplativo. L’oratoria manca, mancando il pensiero tramato. Tutto si risolverà in un’illuminazione accesa dai varî pensieri e dalle sensazioni intrecciate. L’immagine-racconto era questo. Soltanto, era un racconto fatto di un solo verbo (: Uccise - Fumò - Bevve - Godette - ecc.). Il problema è come uscire dalla semplice proposizione e scrivere dei periodi.</p>
 			<p>Sarà come per il romanzo attuale? Ai fatti concatenati sostituire il paesaggio interiore? Tornare alla idea di dare il pensiero in movimento?</p>
 			<p>Il più ordinario e banale modo di raccontare il pensare è di impiantare una figura che va costruendosi col proprio passato e avvenire. Il vecchietto di Semplicità. Il dio-uomo di Mito. La puttana della P. Contadina. Il metodo di queste poesie è un compromesso tra la posizione del personaggio e la logica fantastica della materia che li costruisce. Non racconto soltanto la loro essenza e non racconto soltanto il mio fantasticare. È sempre ambiguo se essi pensino o io li pensi. M’interessano insieme le loro esperienze e la mia logica fantastica. Ma siamo chiari: la mia logica è un mezzo, un modo d’essere delle loro esperienze. La «scoperta di rapporti che è essa stessa argomento del mio raccontare» parrebbe quindi una chimera.</p>
