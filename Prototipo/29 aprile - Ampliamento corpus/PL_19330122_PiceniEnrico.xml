@@ -484,6 +484,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330122_PiceniEnrico.xml?title_annotation_20240429131333108",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-29T11:13:33.108Z",
+	"dcterms:modified": "2024-04-29T11:13:33.108Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330122_PiceniEnrico.xml?title_annotation_20240429131333108#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330122_PiceniEnrico.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330122_PiceniEnrico.xml?title_annotation_20240429131333108#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/186711229/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -492,7 +571,7 @@
 			<p/>
 			<p>Ho avuto il Suo gradito biglietto. Veda che mi chiamo Cesare Pavese.</p>
 			<p>Quanto all'<persName key="Richard Aldington" ref="http://dbpedia.org/resource/Richard_Aldington">Aldington</persName> è sicuro che in Italia possa pubblicarsi? Comunque, gli scrittori inglesi m'interessano meno.</p>
-			<p>Le faccio a mia volta una proposta: tradurrei uno dei seguenti americani: <title key="Cabell, James Branch, 1879-1958. | Jurgen a comedy of justice" ref="http://viaf.org/viaf/1020151051810033530001/" level="m">Jurgen</title> di <persName key="James Branch Cabell" ref="http://dbpedia.org/resource/James_Branch_Cabell" type="real">Cabell</persName> oppure Arrowsmith di Lewis, consegna alla fine di maggio (sono impegnato in un altro lavoretto), 2000 L. di compenso. Se la cosa è fattibile, mi mandi senz'altro il contratto.</p>
+			<p>Le faccio a mia volta una proposta: tradurrei uno dei seguenti americani: <title key="Cabell, James Branch, 1879-1958. | Jurgen a comedy of justice" ref="http://viaf.org/viaf/1020151051810033530001/" level="m">Jurgen</title> di <persName key="James Branch Cabell" ref="http://dbpedia.org/resource/James_Branch_Cabell" type="real">Cabell</persName> oppure <title key="Lewis, Sinclair, 1885-1951. | Arrowsmith" ref="http://viaf.org/viaf/186711229/" level="m">Arrowsmith</title> di Lewis, consegna alla fine di maggio (sono impegnato in un altro lavoretto), 2000 L. di compenso. Se la cosa è fattibile, mi mandi senz'altro il contratto.</p>
 		</body>
 	</text>
 </TEI>
