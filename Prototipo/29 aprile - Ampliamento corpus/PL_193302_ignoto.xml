@@ -174,7 +174,7 @@
 			<p>A ignoto.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, <date from="1933-02" to="1933-03">febbraio-marzo 1933</date>]</p>
 			<p>Egregio Signore,</p>
-			<p>ho terminata per una casa editrice la traduzione di […] di J. Joyce.</p>
+			<p>ho terminata per una casa editrice la traduzione di […] di <persName ref="#JoyceJames" type="real">J. Joyce</persName>.</p>
 			<p>Tra le varie difficoltà, una mi è riuscito impossibile di sormontare: ed è la traduzione esatta della parola […] (p. 100 dell’ed. Tauchnitz). Il signor Alberto Rossi, che scrive la prefazione al testo italiano, mi ha consigliato di rivolgermi a Lei: ed io mi permetto di approfittare senz’altro di tale consiglio.</p>
 			<p>La ringrazio in anticipo e Le esprimo i sensi della mia sincera stima e del mio ossequio.</p>
 			<p/>
