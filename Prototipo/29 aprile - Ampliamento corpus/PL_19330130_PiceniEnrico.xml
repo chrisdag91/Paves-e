@@ -956,6 +956,163 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330130_PiceniEnrico.xml?person_annotation_20240429141602197",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-29T12:16:02.197Z",
+	"dcterms:modified": "2024-04-29T12:16:02.197Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330130_PiceniEnrico.xml?person_annotation_20240429141602197#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330130_PiceniEnrico.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330130_PiceniEnrico.xml?person_annotation_20240429141602197#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/41839211/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330130_PiceniEnrico.xml?date_annotation_20240429141619860",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-29T12:16:19.860Z",
+	"dcterms:modified": "2024-04-29T12:16:19.860Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330130_PiceniEnrico.xml?date_annotation_20240429141619860#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330130_PiceniEnrico.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330130_PiceniEnrico.xml?date_annotation_20240429141619860#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1933-05"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -965,7 +1122,7 @@
 			<p>Egregio Signore,</p>
 			<p>che cosa diavolo vuole tradurre di <persName ref="#AndersonSherwood" type="real">Anderson</persName> che <title key="Anderson, Sherwood, 1876-1941. | Winesburg, Ohio" ref="http://viaf.org/viaf/314848338/" level="m">Winesburg Ohio</title> e <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Dark Laughter</title> sono già usciti, e neanche con troppo successo? Proprio a esagerare si potrebbe fare <title key="Anderson, Sherwood, 1876-1941,. | Poor white" ref="http://viaf.org/viaf/3663153289910232770002/" level="m">Poor White</title>, un romanzetto uscito nel <date when="1921">1921</date>, oppure <title level="m" ref="#AStorytellersStory">A Storyteller Story</title>, un'autobiografia del <date when="1924">'24</date>, forse il capolavoro di <persName ref="#AndersonSherwood" type="real">Anderson</persName>, ma già uscita in francese col titolo [...], e poco probabilmente beneaccetta in Italia.</p>
 			<p>Di <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" type="real">Dos Passos</persName> poi mi dicono che <title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/" level="m">Manhattan Transfer</title> (New York) si vende poco. Comunque se si traducesse <title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/" level="m">The 42nd Parallel</title> bisognerebbe anche fare il seguito <title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1929</title> con non so quanto sollazzo del pubblico.</p>
-			<p>Io farei più volentieri Dos Passos, ma non risponderei, in questo caso, della consegna a fine maggio, perché un autore slangy come costui si trova di rado, e il volume è lungo e richiede moltissima cura per lo studio di uno stile appena sufficiente.</p>
+			<p>Io farei più volentieri <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" type="real">Dos Passos</persName>, ma non risponderei, in questo caso, della consegna a fine <date when="1933-05">maggio</date>, perché un autore slangy come costui si trova di rado, e il volume è lungo e richiede moltissima cura per lo studio di uno stile appena sufficiente.</p>
 			<p>Tenga ad ogni modo presente che siccome attualmente traduco per vivere, potrei solo accettare un contratto in questi termini: consegna di un'ultima quarantina di pagine del ms, previo versamento dell'intera somma pattuita.</p>
 			<p>Veda se le do pochi fastidi. Suo</p>
 			<p>Pavese</p>
