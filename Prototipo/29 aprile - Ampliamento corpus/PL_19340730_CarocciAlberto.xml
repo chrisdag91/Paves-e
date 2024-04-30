@@ -484,6 +484,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340730_CarocciAlberto.xml?place_annotation_20240430122508678",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-30T10:25:08.678Z",
+	"dcterms:modified": "2024-04-30T10:25:08.678Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340730_CarocciAlberto.xml?place_annotation_20240430122508678#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340730_CarocciAlberto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340730_CarocciAlberto.xml?place_annotation_20240430122508678#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3175395",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -491,7 +570,7 @@
 			<p><date when="1934-07-30">30 Luglio ’34</date></p>
 			<p><placeName ref="#TorinoViaLamarmora35">V. Lamarmora 35</placeName> [<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>]</p>
 			<p>Caro <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName>,</p>
-			<p>ecco finalmente il ms. riordinato e tutto. Il titolo, come vedi, ha da essere <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">Lavorare Stanca</title>, motto dell’autore e, mi pare, nuovo come titolo di versi, in Italia. L’ordine delle poesie è supergiù cronologico, tranne qualche spostamento per chiarire certi filoni d’ispirazione. C’è Legna verde, Rivolta e Una generazione (specialmente questa) che non so quanto siano opportune: se tu nella tua esperienza temessi il peggio, avvertimi e vedremo di condannarle, col cuore sanguinante. Fammi anche sapere se eventualmente potrei ogni tanto, fin che il libro non sia impaginato, mandare qualche nuova poesia che mi venisse fatta. Vorrei l’indice in principio e un preventivo di quando potrà uscire il volume.</p>
+			<p>ecco finalmente il ms. riordinato e tutto. Il titolo, come vedi, ha da essere <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">Lavorare Stanca</title>, motto dell’autore e, mi pare, nuovo come titolo di versi, in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="real">Italia</placeName>. L’ordine delle poesie è supergiù cronologico, tranne qualche spostamento per chiarire certi filoni d’ispirazione. C’è <title level="a" ref="#LegnaVerde_LavorareStanca36">Legna verde</title>, Rivolta e Una generazione (specialmente questa) che non so quanto siano opportune: se tu nella tua esperienza temessi il peggio, avvertimi e vedremo di condannarle, col cuore sanguinante. Fammi anche sapere se eventualmente potrei ogni tanto, fin che il libro non sia impaginato, mandare qualche nuova poesia che mi venisse fatta. Vorrei l’indice in principio e un preventivo di quando potrà uscire il volume.</p>
 			<p>E, senza complimenti, se hai cambiato idea dimmelo e non cacciarti in questa rovinosa speculazione.</p>
 			<p>Di Leone, niente. Venerdì, vado a Roma per concorsi e sentirò. Scrivimi per prima di sabato, che mi farai piacere e vedi di assicurarmi che correggerò le bozze in colonna e quelle in pagina.</p>
 			<p>Tuo</p>
