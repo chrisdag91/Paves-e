@@ -326,6 +326,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340318_CarocciAlberto.xml?person_annotation_20240430114323024",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-30T09:43:23.024Z",
+	"dcterms:modified": "2024-04-30T09:43:23.024Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340318_CarocciAlberto.xml?person_annotation_20240430114323024#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340318_CarocciAlberto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340318_CarocciAlberto.xml?person_annotation_20240430114323024#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/94052107/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340318_CarocciAlberto.xml?person_annotation_20240430114450745",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-30T09:44:50.745Z",
+	"dcterms:modified": "2024-04-30T09:44:50.745Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340318_CarocciAlberto.xml?person_annotation_20240430114450745#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340318_CarocciAlberto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19340318_CarocciAlberto.xml?person_annotation_20240430114450745#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/56629983/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -334,7 +492,7 @@
 			<p><placeName ref="#TorinoViaLamarmora35">Via Lamarmora 35</placeName></p>
 			<p><placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName></p>
 			<p>Egregio Signore,</p>
-			<p>so che Lei ha voluto interessarsi di certe mie poesie e pensare addirittura alla pubblicazione. Ultimamente il mio amico Ginzburg mi disse che senza sottoscrizione non se ne faceva nulla. Le scrivo io perché in questi giorni l’amico si trova in una situazione consimile a quella di Benv. Cellini nel cap. 101 del I libro. Veda Lei.</p>
+			<p>so che Lei ha voluto interessarsi di certe mie poesie e pensare addirittura alla pubblicazione. Ultimamente il mio amico <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" type="real">Ginzburg</persName> mi disse che senza sottoscrizione non se ne faceva nulla. Le scrivo io perché in questi giorni l’amico si trova in una situazione consimile a quella di <persName key="Cellini, Benvenuto, 1500-1571." ref="http://viaf.org/viaf/56629983/" type="real">Benv. Cellini</persName> nel cap. 101 del I libro. Veda Lei.</p>
 			<p>Tornando a noi, desidero dirLe che in questo caso non se ne fa nulla delle poesie; e questo non per falsa modestia od orgoglio, ma semplicemente perché mi spiace andar seccando gli amici a raccogliere l’obolo onde consacrarmi poeta. Vuol dire che tornerà un’occasione un giorno o l’altro.</p>
 			<p>Si aggiunga poi che mi hanno preso certi scrupoli sul valore dei miei versi e vorrei ripensarci.</p>
 			<p>Vorrei quindi che Lei fosse tanto gentile — quanto lo è stato finora — e mi rimettesse con suo comodo i saggi poetici miei che si trovano, a quanto mi diceva l’amico, in Sua mano.</p>
