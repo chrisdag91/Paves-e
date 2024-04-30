@@ -93,7 +93,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla «Lega di Insegnamento», <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
+			<p>Alla «<orgName ref="#LegaInsegnamento">Lega di Insegnamento</orgName>», <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			<p>[Torino] 23 maggio [1933?]</p>
 			<p>Egregio Dott. Formia,</p>
 			<p>ho avuto ieri la benemerenza che il Consiglio della Lega si è degnato di conferirmi. Rimpiango soltanto di aver dovuto controvoglia troncare tanto presto la mia opera e tanto più gradito mi è così giunto l’onore con cui la Lega ha voluto dimostrarmi di aver inteso nel loro significato le mie modeste fatiche e, più, il mio ritiro.</p>
