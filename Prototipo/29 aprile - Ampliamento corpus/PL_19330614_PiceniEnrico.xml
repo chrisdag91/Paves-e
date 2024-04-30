@@ -325,6 +325,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330614_PiceniEnrico.xml?title_annotation_20240430104304135",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-30T08:43:04.135Z",
+	"dcterms:modified": "2024-04-30T08:43:04.135Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330614_PiceniEnrico.xml?title_annotation_20240430104304135#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330614_PiceniEnrico.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Prototipo/29%20aprile%20-%20Ampliamento%20corpus/PL_19330614_PiceniEnrico.xml?title_annotation_20240430104304135#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/185050943/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -332,7 +411,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, <date when="1933-06-14">14 giugno 1933</date>]</p>
 			<p/>
 			<p>Egregio Signore,</p>
-			<p>ricevo la Sua del <date when="1933-06-10">10 c.m.</date> che mi chiede un brano del 42° Parallelo di Dos Passos, che sto attualmente traducendo per la «Medusa», per l’«Almanacco». Molto volentieri soddisferò al più presto al Loro desiderio; soltanto, siccome comincio ora la revisione del dattiloscritto della mia traduzione, chiederei qualche giorno appunto per scegliere con ponderatezza, durante la lettura, il brano in questione.</p>
+			<p>ricevo la Sua del <date when="1933-06-10">10 c.m.</date> che mi chiede un brano del <title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/" level="m">42° Parallelo</title> di Dos Passos, che sto attualmente traducendo per la «Medusa», per l’«Almanacco». Molto volentieri soddisferò al più presto al Loro desiderio; soltanto, siccome comincio ora la revisione del dattiloscritto della mia traduzione, chiederei qualche giorno appunto per scegliere con ponderatezza, durante la lettura, il brano in questione.</p>
 			<p>Approfitto intanto dell'occasione per chiedere se, scadendo il mio contratto del 42° Parallelo alla fine di giugno, darebbe noia alla Casa ricevere la traduzione con qualche giorno di ritardo, – la prima o seconda settimana di luglio – e questo semplicemente per lasciarmi agio di rivederla con maggior calma.</p>
 			<p>Unisco il cenno introduttivo per il volume, redatto secondo le direttive comunicatemi nel contratto e sperando che soddisfi ai bisogni della collezione.</p>
 			<p>Voglia avere la cortesia di rispondermi su questi tre punti. Intanto colgo l'occasione di distintamente salutarla.</p>
