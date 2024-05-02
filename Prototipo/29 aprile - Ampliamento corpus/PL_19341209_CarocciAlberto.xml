@@ -412,7 +412,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1934-12-09">9 Dic. ’34</date></p>
 			<p>Caro <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName>,</p>
 			<p>va benissimo. Sono tranquillo.</p>
-			<p>In questo caso, visto che io non voglio fare una prefaz. che avrebbe l’aria di un manifesto, approfitto di una crisi spirituale che mi è intervenuta e non ne faccio niente, dello scritto.</p>
+			<p>In questo caso, visto che io non voglio fare una prefaz. che avrebbe l’aria di un manifesto, approfitto di una crisi spirituale che mi è intervenuta e non ne faccio niente, dello <rs ref="#IlMestiereDiPoeta">scritto</rs>.</p>
 			<p>Grazie e con tuo comodo rimandami il dattiloscritto.</p>
 			<p>Saluti</p>
 			<p>Pavese</p>
