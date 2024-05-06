@@ -46,7 +46,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315113902558",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-15T10:39:02.558Z",
-	"dcterms:modified": "2024-03-15T10:39:02.558Z",
+	"dcterms:modified": "2024-05-06T12:26:06.659Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -68,7 +68,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315113902558#Selector",
@@ -86,7 +86,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -125,7 +125,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315113919738",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-15T10:39:19.738Z",
-	"dcterms:modified": "2024-03-15T10:39:19.738Z",
+	"dcterms:modified": "2024-05-06T12:26:20.093Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -147,7 +147,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315113919738#Selector",
@@ -165,7 +165,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -957,8 +957,8 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
-			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, <placeName ref="#CarceriDiReginaCoeli">Carceri di Regina Coeli</placeName>,] <date when="1935-07-01">1° luglio 1935</date></p>
+			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
+			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070" type="real">Roma</placeName>, <placeName ref="#CarceriDiReginaCoeli">Carceri di Regina Coeli</placeName>,] <date when="1935-07-01">1° luglio 1935</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
 			<p>comincio ad apprezzare gli affetti famigliari. Ieri ero sul punto di tirarmi un colpo (ma non abbiamo armi) quando È arrivata la lettera del <date when="1935-06-23">23</date> che mi ha un po' rimesso. é arrivata anche la cartolina del giorno dopo, di cui ringrazio le mittenti. Ti stupisci che ho scritto al <date when="1935-06-14">14</date> e al <date when="1935-06-17">17</date>. Ho scritto anche all'<date when="1935-06-11">11</date>; non avete ricevuto? Ti ho già detto che sono stato interrogato 15 giorni fa e d'allora non ne so più niente.</p>
