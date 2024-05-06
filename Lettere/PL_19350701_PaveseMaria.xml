@@ -831,7 +831,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315120034387",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-15T11:00:34.387Z",
-	"dcterms:modified": "2024-03-15T11:00:34.387Z",
+	"dcterms:modified": "2024-05-06T12:32:30.610Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -853,7 +853,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315120034387#Selector",
@@ -871,7 +871,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -910,7 +910,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315120100680",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-15T11:01:00.680Z",
-	"dcterms:modified": "2024-03-15T11:01:00.680Z",
+	"dcterms:modified": "2024-05-06T12:32:41.637Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -932,7 +932,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315120100680#Selector",
@@ -950,7 +950,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -966,8 +966,8 @@
 			<p>Avrai ricevuto le mie lettere dove ti consigliavo di rivolgerti per aiuti a persone del mestiere come l'avv. <persName ref="#PinelliFerdinando" type="real">Pinelli</persName> e l'avv. <persName ref="#VaudagnaGiuseppe">Vaudagna</persName> figlio. Io ormai qui non posso che attendere. Tocca a voi andare attorno per sentire un po'.</p>
 			<p>Io qui comincio al mattino a grondar sudore e ho già tutta la faccia screpolata dal gran detergermi. Ogni tanto uno si chiede come farà a passar l'Agosto, se ci arriva, e si strappa i capelli dalla disperazione. Ho in testa tutta una regione di calvizie, dovuta a quest'esercizio. E tutto questo perché a qualche conoscenza è piaciuto far l'idiota e rovinare i galantuomini. Se esco, ne rompo delle ossa.</p>
 			<p>Di denaro ho ancora 300,50. Calcolando a parte le spese straordinarie (libri, giornali, medicinali) mi vanno un 150 L. al mese. Buono no, come pensione (e c'è anche il fumare)?</p>
-			<p>La campagna la godo quando mi aprono lo sportellino all'uscio per darmi o dirmi qualcosa. Da una vetrata, vedo una collina tutta verde. Credo sia il <placeName key="Gianicolo Lazio Italy" ref="https://geonames.org/3176150">Gianicolo</placeName>. Ma del resto fa lo stesso.</p>
-			<p>I più bei momenti della mia vita sono, quando non abbia l'asma, quelli del sonno. Faccio molti sogni, tutti tendenti a convincermi che sono a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> a spasso, o in barca, o in casa di qualche amico, o con la bella, ma già qualche momento prima di svegliarmi si direbbe che sento il peso delle pareti e inferriate, e apro gli occhi che son bell'e convinto di trovarmi in prigione, come il giorno prima.</p>
+			<p>La campagna la godo quando mi aprono lo sportellino all'uscio per darmi o dirmi qualcosa. Da una vetrata, vedo una collina tutta verde. Credo sia il <placeName key="Gianicolo Lazio Italy" ref="https://geonames.org/3176150" type="real">Gianicolo</placeName>. Ma del resto fa lo stesso.</p>
+			<p>I più bei momenti della mia vita sono, quando non abbia l'asma, quelli del sonno. Faccio molti sogni, tutti tendenti a convincermi che sono a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName> a spasso, o in barca, o in casa di qualche amico, o con la bella, ma già qualche momento prima di svegliarmi si direbbe che sento il peso delle pareti e inferriate, e apro gli occhi che son bell'e convinto di trovarmi in prigione, come il giorno prima.</p>
 			<p>Una cosa strana è che qui non ci sono mosche. Le cimici non le ho ancora viste, se non cacciate dalla fiamma. Sono isolato come si deve, quindi. Soltanto, che si diventa matti.</p>
 			<p>Ho interrotto per andare a prendere l'ora di fresco in cortile, nella fossa dei leoni. Siccome ritorno che son tutto sudato, smetto per rinfrescarmi un poco qui in cella.</p>
 			<p>Ciau e saluta tutti</p>
