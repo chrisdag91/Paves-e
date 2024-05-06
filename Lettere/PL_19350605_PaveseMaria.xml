@@ -139,7 +139,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350605_PaveseMaria.xml?place_annotation_20240227145924380",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-27T13:59:24.380Z",
-	"dcterms:modified": "2024-02-27T13:59:24.380Z",
+	"dcterms:modified": "2024-05-06T12:22:39.148Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chiaratavella",
 		"@type": [
@@ -161,7 +161,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350605_PaveseMaria.xml?place_annotation_20240227145924380#Selector",
@@ -179,8 +179,20 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
+		"schema:softwareVersion": "3.5.0"
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/alzuliani1",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "Alberto Luca Zuliani"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       
@@ -265,7 +277,7 @@
 	<text>
 		<body>
 			<p>Alla sorella <persName cert="high" ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high" type="real">Torino<precision match="@ref" precision="high"/></placeName>.</p>
-			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1935-06-05">5 giugno 1935</date></p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1935-06-05">5 giugno 1935</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
 			<p>come vedi sono sempre al fresco. La cosa comincia a seccare, ma d'altra parte libri da leggere ne ho e vada come vuole. Contrariamente all'opinione comune, le giornate in prigione passano molto presto. Mi par ieri che mi han condotto qui ed è già quasi un mese. Ho chiesto tempo fa di parlare al Questore per chiedergli, tra l'altro, se ce n'era ancora per un pezzo, ma finora non mi hanno chiamato. Una volta sola, ho fatto la mia deposizione e poi basta. Se è possibile, vedi di parlargli tu e di chiedergli o di darti una ragione o di chiamar me a discuterla. Mi pare che chiedo poco.</p>
