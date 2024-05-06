@@ -204,7 +204,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350516_PaveseMaria.xml?place_annotation_20240227140721226",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-27T13:07:21.226Z",
-	"dcterms:modified": "2024-02-27T13:07:21.226Z",
+	"dcterms:modified": "2024-05-06T12:06:50.921Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chiaratavella",
 		"@type": [
@@ -226,7 +226,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350516_PaveseMaria.xml?place_annotation_20240227140721226#Selector",
@@ -244,8 +244,20 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
+		"schema:softwareVersion": "3.5.0"
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/alzuliani1",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "Alberto Luca Zuliani"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       
@@ -283,7 +295,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350516_PaveseMaria.xml?place_annotation_20240227140736131",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-27T13:07:36.131Z",
-	"dcterms:modified": "2024-02-27T13:07:36.131Z",
+	"dcterms:modified": "2024-05-06T12:07:06.857Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chiaratavella",
 		"@type": [
@@ -305,7 +317,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350516_PaveseMaria.xml?place_annotation_20240227140736131#Selector",
@@ -323,8 +335,20 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
+		"schema:softwareVersion": "3.5.0"
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/alzuliani1",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "Alberto Luca Zuliani"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       
@@ -488,8 +512,8 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
-			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <placeName ref="#CarcereLeNuoveDiTorino">Carceri Nuove</placeName>,] <date when="1935-05-16" cert="high">16 maggio 1935</date></p>
+			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, <placeName ref="#CarcereLeNuoveDiTorino">Carceri Nuove</placeName>,] <date when="1935-05-16" cert="high">16 maggio 1935</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
 			<p>sto magnificamente e speriamo che duri (il magnificamente, non lo stare). Mangiare ce n'è, avendo io in tasca qualche soldo. Oggi (3 del pomeriggio) ho già mangiato quattro volte. Quello che scarseggia è il fumare, ma economizzo le cicche dei toscani che mi dànno e le fumo nella pipa. Ho anche molto da leggere, e tutto sommato sono contento di non più far lezione. Se qualcuno fosse venuto a cercarmi o se qualche scuola avesse protestato, me lo farete sapere, badando di non far nomi, per non mettere nei pasticci gente che non ne sa nulla. Abbiamo l'impianto di riscaldamento, che sarebbero i vetri alla finestra e quando fa freddo (ma sono pieno di coperte) li chiudiamo.</p>
