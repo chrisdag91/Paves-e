@@ -46,7 +46,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240227144545639",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-27T13:45:45.639Z",
-	"dcterms:modified": "2024-02-27T13:45:45.639Z",
+	"dcterms:modified": "2024-05-06T12:15:02.769Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chiaratavella",
 		"@type": [
@@ -68,7 +68,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240227144545639#Selector",
@@ -86,8 +86,20 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
+		"schema:softwareVersion": "3.5.0"
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/alzuliani1",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "Alberto Luca Zuliani"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       
@@ -125,7 +137,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240227144558172",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-27T13:45:58.172Z",
-	"dcterms:modified": "2024-02-27T13:45:58.172Z",
+	"dcterms:modified": "2024-05-06T12:15:18.408Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chiaratavella",
 		"@type": [
@@ -147,7 +159,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240227144558172#Selector",
@@ -165,8 +177,20 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
+		"schema:softwareVersion": "3.5.0"
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/alzuliani1",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "Alberto Luca Zuliani"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       
@@ -330,8 +354,8 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella <persName ref="#PaveseSiniMaria">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
-			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <placeName ref="#CarcereLeNuoveDiTorino">Carceri Nuove</placeName>,] <date when="1935-05-29">29 maggio 1935</date></p>
+			<p>Alla sorella <persName ref="#PaveseSiniMaria">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, <placeName ref="#CarcereLeNuoveDiTorino">Carceri Nuove</placeName>,] <date when="1935-05-29">29 maggio 1935</date></p>
 			<p/>
 			<p>Cara <persName cert="high" ref="#PaveseSiniMaria" type="real">Maria</persName>,</p>
 			<p>continuo a ricevere regolarmente la biancheria, mangio discretamente e fumo a volontà (la pipa!).</p>
