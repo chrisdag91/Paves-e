@@ -46,7 +46,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350605_PaveseMaria.xml?place_annotation_20240227145910094",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-27T13:59:10.094Z",
-	"dcterms:modified": "2024-02-27T13:59:10.094Z",
+	"dcterms:modified": "2024-05-06T12:21:45.064Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chiaratavella",
 		"@type": [
@@ -68,7 +68,7 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350605_PaveseMaria.xml?place_annotation_20240227145910094#Selector",
@@ -86,8 +86,20 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
+		"schema:softwareVersion": "3.5.0"
 	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/alzuliani1",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "Alberto Luca Zuliani"
+			}
+		}
+	],
 	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
@@ -252,7 +264,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella <persName cert="high" ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="high"/></placeName>.</p>
+			<p>Alla sorella <persName cert="high" ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high" type="real">Torino<precision match="@ref" precision="high"/></placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1935-06-05">5 giugno 1935</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
