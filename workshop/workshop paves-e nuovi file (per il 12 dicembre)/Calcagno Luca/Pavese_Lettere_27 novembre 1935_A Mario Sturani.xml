@@ -854,6 +854,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?title_annotation_20231211170907295",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:09:07.295Z",
+	"dcterms:modified": "2024-05-08T12:31:27.046Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -885,7 +886,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "bf:Title",
-		"@id": "http://www.wikidata.org/entity/Q109002471",
+		"@id": "#LaPulceDOro",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -894,7 +895,19 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
-	}
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/alzuliani1",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "Alberto Luca Zuliani"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       
@@ -1224,7 +1237,7 @@
 			<p>Ho quindi comperato una bella corda, l’ho adattata a nodo scorsoio, e tutte le mattine la insapono per tenerla pronta.</p>
 			<p>Mi servirà a guadagnarmi un po’ di carne, quando i vicini mi chiameranno a prender parte all’impiccagione del maiale, che sta ora ingrassando in rigorosa castità.</p>
 			<p>Mi ha scritto <rs key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/">tuo suocero</rs> una cartolina dove mi promette libri greci, e mi dà del commediante. Digli, per ora, che se non mi restasse almeno il conforto di recitare una parte, mi sarei già trucidato da un pezzo.</p>
-			<p>Avrai saputo anche tu che <persName key="Pinelli, Tullio, 1908-2009" ref="http://viaf.org/viaf/61740905/" type="real">Pinelli</persName> ha fatto rappresentare una sconcissima commedia intitolata <title key="La pulce d'oro" ref="http://www.wikidata.org/entity/Q109002471">la Pulce d’Oro</title>. Io l’avevo letta e l’avevo trovata nel solito suo stile, ma divertente. E sporca, sporca, peggio del Tutto Banda. Così va il mondo. Non può uscire il Dio-Caprone tutto pieno di castissime risoluzioni, e rappresentano siffatte sessualità. Farebbe meglio ad adoperare il credito di cui gode, per farmi tornare a casa. Ma lui pensa a far figli e commedie: due operazioni cui attende esercitando i medesimi organi. E tanto basti.</p>
+			<p>Avrai saputo anche tu che <persName key="Pinelli, Tullio, 1908-2009" ref="http://viaf.org/viaf/61740905/" type="real">Pinelli</persName> ha fatto rappresentare una sconcissima commedia intitolata <title key="La pulce d'oro" ref="#LaPulceDOro" level="m">la Pulce d’Oro</title>. Io l’avevo letta e l’avevo trovata nel solito suo stile, ma divertente. E sporca, sporca, peggio del Tutto Banda. Così va il mondo. Non può uscire il Dio-Caprone tutto pieno di castissime risoluzioni, e rappresentano siffatte sessualità. Farebbe meglio ad adoperare il credito di cui gode, per farmi tornare a casa. Ma lui pensa a far figli e commedie: due operazioni cui attende esercitando i medesimi organi. E tanto basti.</p>
 			<p>Saluti alla tua <persName key="Sturani Monti, Luisa" ref="http://viaf.org/viaf/27231647/">beccaccina</persName></p>
 			<p><persName key="Cesare Pavese" ref="http://www.wikidata.org/entity/Q2022">Pav</persName>.</p>
 			<p/>
