@@ -421,8 +421,8 @@
 			<p>Libri da <persName key="Franz Kafka" ref="http://dbpedia.org/resource/Franz_Kafka" type="real">mettere</persName> in nota:</p>
 			<p>Jonathan Swift, A Tale of a <persName key="Frassinelli, Carlo" ref="http://viaf.org/viaf/8584545/" type="real">Tub</persName> (Dent)</p>
 			<p>Jonathan Swift, Journal to Stella (Dent)</p>
-			<p>Edmund Spencer, The Faerie <persName ref="#Ulisse" type="fictional">Queene</persName> (2 volumi) (Dent)</p>
-			<p>William Congreve, The complete Plays (2 volumi) (Oxford)</p>
+			<p>Edmund Spencer, The Faerie <persName ref="#Ulisse" type="fictional">Queene</persName> (2 volumi) (<persName ref="#Circe" type="fictional">Dent</persName>)</p>
+			<p>William Congreve, The complete <persName ref="#Tristano" type="fictional">Plays</persName> (2 volumi) (Oxford)</p>
 			<p>William Faulkner (americano), Light in August (?)</p>
 			<p>Pylon (?) romanzi recenti</p>
 			<p>Mi stupisce che mi chiediate se ho voglia di tornare a Torino. Non va bene lamentarsi, perché c’è sempre chi sta peggio, ma certo che non c’è ancora stato filosofo che abbia sopportato il mal di denti con calma. A me dà qualche sollievo mangiare un carciofino tutte le domeniche, e poi fumare col succhino. Piaceri che non tutti capiscono, anche perché non tutti sono a Brancaleone. Amen.</p>
