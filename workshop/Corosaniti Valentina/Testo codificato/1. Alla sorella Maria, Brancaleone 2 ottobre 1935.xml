@@ -421,7 +421,7 @@
 			<p>Libri da <persName key="Franz Kafka" ref="http://dbpedia.org/resource/Franz_Kafka" type="real">mettere</persName> in nota:</p>
 			<p>Jonathan Swift, A Tale of a <persName key="Frassinelli, Carlo" ref="http://viaf.org/viaf/8584545/" type="real">Tub</persName> (Dent)</p>
 			<p>Jonathan Swift, Journal to Stella (Dent)</p>
-			<p>Edmund Spencer, The Faerie Queene (2 volumi) (Dent)</p>
+			<p>Edmund Spencer, The Faerie <persName ref="#Ulisse" type="fictional">Queene</persName> (2 volumi) (Dent)</p>
 			<p>William Congreve, The complete Plays (2 volumi) (Oxford)</p>
 			<p>William Faulkner (americano), Light in August (?)</p>
 			<p>Pylon (?) romanzi recenti</p>
