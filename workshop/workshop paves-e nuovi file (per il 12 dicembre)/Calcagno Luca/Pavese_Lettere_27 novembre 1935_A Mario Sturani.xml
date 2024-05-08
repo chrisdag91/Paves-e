@@ -760,84 +760,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170515365",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-12-11T16:05:15.365Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/Lvcal",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Luca Calcagno"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170515365#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170515365#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2525505",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170552211",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:05:52.211Z",
@@ -1284,7 +1206,7 @@
 			<p>Ora è cominciato l’inverno sotto forma di piogge, venti torrenziali e umidità notturne, che per la mia asma sono tanto pepe. Questo è brutto, perché, essendo qui il sonno l’unico passatempo non esasperante, sentirselo troncare tutte le notti moltiplica per x la durata dell’esilio.</p>
 			<p>Io faccio poesie senza gusto e senz’appetito, e m’accorgo che il mestiere di poeta non serve nemmeno a ammazzare il tempo, perché l’interesse al lavoro viene rarissimo, e troppe sono le ore che è necessario stare tetramente concentrati su un’idea che non c’è. Era già brutto a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName> questo, pensiamo qui.</p>
 			<p>Il mare, già così antipatico d’estate, d’inverno è poi innominabile: alla riva, tutto giallo di sabbia smossa; al largo un verde tenerello che fa rabbia. E pensare che è quello d’<persName key="Ulisse" ref="http://viaf.org/viaf/9863151247972344270001/" type="fictional">Ulisse</persName>: figurarsi gli altri.</p>
-			<p>La grande attrattiva del <placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">paese</placeName> sono i pesci, che a me non piacciono, e così mangio pietanza non più che un giorno o due alla settimana, quando ammazzano la vitella.</p>
+			<p>La grande attrattiva del paese sono i pesci, che a me non piacciono, e così mangio pietanza non più che un giorno o due alla settimana, quando ammazzano la vitella.</p>
 			<p>Ho quindi comperato una bella corda, l’ho adattata a nodo scorsoio, e tutte le mattine la insapono per tenerla pronta.</p>
 			<p>Mi servirà a guadagnarmi un po’ di carne, quando i vicini mi chiameranno a prender parte all’impiccagione del maiale, che sta ora ingrassando in rigorosa castità.</p>
 			<p>Mi ha scritto <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/">tuo suocero</persName> una cartolina dove mi promette libri greci, e mi dà del commediante. Digli, per ora, che se non mi restasse almeno il conforto di recitare una parte, mi sarei già trucidato da un pezzo.</p>
