@@ -152,7 +152,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Corosaniti%20Valentina/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20240508144523155#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/persName[2]"
+			"rdf:value": "TEI/text/body/p[6]/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -231,7 +231,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Corosaniti%20Valentina/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?person_annotation_20240508144649904#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/persName[3]"
+			"rdf:value": "TEI/text/body/p[6]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -256,7 +256,7 @@
 			<p>Cara Maria, Mario Sturani</p>
 			<p>ricevo 18 e 22 settembre. A Ruata ho scritto io.</p>
 			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l’alloggio, con gli arretrati dal 5 agosto) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
-			<p>Mi ha fatto molto piacere il <persName key="Blaise Pascal" ref="http://dbpedia.org/resource/Blaise_Pascal" type="real">libro</persName> inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. <persName key="Stanhope, Philip Domer, Earl of Chesterfield, 1694-1773" ref="http://viaf.org/viaf/9457167807375418130007/" type="real">Torna</persName> a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a Torino, poiché scrive sempre delle stupidaggini sui <persName key="Daniel Defoe" ref="http://dbpedia.org/resource/Daniel_Defoe" type="real">film</persName> nella «Gazzetta». La risposta di Mondadori, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
+			<p>Mi ha fatto molto piacere il <persName key="Blaise Pascal" ref="http://dbpedia.org/resource/Blaise_Pascal" type="real">libro</persName> inglese, benché dal <persName cert="low" ref="#GarnettDavid" type="real">titolo</persName> un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. <persName key="Stanhope, Philip Domer, Earl of Chesterfield, 1694-1773" ref="http://viaf.org/viaf/9457167807375418130007/" type="real">Torna</persName> a insistere con ferocia presso Alberto Rossi, perché ti renda i libri. È a Torino, poiché scrive sempre delle stupidaggini sui <persName key="Daniel Defoe" ref="http://dbpedia.org/resource/Daniel_Defoe" type="real">film</persName> nella «Gazzetta». La risposta di Mondadori, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
 			<p>La nevralgia è passata ma adesso comincia la stagione della febbre e l’aspetto da un giorno all’altro. Ti ho già scritto che non voglio assolutamente trasferimenti.</p>
 			<p>I Promessi Sposi regalali alla signorina cui piacciono molto. Le poesie le ho corrette e spedite. Aspetto che Carocci mi scriva di averle ricevute. Se usciranno, ne riceverà certo una copia anche lei. Ma dille che di tutte vale qualcosa soltanto quella intitolata Dopo.</p>
 			<p>Sturani mi ha scritto e mandato due pipe un po’ meglio delle vostre. Mandami alla prima occasione (con le camicie dalle maniche lunghe) i volumetti miei dell’Iliade e Odissea (verdi o bruni con Minerva sopra) in greco.</p>
