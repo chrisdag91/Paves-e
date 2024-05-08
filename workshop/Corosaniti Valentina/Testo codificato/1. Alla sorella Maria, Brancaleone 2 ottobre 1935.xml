@@ -406,6 +406,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Corosaniti%20Valentina/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?organization_annotation_20240508155357096",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-05-08T13:53:57.096Z",
+	"dcterms:modified": "2024-05-08T13:53:57.096Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Corosaniti%20Valentina/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?organization_annotation_20240508155357096#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Corosaniti%20Valentina/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/Corosaniti%20Valentina/Testo%20codificato/1.%20Alla%20sorella%20Maria%2C%20Brancaleone%202%20ottobre%201935.xml?organization_annotation_20240508155357096#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[17]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/315533589/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -425,7 +504,7 @@
 			<p>William Congreve, The complete <persName ref="#Tristano" type="fictional">Plays</persName> (2 volumi) (Oxford)</p>
 			<p>William Faulkner (americano), Light in August (?)</p>
 			<p>Pylon (?) romanzi recenti</p>
-			<p>Mi stupisce che mi chiediate se ho voglia di tornare a Torino. Non va bene lamentarsi, perché c’è sempre chi sta peggio, ma certo che non c’è ancora stato filosofo che abbia sopportato il mal di denti con calma. A me dà qualche sollievo mangiare un carciofino tutte le domeniche, e poi fumare col succhino. Piaceri che non tutti capiscono, anche perché non tutti sono a Brancaleone. Amen.</p>
+			<p>Mi stupisce che mi chiediate se ho voglia di tornare a Torino. Non va bene lamentarsi, perché c’è sempre chi sta peggio, ma certo che non c’è ancora stato filosofo che abbia sopportato il mal di denti con calma. A me dà qualche sollievo mangiare un carciofino tutte le domeniche, e poi fumare col succhino. Piaceri che non tutti capiscono, anche perché non tutti sono a Brancaleone. <orgName key="Edizioni Frassinelli" ref="http://viaf.org/viaf/315533589/">Amen</orgName>.</p>
 			<p>Cesare</p>
 		</body>
 	</text>
