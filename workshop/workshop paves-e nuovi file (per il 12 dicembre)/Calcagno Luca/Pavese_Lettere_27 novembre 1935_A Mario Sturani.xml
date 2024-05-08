@@ -43,10 +43,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211165952044",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211165952044",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T15:59:52.044Z",
-	"dcterms:modified": "2023-12-11T15:59:52.044Z",
+	"dcterms:modified": "2024-05-08T12:23:21.284Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -57,10 +57,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211165952044#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211165952044#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -68,10 +68,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211165952044#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211165952044#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/persName"
 		}
@@ -86,8 +86,20 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
-	}
+		"schema:softwareVersion": "3.5.0"
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/alzuliani1",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "Alberto Luca Zuliani"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       
@@ -122,10 +134,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170134729",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170134729",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:01:34.729Z",
-	"dcterms:modified": "2023-12-11T16:01:34.729Z",
+	"dcterms:modified": "2024-05-08T12:23:42.597Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -136,10 +148,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170134729#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170134729#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -147,10 +159,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170134729#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170134729#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/placeName"
 		}
@@ -165,8 +177,20 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
-	}
+		"schema:softwareVersion": "3.5.0"
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/alzuliani1",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "Alberto Luca Zuliani"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       
@@ -201,10 +225,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170156156",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170156156",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:01:56.156Z",
-	"dcterms:modified": "2023-12-11T16:01:56.156Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -215,10 +238,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170156156#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170156156#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -226,10 +249,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170156156#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170156156#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[2]/placeName"
 		}
@@ -244,7 +267,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -280,10 +303,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170208498",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170208498",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:02:08.498Z",
-	"dcterms:modified": "2023-12-11T16:02:08.498Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -294,10 +316,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170208498#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170208498#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -305,10 +327,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170208498#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170208498#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[2]/date"
 		}
@@ -322,7 +344,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -358,10 +380,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170219931",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170219931",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:02:19.931Z",
-	"dcterms:modified": "2023-12-11T16:02:19.931Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -372,10 +393,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170219931#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170219931#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -383,10 +404,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170219931#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170219931#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[3]/persName"
 		}
@@ -401,7 +422,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -437,10 +458,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170238368",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170238368",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:02:38.368Z",
-	"dcterms:modified": "2023-12-11T16:02:38.368Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -451,10 +471,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170238368#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170238368#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -462,10 +482,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170238368#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170238368#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[4]/placeName"
 		}
@@ -480,7 +500,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -516,10 +536,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170322220",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170322220",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:03:22.220Z",
-	"dcterms:modified": "2023-12-11T16:03:22.220Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -530,10 +549,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170322220#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170322220#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -541,10 +560,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170322220#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?date_annotation_20231211170322220#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[4]/date"
 		}
@@ -558,7 +577,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -594,10 +613,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170400806",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170400806",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:04:00.806Z",
-	"dcterms:modified": "2023-12-11T16:04:00.806Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -608,10 +626,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170400806#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170400806#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -619,10 +637,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170400806#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170400806#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[6]/placeName"
 		}
@@ -637,7 +655,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -673,10 +691,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170444503",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170444503",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:04:44.503Z",
-	"dcterms:modified": "2023-12-11T16:04:44.503Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -687,10 +704,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170444503#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170444503#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -698,10 +715,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170444503#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170444503#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[7]/persName"
 		}
@@ -716,7 +733,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -752,10 +769,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170515365",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170515365",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:05:15.365Z",
-	"dcterms:modified": "2023-12-11T16:05:15.365Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -766,10 +782,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170515365#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170515365#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -777,10 +793,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170515365#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?place_annotation_20231211170515365#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/placeName"
 		}
@@ -795,7 +811,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -831,10 +847,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170552211",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170552211",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:05:52.211Z",
-	"dcterms:modified": "2023-12-11T16:05:52.211Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -845,10 +860,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170552211#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170552211#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -856,10 +871,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170552211#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170552211#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[11]/persName"
 		}
@@ -874,7 +889,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -910,10 +925,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170628387",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170628387",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:06:28.387Z",
-	"dcterms:modified": "2023-12-11T16:06:28.387Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -924,10 +938,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170628387#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170628387#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -935,10 +949,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170628387#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211170628387#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[12]/persName"
 		}
@@ -953,7 +967,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -989,10 +1003,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?title_annotation_20231211170907295",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?title_annotation_20231211170907295",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:09:07.295Z",
-	"dcterms:modified": "2023-12-11T16:09:07.295Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -1003,10 +1016,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?title_annotation_20231211170907295#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?title_annotation_20231211170907295#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1014,10 +1027,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?title_annotation_20231211170907295#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?title_annotation_20231211170907295#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[12]/title"
 		}
@@ -1032,7 +1045,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -1068,10 +1081,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171135157",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171135157",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:11:35.157Z",
-	"dcterms:modified": "2023-12-11T16:11:35.157Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -1082,10 +1094,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171135157#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171135157#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1093,10 +1105,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171135157#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171135157#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[13]/persName"
 		}
@@ -1111,7 +1123,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
@@ -1147,10 +1159,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171246440",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171246440",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-12-11T16:12:46.440Z",
-	"dcterms:modified": "2023-12-11T16:12:46.440Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Lvcal",
 		"@type": [
@@ -1161,10 +1172,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171246440#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171246440#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1172,10 +1183,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171246440#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/workshop/workshop%20paves-e%20nuovi%20file%20(per%20il%2012%20dicembre)/Calcagno%20Luca/Pavese_Lettere_27%20novembre%201935_A%20Mario%20Sturani.xml?person_annotation_20231211171246440#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[14]/persName"
 		}
@@ -1190,14 +1201,14 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.5.0"
 	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A <persName key="Sturani, Mario" ref="http://viaf.org/viaf/9853159248242304870000/">Mario Sturani</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName></p>
+			<p>A <persName key="Sturani, Mario" ref="http://viaf.org/viaf/9853159248242304870000/" type="real">Mario Sturani</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName></p>
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>,] <date when="1935-11-27">27 novembre</date> [1935]</p>
 			<p>Caro <persName key="Sturani, Mario" ref="http://viaf.org/viaf/9853159248242304870000/">Sturani</persName>,</p>
 			<p>ho ricevuto le notizie su <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> e su <persName ref="#DanCarli">Dan</persName>. A proposito, tu dovrai passare la visita di controllo dei riformati, e non c’è dubbio che andrai sotto. È inutile, quando un uomo si sposa o si vuole sposare, ci si mette sempre di mezzo la Storia e gli fa posare l’osso. Vedo che insisti per sapere titoli di libri da mandarmi: in quella lettera che ti scrissi il <date when="1935-09-20">20 settembre</date> mezza in francese, te ne facevo un elenco molto vario ed elastico, dove tu puoi sempre attingere. E poi ne ho segnalati altri, scrivendo ai miei. Ma ti sconsiglio di spendere altri soldi; non va bene esagerare in beneficenza, perché a un certo punto non si guadagna più che l’odio del beneficiato.</p>
