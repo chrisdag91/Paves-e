@@ -43,10 +43,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240227144545639",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240506141502769",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-27T13:45:45.639Z",
-	"dcterms:modified": "2024-05-06T12:15:02.769Z",
+	"dcterms:created": "2024-05-06T12:15:02.769Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chiaratavella",
 		"@type": [
@@ -57,7 +56,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240227144545639#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240506141502769#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml",
@@ -71,7 +70,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240227144545639#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240506141502769#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/placeName"
 		}
@@ -87,19 +86,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
-	},
-	"dcterms:contributor": [
-		{
-			"dcterms:contributor": {
-				"@id": "https://github.com/alzuliani1",
-				"@type": [
-					"cwrc:NaturalPerson",
-					"schema:Person"
-				],
-				"cwrc:hasName": "Alberto Luca Zuliani"
-			}
-		}
-	]
+	}
 }]]>
         </rdf:Description>
       
@@ -134,10 +121,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240227144558172",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240506141518408",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-27T13:45:58.172Z",
-	"dcterms:modified": "2024-05-06T12:15:18.408Z",
+	"dcterms:created": "2024-05-06T12:15:18.408Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chiaratavella",
 		"@type": [
@@ -148,7 +134,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240227144558172#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240506141518408#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml",
@@ -162,7 +148,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240227144558172#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?place_annotation_20240506141518408#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[2]/placeName"
 		}
@@ -178,19 +164,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
-	},
-	"dcterms:contributor": [
-		{
-			"dcterms:contributor": {
-				"@id": "https://github.com/alzuliani1",
-				"@type": [
-					"cwrc:NaturalPerson",
-					"schema:Person"
-				],
-				"cwrc:hasName": "Alberto Luca Zuliani"
-			}
-		}
-	]
+	}
 }]]>
         </rdf:Description>
       
@@ -351,6 +325,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?person_annotation_20240626174418456",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-06-26T15:44:18.456Z",
+	"dcterms:modified": "2024-06-26T15:44:18.456Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Lvcal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luca Calcagno"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?person_annotation_20240626174418456#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350529_PaveseMaria.xml?person_annotation_20240626174418456#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[33]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/61740905/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -386,7 +440,7 @@
 			<p/>
 			<p>Non è molto bella, ma è la prima che compongo a memoria e quindi mi pare lodevole.</p>
 			<p>Io aspetto sempre notizie degli amici e delle amiche. Potresti anche dire agli amici di mandarmi una cartolina o meglio una lettera, perché non è bello trascurare gli altri nella sventura. Di' poi a</p>
-			<p>Pinelli, cattolico, di farsi vivo perché «visitare i carcerati» è un santo precetto e, siccome non mi si può visitare, che almeno mi scriva.</p>
+			<p><persName key="Pinelli, Tullio, 1908-2009" ref="http://viaf.org/viaf/61740905/" cert="high" type="real">Pinelli</persName>, cattolico, di farsi vivo perché «visitare i carcerati» è un santo precetto e, siccome non mi si può visitare, che almeno mi scriva.</p>
 			<p>Spero che stiate bene e che <persName cert="high" evidence="internal" full="yes" instant="unknown" ref="#SiniCesarina" xml:space="default" type="real">Cesarina</persName> studiando <title level="m" ref="#LeMiePrigioni">Le mie prigioni</title> del <persName key="Silvio Pellico" ref="http://dbpedia.org/resource/Silvio_Pellico" cert="high" type="real">Pellico</persName> si ricordi che anche lo zio subisce le medesime. Credo però che, dei due, chi ci si secchi di più sia lei. Ho paura che,</p>
 			<p>di questo passo, il mio preside debba rassegnarsi a far gli esami senza di me; prova a dirglielo, perché si premunisca.</p>
 			<p>A voi, saluti svariati e affettuosi</p>
