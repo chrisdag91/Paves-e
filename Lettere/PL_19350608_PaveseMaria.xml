@@ -573,7 +573,7 @@
 	<text>
 		<body>
 			<p>Alla sorella <persName cert="high" ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="high"/></placeName>.</p>
-			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, Carceri di Regina Coeli,] <date when="1935-06-08">8 giugno 1935</date></p>
+			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>, Carceri di <placeName cert="high" ref="#CarceriDiReginaCoeli">Regina Coeli</placeName>,] <date when="1935-06-08">8 giugno 1935</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
 			<p>come saprai già, mi hanno portato a <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070" cert="high">Roma<precision match="@ref" precision="high"/></placeName>, a disposizione dell'autorità di P. S. Io continuo a ignorare di quale accusa si tratti, ma spero che ben presto saprò qualcosa. Ad ogni modo non c'è da spaventarsi perché in coscienza sono sempre tranquillo e tutto si risolverà con un grande disturbo portato alle mie lezioni e alla pubblicazione delle mie poesie. Tu, se qualcuno mi scrive, tienimi informato.</p>
