@@ -1035,6 +1035,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350624_PaveseMaria.xml?person_annotation_20240801173312117",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-01T15:33:12.117Z",
+	"dcterms:modified": "2024-08-01T15:33:12.117Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Lvcal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luca Calcagno"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350624_PaveseMaria.xml?person_annotation_20240801173312117#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350624_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350624_PaveseMaria.xml?person_annotation_20240801173312117#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/108336166/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1048,7 +1128,7 @@
 			<p>Per <placeName key="Serralunga di Crea Piedmont Italy" ref="https://geonames.org/3166666">Serralunga</placeName> io credo che tu possa deciderti come se niente fosse, come gli anni scorsi. Guglielmo resta a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> e lui riceve la corrispondenza. Denari ne ho già chiesti a te, biancheria ne ho, e in caso ne chiederei; quindi puoi andare. Lasciando stare che là potreste fare una bella novena al <placeName ref="#SacroMonteDiCrea">Sacro Monte</placeName>.</p>
 			<p>Delle <rs ref="#LavorareStanca">poesie</rs> ti ho già scritto, soltanto bada che <persName key="Carocci, Alberto" ref="http://viaf.org/viaf/8935159248119104870005/" type="real">Carocci</persName> sta a <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>, non a <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName>.</p>
 			<p>La biancheria la faccio lavare e staremo a vedere come ci resiste. Di soldi ho ancora 358 L.</p>
-			<p>Prendo nota del saluto di <persName key="Pinelli, Tullio, 1908-2009" ref="http://viaf.org/viaf/61740905/">Tullio</persName>, <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" type="real">Mario</persName>, <persName key="Chabod, Renato" ref="http://viaf.org/viaf/239330340/">Chabod</persName> e Norberto e non ti so dire come invidio questa gente, che, pur vivendo nel mio stesso ambiente, ha la fortuna di andare ancora a piede libero. Non auguro a loro la stessa cosa, ma certo con qualcuno di loro, mi scambierei volentieri.</p>
+			<p>Prendo nota del saluto di <persName key="Pinelli, Tullio, 1908-2009" ref="http://viaf.org/viaf/61740905/">Tullio</persName>, <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" type="real">Mario</persName>, <persName key="Chabod, Renato" ref="http://viaf.org/viaf/239330340/">Chabod</persName> e <persName key="Bobbio, Norberto, 1909-2004." ref="http://viaf.org/viaf/108336166/" cert="high" type="real">Norberto</persName> e non ti so dire come invidio questa gente, che, pur vivendo nel mio stesso ambiente, ha la fortuna di andare ancora a piede libero. Non auguro a loro la stessa cosa, ma certo con qualcuno di loro, mi scambierei volentieri.</p>
 			<p>Altro non mi pare di aver da dire, perciò saluto tutti.</p>
 			<p>Ciau</p>
 			<p>Cesare</p>
