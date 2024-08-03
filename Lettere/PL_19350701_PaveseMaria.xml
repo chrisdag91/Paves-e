@@ -43,10 +43,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315113902558",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506142606659",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-15T10:39:02.558Z",
-	"dcterms:modified": "2024-05-06T12:26:06.659Z",
+	"dcterms:created": "2024-05-06T12:26:06.659Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -57,7 +56,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315113902558#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506142606659#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml",
@@ -71,7 +70,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315113902558#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506142606659#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/placeName"
 		}
@@ -122,10 +121,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315113919738",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506142620093",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-15T10:39:19.738Z",
-	"dcterms:modified": "2024-05-06T12:26:20.093Z",
+	"dcterms:created": "2024-05-06T12:26:20.093Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -136,7 +134,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315113919738#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506142620093#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml",
@@ -150,7 +148,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315113919738#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506142620093#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[2]/placeName"
 		}
@@ -828,10 +826,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315120034387",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506143230610",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-15T11:00:34.387Z",
-	"dcterms:modified": "2024-05-06T12:32:30.610Z",
+	"dcterms:created": "2024-05-06T12:32:30.610Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -842,7 +839,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315120034387#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506143230610#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml",
@@ -856,7 +853,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315120034387#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506143230610#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[10]/placeName"
 		}
@@ -907,10 +904,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315120100680",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506143241637",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-15T11:01:00.680Z",
-	"dcterms:modified": "2024-05-06T12:32:41.637Z",
+	"dcterms:created": "2024-05-06T12:32:41.637Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -921,7 +917,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315120100680#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506143241637#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml",
@@ -935,7 +931,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240315120100680#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350701_PaveseMaria.xml?place_annotation_20240506143241637#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[11]/placeName"
 		}
@@ -961,7 +957,7 @@
 			<p>[<placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070" type="real">Roma</placeName>, <placeName cert="high" evidence="internal" full="yes" instant="unknown" ref="#CarceriDiReginaCoeli" xml:space="default" type="real">Carceri di Regina Coeli</placeName>,] <date when="1935-07-01">1° luglio 1935</date></p>
 			<p/>
 			<p>Cara <persName ref="#PaveseSiniMaria">Maria</persName>,</p>
-			<p>comincio ad apprezzare gli affetti famigliari. Ieri ero sul punto di tirarmi un colpo (ma non abbiamo armi) quando È arrivata la lettera del <date when="1935-06-23">23</date> che mi ha un po' rimesso. é arrivata anche la cartolina del giorno dopo, di cui ringrazio le mittenti. Ti stupisci che ho scritto al <date when="1935-06-14">14</date> e al <date when="1935-06-17">17</date>. Ho scritto anche all'<date when="1935-06-11">11</date>; non avete ricevuto? Ti ho già detto che sono stato interrogato 15 giorni fa e d'allora non ne so più niente.</p>
+			<p>comincio ad apprezzare gli affetti famigliari. Ieri ero sul punto di tirarmi un colpo (ma non abbiamo armi) quando è arrivata la lettera del <date when="1935-06-23">23</date> che mi ha un po' rimesso. È arrivata anche la cartolina del giorno dopo, di cui ringrazio le mittenti. Ti stupisci che ho scritto al <date when="1935-06-14">14</date> e al <date when="1935-06-17">17</date>. Ho scritto anche all'<date when="1935-06-11">11</date>; non avete ricevuto? Ti ho già detto che sono stato interrogato 15 giorni fa e d'allora non ne so più niente.</p>
 			<p>La cartolina della <orgName key="Biblioteca civica di Torino" ref="http://viaf.org/viaf/1221168109568943630000/" type="place">Biblioteca Civica</orgName> allude a un libro di matematica di <persName key="Peano, Giuseppe, 1858-1932" ref="http://viaf.org/viaf/73925733/" type="real">Peano</persName>, che si trova in casa di Nicchio. Di' che lo restituisca. Né giornali, né corrispondenza, non credo si possano inviare. Per la villeggiatura fa come io non ci fossi (il che è poi la verità). Mi stupisce che la maestra di <persName ref="#SiniCesarina" type="real">Cesarina</persName> non sia ancora in campagna fuori <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, perché ha già finito certo le scuole, e tutti vanno in campagna.</p>
 			<p>Avrai ricevuto le mie lettere dove ti consigliavo di rivolgerti per aiuti a persone del mestiere come l'avv. <persName ref="#PinelliFerdinando" type="real">Pinelli</persName> e l'avv. <persName ref="#VaudagnaGiuseppe">Vaudagna</persName> figlio. Io ormai qui non posso che attendere. Tocca a voi andare attorno per sentire un po'.</p>
 			<p>Io qui comincio al mattino a grondar sudore e ho già tutta la faccia screpolata dal gran detergermi. Ogni tanto uno si chiede come farà a passar l'Agosto, se ci arriva, e si strappa i capelli dalla disperazione. Ho in testa tutta una regione di calvizie, dovuta a quest'esercizio. E tutto questo perché a qualche conoscenza è piaciuto far l'idiota e rovinare i galantuomini. Se esco, ne rompo delle ossa.</p>
