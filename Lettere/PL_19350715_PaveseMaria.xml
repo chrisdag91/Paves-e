@@ -794,6 +794,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350715_PaveseMaria.xml?person_annotation_20240806141021038",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-06T12:10:21.038Z",
+	"dcterms:modified": "2024-08-06T12:10:21.038Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Lvcal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luca Calcagno"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350715_PaveseMaria.xml?person_annotation_20240806141021038#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350715_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19350715_PaveseMaria.xml?person_annotation_20240806141021038#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q9312",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -806,12 +886,12 @@
 			<p>D'importante vedo che avete parlato a <persName ref="#VaudagnaGiuseppe">Vaudagna</persName> ed altri, ma non ne vedo gli effetti. Se come vi dicono lì, la mia posizione è buona, non capisco la permanenza. In prigione è come nell'armadio: più ci lasci le mele, più quelle marciscono. A forza di starci, viene il giorno che si accorgono che del marcio dev'esserci e allora ti condannano.</p>
 			<p>Ma io non sono marcio, né dentro né fuori. C'è un tarlo che mi rode e cerca di rovinarmi, ma l'affumico con la pipa e lo tengo tranquillo.</p>
 			<p>Non mi piace che abbiate scritto a <persName ref="#SiniLuigi" type="real">Luigi</persName> di venirmi a trovare. È una persona intelligente e sinora non è venuto, ma se venisse, vorrei sapere che cosa potrei dirgli. Staremmo lì come due salami, a guardarci il naso, maledicendo la parentela. Non fatelo più.</p>
-			<p>Piuttosto datemi notizie sulle voci femminili che mi cercano a telefono. E l'unica consolazione che ho.</p>
+			<p>Piuttosto datemi notizie sulle voci femminili che mi cercano a telefono. È l'unica consolazione che ho.</p>
 			<p>Raccomanda alla signorina Nicchio di non smarrire le mie poesie che aveva in lettura, specialmente una, intitolata <title level="a" ref="#LavorareStanca_Atavismo">Atavismo</title> di cui l'unica copia si trova da lei. Tengo più a quello che alla mia libertà (si dice per scherzo).</p>
 			<p>Io ho una voglia di vedere il mare che spacca. Sarò, credo, presto accontentato. Tutto dipende dal tempo che ci dovrò stare. Purché non si mangi pesce.</p>
 			<p>Il paradiso delle pesche è presto finito. Ci danno adesso certe mele cotte che sembrano di cenere; ma tutto ha la sua utilità, sono buone contro la stitichezza, che, unita all'asma, mi otturava il corpo da tutte le parti.</p>
 			<p>Io sogno quotidianamente belle malattie a lungo decorso: tifo, nefrite, meningite, rottura di arti, colpo apoplettico con paralisi parziale, ecc. sperando che in questo modo potrei cambiar posto e vedere, nell'infermeria, un po' di mondo. Ma naturalmente non sono mai stato sano come ora. Sono sicuro che se mi dessero la larga, subito farei qualche lunga e dolorosa malattia.</p>
-			<p>Concluderò pregandoti categoricamente di non farmi più quelle lunghe tiritere sugli amici in libertà, e la mia innocenza che deve trionfare e tutto. Sono cose che so anch'io e non vale la pena di parlarne più. Fatemi uscire piuttosto. Col che, ritorno a leggere la <title key="Kant, Immanuel, 1724-1804. | Kritik der praktischen Vernunft" ref="http://viaf.org/viaf/185996463/" level="m">Critica della Ragion Pratica</title> di Em. Kant e vi saluto allegramente.</p>
+			<p>Concluderò pregandoti categoricamente di non farmi più quelle lunghe tiritere sugli amici in libertà, e la mia innocenza che deve trionfare e tutto. Sono cose che so anch'io e non vale la pena di parlarne più. Fatemi uscire piuttosto. Col che, ritorno a leggere la <title key="Kant, Immanuel, 1724-1804. | Kritik der praktischen Vernunft" ref="http://viaf.org/viaf/185996463/" level="m">Critica della Ragion Pratica</title> di <persName key="Immanuel Kant" ref="http://www.wikidata.org/entity/Q9312" cert="high" type="real">Em. Kant</persName> e vi saluto allegramente.</p>
 			<p>Cesare</p>
 		</body>
 	</text>
