@@ -1036,6 +1036,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351227_PaveseMaria.xml?person_annotation_20240817122410219",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-17T10:24:10.219Z",
+	"dcterms:modified": "2024-08-17T10:24:10.219Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351227_PaveseMaria.xml?person_annotation_20240817122410219#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351227_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351227_PaveseMaria.xml?person_annotation_20240817122410219#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[38]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/72191994/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1076,7 +1155,7 @@
 			<p/>
 			<p>Io invece giaccio in compagnia di certi grilli, che l'umidità della stanza produce per generazione spontanea e il letto tenta al calduccio.</p>
 			<p>I grilli mi fanno ricordare che oggi mi ha scritto <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName> dicendomi che non si trova la carta per stampare <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">Lavorare stanca</title>. Mi pareva che le cose andassero troppo lisce! Ciò mi ha rinfocolato il furore contro i sanzionisti e, se non fosse che l'asma non mi lascia fare duecento metri di strada senza creparmi, senz'altro avrei steso domanda per prendere parte alla guerra, come voi mi consigliate nella cartol. del <date when="1935-12-12">12 dic.</date> Comunque, non mancherà l'occasione, se guarirò.</p>
-			<p>Le cartoline sono da dare a tutti e a chiunque, e da far impostare subito, perché ho ormai capito che, se Carocci non riceve buon numero di sottoscrizioni che gli coprano le spese, non inizia la stampa. Promette di cominciare dopo Natale, ma io non gli credo.</p>
+			<p>Le cartoline sono da dare a tutti e a chiunque, e da far impostare subito, perché ho ormai capito che, se <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName> non riceve buon numero di sottoscrizioni che gli coprano le spese, non inizia la stampa. Promette di cominciare dopo Natale, ma io non gli credo.</p>
 			<p>Il dizionario di latino non è né nuovo né vecchio, ma non posso mandarvelo. È lo stesso del mio, sfasciato, che avete. Nelle scuole ora adoperano il Bernini. Vi manderò il Ghiotti francese.</p>
 			<p>Spero che questa lettera vi piaccia. Sforzatevi di capire che io le notizie, che pare vogliate, non le so dare: ne dimentico sempre qualcuna. Invece, dal tono delle varie lettere, che è sempre scolpitissimo, vi è facile capire di che umore sono e, quindi, come sto. C. d. d.</p>
 			<p>Salutate tutti, in proporzione col bene che mi vogliono.</p>
