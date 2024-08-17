@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,14 +11,93 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104234319",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-17T08:42:34.319Z",
+	"dcterms:modified": "2024-08-17T08:42:34.319Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104234319#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104234319#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Alla sorella Maria, Torino.</p>
+			<p>Alla sorella <persName ref="#PaveseSiniMaria" type="real">Maria</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			<p>[Brancaleone,] 26 dicembre [1935]</p>
 			<p/>
 			<p>Cara Maria,</p>
-			<p>ho davanti lettera del 10 e due cartoline successive. Fa un anno giusto che ero allegro quasi come oggi. Che a voi e ai miei conoscenti secchi sentirmi ruggire e meditare malignità, non mi stupisce. Conosco abbastanza il genere umano per sapere che quando un povero diavolo, non avendo altro da fare, si lamenta e si sfoga (dopo tutto, con abbastanza spirito e inventiva), subito i parenti e le care amicizie pigliano al volo l'occasione e gli dicono in coro - &quot;Ecco che sei seccante, un debole, una carogna, una pezza da piedi, ecco che non sai sopportare le conseguenze di quello che hai fatto&quot;. Mentre dovrebbero dire - &quot;Ecco che finalmente abbiamo trovato la scusa per liberarci da quel disagio che naturalmente ci dà il sapere che quel tale sta in sofferenza. Ecco che possiamo considerarlo ora nella parte del torto e così diventare suoi giudici, invece di restare nella sgradevole posizione di suoi compassionanti e magari consorti&quot;. (Leggere al proposito il libro di Giobbe nel Vecchio Testamento).</p>
+			<p>ho davanti lettera del 10 e due cartoline successive. Fa un anno giusto che ero allegro quasi come oggi. Che a voi e ai miei conoscenti secchi sentirmi ruggire e meditare malignità, non mi stupisce. Conosco abbastanza il genere umano per sapere che quando un povero diavolo, non avendo altro da fare, si lamenta e si sfoga (dopo tutto, con abbastanza spirito e inventiva), subito i parenti e le care amicizie pigliano al volo l'occasione e gli dicono in coro - "Ecco che sei seccante, un debole, una carogna, una pezza da piedi, ecco che non sai sopportare le conseguenze di quello che hai fatto". Mentre dovrebbero dire - "Ecco che finalmente abbiamo trovato la scusa per liberarci da quel disagio che naturalmente ci dà il sapere che quel tale sta in sofferenza. Ecco che possiamo considerarlo ora nella parte del torto e così diventare suoi giudici, invece di restare nella sgradevole posizione di suoi compassionanti e magari consorti". (Leggere al proposito il libro di Giobbe nel Vecchio Testamento).</p>
 			<p>Né io mi lagno che sia così. Non certo a me, mediocre, poteva accadere il miracolo di incontrare nella vita gente superiore alla media. Rilevo soltanto il fatto.</p>
 			<p>Che poi io nelle lettere vi parli di una cosa e voi invece ne aspettiate un'altra, mi duole ma è un fatto che non può cambiare. Vi dico le cose che mi importa di dirvi, e di tutto il resto me ne infischio. C'è forse qualcuno in tutto il sistema solare che faccia diversamente? Voi, per esempio, mi mandate notizie; come quella del matrimonio di Franco; che mi fanno venire la schiuma alla bocca. Vi siete forse fermati un momento a pensare che una notizia simile, in questo momento e con quei particolari, arrischia di portarmi via mezzo fegato? No. Né io mi fermo a considerare se le cose che vi scrivo o non vi scrivo, vi gradiscono o meno.</p>
 			<p/>
