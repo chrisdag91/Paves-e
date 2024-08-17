@@ -404,6 +404,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105645627",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-17T08:56:45.627Z",
+	"dcterms:modified": "2024-08-17T08:56:45.627Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105645627#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105645627#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3166666",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -417,7 +496,7 @@
 			<p/>
 			<p>????</p>
 			<p/>
-			<p>Certo però, che siete in gamba. Avete trovato l'unico mezzo capace di fermarmi. E con questo sia chiuso l'incidente. Ormai non scriverò più lettere esasperanti. Vedo la vanità di questa, come di molte altre cose. Non scriverò nemmeno a Serralunga. Anzi, vi accludo una cartolina indirizzata ai nonni, che voi imposterete da Torino, per mantener loro la beatifica illusione.</p>
+			<p>Certo però, che siete in gamba. Avete trovato l'unico mezzo capace di fermarmi. E con questo sia chiuso l'incidente. Ormai non scriverò più lettere esasperanti. Vedo la vanità di questa, come di molte altre cose. Non scriverò nemmeno a <placeName key="Serralunga di Crea Piedmont Italy" ref="https://geonames.org/3166666" type="real">Serralunga</placeName>. Anzi, vi accludo una cartolina indirizzata ai nonni, che voi imposterete da Torino, per mantener loro la beatifica illusione.</p>
 			<p>Vi ho già scritto per la cassetta vostra. Ne ricevo anche una con panettone e altro da Frassinelli e vi prego di ringraziarlo. Gli scriverò anch'io. Ringraziate Irma e Battista e Giovanna degli augurî (non ricordo i loro indirizzi). Voi vi bacio e vi abbraccio affettuosissimamente (la grappa è buona).</p>
 			<p>Alla signorina Agata baciate le unghiette. E vogliatemi tutti bene, come io ve ne voglio.</p>
 			<p>Cesare</p>
