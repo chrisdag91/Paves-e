@@ -484,6 +484,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351227_PaveseMaria.xml?place_annotation_20240817114214588",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-17T09:42:14.588Z",
+	"dcterms:modified": "2024-08-17T09:42:14.588Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351227_PaveseMaria.xml?place_annotation_20240817114214588#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351227_PaveseMaria.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351227_PaveseMaria.xml?place_annotation_20240817114214588#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Magna_Graecia",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -507,7 +586,7 @@
 			<p>vigorosamente dalle fondamenta mi scuote</p>
 			<p>la ragione...»</p>
 			<p/>
-			<p>Non bisogna dimenticare che costui girava, come un'anima persa, Magna Grecia e isole, per amore della pagnotta, che allora si chiamava ospitalità. Ebbene, ancora adesso questa gente è tale e quale e, se non il giardino delle ninfe, l'ospitalità è intatta.</p>
+			<p>Non bisogna dimenticare che costui girava, come un'anima persa, <placeName key="Magna Graecia" ref="http://dbpedia.org/resource/Magna_Graecia" type="real">Magna Grecia</placeName> e isole, per amore della pagnotta, che allora si chiamava ospitalità. Ebbene, ancora adesso questa gente è tale e quale e, se non il giardino delle ninfe, l'ospitalità è intatta.</p>
 			<p>Fa piacere leggere la poesia greca in terre dove, a parte le infiltrazioni medioevali, tutto ricorda i tempi che le ragazze úspɛvoúσαι si piantavano l'anfora in testa e tornavano a casa a passo di cratère. E dato che il passato greco si presenta attualmente come rovina sterile - una colonna spezzata, un frammento di poesia, un appellativo senza significato - niente è più greco di queste regioni abbandonate. I colori della campagna sono greci. Rocce gialle o rosse, verde chiaro di fichindiani e agavi, rosa di leandri e geranî, a fasci dappertutto, nei campi e lungo la ferrata, e colline spelacchiate brunoliva. Persino la cornamusa - il nefando strumento natalizio - ripete la voce tra di organo e di arpa che accompagnava gli ozî di Paride dɛoɛions, quando sui pascoli dell'Ida mangiava il formaggio delle sue pecore e sognava gli amori di Ἑλένης λευκελένου</p>
 			<p/>
 			<p>«... ἐν κρανάὴ νῇσῷ μιγεῖσας... »</p>
