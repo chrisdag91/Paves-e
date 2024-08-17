@@ -360,7 +360,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105342428",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-17T08:53:42.428Z",
-	"dcterms:modified": "2024-08-17T08:53:42.428Z",
+	"dcterms:modified": "2024-08-17T08:54:48.760Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -413,7 +413,7 @@
 			<p>Cara <persName ref="#PaveseSiniMaria" type="real">Maria</persName>,</p>
 			<p>ho davanti lettera del <date when="1935-12-10">10</date> e due cartoline successive. Fa un anno giusto che ero allegro quasi come oggi. Che a voi e ai miei conoscenti secchi sentirmi ruggire e meditare malignità, non mi stupisce. Conosco abbastanza il genere umano per sapere che quando un povero diavolo, non avendo altro da fare, si lamenta e si sfoga (dopo tutto, con abbastanza spirito e inventiva), subito i parenti e le care amicizie pigliano al volo l'occasione e gli dicono in coro - "Ecco che sei seccante, un debole, una carogna, una pezza da piedi, ecco che non sai sopportare le conseguenze di quello che hai fatto". Mentre dovrebbero dire - "Ecco che finalmente abbiamo trovato la scusa per liberarci da quel disagio che naturalmente ci dà il sapere che quel tale sta in sofferenza. Ecco che possiamo considerarlo ora nella parte del torto e così diventare suoi giudici, invece di restare nella sgradevole posizione di suoi compassionanti e magari consorti". (Leggere al proposito il <title level="a" ref="#LibroDiGiobbe">libro di Giobbe</title> nel <title level="a" ref="#Bibbia_AnticoTestamento">Vecchio Testamento</title>).</p>
 			<p>Né io mi lagno che sia così. Non certo a me, mediocre, poteva accadere il miracolo di incontrare nella vita gente superiore alla media. Rilevo soltanto il fatto.</p>
-			<p>Che poi io nelle lettere vi parli di una cosa e voi invece ne aspettiate un'altra, mi duole ma è un fatto che non può cambiare. Vi dico le cose che mi importa di dirvi, e di tutto il resto me ne infischio. C'è forse qualcuno in tutto il sistema solare che faccia diversamente? Voi, per esempio, mi mandate notizie; come quella del matrimonio di <persName key="Antonicelli, Franco (Italian photographer, flourished 1925-1949)" ref="http://viaf.org/viaf/6503167202610267930004/">Franco</persName>; che mi fanno venire la schiuma alla bocca. Vi siete forse fermati un momento a pensare che una notizia simile, in questo momento e con quei particolari, arrischia di portarmi via mezzo fegato? No. Né io mi fermo a considerare se le cose che vi scrivo o non vi scrivo, vi gradiscono o meno.</p>
+			<p>Che poi io nelle lettere vi parli di una cosa e voi invece ne aspettiate un'altra, mi duole ma è un fatto che non può cambiare. Vi dico le cose che mi importa di dirvi, e di tutto il resto me ne infischio. C'è forse qualcuno in tutto il sistema solare che faccia diversamente? Voi, per esempio, mi mandate notizie; come quella del matrimonio di <persName key="Antonicelli, Franco (Italian photographer, flourished 1925-1949)" ref="http://viaf.org/viaf/6503167202610267930004/" type="real">Franco</persName>; che mi fanno venire la schiuma alla bocca. Vi siete forse fermati un momento a pensare che una notizia simile, in questo momento e con quei particolari, arrischia di portarmi via mezzo fegato? No. Né io mi fermo a considerare se le cose che vi scrivo o non vi scrivo, vi gradiscono o meno.</p>
 			<p/>
 			<p>????</p>
 			<p/>
