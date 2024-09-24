@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>[Torino,] 17 maggio [1930]</p>
+			<p/>
+			<p>Dear Buddy,</p>
+			<p>I got somewhere - besides your tiny photograph for which I thank you - that the last of May is your birthday and so I hurried, as fast as I could, to have you honored and thankgiven as you deserve. No, I blundered: not as you deserve, for it's impossible to overtake you in kindness, but as it is granted to me, poor fellow that I am.</p>
+			<p>So, you'll rec[eive], in a few days since, there in Chicago, a little present I dare to make you, to sweeten - posthumosly (it's my habit) - your birthday. It is some liquor-center chocolates (Perugina!) you wrote me once you are so fond of. Please, accept it as a token of my friendship and good will, and don't worry about the trouble, as it is your hypocrite habit, or, if you really will worry about something, let it be about the pettiness of the gift and you'll be right.</p>
+			<p>Would the chocolates arrive in Chicago someway marred (the shop-clerk assures me they become dried within, in a spell of time) you could then think that you are in Prohibition land and that the Gods are overlooking it. But the ditto clerk swore me the sweets had arrived the day before from the ... factory.</p>
+			<p>You have certainly rec'd now my two silly letters about the &quot;lost&quot; books, and you'll, I hope, excuse me for my flurry.</p>
+			<p>By the way, if you intend to go on with your mailings of library books (and I'll be tickled to death if you will), put, for the moment, any other name apart and send me only Lewis's books except B... A... W... which I got here. Will you? The reason is I want to know him perfectly in order to write about him, an essay asked for by a certain literary review of Rome. You hear: I'm hustling (and boosting accordingly). The essay would be presented in the summer, so, if you can, give me a lift.</p>
+			<p>Say, I'm yet waiting for your ritzy photo. And I've yet a grand news, I'll write about hardly I'll be sure of it and best wishes</p>
+		</body>
+	</text>
+</TEI>

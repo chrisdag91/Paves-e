@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze.</p>
+			<p>4 luglio ’34</p>
+			<p>[Via] Lamarmora 35, Torino</p>
+			<p>Caro Carocci,</p>
+			<p>Non sai che piacere a sentire che non mi hai presentato. Come ti sarai accorto, ti mandai riluttando il materiale e proprio perché mi pareva di farvi una figura a rifiutare. Quanto mi dici del concorso, io me lo aspettavo per diffidenza innata e sono insomma contentissimo che sia finita così.</p>
+			<p>Io penso sempre come scrivere qualcosa per Solaria, ma credi che non mi è riuscito finora a nessun costo. Non m’intendo che di quattro o cinque americani, e la Cultura vuol pure qualcosa. Comunque, vedi che ci penso.</p>
+			<p>Scrivimi poi con comodo se siete sempre dell’idea di stamparmi, visto che siamo nell’estate, e la stagione s’avvicina. Io, per me, son pieno di dubbi ora che siamo al punto. Ma una volta bisogna pur uscire e le poesie, checché se ne dica, si fanno per pubblicarle.</p>
+			<p>Tempo fa, giravano ottime nuove su Leone; alla fine del mese sarebbe uscito senza processo, ecc. Invece pare ora che il suo caso sia rimandato a dopo le ferie, il che porterebbe all’autunno. Ho veduto i suoi a Roma, che ogni tanto gli parlano, e pare che lui stia benissimo e studi e s’interessi delle cose del mondo. Mi dicono che ci sono case di pena (speriamo non per lui) dove si sono costituiti dei veri e propri centri culturali, certo i più vivi d’Italia.</p>
+			<p>Salute e grazie ancora</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

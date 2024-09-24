@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>28 dic.</p>
+			<p>Si potrebbe vedere il reale dal disotto recluso, dove non resti che il meditabondo sprofondarsi e allargarsi nell’acqua. La compagnia non sarebbe che l’irriducibile resto della società, paragonabile alla casacca e all’abitudine dei sensi – vedere un muro, sentire una voce, respirare il cielo. Il sostrato della vita di chiunque, fatto presente, e penetrato con fermezza, stante che chiunque può capitare in quel posto e qualcuno c’è sempre, anche se sia un altro; e la vita non consiste che in adornare variamente questo eterno reale. Lo sforzo sarebbe di raggiungere subito l’adattamento senza sbavatura residua.</p>
+			<p>Si scopre così che nella vita quasi tutto è passatempo, onde il proposito che formerebbe il prigioniero di vivere, se uscirà, come l’eremita, succhiando il suo passatempo, cavandone tutto il midollo. Che si propongono tutti i prigionieri. E la vita passata risulterebbe spensierata e febbrile, per le disordinate pretese, che l’hanno viziata. Qui il pensiero ridotto a superfluità, rivela quanto nella vita sia strambo, vivere per mezzo suo lottando e progettando. Non mai dimenticare che, sotto tutto, l’uomo è nudo. C’è un caso in cui ci si spoglia nudi e ci si mostra: ed è per fare la cosa meno ragionevole e più vergognosa della vita.</p>
+			<p/>
+			<p>I punti sono: che il reale è reclusione dove appunto si vegeta e sempre si vegeterà; e che tutto il resto, il pensiero, l’azione, è passatempo, tanto dentro che fuori. Conta quindi, possedere bene questo reale, passando tutto il resto. Anche perché, se non ci fosse la compagnia, come fu un tempo, non si sfrutterebbe nemmeno il passatempo pensiero-parola, ma si starebbe come un tronco, vivendo. Qui è (ripeto) il dramma: dir male del pensiero-parola, e perciò della vita-passatempo, rimpiangendo in silenzio tutto il resto ed esaltando dalla rabbia il reale, sempre possibile in chiunque come segregazione intera.</p>
+		</body>
+	</text>
+</TEI>

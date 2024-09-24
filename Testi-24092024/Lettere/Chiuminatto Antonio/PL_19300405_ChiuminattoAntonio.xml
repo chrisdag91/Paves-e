@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Green Bay, Wisconsin.</p>
+			<p>[Torino,] 5 aprile 1930</p>
+			<p/>
+			<p>Dear Tony,</p>
+			<p>Well, we have now got a fair bond of a friendship, a little bothersome perhaps on your part on account of the way I'm overworking you, but, out of this, I hope we get some usefulness from it. As, for instance, to receive letters with such strange stamps which cause janitors to stare a bit of a time. It's grand to be addressed as Mr So and So from the Bezuzus country of Green Bay Wis.! I beg your pardon, young man, but I must at once return on the subject of business. Don't think to get off so easily: you've stuck to a Piedmontese, “genus acre virum” as the up-to-date Vergilius, father of Dante, Pa.[vese] etc., says somewhere and you'll see. Just about post-stamps I've got to speak.</p>
+			<p>I noticed what a waste of “Golden-Gates” and “Liberty's statues” you are practising in your mailings of books and as I know that also a cent is a part of a dollar, I pray you to enclose henceforward with the book seller's bill the shipping clerk's. Get me? See! Yes, “unto the last red Indian penny”, that's my gentlemanly retaliation for your reprimand. So, stick to the broom-handle and smoke it.</p>
+			<p>And there's also another complication: giving vent to your righteous indignation you gave forth certain phrases you've now got to explain me on the bargain. What the devil were you meaning in such nonsensical words as “I'll be pulling with you and not against you” and “You tell the world, I haven't the heart!” and “to raz someone”? You see. I also am “right on the job”.</p>
+			<p>But, to stop kidding, I want to thank you infinitely for your troubles which never seem to come to an end, but always voluntarily to breed and multiplicate. I'm almost terrified with the awful kindness I've started. I got your three letters about Arrowsmith, began the book and your comments are the accustomed darby!</p>
+			<p>Now, I put Lewis' book aside to hurry on the library's ones which I got safely and be sure, I'll leisurely wade through. I began with The Grandmothers and want once more to proclamate there is no other living country in the world which be able to boast such a contemporary literature.</p>
+			<p>You are the peach of the world! Not only in wealth and material life but really in liveliness and strength of art which means thought and politics and religion and everything. You've got to predominate in this century all over the civilized world as before did Greece, and Italy and France. I'm sure of it. What in their little sphere have American Movies done in old Europe - and I've always abused those who mantained it was their financial organization and advertisements which brought them up: I say it is, not even their artistic value, but their surpassing strength of vital energy don't mind whether pessimistic or joyful - what, I say, have done Movies will do the whole of your art and thought. Each of your worthy writers finds out a new field of existence, a new world, and writes about it with such a downrightness and immediateness of spirit it's useless for us to match. Don't think I'm here coaxing you for some hidden purpose, or for the bad taste of a rhapsodical style: I'm in my earnestest when stating that a good modern European book is, generally speaking, only interesting and vital for the nation which produced it, whereas a good American one speaks to a larger crowd springing, as it does, from deeper wants and really saying new things not only queer ones, as we at our best are to-day doing.</p>
+			<p>I beg your pardon for this lot of spiel but you know, I'm so stuffed with American readings, I must sometimes give a little vent. Otherwise I'll be choking.</p>
+			<p>I see The Grandmothers is another book about your history, one of your national books, which demonstrate a thing not yet generally known here in Europe: that you, as a nation, have already a tradition and a pride, a great thing which fills your last want. Now you can really go and conquer the earth.</p>
+			<p>To which let us come down.</p>
+			<p>Did you never fall in with the works of Mr Artemus Ward, ob. about sixty years ago? If you didn't, you drop this sheet at once and stir about, till you find out and read them. It's a capital fellow, a wonderfully American one, something of an Anita Loos in checkered trousers and Yankee spelling. It's a terrible knocker of great things and as for little ones he has a charming naïve philosophy of his “than which there is no whicher”. You must read the way he gets along with the “show biznis”, his war-correspondance from “B. Injanny” and his letters to the English Punch. A half page of his to sample the stuff.</p>
+			<p>“Baldinsville this night rejoises over the gerlorious event which sementz 2 grate nashuns onto one anuther by means of a elecktric wire under the roarin billers of the Nasty Deep.  Quosque Tantrum, A butter, Caterliny, Patent Nostrum!”</p>
+			<p>Squire Smith's house was lited up regardlis of expense.  His little sun William Henry stood upon the roof firin orf crackers.  The old 'Squire hisself was dressed up in soljer clothes and stood on his door-step, pintin his sword sollumly to a American flag which was suspendid on top of a pole in frunt of his house.  Frequiently he wood take orf his cocked hat &amp; wave it round in a impressive stile.  His oldest darter Mis Isabeller Smith, who has just cum home from the Perkinsville Female Instertoot, appeared at the frunt winder in the West room as the goddis of liberty, &amp; sung “I see them on their windin way.”  Booteus I, sed I to myself, you are a angil &amp; nothin shorter.  N. Boneparte Smith, the 'Squire's oldest sun, drest hisself up as Venus the God of Wars and red the Decleration of Inderpendunse from the left chambir winder.  The 'Squire's wife didn't jine in the festiverties.  She sed it was the tarnulest nonsense.</p>
+			<p>Ain't it really corking? And you can go on, he is always the same feller. I want to write something about these humorists: from A. Ward to A. Loos they are an exceedingly interesting gang. Many things in your two-reel films - Mack Sennet, Christie, etc. - can be understood only by means of these “harbingers”.</p>
+			<p>Now, to pull on you the accustomed something, I should pray you to look after the publisher's imprint and the date of the first edition of Cradle of the Deep by Joan Lowell, which work I read here in a translation and should like to know about in order to quote it right in an essay of mine. Get me? The imprint and the date, not the book: I know it already.</p>
+			<p>As for the works you intend to send me in your next mailing on May, you can keep an eye to the list you have already and besides I jot here someone more:</p>
+			<p>Claude Mckay - Amy Lowell - Ezra Pound - Countee Cullen. Whatever work of these authors and, note it, also of the preceding list's, will do. I say this for I remember having written there about some one: whatever work, and about some other: only certain books. Of both lists you can send me whatever book you find under whatever name. For instance, by Dos Passos, W. Carlos Williams, and W. Frank there is a lot of works I don't know about: you select and mail: I'll accept everything.</p>
+			<p>I wonder what has happened to the second package of books you mailed the same day with the library's I got already. However, hardly I'll have it, I'll write you something about.</p>
+			<p>As for the photos, Maxim told me he will send you his, here you have mine. It's the only snapshot I got among my papers and so I send it. You photographers are damned slow people and I'll get a new good one only next week. I've waited already too much and so I send this. Hardly I'll have the new one, I'll write and enclose it. Now, look at ... But, you know, I'm a lovelier young fellow. Don't worry about and don't advertise me too much. Naturally I'm waiting for yours, at least, in your soup-and-fish, spiffy young man.</p>
+			<p>Always yours.</p>
+		</body>
+	</text>
+</TEI>

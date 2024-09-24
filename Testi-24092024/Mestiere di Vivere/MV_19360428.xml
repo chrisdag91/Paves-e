@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>28 apr.</p>
+			<p>“Che al signore piacciano le cose chiare, mi sa bene per il suo buon gusto. Ma rifletta il signore che le cose chiare sono subito digerite e poi torna l’appetito. Molto meglio rodere nel difficile, arrabattarsi a trovare il pezzetto, far durare di più la speranza insomma”.</p>
+			<p/>
+			<p>Perché prendersela tanto? Siamo ritornati al ’29. Composto poesie oziose, sofferto per l’incapacità di lavorare, solo e contrito in mezzo alla vita, vagabondo arrabbiato dello spettacolo pubblico. Che cosa manca? I sette anni trascorsi?</p>
+			<p>Ma via: ha mai contato la giovinezza nel mio mestiere? E se i sette anni non mancassero, fossero tutti finiti bene, cioè: composto poesie durature, trovato da lavorare con soddisfazione, accoppiato e riconoscente nella vita, accasato lieto dello spettacolo pubblico; se tutto fosse andato così, avrei qualcosa di più? Sarebbe valsa la pena? Sarei seduto a questo tavolo con più gioia?</p>
+			<p>E, se rispondessi che sarei lieto di essere legato, di avere dei doveri, non direi una cosa inutile, dato che di doveri uno ne ha sempre, purché voglia?</p>
+			<p>E allora, allora proprio soltanto lei rimpiango? Lei che mi ha fottuto? Ma, se tutto il resto è inalterato, che cosa rappresenta più lei se non una banale delusione sentimentale?</p>
+			<p>Allegro giovanotto, non è nemmeno lecito sprofondarsi in un grande tracollo; non esiste il tracollo; siamo come prima, abbiamo bruciato sette anni, ci sono accadute delle amabilità; ricominciamo, ma senza urlare, e teniamo presente che non c’è ragione perché fra altri sette anni non rifacciamo lo stesso discorso. E poi ancora, e poi ancora. Ma chi ci ha detto che la vita fosse da godere? Ragazzo, abbiamo ancora le illusioni giovanili.</p>
+			<p>Ma, se è vero che a tutti capiti così, come mai i vecchi non han tutti facce stravolte, indemoniate, macellate, spaccate, e sono invece così tranquilli?</p>
+			<p>L’unica cosa chiara è perché i morti si putrefacciano. Con tutto quel veleno nel corpo.</p>
+		</body>
+	</text>
+</TEI>

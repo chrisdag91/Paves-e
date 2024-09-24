@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>[Torino,] 14th June 1931</p>
+			<p/>
+			<p>Dear Tony,</p>
+			<p>I got them eleven books, a cocktail of American life, wonderful! You're so snappy in your doings. I must watch myself, for sometime I'll want something without giving you notice and at once you'll send it to me. I think you're like Mississippi, but break the banks and after speak about catching it again!</p>
+			<p>By now you'll have rec'd the translation-package and so must know about my last desire: since you seem to revel in tiring yourself out in good-doings to your friends, would it be the straw on the camel's back, should I beg of you to look after that Melville? You know, my new translation is from Moby Dick by Melville and the book of Mumford would do me exceedingly good.</p>
+			<p>But &quot;let's be nice&quot; as said the robber after trimming again his necktie all bespattered with blood, let's be nice, says, and let's be satisfied with the former advantages taken of the victim.</p>
+			<p>And so you were Prexy already, this Spring? And what's more you're getting doremi? My best wishes on this path of manly achievement. And my compliments to your brother, the Doctor!</p>
+			<p>Which reminds us of Father Parsons and the hot stuff he will someday have to cry over. I thought it yet over, and I don't think my stuff will do for his magazines, however &quot;trying&quot; is the word, and you're such a die-hard! I'll serenely be on the look for the issue.</p>
+			<p>And so you also are that way again old bac? Say, I was always master of my moods, but I began suddenly some weeks ago and perhaps it was a trick of inibition, I don't know - now I'm &quot;crushed&quot; on four pink faces at once... I always mix up names and lookings, out of overworking, and there's a fifth one looming on the horizon. Not so bad, eh?</p>
+			<p>Well, in the army there are going to be more. But maybe it ain't a sun-of-gun of a job! (There's no joke with &quot;gun&quot;, for, you know, we carry muskets).</p>
+			<p>And at last here's my Anderson which has been much discussed here, but you see, he's always hale and hearty and on the path for new adventures like his writer which however does not even succeed in coming out of his debts, let alone coming out of the Old Land.</p>
+			<p>Adieu.</p>
+			<p/>
+			<p>P.Scr. What d'you Americans mean by &quot;your are perfection to a T&quot;? (Here I should like one of your page-long explanations).</p>
+		</body>
+	</text>
+</TEI>

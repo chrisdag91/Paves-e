@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Augusto Monti, Torino.</p>
+			<p>[Brancaleone,] 15 dicembre [1935]</p>
+			<p>Caro Monti,</p>
+			<p>ricevo due cartoline 5 e 8 dicembre. Non si scomodi, sig. Prof. a cercare Simposio e Coefore. Per ora ho da lavorare un anno sul ricevuto. Sento che ha ricevuto le cartoline prenotazione. Mi son permesso di far così perché pare che l'Editore abbia perduto la lista di acquirenti che gli mandai un anno fa. E Lei per la réclame dei libri (veramente, dei Suoi) è un vero Barnum.</p>
+			<p>Bisogna sapere che le ultime cinque poesie del volume sono state scritte fra agosto e settembre. Però non creda che il libro esca presto. Per esempio: mi scrive Carocci &quot;sono stato assente e Parenti (il tipografo) ne ha approfittato per dimenticarsi delle tue poesie&quot;. Costui batte Frassinelli. Avrei fatto più presto con l'amanuense.</p>
+			<p>Carocci stampa un'antologia degli scrittori di Solaria – dove Lei potrà leggere i Mari del Sud (scelta sua) e la mia biografia (!) (esclusi gli ultimi capitoli)!</p>
+		</body>
+	</text>
+</TEI>

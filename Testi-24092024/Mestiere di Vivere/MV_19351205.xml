@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>5 dic.</p>
+			<p>Deve avere qualche significato il fatto che, scoprendo la mia maniera, non mi sono per nulla aiutato con la facilità della materia sessuale. Mari del Sud, Antenati, *Fumatori di carta, ignorano questa vena. E se entravo nell’argomento, era in modo sdegnoso e saputo (ricordare *Donne Perdute, il *Blues dei Blues, *Maestrine). Cominciò la nuova preoccupazione con Canzone di Strada e Tradimento, in forma di vivida descrizione di esperienze sensoriali. Finché scoppiò come nuova materia proiettata nel mondo in Una stagione. Qui l’argomento era proprio l’importanza e la all-pervadingness del sesso, la riduzione di tutte le esperienze sensoriali a equivalenti del sesso (“il vento di marzo sui vestiti”). Un ritorno all’abbassamento malizioso delle sensazioni sessuali può essere una via d’uscita dal pantano di abitudinaria facilità descrittiva attuale. Come andranno però d’accordo questa malizia sessuale con l’inquietudine contemplativa segnalata il 24 nov.? A prima vista parrebbe che malizia e inquietudine contrastassero.</p>
+		</body>
+	</text>
+</TEI>

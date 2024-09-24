@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>Brancaleone, 24 agosto [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ho ricevuto un diluvio di posta: un vecchio biglietto post. del 31 luglio, dove mi dài del cretino, poi una cart. del 13 ag., una cart. post e un bigl. post. del 14 e una lettera del 18.</p>
+			<p>Il mio viaggio è stato gratuito; io appena arrivato avevo chiesto soldi perché non mi avevano ancora consegnate tutte le mie 400 L. Ma ora, con quelle e i due vaglia vostri, ne ho 700 e vivrò per un pezzo.</p>
+			<p>La camera è quanto di meglio si potesse trovare. È stata un'occasione trovarla col letto, perché qui di solito dànno la camera e poi bisogna comprarsi il letto. Per le 45 L. mi dànno anche le lenzuola e le lavano. Io mi pago la luce (8 L. al mese) e il lavaggio dei piatti e della biancheria (12 L. id, compreso il rammendo). Queste sono tutte le mie spese fisse. Il resto della mia vita l'ho già descritto nella lettera del 19.</p>
+			<p>Ho ricevuto la cassetta tutta in ordine. Nelle pipe siete incompetenti. Tutte quelle già usate, io da tempo le avevo smesse perché non tiravano. Le tre nuove sono scarti da poche lire, che dureranno sì e no un mese. Una è già spaccata.</p>
+			<p>Quanto ai libri nuovi, hai fatto bene a non prendere Psyche. Costa troppo. Non lo voglio più. Nemmeno l'Eneide, se sei ancora a tempo, non prenderla. Aspetto sempre i cataloghi degli editori (ital. e stranieri).</p>
+			<p>Io farò ora una lista di libri da comperare. Resta inteso che andranno comprati via via che vi farà comodo. Io ontinuerò a farla nelle mie lett. di mano in mano che mi verranno in mente i libri. Così o voi o gli amici (gli amici, specialmente editori e giornalisti, mi debbono questo ed altro) quando vorrete farmi un regalo, saprete dove pescare: Montaigne, Essais; J. de Maistre, Oeuvres; Pascal, Les Provinciales; John Milton, Areopagitica, etc. (ed. Dent, Everyman); D. Defoe, Rob. Crusoe (id.), Moll Flanders (id.); Th.de Quincey, Confessions of an Opium-Eater (id.); Nath. Hawthorne, The Marble Faun (id.); Earl of Chesterfield, Letters to his son (ed. Tauchnitz); David Garnett, Lady into Fox (id.).</p>
+			<p>Ti ho già scritto per Mondadori. Dagli altri editori senti tu, se propongono qualche libro. E spiega pure la mia situazione. Quanto a Frassinelli, so benissimo che se non gli si suggerisce il libro, lui non si muove, ma, così relegato come sono, non trovo niente di adatto. Digli che si cerchi un consulente abile, che gli faccia un piano di pubblicazioni. Da parte mia, se vuoi provare a suggerirgli Jurgen di Cabell (si trova tra i miei grossi inglesi) e darglielo da leggere, fai. Staattenta che il libro torni a casa.</p>
+			<p>Torna a chiedere a Rossi la restituzione dei voll. di Anderson che gli imprestai. Chiedi a Galeazzo Severi (per mezzo di Norberto) la restituzione di Defoe, Il Cap. Singleton; A. Huxley, Point counter point; e Brantome, Les Dames Galantes.</p>
+			<p>Scrivete meno lettere. Bastano cartol. post. Così facilitate anche la censura. Ho fatto il conto che, da quando sono dentro, avete già speso in sola posta 14,50, senza contare i telegrammi e i vaglia. Soldi sprecati.</p>
+			<p>Il mio sistema di darvi un elenco di libri, di cui mandarmene uno ogni tanto, ha anche questo vantaggio che, uno o due per volta, il pacco costa poco; molti insieme, diventa un collo e costa un occhio.</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

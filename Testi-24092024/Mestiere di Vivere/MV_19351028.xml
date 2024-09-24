@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>28 ott.</p>
+			<p>Comincia la poesia quando uno sciocco dice del mare “Sembra olio”. Non è affatto una più esatta descrizione della bonaccia, ma il piacere di avere scoperto la somiglianza, il solletico di un misterioso rapporto, il bisogno di gridare ai quattro venti che si è notato.</p>
+			<p>È però altrettanto sciocco fermarsi qui. Cominciata così la poesia, bisogna finirla e comporre un ricco racconto di rapporti che equivalga abilmente a un giudizio di valore.</p>
+			<p>Questa sarebbe la poesia tipica, l’idea. Ma solitamente le opere sono fatte di sentimento – la esatta descrizione della bonaccia – che a tratti spumeggia in scoperte di rapporti. Può darsi che la poesia tipica sia irreale e – come noi viviamo anche di microbi – quel che si è fatto sinora consti di puri pezzi mimetici (sentimento), di pensieri (logica) e di rapporti alla bell’e meglio (poesia). Una combinazione più assoluta sarebbe forse irrespirabile e sciocca.</p>
+		</body>
+	</text>
+</TEI>

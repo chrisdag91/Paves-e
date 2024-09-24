@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 11 dicembre [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ho ricevuto la cartolina del 1 dic. Per vostra norma, prendo latte - quando ne trovo - ma pare che mi si cagli nello stomaco. Io ormai non mi ricordo nemmeno più come sia fatta Torino, e me ne infischio che Cesarina prenda dei due. Se li tenga.</p>
+			<p>Questo mese, tra antiasmatici di nessun effetto, cure di ioduro di effetto avvelenante, polvere per l'asma che brucio ogni due ore, chinino che mi distrugge quella bella intelligenza, ho già speso L. 52,20. Quasi di più che a mangiare.</p>
+			<p>Non capisco perché voglio tornare a Torino. Qui - a parte la pelle - sto benissimo, e le vere seccature cominceranno una volta a casa; non ultimi, i vostri piagnistei. Penso di sposarmi qui e comprare un bambino che a due anni dica già &quot;cornutu&quot; e &quot;porcherusu&quot;. Così la faccio finita.</p>
+			<p>A proposito, per venirmi voi a trovare, vi occorre, credo, un permesso del Ministero. Ve lo dico per aumentarvi le difficoltà e levarvi la voglia, caso mai vi venisse, di venirmi a seccare.</p>
+			<p>Godo anche l'indipendenza economica, riuscendo a vivere del mio.</p>
+			<p>Tante brutte cose,</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

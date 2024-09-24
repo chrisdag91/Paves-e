@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Augusto Monti, Torino.</p>
+			<p>[Brancaleone,] 29 ottobre [1935]</p>
+			<p>Car. Monti</p>
+			<p>ho avuto e meditata la sua del 10 ottobre.</p>
+			<p>Né io aspetto consolationes né attacca il vecchio trucco di dare per consolato il consolando. A smentirla: proprio ieri sera ho fatto le bave, infranto una sedia, sterminato scarafaggi e raggiunto il letto in preda all’asma. Se mi paragona ad Achille andiamo bene. Né oceanine né tette giovano alla mia µñvis, che ha questo di singolare: dorme magari una settimana e scoppia nel giorno del Signore, beneficiando dell'energia accumulata.</p>
+			<p>Del mare ho fatto la mia sputacchiera. Lo costeggio e mi ci spurgo, provocandolo a drizzare le corna e inabissare tutto il continente. Ma lui, carogna, mi lecca i piedi.</p>
+			<p>Non mi trovo discretamente che leggendo Shakespeare o Isaia. Questi sono che fanno per me e a questi Mani dedico l'anima feroce.</p>
+			<p>Suo genero – ginöria – mi ha mandato un uragano di libri e di pipe. L'ho già coperto di grazie e, se anche lei volesse acquistar merito, mi mandi qualche greco. Qui ho trovato Iliade III, Anabasi I, Lisia per l'invalido, Sofocle Edipo re, e tutto ho tradotto o sto terminando di tradurre. Gradirei molto qualcosa della Palatina o meglio ancora il Convito platonico, senza pregiudizio di altre cose, nel testo, commentati. Omero pare che me lo mandino i miei. Inutile dire che detesto il greco e chi l'ha inventato, trovo che è lingua morta, illogica e artificiosa, che specialmente l'Edipo è una menata da ammazzare un bue, ma tant’è: la nostra sorte è da affrontarsi con animo gagliardo e risoluto.</p>
+			<p>Siccome poi conosco il mio pollo – dirò meglio lo suocero del pollo – le dirò che tutta la sua lettera è un campioncino da antologia.</p>
+			<p>Vi si scorge la penna leggera dei Sanssossi, fatta alata dall'attualità, svolazzare nel cielo dell’ironia, non senza fittoni improvvisi nella quota della malizia... (se è questo che le fa dire che sono allegro, lei vede come potrei ammazzarmi dal gran ridere).</p>
+			<p>Orsù, stia bene.</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

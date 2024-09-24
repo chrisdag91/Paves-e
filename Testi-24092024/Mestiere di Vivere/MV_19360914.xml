@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>14 sett.</p>
+			<p>D’accordo con Berg. che tanto il razzismo quanto la bontà naturale dell’uomo sono miti politici da giudicarsi alle loro realizzazioni, ma è disonesto scusare la riconosciuta debolezza filosofica del razzismo col fatto che ora si è riconosciuta debole filosoficamente anche la bontà naturale. Perché un mito per essere storicamente legittimo va creduto al suo tempo, e deve essere l’ultima parola della critica del suo tempo. Tale era la bontà naturale nel ’700, tale non è il razzismo nel ’900.</p>
+			<p>Lo stesso accade per le strutture della poesia dei vari tempi. Che le favole del passato per noi siano miti è pacifico, ma per fare grande poesia il poeta ha dovuto credere alle sue favole, crederle cioè l’ultima parola della critica dei suoi tempi.</p>
+		</body>
+	</text>
+</TEI>

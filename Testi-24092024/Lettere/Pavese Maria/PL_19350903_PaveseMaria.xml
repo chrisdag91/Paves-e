@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>Brancaleone, 3 settembre 1935</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ricevo una lett. del 27 ag. dove non mi dite la data della mia lett. ricevuta.</p>
+			<p>Ho già scritto il 27 ag. che ho ricevuto i pacchi.</p>
+			<p>Cerca fra i miei libri e restituisci al Prof. Pascal bibliotecario del D'Azeglio questi libri:</p>
+			<p/>
+			<p>Rodolico Carlo Alberto (grosso, legato in bleu)</p>
+			<p>Sanesi Storia d'Italia e Europa (4 o 5 voll. gialli oliva)</p>
+			<p>Orazio Opere (in latino e francese, grosso, giallo)</p>
+			<p>Orazio Epistole (piccolo, nero e rosso, legato)</p>
+			<p>Virgilio Eneide (3 voll. rosso e nero, legato)</p>
+			<p/>
+			<p>Io non ho bisogno che di libri, libri, e pipe.</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>[Torino,] 18 marzo '31</p>
+			<p/>
+			<p>Dear Tony,</p>
+			<p>Had I not already used up all possible expressions of wonder and &quot;speechlessness&quot;, I should now send you a whole dictionary of compliments about your new enterprise - the translation of a grammar - but, things being as they are, I say only &quot;Buy you another typewriter&quot;.</p>
+			<p>And what's worse, you're meaning business and your translations are getting home, one by one, all thorough and perfect. Yes, I'm staring speechless. Someday you'll present me with your own violin and you'll go, after, tramping and bumming round.</p>
+			<p>Honest, don't be so kind, otherwise I'll be obliged, when I'll cross over, to become your everlasting slave.</p>
+			<p>The same I say about books in general. I didn't know a simple request of mine would have raised such an activity on your part. Hand them over, surely, but take it more leisurely.</p>
+			<p>I want also to thank you very much about the probable publication of my essay. T's grand to be read in America without ever having been there! But keep an eye, I don't know if Jesuits would like such stuff as mine. There's a page about Elmer Gantry I think would pickle their eyes. However you're a knowing fellow. Do what you think best.</p>
+			<p>And, I pray you, whatever you could want - books, reviews, musical or not - broadcast only your s.o.s. and it will be got. I want to reciprocate.</p>
+			<p>And here is my summer list. (You select from them):</p>
+			<p/>
+			<p>Thornton Wilder, The Woman of Andros (I read the other two ones)</p>
+			<p>Vachel Lindsay, anything</p>
+			<p>C. Sandbury, The American Songbag, Smoke and Steel, Cornhuskers (not Chicago Poems)</p>
+			<p>Countee Cullen, Caroling Dusk</p>
+			<p>Cabell, anything except Jurgen and The Cords of Vanity</p>
+			<p>J. Moncure March, The Set-Up</p>
+			<p>Glenway Wescott, Goodbye Wisconsin (not The Grandmothers)</p>
+			<p>Langston Hughes, Poems and blues</p>
+			<p>L. Lewisohn, The Case of Mr Crump</p>
+			<p>William Carlos Williams, The Great American Novel or anything else</p>
+			<p>Scott Fitzgerald, anything.</p>
+			<p/>
+			<p>As for Miss Franchi you are a damned good psychologist. Pedantic, it's so! She knows, however, her rules, and in this field can yet teach me. But I'm looking forward to the day when I'll speak American as no Englishman will ever be able. As for now, thanks and thanks for your translation. But don't don't trouble yourself.</p>
+			<p>Dear Tony, I'm so crowded with work that I must steal to my sleeping the time to write you this letter and so you'll pardon me, if I come so briefly to a conclusion. I'm teaching philosophy (!!) in a Lyceum out of Turin, and teaching Italian in Turin, and so I must leap from a waggon to another and from table to bed without a requiem.</p>
+			<p>I hope (and have good reasons to) this requiem will be someday for me America itself - the business land that I think, instead, to be the pacefulness and dreaminess land (I'll demonstrate it another time) - and with the vow that this requiem will be sung with you, I am now yours devotissimo</p>
+		</body>
+	</text>
+</TEI>

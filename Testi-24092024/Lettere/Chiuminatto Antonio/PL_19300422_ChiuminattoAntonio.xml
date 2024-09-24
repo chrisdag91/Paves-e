@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Green Bay, Wisconsin.</p>
+			<p>Turin, April the 22nd, 1930</p>
+			<p/>
+			<p>Dear Mr Prof.</p>
+			<p>At least I got your money and here it is in plunks. I wrote you, only a little ago, two letters, I've now nothing more to say. No: perhaps I'll undertake really for a &quot;real&quot; publisher a translation of Lewis or Anderson to make them more known here in Italy. You see your lessons begin to bear fruit.</p>
+			<p>By-the-by, if you have time, apply to the Post Office, to ferret out something about the lost books of Sandburg etc. Naturally, should you have got them registered, you could somehow complain and get some compensation.</p>
+			<p>But I know what damnation it is to go about in offices so I would not have you worried too much.</p>
+			<p>Do what you think better and least troublesome. I already gave in. Notwithstanding this mishap, we can yet be satisfied that the ill-luck were not for your other mailing: do you think what a fine we should have had to pay, before we could get the books again?</p>
+			<p>When you'll have received my package which is now starting and I hope will arrive in due time, you can begin thinking about the next loan. You have already the list. Good-bye you fiddler</p>
+			<p>C. Pavese</p>
+		</body>
+	</text>
+</TEI>

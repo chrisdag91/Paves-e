@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Alberto Carocci, Firenze.</p>
+			<p>[Brancaleone,] 24 ottobre [1935]</p>
+			<p>Caro Carocci,</p>
+			<p>ho tirato un respiro di sollievo a ricevere che (10 ottobre) per tramite della Prefettura di Firenze le bozze sono finalmente nelle tue mani. A quest'ora anche le nuove otto poesie saranno composte e approvate dall'Ufficio competente. Che destino che il mio libro dovesse trovare tanti e così solleciti lettori tra i regî funzionari! Credo che ormai, a Firenze e a Roma, lo sappiano a memoria. (A Roma, tra l’altro, alloggiando io all'Albergo della Madonna, un funzionario me ne tesseva, tra il serio e il faceto, un commovente elogio). Altrettanti lettori, una volta che sia pubblicato, tra i privati, e la mia fortuna è fatta!</p>
+			<p>Ti raccomando ancora - e scusa la sedulità, ma siamo poeti – le correzioni fatte e le eventuali da fare alle nuove bozze. Se occorressero altri tagli per uscire, taglia pure senza perdere tempo ad avvertirmi. E appena il libro esiste, una copia a Brancaleone!</p>
+			<p>Siccome io qui faccio una gran flanella, ti sarei grato, se quando hai un libro che ti puzza – scarto di magazzino o regalo intempestivo della zia – me lo volessi inviare. Sono disposto a leggere di tutto, pur di passare il tempo. Ricordati ad ogni modo che le mie curiosità vanno dalla esegesi biblica al romanzo giallo, passando per la lirica giapponese, l’occultismo, i testi di lingua e gli epistolari amorosi.</p>
+			<p>Unico mio disinteresse – ab aeterno e parlo colla mano sul cuore – la letteratura politica.</p>
+			<p>Grazie di tutto. Tuo</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

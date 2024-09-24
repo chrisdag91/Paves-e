@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>[Torino,] 1 dic. '32</p>
+			<p/>
+			<p>My dear Tony,</p>
+			<p>at last I got something from you! I thought you were dead. But it seems Roosevelt's hit knocked you on the head and caused you ro remember old friends. If that's politics, all the better.</p>
+			<p>I don't know whether to congratulate you for your righteous burst of patriotic feeling. But, to mix some water in your new wine, I must say that I don't think Europe will pay: after all Europe already paid in the World War with all its dead, wounded, and maim'd, and it's only right you also pay with money. More-over if we pay you, we'll be ruined and so your trade and exchange will be lessen'd too, not to say destroyed. As for our Premier you fancy so much, I should suggest you Americans come over and carry it back in God's Country: Italy will be delighted to pay his war debts that way.</p>
+			<p>Speaking seriously, I'm glad you're not forgetting me. As for books, slang and so on, you are but too kind: it's your old need to be of service to someone and I can only thank you for it. As for now, I want nothing in that line: I'm getting crammed of English Literature to hold some professional examens and by those gentlemen the American one is ignored. But it will not be long before I pull your wire for some service. So, be merry.</p>
+			<p>Old Max is yet playing the Merry Widow. How do you think it will pan out? I'm about sure, he will marry his musical comedy and then she will turn out a tragedy.</p>
+			<p>By the way, I've got a very stingy fellow as a publisher and I've already spent on critics and friends the whole lot of my due copies of the translation. So now that I know you are yet kicking, I cannot at once succeed in begging from him a copy of them to mail you; but be sure on the first occasion I'll remember it.</p>
+		</body>
+	</text>
+</TEI>

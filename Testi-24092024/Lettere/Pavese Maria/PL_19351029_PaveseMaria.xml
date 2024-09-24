@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 29 ottobre [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ricevo 3 ott. (lett.), 11 ott. (cart. post.), 17 ottobre (lett.). Mando all'Intendenza la domanda necessaria per il rimborso tassa. Mandatemi Omero.</p>
+			<p>Vedo che vi sognate di notte che torno a casa e vivete sulla fiducia. È un buon fondamento, tanto più che anch'io una volta sognavo spesso di finire papa.</p>
+			<p>Sento di Frassinelli. Se c'è Giac. de Benedetti consulente, è finita anche lì: non riuscirò più a far niente. Da tempo. G. De Benedetti non mi poteva soffrire e trovava che al mondo ero di troppo.</p>
+			<p>Gli indumenti che dici li ho tutti in relativo ordine. Ho portato tutta l'estate il vestito più leggero. Ora l'ho dato a smacchiare e indosso quello più pesante che vestivo il 15 maggio, dato che alla sera fa già molto freddo e io passo di raffreddore in accesso d'asma e viceversa. Poi c'è l'altro più brutto, intatto. Fazzoletti, calze, mutande, camicie, maglie, li alterno e faccio lavare e rammendare per le solite 12 L. al mese, ma presto non mi basteranno le maniche corte, perché qui non c'è riscaldamento. Fate come volete: se non avete camicie con maniche lunghe, starò senza e terrò sempre la giacca. Di scarpe ho in buon ordine le tre paia, perché l'estate l'ho fatta tutta con un paio da tennis comprate qui per 6 L. Comunque ne gradirei un paio di alte.</p>
+			<p>Sta dietro a Rossi e digli che il suo libro Opere di Daniele Defoe rilegato in bleu (l'unico suo che avevo) l'ho passato or sono due anni, dicendoglielo, a Franco Antonicelli, che doveva farlo leggere per vedere se era il caso di tradurre Moll Flanders.</p>
+			<p>Che tutti si stupiscano e mi compiangano, potrebbe farmi piacere; viceversa mi secca. Sono inutili tutte queste storie. Non è bello perché uno è apparso uno stupido (ma non per i motivi che credi tu) ricordarglielo continuamente, con la scusa che lo si compiange e lo si trova giovane e disinteressato. Se hanno qualcosa da dirmi, me lo scrivano; come hanno fatto tutte le persone per bene, verso cui conservo stima, altrimenti vadano a dar via quel che han d'avanzo ché ne han molto.</p>
+			<p>Mi rompo la testa a cercare quali siano le piccole cose che volete sapere, e non le trovo. Gli scarafaggi? Ve li ho scritti. I soldi? Ve li ho scritti. Come mangio? Ve l'ho scritto. Quanto spendo al giorno? Ve l'ho scritto. Cosa faccio tutto il giorno? Ve l'ho scritto. Quanto conto di restare? Ve l'ho scritto. Se dormo o no? Ve l'ho scritto. Di che cosa ho bisogno? Ve lo scrivo tutte le volte. Chi mi scrive? Ve l'ho scritto. Se c'è il mare? Ve l'ho scritto. Come va la salute? Ve l'ho scritto. Le poesie? Ve l'ho scritto. Del resto c'è un detto popolare che, quando non si parla di una cosa, vuol dire che la cosa va bene. Potreste ricordarvene. Non capisco poi tutti i misteri del salame, ma ringrazio lo stesso. Un salame è sempre un salame. Ha un unico difetto: è già diventato la metà.</p>
+			<p>Ho avuto anche il Byron che è stata la mia più grande gioia da quando passeggio su questa costa con le braccia conserte. Accludo due fotogr. che, con altre 4 che è inutile mandarvi, mi costano 12 L. Costano care le piccole cose.</p>
+			<p>Un giorno o l'altro manderò la borsa per Cesarina. Va bene per il Bertola. Farò presto il sunto dell'Autobiogr. of a Suicide. Saresti indiscreta se mostrassi la nuova lista di libri a Sturani. Me ne ha già mandato, tra gli altri, uno che costa 80 franchi (4 voll.).</p>
+			<p>A me finalmente è stato pagato il sussidio, dal 5 ag. a fine sett. E, per concludere, cosa aspetti per il primo novembre, che non ne vedi l'ora?.</p>
+			<p>Cesare</p>
+			<p/>
+			<p>P.S. Mi sono comperato un parapioggia con l'elsa a testa di bull-dog. Gli ho messo nome Beethoven. E grappa, voi non me ne mandate?</p>
+			<p/>
+		</body>
+	</text>
+</TEI>

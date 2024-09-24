@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze.</p>
+			<p>[Brancaleone,] 5 Sett. ’36</p>
+			<p>Caro Carocci,</p>
+			<p>mi sembra un secolo che non ti scrivo. Ho dovuto attendere a rimettermi in carreggiata sinora e mi rimaneva ben poco gusto per la cosa letteraria.</p>
+			<p>Non che ora sia a posto — sono disoccupatissimo — ma insomma mi ci sono abituato. Mandami qualche notizia di te e della casa, della defunta e del libro, al cui titolo vorrei ora far precedere una negativa per accordarlo al mio nuovo sentire. Tutte le volte che ho potuto ho procurato qualche nuovo compratore al suddetto; non molti, ma buoni.</p>
+			<p>Che cosa se ne dice in giro? Io, dopo l’Italia Letteraria (chi era quel signore?), non ho più trovato chi lo nominasse.</p>
+			<p>Qui me ne parla qualcuno a voce, concludendo sempre «Perché non tenta la prosa? Lei c’è nato».</p>
+			<p>Le tue ultime notizie, o meglio le notizie della Casa, le ho avute da un nostro poeta petulante, G. G. Severi, ungarettiano.</p>
+			<p>Io, tutto sommato, sono avvilito di aver stampato. Quando avrai un momento libero, mi farai un piacere aprendomi i tuoi sentimenti su Lavorare Stanca, che non ho mai compreso bene perché tu abbia pubblicato.</p>
+			<p>Scusa l’impertinenza e il lungo silenzio e ricordati del tuo devoto</p>
+			<p>Pavese</p>
+			<p>V. Lamarmora 35 - Torino</p>
+		</body>
+	</text>
+</TEI>

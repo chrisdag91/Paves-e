@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Augusto Monti, Giaveno.</p>
+			<p>[Torino,] 23 agosto [1928]</p>
+			<p>Non son venuto quest'anno a farle la rituale visita ristoratrice perché ho sentito dagli amici che Lei ha altro per il capo, e non volevo seccarla. Comunque, non ne posso più e mi sfogo ora con una lettera che se Lei non ha tempo farà benissimo a non risponderle e magari a non leggere neanche, perché non sono che le solite querimonie.</p>
+			<p>È una lettera interamente inutile perché tutto quanto poteva dirmi, Lei me lo ha detto sinceramente, ma, tant'è, io non sono cambiato.</p>
+			<p>Giovane come un aglio e con niente da fare conduco un'esistenza vilissima e ormai m'accorgo di non saper più uscire dal pantano della mia anima.</p>
+			<p>Non so più dove cacciare gli occhi per trovare un me stesso che sia un po' meno misero.</p>
+			<p>A tratti viene fuori un qualche stucchevole lavoro letterario che neanche io prendo più sul serio.</p>
+			<p>Sono giunto a un punto che o rinnovarsi o morire.</p>
+			<p>So, so, che cosa mi risponde Lei: vivere, lasciare la letteratura, farsi uomo, diventar bambino, organizzare comitati e tutto il resto. Ma la letteratura mi ha roso troppo ormai. Pensi che io il mondo son ridotto a vederlo solo più sotto specie di antagonismo tra romantici e futuristi e tanto basti.</p>
+			<p>E non posso gettarmi a vivere, non posso. Per vivere bisogna aver forza e capire, saper scegliere. Io non ho mai saputo far questo. Come non capisco niente di politica così di tutti gli altri tramenii della vita.</p>
+			<p>Scribacchio, vomito poesie, per avere un terreno, un punto su cui fermarmi e dire &quot;Sono io&quot;. Per provare a me stesso di non essere nulla.</p>
+			<p>Macché! solo i futuristi creano. Ma io non riesco a capirli: sono troppo sani.</p>
+			<p>Monferini ride e m'assicura che potrò ammazzarmi anche, ma sarò sempre il buon Pavese scolaro che ha la mania di scappare dal collegio, Sturani mi guarda cogli occhi moribondi, ma che nascondono chissà che altro bel romanzo, e Giacchero mi canta le canzonette.</p>
+			<p>A volte persino quella donna mi esaspera, perché mi accorgo che non è altro che una Madame Bovary, senza nemmeno il tragico. Tutte le novelle umoristiche che leggo, sento che ridono di me.</p>
+			<p>E Ginzburg mi studia.</p>
+			<p>Per consolazione: &quot;È tutta scioperataggine&quot;.</p>
+			<p>Ed ora che ho finito vedo bene che non c'è risposta a questa lettera se non insolenze o calci in culo.</p>
+			<p>Ma neanche in questo ci sarebbe scampo. Da piccolo più le prendevo e più mi incaponivo.</p>
+			<p>La tenga come il documento umano di un suo fu-scolaro e non ci pensi più. Non ne vale la pena. Mi perdoni</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

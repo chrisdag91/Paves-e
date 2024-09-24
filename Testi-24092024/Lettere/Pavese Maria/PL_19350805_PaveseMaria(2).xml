@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>Brancaleone, 5 agosto [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ho subito bisogno di una cassetta coi libri, per la cassetta e per i libri.</p>
+			<p/>
+			<p>LIBRI MIEI:</p>
+			<p/>
+			<p>1. Tragedies of William Shakespeare</p>
+			<p>2. Comedies  &quot;	&quot;	&quot;</p>
+			<p>3. Historical Plays and Sonnets &quot;	&quot;	&quot;</p>
+			<p>(sono tre volumi dello scaffale inglesi, legati in color oliva, dorso scritto in oro, edizione Dent [Everyman])</p>
+			<p>4. Poems of John Milton</p>
+			<p>(un vol. id.)</p>
+			<p>5-6. Oeuvres di François Rabelais</p>
+			<p>(due voll. non legati, gialli, nel gruppo francesi)</p>
+			<p>7. Poésies di André Chenier</p>
+			<p>(un vol. id.)</p>
+			<p>8-9. I Marmi del Doni</p>
+			<p>(due voll. legati in bleu, sottili e alti, nello scaffale italiani).</p>
+			<p>10. Le Odi di Orazio</p>
+			<p>(un vol. non legato, coi fregi bleu, e molte note nelle pagine. Al primo piano in alto, tra i libri della scuola)</p>
+			<p>11. Vocabolario tutto inglese del Cassel</p>
+			<p>(dorso rosso)</p>
+			<p>12. Bucoliche e Georgiche di Vergilio</p>
+			<p>(un volumetto sottile, ed. Paravia, foderato in carta bianca, con ricalcato il titolo a penna, nel mucchio degli autori latini)</p>
+			<p>13. Vocabolario francese Ghiotti.</p>
+			<p/>
+			<p>IMPORTANTE: sfoglia accuratamente i libri, per togliere eventuali cartoline che io vi avessi messo, per segnapagina, e che potrebbero parere corrispondenza clandestina benché preterintenzionale.</p>
+			<p/>
+			<p>Libri da comprare:</p>
+			<p>Vergilio, Eneide (Testo e Commento del Lipparini) Collezione Romana - 3 voll.</p>
+			<p>Rohde, Psyche, ed. Laterza.</p>
+			<p>R. L. Stevenson, In the South Seas, Ediz. Tauchnitz 2 voll.</p>
+			<p>Symonds Y. A., Sketches in Italy, Ed. Tauchnitz.</p>
+			<p/>
+			<p>Per un dizionario latino decente da leggere i classici, consigliati col profess. o con sua figlia.</p>
+			<p>Naturalmente, la cassetta coi libri miei va spedita per collo espresso perché l'abbia al più presto. Se qualcuno non lo trovate, pazienza. Non ritardate con la scusa di comprare i nuovi. Questi, se li trovate subito, bene, altrimenti verranno poi, non c'è fretta. Per comprare gli stranieri, il migliore è Casanova che li fa arrivare in quattro giorni. Comunque fatti dare per me subito da Casanova ed altri librai, abbondanza di cataloghi di editori. Costano niente. Se nella cassetta volete mettere insieme ai libri, qualche vestito (calzoni specialmente) leggerissimo, da spiaggia, fate pure. E non lesinate le pipe nuove. Resta inteso che, se qualcun altro mi vuol mandare libri, faccia, a fantasia. Tutto nella cassetta.</p>
+			<p>Come sto, ve lo scriverò un'altra volta. L'indirizzo è, per ora, Albergo Roma Brancaleone (prov. di Reggio Cal.)</p>
+			<p>Cesare</p>
+			<p/>
+			<p>P.S. Anche un paio di mutandine nere da bagno di lana, molto strette, e una cuffia di gomma.</p>
+			<p/>
+			<p>P.S. Il rasoio di sicurezza, con pennello, e qualche lama, se l'avete!!!</p>
+		</body>
+	</text>
+</TEI>

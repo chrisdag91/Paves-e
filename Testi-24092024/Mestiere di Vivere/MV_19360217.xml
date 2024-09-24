@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>17 Febbr.</p>
+			<p>È bene rifarsi a Omero. Qual’è  l’unità dei suoi poemi? Ogni libro ha una sua unità sentimentale, di posizione, per cui armonicamente, e fisicamente anche, lo si legge come un insieme. Libro VIII Odissea: il conforto della poesia, della danza, della gara; il canto, il mito aureo, scherzoso; la rivincita della nobiltà di vita, in un’oasi di godimento e di lacrime ideali. Libro X Odissea: l’avventura, il susseguirsi di ostacoli, il pianto umano e l’indurirsi. Libro III Iliade: la bella donna e la guerra per la donna, e l’amore snervante. E via. Pensava a queste definizioni Omero o chi per esso? Non credo, ma è rivelatore che il libro dove vive tutta la Grecia sia fatto in questo modo o, che è lo stesso, sia possibile interpretarlo così.</p>
+			<p>Ma stiamo attenti. Il grande fascino dei due poemi è l’unità materiale dei loro personaggi, che a volta a volta si accende in queste conflagrazioni di poesia. Abbiamo cioè, fin dal primo esempio di grande poesia intenzionale, questo doppio gioco: naturale svolgersi di casi (che potrebbero anche essere il doppio o la metà, senza danno) e successive ed organiche illuminazioni poetiche. Il racconto cioè, e la poesia. L’unione dei due elementi non è più che abilità .</p>
+			<p>Ora si apre il problema se, in poesie separate non sia possibile rifare il miracolo; non per altra ragione che tendendo sempre la mente all’unità in tutte le sue manifestazioni. Comporre secondo l’estro, ma con sotterranea abilità far concorrere i varî pezzi a un poema.</p>
+			<p>Il modo più semplice parrebbe quello di conservare uno stesso elemento protagonista nelle successive poesie. E questo non va, perché allora sarebbe meglio fare senz’altro il poema raccontato, cosa dimostrata assurda.</p>
+			<p>Resta, di rintracciare in un gruppo di poesie le sottili, e quasi sempre segrete, corrispondenze di argomento (materiale unità) e di illuminazione (unità spirituale).</p>
+			<p>Rintracciare vuol dire mettercele componendo; e i modi sono: abituarsi a considerare la natura (mondo di argomenti) un tutto ben determinato, cedere giudiziosamente agli echi e richiami da poesie precedenti, cercare insomma gli argomenti a testa fredda calcolandone il posto e abbandonarsi intuitivamente a testa calda all’ondata ritmica del passato. Dirsi, componendo una poesia: scopro un altro lembo del mondo che già in parte conosco, aiutarsi a questa scoperta con richiami al già noto, sorvegliare insomma quanto è buono e giusto il proprio passato. Non pretendere mai di fare il salto nell’ignoto, di rinascere di colpo un mattino. Utilizzare le cicche della sera prima e convincersi che il tempo – il prima e il poi – è soltanto una fissazione. Ma soprattutto non fare mai il serpente, non rigettare mai la pelle: poiché, che cosa ha l’uomo di proprio, di vissuto, se non ciò ch’è appunto già vissuto? Ma tenersi in equilibrio, perché che cosa ha l’uomo da vivere, se non appunto ciò che ancora non vive?</p>
+			<p/>
+			<p>Altro punto interessante in Omero sono gli appellativi e i versi ritornanti: tutto ciò, insomma che costituisce in ciascun caso un nervo lirico di indiscutibile valore, e ogni volta viene trascritto, uguale o press’a poco, senza darsi pena di rivedere la primitiva intuizione. (Anche qui, non vale la verità che si tratti di lingua poetica, di gergo consacrato, di frasi diventate nell’uso un vocabolo solo, di cristallizzazioni ieratiche d’un sentimento. Sarà, anzi è; ma a me fanno un altro effetto ed ho ogni diritto di ragionarci come fossero una scelta deliberata di Omero. Non conta l’intenzione sua, conta quel che ci vedo io, lettore).</p>
+			<p>Credo, perciò, si tratti di un modo tecnico molto importante, da cui ottenere parte dell’unità dei singoli libri. Non so se ogni lettore abbia notato come ciascun libro ha la caratteristica di un certo gruppo di appellativi e di versi ritornanti a lui riservati. Parrebbe che la materialità di certi gesti, di certe figure, di certi ritorni si colori, in questo modo, di poesia – sia pure mnemonica e cristallizzata – per nascondere la obbligata povertà inventiva. Che insomma il primo Greco abbia senz’altro sentita l’opposizione tra racconto e poesia, e si sforzi così – per il nostro gusto, ingenuamente – di colmarla. Va da sé che mutando libro muta pure – ma non sempre, si capisce – il tono dei ritorni, data la singolare colorazione o se vogliamo, fissazione di ciascun libro.</p>
+			<p>Concludendo, un modo per ottenere l’unità, è la ricorrenza di certe formule liriche che ricreino il vocabolario, trasformando un appellativo o frase in semplice parola. Di tutti i modi di inventare la lingua (l’opera del poeta) questo è il più convincente e, a pensarci, il solo reale. E spiega come in tutta quella parte dell’opera, dove ricorrano le formule uguali, circoli un’aria di unità: è lo stess’uomo – inventore – che parla.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Roma, Carceri di Regina Coeli,] 28 giugno 1935</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>da un bel po' sono senza vostre nuove. L'ultimo è stato il biglietto postale del 16 c. m. Non avete ricevuto più niente dopo?</p>
+			<p>Ma d'altra parte, a che cosa serve scrivere? Io ne ho fino alla gola e vorrei solo addormentarmi per non sentire più niente. Non faccio altro che attendere. Ormai tocca a voi interessarvi per ridarmi all'aria, perché di propria iniziativa qui si sa quando si entra, ma non se si esce. Se poi viene l'inverno, il meno che ci lascio è la pelle.</p>
+			<p>Avrete ricevuto dove chiedevo, se potete, di mandarmi denaro. Ne consumo in media 4 L. al giorno, ma ne vanno di più in giornali e libri. È molto educativo il pensiero che potrei non disporre nemmeno di un soldo e allora né fumare, né libri, niente. Attualmente ho ancora 320 L.</p>
+			<p>A parte quanto sopra, qui non si può dire che si stia male. Non è quel che c'è, è quel che non c'è che abbatte. Ed ora basta coi lamenti.</p>
+			<p>Io aspetto sempre notizie delle mie poesie e dei miei amici e vostre. Vi ho già scritto di fare per Serralunga come niente fosse, tenetemi solo avvertito.</p>
+			<p>Non so se avete già avvertito Luigi di Roma della mia avventura; se no, fatelo. Dite a Mario che gli auguro di andare un giorno o l'altro in prigione anche lui, perché non è giusto: lui si sposa, lui vince alla Lotteria di Tripoli mezzo milione, lui viaggia, e io che gli assomiglio come una goccia d'acqua debbo star dentro? A meno che la ricchezza non sia, come dicono, una prigione d'oro.</p>
+			<p>Io sogno di fare i bagni di mare e li faccio di sudore, il che mi dà alla notte un certo catarrino; non proprio asma, ma quel tanto che basta per star sveglio e sentir passare il tempo. Ché non sarebbe giusto sottrarre alla prigionia le ore di sonno: da noi le cose o si fanno o non si fanno.</p>
+			<p>Ciau</p>
+			<p>Cesare</p>
+			<p/>
+			<p>P.S. Ricevo adesso una cartolina postale del 24 c. m. da Guglielmo. Sono contento che tutto vada bene. Soltanto vorrei che mi diceste sempre la data della mia lettera a cui rispondete. Io chiedo una cosa o un'altra nelle varie lettere e mi preme sapere se ne avete pigliato nota. L'ultima mia di cui mi avete parlato era dell'8. E poi? Ho chiesto soldi, ho dato le istruzioni per il mio libro, ecc. Scrivetemi quali altre mie lettere avete ricevuto dopo e a quale rispondete.</p>
+			<p>Saluti</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

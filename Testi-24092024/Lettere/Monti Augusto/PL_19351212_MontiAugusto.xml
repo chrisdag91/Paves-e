@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Augusto Monti, Torino.</p>
+			<p>[Brancaleone,] 12 dicembre [1935]</p>
+			<p>Caro Monti,</p>
+			<p>ho atteso l'arrivo dei testi annunciati dalla cartolina dell'8 novembre per rispondere. E siccome non sapevo nulla di Santa Caterina (ce ne sono quattro o cinque nel calendario), non avevo idea di quando Lei sarebbe tornato a Torino. Ha una bella mania, di segnare le date coi santi!</p>
+			<p>Stamattina ho avuto il pacco contenente: Sofocle: Filottete e Elettra, Platone: Fedone e Critone, Eschilo: Coefore; e Antologia del Cammelli. Giorni fa ho avuto dei romanzi da suo genero e così sono provvisto per l'anima e per il corpo.</p>
+			<p>Gran fantasticare su quel &quot;qualchecos'altro&quot; che deve fare &quot;per me&quot;: magari Lei vuol dire semplicemente un'altra serqua di scocciatori nati in Grecia: io però mi ostino a interpretarlo nel più radicale e lusinghiero dei sensi.</p>
+			<p>Non che io abbia dimenticato aperto a Torino il becco del gas e frigga di tornare a chiuderlo, ma di beccheria insomma si tratta, ed è questo ariostesco rischio che si vorrebbe scongiurare.</p>
+			<p>Il nostro Mariolino dovrà andar sotto, vero? Dopo tante trasformazioni (dall’ago al milione), gli toccava ancora questa! Anch'io in fondo mi considero mobilitato e così inganno il tempo.</p>
+			<p>Ho apprezzato lo squarcio su Filottete e il conte Biosaskonsi, ma, quanto all’othòne, il mio dizionario spiega &quot;pannolino da servire alle donne&quot;. Ho capito però egualmente e, come già scrissi al genero suo, me ne tengo di sapere a tempo e luogo indossare la persona tragica. Dato che così ci si libera, si produce la catarsi, avviene la contemplazione e si gode. Come a vomitare insomma (&quot;La pasta l'ho mangiata... Il vino l'ho bevuto... ma il cane affedidio, non mi ricordo...&quot;).</p>
+			<p>Questa allegrezza che mi schiarisce la pagina lei avrà già capito che nasce proprio dall'enormità dell’afflizione, per cui uno decide di fregarsene. Faccia conto che mi sveglio circa sei volte ogni notte e ogni volta inizio la lotta per lo spirito (il fiato). Per il resto va come un guanto (rotto).</p>
+			<p>Suo</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

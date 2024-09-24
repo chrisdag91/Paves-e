@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Augusto Monti, Torino.</p>
+			<p>[Brancaleone,] 11 settembre [1935]</p>
+			<p>Caro Monti,</p>
+			<p>siccome non ho ancora digerita la rabbia e tutti i giorni mi aumenta, mi manca il distacco necessario per darle con la dovuta serenità le mie notizie.</p>
+			<p>Stare, non sto benissimo e peggio starò nell'inverno che qui dicono ventoso, umido, rebarbarativo. Lei sa come io odî il mare; mi piace nuotare, però mi serviva molto meglio il Po. Ma a parte il nuotare, che del resto è già finito, trovo indegno della gravità di uno spirito contemplativo quel perenne giochetto delle onde sulla riva e quel basso orizzonte odor di pesce.</p>
+			<p>Qui i paesani mi hanno accolto molto umanamente, spiegandomi che del resto si tratta di una loro tradizione e che fanno così con tutti.</p>
+			<p>Il giorno lo passo &quot;dando volta&quot;. Leggicchio, ristudio per la terza volta il greco, fumo la pipa, faccio insomma venir notte, ogni volta indignandomi che, con tante invenzioni solenni, il genio italico non abbia ancora escogitata una droga che propini il letargo a volontà: nel mio caso, per tre anni. Il che risponde anche alla sua domanda sulle mie intenzioni di permanere o non.</p>
+			<p>Capisco molto meglio gli scrittori del secolo d'Augusto e non dò più così a vanvera il titolo di buffone a Ovidio. Naturalmente scrivo ex ponto le mie Tristia.</p>
+			<p>Di libri accetto qualunque cosa, anche a caso (ma specialmente classici latini e greci); se poi lei o Sturani ne avesse voglia, si faccia mostrare la lista che ho mandato (e aggiorno sempre) ai miei e lì peschi a volontà. Fate bene a soccorrere i miei nella spesa dei libri, perché quelli mi debbono già mantenere, essendo stato io dichiarato in grado di mantenermi e non ricevendo sussidio alcuno.</p>
+			<p>E finalmente sono a pochi km dal paese di Corrado Alvaro. Ma lo preferivo nei libri. Del sogno del Marchese Curlo ricordo appunto quanto lei; in più, vagamente, un accenno ai lettori della Treccani, che ci lasciano dentro il moccio. E poi, mi pare, una scena di gelosia tra donne.</p>
+			<p>Sono contentissimo delle disavventure dei suoi figli. È giusto che anche a loro girino un po’ le scatole: erano vergognosamente fortunati sinora. Soltanto, vorrei disgrazie più di sostanza.</p>
+			<p>Mi piace, finalmente, che lei abbia deciso di vivere metà in campagna metà a Torino, e non cambiar città. Così ci rivedremo al mio ritorno che, le ripeto, avverrà finiti i tre anni, a meno che qualche mattina non mi scappi la mano, annodandomi la cravatta. Nel qual caso la saluto fin d'ora.</p>
+		</body>
+	</text>
+</TEI>

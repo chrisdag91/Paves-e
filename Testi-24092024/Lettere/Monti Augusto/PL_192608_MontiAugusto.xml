@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Augusto Monti, Giaveno.</p>
+			<p>[Reaglie, agosto 1926]</p>
+			<p>Ho ricevuto la Sua lettera: uno di questi giorni le ricapiterò in casa e spero che sarò più fortunato dell'altra volta. Mi ci incaponisco così perché quella lettera me ne incoraggia. In essa ho trovato espresso in poche parole tutto ciò che io da un bel tempo in qua andavo rimuginando come venirle a dire appena finita la scuola. &quot;Per voi la scuola nostra comincia ora... venite a parlarmi dei vostri studi, delle vostre opere, dei vostri giorni…&quot; Questo intendevo io e già una certa frasaccia l'avevo trovata, che mi andava sì e no. &quot;Quest'estate che sarò libero dei miei atti, del Prof. Monti mi voglio fare un amico&quot;. Se il mio modo di dire le parrà troppo spiccio si consoli pensando che il mio sentimento era ed è proprio questo e quindi sarebbe stato contro i nostri principi vestirlo di un bello stile più letterario, ma meno schietto.</p>
+			<p>A quanto pare, queste nostre lettere van prendendo l'aspetto di campagna spietata contro la letteratura.</p>
+			<p>Ma io verserò subito molta acqua fresca sul fuoco, parlandole se lei me lo permette delle mie occupazioni in villa. (Le giuro però, sul mio avvenire, che non imito ora il Machiavelli). Stia dunque a sentire, se vuole.</p>
+			<p>Scribacchio e studio tutto il santo giorno e quando, preso dalla rabbia, scappo fuor di casa, ho intorno un giogo di colline, tutte boschi, ch'è una meraviglia vagabondarli.</p>
+			<p>E qua, forse presuntuoso, mi attendo una sua paternale: che io debbo svagarmi di più, che le maracchelle bisogna farle da giovane per non farle poi a capelli grigi, che il mondo non si conosce tutto solo sui libri, le cose insomma che mi dicon sempre tutti.</p>
+			<p>Ma lei che sinora non mi conosce che alla scuola, può dirle queste cose e con ragione, gli altri invece che mi seguono nella vita di tutti i giorni e continuano ugualmente a ripetermele mi farebbero quasi pietà se non avessero la attenuante che il mio carattere è troppo chiuso per conoscerlo a fondo. Pensi solo a questo: che non c'è uno della mia famiglia che da quattro anni in qua sia riuscito a leggersi un mio scritto, se non &quot;cacciandomelo&quot; di nascosto.</p>
+			<p>Perché, bisogna bene avermi capito com’io capisco i teoremi di matematica per chiamarmi il letterato per un mese o due che io tutti gli anni costretto anche dalle circostanze passo studiando a buono ciò che più mi piace.</p>
+			<p>Dico dunque contro la prima accusa che quando non si sente bisogno di svago è inutile prendersene.</p>
+			<p>In quanto alle maracchelle poi, le assicuro che ne faccio peggio di un lanzichenecco. Tre anni fa, no, ero uno scolaretto allora, non mi slanciavo mica, vivevo nel guscio: gli anni accresciuti in seguito, l'ampliarsi delle idee, delle aspirazioni, il suo insegnamento, tutto concorse ed entrai nella vita.</p>
+			<p>Vi entrai con una smania di fare e di conoscere, smisurata oceanica addirittura e se m'imbrancai con ogni specie di compagni fu per conoscere quella vita ch'essi praticavano e provarla, arricchirne la mia esperienza. (In pochi anni, del resto, dai dodici in su, passai in rivista una ventina di professioni, in tutto vedendo una seduzione). Il mio carattere era timido e riserbato: macché, io l'ho saputo sforzare alla vita moderna e tutti i giorni ne imparo di più poiché vivo in mezzo ad essa, sempre teso in me stesso, gioendo della mia personalità che sente, comprende, raccoglie.</p>
+			<p>Sono giunto a frequentare quei tali posti raccomandati da Catone e, non faccio per dire, ma la lotta è stata dura: l'ho vinta e tutta una parte nuova di mondo mi si è rivelata.</p>
+			<p>Questo valga a dimostrare che non vivo poi soltanto dei libri e per i libri. Ma alla fin fine, se lo debbo dire, io penso che a dischiudermi la vita sono stati in gran parte i libri. Non le grammatiche o i vocabolari ma tutte le opere in cui vive qualche sentimento. Dapprima, abbagliato dai grandi nomi, mi fermai sui poemi omerici, sulla Commedia, su Shakespeare, su Hugo. Quattro anni fa, io cominciavo ad aver per le mani le loro opere e mi esaltavo confusamente senza capirne il perché. Ora dopo quattro anni di fatica e dopo che lei ci ha insegnato a leggere, a poco a poco, credo di esser giunto a capire qual è la loro magia.</p>
+			<p>La poesia non fa che dare una esistenza immortale alla vita e quindi esse, opere di poesia, sono il riassunto di secoli conservati appunto viventi: viventi, questa è la grande parola che ho trovato a forza di fatiche e di scoraggiamenti non pochi.</p>
+			<p>E di mano in mano che mi si scopriva questa che ritengo una mia verità, di mano in mano che trovavo nei libri la vita di secoli trascorsi, mi cresceva l'ardore a conoscere la nostra vita attuale. Il perché è ovvio. Ma è anche molto superbo. E lo lascio trovare a lei.</p>
+			<p>Veda quindi se sono proprio infunghito sui libri. Creda che ce ne son certi nei miei scaffali che solo a guardarli mi corre un brivido di entusiasmo per la schiena.</p>
+			<p>A questo punto, se non la scoccio, le do un ragguaglio del mio lavoro. Studio il greco per potere un giorno ben conoscere anche la civiltà omerica, il secolo di Pericle, e il mondo ellenista. Leggo Orazio alternato a Ovidio: è tutta la Roma imperiale che si scopre. Studio il tedesco sul Faust, il primo poema moderno. Divoro Shakespeare, leggo il Boiardo e il Boccaccio alternati, tutto il rinascimento italiano, e finalmente la Légende des Siècles e le Foglie d'erba di Walt Whitman, questo è il più grande. Scorrazzo così, aiutato dalla conoscenza (poca ma cresce sempre) del pensiero del tempo, tra tutte queste civiltà che durano ora unicamente nella poesia, mi esalto dei loro ideali, e in essi guardo il cammino a noi e così studio la vita moderna.</p>
+			<p>Tutto questo mi son lasciato tirare a dire per difendere il mio metodo di vita estivo ed anche un po' per rompere finalmente il ghiaccio e cominciare quella comunione spirituale che io desideravo tanto e colla più gran gioia mi son visto offrire da lei stesso.</p>
+			<p>Come vede senza cerimonie le ho imbandito un piatto di mie esperienze, se pure posso chiamare così quelle che forse non sono che le illusioni dorate di un giovane inesperto; ma mi consolo pensando che anche lei è stato giovane e anche lei certo ha avuto le sue illusioni. E credo, questo non l'ho sperimentato ma me l'immagino, che in seguito nella vita i momenti migliori sono quando si rivive quei tempi. Mi sbaglio forse?</p>
+			<p>E a proposito dell'ammirazione le protesto qua che stimo più lei che non tutti i Provveditori al mondo. Finalmente lo posso dire senza più timore di esser preso per un suonatore di violino. Non so quanto potrà farsene lei di questa mia povera dichiarazione, ma le accerto che metà almeno dei miei compagni, quelli che conosco bene, son del mio stesso identico sentimento, se non maggiore.</p>
+			<p>Per ora basta, che lei avrà altro da fare. Oso pregarla di una sua risposta, ma mi raccomando sia con tutto suo agio. E in essa mi riveda le buccie interamente, mi critichi, mi maltratti. Le ricordo qua la chiusa di un mio componimento, il primo, la &quot;Presentazione al professore&quot;.</p>
+			<p>&quot;E mi tratti con tutta severità poiché gli ostacoli più sono sodi e più c'è gusto ad abbatterli&quot;. Questo scrivevo, con quella baldanza sfacciatella che non mi ha mai abbandonato nei tre anni, e lei ne sa qualcosa, che neppure in questa lettera mi abbandona e che non mi abbandonerà mai (è il mio tesoro più caro forse). E lei, imperturbato, mi cambiò il &quot;sodo&quot; in &quot;duro&quot; &quot;difficile&quot; se ben ricordo. Così faccia sempre. Fin da quel giorno, io amai in lei qualcosa di più che il professore.</p>
+			<p>Suo.</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Alla Columbia University, New York.</p>
+			<p>Turin, 13 giugno 1930</p>
+			<p>Dear Mr Fackenthal,</p>
+			<p>I got both your envelopes containing the printed material you spoke about in your kind note enclosed in one of them.</p>
+			<p>The Record of Fellowships and Scholarships in 1930-31 and the Bulletin of Information of the University.</p>
+			<p>I want to thank you infinitely. As for the further information about the precise conditions which are likely to be granted to me, I should pray you, if something is not yet on mail, to send me a kind notice of yours about.</p>
+			<p>I excuse myself for being so bold as to cause you a second trouble.</p>
+			<p>Very truly yours</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

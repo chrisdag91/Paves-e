@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Augusto Monti, Giaveno.</p>
+			<p>[Bibiana,] 24 agosto 1929</p>
+			<p>Come offa, per non farmi dare soltanto del seccatore, le getto subito la buona notizia: deve sapere che qua ho operato una gran campagna pubblicitaria per &quot;Papà&quot; e il Commendatore e la figlia l'aspettano ormai con impazienza, allettati dai miei scaltri accenni al nostro risorgimento veduto da un uomo di studio che attraverso la cultura non ha perduto nulla della giocondità ed epicità monferrine. Poiché la signorina legge Costa de Beauregard e ricorda benissimo le sue lezioni e il Commendatore mi ha già contato vita e miracoli di tutti i blasoni qua intorno.</p>
+			<p>Prima di cena, mi piglia con sé (ormai è un'istituzione) e andiamo a spasso per i campi: si discute di storia, di araldica, di pedagogia e di agricoltura: lui cita in latino, i contadini lo salutano, e si torna sfavillanti. È insomma un ottimo gentilhomme campagnard.</p>
+			<p>Dopo di che ricomincio i lamenti. Io le avevo scritto &quot;Son soddisfatto&quot; e lei, ne ero sicuro, ha subito messe avanti le res. Intendevo dire che stavo bene, che non c'era niente di ostico, che il trucco delle lezioni riusciva, che insomma facevo una vita d'oro, che non avevo tempo d'annoiarmi i tre primi giorni. E sfido. Entrar così in un mondo nuovo, aver da cambiare tutte le abitudini, da studiare cinquanta per poter disporre di venti e traboccare di sensazioni, osservare, ascoltare, disciplinarsi, chi è che trova ancora il tempo di guardarsi alle spalle? Ma, appena le rotelle han preso un giro costante, ecco che si son fatti i vuoti, che è sparita la meraviglia, che tutto è diventato naturale, quindi monotono, quindi lacrimevole.</p>
+			<p>Mica che i padroni siano cambiati, o che il trattamento sia diverso, ma è così, i soliti patemi.</p>
+			<p>Insomma, di tutta questa avventura non resta che qualche spunto comico da scrivere agli amici, e qualcuno serio da... chissà quando? Ormai son quasi rassegnato.</p>
+			<p>Parlando di cose reali, lei diceva di dar per perduto il greco e rifarmi col latino. Ma il male è che Manolito bello vuol dare l'esame a tutti i costi e studiare studia niente. Dice ventisette freddure per lezione.</p>
+			<p>Ormai abbiamo finito la grammatica e prepariamo gli autori. Omero e poi Tucidide, Livio e Orazio e poi Tacito.</p>
+			<p>In famiglia tutti aspettano l'esame, con l'aria di crederci. Il padre ha parlato di quel progetto suggerito da lei, di frequenza fino a marzo. Pare quindi che almeno lui, sia scozzonato. Ma pare anche che Pierino abbia promesso solennemente di essere buono e studioso.</p>
+			<p>Ora, negli autori se la cava tanto quanto, ma nei lavori dall'italiano in latino è già arrivato a prendere -15 (uso le espressioni algebriche perché le matematiche non bastano).</p>
+			<p>Dire che non ci ho fiducia, non mi fido, perché quello per picca è capace poi di passare. Ora lo sto caricando di consigli empirici sul modo di usare il vocabolario, sull'arte di isolare la proposizione principale e accodarle il resto e sui vari sistemi mnemonici. Tutta roba da vigilia, insomma.</p>
+			<p>Non so poi come si facciano gli esami orali di greco. Ma se chiedono di analisi grammaticale, è fritto.</p>
+			<p>In venti giorni che ha ancora, appena appena potrà finire gli autori. E poi la storia, e poi le scienze, e poi l'italiano (che tra parentesi dovrò fargli io). Mah!</p>
+			<p>Tutti qua riconoscono che studia niente, che è intelligente ma svogliato (e una volta tanto il luogo comune par giusto), però nel fervorino che ogni tanto gli intonano, l'esame è sempre presente. È un bel pasticcio.</p>
+			<p>Lasciando stare che adesso arriva Tucidide e questa sarà altro che una &quot;res&quot;.</p>
+			<p>Non mi basterà la notte per prepararmi. E tutta quest'occupazione è anche il motivo per cui non potrò venirle a fare una visita a Giaveno. Al 15 sarà a Torino anche lei m'immagino.</p>
+			<p>Qua intanto viviamo nella crème. Si senton dei nomi spaventosi.</p>
+			<p>Son capitato nel centro araldico di mezzo Piemonte.</p>
+			<p>L'altro giorno c'è venuto il Principe in casa e io ero &quot;il Professore Pavese&quot;. Finirò di prendermi un processo. Va e viene una baronia tal e quale. E alla sera si discute ghiottamente di stemmi, di quadri di famiglia, di mobili in stile, di investiture e di mescolanze di sangue. Io mi son già distinto scoprendo i veri soggetti di una coppia di statue settecentesche che c'è nel giardino, Ebe e Ganimede. Questo e il fatto che sorbisco il caffè ancor bollente hanno stretto i legami tra me e il Commendatore. Davanti al Principe, sono colui che &quot;sapeva che l'aquila è l'insegna di Ganimede&quot;.</p>
+			<p>E il cameriere fa peggio. Ormai mi batte la mano sulle spalle dicendo &quot;Il nostro signor professore!&quot;</p>
+		</body>
+	</text>
+</TEI>

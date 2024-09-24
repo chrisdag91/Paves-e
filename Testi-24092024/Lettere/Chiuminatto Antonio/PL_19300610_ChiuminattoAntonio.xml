@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A d Antonio Chiuminatto, Chicago.</p>
+			<p>[Torino,] 10 giugno 1930</p>
+			<p/>
+			<p>Dear Tony,</p>
+			<p>I've a lot of things to write about.</p>
+			<p>Here, before me, lie your three last letters, yet unreplied. I awaited in order to get the caboodle and write you accordingly. Well, I got the whole bunch of &quot;them&quot; books safely. Naturally I want to thank you infinitely, but this is too little: I wonder if you have not received my suggestions about your wasteful expenses of mailing and my firm and business-like proposition to pay for them. &quot;Che diamine!&quot; you are too awfully kind-hearted, but absolutely you must, next time, enclose in your letter a bill of all your stamp expenses. Get me?</p>
+			<p>I'm overflowing with merriment for the new books. I'll wade through them, certainly, however there be much other work to do.</p>
+			<p>Say, I'm becoming a true authority about American literature, I begin to feel chesty with my fellow-students, and especially with co-eds. But, let's on: it's you the fellow who is doing half the work.</p>
+			<p>As for the funnies you sent me, it's again an awfuly kind idea and such a one as only you can conceive. With these texts, and with your explanations, I'll not miss the time and the target. You bet: in those cuttings there's slang galore: I'm fattening on it, day after day.</p>
+			<p>With all my heart: don't worry so much after Frank's City block (not &quot;black&quot; as you mistook it), it's a good hunch, the autograph's, but don't waste all your time about.</p>
+			<p>Also Sandburg and Co. I rec'd safely, and I'm here renewing my excuses for all that foolish ado I did.</p>
+			<p>I'm beginning now Lewis' Our Mr Wrenn always according that plan. I wrote you about: to get a thorough knowledge of him in order to put down that essay on his general work, the first essay on him in Italy. There's a road open to immortality! I've some new ideas about Lewis I want to bid. Va sans dire, if I'll get the publication I'll send you the issue. You should have been midwife to it! You certainly remember I asked you for some more Lewis books on loan, as Elmer Gantry, Main Street, The Man who knew Coolidge etc. and it's a pity you selected the ten aforesaid ones having not yet rec'd my hint. However, now it's done; and I'll be contented with the three of four books I possess and frame the essay on them.</p>
+			<p>Should you find some reviews in newspapers and magazines about Mr Lewis, I'll be awfully glad to know them, or an extract from them. You understand...</p>
+			<p>Lastly I thank you for your lecture on syntax about &quot;to explain to&quot; and hope heartedly to receive some more.</p>
+			<p>Now, the blow-out: perhaps this winter I'll be in New York to teach (look me over) Italian literature or such similar things in Columbia University! I've been so admired (watch my smoke!) on account of my smattering of America that a professor in my University has written about me to Columbia's Dean who was searching for Italian students &quot;to cross over&quot;. I'm now waiting for a reply. &quot;Who Who? The Hooroo!&quot;.</p>
+			<p>Yours</p>
+			<p>C. Pav.</p>
+		</body>
+	</text>
+</TEI>

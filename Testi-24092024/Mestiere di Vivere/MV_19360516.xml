@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>16 mag.</p>
+			<p>Che alla produzione di un’opera occorra il pubblico, è indubitabile. Ci sono però molte opere che sono nate senza quell’apparente cerchia ansiosa e turbolenta e disordinata, che fa sorgere la grande arte.</p>
+			<p>Ma il pubblico non mancava. Semplicemente, l’autore se l’era immaginato, l’aveva creato (che vuol dire: definito, scelto e amato). In genere gli antichi, fino al romanticismo, ebbero la cerchia materialmente intesa; i moderni sono distinti dall’assenza di questa e rivelano anzitutto la loro grandezza (come gli antichi la rivelarono nella istintiva comprensione del vero pubblico, al di là dei pedanti) nella scelta e creazione che sanno farsi dei loro lettori.</p>
+			<p>Osservo pure che è falso credere possibile una progressiva creazione di un proprio pubblico da parte di uno scrittore. Così si crea il pubblico materiale, se mai, quello dell’editore. Ma il pubblico vero dev’essere tutto supposto fin dalla prima opera.</p>
+		</body>
+	</text>
+</TEI>

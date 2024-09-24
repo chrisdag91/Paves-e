@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Alberto Carocci, Firenze.</p>
+			<p>[Brancaleone,] 28 gennaio [1936]</p>
+			<p>Caro Carocci,</p>
+			<p>ricevo la tua lett. del 17 gennaio dove mi parli dell’indice. Io avevo notato la cosa, ma nemmeno te ne parlai nella mia del 24 c. m., stimando inutile recriminare l'inosservanza di una semplice – dopotutto – mania (esterofila, per giunta).</p>
+			<p>Piuttosto vorrei chiederti se non sia il caso di unire un foglietto volante di errata. Oltre ai tre errori a te segnalati nella sudd. del 24, altri due ne saltaron fuori in una medesima pag. (103): mezzi per mezzo (riga 2) e splancato per spalancato (riga 8). Non sono cose gravi – chiunque le corregge – ma insieme a quelli di prima, più seccanti, danno un'aria un po' sciatta proprio alle ultime pagine del libro. Dammi tu un consiglio: se credi bene (tenendo anche presenti le consuetudini della collana) unire un foglio volante di errata. Io sarei d'accordo. Se ti va, ordina, senza perdere tempo a scrivermi; altrimenti, sia come non detto.</p>
+			<p>Sinora non ho avuto contratti di sorta.</p>
+			<p>La questione dei critici è spinosa. Io - non lo dico per darmi arie - non ne conosco, quasi nemmeno di nome. Di più – non lo dico per darmi arie –  trovo impertinente seccare una persona con un libro di versi p. r. Che cosa vuoi quindi che ti consigli? Non ho obblighi e non speranze con nessuno. Manda tu, che te ne intendi, a chi vuoi. E non irritarti, se trovi che esagero la parte del «puro folle».</p>
+			<p>Saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

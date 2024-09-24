@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>1 nov.</p>
+			<p>È interessante l’idea che il sentimento in arte sia il puro pezzo mimetico, l’esatta descrizione della bonaccia. Una descrizione cioè, fatta con termini proprii, senza scoperte di rapporti immaginosi e senza intrusioni logiche.</p>
+			<p>Ma se è concepibile una descrizione che non conti immagini (che forse la natura stessa del linguaggio nega), può darsi una descrizione al di qua del pensiero logico? Non è già espressione di giudizio osservare che l’albero è verde? O se pare ridicolo trovare un pensiero in simile banalità, dove finisce la banalità e comincia il vero giudizio logico?</p>
+			<p>Rimando a miglior filosofo il secondo capoverso. Mi pare comunque esatto che sentimento sia il descrivere propriamente. Adoperare le commozioni per scoprirvi rapporti è infatti già elaborare razionalmente queste esperienze.</p>
+			<p>E com’è che la natura del linguaggio nega la possibilità di non usare immagini? Che verde scenda da vis, e alluda alla forza della vegetazione, è un bel rapporto e indiscutibile; ma anche indiscutibile è la semplicità attuale di questa parola e il suo richiamarsi immediato a un’unica idea. Che arrivare significasse una volta approdare, e all’inizio fosse fare un’immagine nautica dire che l’inverno arrivava, non toglie l’assoluta obiettività della stessa osservazione fatta adesso.</p>
+			<p>Era quindi stupida la mia parentesi. E mangiamo le noci.</p>
+		</body>
+	</text>
+</TEI>

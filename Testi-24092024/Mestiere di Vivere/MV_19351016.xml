@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>16 ott.</p>
+			<p>Espresso ormai, secondo l’intenzione, il parallelo soddisfatto tra me e Piemonte, quale sarà la nuova atmosfera della mia poesia? Il nuovo valore, astratto ed empirico insieme, che potrà unificare i vari pezzi isolati? Fare un libro di una raccolta?</p>
+			<p>Quest’atmosfera e valore dev’essere tale da giustificarmi nella storia. Ora, a che cosa di storico credo io attualmente? Forse alle rivoluzioni? Ma, tralasciando che non si è cavato mai buona poesia dall’idea di una rivoluzione in atto, io non mi entusiasmo per loro se non a fior di pelle. Naturalmente non si tratterebbe di descrivere i tumulti, l’oratoria, il sangue e i trionfi, ma di vivere nell’atmosfera morale della rivoluzione, e di qui contemplare e giudicare la vita. Provo io questo rinnovamento morale? No, ed ho anzi sinora rivelato una tendenza a celebrare nella vita piuttosto le facoltà statiche goditrici che non quelle attive rinnovatrici.</p>
+			<p>L’incapacità quindi a fare il gran passo rinnovatore, dopo il quale potrei s’intende giudicare e godere la vita, nella nuova atmosfera quanto più contemplativamente mi piacesse.</p>
+			<p>Non posso che sperare di incontrarmi in altri valori storici che non siano le rivoluzioni violente e, di questi, secondo le mie facoltà, fare immagini.</p>
+			<p>Che è molto ragionevole. A sentire, non esistono ora che gli impulsi alle rivoluzioni violente. Ma tutto nella storia è rivoluzione; anche un rinnovamento, una scoperta impercettibili e pacifici. Via quindi anche il preconcetto oratorio del rinnovamento morale che ha bisogno (magari da parte di altri, gli attivi) dell’azione violenta. Via questo bisogno infantile di compagnia e di fracasso. Io devo contentarmi della minima scoperta contenuta in ogni singola poesia, e mostrare il mio rinnovam. morale nell’umiltà con cui mi sottopongo a questo destino, che è la mia natura. Che è molto ragionevole. Se non è però pigrizia o vigliaccheria.</p>
+		</body>
+	</text>
+</TEI>

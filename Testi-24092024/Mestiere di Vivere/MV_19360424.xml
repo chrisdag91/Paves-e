@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>24 apr.</p>
+			<p>Bisogna aver sentito la smania dell’autodistruzione. Non parlo del suicidio: gente come noi innamorata della vita, dell’imprevisto, del piacere di “raccontarla”, non può arrivare al suicidio se non per imprudenza. E poi, il suicidio appare ormai come uno di quegli eroismi mitici, di quelle favolose affermazioni di una dignità dell’uomo davanti al destino, che interessano statuariamente, ma ci lasciano a noi.</p>
+			<p>L’autodistruttore è un tipo insieme più disperato e utilitario. L’autodistruttore si sforza di scoprire entro di sé ogni magagna, ogni viltà, e di favorire queste disposizioni all’annullamento, ricercandole, inebriandosene, godendole. L’autod. è in definitiva più sicuro di sé di ogni vincitore del passato; egli sa che il filo dell’attaccamento all’indomani, al possibile, al prodigioso futuro è un cavo più robusto – trattandosi dell’ultimo strattone  – che non so quale fede o integrità.</p>
+			<p>L’autodistr. è soprattutto un commediante e un padrone di sé. Egli non lascia nessuna opportunità di sentirsi e di provarsi. È un ottimista. Spera ogni cosa dalla vita, e si va accordando a rendere sotto le mani del caso futuro i suoni più acuti o significativi.</p>
+			<p>L’autodistrutt. non può sopportare la solitudine.</p>
+			<p>Ma vive in un pericolo continuo: che lo sorprenda una smania di costruzione, di sistemazione, un imperativo morale. Allora soffre senza remissione, e potrebbe anche uccidersi.</p>
+			<p/>
+			<p>Bisogna osservare bene questo: ai nostri tempi il suicidio è un modo di sparire, viene commesso timidamente, silenziosamente, schiacciatamente. Non è più un agire, è un patire.</p>
+			<p/>
+			<p>Chi sa se tornerà ancora al mondo il suicidio ottimistico?</p>
+			<p/>
+			<p>Esprimere in forma d’arte, a scopo catartico, una tragedia interiore, può farlo soltanto l’artista che attraverso la tragedia vissuta già andava sottilmente tendendo i suoi fili costruttivi, già svolgeva incubazione creatrice insomma. Non esiste la tempesta sofferta pazzamente e poi la liberazione attraverso l’opera, pena il suicidio. Tant’è vero che gli artisti che veramente si sono uccisi per i loro tragici casi, sono solitamente leggeri cantori, dilettanti di sensazioni, che nulla accennarono mai nei loro canzonieri del profondo cancro che li rodeva. Da cui si impara che l’unico modo di sfuggire all’abisso è di guardarlo e misurarlo e sondarlo e discendervi.</p>
+			<p/>
+			<p>È di una desolatezza tonificante – come un mattino invernale – patire un’ingiustizia. Ciò rimette in vigore, secondo i nostri più gelosi desiderî, il fascino della vita; ridà il senso del nostro valore di fronte alle cose; adula. Mentre, soffrire per un puro caso, per una disgrazia, è avvilente. Ho provato, e vorrei che l’ingiustizia, l’ingratitudine fossero state ancora maggiori. Questo si chiama vivere e, a vent’otto anni, non essere precoci.</p>
+			<p/>
+			<p>Per l’umiltà. È così raro però soffrire una bella totalitaria ingiustizia. Sono così tortuosi i nostri atti. In genere, si trova sempre che un po’ di colpa ce l’abbiamo anche noi e addio mattino invernale.</p>
+			<p/>
+			<p>Non solo un po’ di colpa, ma tutta la colpa, non c’è scampo. Sempre.</p>
+			<p/>
+			<p>Che la coltellata venga tirata per scherzo, per ozio, da una persona fatua, non allevia le fitte, ma le rende più atroci, disponendo a meditare sulla casualità della cosa e sulla propria responsabilità nel non aver preveduto la caduta.</p>
+			<p>Immagino che sarebbe un conforto sapere che la persona feritrice si macera di rimorsi, annette importanza alla cosa? Non può nascere da altro questo conforto che dal bisogno di non essere solo, di serrare legami tra il proprio io ed altri. Inoltre, se quella persona soffrisse il rimorso di aver straziato non me in particolare, ma soltanto un uomo in quanto creatura, desidererei questi suoi rimorsi? Bisogna quindi che proprio io, e non l’uomo che è in me, venga riconosciuto, rimpianto e amato.</p>
+			<p>E non si apre il campo a un’altra durevole tortura, ricordando che la persona feritrice non è fatua, oziosa e leggera? Ricordando che essa è solitamente seria, comprensiva, tesa, e che soltanto nel mio caso ha scherzato?</p>
+			<p>Non solo quella persona non soffre il rimorso di avere straziato me in particolare, ma si sente divertita proprio nel mio caso particolare. Non ci sarebbe che un modo di trovare umana la situazione, ed io mi sento nella situazione opposta. Sempre più bello.</p>
+		</body>
+	</text>
+</TEI>

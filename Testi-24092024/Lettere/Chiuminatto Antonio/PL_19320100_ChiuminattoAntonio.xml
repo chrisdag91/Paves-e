@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>[Torino, gennaio 1932]</p>
+			<p/>
+			<p>I thank you for the &quot;Bookman&quot;. &quot;Swell&quot; magazine! I succeeded in having it bought by a publisher of Turin (he intends to translate American novels) and so, without expense I'll look it over and keep informed. He just intends to translate My Antonia.</p>
+			<p>Can't you find out for me some novel by Faulkner, the new famous writer of Southern stock so spoken about just in the &quot;Bookman&quot;? If it's not too costly, buy it offhand and let me have it. Otherwise send word about. We'll set accounts after this.</p>
+			<p>Now, as for records, I have Dinah, I have the Chant of the Jungle, Lady Play, etc. all by the Revellers. By Whiteman I've Blue Hawaii (!!!) and Just Like a Melody.</p>
+			<p>I'll buy the Saint Louis Blues just on account of your advice. I think I'll find it by Ted Lewis.</p>
+			<p>Send me the words of all these records, if you can, and - sure - your comments. I'll be tickled. And put down always all novelties in this field, names and comments. I'll tell the world.</p>
+			<p>Say, you have an idea to treat me, over there in the States. Don't say it twice, ole boy, don't. On March, if all's well, I'll be free from the army, and after that... don't get too chummy with me, don't... I'm the guy to accept.</p>
+			<p>We also, have a phenomenal winter, all sunshines and perspiration... only not the righteous perspiration, the worker's, I mean.</p>
+			<p>We are all fired, and perhaps that's the reason we want to fire... guns...you know.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 4 febbraio [1936]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>abbiate pietà di uno che questa notte non ha dormito.</p>
+			<p>I) Atroci dolori al pene per via di un edema.</p>
+			<p>II) Molta asma.</p>
+			<p>III) Disposizione per cui bisogna dichiarare il grado di parentela dei corrispondenti. Se si scrive anche a non parenti, chiedere l'autorizzazione all'On. Ministero specificando i motivi.</p>
+			<p>IV) Fatto da tempo la supplica che mi consigliavate tu e Irma e non avuto altra risposta (3 febbraio) che</p>
+			<p>V) la comunicazione che la Commissione d'Appello ha respinto il mio ricorso (del 20 luglio).</p>
+			<p>Ricordatevi di me.</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

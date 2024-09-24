@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze.</p>
+			<p>[Brancaleone,] 25 genn. [1936]</p>
+			<p>Caro Carocci,</p>
+			<p>ricevo cartolina 8 genn. e - prodigio di celerità - il pacco di «Lavorare Stanca». Lacrime, tripudio, auspici, bicchierata: tutto da solo. Evidentemente tu, che già fosti stampato e tanti giovani autori battezzasti, conosci a fondo le reazioni psichiche di chi si vede davanti il suo primo libro. Comunque, ecco qua: tranquilla certezza di essere degno del grave onore; raffinata compiacenza dell'ampio frontespizio e delle bianche pagine immense del testo; gratitudine per le medesime; gratitudine per il modico prezzo; gratitudine per tutti e per tutto.</p>
+			<p>Dall'altra parte: lieve sospetto di aver fatto una sciocchezza; nostalgia del «Dio Caprone»; senso di vuoto; nausea verso ogni carta stampata.</p>
+			<p>Credo che tutto ciò sia definito e catalogato da secoli, e quindi smetto.</p>
+			<p>Non ho modo migliore di ringraziarti che chiederti un altro favore: tienimi al corrente delle reazioni critiche, altrimenti resterò allo scuro di tutto.</p>
+			<p>Errori di stampa, tre:</p>
+			<p>pag. 90 ultima riga</p>
+			<p>pag. 95 riga 8: quand'è per quant'è</p>
+			<p>pag. 104 riga 3: od un per o d'un</p>
+			<p>Anche troppo pochi.</p>
+			<p>Io, da parte mia, ho stimolato molto la distribuzione di cartoline e la loro sollecita spedizione, e spero bene. È una fortuna che io sia lontano, perchè sarei stato assolutamente inetto alla pubblicità e, personalmente, non avrei osato chiedere la sottoscrizione nemmeno per una copia. Mentre Monti e mia sorella lo rifileranno anche agli analfabeti.</p>
+			<p>Auguri</p>
+			<p>tuo</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Alberto Carocci, Firenze.</p>
+			<p>[Brancaleone,] 27 dicembre [1935]</p>
+			<p>Caro Carocci,</p>
+			<p>rispondo alle tue del 30 novembre e 17 dicembre. Sento da Torino che molti hanno ricevuto la cartolina, e mia sorella e Monti il pacco da distribuire. Promettono grandi cose e spero che presto riceverai le prime sottoscrizioni.</p>
+			<p>Mi attacco disperatamente alla tua promessa di stamparmi dopo Natale. Anche per la decenza, ora che la gente ha ricevuto l'avviso. In caso, sono pronto a pagare una parte della carta (parlo sul serio). Ma ora, che non ho altre consolazioni, non differirmi più quest’ultima.</p>
+			<p>Io mi annoio molto e ritorno al greco, traducendo tutto il giorno Omero e Platone. Ho trovato dappoco molte delle edizioni Solaria che mi facesti mandare; gli unici scrittori mi sono parsi Nannetti e Carocci, che (arrossisco) non conoscevo ancora.</p>
+			<p>Quest'ultimo tu – se hai letto le mie poesie – vedrai che mi piace anche per una certa similarità di vena (il paradiso dell'infanzia e dell’adolescenza, visto non al lattemiele o ai raggi X, ma nella sua interezza e meraviglia umane). Insomma, non solo ti rubo tempo e fatica, ma anche poesia.</p>
+			<p>Ricambio gli auguri. Spero che prima di morire ci vedremo una volta.</p>
+		</body>
+	</text>
+</TEI>

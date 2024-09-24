@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>2 ott.</p>
+			<p>*Finalmente qualcosa di positivo. Quell’orrore del baccano pubblico, quello schifo dei gesti meschini altrui, quel rimorso delle esitazioni e indegnità formali mie, sono la prova di una mia sufficienza, di un mio senso del contegno, che hanno del dignitoso. Persino la mia ricerca di poesia oggettiva voleva dir questo.</p>
+			<p>Oggi però sono desolato di aver sempre sinora trascurato le forme, le maniere, di non essermi fatto uno stile di comportamento, ma di aver sempre agito a casaccio fidandomi del mio gusto sdegnoso e commettendo così infinite stonature romantiche.</p>
+			<p>Perché le donne in genere hanno migliori maniere che gli uomini? Perché debbono attendere tutto dal loro effetto formale, mentre gli uomini agiscono o pensano. Bisogna diventar più donna.</p>
+		</body>
+	</text>
+</TEI>

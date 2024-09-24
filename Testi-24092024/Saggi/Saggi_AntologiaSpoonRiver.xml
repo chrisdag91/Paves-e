@@ -1,0 +1,312 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Polemica antipuritana con ardore puritano (1).</p>
+			<p/>
+			<p>I pochi accenni che si sono fatti finora in Europa a questo libro rivelano il falso atteggiamento che, per tutte le cose del Nordamerica, da noi piace prendere. Persino Régis Michaud che, per quanto io sappia, è la persona al mondo che ha sinora meglio giudicato di quella letteratura, giunto nel suo Panorama (2) al paragrafo Edgar Lee Masters (p. 188), fa intendere che la Spoon River Anthology è essenzialmente un’opera rappresentativa delle folle ingabbiate e livellate, refoulées, dal puritanesimo e dalla nuova civiltà degli Stati. Sarà poi meglio non rilevare (perché daremmo loro un’importanza che non meritano) ciò che del libro dicono certi corrispondenti italiani di laggiù, i quali hanno ridotto la Spoon River a un documento culturale etnico, specchio giornalistico di una civiltà, che, come ce la presentan loro, comincerebbe davvero a dar noia, da contrapporre – per tarparla – alla «bimillenaria tradizione nostra». Perché, quando due ragazzi litigano, è sicuro che, a corto di ragioni, vien fuori la gara: – Io sono il figlio del maresciallo. – E io, del capitano.</p>
+			<p>Tutti vi sapranno dire che il gran merito di Lee Masters è di aver cominciato, al suo paese, la descrizione realistica, spietata, della cittadina di provincia, del villaggio, puritani. Le date sono date: Spoon River, 1915, – Winesburg Ohio, 1919 – My Antonia e Main Street, 1920. Edgar Lee Masters batte quindi il record: è il padre dell’odierna letteratura; dopo di che, si passa a parlar d’altro.</p>
+			<p>Ora – lasciando stare che in America il villaggio era già stato passato al crogiolo da Hawthorne per lo meno nel 1846 – sarebbe, ai nostri occhi, un titolo ben magro per i nuovi scrittori, quello di aver per tutta novità rivolta l’attenzione a un loro ambiente locale, pieno di problemi locali e risolti questi ultimi in modi di vita locali. Ché, se poi vogliamo leggere sulla vita di provincia, sono anche troppi gli scrittori europei che ne han trattato.</p>
+			<p>Dov’è, dunque, il grande interesse di quei libri?</p>
+			<p>La verità mi pare anzitutto questa: che, se si prende Edgar Lee Masters, come vogliono, per un antipuritano, lo si riduce a un ben misero e trascurabile libellista. Sono già seccanti in casa propria, i problemi di questo genere. Vero che, come del resto in tutti i libri – americani o europei – che valgono qualcosa, c’è nella Spoon River un ambiente, un’esperienza, indigeni; un ricorrere di modi di vita e di tipi nazionali che, a ogni modesto frequentatore di cinema, saltano agli occhi come conoscenze vecchie. Ma questo non è che la schiettezza del libro, la sua diretta ispirazione dalla vita, la sua materia e, ripeto, tutti i libri di qualche valore più o meno mostrano questa caratteristica.</p>
+			<p>Bisogna capire che, con questo sfondo nazionale, il fatto importante non sta nella polemica contro certi modi puritani (polemica, del resto, ridotta a ben poco nel libro) ma nell’ardore invece veramente da puritano con cui sono affrontati, oltre il particolare momento storico, il problema del senso dell’esistenza e il problema delle proprie azioni: ardore e problemi essenzialmente morali e di non lontano sapore biblico. Ché se poi nella ricerca qualche botta va alla struttura storica, puritanesca, del paese, questo può interessar molto gli americani che questa struttura se la vedono intorno e sentono addosso, ma poco noi, a meno che la poesia dell’autore non abbia mutata quella, che per gli indigeni e gli studiosi è una chiara allusione, in una figura che sia, non più un semplice nome storico, ma una nuova creatura. E, per far questo, per riuscire in quest’opera di creazione – ch’io credo in gran parte compiuta – mi pare persin banale dire che l’autore ha dovuto amare il suo ambiente, godersi i propri personaggi, sentirli nascere nel suo spirito.</p>
+			<p>Sono rarissime le caricature polemiche in Lee Masters. L’ardore di ognuna delle centinaia di anime sepolte in Spoon River si è fatto il suo ardore, e veramente il poeta ci parla per la bocca di ognuna. Ha una tal serietà e sincerità, questa ricerca sempre rinnovata del valore dell’esistenza in articulo mortis, che, anche per Lee Masters, vien da ripetere quello che è ormai un luogo comune nella storia della cultura nordamericana: all’opposizione contro il puritanesimo ci sono sempre stati i più grandi puritani.</p>
+			<p>La Spoon River Anthology, uscita a pezzo a pezzo su un settimanale del Middle West (3) è un gran corpo di epigrafi sepolcrali poste sulle labbra, secondo il buon gusto classico, ai morti stessi, di un villaggetto tipico nordamericano, Spoon River. Naturalmente vien subito da pensare che ci sia qui un influsso dell’Antologia Palatina. E, a parte lo spirito che, in quegli addii ellenistici alla vita, di vergini, di naviganti, di cortigiane, di guerrieri, di filosofi, di contadini e di poeti, è un tenero o stoico rimpianto per la luce del sole – mentre vedremo tutta la complessa modernità e trascendenza delle aspirazioni di Spoon River – a parte lo spirito, non è impossibile che Lee Masters da quegli epigrammi abbia tratta l’idea formale del suo libro: il titolo e lo stampo dell’epigrafe, rapida, sentenziosa, classica. Ma anche in ciò abbiamo un rinnovamento: la forma, pur serbando il verso, ignora la rima e il ritmo. Questo ha cominciato a dar nel naso a molti: han trovato che così vien fuori uno stile odiosamente prosaico. È inutile discutere: se uno non sente da sé la solennità tragica e definitiva di quelle poche frasi, poste a concludere una vita, in un verseggiare così sobrio e pacato, che ha semplicemente l’ufficio di segnare il pensiero, dubito che</p>
+			<p>qualunque discorso lo possa mai educare.</p>
+			<p>Prendiamo quest’epigrafe:</p>
+			<p/>
+			<p>FRANCIS TURNER</p>
+			<p/>
+			<p>Non potevo correre o giocare</p>
+			<p>da ragazzo.</p>
+			<p>Da uomo non potevo che centellinare,</p>
+			<p>non bere –</p>
+			<p>perché la scarlattina mi aveva lasciato il cuore malato.</p>
+			<p>Eppure giaccio qui</p>
+			<p>carezzato da un segreto che soltanto Maria conosce:</p>
+			<p>c’è un giardino d’acacie,</p>
+			<p>di catalpe, di pergole coperte di viti –</p>
+			<p>là in quel pomeriggio di giugno</p>
+			<p>al fianco di Maria –</p>
+			<p>baciandola coll’anima sulle labbra</p>
+			<p>l’anima d’improvviso mi è fuggita.</p>
+			<p/>
+			<p>Qui le pause non sono arbitrarie. Le prime martellano appunto perché esprimono il ritorno beffardo di quel destino. E quando un pensiero, come nel quinto verso, non ha ragione di venir spezzato, l’autore non si fa scrupolo di scriverlo tutto di seguito. E si osservi poi, ancora, l’importanza della pausa di brevità nel verso «al fianco di Maria» che fa tenere il fiato per il volo che segue.</p>
+			<p>Riprendendo, invece, l’altro appunto, ben più serio, che da un po’ di tempo sotto forma di lode imperversa in America, i morti di Spoon River sarebbero dei refoulées di quella civiltà, che polemizzano scoprendo le loro piaghe segrete. E qui, attaccano subito i nostri giornalisti: un’umanità da manicomio, ecco che cosa ci sa proporre l’America! ma la bimillenaria...</p>
+			<p>Sentite quest’uomo se vi pare un refoulé:</p>
+			<p/>
+			<p>JACK IL CIECO</p>
+			<p/>
+			<p>Avevo suonato tutto il giorno alla fiera</p>
+			<p>ma, guidando a casa, Butch Weldy e Jack McGuire</p>
+			<p>che erano bell’e sbronzi, mi fecero suonare e suonare</p>
+			<p>al canto di Susie Skinner, frustando i cavalli</p>
+			<p>finché quelli scapparono.</p>
+			<p>Cieco com’ero, cercai di saltar giù</p>
+			<p>mentre il carretto cadeva nel fossato,</p>
+			<p>e venni preso nelle ruote e ucciso.</p>
+			<p>C’è un cieco qui che ha una fronte</p>
+			<p>grossa e bianca come una nuvola.</p>
+			<p>E noi tutti, suonatori, dai più grandi ai più umili,</p>
+			<p>compositori di musica e narratori di storie,</p>
+			<p>sediamo ai suoi piedi</p>
+			<p>e lo ascoltiamo cantare della caduta di Troia.</p>
+			<p/>
+			<p/>
+			<p>Ma, naturalmente, questo è scelto nel mazzo. Un libro che comincia con un’elegia sul cimitero e va avanti con mariti scontenti, mogli adultere, scapoli scontrosi e bambini nati morti, e dove pressoché tutti si lamentano di aver mancata la vita, potrebbe anche parere, a sfogliarlo, una rassegna di casi clinici. La differenza sta soltanto nell’occhio del poeta che guarda i suoi morti, non con compiacenza malsana, o polemica, non coll’incoscienza, insomma, pseudoscientifica che tanto piace adesso disgraziatamente negli Stati; ma con una consapevolezza austera e fraterna del dolore di tutti, della vanità di tutti, e a tutti fa pronunciare la confessione, a tutti strappa una risposta definitiva, non per cavarne un documento scientifico o sociale, ma soltanto per sete di verità umana. Che la vita sia un cimitero di ambizioni fallite, di realtà sofferte, di «ali tarpate», non c’è bisogno della psicanalisi per scoprirlo: lo sapeva già per lo meno Salomone. Voglio dire, insomma, che, per inibito che possa parere qualche personaggio dell’Anthology, soffocato cioè da un certo ambiente, tale non è affatto il libro nel suo spirito, che contempla invece e accompagna, valendosi del suo potente oggettivismo, le innumerevoli sconfitte, gli sforzi, le battaglie, e le rare vittorie, della vita contro la morte, dello spirito contro il caos, di cui è campo questo villaggetto provinciale che è la terra. Ma non ci sono simboli, beninteso. Tutto è vigorosamente vivo, materiato, attuale, in una parola, tutto è poesia.</p>
+			<p>L’importanza di questo libro sta nella risposta non data mai in definitivo, ma sempre rinnovata per ciascun individuo; la convinzione, sofferta in ogni pagina, che, per soddisfacente e definitiva che possa parere una soluzione della vita, ci saranno sempre altri individui che ne resteranno fuori. Ottimismo o pessimismo non sono dunque la risposta, che dipende da una ricerca sempre rinnovata. Come i morti di Dante, che sono più vivi che in vita, i morti di Spoon River prolungano in una forma sepolcrale tutti i loro malcontenti, le loro passioni. Ma il parallelo si ferma qui, poiché i morti di Dante hanno uno schema universale in cui rientrano e nessun dannato si sogna di criticare la propria destinazione, mentre quelli di Spoon River nemmeno da morti han trovato una risposta, e meno di tutti quelli che lo dicono. È il poema essenzialmente moderno, questo, della ricerca, dell’insufficienza d’ogni schema, del bisogno insieme individuale e collettivo. Voi trovate che il rimpianto di un bambino, morto di tetano giocando, assurge alla stessa importanza cosmica dell’estasi di uno studioso che ha passata la vita ad adorare terra e cielo. In fondo al libro, poi, c’è una specie di faustiana sacra rappresentazione dove, alla figura del demonio che continua a crear vite miserabili, ad acuire i contrasti, a divertirsi colle creature, si oppone lo spettacolo della vita trionfante, delle leggi armoniose, una specie di inno shelleyano al mondo liberato, che conclude:</p>
+			<p/>
+			<p>Legge Infinita</p>
+			<p>Vita Infinita.</p>
+			<p/>
+			<p>Ma questo non tocca le voci di Spoon River. Il problema di ciascuno di quei morti rimane sempre lo stesso, fermato nella lapide del suo testamento sepolcrale.</p>
+			<p>Dare saggi di queste epigrafi è un po’ sacrilego. Come sempre in questi casi, l’ideale sarebbe che un editore volonteroso pubblicasse del libro una traduzione integrale. Ma temono che non si venderebbe. Vediamo, quindi, i passi scelti.</p>
+			<p>Io credo che in questo libro, tanto esso è vasto d’esperienza, ognuno possa trovare la sua epigrafe. La rassegna va dal feto non nato al filosofo convertito.</p>
+			<p>Ecco il primo:</p>
+			<p/>
+			<p>Uno stelo del globo terrestre,</p>
+			<p>fragile come la luce di una stella;</p>
+			<p>che attende di venir posto ancora</p>
+			<p>nella corrente della creazione.</p>
+			<p>Ma la prossima volta verrà dato alla luce</p>
+			<p>sotto gli occhi di Raffaello e san Francesco</p>
+			<p>mentre passano.</p>
+			<p>Perché io sono il loro fratellino,</p>
+			<p>che sarà conosciuto bene a faccia a faccia</p>
+			<p>attraverso un ciclo di nascita futuro.</p>
+			<p>Voi potete conoscere il seme e la terra;</p>
+			<p>potete sentire la pioggia fredda cadere,</p>
+			<p>ma soltanto il globo terrestre, soltanto il cielo</p>
+			<p>conoscono il segreto del seme</p>
+			<p>nella camera nuziale della terra.</p>
+			<p>Gettatemi ancora nella corrente,</p>
+			<p>concedetemi un’altra prova –</p>
+			<p>salvami tu, o Shelley!</p>
+			<p/>
+			<p>O, anche, un bambino morto colla mamma:</p>
+			<p/>
+			<p>Polvere della mia polvere,</p>
+			<p>e polvere colla mia polvere,</p>
+			<p>o bambino morto quando entravi nel mondo,</p>
+			<p>morto della mia morte!</p>
+			<p>Tu non conosci il Respiro, benché ti sia tanto sforzato,</p>
+			<p>con un cuore che batteva quando vivevi dentro di me,</p>
+			<p>e che si fermò quando mi lasciasti per la Vita.</p>
+			<p>È bene, bambino. Così non hai mai percorso</p>
+			<p>La lunga, lunga strada che comincia coi giorni di scuola</p>
+			<p>quando le piccole dita si velano dietro le lacrime</p>
+			<p>che cadono sulle lettere storte.</p>
+			<p>E la prima ferita, quando un tuo compagno</p>
+			<p>ti abbandona per un altro;</p>
+			<p>e la malattia, e il volto della Paura accanto al letto;</p>
+			<p>e la morte di un padre o di una mamma;</p>
+			<p>o la vergogna per loro, o la miseria;</p>
+			<p>e, finito il dolore vergine dei giorni di scuola,</p>
+			<p>la Natura cieca che ti fa bere</p>
+			<p>alla tazza dell’Amore, anche se sai che è avvelenata;</p>
+			<p>a chi si sarebbe levato il tuo viso come un fiore?</p>
+			<p>a quale fragilità? Il grido di quale sangue col tuo? –</p>
+			<p>Puro o impuro: perché non importa,</p>
+			<p>è sempre un sangue che fa appello al nostro.</p>
+			<p>E poi i tuoi figli, oh che cosa potevano essere?</p>
+			<p>Che cosa, il tuo dolore? Bimbo! bimbo!</p>
+			<p>La Morte è meglio della Vita!</p>
+			<p>Ed ecco il filosofo:</p>
+			<p/>
+			<p>L’ATEO DEL VILLAGGIO</p>
+			<p/>
+			<p>Voi giovani disputanti sulla dottrina</p>
+			<p>dell’immortalità dell’anima,</p>
+			<p>io che qui giaccio fui l’ateo del villaggio,</p>
+			<p>sempre pronto a parlare, litigioso, versato negli argomenti</p>
+			<p>degli infedeli.</p>
+			<p>Ma in una lunga malattia</p>
+			<p>tossendo a morte</p>
+			<p>lessi le Upanishad e la poesia di Gesù.</p>
+			<p>Questi mi accesero una torcia di speranza e di intuizione</p>
+			<p>e di desiderio che l’Ombra,</p>
+			<p>traendomi in fretta per le caverne del buio,</p>
+			<p>non poté spegnere.</p>
+			<p>Ascoltate, voi che vivete nei sensi:</p>
+			<p>l’immortalità non è un regalo,</p>
+			<p>l’immortalità è un risultato:</p>
+			<p>soltanto quelli che fan sforzi immensi</p>
+			<p>potranno possederla.</p>
+			<p/>
+			<p>Questo modo di trattare di una vita così liricamente, discorrendone quasi in astratto, dandone, per dir così, l’alone e non i fatti, si trova non di rado nell’Anthology ed è molto pericoloso. La natura irresistibilmente puritana, moraleggiante cioè, predicatrice, dell’autore arriva così a far qualche volta di un’epigrafe un nebuloso pistolotto astratto, eco delle altre sue innumerevoli opere dove il torrente lirico fragoroso e interminabile viene giù tutto velato nei vapori (4). Comunque, in questo libro, il bisogno di brevità, di risalto e di definizione del personaggio non permettono a Lee Masters di sbagliare che molto raramente.</p>
+			<p>L’efficacia, ed anche l’originalità maggiore, questo poeta l’ottiene condensando più direttamente una vita in un episodio assurto a significato totale, o in un seguito di tratti potenti, la muscolatura, appena sbozzata, di un’esistenza. Qualche volta l’episodio ha un lontano sapore ironico o polemico e non dimostra altro che la felicità dell’autore nello scolpire linee eterne sulla materia di un pettegolezzo, per la semplice virtù del suo giudizio sub specie aeternitatis.</p>
+			<p/>
+			<p>A. D. BLOOD</p>
+			<p/>
+			<p>Se voi del villaggio pensate che abbia fatto un buon lavoro,</p>
+			<p>chiudendo le osterie e proibendo di giocare alle carte,</p>
+			<p>e trascinando Daisy Fraser (5) vecchia dinanzi al giudice Arnett,</p>
+			<p>in tutte quelle crociate per purgare la gente dal vizio;</p>
+			<p>perché allora lasciate che la figlia della modista, Dora,</p>
+			<p>e il figlio indegno di Benjamin Pantier</p>
+			<p>facciano di notte della mia tomba il loro empio guanciale?</p>
+			<p/>
+			<p>La quale Dora si ritrova intera nella storia di tutta la sua vita.</p>
+			<p/>
+			<p>DORA WILLIAMS</p>
+			<p/>
+			<p>Quando Reuben Pantier fuggì e mi abbandonò</p>
+			<p>andai a Springfield. Qui incontrai un viveur,</p>
+			<p>a cui il padre, morto allora, aveva lasciato una fortuna.</p>
+			<p>Mi sposò da ubriaco. La mia vita era insopportabile.</p>
+			<p>Un anno passò e un giorno lo trovarono morto.</p>
+			<p>Così fui ricca. Mi trasferii a Chicago.</p>
+			<p>Dopo un po’ incontrai Tyler Rountree, una canaglia.</p>
+			<p>Passai a Nuova York. Un magnate dai capelli grigi</p>
+			<p>divenne folle di me – un’altra fortuna.</p>
+			<p>Mi morì una notte, sapete, tra le braccia.</p>
+			<p>(Vidi per anni in séguito quella faccia purpurea).</p>
+			<p>Ci fu quasi uno scandalo. Traslocai,</p>
+			<p>questa volta a Parigi. Ero adesso una donna,</p>
+			<p>insidiosa, scaltra, versata nel mondo e ricca.</p>
+			<p>Il mio bell’appartamento presso gli Champs-Élysées</p>
+			<p>divenne un ritrovo d’ogni sorta di gente,</p>
+			<p>musici, poeti, bellimbusti, artisti, nobili,</p>
+			<p>dove parlavano francese, tedesco, italiano e inglese.</p>
+			<p>Sposai il conte Navigato, nativo di Genova.</p>
+			<p>Andammo a Roma. Mi avvelenò, credo.</p>
+			<p>Ed ora nel Camposanto che guarda</p>
+			<p>il mare dove Colombo giovane sognò nuovi mondi,</p>
+			<p>ecco che cosa han scolpito: «Contessa Navigato</p>
+			<p>implora eterna quiete» (6).</p>
+			<p/>
+			<p>La tragedia che qui vien fuori da una gran massa d’esperienze, organizzate in un’esistenza, altre volte esce da un contrasto, da un sarcasmo finale della vita, da uno di quei giochi che deliziano il demonio dell’Epilogo.</p>
+			<p>E, a proposito di demonio, sarà bene qui escludere qualunque derivazione dell’Anthology dai Mémoires du Diable di Federico Soulié. Grande e originale libro quest’ultimo, ma bisogna però dire che tutte quelle sottili e drammatiche analisi dell’alta e bassa società francese della Restaurazione, quelle diaboliche radioscopie di un’umanità perduta dietro a passioni cieche, o ridotte tali, han poco a che fare colla disperata tensione delle anime di Spoon River, di cui la vita è tutta conchiusa in un breve ricordo e il cui pathos nasce dal contrasto di questa brevità coll’immensità delle aspirazioni. Per non dire nulla poi, del diavolo vero e proprio che nell’Anthology non compare che in una conclusione indipendente dall’opera e nei Mémoires entra colla macchinosità del soprannaturale a spezzare la gran comedia in un seguito di episodi. Comunque, tornando a noi, ecco una di quelle ironie dell’esistenza: il caso dell’impresario di pompe funebri:</p>
+			<p/>
+			<p>JEDUTHAN HAWLEY</p>
+			<p/>
+			<p>Si sentiva bussare alla porta</p>
+			<p>ed io mi alzavo a mezzanotte e andavo in bottega,</p>
+			<p>dove i viaggiatori attardati mi udivano martellare</p>
+			<p>tavole sepolcrali e inchiodare il raso.</p>
+			<p>E sovente pensavo chi sarebbe venuto con me</p>
+			<p>nella terra lontana, fornendo i nostri nomi il tema</p>
+			<p>delle chiacchiere, nella stessa settimana, poiché ho osservato</p>
+			<p>che ne vanno sempre due insieme.</p>
+			<p>Chase Henry s’appaiò con Edith Conant;</p>
+			<p>Jonathan Somers con Willie Metcalf;</p>
+			<p>il direttore Hamblin con Francis Turner,</p>
+			<p>mentre pregava di vivere più a lungo del direttore Whedon;</p>
+			<p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+			<p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+			<p>Ed io, l’uomo più solenne della città,</p>
+			<p>me ne andai con Daisy Fraser.</p>
+			<p/>
+			<p>O quest’altro:</p>
+			<p/>
+			<p>WALTER SIMMONS</p>
+			<p/>
+			<p>I miei genitori pensavano che sarei stato</p>
+			<p>grande come Edison o anche più:</p>
+			<p>perché da ragazzo facevo palloni</p>
+			<p>e aquiloni meravigliosi e giocattoli con suonerie</p>
+			<p>e macchinette colle rotaie</p>
+			<p>e telefoni di scatole o di filo.</p>
+			<p>Suonavo la cornetta e dipingevo,</p>
+			<p>modellavo in argilla e feci la parte</p>
+			<p>della canaglia nell’«Ottorone».</p>
+			<p>Ma a ventun anno mi sposai</p>
+			<p>e bisognava vivere e, così, per vivere</p>
+			<p>imparai il mestiere di far orologi</p>
+			<p>e tenni la gioielleria in piazza,</p>
+			<p>pensando, pensando, pensando, pensando, –</p>
+			<p>non agli affari, ma alla macchina</p>
+			<p>che studiavo, coi calcoli, di costruire.</p>
+			<p>E tutta Spoon River stava attenta e aspettava</p>
+			<p>di vederla funzionare, ma non funzionò mai.</p>
+			<p>E alcune anime pietose credevano che il mio genio</p>
+			<p>fosse in qualche modo impacciato dal negozio.</p>
+			<p>Non era vero. La verità era questa:</p>
+			<p>che non avevo genio.</p>
+			<p/>
+			<p>La ribellione, che è uno degli stati più ricorrenti nel libro, è anche quella che mostra meglio l’altezza di Lee Masters. Non una frase di retorica, non un gesto, ma anime stanche che si raccolgono in sé e si fanno schiacciare, o scompaiono, nel mondo. Assai notevole mi pare l’epigrafe di questa ragazza:</p>
+			<p/>
+			<p>ROSIE ROBERTS</p>
+			<p/>
+			<p>Ero nauseata, ma, più ancora, impazzita,</p>
+			<p>dalla disonestà della polizia, dalla disonestà della vita.</p>
+			<p>E così, scrissi al Capo della Polizia di Peoria:</p>
+			<p>«Sono qui nella mia casa di bambina, a Spoon River,</p>
+			<p>che mi disfaccio lentamente.</p>
+			<p>Ma venite a prendermi. Ho ucciso il figlio</p>
+			<p>del mercante principe, da Madam Lou,</p>
+			<p>e i giornali che han detto che s’era ucciso</p>
+			<p>a casa sua, pulendo un fucile da caccia –</p>
+			<p>mentivano come l’inferno, per far tacere lo scandalo,</p>
+			<p>comprati dalla réclame.</p>
+			<p>Nella mia camera l’ho ucciso, da Madam Lou,</p>
+			<p>perché lui mi ha buttato a terra quando gli ho detto</p>
+			<p>che, a dispetto di tutto il suo denaro,</p>
+			<p>avrei veduto il mio amante quella notte».</p>
+			<p/>
+			<p>E finalmente l’ultima:</p>
+			<p/>
+			<p>PAULINE BARRETT</p>
+			<p/>
+			<p>Quasi il guscio di una donna dopo il coltello del chirurgo!</p>
+			<p>e quasi un anno per trascinarmi ancora in forze,</p>
+			<p>finché l’alba del decennale del nostro matrimonio</p>
+			<p>mi trovò che somigliavo a quella d’una volta.</p>
+			<p>Passeggiammo insieme nella foresta,</p>
+			<p>per un sentiero d’erba e di muschio silenzioso.</p>
+			<p>Ma non potevo guardarti negli occhi,</p>
+			<p>e tu non potevi guardare nei miei,</p>
+			<p>perché era tanta la nostra pena – un principio di grigio nei tuoi capelli,</p>
+			<p>ed io, non più che un guscio di me stessa.</p>
+			<p>Di che cosa parlammo? – del cielo, dell’acqua,</p>
+			<p>di tutto, quasi, per nascondere i nostri pensieri.</p>
+			<p>E poi il tuo dono di rose di selva,</p>
+			<p>poste sul tavolo a dar grazia al nostro pranzo.</p>
+			<p>Povero amore, con quanto coraggio hai lottato</p>
+			<p>per immaginare e rivivere un’estasi del ricordo!</p>
+			<p>Poi, mi si accasciò il cuore al calar della notte,</p>
+			<p>e tu mi lasciasti nella mia camera, per un momento,</p>
+			<p>come facevi quand’ero sposa, povero amore.</p>
+			<p>Io guardai nello specchio e qualcosa disse:</p>
+			<p>«Uno dovrebbe essere tutto morto quando è morto a metà –</p>
+			<p>e non fingere la vita, non ingannare l’amore».</p>
+			<p>E allora, quel gesto, guardando là nello specchio –</p>
+			<p>Amore, hai mai compreso?</p>
+			<p/>
+			<p>Quest’epigrafe dà la misura dell’arte di Lee Masters. Le figure crepuscolari nell’ora crepuscolare, i ricordi, le ombre, le reticenze del racconto, tutto si fonde a creare una scena che ha intorno quasi un alone soprannaturale. Qualcosa come una scena di fate di un romantico inglese, di</p>
+			<p>uno Yeats. Ma, e qui sta l’importanza non soltanto di Lee Masters ma di tutta la nuova letteratura degli Stati, quest’alone è realissimo, è un tremore di sofferenza, è una creazione soprattutto umana che fa parte di un severo poema morale, mentre quegli altri, i romantici inglesi, e non soltanto quelli, colle fate hanno bamboleggiato un po’ troppo.</p>
+			<p/>
+			<p/>
+			<p/>
+			<p/>
+			<p/>
+			<p/>
+			<p/>
+			<p/>
+			<p/>
+			<p/>
+			<p>(1) L’Antologia di Spoon River, saggio pubblicato su «La Cultura», novembre 1931.</p>
+			<p>(2) R. MICHAUD, Littérature américaine, Kra, Parigi 1928.</p>
+			<p>(3) Il «Reedy’s Mirror». Nel 1915 venne riunita in volume e pubblicata dalla MacMillan Co. Nel</p>
+			<p>1916 se ne fece una nuova edizione con nuove poesie.</p>
+			<p>(4) Alludo specialmente a Lee (MacMillan, 1927) e al Domesday Book (1920).</p>
+			<p>(5) La prostituta del villaggio.</p>
+			<p>(6) In italiano nel testo.</p>
+		</body>
+	</text>
+</TEI>

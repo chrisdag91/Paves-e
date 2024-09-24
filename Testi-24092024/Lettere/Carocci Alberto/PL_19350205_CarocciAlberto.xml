@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze.</p>
+			<p>[Torino,] 5 febbr. ’35</p>
+			<p>Caro Carocci,</p>
+			<p>credo Parenti si sbagli. Forse lui parla di bozze impaginate, che mi ha mandato e io non ho ricevuto. Perché, quanto alla prime bozze in colonna, è roba di dicembre, che io ho corretto, aumentato e spedito a te il 22 dic. e tu mi hai risposto di avergliele trasmesse. Ho sott’occhi la tua lettera (31 dic.).</p>
+			<p>Spero che si tratti delle nuove impaginate, altrimenti sto fresco. Appura e dimmi qualcosa.</p>
+			<p>Cordiali saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

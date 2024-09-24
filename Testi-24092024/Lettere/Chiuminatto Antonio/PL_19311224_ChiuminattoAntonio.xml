@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A d Antonio Chiuminatto, Chicago.</p>
+			<p>[Torino,] Dec. 24th '31</p>
+			<p/>
+			<p>Dear Tony,</p>
+			<p>Surely Americans are kinder than we. I got your wishes and never thought to send you any myself. Here they are then, posthumous as always. I hear from you that all your boosting in the world has raised you to dizzy heights. Good-luck on your career.</p>
+			<p>Say, how's thing in Ole Chicago? When will you build an Institute all by yourself? Remember your Buddy when you'll be a big executive and send me word to come over and bum some residence in USA.</p>
+			<p>Now, that's the winter season we'll have to let up books-sendings. So, you'll enjoy some peace, ain't it? Once in a while look after the &quot;Mercury&quot;, if you think that's good. I wrote something more on the &quot;Cultura&quot; and here it is. Don't get too worried over it.</p>
+			<p>Do you know I got a victrola? I've a ground of the cutiest American trifles I ever heard - The Revellers, The Footwarmers, Ted Lewis, Whiteman etc. Now, you'll have another office: should you hear about some hot American record send me title and composer and orchestra. Get me? Especially blues and saxs.</p>
+		</body>
+	</text>
+</TEI>

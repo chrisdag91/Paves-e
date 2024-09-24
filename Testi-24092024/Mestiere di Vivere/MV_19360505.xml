@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>5 maggio</p>
+			<p>Il peccato non è un’azione piuttosto che un’altra, ma tutta un’esistenza mal congegnata. C’è chi pecca e chi no. Le stesse cose (odiare, fottere, oziare, maltrattare, umiliarsi, insuperbirsi) in uno sono peccati, in altri no.</p>
+			<p>Aver peccato vuol dire restar convinto che quell’azione è in un modo misterioso creatrice d’infelicità propria per l’avvenire, che essa ha offeso qualche legge misteriosa d’armonia e non è che un anello in una catena di disarmonie precedenti e future. Vivere è come fare una lunga addizione, in cui basta aver sbagliato il totale dei due primi addendi per non uscirne più. Vuol dire ingranarsi in una catena dentata; ecc.</p>
+		</body>
+	</text>
+</TEI>

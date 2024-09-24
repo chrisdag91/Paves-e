@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Roma, Carceri di Regina Coeli,] 26 luglio [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ho ricevuto una lettera del 13, due cartoline e due telegrammi. Ringrazia Irma della cartolina. Siccome un telegr. era a risposta pagata, ho risposto per telegramma precisando la data dell'assegnazione (15 luglio) e promettendo una lettera. Eccola qui.</p>
+			<p>Naturalmente ho ricorso alla Comm. Centrale per il Confino presso Ministero Interni. La motivazione della condanna (spero che non sia contro i regolamenti farvela sapere) è: ritenuto pericoloso per l'ordine nazionale, per aver svolto a Torino e a Milano attività politica tale da avere nuociuto agli interessi nazionali.</p>
+			<p>Io, il giorno 12, avevo presentato un memoriale (detto deduzioni) come da invito della notificazione di denuncia alla Commissione, fatta il 10. Non ne ho saputo altro e il 15 mi hanno comunicato nelle carceri la condanna.</p>
+			<p>Il mio ricorso, datato del 20 luglio, si richiama al mio memoriale del 12 e respinge l'accusa in blocco, ammettendo semplicemente innocenti rapporti di amicizia con persone che possono essere sospette. Spiegarvi minutamente come nel memoriale io risponda alle imputazioni dell'istruttoria non credo sia permesso. Basti questo: io a Milano ci sono stato nella mia vita due o tre ore per parlare con l'editr. Treves, nel 1932.</p>
+			<p>E adesso che sapete il tutto, dormiteci sopra. Il ricorso può passare subito e può passare fra mesi; qualcuno dovrà interessarsene, anche per sapermene comunicare l'esito al più presto.</p>
+			<p>Io da un momento all'altro aspetto di partire per il confino (non so ancora dove), ma l'attesa può anche durare un mese.</p>
+			<p>Le vostre lettere e cartoline hanno pochissimo sugo. Se non fosse perché in esse mi fate i saluti delle mie amicizie, vi direi di non scrivermi più, che non ne vale la pena. È una bella consolazione ricevere i vostri lamenti che non ho potuto fare il concorso, e che voi non potete farci niente, e che l'innocenza trionferà.</p>
+			<p>È poi anche una vergogna che mi scriviate che per voi le giornate sono eterne. Come se le mie fossero di zucchero.</p>
+			<p>Tutto questo lo dico perché non ho ancora bisogno di soldi. Quando ne avrò bisogno, ritornerò fratello e cognato e zio pieno di affetti e di benvolere.</p>
+			<p>Credo che basti. Saluti a uomini e donne.</p>
+			<p>Cesare</p>
+			<p>P.S: Sempre stitico.</p>
+		</body>
+	</text>
+</TEI>

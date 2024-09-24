@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>Brancaleone, 2 ottobre [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ricevo 18 e 22 sett. A Ruata ho scritto io.</p>
+			<p>Il sussidio me lo dànno (5 L. al giorno e 50 al mese, per l'alloggio, con gli arretrati dal 5 ag.) e quindi non si capisce più perché me lo negassero prima. Se non sono «in grado di provvedere al mio sostentamento» ora, perché prima mi han dichiarato in grado? Sono problemi divertenti e educativi.</p>
+			<p>Mi ha fatto molto piacere il libro inglese, benché dal titolo un poco lugubre, tanto da parere una provocazione. Ne farò un sunto con apprezzamento e te lo manderò. Torna a insistere con ferocia presso Alb. Rossi, perché ti renda i libri. È a Torino, poiché scrive sempre delle stupidaggini sui film nella Gazzetta. La risposta di Mondadori, mi dispiace per la tua ingenuità, vuol dire che non sanno che cosa farsene della mia collaborazione. Non scriveranno più.</p>
+			<p>La nevralgia è passata, ma adesso comincia la stagione della febbre e l'aspetto da un giorno all'altro. Ti ho già scritto che non voglio assolutamente trasferimenti.</p>
+			<p>I Promessi Sposi regalali alla signorina, cui piacciono molto. Le poesie le ho corrette e spedite. Aspetto che Carocci mi scriva di averle ricevute. Se usciranno, ne riceverà certo una copia anche lei. Ma dille che di tutte vale qualcosa soltanto quella intitolata Dopo.</p>
+			<p>Sturani mi ha scritto e mandato due pipe, un po' meglio delle vostre. Mandami alla prima occasione (con le camicie dalle maniche lunghe) i volumetti miei dell'Iliade e Odissea (verdi, o bruni con Minerva sopra) in greco.</p>
+			<p>Libri da mettere in nota:</p>
+			<p/>
+			<p>Jonathan Swift A Tale of a Tub (Dent)</p>
+			<p>Jon. Swift Journal to Stella (Dent)</p>
+			<p>Edm. Spencer The Faerie Queene (2 vol.) (Dent)</p>
+			<p>Will. Congreve The complete Plays (2 vol.) (Oxford)</p>
+			<p>Will. Faulkner (americano) Light in August (?)</p>
+			<p>Pylon (?) (romanzi recenti)</p>
+			<p>Mi stupisce che mi chiediate se ho voglia di tornare a Torino. Non va bene lamentarsi, perché c'è sempre chi sta peggio, ma certo che non c'è ancora stato filosofo che abbia sopportato il mal di denti con calma. A me dà qualche sollievo mangiare un carciofino tutte le domeniche, e poi fumare col succhino. Piaceri che non tutti capiscono, anche perché non tutti sono a Brancaleone. Amen.</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

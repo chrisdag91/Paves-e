@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze.</p>
+			<p>[Torino,] 1 Marzo ’35</p>
+			<p>Caro Carocci,</p>
+			<p>ecco finalmente le bozze corrette. Accusamene ricevuta perché non stia in pensiero. Ho usata tutta la mia diligenza e spero che il libro verrà bene. Se il Prefetto avrà qualcosa da dire su qualche poesia, non farete altro che tagliarla via. Raccomando ancora una volta di mettere l’indice in principio del volume e vorrei che tu, fatta la correzione, confrontassi i versi rielaborati perché qualche errore salta sempre fuori di nuovo.</p>
+			<p>Mi auguro che il libro esca al più presto. Si è già perduto tanto tempo! Di’ a Parenti che aspetto il mazzo di cartoline-réclame da distribuire. Ti sarei grato che nel tuo biglietto di ricevuta mi precisassi la data probabile di quando uscirò.</p>
+			<p>Sento dire – pensa un po’ – da L. Ginz. (per via di terzi) che Solaria è morta. Già? Ricordatevi di mandargli – Civitavecchia, Casa di Pena — una copia gratuita di Lavorare Stanca.</p>
+			<p>Saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

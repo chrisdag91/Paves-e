@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 15 febbraio [1936]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ricevo cart. 20 genn., 29 genn., 2 febbr., una lettera di Sturani, una di Monti e una cart. della sign. Carena.</p>
+			<p>Tutte cose che non mi hanno fatto né caldo né freddo, ma insieme mi è stato consegnato il regalino - quel libro di Stendhal, con data - e allora mi sono commosso.</p>
+			<p>Che le mie poesie facciano furore lo temevo da tempo e mi dispiace disperatamente. Cosa può valere un libro, quando i «colleghi» di qua, i «colleghi» di là, i «giornalisti», i cani e i porci della letteratura insomma, ci trovano dentro «uno squisito sentimento di artista e di osservatore»?</p>
+			<p>M'interessa molto di più la tua visita in Questura. Però, se li rivedi, digli che, a quanto pare, nemmeno con la domanda si ritorna a casa. Ma questo, a titolo di cronaca, ve l'ho già scritto.</p>
+			<p>Sono spiacentissimo per la morte di Giorgio: doveva andarsene il fratello, e di tetano possibilmente.</p>
+			<p>Le mie poesie, causa l'impossibilità di correggere per la distanza le ultime bozze, sono piene di errori. Dice il Carducci:</p>
+			<p/>
+			<p>«Tristo Amore, egli odia le Muse (e lascivo i poeti frange o li spegne tragico)».</p>
+			<p/>
+			<p>La lista dei compratori non ce l'ho. Prova a chiederla a Carocci (Via Maggio 13 - Firenze).</p>
+			<p>Siccome non so ancora se mi autorizzeranno a corrispondere con Sturani e Monti, di' tu delle loro lettere a ciascuno. Consola Sturani, che è avvilito di fronte ai miei trionfi, e digli che preferirei essere, come lui, a letto con la moglie, piuttosto che aver scritto questo libro, che pure terrà duro, quando di tutti i miei coetanei nessuno sentirà più nemmeno la puzza. E digli che lui è l'unico che ci capisca qualcosa. (C'è poi anche l'unica). Ed anche Monti ringrazialo molto delle buone intenzioni; digli però che è caduto in un errore che da un prof. come lui non mi sarei mai aspettato: ha confuso biografia con estetica, e loda certe poesie per ragioni documentarie, non per merito poetico.</p>
+			<p>Spero a quest'ora abbiate ricevuto con baci la copia di Lavorare stanca spedita il 24 genn. e le mie del 25 genn., 4 febbr. e 11 febbr., documenti di una crisi di crocifissione, di cui sono ormai convalescente. Le ricadute però saranno letali</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

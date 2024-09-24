@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>Brancaleone, 20 agosto [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ho ricevuto vaglia L. 300 e cassetta biancheria. Tutto in ordine. Però mi è spiaciuto che mandi soldi così a vanvera, perché siccome al ritorno me li rinfaccerai quotidianamente, li voglio solo quando ne ho proprio bisogno. Comunque, grazie.</p>
+			<p>Di' che mi ha fatto più piacere il dizionario di latino, che non il pranzo di ieri al Roma (erano 5 giorni che vivevo a latte e fichidindia).</p>
+			<p>Nelle pipe l'avete sbagliata, perché nessuna di quelle usate tira. Ringrazia Giovanna delle penne.</p>
+			<p>Di' agli amici influenti che spero una lisca di pesce li stràngoli.</p>
+			<p>Ciau</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

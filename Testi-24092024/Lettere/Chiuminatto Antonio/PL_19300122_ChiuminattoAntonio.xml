@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Green Bay, Wisconsin.</p>
+			<p>[Torino,] 22 gennaio '30</p>
+			<p/>
+			<p>Dear Mr Chiuminatto,</p>
+			<p>Your gift of such a book as Sorrel and Son, caused me and Max to think of an answer. Here it is, in this same package. When I perceived the wonderful plot of Sorrel and Son, I bethought of an Italian book, - moreover, a Piedmontese one - written by a friend of ours, which is dealing with almost the same situation of a father trying to rear his son.</p>
+			<p>As you'll see, this book was issued only last year and really it is one of the worthiest contemporary books in Italy. I cannot speak of so wide a diffusion of it here, as of Sorrel and Son in America, for its very nature defends such a diffusion. Against Deeping's which is a book of universal appeal for its - in a good sense - triviality of experience, its elemental simplicity, being the expression of a life among common wants and deeds, a life which is what it is, by itself, without a weight of tradition or culture, save what is common to all middle men; against such a book, we have here in these Sanss-Sôssi, a world of extreme complication, breeded in a literary mood, old of ages by historical experiences and, more, bounded to a certain liking towards a definite region of the Country - Turin and the Monferrato, the dialect-title - which thing can but keep aloof most Italian readers.</p>
+			<p>But the miracle of the book is that with such a dangerous foreground it has succeeded in shaping a human world where such foreground becomes poetry. But you'll see by yourself, for you also are a Piedmontese almost, and a scholar, a learned one, and you can well understand such a poetry as the Sanss-Sôssi's.</p>
+			<p>Look only at this: these two books are the same fable related the former in America and the latter in Europe. Never the two continents reflected and diversified themselves better than in these two books.</p>
+			<p>We are sure that you, who were so much in Turin will like this fond description of the city since last century, of his hills and country such as you'll find here.</p>
+			<p>And we close this note again renewing our thanks, I for the book received, and Max for that he will.</p>
+			<p>A &quot;hello&quot; by your friends</p>
+		</body>
+	</text>
+</TEI>

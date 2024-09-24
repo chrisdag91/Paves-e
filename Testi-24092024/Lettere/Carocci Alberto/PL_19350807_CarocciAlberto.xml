@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Marina di Pietrasanta.</p>
+			<p>7 Agosto [1935]</p>
+			<p>Brancaleone (Calabria)</p>
+			<p>Albergo Roma</p>
+			<p>Caro Carocci,</p>
+			<p>già saprai delle mie disgrazie. Sono a Brancaleone per tre anni. Mia sorella mi ha scritto che il mio libro aveva incontrata l'approvazione dell'Ufficio Stampa, ma poi che volevi rimandarne la pubblicazione in ottobre. Credo che ormai le ragioni che ti facevano dilazionare non abbiano più peso; ti sarei grato se volessi ritornare nell'argomento e scrivermene qualcosa. Penso che il vol. nella sua forma definitiva, con l'esclusione, cioè, di Una generazione, potrebbe ora uscire, semplicemente passandone la bozza al Minist. dell'Interno per l'autorizzazione. Non posso quindi che raccomandarmi alla tua buona volontà.</p>
+			<p>Saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

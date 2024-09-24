@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>16 febbr.</p>
+			<p>Il caso mi ha fatto cominciare e finire Lavorare stanca con poesie su Torino – più precisamente, su Torino come luogo da cui si torna, e su Torino luogo dove si tornerà. Si direbbe il libro l’allargamento e la conquista di S. Stefano Belbo su Torino. Tra le molte spiegazioni del “poema” questa è una. Il paese diventa la città, la natura diventa la vita umana, il ragazzo diventa uomo. Come vedo, “da S. Stefano a Torino” è un mito di tutti i significati escogitabili per questo libro.</p>
+			<p>Altrettanto curioso è che le poesie composte dopo l’ultimo Paesaggio, tutte, parlano d’altro che non Torino. Il caso sembra volermi insegnare a trasformare la mia disgrazia in un deciso rivolgimento di poesia.</p>
+			<p>Sorpassare Torino e giochi connessi, significherà costruire un altro mondo, di cui le basi saranno, come sempre, un periodo ben determinato di dolore e di silenzio. Perché, qualunque cosa scriva in questi mesi di ozio febbrile, sarà sempre soltanto una “curiosità” per il futuro, cioè silenzio. Cadono in questi mesi molti valori del passato e si distruggono abitudini interiori, che – straordinaria fortuna – nulla per ora sostituisce. Debbo imparare a prendere questa rovina futile, questa faticosa inutilità come un benedetto dono – quale ne hanno soltanto i poeti – come un tendone davanti alla rappresentazione che dovrà poi ricominciare. Mi spiego. Ritorno a uno stato larvale d’infanzia, meglio di immaturità, con tutte le rozzezze e le disperazioni del periodo. Ritorno l’uomo che non ha ancora scritto Lavorare stanca. Passare ore a rosicchiarmi le unghie, a disperare degli uomini, a disprezzare luce e natura, a temere per paure infantili e pure atroci, è un ritorno ai miei vent’anni. Quale mondo giaccia di là di questo mare non so, ma ogni mare ha l’altra riva, e arriverò. Mi disgusto ora della vita per poterla assaporare un’altra volta.</p>
+			<p>Quel che è certo, le poesie scritte ora – Parole, Altri tempi, Poetica, Mito, Semplicità, Un ricordo, Paternità, L’istinto, Tolleranza, U steddazzu – vanno spiritualmente con – Il dio-caprone, Balletto, Pensieri di Dina, Gelosia, Creazione, Dopo, Agonia e le dimenticate –: sarà questo un libretto di Epaves, non l’opera del futuro.</p>
+			<p>Il futuro verrà da un lungo dolore e un lungo silenzio. Presuppone uno stato di tale ignoranza e smarrimento che sia umiltà, la scoperta insomma di nuovi valori, un nuovo mondo. L’unico vantaggio che avrò sui miei primi vent’anni sarà la mano fatta, l’inconscio istinto. Lo svantaggio, la messe precedente e l’esaurimento del fondo.</p>
+			<p>Però – che lo sappia – la nuova opera comincerà soltanto alla fine del dolore. Per ora non posso che almanaccare estetica, il problema dell’unità, e studiare domande per finire il dolore.</p>
+		</body>
+	</text>
+</TEI>

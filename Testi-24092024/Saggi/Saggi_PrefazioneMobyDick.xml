@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Prefazione a Moby Dick. O la Balena, Herman Melville, Frassinelli, 1932</p>
+			<p/>
+			<p>Tradurre Moby Dick è un mettersi al corrente con i tempi. Il libro – ignoto sinora in Italia – ha tacitamente ispirato per tutta la metà del secolo scorso i maggiori libri di mare. E da qualche decina d’anni gli anglo-sassoni ritornano a Melville come a un padre spirituale scoprendo in lui, enormi e vitali, i molti motivi che la letteratura esoticheggiante ha poi ridotto in mezzo secolo alla volgarità.</p>
+			<p>Herman Melville, nato a Nuova York nel 1819 da una famiglia antica e nobilesca, morì a Nuova York nel 1891, dopo essere passato anche per gli impieghi statali, immiserito, sconosciuto e sdegnoso. Ma queste sue infelicità non ci toccano. È la solita sorte dei grandi uomini su cui piace ai professori sparger tenera eloquenza, salvo poi a trattare anch’essi i contemporanei nell’antichissimo modo. Quest’infelicità di Melville anzi ha avuto qualche parte in Moby Dick. Ben venuta, quindi. Poi bisogna ricordare i quattro anni della giovinezza passati su navi baleniere e da guerra, nel Pacifico, nell’Atlantico, tra cacce, tifoni, bonacce e avventure d’inferno o d’arcadia, tutta materia che è poi stata colata, con un lento lavoro di assimilazione, nelle opere.</p>
+			<p>E l’arcadia c’è in Typee, c’è in Omoo, c’è in Mardi, le storie ispirate dai mesi di vita che l’autore condusse in comune coi cannibali di un’isola oceanica. L’inferno è in White Jacket – spigliato e spietato giornale della vita di bordo su una nave da guerra – e in Pierre, una truce storia morale fallita, che serve a mostrare a quale prezzo e con quali fatiche l’autore di Moby Dick sia giunto al capolavoro.</p>
+			<p>Il lettore deve anzitutto pensare che corrono più di ottant’anni da quando questo libro venne pubblicato la prima volta. L’ambiente spirituale da cui è uscito è ormai interamente dimenticato anche in America e tutte le volte che si vuole illustrarne qualche opera occorre uno sforzo pedante di rievocazione.</p>
+			<p>Fortunatamente in Italia sono abbastanza noti due scrittori rappresentativi, su per giù, di questo stesso ambiente; riuscirà più facile quindi il richiamo.</p>
+			<p>Si pensi che Herman Melville è una specie di fusione e, con ciò, di superamento di Edgardo Poe e Nataniele Hawthorne. Nel nostro caso, Moby Dick è, in un migliaio di pagine, una novella alla Poe, con tutta la sua costruzione, i suoi effetti ragionati di terrore, la sua matematicità anche di lingua; e, insieme, una di quelle analisi morali di peccatori, di ribelli a Dio che, espresse in uno stile caldo e sfavillante da sermone, legano il nome della Lettera Scarlatta più forse alla storia del puritanesimo che non a quella della poesia.</p>
+			<p>In quel tempo in America o più precisamente nella Nuova Inghilterra, la stabilità nazionale allora raggiunta aguzzava il desiderio di una cultura propria, di una tradizione. Questo che sarà il problema cronico degli Stati e susciterà ancor oggi tanti disprezzi in Europa verso questi parvenus della cultura, è invece il segno della nobiltà del loro sforzo e del loro destino.</p>
+			<p>Poichè avere una tradizione è meno che nulla, è soltanto cercandola che si può viverla.</p>
+			<p>E Melville e contemporanei la cercarono, da buoni puritani, nel secolo delle lotte religiose in Inghilterra, in quel secolo di visionari, di libellisti teologici e di interpretatori della Bibbia, da cui era nata l’America. Anche Poe, che pure è nella sua opera abbastanza areligioso, ha fatto grandi indigestioni di ‘500 e ‘600, volgendosi essenzialmente agli scrittori di magia, di cose occulte e ai platonisti. Tutta gente che non dispiaceva neanche a Melville. E Moby Dick, così ragionato e tecnico com’è, vale soprattutto per l’ispirazione biblica. In esso la Balena, dopo tutte le classificazioni e i nomi scientifici ed archeologici, rimane soprattutto il Leviatan.</p>
+			<p>Leggete quest’opera tenendo a mente la Bibbia e vedrete come quello che vi potrebbe anche parere un curioso romanzo d’avventure, un poco lungo a dire il vero e un poco oscuro, vi si svelerà invece per un vero e proprio poema sacro cui non sono mancati nè il cielo nè la terra a por mano. Dal primo estratto di citazione «E Dio creò grandi balene» fino all’epilogo, di Giobbe: «E io solo sono scampato a raccontarvela» è tutta un’atmosfera di solennità e severità da Vecchio Testamento, di orgogli umani che si rintuzzano dinanzi a Dio, di terrori naturali che son la diretta manifestazione di Lui. Quei primi capitoli, che son anche parsi superflui, sulle tetre lapidi dei balenieri di Nuove Bedford e sul sermone di Giona, sono invece una parte essenziale del racconto: il brivido della baleneria che si fonde, al suo primo manifestarsi, col terror sacro puritano. Poichè non c’è nulla di superfluo, rispetto al tono del libro, in quest’epigrafe:</p>
+			<p/>
+			<p>CONSACRATO ALLA MEMORIA</p>
+			<p>DI</p>
+			<p>GIOVANNI TALBOT</p>
+			<p>CHE A DICIOTT’ANNI SI PERDÈ NEL MARE</p>
+			<p>VICINO ALL’ISOLA DELLA DESOLAZIONE</p>
+			<p>AL LARGO DELLA PATAGONIA</p>
+			<p>IL 1° NOVEMBRE 1836</p>
+			<p>QUESTA LAPIDE ALLA MEMORIA</p>
+			<p>LA SORELLA POSE</p>
+			<p/>
+			<p>È soltanto quell’interpretazione biblica che dicevo, che può far comprendere come tutto ciiò sia armonico e stia al suo luogo come ogni singola frase in un racconto di Poe.</p>
+			<p>Tutto il libro è concepito così.</p>
+			<p>L’inizio è un po’ scapato e burlesco, la parte più materiale di quella vita, che culmina nella figura del ramponiere cannibale, leale e aperto quanto nessun bianco. L’entrata della nave che, così coperta d’avorio e e di zanne come un re barbarico, aggiunge un brivido nuovo all’avventura. Poi, ancora un intermezzo burlesco – mgli armatori, Bildad e Peleg – di un umorismo semplice ma pieno di significati, poichè Bildad, tanto avaro, sta leggendo la Bibbia e Peleg, tanto allegro ed empio, parlerà per primo d’Achab. L’arruolamento e poi le dicerie misteriose su Achab. E si badi, nè Achab nè la Balena Bianca compaiono che all’ultimo momento utile e sono tutti e due preceduti e accomunati da voci bisbigliate e paurose.</p>
+			<p>E già, sinora, i nomi che accompagnano questa tragedia, quante volte han richiamato la Bibbia! Ismaele, Giona, Elia, Bildad, Achab «di cui i cani leccarono il sangue».</p>
+			<p>Il quale Achab occorre dir subito che non è un uomo come tutti gli altri. Lui delira, lui digiuna, lui veglia, lui parla come Amleto e, ogni tanto, fa allocuzioni al cielo. Chi cerca in lui la creazione di un personaggio psicologico e vero, può cercare.</p>
+			<p>Chissà chi per primo mise in giro la storiella della caratterizzazione? Che a me paia, in un libro non ce n’ha a essere che uno, di personaggio, l’autore, e a lui debbono far capo tutte le riflessioni, tutte le descrizioni parziali di ambienti e di personaggi che concorrono alla costruzione. Achab on è un uomo reale per il semplice fatto che è il riscontro di Moby Dick, di cui nessuno, immagino, pretenderà la psicologia. È l’universo intorno ai due che contribuisce a fermarli in quel loro aspetto, e un universo tanto tormentato e biblico è fortuna se ha dato un tipo ancor così pacato. Tutte le altre figure del libro sono parti, parti costruttive, e tutte servono al loro scopo, non già perchè vere, ma perchè armonizzate nella loro forma, che potrebbe anche esser falsa nella vita, col particolare ambiente fantastico in cui si trovano e, da cui staccati, perderebbero ogni consistenza. Per esempio, Fedellah, il capo misterioso dei malesi di Achab, che strappato al suo luogo e portato al riscontro colla realtà potrebbe anche parere a un lettore maligno una prima copia dell’Indiano vendicatore di «Giovanotti non esageriamo»… Il solo personaggio umano del libro ha da essere Ismaele, in qualità dell’occhio che giudica, un racconto in rima persona, in qualità dell’autore insomma.</p>
+			<p>C’è piuttosto da dire una parola sul mistero di Moby Dick e su tutto il soprannaturale che lo accompagna.</p>
+			<p>Non c’è nulla da scoprire sotto la Balena Bianca. Il suo pauroso significato sta appunto in questo che significa un vuoto, un nulla, una forza bruta, oppure un agente inconoscibile (che viene ad essere lo stesso). E qui torna da osservare con quanta sottigliezza è tenuto sino alla fine in ombra Moby Dick, pur discutendolo per tutto il libro in tutti i modi, e con quanta abilità lo si porta via via a giganteggiare sulla scena attraverso i suoi effetti raccontati dalle navi che l’hanno incontrato.</p>
+			<p>Su tutto il libro si potrebbe continuare l’esame e scoprire quanto ragionato, quanto calcolato sia ogni capitolo, ogni periodo, ogni frase. Il continuo alone soprannaturale, che trasfigura fin le più spregiudicate e positive ricerche dell’autore, non è che un modo di esprimere, attraverso ogni laicismo di cultura, lo spirito biblico della concezione.</p>
+			<p>E occorre dir qualcosa di questa coltura, poichè essa ci apre la via all’altra metà del mondo di Melville.</p>
+			<p>Rimarrà sorpreso il lettore aprendo il libro a quelle pagine di Estratti iniziali sulla balena e crederà che almeno queste pedantesche citazioni si possan saltare, almeno queste sian superflue. Neanche queste.</p>
+			<p>L’interessante lista di riferimenti, pescati in tutte «le Vaticane e le bancarelle della terra» e le etimologie in più d’una dozzina di lingue, che precedono, servono a portare il lettore a quel grado di universalità, ad ambientarlo in quell’atmosfera laica di dotta discussione, che sarà il nero, talvolta umoristico e talvolta eroico, di tutti i futuri capitoli. Poichè, questo è curioso in Moby Dick e in Melville: benchè si tratti di un’opera ispirata da esperienze di vita quasi barbarica, ai confini della terra, Melville non è mai un pagliaccio che si mette a fingere anche lui il barbaro e il primitivo, ma, dignitoso e coraggioso, non si spaventa di rielaborare quella vita vergine attraverso tutto lo scibile della terra. Poichè credo che ci voglia meno coraggio ad affrontare un capodoglio o un tifone che a rischiare di passare per un pedante o un letterato.</p>
+			<p>E Melville, nel ringraziamento al Vice-vice-bibliotecario, ch’egli finge gli abbia fornite le citazioni, lo compiange per uno di quella «classe disperata e ingiallita che nessun vino al mondo scalderà mai più e per i quali persino il pallido Xeres sarebbe troppo generoso»; lo compiange col suo solito tono scherzoso di uomo che conosce ben altro nella vita oltre le Vaticane e i bancherottoli e sa che i migliori poemi sono quelli raccontati da marinai illetterati sul castello di prora (cfr. La storia del Town-ho); sa tutto questo, e scherza, ma non si vergogna di mostrarsi qual è, un marinaio che ha studiato: un letterato.</p>
+			<p/>
+			<p>Cesare Pavese</p>
+			<p/>
+			<p>NOTA. Traducendo questo libro si è cercato di tenere una linea di mezzo tra un’eccessiva modernizzazione dello stile e una giusta fedeltà a certa abbondanza e involutezza del testo, che naturalmente risente degli anni trascorsi e dell’ambiente in cui è nato.</p>
+			<p>Occorre poi notare che l’autore stesso ha sovente usato passaggi un po’ rapidi tra quella sua rotondità espressiva nelle parti «filosofiche» e l’immediatezza e dialettalità delle pagine più marinaresche e «avventurose».</p>
+			<p>Si voglia quindi leggere il libro senza preconcetti e cercando di seguire il traduttore nel suo sforzo sempre coscienzioso, non sempre, forse, felice.</p>
+			<p/>
+		</body>
+	</text>
+</TEI>

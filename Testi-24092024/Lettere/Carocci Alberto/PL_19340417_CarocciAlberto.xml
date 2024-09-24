@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alberto Carocci, Firenze.</p>
+			<p>17 Apr. ’34</p>
+			<p>Via Lamarmora 35 - Torino</p>
+			<p>Caro Carocci,</p>
+			<p>ho avuto le poesie e sono d’accordo per il progetto.</p>
+			<p>La ringrazio dell’invito a scrivere su Solaria, ma siccome sono molto ignorante io gli argomenti per i miei articoli non li trovo troppo presto e, una volta trovati, debbo fare un lungo lavoro di preparazione. Non dico quindi di no, ma mi prendo tempo.</p>
+			<p>Quanto all’amico, dopo quello che è comparso sui giornali non se ne sa più nulla. Ad ogni modo è certo ora che andrà a Roma, con qualche compagno o compagna.</p>
+			<p>Cordiali saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

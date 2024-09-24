@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>[Torino,] 19 agosto 1930</p>
+			<p/>
+			<p>Dear Tony,</p>
+			<p>I got your letter of 1st August and as I'm mailing back to you the other books of the Library I take the occasion to unite here a few lines, just a few, for you.</p>
+			<p>I shall be much gratified to receive other pieces of criticism, about Lewis; but, don't worry too much, because I cannot change anything on the drafts of my essay. Worry rather yourself, if worry you must, about Anderson.</p>
+			<p>I'll write about the ideas of the several Rev. Critics you quoted when I'll answer to your next letter. Now I'm in a hurry, I must make it P.D.Q.</p>
+			<p>Important: On the 1st of September my address will change: the new one being Via Lamarmora 35.</p>
+			<p>By the way, I pray you, but take it leisurely, to look after the association conditions of the following reviews: &quot;Transition&quot;, &quot;The Scribner's&quot; &quot;Harper's Magazine&quot; &quot;This Quarter&quot; &quot;Poetry, a Magazine of Verse&quot;.</p>
+			<p>And please don't cease to pull on me slang galore. I feed on it, do you know?</p>
+			<p>I beg a hurried pardon and (in cauda venenum) give you a last order: borrow or buy it, send me Congo, or The Chinese Nightingale, or better than all, Collected Poems (Macmillan 1923), by Vachel Lindsay.</p>
+			<p>Your always ashamed and never reformed friend</p>
+		</body>
+	</text>
+</TEI>

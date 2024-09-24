@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>28 febbr.</p>
+			<p>C’è un parallelo tra questo mio anno e la considerazione della poesia. Come la sofferenza atroce non l’ho avuta nei grandi momenti (15 maggio, 15 luglio, 4 agosto, 3 febbr.), ma in certi lassi furtivi dei periodi intermedî; l’unità del poema non consiste nelle scene-madri, ma nella sottile corrispondenza di tutti gli attimi creativi. Vale a dire, l’unità non deve tanto alla costruzione grandiosa, all’ossatura identificabile della trama quanto all’abilità scherzosa dei piccoli contatti, delle riprese minute e quasi illusorie, alla trama dei ritorni insistenti sotto ogni diversità.</p>
+			<p>Che cosa soffro di lei? Il giorno che alzava il braccio sul corso asfaltato, il giorno che non venivano ad aprire e poi è comparsa con i capelli scossi, il giorno che parlava piano con lui sull’argine, le mille volte che mi ha fatto fretta.</p>
+			<p>Ma questa non è più estetica, sono lamenti. Volevo elencare i bei minuti ricordi, e non ricordo che spasimi.</p>
+			<p>Via, servono lo stesso. La mia storia di lei non è dunque fatta di grandi scene, ma di sottilissimi momenti interiori. Così un poema deve essere. È atroce questa sofferenza.</p>
+		</body>
+	</text>
+</TEI>

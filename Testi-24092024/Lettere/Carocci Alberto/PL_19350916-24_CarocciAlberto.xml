@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Alberto Carocci, Firenze.</p>
+			<p>[Brancaleone,] 16 settembre (24 settembre) [1935]</p>
+			<p>Caro Carocci,</p>
+			<p>Ecco, se Dio vuole, le bozze definitive di Lavorare stanca.</p>
+			<p>Ho tenuto conto del consiglio del Ministero Stampa e cancello, come vedi, Il Dio caprone (piangendo), Pensieri di Dina, Balletto e Paternità. Così il volume potrà ormai servire da libro di preghiere anche per una vergine.</p>
+			<p>Ho numerato le pagine delle bozze perché tu possa controllare se il tipografo avrà fatto le correzioni delle pagine 13, 20, 26, 38, 48, 61, 66, 67, 70 e 77.</p>
+			<p>Con la solita protervia, non so resistere alla tentazione di accludere altre otto poesie, frutto di questi ultimi tempi di calma.</p>
+			<p>Se vedi possibile la cosa, falle unire in coda alle altre, vale a dire dopo Una generazione, nell'ordine con cui sono numerate. Ma se ciò dovesse ritardare di troppo la pubblicazione, usa allora della tua discrezione. Sono, come puoi vedere, tutte poesie assolutamente innocenti, che non mutano per nulla il tono ascetico della raccolta e servono solo a rimpolpare il volumetto troppo smagrito dai tagli richiesti da Prefettura e Ministero.</p>
+			<p>Se ti va di farle unire al resto, dovrai occuparti tu stesso della correzione della bozza, non essendo conveniente perdere altri due mesi se non più in scambi postali.</p>
+			<p>Ti prego molto di quest'ultimo favore. Ma in nessun caso non abbiate un'altra volta l'abilità di smarrirmi queste bozze o di menarmele ancora per le lunghe. Pensa che dall'estate del '34 queste poesie pendono. E che, esclusa la torre di Pisa, sempre tutto quanto pende può un giorno cadere.</p>
+			<p>Per la questione, che ti dicevo, dell'autorizzazione richiesta dalla mia posizione, mi è stato qui al Municipio spiegato che passando questo mio plico sotto la Censura, io risulterò automaticamente autorizzato.</p>
+			<p>Auguri, quindi, e manda pure le cartoline di sottoscrizione. Appena ricevute questa mia con le bozze, mandami un cenno di intelligenza.</p>
+			<p>Pavese</p>
+			<p>P.S. Ricordati l'indice in testa al volume.</p>
+		</body>
+	</text>
+</TEI>

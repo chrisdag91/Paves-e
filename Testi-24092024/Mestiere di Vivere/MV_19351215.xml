@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>15 dic.</p>
+			<p>Quanto a me, la composizione di una poesia avviene in un modo che – se non me lo mostrasse l’esperienza – mai avrei creduto. Muovendomi intorno a un’informe situazione suggestiva, mugolo a me stesso un pensiero, incarnato in un ritmo aperto, sempre lo stesso. Le diverse parole e i diversi legamenti colorano la nuova concentrazione musicale individuandola. E il più è fatto. Non resta ora che ritornare su questi due, tre, quattro versi, quasi sempre già a questo stadio definitivi e iniziali, e tormentarli, interrogarli, adattare loro svariati sviluppi, finché càpito su quello giusto. La poesia è tutta da estrarre dal nucleo che ho detto. E ogni verso che si aggiunge lo determina sempre meglio ed esclude un numero sempre maggiore di errori fantastici. Sinché le possibilità intrinseche del punto di partenza sono tutte individuate e svolte secondo le mie forze; via via si sono andati formando sotto la penna nuovi nuclei ritmici, identificabili nelle varie singolari “immagini” del racconto; e giungo, svogliatamente perché l’interesse sta ormai finendo, all’ultimo verso conclusivo, quasi sempre disteso e riposato e riconnesso all’inizio e ricapitolante allusivamente i vari nuclei. Che sia la cristallizzazione di Stendhal? Ho davanti un complesso ritmico – pieno di colori, di passaggi, di scatti e di distensioni – dove i varî momenti di scoperta, di passo avanti, – i nuclei, insomma – si scambiano, s’illuminano, perennemente attivati dal sangue ritmico che scorre dappertutto. Ci fumo sopra e tento pensare ad altro, ma sorrido stimolato dal segreto.</p>
+		</body>
+	</text>
+</TEI>

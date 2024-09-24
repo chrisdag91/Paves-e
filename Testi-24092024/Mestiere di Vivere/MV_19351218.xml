@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>18 dic.</p>
+			<p>Ma allora, se il punto delle mie poesie sta nella sentenza, variamente espressa o dissimulata, molte cose che teoricamente ricercavo, le avevo già ottenute. Il che, tra l’altro, dev’essere inequivocabilmente vero, se è vero che ho già composto qualche poesia che tocca il definitivo. Per esempio, ecco ottenuto il giudizio morale sulle cose di questo mondo, ecco la serietà di ragioni, ecco la rivincita sulla sensualità mera. Ecco l’universalità del mondo interiore espresso, che io temevo fosse un puro gioco letterario. Ecco tutto, insomma. Oggi è veramente la giornata bianca.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 23 febbraio [1936]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ricevo 12 e 15 febbr. Da quando sono qui ho ricevuto due lettere da Irma. Non vedo perché sarebbe un guaio se mi ammalassi. Non mi importa più un fico di niente. Vorrei solo sapere notizie della sign.na.</p>
+			<p>State bene.</p>
+			<p>Cesare</p>
+			<p>L'edema è guarito.</p>
+		</body>
+	</text>
+</TEI>

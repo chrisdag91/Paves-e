@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 16 gennaio [1936]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ricevuto cartolina del 1. Ricevuto pure due libri americani Tragedy of Lynching e Treatment of Delinquency annunciati da cartolina da Ivrea, ormai tutta inzuppata di lacrime, come il pane che mangio. Se mi permettete tuttavia un dolce rimprovero, vorrei farvi presente che non è il modo migliore per tenermi allegro, regalarmi trattati sulla delinquenza americana, tutti pieni di vivide descrizioni di penitenziarî e sedie elettriche. (Sturani da parte sua mi manda Chi c'è stato una volta di Fallada!) Vincendo l'istintiva ripugnanza, tenterò tuttavia di leggerli e sunteggiarli. Sempre, per guadagnarmi il Paradiso, dopo.</p>
+			<p>Sentire che voi sperate che l'asma scompaia, naturalmente me la fa passare. È circa un mese e mezzo che non riesco più a far poesie, e questa è la più grande disgrazia che mi potesse capitare. (Ce ne sarebbe una più grossa, ma in questa ci lascerei la pelle).</p>
+			<p>Qui ho molte consolazioni, oltre a mangiare i carciofini. Per esempio, collezionare sulla spiaggia sassolini colorati (per Maria Luisa), studiare il volo degli uccelli, aspettare la stagione delle seppie e scegliere quale nome imporrò ciascuno dei miei figli, che vorrò allevare forti nella castità. Poiché la castità è la prima delle virtù; per essa si risanano le razze, si accrescono i regni, si perfezionano le arti e ci si salva l'anima. Che cos'è un uomo senza la castità? Un cencio, un fuscello, una piuma sbattuta, una goccia d'acqua in mare, una nuvola in cielo, un capello sulla testa di un pazzo, una locomotiva senza macchinista. Potrei scrivervi infinite cose di questa virtù. In greco si dice ȧyvɛía - la virtù degli agnelli. I miei figli saranno casti e saranno belli, questo è fuori discussione.</p>
+			<p>Sentite questi versi paesani, se non vi paiono notevoli:</p>
+			<p/>
+			<p>A malatedda meja, a malatedda,</p>
+			<p>no jè de morte la to malatia,</p>
+			<p>bedda, no jè terzane e no quartane,</p>
+			<p>solu nu rame de malincunia.</p>
+			<p>Vienne a statte cu me na settemane,</p>
+			<p>te la fazzo passà sta malatia.</p>
+			<p>Quanne la malatie no t'ha passate</p>
+			<p>tu, rundinella, pigghiala cu mija.</p>
+			<p/>
+			<p>Tante cose</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

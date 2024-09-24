@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Augusto Monti, Torino.</p>
+			<p>[Torino, ottobre? 1927]</p>
+			<p>Veda, se non le secca, quest'altro curioso documento della nostra estate.</p>
+			<p>Mi scuserò al solito con una citazione. È Napoleone stavolta che parla: &quot;L'uomo si ...&quot;. E se pensare sognare creare è un'ascensione, l'andar poi mostrando intorno avidamente i poveri stracci di carta che ne son risultati è indiscutibilmente un abbassamento.</p>
+			<p>Ma comunque sono curioso e ansioso di sentire un suo giudizio qui sopra, specialmente sulla mia lettera di replica &quot;petulca&quot;.</p>
+			<p>L'ordine dei documenti è la grande raccomandata, la risposta del retto Pinelli, poi la mia lettera. Oh, per la storia, tenga presente che prima della mia operetta teologica, o ateologica che sia, avevo scritto e mandato al sozio una lettera in cui mi lamentavo di sentirmi soffocare dalla letteratura, e raccontavo una mia tisica storiella (non quella diffusa di biondo) ed altre miserie.</p>
+			<p>Tenga presente che tutto il nostro inverno era stato un'atmosfera di disputa armata terribilmente logica e spumeggiante da parte di Monferini, caparbiamente dignitosa e sincera da parte di Pinelli e ardentemente scattante e ingenua da parte mia. Noti che nella lettera di Pinelli ci son postille a matita: quelle sono di mia mano, le idee svolte poi nella mia lettera. Dopo la qual mia lettera ci sarebbe poi anche la risposta di Pinelli dignitosamente sdegnato ma quella non interessa il mio egoismo.</p>
+			<p>Di me soltanto voglio che Lei mi parli. Candidamente.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>[Torino,] 21 giugno 1930</p>
+			<p/>
+			<p>Dear Tony,</p>
+			<p>Gosh all fish-hooks! It's my lot to-day to be lectured by all. I've been lectured by the Board of Teachers of the University about the fondness of slang I showed in my degree (which I got safely, I'm Ph.D. now, ah!) - late in the night coming home a little tight I found both your letters of 5th and 7th and worried myself infinitely about your lecture on comparative Italian and American fastness - at last, going this morning to the office to retire Lewis' goods I got together with them some curt advice about the best manner to pack things: &quot;Write to the forwarder, let him know, his frequent mailings of 'books' have been noted, customs begins to feel obliged to open your packages, so let him pack them more loosely (it's the word), it will be a easier 'understanding'&quot;.</p>
+			<p>Get me? My buddy, you go on packing them in your wonted accurate way, if they get damaged, it is we must pay, no? Let custom-officers pry and ferret out - they are on the job for that.</p>
+			<p>Now, all this turns out to cast the blues on me. I'm very, very much displeased my contradictory orders have driven you in such a mess, and I can only excuse a little my rashness thinking how I did not know nothing about your welcomest mailing of ten books when I wrote you about Lewis!</p>
+			<p>And I feel the more worried as you also put down that your hurry and scurry gets you in wrong, and you worry about it and go fetching ways to repair. Certainly now that it is done, I've only to thank you a thousand times for your second expedition of books also and I'm beginning to wade through them which I cheerfully hope to succeed in, but, as far the general principle, you must not go fetching you so much trouble and hustle so, and disturb so many persons (e.g. your landlady) for your ungrateful buddy's sake. You see, till now I've only always answered to your kindest boons with always growing boldness. Now, I must stop, absolutely, and for the first time I'll try to write you a letter without asking for something.</p>
+			<p>You know, I got the ten and the eight ones. I'm now so overwrought I forget sometime to breathe, nevertheless, be sure, you'll get back the books on 1st of October. You'll read a corking essay on Lewis, it will beat everything! You wait and see! Va sans dire, you'll receive the review. I've something to say about slang, also, it will be grand and glorious. I'll teach a few fellers that are now overflowing Italy with vacuum-gabble about America, what people must say and how they must say it.</p>
+			<p>As for my coming to New York, till now I got no reply from the University, but the thing seems sure and I've only to wait somemore. Hardly I'll know a bit, it will be a rush to inform you, you bet. Then I'll teach you slang. Tony, I want to write here how like all get-out were both your last letters. A card! All stuffed with delightful expressions and spirit. I'm studying them as regular texts, and I got already lots of style's stunts from them. You tell the whole universe, what a teacher you are!</p>
+			<p>When you'll receive this, you'll already have written me what about the sweets, of whose sound arrival I'm doubting, however, it was so hot, these days!</p>
+			<p>I beg your pardon if this time I write you a comparatively short letter, but I want extremely to begin Elmer Gantry. And, say, Tony, let me know something I can do here in Italy for you, otherwise I'll be too shameful to write you any more. Whatever thing, from buying you a Fiat to find out a bride for you, I'll be glad to do it for you, you have been too kind to me!</p>
+		</body>
+	</text>
+</TEI>

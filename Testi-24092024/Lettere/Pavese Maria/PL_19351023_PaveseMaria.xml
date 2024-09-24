@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 23 ottobre [1935]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>ho ricevuto il salame e i due volumi del Byron. La mia gioia non si può dire. Quindi non la dico. Basti sapere che in un primo momento ho progettato una gita a Taormina per sfogarmi, poi mi sono ricordato che non posso per via del regolamento, e allora ho bastonato un cane. Io ridevo.</p>
+			<p>Non solo, ma faccio anche le poesie.</p>
+			<p>Mai però come Dopo.</p>
+			<p>Cesare</p>
+			<p/>
+			<p>P.S. Chiedi i libri a Rossi, Severi e quello di Frassinelli. Insisti. Picchia. Fatteli dare.</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>

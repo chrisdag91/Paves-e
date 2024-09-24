@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>27 apr.</p>
+			<p>Racconta:</p>
+			<p>“Mi ha detto un giorno, come mi avrebbe trattato. Era a quel tempo ansioso in cui nulla era accaduto, ma doveva avvenire. La facevo parlare del suo passato, nella smania di conoscere quanto più potevo di lei, e avere posto alla mia sogneria.</p>
+			<p>Raccontava di un giovanotto semplice che l’aveva attaccata in treno. Descriveva colui come determinato e comune. Con poca fatica l’aveva infatuato. A parole e a gesti. (Pure con me ha fatto un viaggio). Poi aveva concluso, dandogli un falso nome.</p>
+			<p>E il giovanotto le aveva scritto una domanda di matrimonio”.</p>
+		</body>
+	</text>
+</TEI>

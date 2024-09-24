@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>15 sett.</p>
+			<p>Se tento un bilancio della mia opera poetica, non ci trovo poi tutti quei vantaggi. Lascio stare la gloria o il disonore – mi esamino come se non avessi pubblicato – e trovo che il mondo ha ora perso per me tutto il suo aspetto incantato, poiché molte cose che mi piacevano e contentavano si sono ora spente nella pagina scritta che le incenerì. Rivelando a me stesso, colla realizzazione, la natura tutta fantastica di quei miei trasporti e scatti e amori e attaccamenti, li ho ora, per lo stesso fatto della realizzazione compiuta, resi vuoti e inutili. Chiarisco: non mi tormenta amor di novità per ambizione; mi sta chiaro innanzi che quelle scoperte non avevano che significato prepoetico e perciò – una volta poetificate – hanno assolto il loro compito.</p>
+			<p>Questa era la ragione per cui sostenevo che il genio poetico dev’essere fecondissimo e durare tutta la vita. Il suo spirito non deve mai cessare di produrre scoperte, da usare in poesia, perché, se si arresta, rivela con ciò che quelle poche fatte non provenivano da temperamento nato a scoprire, ma erano velleità sentimentali d’azione scambiate per scoperte prepoetiche.</p>
+			<p>Io non so ancora se sono un poeta o un sentimentale, ma certo che questi mesi atroci sono la prova decisiva. Se, come spero, anche i più grandi scopritori hanno passato di simili mesi, allora non è a buon mercato la gioia di comporre. Si vendica, e bene, la vita, se qualcuno le ruba il mestiere. Non è niente la preoccupazione del comporre – il famoso tormento – dinanzi a quella dell’aver composto e poi che cosa fare.</p>
+			<p/>
+			<p>* Il libro Lévy-Bruhl “Mythologie Primitive” lascia supporre che pensando la mentalità primitiva la realtà come scambio continuo di qualità e di essenze, come flusso perenne in cui l’uomo può diventare banano o arco o lupo e viceversa (ma non l’arco diventare lupo, per es.), la poesia (immagini) nasce come semplice descrizione di questa realtà (il dio non somiglia al pescecane, ma è pescec.) e come interesse antropocentrico.</p>
+			<p>Insomma, le immagini (ciò m’interessa!) non sarebbero gioco espressivo, ma positiva descrizione. Alle origini, s’intende. Quanto all’antropocentrismo, non ne dubitavo.</p>
+		</body>
+	</text>
+</TEI>

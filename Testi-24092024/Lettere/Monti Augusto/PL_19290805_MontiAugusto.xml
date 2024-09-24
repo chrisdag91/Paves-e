@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Augusto Monti, Giaveno.</p>
+			<p>[Bibiana,] 5 agosto 1929</p>
+			<p>Credevo andasse peggio. Son qua dal 2 ed ormai ho fatto la mano.</p>
+			<p>Simpatici tutti specialmente la signorina la quale guida l'auto come una valchiria e mi scorrazza per le vallate senza farselo chiedere.</p>
+			<p>Qua mi chiamano Signor Professore, però il cameriere si ripromette quest'inverno a Torino di uscirmi insieme a spasso. Coltiviamolo.</p>
+			<p>C'è però da lavorare come una bestia. Occorre mi prepari tutta la favoletta greca per aver da imbonire l'allievo mentre tento e sfoglio la grammatica dietro un perfetto, a una classe, a un accidente, ce n'è sempre dei nuovi.</p>
+			<p>Però ho già la mia provvistina di peregrinità morfologiche e quelle le tiro fuori una ogni tanto a salvarmi dall'allievo che sbircia sospettoso le mie manovre tendenti a &quot;fargli vedere&quot; il paradigma. C'è da fare due ore di greco al mattino e due di latino al pomeriggio, preparando il tutto che fa un'altra ora, leggere Walt Whitman, interpretare le dispense ginzburghiane di storia malissimo fatte, scrivere a casa, far la corte alla signorina, giocare al tennis, prendere il caffè colla famiglia (c'è il &quot;Calendario della vita pura dell'amore e della fede&quot; attaccato al caminetto), alla sera giocare al bigliardo, e a scacchi per divertire il più piccolo e intanto far cantare l'ex prefetto sulla storia di famiglia.</p>
+			<p>C'è poi anche da riposarsi. Uno non pensa più né ai poemi né al cinematografo. Ma è bello, come dico.</p>
+			<p>Domenica sono andato a messa col sor conte e lì abbiamo trovato una tal marchesa di Rorà che ha detto con voce sognante &quot;Oh! il precettore&quot;.</p>
+			<p>La noia son le visite.</p>
+			<p>Ma c'è da ringraziarla sul serio, Professore. Non ho neanche l'asma.</p>
+			<p>A proposito dell'iniqua mercede io scrivendo non son stato lì a precisare, come eravamo d'accordo con Lei, ma ho cavillato sul fatto che non son professore.</p>
+			<p>Il conte mi ha risposto &quot;Ci rimetteremo al professor Monti&quot;. Si aspetti quindi di essere interpellato.</p>
+		</body>
+	</text>
+</TEI>

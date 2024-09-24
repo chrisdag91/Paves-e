@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Alla sorella Maria, Torino.</p>
+			<p>[Brancaleone,] 2 marzo [1936]</p>
+			<p/>
+			<p>Cara Maria,</p>
+			<p>Quando un uomo invece di scrivere poesie, scrive lettere, è finito.</p>
+			<p>Brutta cosa, la memoria.</p>
+			<p>Metto fuori il naso alla sera, e vedo Orione, bello limpido, che mi ricorda un libro letto in altri tempi.</p>
+			<p>Respiro l'odore di linfa, alla finestra, e mi ricordo quando andavo a fare scuola a Corradino in fondo a Via Nizza due anni fa.</p>
+			<p>Passa il treno e mi viene in mente domani mattina, che ne correrò uno alle quattro attraverso la pineta di Viareggio.</p>
+			<p>Guardo le montagne in distanza e tremo dal freddo, ripensando al Natale di Cheneil (tre giorni allora - ora tre anni).</p>
+			<p>Mi spoglio per andare a letto e compiango il mio nudo, così giovanilmente bello e così solo.</p>
+			<p>Esco al mattino presto, appena è consentito, e mi ricordo quando andavo all'alba al caffè, aspettando e fumando la pipa.</p>
+			<p>Leggo sulla «Gazzetta del Popolo» i cinema di Torino e immagino chi assiste ai film, allo Statuto, all'Alpi, all'Ideal.</p>
+			<p>Guardo per dei quarti d'ora su un testo di geografia una veduta del Gran Paradiso.</p>
+			<p>Mi tocco il neo sulla guancia per convincermi di essere proprio io.</p>
+			<p>Canterello «Carogna carogna».</p>
+			<p>Rivedo i tempi che traducevo «la Balena Bianca» e tutto era ancora da avvenire.</p>
+			<p>Ripenso a quando mi permettevo di non dormire una notte per un po' di gelosia - osavo darle questo nome - e non sapevo quale morso da affamato, da squalo, da cancro abbia la lontananza.</p>
+			<p>Ricordo la rabbia contro i terzi che volevano venire con me in barca in Po e rimpiango la mia passata infelicità.</p>
+			<p>Mi trovo troppo stupido ad aver creduto in passato che l'isolamento individuale, anche di un attimo, fosse la felicità.</p>
+			<p>Tutto il giorno ripasso queste litanie e altre infinite.</p>
+		</body>
+	</text>
+</TEI>

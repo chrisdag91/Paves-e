@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>[Torino,] 24 July '32</p>
+			<p/>
+			<p>Dear Tony,</p>
+			<p>I didn't as yet reply to you, for the reason that I was planning a little holiday on sea on board a sailer and so it was impossible for me to send you the wonted list of summer books, being as yet uncertain about my future adress. Now the sea-travel has gone to pot, but my address will be wavering just the same. I'll tramp through Italy, and so it'll be useless to have you troubled about books. I'll not be able to receive.</p>
+			<p>About your economical worries surely you're no worse than we big men, that every morning wait for a flood or something fiercer.</p>
+			<p>Thank you for your goodwill about getting me over there, but I see the difficulties and apart from some fit of hysteria I can quite clearly see that there's salt water between.</p>
+			<p>I've philosophy enough to perceive that I also, after some time, would be tired of God's Country. I already taught philosophy. I don't know what I've not yet taught: leaving aside Italian and English. I can remember Latin, Geography, History, French, Greek. Here's a brazen-faced bum, you can say! I've already seen the dregs of teaching, waiting to see life's.</p>
+			<p>Good holidays, old boy, on your Wisconsin lakes.</p>
+		</body>
+	</text>
+</TEI>

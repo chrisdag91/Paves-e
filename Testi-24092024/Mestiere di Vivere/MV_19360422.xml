@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>22 apr.</p>
+			<p>La verità vera è che nulla del mondo mi è ancora passato attraverso lo spirito, proiettandosi in radiografia nella sua struttura di realtà costitutiva e metacorporea. Non sono ancora giunto al grigio e sempiterno scheletro che c’è sotto.</p>
+			<p>Ho veduto dei colori, annusato degli odori e carezzato gesti, contentandomi di una gioia elettrice e riordinatrice. Ho scherzato come con amici e goduto da solo.</p>
+			<p>Ho ignorato la parola pensata. Le mie parole furono soltanto sensazioni. I miei ritratti furono quadri, non drammi. Mi sono fissato su figure e le ho tanto rimuginate e contemplate, da riprodurne una trasfigurazione soddisfatta. Ho semplificato il mondo a una banale galleria di gesti di forza o di piacere. C’è lo spettacolo della vita in quelle pagine, non la vita. È tutto da ricominciare.</p>
+		</body>
+	</text>
+</TEI>

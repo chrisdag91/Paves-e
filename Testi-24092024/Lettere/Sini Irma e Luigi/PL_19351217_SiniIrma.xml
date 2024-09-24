@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Irma Sini, Torino.</p>
+			<p>[Brancaleone,] 17 dicembre [1935]</p>
+			<p/>
+			<p>Cara e gentile Signora,</p>
+			<p>La ringrazio di essersi ricordata di me. La sua lettera – e quella del 10 di mia sorella – sono piene di buon senso. Ma se si dovesse vivere col solo buon senso, non ne varrebbe più la pena, il mondo sarebbe troppo noioso. Mentre è bello che il mondo somigli a una gabbia di matti. Io ho la pazzia malinconica e poetica, un altro ce l'ha furiosa, un terzo passionale. Del resto, chi ha attraversato mezza Italia con le manette e tutto ha diritto di essere un poco anormale.</p>
+			<p>A questi lumi di luna i suoi consigli non sono però da pigliarsi alla leggera. Quando sarò arrivato a sei accessi d'asma al giorno (sono già a quattro), Le prometto che ritornerò su quanto Lei mi scrive. Va bene?</p>
+			<p>Godo a sentire che è ansiosa di leggere il mio libro. Io mi sento nella situazione di quegli autori che nell'imminenza della pubblicazione spargevano la notizia della loro morte immatura. Non c'è niente di più bello che sparire dalla circolazione quando si stampano delle poesie: non fosse che per creanza tutti sentono il dovere di dirne bene e di comperarle. Anzi Lei che è tanto gentile dovrebbe fare una cosa. Girare nei salotti con trenta cartoline di prenotazione e, quando languisca la conversazione, azzardare, sorridendo, sulla cartolina, &quot;È il libro di un giovane, bellissimo ingegno, attualmente (un sospiro)...&quot;. E chiedere distratta &quot;Vuol firmare?&quot;</p>
+			<p>Noti che non parlo per avidità: io non ci guadagno un soldo. Tutti i diritti li ha l’editore. Ma si tratta appunto di premiare chi ha avuto tanta abnegazione da stamparmi.</p>
+			<p>Torniamo a parlare di cose allegre. Immagino la seduta in camera da letto con mia sorella, Guglielmo, Luigi (ciau, bello), e intorno le bambine; e l'impegno solenne, da Lei preso, di scrivermi toccandomi le corde più tenere.</p>
+			<p>Al quale impegno, non appena le condizioni saranno adeguate (sei accessi), mi sforzerò di dare il mio appoggio. Può dubitarne? Si ricordi di quando troncavo le telefonate. E mi abbia, come allora e come ora, suo dev.</p>
+		</body>
+	</text>
+</TEI>

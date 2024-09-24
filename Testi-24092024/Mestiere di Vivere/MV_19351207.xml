@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>7 dic.</p>
+			<p>Va approfondita l’affermazione che il segreto di molta grande arte stia negli impedimenti che, sotto forma di regole, il gusto contemporaneo impone. Le regole d’arte, proponendo un ideale definito da raggiungere, dànno all’artista uno scopo che impedisce il lavorio a vuoto dell’ingegno. Bisogna però aggiungere che mai il valore delle opere sta per noi nelle regole osservate, ma – vista l’eterogeneità dei fini – in strutture cresciute sotto mano all’artista durante la sua ricerca di ciò che la regola – il gusto – richiede. L’ingegno surriscaldato da un gioco razionale, qual è il tentativo di raggiungere certi risultati reputati di valore, supera l’astratto valore di convenzione di essi “gusti” e crea rapitamente nuove architetture. Senza saperlo; e ciò è logico, se si pensa che il segreto di una struttura artistica sfugge al creatore finché, chiarendosela, egli non le tolga interesse. Così risolvo il bisogno di “intelligenza” in arte: c’è applicazione cosciente di essa, ma soltanto a quegli scopi contemporanei che, valendo per l’artista e per i tempi, vanno fusi poi nella eruzione di poesia nata dal surriscaldamento dell’ingegno. L’artista lavora di cervello a scopi che perderanno valore davanti ai posteri; ma, così facendo, il suo “cervello” crea precriticamente nuove realtà intellettuali. Esempio: la smania del “conceit” tra gli elisabettiani e il risultato shakespeariano dell’immagine-racconto. Il gusto dell’esempio concreto nel mondo scientifico classico e la risultante visione cosmica di Lucrezio.</p>
+		</body>
+	</text>
+</TEI>

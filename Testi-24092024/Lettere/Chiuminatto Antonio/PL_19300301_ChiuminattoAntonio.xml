@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Antonio Chiuminatto, Green Bay, Wisconsin.</p>
+			<p>[Torino,] 1 marzo 1930</p>
+			<p/>
+			<p>Dear Mr Chiuminatto,</p>
+			<p>I was just reading the Spoon River Anthology which I want you no more to trouble about as I found it here on loan from the Y.M.C.A. library, when I received the wonderful bunch about Babbitt you mailed me on February 11th. Ye Gods and Goddesses, it's too much and they say French people got the standard in kindness all over the world. There is a fellow somewhere about the river Fox who will someday send me his shirt last I should want one. Say, Mr Chiuminatto, it's too awfully nice of you to behave so. You'll lose your chances to hustle in the world and conquer the place you deserve, if you go on so wasting all your time in typing me slang-comments. I feel lost in your graciousness. You cause me to dislike all acquaintances of mine, as I find out none of them has the one per cent of your kindness. I peruse and devour the whole of your sheets with the greatest eagerness, trying to make the best out of them and also to feel worth of the stuff where I don't always succeed, but, honestly, Mr Chiuminatto, don't take it too much as a duty wasting so much of your time. When I begged of you the boon of some explanation I did not mean to overcharge you so. Methinks now day and night you sit typing comments for me.</p>
+			<p>Not only you receive my brazen-faced lists as &quot;flowers in May&quot;, but now you start also an office of your own to pick out the raw material. You know, I understand you believe in &quot;productiveness&quot;, but beware of the nervous depletion which will certainly overcome you. That day, I'll mail down the prescription of the hypos I'm myself already - giovinezza, primavera di bellezza - practising.</p>
+			<p>I guess, it's useless now I proceed to praise you for the carefulness and clearness of your new list. I should only repeat what I've already written a month ago on replying your first letter. With such a teacher, I cannot fail a &quot;glorioso parto&quot;. Besides, the best compliment I can pay you is to profit from your lessons. You bet I mean to be a go-getter, but to succeed!</p>
+			<p>As for your own opinion about Babbitt, you already know I think the same and, moreover, now I've received all your useful explanations, I stick only the more into it. Those personae are really capital fellows and it is an endless carnival of fun to follow them throughout Lewis' slang-stunts of style. I must thank you also for this, that your two letters have renewed and increased my own delight in this wonderful book. Now, I'll cast aside my studies and buy at Casanova's Lewis' two other works Our Mr Wrenn and Arrowsmith. It's too like a merry-go-round the review their author wields on American &quot;sassiety&quot;. I wont procrastinate and so you wait for another task to fulfil. I hope, however, to be now on a firmer ground, thanks to your all surpassing help.</p>
+			<p>As for the Sanssôssi have it and keep still. You have such things on your conscience, you could not have them wiped out even should we mail you the whole peninsular boot.</p>
+			<p>What you say of Sorrel and Son is quite true and I don't know what you're complaining about the &quot;childish American spirit I seem to find in it&quot;. What I said about its simplicity and triviality was, as I warned you, in a good sense, that is, the description of what I thought were the nature of the world the book performed. I certainly blundered in my English as I meant that its characters were common people, stripped of all the classical learning which underlies the pages of the Sanssôssi. I simply marked a difference between the books without giving a judgement. Now, if you like, I can tell you that surely Deeping is a powerful writer and to prove it would suffice the XXVII-XXVIII chapters, the love-affair of Kit and Mary, &quot;the face like a flower&quot; a wonderful episode, and the pages on the death of Sorrel, surely the best of all. To say nothing, you know, of the plot taken as a whole, a true story, all made up of original and alive characters scattered, in your saxon way, without savings, to fill a real world. But about Deeping's being more American-like than Lewis I should disagree on account also of the author's choice of England as his background. So little he felt a true want of American things!</p>
+			<p>We are agreed that it's not a novel background which brings the spirit of its nation in the style, and it would suffice the sheer Frenchness of certain exotical novels by Pierre Loti to prove it, but here in the case of Sorrel and Son there is something else. Not only the places, but also the characters are English people, and not only the accessory ones, but the true protagonists with their English sense, as for Sorrel, of a living continuity in his own son, notwithstanding death: and as for the son, with the sense of duty and manly conduct of life, the true self-denying and matter-of-fact spirit which has made the greatness of the British empire.</p>
+			<p>What there is American-like in it is perhaps only that matter-of-factness in the exercise of one's duty and in all other tricks of life and above all, the complete absence of any traditions. This last characteristic, though, methinks has become a little a conventional one in American concerns: I'm discovering that, if ever there was a nation yearning and struggling for a past, a tradition, an ancestry, in short, an aristocracy, that's yours. All your writers are now concerned with this problem, how to create a national background and spirit - be they aware of it or not. All your Mid-Western writers for instance - Anderson and Lee Masters, etc., - describing country- and little-town-life, to say nothing of all nineteenth century writers, like Hawthorne, Whitman and Twain, who, either by opposing America to Europe, or reviving colonial life with the passion of the true folklorist, have created the myth of your new nation and history.</p>
+			<p>In this sense Sorrel and Son has a certain romantic glamour on it which blurs its true poetry of life. It yields to a kind of easiness, to a delusion of picturesqueness which just shows itself in its research of what is more common in the foreign landscape: the inn- and college-life, a certain stiffness and tautness of the characters, Kid, the earnest one, and Buck, the villain.</p>
+			<p>But, after all is said, I repeat Sorrel and Son is a good book, an unforgivable plot with some very seizing pages.</p>
+			<p>Say, now, Mr Chiuminatto, have you not yet received Arnulfi and Remarque that you don't speak about in your letter? Nevertheless you have already Monti which I mailed just ten days later. How come? Would they be lost? Say me about, for as I wrote you the guilt would be mine, and I would then repair.</p>
+			<p>I've read your innuendoes on Miss Franchi but till now I did not receive any request of the comments and accordingly hope I will never on account of the Italian word which explains the phrase &quot;that's what gets me&quot;. As for the future you will act as you'll like and all will be for the better. I think after all Miss Franchi was a good friend of yours here in Italy.</p>
+			<p>And now to the great novelty of your letter, the corking proposition you make me. I think, here also, it's useless to indulge in eulogistic prose about your well-known kindness. You really are keeping an eye skinned on all that can avail me and I've only to thank you for such earnestness of purpose. You bet I care to accept! I'll do more: I'll here at once unite a list of authors and books among which you can find out six the libraries possess. You understand, I put down many titles in order you can find out at least six. I'll agree with whatever condition you'll put on me: I know too well your skill and understanding, for me to advise you. As for the card you intend to ask of the Director, I also think it's difficult to obtain. You try, however. Meanwhile we'll open another current account.</p>
+			<p>I maintain here the ordination of the three books I wrote about lately, and this as I want them readily - you remember: Cabell, Frank and Dos Passos - but stop the purchase of those of poetry Lee Masters, Lindsay and Sandburg.</p>
+			<p>As for Lee Masters, you know, I found it here - and Lindsay and Sandburg I enter in the list you'll look for in the public circulation libraries.</p>
+			<p>Other books, you can keep in mind to make up the six allowed to loan, are:</p>
+			<p/>
+			<p>The Man against the Sky by Edward Arlington Robinson</p>
+			<p>Tulips and Chimmeys, LVI [XLI] Poems by E. E. Cummings (this you can also buy and send me, at once, if it's not too dear).</p>
+			<p>Blue Voyage by Conrad Aiken</p>
+			<p>Roan Stallion by Robinson Jeffers</p>
+			<p>Winesburg Ohio, A New Testament and Mid-American Chants by + Sherwood Anderson</p>
+			<p>The Sun also Rises and Men without Women by E. Hemingway</p>
+			<p>+ The Great American Novel by William Carlos Williams</p>
+			<p>+ whatever work by E. O'Neill.</p>
+			<p>Caroling Dusk by Countee Cullen</p>
+			<p>whatever work by Ben Hecht and by Pr. McAlmon</p>
+			<p>The Making of Americans and Tender Buttons by + Gertr. Stein</p>
+			<p>The apple of the eye and The grandmothers by Glenway Wescott</p>
+			<p>Gatsby the magnificent by Scott Fitzgerald</p>
+			<p>+ The case of Mr Crump by Ludwig Lewisohn</p>
+			<p>(the + denotes that this book has the preference)</p>
+			<p/>
+			<p>And so, Mr Chiuminatto, you have your choice. Perhaps before June when the loan will begin I'll want hurriedly from your kindness some of these books and then I'll write you to look for and buy them.</p>
+			<p>Methinks the many books of poetry which are here noted will not be likely for a circulation library to possess: you can however reply me about, and we'll decide something further.</p>
+			<p>And now, I have taken advantages of you in all possible manners. I skulk away and on the bargain sting you in the rear: here's a list of some words from Babbitt I yet am puzzled about and some others gleaned from Van Vechten, O. Henry and Anderson.</p>
+			<p>Ah, Mr Chiuminatto, if it lasts so, you'll have translated the whole body of American literature! I guess you are muttering: Damned fool! I'm too late onto his intentions now. He has made a shipping-clerk of me and, what's the worst, he teases me with the very words I taught him. Blow him! Don't you, Mr Chiuminatto?</p>
+			<p>But, think it out: ain't you enticing people with your unearthly serviceableness?</p>
+			<p>Now [...] and always chums</p>
+			<p>Cesare</p>
+		</body>
+	</text>
+</TEI>
