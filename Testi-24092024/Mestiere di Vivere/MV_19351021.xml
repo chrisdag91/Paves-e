@@ -93,8 +93,8 @@
 	<text>
 		<body>
 			<p><date when="1935-10-21">21 ott.</date></p>
-			<p>“... sicut nunc foemina quaeque</p>
-			<p>cum peperit, dulci repletur lacte...”</p>
+			<p>“...<q cert="high" generatedBy="human" source="#Lucrezio_DeRerumNatura_V" type="spoken" xml:space="default"> sicut nunc foemina quaeque</q></p>
+			<p><q cert="high" generatedBy="human" source="#Lucrezio_DeRerumNatura_V" type="spoken" xml:space="default">cum peperit, dulci repletur lacte...</q>”</p>
 		</body>
 	</text>
 </TEI>
