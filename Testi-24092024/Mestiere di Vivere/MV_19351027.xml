@@ -93,7 +93,7 @@
 	<text>
 		<body>
 			<p><date when="1935-10-27">27 ott.</date></p>
-			<p>“<q cert="high" generatedBy="human" source="#Lucrezio_DeRerumNatura_I" type="spoken" xml:space="default">in gremium matris terrai praecipitavi</q>t”</p>
+			<p>“<q cert="high" generatedBy="human" source="#Lucrezio_DeRerumNatura_I" type="spoken" xml:space="default">in gremium matris terrai praecipitavit</q>”</p>
 		</body>
 	</text>
 </TEI>
