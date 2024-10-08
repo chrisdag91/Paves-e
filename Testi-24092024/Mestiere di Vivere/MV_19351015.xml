@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,10 +11,88 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351015.xml?date_annotation_20241008155541262",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-08T13:55:41.262Z",
+	"dcterms:modified": "2024-10-08T13:55:41.262Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351015.xml?date_annotation_20241008155541262#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351015.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351015.xml?date_annotation_20241008155541262#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-10-15"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>15 ott.</p>
+			<p><date when="1935-10-15">15 ott.</date></p>
 			<p>Eppure ci vuole un nuovo punto di partenza. Essendosi la mente abituata a un certo meccanismo di creazione, è necessario uno sforzo altrettanto meccanico per uscirne e sostituire ai monotoni frutti spirituali, che si riproducono, un nuovo frutto che sappia di ignoto, di innesto inaudito.</p>
 			<p>Non che occorra sostituire al lavorio mentale un impulso dall’esterno, ma trasformare corporalmente la materia e i mezzi per trovarsi di fronte a problemi nuovi; avuto il punto di partenza, s’intende che lo spirito riprenderà tutto il suo gioco. Senza questo scatto materiale, non posso uscire dalla pigra e anch’essa quindi materiale riduzione abitudinaria di ogni situazione in schema e sensibilità d’immagine-racconto. Occorre un intervento dall’esterno per mutar direzione all’istinto diventato cosa esterna e quindi prepararlo a nuove scoperte. Se veramente questi quattro anni di poesia li ho vissuti, tanto meglio: ciò non potrà che giovarmi con una maggiore incontentabilità e un miglior senso dell’espressione.</p>
 			<p>Le prime volte, mi parrà di essere ritornato ai miei tempi arcaici e mi parrà anche di non aver nulla da dire. Ma non debbo dimenticare com’ero smarrito prima dei Mari del Sud e come il mio mondo lo presi a conoscere via via che lo creavo. Non prima. Non però che manchi un peggioramento di difficoltà, oggi. In Lavorare stanca entrava tutta la mia esperienza fin dal giorno in cui apersi gli occhi, ed era tanta la gioia di scavare al sole il mio primo oro, che non sentivo monotonia. Tutto allora in me era da scoprire. Ora, che ho saccheggiato la vena, mi sono troppo esausto e ben definito per avere ancora la forza di gettarmi su uno scavo con grandi speranze. Il paese è tutto sondato e misurato, e la mia originalità so in che consiste. Inoltre, negli innumerevoli tentativi prepoetici lasciai appunto cadere, sgualcendoli, i modi del racconto in prosa e del romanzo. Conosco troppo gli ostacoli di questa strada, cui ho tolto anche la gioia tonificante del primo contatto. Eppure bisogna percorrerla.</p>
