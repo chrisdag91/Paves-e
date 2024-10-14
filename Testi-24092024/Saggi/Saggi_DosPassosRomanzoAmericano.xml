@@ -4129,6 +4129,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014130305526",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T11:03:05.526Z",
+	"dcterms:modified": "2024-10-14T11:03:05.526Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014130305526#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014130305526#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/quote/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2995469",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014130332271",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T11:03:32.271Z",
+	"dcterms:modified": "2024-10-14T11:03:32.271Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014130332271#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014130332271#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/quote/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2998324",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4152,7 +4310,7 @@
 			<p><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">... Era cominciata l’offensiva tedesca, le linee eran così vicino a Parigi che le ambulanze versavano feriti direttamente agli ospedali-base. Tutta la notte i casi da barella si allineavano sui larghi marciapiedi sotto gli alberi in foglioline di fronte all’ospedale; Dick aiutava a portarli su per le scale di marmo nella sala di ricevimento. Una notte lo misero di servizio all’uscita della sala delle operazioni, e per dodici ore ebbe il lavoro di portar via secchie di sangue e garza, da cui spuntavano qualche volta un osso fracassato o un pezzo d’un braccio o d’una gamba. Quando aveva libera uscita, camminava verso casa indolenzito dalla stanchezza, nell’alba, odor di fragola, di Parigi, pensando alle facce e agli occhi e ai capelli bagnati di sudore e alle dita contratte, macchiate di sangue e di sporco, e ai colleghi che scherzavano e imploravano sigarette e ai gemiti gorgoglianti dei casi polmonari.</quote></p>
 			<p>(<title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title>, <persName ref="#RichardEllsworthSavage" type="fictional">Richard Ellsworth Savage</persName>).</p>
 			<p>La ragione per cui questa sensibilità impressionistica e giudicante raggiunge una consistenza poetica soltanto negli ultimi due volumi, è che qui essa si assoggetta alla praticità narrativa delle biografie. È difficile trovare in queste un brano di pura descrizione. Le pagine sono tutte permeate di fatti e si comprende alla fine come ogni frammentarietà sia superata per l’abbondanza di esperienze umane che si affollano nei protagonisti. Questa materia impressionistica è ormai carne e vita dei personaggi, e non scopo a se stessa. Del resto ci sono nel romanzo sezioni dove volontariamente <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> ha ammassato a scopo d’intermezzo manciate di pure impressioni, rese in uno stile avanguardisticamente spregiudicato e letterario. Sono le sezioni – tra un pezzo e l’altro delle biografie – intitolate <title level="a" ref="#ObbiettivoFotografico">Obbiettivo Fotografico</title>, dove l’autore dà in una pagina una specie di veduta parolibera delle proprie impressioni al tempo dei vari avvenimenti che passano nel racconto; ma anche qui, tranne qualche momento esageratamente cerebrale e, per mania d’immediatezza, oscuro, esse reggono il confronto, per ricchezza e serietà d’esperienza, colle migliori pagine narrative.</p>
-			<p><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">... alla Gare de l’Est cantano l’Internazionale intera la gendarmerie nationale si apre lentamente una strada giù per Magenta tra pietre fischi pezzi di ferro l’Internazionale Mort aux Vaches Barricate dobbiamo costruire barricate giovanotti cercano di abbattere le saracinesche del negozio di un armaiolo una rivoltella spara una vecchia a una finestra è stata colpita (Di chi è quel sangue sui ciottoli?) corriamo tutti per una strada laterale scansando in cortili concierges che cercano di chiudere le porte cavalleria che carica per dodici petardo facce spaventate e vili dietro i loro grossi baffi sotto gli elmi da albero di Natale a un angolo scontrai un amico che correva anche lui Sta’ attento Sparano per uccidere ed è cominciato a piovere dirotto così ci precipitiamo insieme l’istante prima che una saracinesca si sbatta sull’entrata di un piccolo cafè scuro e tranquillo dentro alcuni lavoratori vecchi bevono scontrosamente al banco Ah les salops Non ci sono giornali Qualcuno diceva che la rivoluzione aveva trionfato a Marseille e a Lille Ça va taper dur Beviamo grog americano abbiamo i piedi bagnati al tavolo vicino due uomini anziani giocano a scacchi su una bottiglia di vino bianco più tardi guardiamo fuori di sotto alla saracinesca calata sulla porta nella pioggia dirotta sulle vie vuote soltanto un ombrello fracassato e un vecchio berretto a quadri accanto alle pietre pulite e un manifestino strappato L’Union Des Travailleurs Fera.</quote></p>
+			<p><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">... alla Gare de l’Est cantano l’Internazionale intera la gendarmerie nationale si apre lentamente una strada giù per Magenta tra pietre fischi pezzi di ferro l’Internazionale Mort aux Vaches Barricate dobbiamo costruire barricate giovanotti cercano di abbattere le saracinesche del negozio di un armaiolo una rivoltella spara una vecchia a una finestra è stata colpita (Di chi è quel sangue sui ciottoli?) corriamo tutti per una strada laterale scansando in cortili concierges che cercano di chiudere le porte cavalleria che carica per dodici petardo facce spaventate e vili dietro i loro grossi baffi sotto gli elmi da albero di Natale a un angolo scontrai un amico che correva anche lui Sta’ attento Sparano per uccidere ed è cominciato a piovere dirotto così ci precipitiamo insieme l’istante prima che una saracinesca si sbatta sull’entrata di un piccolo cafè scuro e tranquillo dentro alcuni lavoratori vecchi bevono scontrosamente al banco Ah les salops Non ci sono giornali Qualcuno diceva che la rivoluzione aveva trionfato a <placeName key="Marseille Provence-Alpes-Côte d'Azur France" ref="https://geonames.org/2995469">Marseille</placeName> e a <placeName key="Lille Hauts-de-France France" ref="https://geonames.org/2998324">Lille</placeName> Ça va taper dur Beviamo grog americano abbiamo i piedi bagnati al tavolo vicino due uomini anziani giocano a scacchi su una bottiglia di vino bianco più tardi guardiamo fuori di sotto alla saracinesca calata sulla porta nella pioggia dirotta sulle vie vuote soltanto un ombrello fracassato e un vecchio berretto a quadri accanto alle pietre pulite e un manifestino strappato L’Union Des Travailleurs Fera.</quote></p>
 			<p>(<title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title>, <title level="a" ref="#ObbiettivoFotografico ">Obbiettivo Fotografico</title> –40 -).</p>
 			<p>Sempre la serietà e la vivezza delle piccole cose reali e, se pure talvolta l’ispirazione pare un grande fatto – l’Armistizio, gli scioperi, i comizi, – mai il racconto lascia la cronaca biografica dei protagonisti, i loro crucci, la loro grettezza, per perdersi in generalità. Malgrado l’interesse sociale e rivoluzionario di Dos Passos per i grandi fatti, sempre il suo personaggio tipico resta l’operaio vagabondo, il compagno lavoratore, che si strappa la schiena per farsi una ragione e non ci riesce e la sua vita trascorre tra le multicolori e per questo, anche se tragiche, ottimistiche sensazioni che s’è visto.</p>
 			<p>L’ultima citazione ci mette innanzi il lato forse più interessante della personalità di Dos Passos. Tutti i suoi libri sono rappresentazioni evidentemente polemiche della lotta ch’egli vede combattersi con coscienza di classe, nel nostro secolo, tra lavoro e capitale. E non è dubbio per quale parte egli tenga. Basta, per farsene un’idea, ricordare le sezioni dei due ultimi volumi, intitolate Film-Giornale, periodicamente ricorrenti tra un pezzo e l’altro delle biografie. Esse sono centoni messi insieme da stralci di giornali, brani di canzonette, motti, tratti di discorsi e via dicendo, apparsi circa il tempo in cui cadono tra le biografie i vari Film-Giornale. Sono brevi sciocchezzai dell’ipocrisia e retorica capitalistiche, del colpevole disorientamento del mondo borghese durante e dopo la guerra. Naturalmente non hanno a che fare coll’arte, ma in certe scelte, in certi accostamenti, si rivela pure una critica spietata che può valere molti giambi e molti epodi.</p>
