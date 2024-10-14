@@ -5323,6 +5323,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014132123814",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T11:21:23.814Z",
+	"dcterms:modified": "2024-10-14T11:21:23.814Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014132123814#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014132123814#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[46]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/1847154387445430970009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5371,7 +5450,7 @@
 			<p>Una sola volta nelle biografie chiaramente <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> si sfoga. È la storia di <persName ref="#BenComtpon" type="fictional">Ben Compton</persName>, autodidatta e comunista, che la «società capitalistica» dopo persecuzioni e brutalità finisce per cacciare in prigione. Si vorrebbe trovare che questa biografia è soltanto un pamphlet, ma anche qui l’umanità del personaggio è sorprendente. Durante una festa patriottica dopo l’Armistizio, <persName cert="high" ref="#BenCompton">Ben</persName>, colpevole di aver tenuto un comizio, attende di venir sepolto in carcere.</p>
 			<p><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">... Broadway Bassa era tutta a striscioni rossi bianchi e azzurri, per le bandiere; c’era gran folla d’impiegati, stenografi e fattorini allineati sui due marciapiedi, quando <persName ref="#BenCompton" type="fictional">Ben</persName> uscì dalla sotterranea. Civiche in motocicletta tenevan sgombra la via. Dalle parti del Bastione giunse il frastuono di una banda militare che suonava Tenete Accesi i Focolari. Tutti avevano un’aria scossa e felice. Era difficile trattenersi dal camminare al passo con la musica nella fresca mattinata estiva, che odorava di porto e di navi. Ben dové continuare a dirsi: questa è la gente che ha mandato <persName cert="high" ref="#Debs">Debs</persName> in prigione, questa è la gente che ha fucilato <persName ref="#JoeHill" type="fictional">Joe Hill</persName>, che ha assassinato <persName ref="#FrankLittle" type="fictional">Frank Little</persName>, questa è la gente che ci ha picchiati a <placeName key="Everett Massachusetts United States" ref="https://geonames.org/4936008">Everett</placeName>, che mi vuol far marcire per dieci anni in prigione.</quote></p>
 			<p>(<title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title>, <persName cert="high" ref="#BenCompton"><persName ref="#BenCompton">Ben Compton</persName></persName>).</p>
-			<p>Occorre chiarire bene questa felice posizione di <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> che da noi, troppo unilateralmente, corre il pericolo di venir ridotto a un oratore libellista della scuola sociale di <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Upton Sinclair</persName> e del <persName key="London, Jack, 1876-1916" ref="http://viaf.org/viaf/315943496/" cert="high" type="real">Jack London</persName> di The Iron Heel, oppure a un cerebrale novecentista formato agli influssi europei del futurismo, del frammentismo e della neue Sachlichkeit, il tutto mal misto e peggio digerito. Si osservi invece come questi due eccessi vengano nelle ultime opere a esaurirsi in un significativo distacco dalla narrazione: il primo, nelle sezioni Film-Giornale, e il secondo, negli Obbiettivo Fotografico. Mentre le pagine narrative, sgombre da teoriche o avanguardismi, restano il vero Dos Passos, fatto di umana comprensione e immediatezza e di una moralità giudicante che supera ogni polemica e ogni ricerca stilistica.</p>
+			<p>Occorre chiarire bene questa felice posizione di <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> che da noi, troppo unilateralmente, corre il pericolo di venir ridotto a un oratore libellista della scuola sociale di <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Upton Sinclair</persName> e del <persName key="London, Jack, 1876-1916" ref="http://viaf.org/viaf/315943496/" cert="high" type="real">Jack London</persName> di <title key="Iron heel" ref="http://viaf.org/viaf/1847154387445430970009/" level="m">The Iron Heel</title>, oppure a un cerebrale novecentista formato agli influssi europei del futurismo, del frammentismo e della neue Sachlichkeit, il tutto mal misto e peggio digerito. Si osservi invece come questi due eccessi vengano nelle ultime opere a esaurirsi in un significativo distacco dalla narrazione: il primo, nelle sezioni Film-Giornale, e il secondo, negli Obbiettivo Fotografico. Mentre le pagine narrative, sgombre da teoriche o avanguardismi, restano il vero Dos Passos, fatto di umana comprensione e immediatezza e di una moralità giudicante che supera ogni polemica e ogni ricerca stilistica.</p>
 			<p>In genere, tendiamo troppo noi europei a trovare fonti nostre ai fenomeni spirituali americani; col risultato di ridurre una letteratura – che ora in fatto di poesia ha se mai da insegnarci – a una maldestra esasperazione di motivi nostrali. Sta di fatto che il Nordamerica da tempo possiede una sua ricca tradizione che, in più, è tanto vicina nel tempo da nutrire, anche se non cercata, i suoi giovani, senza quegli sforzi di voluta rinascita che troppo sovente da noi dànno un tono di letteratura ai meglio intenzionati. Che Dos Passos, come i suoi commilitoni che han vissuto la guerra, abbia imparato qualcosa in Francia e in Europa, è fuori di discussione e torna a tutto suo onore, dato che è privilegio dei giovani profittare in modo vitale di ogni contatto con altre civiltà; ma anche per lui mi pare si esageri trascurandone le virtù indigene per cercarvi quegli influssi europei che sono l’ossessione della nostra cerebralità. Ora, Dos Passos è tutto imbevuto degli spiriti di quella generazione nordamericana ch’era matura al tempo della guerra mondiale. Oltre Upton Sinclair e Jack London, che pure han contato, c’è in lui essenziale l’influsso di Dreiser e di Lewis che, all’esposizione polemica di una società malcongegnata, aggiungono il ricco interesse umano verso i tipi di quella società.</p>
 			<p>Ho detto più sopra che Dos Passos si accosta per qualche aspetto a Walt Whitman. E questa, per i vertiginosi settant’anni di intervallo tra i due, non paia un’acrobazia. Poiché c’è Carl Sandburg, coetaneo di Lewis, che tra i due fa da ponte. Di Walt Whitman è evidente in Sandburg e poi in Dos Passos il fare stilistico a particolari coordinati, la vivezza impressionistica e quella disinvoltura sintattica, che, più che non il lessico, giova alla diversificazione di un «volgare americano» dall’inglese. Inoltre Carl Sandburg ha sostituito i problemi sociali dei suoi anni all’apocalittico democratismo whitmaniano, ma per il resto, per la sensibilità, discende bene da quello. E Dos Passos, in quell’ultimo gruppo di sezioni di The 42nd Parallel e 1919, che non han nome collettivo e s’intitolano a volta a volta Big Bill, Imperatore dei Caraibi, Il Mago dell’Elettricità, Meester Veelson, La Casa di Morgan, Il Corpo di un Americano, ecc., ripete il fare oratorio e muscoloso di quei due. Son specie di poesie biografiche su un individuo rappresentativo americano; figure che han dominato nella vita politica e spirituale del paese, rievocate in tratti rapidi e, anche qui, quasi mai ironici e grossolanamente polemici: Dos Passos guarda piuttosto alla tragedia dell’uomo, anche se suo nemico (e la tragedia c’è sempre); per cui la moralità nasce, non dalle critiche o dalle approvazioni, ma semplicemente da una rappresentazione rapida e severa. Quest’è Sandburg:</p>
 			<p>Conosco un portatore di ghiaccio, vestito di una camicia di flanella con bottoni di</p>
