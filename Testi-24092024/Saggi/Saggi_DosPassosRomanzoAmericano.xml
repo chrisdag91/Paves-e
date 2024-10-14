@@ -3255,6 +3255,164 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014124330496",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T10:43:30.496Z",
+	"dcterms:modified": "2024-10-14T10:43:30.496Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014124330496#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014124330496#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3017382",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014124352051",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T10:43:52.051Z",
+	"dcterms:modified": "2024-10-14T10:43:52.051Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014124352051#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014124352051#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2977921",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3266,7 +3424,7 @@
 			<p>Dopo ulteriori ricerche e tentativi di teatro che qui non c’interessano, <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> ritorna a questa concezione nei suoi ultimi volumi: <title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/"><title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/" level="m">The 42nd Parallel</title></title> (<date when="1929">1929</date>) e <title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/"><title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title></title> (<date when="1931">1931</date>) che ne è la continuazione. Ancora egli racconta per giustapposizione di figure, delle quali ciascuna riproduce, nel suo isolamento dalle altre, uno stesso dramma cogli stessi rapporti ambientali. Ogni personaggio esclude quindi tutti gli altri del libro, senza gerarchie costruttive. Poeticamente nessuno serve all’altro, benché <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName> s’illuda di dare, colla loro contemporaneità e giustapposizione caotica, l’atmosfera di un mondo caoticamente tormentato. Di qui, la sazietà a leggere l’una dopo l’altra tutte queste serie di episodi. Ma il curioso è che, per la prima volta in <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName>, tutte queste repliche dello stesso mondo sono vive, malgrado la comune falsariga, e da qualunque si cominci, la prima sarà sempre la più efficace.</p>
 			<p>La ragione di questo fatto paradossale è che <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName> ha scelto di raccontare non più per episodi ma per tratti di biografia, e ciò non è poco, poiché sebbene anche questi tratti di biografia siano tutti intessuti con episodi dello spirito e dello stile che formavan quelli di <title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/"><title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/" level="m">Manhattan Transfer</title></title>, pure la loro semplice esposizione – non più ristretta al quadretto impressionistico, ma protratta di fatto in fatto per lo stesso personaggio, in modo che qualunque istante della vita di questi getti luce sul suo passato e futuro – origina una certa prospettiva, organizza un’esperienza umana. <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> ha un modo ben suo di raccontare le biografie: comincia dalla nascita, o lì intorno, e non lascia mai vuoto nemmeno un giorno del suo protagonista; condensa talvolta: «in quel mese», «in quell’anno»; ma nulla è mai taciuto. Non si trovano mai in lui quei salti, quei sottintesi così comodi per finire un capitolo con effetto drammatico e cominciare un altro con disinvoltura. Persino delle spezzature inevitabili per il vario intrecciarsi di ciascuna biografia <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName> non approfitta in questo senso; ricomincia donde ha lasciato e tira avanti. E poi, alla fine del libro, ciascuna biografia si tronca d’improvviso, senza ragione apparente. A <title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title> <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> potrà aggiungere quando vorrà un altro volume, riprendendo i protagonisti che non gli sono morti tra le mani, o inventandone quanti altri gli piacerà. Non c’è sinora nei due volumi nessuna costruzione che possa riceverne danno.</p>
 			<p>La presunta costruzione è lasciata alla crisi della guerra, che raccoglie tutti i protagonisti, uomini e donne, e serve loro di triste esperienza. Ma questo fatto esterno non costruisce nulla in realtà, perché non ha nulla di sostanziale da insegnare ai protagonisti, che questi non sapessero già nel borghese e rivoluzionario mondo dell’anteguerra.</p>
-			<p>Di più, capita che questi protagonisti si scambino nel ricordo del lettore. Sono costruiti con una prodigiosa ricchezza episodica e nemmeno un loro caso sfugge all’autore, ma questo, che dovrebbe maggiormente diversificarli, finisce per scomporli tutti in un multicolore e sempre uguale panorama del caos del mondo e dell’insufficienza e ingiustizia congenite alla società attuale. Joe Williams è un giovanotto ignorante che s’incanaglisce tra le ciurme e i bordelli esotici, pur di sfuggire alla leva e vivere la sua vita; e poi è accoppato in Francia in una rissa da un ufficiale senegalese, in un cabaret di Saint-Nazaire. Ebbene, tutti i protagonisti delle biografie – giovani universitari maledicenti all’orrore e alla stupidità del conflitto; crocerossine spregiudicate, intellettuali e, con tutta la loro libertà, sofferenti; operai e agitatori maltrattati dalla vita e dal «capitalismo» – tutti ripetono in sé le esperienze di Joe Williams: ciascuno fugge la sua leva, il suo annientamento sotto la macchina di una società che ha potuto finire a sfasciarsi nella catastrofe della guerra. Si differenziano i fatti singoli, i dati esterni, i pensieri espressi dai personaggi; ma il problema, il dramma è in tutti lo stesso. Tanto che leggendo ci si chiede talvolta di quale dei personaggi <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName> stia narrando. Non solo: in ogni episodio di ciascuno c’è il dramma di tutta la vita di costui o costei, che è poi la vita di tutti.</p>
+			<p>Di più, capita che questi protagonisti si scambino nel ricordo del lettore. Sono costruiti con una prodigiosa ricchezza episodica e nemmeno un loro caso sfugge all’autore, ma questo, che dovrebbe maggiormente diversificarli, finisce per scomporli tutti in un multicolore e sempre uguale panorama del caos del mondo e dell’insufficienza e ingiustizia congenite alla società attuale. Joe Williams è un giovanotto ignorante che s’incanaglisce tra le ciurme e i bordelli esotici, pur di sfuggire alla leva e vivere la sua vita; e poi è accoppato in <placeName key="Republic of France  France" ref="https://geonames.org/3017382">Francia</placeName> in una rissa da un ufficiale senegalese, in un cabaret di <placeName key="Saint-Nazaire Pays de la Loire France" ref="https://geonames.org/2977921">Saint-Nazaire</placeName>. Ebbene, tutti i protagonisti delle biografie – giovani universitari maledicenti all’orrore e alla stupidità del conflitto; crocerossine spregiudicate, intellettuali e, con tutta la loro libertà, sofferenti; operai e agitatori maltrattati dalla vita e dal «capitalismo» – tutti ripetono in sé le esperienze di Joe Williams: ciascuno fugge la sua leva, il suo annientamento sotto la macchina di una società che ha potuto finire a sfasciarsi nella catastrofe della guerra. Si differenziano i fatti singoli, i dati esterni, i pensieri espressi dai personaggi; ma il problema, il dramma è in tutti lo stesso. Tanto che leggendo ci si chiede talvolta di quale dei personaggi <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName> stia narrando. Non solo: in ogni episodio di ciascuno c’è il dramma di tutta la vita di costui o costei, che è poi la vita di tutti.</p>
 			<p>Qualche volta la scena si fa comica, ma di una comicità a denti stretti; sotto quell’assurdo, quel contrasto risibile, c’è sempre qualcuno che geme o bestemmia; e <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> impassibile rende tutto con la stessa aria oggettiva, rapida, cronistica dell’uomo che ha fretta e non può baloccarsi a cercare gli effetti. Questa è la sua potenza.</p>
 			<p>... E Joe e Del se ne andarono in un tassì guidato da un uomo che lui conosceva e tutti gettavano riso e Joe scoprì che aveva un cartello Oggi Sposi appuntato alla coda dell’abito e Del continuava a piangere e, quando arrivarono all’alloggio, Del si chiuse nella stanza da bagno e non rispondeva quando la chiamava e Joe aveva paura che fosse svenuta. Joe si tolse l’abito nuovo di panno blu, il colletto e la cravatta, e camminava avanti e indietro, non sapendo cosa fare. Erano le sei pomeridiane. Doveva trovarsi a bordo a mezzanotte, perché sarebbe partito per la Francia appena giorno. Non sapeva cosa fare. Pensò che forse Del aveva bisogno di mangiar qualcosa e le fece cuocere uova e prosciutto sulla stufa. Quando tutto fu freddo e Joe camminava avanti e indietro bestemmiando fra i denti, Del uscì dalla stanza da bagno, fresca e rosea come niente fosse stato. Disse che non poteva mangiar nulla, ma andiamo a un cinema... – Ma cattivaccia, – disse Joe, – io bisogna che tagli la corda a mezzanotte –. Del ricominciò a piangere e Joe arrossì e si sentì terribilmente scosso. Del gli si appoggiò dicendogli: – Non ci fermeremo per tutto lo spettacolo. Torneremo in tempo –. Egli l’afferrò e cominciò a stringerla, ma lei lo tenne scostato, con forza, e disse: – Dopo. Joe non riuscì a guardare il film. Quando tornarono all’alloggio erano le dieci. Del lasciò che la svestisse, ma poi saltò nel letto e si avvolse intorno le coperte e piagnucolò che aveva paura di fare un bambino e lui doveva aspettare finché lei trovasse come si faceva per non fare un bambino. Tutto ciò che gli permise fu di sfregarsi a lei attraverso le coperte e poi d’un colpo fu mezzanotte meno dieci e Joe dové saltare nei vestiti e precipitarsi alla calata. Un vecchio negro lo portò remando fin dove era ancorata la nave. Era una dolce profumata notte di primavera, senza luna. Joe sentì stridere sul suo capo e cercò di volgere gli occhi per veder passare gli uccelli sopra le stelle pallide. – Son l’oche, padrone, – disse il vecchio negro con voce placida. Quando salì a bordo, tutti cominciarono a pigliarlo in giro e dicevano che aveva l’aria di non star più dritto dalla fatica. Joe non sapeva cosa dire e così parlò grosso e prese in giro gli altri e mentì come un birro.</p>
 			<p>(1919, Joe Williams).</p>
