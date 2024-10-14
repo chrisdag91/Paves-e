@@ -7628,6 +7628,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135152650",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T11:51:52.650Z",
+	"dcterms:modified": "2024-10-14T11:51:52.650Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135152650#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135152650#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[72]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/89457467/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014135219274",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T11:52:19.274Z",
+	"dcterms:modified": "2024-10-14T11:52:19.274Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014135219274#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014135219274#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[79]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/185050943/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -7702,14 +7861,14 @@
 			<p>e morì</p>
 			<p>un’oratore arringante dal campidoglio di una repubblica che non era mai esistita;</p>
 			<p>ma noi ricorderemo</p>
-			<p>come sedeva fermo nel marzo <date when="1917">1917</date> mentre Woodrow Wilson veniva inaugurato per la</p>
+			<p>come sedeva fermo nel marzo <date when="1917">1917</date> mentre <persName key="Wilson, Woodrow, 1856-1924." ref="http://viaf.org/viaf/89457467/" cert="high" type="real">Woodrow Wilson</persName> veniva inaugurato per la</p>
 			<p>seconda volta, e per tre giorni tenne la grande macchina immobile. Non lo lasciavano</p>
 			<p>parlare; le tribune lo mangiavano d’odio; il senato era pronto a linciarlo:</p>
 			<p>un uomo massiccio con una faccia tirata, una gamba sporta nella navata, le braccia</p>
 			<p>conserte e un sigaro masticato in un angolo della bocca,</p>
 			<p>e un discorso mai pronunciato sul tavolino,</p>
 			<p>un uomo caparbio che non esprimeva altra opinione che la sua.</p>
-			<p>(The 42nd Parallel, Fighting Bob).</p>
+			<p>(<title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/" level="m">The 42nd Parallel</title>, Fighting Bob).</p>
 			<p>Quest’energia di tratti, tutta realistica, che salva il verso libero degli americani dal fiacco impressionismo del verso libero europeo, è l’eredità di Walt Whitman. Raramente lui o Carl Sandburg hanno tentato nel verso le raffinate sottigliezze di sensazioni a cui di solito si riduce il contenuto di questa poesia in Europa. Piuttosto che secondo una legge musicale di armonia fonica, gli americani, dietro a Walt Whitman, dividono i loro versi secondo la legge logica della successione dei pensieri. Quest’è la loro originalità, di lontana derivazione biblica e particolarmente felice in una nazione dove, da Walt Whitman in poi, la poesia assume fatalmente e volentieri una posa oratoria. Diceva già il vecchio Whitman:</p>
 			<p>... Ora racconto quello che seppi nel Texas nella mia prima giovinezza,</p>
 			<p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
