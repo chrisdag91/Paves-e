@@ -8425,6 +8425,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014140944500",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T12:09:44.500Z",
+	"dcterms:modified": "2024-10-14T12:09:44.500Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014140944500#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014140944500#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[36]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/89457467/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014141006524",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T12:10:06.524Z",
+	"dcterms:modified": "2024-10-14T12:10:06.524Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014141006524#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?place_annotation_20241014141006524#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[36]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/1835848",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -8463,7 +8622,7 @@
 			<p>La Censura Francese non permette all’«Herald» di rivelare ciò che ha fatto la Delegazione Cinese, ma che ci sia una grave irrequietezza, sarebbe inutile negarlo. Uomini che son stati privati della possibilità di guadagnarsi da vivere, che hanno visto i loro bambini piangere per avere da sfamarsi, che si trovan di fronte a un’indefinita chiusura delle industrie e a una possibile cessazione del traffico ferroviario con tutta la disorganizzazione della vita nazionale che ne consegue, questi uomini non ci si può troppo aspettare che fronteggino la situazione con calma ed equanimità.</p>
 			<p>SFORZI INGLESI PER MANTENERE LA PROMESSA</p>
 			<p>DI IMPICCARE IL KAISER</p>
-			<p>Si afferma che i Coreani confidino che il Presidente Wilson si recherà in aeroplano ad ascoltare le loro vedute. Una bandiera bianca sulla Collina di Seul dovrebbe indicare il punto di atterraggio.</p>
+			<p>Si afferma che i Coreani confidino che il <persName key="Wilson, Woodrow, 1856-1924." ref="http://viaf.org/viaf/89457467/" cert="high" type="real">Presidente Wilson</persName> si recherà in aeroplano ad ascoltare le loro vedute. Una bandiera bianca sulla Collina di <placeName key="Seoul Seoul South Korea" ref="https://geonames.org/1835848">Seul</placeName> dovrebbe indicare il punto di atterraggio.</p>
 			<p>(<title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title>, <title level="a" ref="#FilmGiornale">Film-Giornale</title> XXXVIII).</p>
 			<p>Ma <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> è un singolare artista. Istintivamente egli ha tenuto quasi sempre fuori della narrazione dei volumi maggiori ogni tesi espressa. Vi si limita a rappresentare e la poesia pura lo compensa con lo straordinario valore polemico delle sue figure. Di sua bocca <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> nel racconto non enuncia critiche e programmi: si accontenta di ascoltare i suoi eroi. Ed ha persino la disinvoltura di svelare talvolta con un sorrisetto le debolezze o le buffonerie di accesi rivoluzionari, che in qualche altro punto più triste è arrivato a confortare della sua commozione.</p>
 			<p>... <persName ref="#BigBill" type="fictional">Big Bill</persName> parlava della solidarietà e che tutti dovevano stringersi insieme di fronte alla classe dominante e <persName cert="high" ref="#Mac" type="fictional">Mac</persName> continuava a pensare che cosa avrebbe fatto <persName cert="high" ref="#BigBill" type="fictional">Big Bill</persName> se avesse ingravidato come lui una ragazza. <persName ref="#BigBill" type="fictional">Big Bill</persName> diceva che era venuto il giorno di cominciare a costruire una nuova società nel guscio di quella antica e che i lavoratori dovevano prepararsi ad assumere il controllo delle industrie da loro create col sudore e col sangue. Quando disse: – Noi siamo per l’unica grande unione, – ci fu uno scoppio d’applausi e di evviva da tutti i rivoltosi del salone. <persName ref="#FredHoff" type="fictional">Fred Hoff</persName> toccò col gomito <persName cert="high" ref="#Mac" type="fictional">Mac</persName>, applaudendo. – Buttiamo giù la volta, <persName ref="#Mac" type="real">Mac</persName> –. Le classi sfruttatrici sarebbero state inermi contro la solidarietà di tutta la classe lavoratrice. Anche le milizie e i gambali gialli erano in fondo lavoratori. Una volta che avessero compreso la missione storica della solidarietà, la classe dominante non avrebbe mai più potuto adoperarli a mitragliare i loro fratelli. I lavoratori dovevano comprendere che ogni piccola lotta per gli aumenti delle paghe, per la libertà di parola e per condizioni di vita più decenti, significava qualcosa soltanto come parte della grande lotta per la rivoluzione e la repubblica cooperativa. <persName ref="#Mac" type="fictional">Mac</persName> dimenticò <persName ref="#Maisie" type="fictional"><persName cert="high" ref="#Maisie">Maisie</persName></persName>. Quando <persName cert="high" ref="#BigBill">Big Bill</persName> ebbe finito, <persName ref="#Mac" type="fictional">Mac</persName> colla mente era corso innanzi sul discorso tanto che aveva dimenticato ciò che <persName cert="high" ref="#BigBill">Big Bill</persName> diceva, ma era tutto acceso e strillava evviva come un demonio. Lui e <persName cert="high" ref="#FredHoff">Fred Hoff</persName> strillavano e il massiccio minatore boemo che puzzava tanto, lì vicino, applaudiva e il polacco guercio, dall’altra parte, applaudiva e il giapponesino cameriere al Circolo Montezuma applaudiva e il rancero alto sei piedi, che era venuto colla speranza di veder botte, applaudiva. – Che razza d’oratore che è quel figlio d’una vacca, – continuava a ripetere, – vi dico io che l’<placeName key="Utah Utah United States" ref="https://geonames.org/5549030">Utah</placeName> è lo stato degli uomini in gamba. Sono di <placeName key="Ogden Utah United States" ref="https://geonames.org/5779206">Ogden</placeName> anch’io!</p>
