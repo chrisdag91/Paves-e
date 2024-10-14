@@ -3572,6 +3572,166 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014125159475",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T10:51:59.475Z",
+	"dcterms:modified": "2024-10-14T10:51:59.475Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014125159475#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014125159475#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/41839211/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014125224401",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T10:52:24.401Z",
+	"dcterms:modified": "2024-10-14T10:52:24.401Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014125224401#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014125224401#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/187129231/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3587,7 +3747,7 @@
 			<p>Qualche volta la scena si fa comica, ma di una comicità a denti stretti; sotto quell’assurdo, quel contrasto risibile, c’è sempre qualcuno che geme o bestemmia; e <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> impassibile rende tutto con la stessa aria oggettiva, rapida, cronistica dell’uomo che ha fretta e non può baloccarsi a cercare gli effetti. Questa è la sua potenza.</p>
 			<p><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">... E Joe e Del se ne andarono in un tassì guidato da un uomo che lui conosceva e tutti gettavano riso e Joe scoprì che aveva un cartello Oggi Sposi appuntato alla coda dell’abito e Del continuava a piangere e, quando arrivarono all’alloggio, Del si chiuse nella stanza da bagno e non rispondeva quando la chiamava e Joe aveva paura che fosse svenuta. Joe si tolse l’abito nuovo di panno blu, il colletto e la cravatta, e camminava avanti e indietro, non sapendo cosa fare. Erano le sei pomeridiane. Doveva trovarsi a bordo a mezzanotte, perché sarebbe partito per la Francia appena giorno. Non sapeva cosa fare. Pensò che forse Del aveva bisogno di mangiar qualcosa e le fece cuocere uova e prosciutto sulla stufa. Quando tutto fu freddo e Joe camminava avanti e indietro bestemmiando fra i denti, Del uscì dalla stanza da bagno, fresca e rosea come niente fosse stato. Disse che non poteva mangiar nulla, ma andiamo a un cinema... – Ma cattivaccia, – disse Joe, – io bisogna che tagli la corda a mezzanotte –. Del ricominciò a piangere e Joe arrossì e si sentì terribilmente scosso. Del gli si appoggiò dicendogli: – Non ci fermeremo per tutto lo spettacolo. Torneremo in tempo –. Egli l’afferrò e cominciò a stringerla, ma lei lo tenne scostato, con forza, e disse: – Dopo. Joe non riuscì a guardare il film. Quando tornarono all’alloggio erano le dieci. Del lasciò che la svestisse, ma poi saltò nel letto e si avvolse intorno le coperte e piagnucolò che aveva paura di fare un bambino e lui doveva aspettare finché lei trovasse come si faceva per non fare un bambino. Tutto ciò che gli permise fu di sfregarsi a lei attraverso le coperte e poi d’un colpo fu mezzanotte meno dieci e Joe dové saltare nei vestiti e precipitarsi alla calata. Un vecchio negro lo portò remando fin dove era ancorata la nave. Era una dolce profumata notte di primavera, senza luna. Joe sentì stridere sul suo capo e cercò di volgere gli occhi per veder passare gli uccelli sopra le stelle pallide. – Son l’oche, padrone, – disse il vecchio negro con voce placida. Quando salì a bordo, tutti cominciarono a pigliarlo in giro e dicevano che aveva l’aria di non star più dritto dalla fatica. Joe non sapeva cosa dire e così parlò grosso e prese in giro gli altri e mentì come un birro.</quote></p>
 			<p>(<title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title>, Joe Williams).</p>
-			<p>La poesia di <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> sta in questo modo asciutto di percepire e rendere le cose. <quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">«Joe non riuscì a guardare il film»</quote>; e questo è il punto più introspettivo di una narrazione tutta fatti esterni, inesauribilmente e nitidamente esposti, con un distacco che è giudizio morale. Attraverso questo suo orrore di tracciar svolazzi psicologici in una vita dove basta guardare e accumulare le mille parvenze per giudicare, Dos Passos si è fatto uno stile, nella sua umile oggettività ricchissimo di sfumature: sono mezzi gesti, mezze parole, oppure colori odori suoni, pieni di significato, gioiosi nella loro energia espressiva; una novità nella poesia americana, se non si risalga fino a certe pagine d’impressioni, ai jottings disseminati nelle prose e versi di quell’altro enfant terrible di questa cultura, che è Walt Whitman.</p>
+			<p>La poesia di <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> sta in questo modo asciutto di percepire e rendere le cose. <quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">«Joe non riuscì a guardare il film»</quote>; e questo è il punto più introspettivo di una narrazione tutta fatti esterni, inesauribilmente e nitidamente esposti, con un distacco che è giudizio morale. Attraverso questo suo orrore di tracciar svolazzi psicologici in una vita dove basta guardare e accumulare le mille parvenze per giudicare, <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> si è fatto uno stile, nella sua umile oggettività ricchissimo di sfumature: sono mezzi gesti, mezze parole, oppure colori odori suoni, pieni di significato, gioiosi nella loro energia espressiva; una novità nella poesia americana, se non si risalga fino a certe pagine d’impressioni, ai jottings disseminati nelle prose e versi di quell’altro enfant terrible di questa cultura, che è <persName key="Whitman, Walt, 1859-1928" ref="http://viaf.org/viaf/187129231/" cert="high" type="real">Walt Whitman</persName>.</p>
 			<p>– ... Di’, Mac, faremmo meglio a tenerci nascosti, se vogliamo saltare su quel treno. Ci son certi luridi guardiani su questa linea. – Giusto –. Si allontanarono per un centinaio di metri, nella giovane vegetazione di pini nani e di betulle. Vicino a un grosso ceppo verdemuscoso, Mac si fermò a far acqua. L’orina volava giallosplendida nel sole, scomparendo subito nell’impasto poroso di foglie e legno fradici. Mac era pieno di felicità. Diede un calcio al ceppo. Fradicio. Il piede lo attraversò e una polvere minuta, come fumo, s’innalzò, mentre il ceppo rovinava nei cespugli di sambuchi ch’eran dietro.</p>
 			<p>(The 42nd Parallel, Mac).</p>
 			<p>... Le donne facevano il carico. Dopo un po’ cominciarono a salire per una delle passerelle, tutte con un enorme grappolo verde di banane, gettato sulla testa e sulle spalle; c’erano vecchie mamme nere, e giovani mulatte belle; le facce lucevano di sudore sotto i grossi lumi appesi ai grappoli; si potevan vedere i loro seni dondolanti pendere attraverso le vesti lacere, carne bruna attraverso uno strappo in una manica. Quando arrivavano in cima alla passerella, due grandi negri sollevavano amorosamente il grappolo dalle spalle di ciascuna; il sorvegliante dava a costei un pezzo di carta e lei tornava sulla calata correndo per l’altra passerella. Eccettuati gli uomini al motore, l’equipaggio non aveva nulla da fare. Stavan lì intorno, a disagio, guardando le donne, il lampo dei denti e degli occhi bianchi, i seni pesanti, il movimento pompante di quelle cosce. Stavan lì intorno, guardando le donne, grattandosi, cambiando posizione da un piede all’altro; e non dicevan nemmeno troppe sconcezze. Era una calma notte nera; il profumo delle banane e il sentore di donna negra sudata pesavano caldi intorno a loro; di tanto in tanto un po’ di freschezza veniva in uno sbuffo di là da certe casse di cedri ammucchiate sulla calata.</p>
