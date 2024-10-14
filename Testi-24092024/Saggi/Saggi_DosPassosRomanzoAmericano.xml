@@ -2699,6 +2699,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014123355944",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T10:33:55.944Z",
+	"dcterms:modified": "2024-10-14T10:33:55.944Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014123355944#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014123355944#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/179390279/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2708,7 +2787,7 @@
 			<p>Infatti, la risposta è molto semplice: <persName key="King Vidor" ref="http://www.wikidata.org/entity/Q51133" cert="high" type="real">King Vidor</persName> aveva fatto una cosa e <persName key="Dos Passos, John (14 January 1896–28 September 1970), writer" ref="http://www.wikidata.org/entity/Q103855198"><persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName></persName> tutta un’altra. Né la faccenda sta nella questione del tono – tono cinematografico e tono narrativo; – un’opera d’arte non può cambiar così di genere come si muta un abito; appunto perché il genere non è il rivestimento ma il corpo stesso dell’opera. <title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/"><title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/" level="m">Manhattan Transfer</title></title> e la <rs ref="#TheCrowd ">Folla</rs>, malgrado qualche materiale contatto episodico, sono due mondi differenti; ciascuno colle sue leggi, i suoi problemi e i suoi giudizi. La <rs ref="#TheCrowd ">Folla</rs> mostra sullo sfondo nebuloso e mezzo apocalittico di <placeName key="New York City" ref="http://www.wikidata.org/entity/Q60">Nuova York<precision match="@ref" precision="high"/></placeName>, un patetico impiegato, ribelle in nome di un borghese diritto alla vita, e intorno stanno moglie e bambini; tutto il resto, ospedale, ufficio, via, teatro, parenti, folla, è come una villana forza naturale, come il temporale e i lampi che rendono tanto più cara la piccola comodità del salotto scaldato e del dovere compiuto. <title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/"><title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/" level="m">Manhattan Transfer</title></title>, invece, giustappone a ventine i personaggi, seguendo il filo di ognuno, non mischiandoli mai o quasi mai; non più un eroe borghese deluso, dal cui angolo contemplare la metropoli, ma questa metropoli vivisezionata in tutti i suoi delusi d’ogni classe: ciascuno scrutato isolandolo dagli altri, vivo in sé, ma un po’ a quel modo che è vivo in un laboratorio un pezzo di carne reciso al momento da un corpo. Un’aria di esperimento scientifico. Di più, i personaggi vivono la loro esistenza d’insofferenza e di speranze, e qualcuno muore, altri – come sono entrati – escono dalla narrazione, con una gran monotonia, in tutta la loro metropolitica varietà. Poiché, oltre il fatto che tutti, più o meno, sono una medesima figura di uomo o di donna con pari sete di ricchezza, gloria e agi, sembra altresì accrescere questa monotonia il curioso stile di <persName key="John Dos Passos" ref="http://www.wikidata.org/entity/Q312407" cert="high" type="real"><persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real"><persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName></persName></persName>, composto di sensazioni visive e olfattive, e di istantanee di gesti e di parole – sempre uguali, queste parole, nella loro molteplicità di fedelissime riproduzioni delle parole d’ogni giorno, – e che esclude accuratamente ogni presentazione diretta degli stati d’animo dei personaggi. Questi stati debbono indovinarsi nella prestigiosa ripresa fotografica e sonora. E s’indovinano molto bene anche, ma la loro complessità umana soffre per le esigenze di esteriore chiarezza di quello stile cinematografico, che fa parere il tutto un irritante sforzo tecnico di creare soltanto una nuova faccia di realismo. L’opera insomma non solo non è quella tragica epopea quotidiana di tutta <placeName key="New York City New York United States" ref="https://geonames.org/5128581">Nuova York</placeName> che <placeName key="John Dos Passos" ref="http://dbpedia.org/resource/John_Dos_Passos"><persName key="Dos Passos, John (14 January 1896–28 September 1970), writer" ref="http://www.wikidata.org/entity/Q103855198"><persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real"><persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName></persName></persName></placeName> ha pensato, ma nemmeno va oltre una pittoresca frammentarietà.</p>
 			<p>Non dice di più la lettura delle opere anteriori a <title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/"><title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/" level="m">Manhattan Transfer</title></title> (<date when="1925">1925</date>). <title type="#ThreeSoldiers"><title level="m" ref="#ThreeSoldiers">Three Soldiers</title></title> (<date when="1920">1920</date>) è il solito amaro libello contro la guerra – che ha però il merito di essere stato, credo, il primo del genere in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>; – <title ref="#APushcartAtTheCurb"><title level="m" ref="#APushcartAtTheCurb">A Pushcart at the Curb</title></title> (<date when="1924">1924</date>) è la solita raccolta di poesie impressionistiche, piene di ardimenti stilistici e prive di costruzione. E queste due opere son le più rappresentative. Pure – fin da <title ref="#ThreeSoldiers"><title level="m" ref="#ThreeSoldiers">Three Soldiers</title></title> – <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/"><persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName></persName> ha avuto in mente tutta un’epopea: la caotica febbre di lotta e di ricerca delle grandi masse nelle metropoli (e tutto il mondo per lui è metropoli), che soffocano nell’angustia materiale e spirituale, dove le singole conquiste non contano, circondate come sono d’innumerevoli disfatte.</p>
 			<p>Dopo ulteriori ricerche e tentativi di teatro che qui non c’interessano, <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> ritorna a questa concezione nei suoi ultimi volumi: <title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/"><title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/" level="m">The 42nd Parallel</title></title> (<date when="1929">1929</date>) e <title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/"><title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title></title> (<date when="1931">1931</date>) che ne è la continuazione. Ancora egli racconta per giustapposizione di figure, delle quali ciascuna riproduce, nel suo isolamento dalle altre, uno stesso dramma cogli stessi rapporti ambientali. Ogni personaggio esclude quindi tutti gli altri del libro, senza gerarchie costruttive. Poeticamente nessuno serve all’altro, benché <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName> s’illuda di dare, colla loro contemporaneità e giustapposizione caotica, l’atmosfera di un mondo caoticamente tormentato. Di qui, la sazietà a leggere l’una dopo l’altra tutte queste serie di episodi. Ma il curioso è che, per la prima volta in <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName>, tutte queste repliche dello stesso mondo sono vive, malgrado la comune falsariga, e da qualunque si cominci, la prima sarà sempre la più efficace.</p>
-			<p>La ragione di questo fatto paradossale è che <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName> ha scelto di raccontare non più per episodi ma per tratti di biografia, e ciò non è poco, poiché sebbene anche questi tratti di biografia siano tutti intessuti con episodi dello spirito e dello stile che formavan quelli di Manhattan Transfer, pure la loro semplice esposizione – non più ristretta al quadretto impressionistico, ma protratta di fatto in fatto per lo stesso personaggio, in modo che qualunque istante della vita di questi getti luce sul suo passato e futuro – origina una certa prospettiva, organizza un’esperienza umana. Dos Passos ha un modo ben suo di raccontare le biografie: comincia dalla nascita, o lì intorno, e non lascia mai vuoto nemmeno un giorno del suo protagonista; condensa talvolta: «in quel mese», «in quell’anno»; ma nulla è mai taciuto. Non si trovano mai in lui quei salti, quei sottintesi così comodi per finire un capitolo con effetto drammatico e cominciare un altro con disinvoltura. Persino delle spezzature inevitabili per il vario intrecciarsi di ciascuna biografia Dos Passos non approfitta in questo senso; ricomincia donde ha lasciato e tira avanti. E poi, alla fine del libro, ciascuna biografia si tronca d’improvviso, senza ragione apparente. A 1919 Dos Passos potrà aggiungere quando vorrà un altro volume, riprendendo i protagonisti che non gli sono morti tra le mani, o inventandone quanti altri gli piacerà. Non c’è sinora nei due volumi nessuna costruzione che possa riceverne danno.</p>
+			<p>La ragione di questo fatto paradossale è che <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName> ha scelto di raccontare non più per episodi ma per tratti di biografia, e ciò non è poco, poiché sebbene anche questi tratti di biografia siano tutti intessuti con episodi dello spirito e dello stile che formavan quelli di <title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/">Manhattan Transfer</title>, pure la loro semplice esposizione – non più ristretta al quadretto impressionistico, ma protratta di fatto in fatto per lo stesso personaggio, in modo che qualunque istante della vita di questi getti luce sul suo passato e futuro – origina una certa prospettiva, organizza un’esperienza umana. Dos Passos ha un modo ben suo di raccontare le biografie: comincia dalla nascita, o lì intorno, e non lascia mai vuoto nemmeno un giorno del suo protagonista; condensa talvolta: «in quel mese», «in quell’anno»; ma nulla è mai taciuto. Non si trovano mai in lui quei salti, quei sottintesi così comodi per finire un capitolo con effetto drammatico e cominciare un altro con disinvoltura. Persino delle spezzature inevitabili per il vario intrecciarsi di ciascuna biografia Dos Passos non approfitta in questo senso; ricomincia donde ha lasciato e tira avanti. E poi, alla fine del libro, ciascuna biografia si tronca d’improvviso, senza ragione apparente. A 1919 Dos Passos potrà aggiungere quando vorrà un altro volume, riprendendo i protagonisti che non gli sono morti tra le mani, o inventandone quanti altri gli piacerà. Non c’è sinora nei due volumi nessuna costruzione che possa riceverne danno.</p>
 			<p>La presunta costruzione è lasciata alla crisi della guerra, che raccoglie tutti i protagonisti, uomini e donne, e serve loro di triste esperienza. Ma questo fatto esterno non costruisce nulla in realtà, perché non ha nulla di sostanziale da insegnare ai protagonisti, che questi non sapessero già nel borghese e rivoluzionario mondo dell’anteguerra.</p>
 			<p>Di più, capita che questi protagonisti si scambino nel ricordo del lettore. Sono costruiti con una prodigiosa ricchezza episodica e nemmeno un loro caso sfugge all’autore, ma questo, che dovrebbe maggiormente diversificarli, finisce per scomporli tutti in un multicolore e sempre uguale panorama del caos del mondo e dell’insufficienza e ingiustizia congenite alla società attuale. Joe Williams è un giovanotto ignorante che s’incanaglisce tra le ciurme e i bordelli esotici, pur di sfuggire alla leva e vivere la sua vita; e poi è accoppato in Francia in una rissa da un ufficiale senegalese, in un cabaret di Saint-Nazaire. Ebbene, tutti i protagonisti delle biografie – giovani universitari maledicenti all’orrore e alla stupidità del conflitto; crocerossine spregiudicate, intellettuali e, con tutta la loro libertà, sofferenti; operai e agitatori maltrattati dalla vita e dal «capitalismo» – tutti ripetono in sé le esperienze di Joe Williams: ciascuno fugge la sua leva, il suo annientamento sotto la macchina di una società che ha potuto finire a sfasciarsi nella catastrofe della guerra. Si differenziano i fatti singoli, i dati esterni, i pensieri espressi dai personaggi; ma il problema, il dramma è in tutti lo stesso. Tanto che leggendo ci si chiede talvolta di quale dei personaggi Dos Passos stia narrando. Non solo: in ogni episodio di ciascuno c’è il dramma di tutta la vita di costui o costei, che è poi la vita di tutti.</p>
 			<p>Qualche volta la scena si fa comica, ma di una comicità a denti stretti; sotto quell’assurdo, quel contrasto risibile, c’è sempre qualcuno che geme o bestemmia; e Dos Passos impassibile rende tutto con la stessa aria oggettiva, rapida, cronistica dell’uomo che ha fretta e non può baloccarsi a cercare gli effetti. Questa è la sua potenza.</p>
