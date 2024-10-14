@@ -7428,7 +7428,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014134629005",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-14T11:46:29.005Z",
-	"dcterms:modified": "2024-10-14T11:46:29.005Z",
+	"dcterms:modified": "2024-10-14T11:47:43.049Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -7536,7 +7536,7 @@
 			<p>venne a guardare il ghiaccio fondersi nella strada.</p>
 			<p>Tutto ciò che lo seccava era che uno dei crumiri l’aveva morso alle nocche della destra</p>
 			<p>in modo che sanguinavano quando venne alla liquoreria a contarla ai soci.</p>
-			<p>(<title key="Sandburg, Carl, 1878-1967. | Chicago poems. Selections" ref="http://viaf.org/viaf/11168897881956720008/" level="a">Chicago Poems</title>, Il portatore di ghiaccio).</p>
+			<p>(<title key="Sandburg, Carl, 1878-1967. | Chicago poems. Selections" ref="http://viaf.org/viaf/11168897881956720008/" level="m">Chicago Poems</title>, <title level="a" ref="#IlPortatorediGhiaccio">Il portatore di ghiaccio</title>).</p>
 			<p>E questo è <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName>:</p>
 			<p>... Nel 1924 Lafolette concorse alla presidenza e senza denari o organizzazione politica</p>
 			<p>fece su quattro milioni e mezzo di voti,</p>
