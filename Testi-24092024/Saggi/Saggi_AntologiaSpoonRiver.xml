@@ -4242,7 +4242,7 @@
 			<p><persName cert="high" ref="#JackIlCieco" type="fictional">JACK IL CIECO</persName></p>
 			<p/>
 			<p>Avevo suonato tutto il giorno alla fiera</p>
-			<p>ma, guidando a casa, Butch Weldy e Jack McGuire</p>
+			<p>ma, guidando a casa, <persName ref="#ButchWeldy">Butch Weldy</persName> e <persName cert="high" ref="#JackMcGuire" type="fictional">Jack McGuire</persName></p>
 			<p>che erano bell’e sbronzi, mi fecero suonare e suonare</p>
 			<p>al canto di Susie Skinner, frustando i cavalli</p>
 			<p>finché quelli scapparono.</p>
