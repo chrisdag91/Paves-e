@@ -43,10 +43,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV-19360223.xml?date_annotation_20241008152302413",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV-19360223.xml?date_annotation_20241008152316093",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-08T13:23:02.413Z",
-	"dcterms:modified": "2024-10-08T13:23:16.093Z",
+	"dcterms:created": "2024-10-08T13:23:16.093Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/saveriovita",
 		"@type": [
@@ -57,7 +56,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV-19360223.xml?date_annotation_20241008152302413#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV-19360223.xml?date_annotation_20241008152316093#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV-19360223.xml",
@@ -71,7 +70,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV-19360223.xml?date_annotation_20241008152302413#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV-19360223.xml?date_annotation_20241008152316093#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/date"
 		}
@@ -252,7 +251,7 @@
 		<body>
 			<p><date when="1936-02-23">23 febbr.</date></p>
 			<p>Più ci penso e più mi appare notevole il fare omerico del libro-unità. A uno stadio, che tutto dovrebbe far supporre incline all’uniformità, si rivela invece il gusto dell’arazzo circoscritto e variegato, lo studio dell’unità differenziata. È, in realtà, uno scrittore di novelle variamente condizionate (l’amore, la passione eroica, l’avventura, la guerra, l’idillio, il ritorno, il mondo gaudente, il gusto sociale, la vendetta, l’ira, ecc.). In questo è come i consorti <persName key="Dante Alighieri" ref="http://dbpedia.org/resource/Dante_Alighieri" type="real">Dante</persName> e <persName key="William Shakespeare" ref="http://dbpedia.org/resource/William_Shakespeare">Shakespeare</persName>: potenti, favolosi costruttori che si deliziano del particolare, sentito fino allo svolazzo, che respirano tutta la vita a regolari e perfetti respiri quotidiani. Soprattutto, essi non sono gli uomini del grido improvviso e monotono, che erompe dall’esperienza e la sottintende e la unifica in una sensazione; ma veggenti benparlanti, tutti cose, tranquilli e impassibili suscitatori della varietà, i sornioni dell’esperienza, che la sfaccettano in figure come a gioco, finendo a sostituirla, astutissimi. Mancano soprattutto d’ingenuità.</p>
-			<p>Così intesi, i creatori appaiono bene condizionati a quel lavoro di grandiosa e sottilissima abilità, astuzia, che si richiede a soddisfare il gioco di ponte tra racconto e poesia. Sono mirabili nel compromesso, l’arte tutta sociale e prudenziale dell’esperienza. Invece di derivare una grandezza dalla violenza del sentire, essi la derivano dall’arte del saper vivere. Questa base biografica è l’unica cosa che abbiano in comune i lirici e i creatori. Ma mentre per i lirici tutto si estingue in questa violenza, per essi, per i maestri, il saper vivere è un’arte che semplicemente giova a tornire il materiale umano, liberato a sé, ripulito, ultimato: posto a disposizione di tutti. Così essi scompaiono nell’opera, mentre i lirici vi si sfigurano.</p>
+			<p>Così intesi, i creatori appaiono bene condizionati a quel lavoro di grandiosa e sottilissima abilità, astuzia, che si richiede a soddisfare il gioco di ponte tra racconto e poesia. Sono mirabili nel compromesso, l’arte tutta sociale e prudenziale dell’esperienza. Invece di derivare una grandezza dalla violenza del sentire, essi la derivano dall’arte del saper vivere. Questa base biografica è l’unica cosa che abbiano in comune i lirici e i creatori. Ma mentre per i lirici tutto si estingue in questa violenza, per essi, per i <hi cert="high" generatedBy="human" rend="italic" xml:space="default">maestri</hi>, il saper vivere è un’arte che semplicemente giova a tornire il materiale umano, liberato a sé, ripulito, <hi cert="high" generatedBy="human" rend="italic" xml:space="default">ultimato</hi>: posto a disposizione di tutti. Così essi scompaiono nell’opera, mentre i lirici vi si sfigurano.</p>
 		</body>
 	</text>
 </TEI>
