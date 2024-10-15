@@ -89,11 +89,90 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351207.xml?person_annotation_20241015150818595",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T13:08:18.595Z",
+	"dcterms:modified": "2024-10-15T13:08:18.595Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351207.xml?person_annotation_20241015150818595#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351207.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351207.xml?person_annotation_20241015150818595#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Lucretius",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p><date when="1935-12-07">7 dic.</date></p>
-			<p>Va approfondita l’affermazione che il segreto di molta grande arte stia negli impedimenti che, sotto forma di regole, il gusto contemporaneo impone. Le regole d’arte, proponendo un ideale definito da raggiungere, dànno all’artista uno scopo che impedisce il lavorio a vuoto dell’ingegno. Bisogna però aggiungere che mai il valore delle opere sta per noi nelle regole osservate, ma – vista l’eterogeneità dei fini – in strutture cresciute sotto mano all’artista durante la sua ricerca di ciò che la regola – il gusto – richiede. L’ingegno surriscaldato da un gioco razionale, qual è il tentativo di raggiungere certi risultati reputati di valore, supera l’astratto valore di convenzione di essi “gusti” e crea rapitamente nuove architetture. Senza saperlo; e ciò è logico, se si pensa che il segreto di una struttura artistica sfugge al creatore finché, chiarendosela, egli non le tolga interesse. Così risolvo il bisogno di “intelligenza” in arte: c’è applicazione cosciente di essa, ma soltanto a quegli scopi contemporanei che, valendo per l’artista e per i tempi, vanno fusi poi nella eruzione di poesia nata dal surriscaldamento dell’ingegno. L’artista lavora di cervello a scopi che perderanno valore davanti ai posteri; ma, così facendo, il suo “cervello” crea precriticamente nuove realtà intellettuali. Esempio: la smania del “conceit” tra gli elisabettiani e il risultato shakespeariano dell’immagine-racconto. Il gusto dell’esempio concreto nel mondo scientifico classico e la risultante visione cosmica di Lucrezio.</p>
+			<p>Va approfondita l’affermazione che il segreto di molta grande arte stia negli impedimenti che, sotto forma di regole, il gusto contemporaneo impone. Le regole d’arte, proponendo un ideale definito da raggiungere, dànno all’artista uno scopo che impedisce il lavorio a vuoto dell’ingegno. Bisogna però aggiungere che mai il valore delle opere sta per noi nelle regole osservate, ma – vista l’eterogeneità dei fini – in strutture cresciute sotto mano all’artista durante la sua ricerca di ciò che la regola – il gusto – richiede. L’ingegno surriscaldato da un gioco razionale, qual è il tentativo di raggiungere certi risultati reputati di valore, supera l’astratto valore di convenzione di essi “gusti” e crea rapitamente nuove architetture. Senza saperlo; e ciò è logico, se si pensa che il segreto di una struttura artistica sfugge al creatore finché, chiarendosela, egli non le tolga interesse. Così risolvo il bisogno di “intelligenza” in arte: c’è applicazione cosciente di essa, ma soltanto a quegli scopi contemporanei che, valendo per l’artista e per i tempi, vanno fusi poi nella eruzione di poesia nata dal surriscaldamento dell’ingegno. L’artista lavora di cervello a scopi che perderanno valore davanti ai posteri; ma, così facendo, il suo “cervello” crea precriticamente nuove realtà intellettuali. Esempio: la smania del “conceit” tra gli elisabettiani e il risultato shakespeariano dell’immagine-racconto. Il gusto dell’esempio concreto nel mondo scientifico classico e la risultante visione cosmica di <persName key="Lucretius" ref="http://dbpedia.org/resource/Lucretius">Lucrezio</persName>.</p>
 		</body>
 	</text>
 </TEI>
