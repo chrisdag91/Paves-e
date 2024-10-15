@@ -5187,7 +5187,7 @@
 			<p>La Morte è meglio della Vita!</p>
 			<p>Ed ecco il filosofo:</p>
 			<p/>
-			<p>L’ATEO DEL VILLAGGIO</p>
+			<p><persName ref="#AteoDelVillaggio" type="fictional">L’ATEO DEL VILLAGGIO</persName></p>
 			<p/>
 			<p>Voi giovani disputanti sulla dottrina</p>
 			<p>dell’immortalità dell’anima,</p>
