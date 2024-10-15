@@ -6580,6 +6580,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?title_annotation_20241015225856112",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T20:58:56.112Z",
+	"dcterms:modified": "2024-10-15T20:58:56.112Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?title_annotation_20241015225856112#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?title_annotation_20241015225856112#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/175657310/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?title_annotation_20241015225926555",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T20:59:26.555Z",
+	"dcterms:modified": "2024-10-15T20:59:26.555Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?title_annotation_20241015225926555#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?title_annotation_20241015225926555#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q4458189",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -6595,9 +6753,9 @@
 			<p><quote cert="high" defective="unknown" generatedBy="human" source="#TheAmericanTragedy" xml:space="default">Ma vergognoso com’era tutto ciò, pure c’erano ugualmente i rigidi e calvi promontori del fatto, e alla loro base le onde flagellanti e distruggenti della necessità.</quote></p>
 			<p>(<title key="Dreiser, Theodore 1871-1945 An American tragedy" ref="http://viaf.org/viaf/175657310/" level="m">The American Tragedy</title>).</p>
 			<p><quote cert="high" defective="unknown" generatedBy="human" source="#TheAmericanTragedy" xml:space="default">In questo cataclismico istante e di fronte all’estremo, più urgente bisogno d’azione, un’improvvisa paralisi della volontà – del coraggio – dell’odio e del furore sufficienti; e con <persName cert="high" ref="#Roberta" type="fictional">Roberta</persName> che dal suo sedile alla poppa della barca fissava il suo volto agitato e poi improvvisamente contorto e lucente, eppure debole e persino squilibrato – un volto improvvisamente, invece che irritato, inferocito o demoniaco – confuso e interamente vuoto di senso nella sua registrazione di un bilanciato combattimento tra la paura (una repulsione chimica contro la morte o un’assassina brutalità che causerebbe la morte) e un tormentato e irrequieto e ancora a metà represso desiderio di fare – fare – fare per il momento ancora invincibile però – una statica tra un potente impulso di fare, e pure di non fare.</quote></p>
-			<p>(The American Tragedy).</p>
+			<p>(<title key="Dreiser, Theodore 1871-1945 An American tragedy" ref="http://viaf.org/viaf/175657310/" level="m">The American Tragedy</title>).</p>
 			<p>Lanciato come una grande cometa allo zenit, la sua via una traccia fiammeggiante, Cowperwood per un’ora illuminò i terrori e le meraviglie dell’individualità. Ma anche per lui l’eterna equazione – il patetico della scoperta che anche i giganti non sono che pigmei e che un equilibrio supremo deve formarsi.</p>
-			<p>(The Titan).</p>
+			<p>(<title key="The Titan" ref="http://www.wikidata.org/entity/Q4458189" level="m">The Titan</title>).</p>
 			<p>Non sempre, naturalmente, il cattivo gusto tocca questi vertici; sovente nel Financier, nel Titan e nel Genius la digressione non ha che funzione ambientatrice e per questa sua stessa natura non è di gusto né buono né cattivo: si tratta di pagine informative, non-artistiche. Si vedano, per esempio nel Financier, quelle interminabili dove si arreda una casa o s’introducono personaggi con tutto il loro curriculum sociale. Se si pensa poi a quelle opere di Dreiser che sono tutta digressione – le memorie e i saggi vari – si trova in esse, nel tono più dimesso dell’opera minore, un fare discreto tra discorsivo e scientifico, che se non regge al confronto colla muscolosa intensità narrativa delle grandi pagine nei grossi romanzi, è però ben superiore a certi svolazzi barocchi, di questi ultimi, messi lì apposta, pare, a sollevare, quasi parodia, il lettore dalla desolatezza di altre pagine.</p>
 			<p>Non basta dire che l’American Tragedy riesce il migliore dei libri di Dreiser per il suo rigore narrativo che rifiuta ogni leggerezza digressiva. Ciò riguarda semplicemente l’unità del suo tono, non il suo significato.</p>
 			<p>Quasi tutta la materia della Tragedy era già apparsa, variamente dissociata, negli altri romanzi. Clyde Griffith, il protagonista, figlio di evangelisti laici, abbandonato presto a sé, senza educazione, pieno d’ammirazione e di voglie per il mondo superiore della ricchezza e degli agi, quale glielo impersona l’innamorata milionaria Sondra Finchley – the beautiful Sondra – ha molto, a parte l’energia della tempra, del Cowperwood, o meglio, dell’Aileen, che è la prima amante di Cowperwood, e lo segue come incantata in quei suoi mondi splendidi che, da un giorno all’altro, rovinano e altri subito se ne sostituiscono. Cosí Roberta Alden – operaia di fabbrica e amante furtiva di Clyde, per liberarsi della quale e fuggire con Sondra, Clyde alla fine commette il delitto – ricorda molto, nella sua dolcezza un po’ stoica e più tardi, quando si scopre madre, nella fermezza disperata con cui esige il matrimonio, la femminilità severa dell’antica Sister Carrie. Finalmente, tutta l’ultima parte del libro – il processo a Clyde assassino, dove l’interesse si sposta dai protagonisti sul difensore e sull’accusatore, su tutto un tribunale e una provincia, sulle madri della morta e di Clyde e sulla pena stessa – non è che una ripresa più ricca, più chiara e definitiva di un gusto antico in Dreiser: concludere un romanzo colla contrapposizione violenta del protagonista e della società tutta armata, tutta formidabile e solitamente vittoriosa. Lo interessa, nello spettacolo della vita, il solito «equilibrio dell’equazione».</p>
