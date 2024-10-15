@@ -4282,6 +4282,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015211026971",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T19:10:26.971Z",
+	"dcterms:modified": "2024-10-15T19:10:26.971Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015211026971#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015211026971#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[52]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/178834148/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?person_annotation_20241015211210514",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T19:12:10.514Z",
+	"dcterms:modified": "2024-10-15T19:12:10.514Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?person_annotation_20241015211210514#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?person_annotation_20241015211210514#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[52]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/100963493/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4336,7 +4494,7 @@
 			<p>e lo ascoltiamo cantare della caduta di Troia.</p>
 			<p/>
 			<p/>
-			<p>Ma, naturalmente, questo è scelto nel mazzo. Un libro che comincia con un’elegia sul cimitero e va avanti con mariti scontenti, mogli adultere, scapoli scontrosi e bambini nati morti, e dove pressoché tutti si lamentano di aver mancata la vita, potrebbe anche parere, a sfogliarlo, una rassegna di casi clinici. La differenza sta soltanto nell’occhio del poeta che guarda i suoi morti, non con compiacenza malsana, o polemica, non coll’incoscienza, insomma, pseudoscientifica che tanto piace adesso disgraziatamente negli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>; ma con una consapevolezza austera e fraterna del dolore di tutti, della vanità di tutti, e a tutti fa pronunciare la confessione, a tutti strappa una risposta definitiva, non per cavarne un documento scientifico o sociale, ma soltanto per sete di verità umana. Che la vita sia un cimitero di ambizioni fallite, di realtà sofferte, di «ali tarpate», non c’è bisogno della psicanalisi per scoprirlo: lo sapeva già per lo meno Salomone. Voglio dire, insomma, che, per inibito che possa parere qualche personaggio dell’Anthology, soffocato cioè da un certo ambiente, tale non è affatto il libro nel suo spirito, che contempla invece e accompagna, valendosi del suo potente oggettivismo, le innumerevoli sconfitte, gli sforzi, le battaglie, e le rare vittorie, della vita contro la morte, dello spirito contro il caos, di cui è campo questo villaggetto provinciale che è la terra. Ma non ci sono simboli, beninteso. Tutto è vigorosamente vivo, materiato, attuale, in una parola, tutto è poesia.</p>
+			<p>Ma, naturalmente, questo è scelto nel mazzo. Un libro che comincia con un’elegia sul cimitero e va avanti con mariti scontenti, mogli adultere, scapoli scontrosi e bambini nati morti, e dove pressoché tutti si lamentano di aver mancata la vita, potrebbe anche parere, a sfogliarlo, una rassegna di casi clinici. La differenza sta soltanto nell’occhio del poeta che guarda i suoi morti, non con compiacenza malsana, o polemica, non coll’incoscienza, insomma, pseudoscientifica che tanto piace adesso disgraziatamente negli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>; ma con una consapevolezza austera e fraterna del dolore di tutti, della vanità di tutti, e a tutti fa pronunciare la confessione, a tutti strappa una risposta definitiva, non per cavarne un documento scientifico o sociale, ma soltanto per sete di verità umana. Che la vita sia un cimitero di ambizioni fallite, di realtà sofferte, di <quote cert="high" defective="unknown" generatedBy="human" source="#SpoonRiverAnthology" xml:space="default">«ali tarpate»</quote>, non c’è bisogno della psicanalisi per scoprirlo: lo sapeva già per lo meno <persName key="Solomon, King of Israel" ref="http://viaf.org/viaf/100963493/">Salomone</persName>. Voglio dire, insomma, che, per inibito che possa parere qualche personaggio dell’<title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Anthology</title>, soffocato cioè da un certo ambiente, tale non è affatto il libro nel suo spirito, che contempla invece e accompagna, valendosi del suo potente oggettivismo, le innumerevoli sconfitte, gli sforzi, le battaglie, e le rare vittorie, della vita contro la morte, dello spirito contro il caos, di cui è campo questo villaggetto provinciale che è la terra. Ma non ci sono simboli, beninteso. Tutto è vigorosamente vivo, materiato, attuale, in una parola, tutto è poesia.</p>
 			<p>L’importanza di questo libro sta nella risposta non data mai in definitivo, ma sempre rinnovata per ciascun individuo; la convinzione, sofferta in ogni pagina, che, per soddisfacente e definitiva che possa parere una soluzione della vita, ci saranno sempre altri individui che ne resteranno fuori. Ottimismo o pessimismo non sono dunque la risposta, che dipende da una ricerca sempre rinnovata. Come i morti di Dante, che sono più vivi che in vita, i morti di Spoon River prolungano in una forma sepolcrale tutti i loro malcontenti, le loro passioni. Ma il parallelo si ferma qui, poiché i morti di Dante hanno uno schema universale in cui rientrano e nessun dannato si sogna di criticare la propria destinazione, mentre quelli di Spoon River nemmeno da morti han trovato una risposta, e meno di tutti quelli che lo dicono. È il poema essenzialmente moderno, questo, della ricerca, dell’insufficienza d’ogni schema, del bisogno insieme individuale e collettivo. Voi trovate che il rimpianto di un bambino, morto di tetano giocando, assurge alla stessa importanza cosmica dell’estasi di uno studioso che ha passata la vita ad adorare terra e cielo. In fondo al libro, poi, c’è una specie di faustiana sacra rappresentazione dove, alla figura del demonio che continua a crear vite miserabili, ad acuire i contrasti, a divertirsi colle creature, si oppone lo spettacolo della vita trionfante, delle leggi armoniose, una specie di inno shelleyano al mondo liberato, che conclude:</p>
 			<p/>
 			<p>Legge Infinita</p>
