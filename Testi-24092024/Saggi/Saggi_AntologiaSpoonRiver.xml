@@ -5692,13 +5692,13 @@
 			<p>chiudendo le osterie e proibendo di giocare alle carte,</p>
 			<p>e trascinando <persName ref="#DaisyFraser">Daisy Fraser</persName> (5) vecchia dinanzi al giudice <persName ref="#Arnett" type="fictional">Arnett</persName>,</p>
 			<p>in tutte quelle crociate per purgare la gente dal vizio;</p>
-			<p>perché allora lasciate che la figlia della modista, <persName ref="#Dora">Dora</persName>,</p>
+			<p>perché allora lasciate che la figlia della modista, <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="#DoraWilliams" xml:space="default">Dora</persName>,</p>
 			<p>e il figlio indegno di <persName ref="#BenjaminPantier">Benjamin Pantier</persName>, </p>
 			<p>facciano di notte della mia tomba il loro empio guanciale?</p>
 			<p/>
-			<p>La quale <persName ref="#Dora" type="fictional">Dora</persName> si ritrova intera nella storia di tutta la sua vita.</p>
+			<p>La quale <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="#DoraWilliams" xml:space="default" type="fictional">Dora</persName> si ritrova intera nella storia di tutta la sua vita.</p>
 			<p/>
-			<p>DORA WILLIAMS</p>
+			<p><persName ref="#DoraWilliams" type="fictional">DORA WILLIAMS</persName></p>
 			<p/>
 			<p>Quando Reuben Pantier fuggì e mi abbandonò</p>
 			<p>andai a Springfield. Qui incontrai un viveur,</p>
