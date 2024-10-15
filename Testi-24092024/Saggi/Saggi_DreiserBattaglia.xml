@@ -4210,6 +4210,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015223634216",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T20:36:34.216Z",
+	"dcterms:modified": "2024-10-15T20:36:34.216Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015223634216#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015223634216#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/4944366/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4219,7 +4299,7 @@
 			<p>Ho avvertito una volta, parlando di <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Lee Masters</persName>, come sia pericoloso giudicare questi scrittori sul fondamento delle loro più provinciali questioni di polemica sociale. Uno di essi, <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Sinclair Lewis</persName>, per esempio, è stato tanto in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> che in <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> interamente frainteso per la mania di vedere in lui nient’altro che il satireggiatore della civiltà meccanico-capitalistica. Bisogna invece insistere nel senso che i <title key="Lewis, Sinclair, 1885-1951,. | Babbitt" ref="http://viaf.org/viaf/206861413/" level="m">Babbitt</title>, gli <title key="Lewis, Sinclair, 1885-1951. | Arrowsmith" ref="http://viaf.org/viaf/186711229/" level="m">Arrowsmith</title> e gli <title key="Lewis, Sinclair, 1885-1951. | Elmer Gantry" ref="http://viaf.org/viaf/224463936/" level="m">Elmer Gantry</title> non significano poi molto come caricature dell’uomo d’affari, dello scienziato o del religioso, ma prepotentemente s’impongono alla fantasia come solide e inquiete figure di una società che sta cercando se stessa e vive di questa irrequietezza.</p>
 			<p>Anche <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" type="real">Dreiser</persName>, a cercarlo nelle sue intenzioni polemiche, ora che è svanito il fumo della ventenne battaglia, appare poco meno di un ingenuo. C’era bisogno di tanta mobilitazione di forze nel <rs ref="#Revival">Revival</rs> e di tanto clamore, colla bandiera dell’<title key="American Mercury (New York, N.Y. : 1924)" ref="http://viaf.org/viaf/5851159248611004870002/" level="j">American Mercury</title> in testa, per ottenere che il gusto americano si educasse a leggere, impassibile, di questioni sessuali? Perché è poi tutto qui. Riuscire a dire francamente in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> le cose che si dicono in <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>, sul continente. E naturalmente, se questi scrittori contano ancora per qualcosa, il motivo bisogna cercarlo in una qualche profondità di visione umana, quale non può mancare di presentarci una letteratura che, per la prima volta in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>, dal <placeName key="Central America  " ref="https://geonames.org/7729892">Centro</placeName>, dove con radici tanto provinciali è nata, intende e sa parlare a tutta l’<placeName key="North America  " ref="https://geonames.org/6255149">Unione</placeName>.</p>
 			<p>La campagna per la libertà nell’arte, <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName> la cominciò col suo primo libro tentato di pubblicare nel <date when="1900">1900</date>. Dice molto sulla cultura americana del tempo, ricordare che <title key="Dreiser, Theodore, 1871-1945. | Sister Carrie (University of Pennsylvania. Press)" ref="http://viaf.org/viaf/3061162608716949820008/" level="m">Sister Carrie</title> nell’intenzione dell’autore, e purtroppo anche in realtà, era un manifesto di naturalismo o, come <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/">Dreiser</persName> preferisce, di realismo. Scrittori brutali l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> ne aveva già avuti (<persName key="London, Jack, 1876-1916" ref="http://viaf.org/viaf/315943496/" cert="high" type="real">London</persName>, <persName key="Stephen Crane" ref="http://www.wikidata.org/entity/Q206534" cert="high" type="real">Crane</persName>). L’intenzione di <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName> non era soltanto di riuscire brutale nella parola, nella creazione insomma, ma di rappresentare obbiettivamente un mondo che vive brutalmente, che è mal fatto. Ma quest’è stato il programma anche di <persName key="Émile Zola" ref="http://dbpedia.org/resource/Émile_Zola" cert="high" type="real">Zola</persName>, libellista e romanziere sperimentale. A quarant’anni di distanza dal naturalismo francese, <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/">Dreiser</persName> avrebbe potuto sceglier meglio, almeno nei propositi. Ma in lui c’è persino del cattivo <persName key="Honoré de Balzac" ref="http://dbpedia.org/resource/Honoré_de_Balzac">Balzac</persName>, nell’eroico inventariare degli ambienti; e tutte queste esperienze si dovevano pur fare in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>, per digerire l’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> e trovarsi dopo la guerra freschi, spregiudicati e disposti a ogni più contemporanea ricerca. Adesso che è passato del tempo, noi vediamo molto bene che <title key="Dreiser, Theodore, 1871-1945. | Sister Carrie" ref="http://viaf.org/viaf/174079025/" level="m">Sister Carrie</title> non è poi stato quel ciclone che il <rs ref="#Revival">Revival</rs> pretendeva, ma una modesta pianta naturale, nata in un terreno già dissodato da scrittori che imposero, sul caos di ispirazioni libresche europee dell’autore, la forma indigena più opportuna. Furono costoro <persName key="Stephen Crane" ref="http://www.wikidata.org/entity/Q206534" cert="high" type="real">Stephen Crane</persName> e <persName key="Norris, Frank,, 1870-1902" ref="http://viaf.org/viaf/12341457/">Frank Norris</persName>: il primo, disilluso e tragico psicologista che traccia i suoi ricami un po’ allucinati sulla materia più comune e realistica – basti un titolo: Maggie, figlia della strada; – l’altro, il progenitore di <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Upton Sinclair</persName>, accusatore pubblico delle malefatte dei grandi industriali. <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName>, descrivendo la vita, neanche troppo immorale, della sua <title key="Dreiser, Theodore, 1871-1945. | Sister Carrie" ref="http://viaf.org/viaf/174079025/" level="m">Carrie</title> – che rovina un bravo uomo medio di <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName>, fuggendo con lui e poi abbandonandolo nella miseria per darsi al teatro – vedeva la sua originalità nel fatto che nessuno dei personaggi è malvagio, ma malvagia è la vita. Le quali idee, rimasticate nel romanzo con bella caparbietà di giovane autore, son ciò che fa ridere i lettori del ’<date when="1933">33</date>. L’originalità – quel poco che ce n’è in <title key="Dreiser, Theodore, 1871-1945. | Sister Carrie" ref="http://viaf.org/viaf/174079025/" level="m">Sister Carrie</title> – sta invece in parte nello stupore per la grande città che sorge, stupore reso nelle camminate di <persName ref="#Carrie">Carrie</persName> per <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> e del suo compagno <persName ref="#Hurstwood" type="fictional">Hurstwood</persName> per <placeName key="New York City New York United States" ref="https://geonames.org/5128581">Nuova York</placeName>, a cercar lavoro; e, in genere, nel gusto delle passioni osservate come un vigoroso spettacolo di forze.</p>
-			<p>Ciò che, tutto sommato, rappresenta nelle prime opere di Dreiser un regresso su anteriori scrittori del Centro-Ovest (Kirkland e Garland) e anche su qualcuno dei suoi più immediati ispiratori, come Stephen Crane, è l’impurità artistica del suo raccontare. Munito di una semplicistica quanto caparbia filosofia, che si ripete a ogni voltar di pagina, egli scrive romanzi coll’aria di chi sviluppa una teoria scientifica, e personaggi e casi gli fanno da esempi. Se non The Titan (1914), The Financier (1912), prima parte del dittico, è ancor infetto di questa maniera. Il protagonista, F. W. Cowperwood – la non nuova figura del capitano d’industria che fa e disfa, usurpa e distrugge e finalmente cade sotto gli odî accumulati – vive per episodi, per esempi, di cui ciascuno illustra la sagacia, il sangue freddo, l’audacia, il fascino e le altre virtù dell’uomo straordinario. Il curioso è che tutti questi attributi non riescono affatto improbabili – Dreiser sa il fatto suo – e Cowperwood è vivo, ma faticosamente vivo, coartato nella chiusa atmosfera di apologia dei principî. A ogni audace decisione, a ogni impresa piratesca, a ogni conquista sessuale di quest’uomo (e son parecchie) Dreiser si ferma a notare che il trionfo è del più forte, che l’universo è un campo di lotta imparziale, che il bene e il male sono soltanto nostri ideali, che ogni soddisfazione è un sopruso, ma che insomma l’equilibrio cosmico livella tutto, anche il vincitore. Si osservi l’abuso che della «chimica» Dreiser fa in tutti i suoi libri. Questa parola è il suo logo. Qualunque astratto per lui è un chimismo: il pensiero, la passione, la digestione, la storia, l’arte, il bene, il male. «Non uno psicologo, sono un biochimico».</p>
+			<p>Ciò che, tutto sommato, rappresenta nelle prime opere di <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName> un regresso su anteriori scrittori del Centro-Ovest (Kirkland e Garland) e anche su qualcuno dei suoi più immediati ispiratori, come Stephen Crane, è l’impurità artistica del suo raccontare. Munito di una semplicistica quanto caparbia filosofia, che si ripete a ogni voltar di pagina, egli scrive romanzi coll’aria di chi sviluppa una teoria scientifica, e personaggi e casi gli fanno da esempi. Se non The Titan (1914), The Financier (1912), prima parte del dittico, è ancor infetto di questa maniera. Il protagonista, F. W. Cowperwood – la non nuova figura del capitano d’industria che fa e disfa, usurpa e distrugge e finalmente cade sotto gli odî accumulati – vive per episodi, per esempi, di cui ciascuno illustra la sagacia, il sangue freddo, l’audacia, il fascino e le altre virtù dell’uomo straordinario. Il curioso è che tutti questi attributi non riescono affatto improbabili – Dreiser sa il fatto suo – e Cowperwood è vivo, ma faticosamente vivo, coartato nella chiusa atmosfera di apologia dei principî. A ogni audace decisione, a ogni impresa piratesca, a ogni conquista sessuale di quest’uomo (e son parecchie) Dreiser si ferma a notare che il trionfo è del più forte, che l’universo è un campo di lotta imparziale, che il bene e il male sono soltanto nostri ideali, che ogni soddisfazione è un sopruso, ma che insomma l’equilibrio cosmico livella tutto, anche il vincitore. Si osservi l’abuso che della «chimica» Dreiser fa in tutti i suoi libri. Questa parola è il suo logo. Qualunque astratto per lui è un chimismo: il pensiero, la passione, la digestione, la storia, l’arte, il bene, il male. «Non uno psicologo, sono un biochimico».</p>
 			<p>Naturalmente il gioco dei paradossi e la disinvoltura digressiva a ogni capitolo, con quel fare slabbrato da essay che talvolta tentava persino l’arguzia – Sister Carrie – sono presto caduti. Dreiser, che sempre più si fissa nell’idea di dare la gran tabella delle reazioni chimiche del mondo americano, ha compreso come tutta quella dispersione servisse poco al suo disegno, che invece chiede nient’altro che obbiettività, eroica obbiettività, psicologia e ambientazione: gli elementi e i mezzi dell’esperimento. Egli ha finalmente raggiunto – con ogni probabilità per istinto, non per riflessione – quello sdoppiamento, quella purificazione della sua vena narrativa, che lo condurrà al capolavoro. Da ora innanzi avremo due classi nelle sue opere. La prima: saggi, o novelle, o varietà, che vanno dalla pura trattazione teorica di idee (Hey-a-rub-dub-dub, 1919) alla cronaca (A Hoosier Holiday, The Colour of a Great City, 1923) o al ritratto (Twelve Men, 1915, A Gallery of Women, 1928) che presenta conoscenze come tipi, guardandole però attraverso proprie esperienze autobiografiche, facendone simboli di giorni perduti, cronaca anche questa. E tutta questa parte, malgrado l’opinione corrente che l’antepone ai romanzi, mi pare abbastanza stucchevole e facile, perché in essa l’invadente sciatteria espositiva toglie quasi ogni forma a un mondo – già di per sé frammentario – tutto fatto di ricordo, pettegolezzo e sentenze. Mentre l’altra classe, la costruzione di «equazioni passionali» precisatasi nel diritto del Titano, attraverso la cocciutaggine psicologica del Genius (1916), – sempre più libera da compromessi con la filosofia – conduce all’American Tragedy (1925).</p>
 			<p>Dreiser scrive male. Credo s’intenda dire con questo, che egli scrive da giornalista, senza affetto per la parola, a frasi fatte e ad approssimazioni sbrigative. Ma la questione è mal posta. Io credo che proprio quando Dreiser mostra meno affetto per la parola, quand’è più preso dal fatto – gesto, discorso o passione – che, come lo vede lui, realisticamente, non dev’essere falso all’esperienza giornaliera, allora non è questione di come egli scriva, appunto perché parola e immagine gli si fondono nella stessa evidenza e gli riescono definitive. Occorre cercare il cattivo stile di Dreiser proprio invece in quei punti dov’egli cerca di riparare a questa nudità, a questo realismo espressivo, e piega e decora allora la sua frase, in vistosi modi ornamentali che sempre s’accompagnano colla digressione, coll’intromissione dell’autore nell’oggettività del racconto. Citare infatti un passo ben scritto di Dreiser non è possibile, perché, essendo il suo stile tutt’uno col quadro, sempre vasto, di svariate passioni raccontate minutamente in tutto il loro chimismo, bisognerebbe citare a capitoli. Facilissimo invece dare saggi del suo cattivo gusto, quando, specialmente alla chiusa dei romanzi, abbandona l’esposizione dei fatti e intromette la filosofia come teoria, come interpretazione sua di questi fatti.</p>
 			<p>Ma vergognoso com’era tutto ciò, pure c’erano ugualmente i rigidi e calvi promontori del fatto, e alla loro base le onde flagellanti e distruggenti della necessità.</p>
