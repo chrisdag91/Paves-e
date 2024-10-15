@@ -3253,6 +3253,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?person_annotation_20241015142942854",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T12:29:42.854Z",
+	"dcterms:modified": "2024-10-15T12:29:42.854Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?person_annotation_20241015142942854#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?person_annotation_20241015142942854#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[272]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/27068379/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3527,7 +3606,7 @@
 			<p>E allora, quel gesto, guardando là nello specchio –</p>
 			<p>Amore, hai mai compreso?</p>
 			<p/>
-			<p>Quest’epigrafe dà la misura dell’arte di Lee Masters. Le figure crepuscolari nell’ora crepuscolare, i ricordi, le ombre, le reticenze del racconto, tutto si fonde a creare una scena che ha intorno quasi un alone soprannaturale. Qualcosa come una scena di fate di un romantico inglese, di</p>
+			<p>Quest’epigrafe dà la misura dell’arte di <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" type="real">Lee Masters</persName>. Le figure crepuscolari nell’ora crepuscolare, i ricordi, le ombre, le reticenze del racconto, tutto si fonde a creare una scena che ha intorno quasi un alone soprannaturale. Qualcosa come una scena di fate di un romantico inglese, di </p>
 			<p>uno <persName key="Yeats, William Butler 1806-1862" ref="http://viaf.org/viaf/7877172729674206290009/" cert="high" type="real">Yeats</persName>. Ma, e qui sta l’importanza non soltanto di <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Lee Masters</persName> ma di tutta la nuova letteratura degli Stati, quest’alone è realissimo, è un tremore di sofferenza, è una creazione soprattutto umana che fa parte di un severo poema morale, mentre quegli altri, i romantici inglesi, e non soltanto quelli, colle fate hanno bamboleggiato un po’ troppo.</p>
 			<p/>
 			<p/>
