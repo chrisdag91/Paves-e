@@ -6164,7 +6164,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015215256445#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[175]/title"
+			"rdf:value": "TEI/text/body/p[175]/title[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -6259,6 +6259,164 @@
 		"schema:softwareVersion": "3.6.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015215346556",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T19:53:46.556Z",
+	"dcterms:modified": "2024-10-15T19:53:46.556Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015215346556#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015215346556#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[175]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/178834148/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015215407637",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T19:54:07.637Z",
+	"dcterms:modified": "2024-10-15T19:54:07.637Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015215407637#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015215407637#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[175]/title[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/178834148/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
@@ -6438,7 +6596,7 @@
 			<p>implora eterna quiete» (6).</p>
 			<p/>
 			<p>La tragedia che qui vien fuori da una gran massa d’esperienze, organizzate in un’esistenza, altre volte esce da un contrasto, da un sarcasmo finale della vita, da uno di quei giochi che deliziano il demonio dell’Epilogo.</p>
-			<p>E, a proposito di demonio, sarà bene qui escludere qualunque derivazione dell’Anthology dai <title key="Soulié, Frédéric, 1800-1847. | Mémoires du diable" ref="http://viaf.org/viaf/161146462590127770746/" level="m">Mémoires du Diable</title> di <persName key="Soulié, Frédéric, 1800-1847" ref="http://viaf.org/viaf/17229691/" cert="high" type="real">Federico Soulié</persName>. Grande e originale libro quest’ultimo, ma bisogna però dire che tutte quelle sottili e drammatiche analisi dell’alta e bassa società francese della Restaurazione, quelle diaboliche radioscopie di un’umanità perduta dietro a passioni cieche, o ridotte tali, han poco a che fare colla disperata tensione delle anime di Spoon River, di cui la vita è tutta conchiusa in un breve ricordo e il cui pathos nasce dal contrasto di questa brevità coll’immensità delle aspirazioni. Per non dire nulla poi, del diavolo vero e proprio che nell’Anthology non compare che in una conclusione indipendente dall’opera e nei Mémoires entra colla macchinosità del soprannaturale a spezzare la gran comedia in un seguito di episodi. Comunque, tornando a noi, ecco una di quelle ironie dell’esistenza: il caso dell’impresario di pompe funebri:</p>
+			<p>E, a proposito di demonio, sarà bene qui escludere qualunque derivazione dell’<title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Anthology</title> dai <title key="Soulié, Frédéric, 1800-1847. | Mémoires du diable" ref="http://viaf.org/viaf/161146462590127770746/" level="m">Mémoires du Diable</title> di <persName key="Soulié, Frédéric, 1800-1847" ref="http://viaf.org/viaf/17229691/" cert="high" type="real">Federico Soulié</persName>. Grande e originale libro quest’ultimo, ma bisogna però dire che tutte quelle sottili e drammatiche analisi dell’alta e bassa società francese della Restaurazione, quelle diaboliche radioscopie di un’umanità perduta dietro a passioni cieche, o ridotte tali, han poco a che fare colla disperata tensione delle anime di <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River</title>, di cui la vita è tutta conchiusa in un breve ricordo e il cui pathos nasce dal contrasto di questa brevità coll’immensità delle aspirazioni. Per non dire nulla poi, del diavolo vero e proprio che nell’Anthology non compare che in una conclusione indipendente dall’opera e nei Mémoires entra colla macchinosità del soprannaturale a spezzare la gran comedia in un seguito di episodi. Comunque, tornando a noi, ecco una di quelle ironie dell’esistenza: il caso dell’impresario di pompe funebri:</p>
 			<p/>
 			<p>JEDUTHAN HAWLEY</p>
 			<p/>
