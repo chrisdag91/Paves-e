@@ -6577,6 +6577,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?place_annotation_20241015220121649",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T20:01:21.649Z",
+	"dcterms:modified": "2024-10-15T20:01:21.649Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?place_annotation_20241015220121649#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?place_annotation_20241015220121649#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[216]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/5055908",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -6780,7 +6859,7 @@
 			<p><persName ref="#WalterSimmons" type="fictional">WALTER SIMMONS</persName></p>
 			<p/>
 			<p>I miei genitori pensavano che sarei stato</p>
-			<p>grande come Edison o anche più:</p>
+			<p>grande come <persName ref="#Edison">Edison</persName> o anche più:</p>
 			<p>perché da ragazzo facevo palloni</p>
 			<p>e aquiloni meravigliosi e giocattoli con suonerie</p>
 			<p>e macchinette colle rotaie</p>
@@ -6795,7 +6874,7 @@
 			<p>pensando, pensando, pensando, pensando, –</p>
 			<p>non agli affari, ma alla macchina</p>
 			<p>che studiavo, coi calcoli, di costruire.</p>
-			<p>E tutta Spoon River stava attenta e aspettava</p>
+			<p>E tutta <placeName key="Lewistown Missouri United States" ref="https://geonames.org/5055908">Spoon River</placeName> stava attenta e aspettava</p>
 			<p>di vederla funzionare, ma non funzionò mai.</p>
 			<p>E alcune anime pietose credevano che il mio genio</p>
 			<p>fosse in qualche modo impacciato dal negozio.</p>
