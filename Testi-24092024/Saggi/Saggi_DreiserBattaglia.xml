@@ -642,12 +642,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015220854245",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T20:08:54.245Z",
+	"dcterms:modified": "2024-10-15T20:08:54.245Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015220854245#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015220854245#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/61588662/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p><persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName> e la sua battaglia sociale, in <title level="j" ref="#LaCultura">«La Cultura»</title>, <date from="1933-04" to="1933-06">aprile-giugno 1933</date></p>
 			<p/>
-			<p>Gli americani ce l’hanno con <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/">Dreiser</persName>. Non è più l’irritata diffidenza per il novatore, ma l’irridente disprezzo di gente che ha superato il suo mondo. Non serve più – come un tempo era bastato – ricordare che, se adesso in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> si posson leggere tranquillamente e con tanto sottile piacere le monellesche e impassibili birbanterie di <persName key="Ernest Hemingway" ref="http://www.wikidata.org/entity/Q23434" type="real">Hemingway</persName> o le drammatiche requisitorie di Lewisohn sul matrimonio, in gran parte questo si deve alla lunga campagna di <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" type="real">Dreiser</persName> che, colla incrollabile pedanteria di uno scienziato, ha spazzato via i pudori puritani. «<persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" type="real">Dreiser</persName>, the big man» fa ridere i giovani. Lo spiacevole è che, coi giovani, tornano a sogghignare i vecchi, quelli che avevano sopportato mordendo il freno la sua dittatura; e a costoro non par vero di lavarsi ora la bocca contro il «Maestro». E con lui va tutto il fake revival, la vuota rinascita del <date when="1912">1912</date>, da lui ispirata e da Henry Mencken diretta. Carl Sandburg diventa qualcosa di mezzo tra il giornalista e il canzonettista; Vachel Lindsay, uno squilibrato del tempo del jazz, che per caso ha scritto tre o quattro poesie bizzarramente colorite; Edgar Lee Masters, un nebuloso e importuno moralista; Sherwood Anderson, un povero di spirito, balbettante un misticismo talmente fatuo che attualmente comincia a somigliare al comunismo.</p>
+			<p>Gli americani ce l’hanno con <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/">Dreiser</persName>. Non è più l’irritata diffidenza per il novatore, ma l’irridente disprezzo di gente che ha superato il suo mondo. Non serve più – come un tempo era bastato – ricordare che, se adesso in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> si posson leggere tranquillamente e con tanto sottile piacere le monellesche e impassibili birbanterie di <persName key="Ernest Hemingway" ref="http://www.wikidata.org/entity/Q23434" type="real">Hemingway</persName> o le drammatiche requisitorie di Lewisohn sul matrimonio, in gran parte questo si deve alla lunga campagna di <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" type="real">Dreiser</persName> che, colla incrollabile pedanteria di uno scienziato, ha spazzato via i pudori puritani. «<persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" type="real">Dreiser</persName>, the big man» fa ridere i giovani. Lo spiacevole è che, coi giovani, tornano a sogghignare i vecchi, quelli che avevano sopportato mordendo il freno la sua dittatura; e a costoro non par vero di lavarsi ora la bocca contro il «Maestro». E con lui va tutto il fake revival, la vuota rinascita del <date when="1912">1912</date>, da lui ispirata e da Henry Mencken diretta. <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" cert="high" type="real">Carl Sandburg</persName> diventa qualcosa di mezzo tra il giornalista e il canzonettista; Vachel Lindsay, uno squilibrato del tempo del jazz, che per caso ha scritto tre o quattro poesie bizzarramente colorite; Edgar Lee Masters, un nebuloso e importuno moralista; Sherwood Anderson, un povero di spirito, balbettante un misticismo talmente fatuo che attualmente comincia a somigliare al comunismo.</p>
 			<p>Ho avvertito una volta, parlando di Lee Masters, come sia pericoloso giudicare questi scrittori sul fondamento delle loro più provinciali questioni di polemica sociale. Uno di essi, Sinclair Lewis, per esempio, è stato tanto in America che in Europa interamente frainteso per la mania di vedere in lui nient’altro che il satireggiatore della civiltà meccanico-capitalistica. Bisogna invece insistere nel senso che i Babbitt, gli Arrowsmith e gli Elmer Gantry non significano poi molto come caricature dell’uomo d’affari, dello scienziato o del religioso, ma prepotentemente s’impongono alla fantasia come solide e inquiete figure di una società che sta cercando se stessa e vive di questa irrequietezza.</p>
 			<p>Anche Dreiser, a cercarlo nelle sue intenzioni polemiche, ora che è svanito il fumo della ventenne battaglia, appare poco meno di un ingenuo. C’era bisogno di tanta mobilitazione di forze nel Revival e di tanto clamore, colla bandiera dell’American Mercury in testa, per ottenere che il gusto americano si educasse a leggere, impassibile, di questioni sessuali? Perché è poi tutto qui. Riuscire a dire francamente in America le cose che si dicono in Europa, sul continente. E naturalmente, se questi scrittori contano ancora per qualcosa, il motivo bisogna cercarlo in una qualche profondità di visione umana, quale non può mancare di presentarci una letteratura che, per la prima volta in America, dal Centro, dove con radici tanto provinciali è nata, intende e sa parlare a tutta l’Unione.</p>
 			<p>La campagna per la libertà nell’arte, Dreiser la cominciò col suo primo libro tentato di pubblicare nel 1900. Dice molto sulla cultura americana del tempo, ricordare che Sister Carrie nell’intenzione dell’autore, e purtroppo anche in realtà, era un manifesto di naturalismo o, come Dreiser preferisce, di realismo. Scrittori brutali l’America ne aveva già avuti (London, Crane). L’intenzione di Dreiser non era soltanto di riuscire brutale nella parola, nella creazione insomma, ma di rappresentare obbiettivamente un mondo che vive brutalmente, che è mal fatto. Ma quest’è stato il programma anche di Zola, libellista e romanziere sperimentale. A quarant’anni di distanza dal naturalismo francese, Dreiser avrebbe potuto sceglier meglio, almeno nei propositi. Ma in lui c’è persino del cattivo Balzac, nell’eroico inventariare degli ambienti; e tutte queste esperienze si dovevano pur fare in America, per digerire l’Europa e trovarsi dopo la guerra freschi, spregiudicati e disposti a ogni più contemporanea ricerca. Adesso che è passato del tempo, noi vediamo molto bene che Sister Carrie non è poi stato quel ciclone che il Revival pretendeva, ma una modesta pianta naturale, nata in un terreno già dissodato da scrittori che imposero, sul caos di ispirazioni libresche europee dell’autore, la forma indigena più opportuna. Furono costoro Stephen Crane e Frank Norris: il primo, disilluso e tragico psicologista che traccia i suoi ricami un po’ allucinati sulla materia più comune e realistica – basti un titolo: Maggie, figlia della strada; – l’altro, il progenitore di Upton Sinclair, accusatore pubblico delle malefatte dei grandi industriali. Dreiser, descrivendo la vita, neanche troppo immorale, della sua Carrie – che rovina un bravo uomo medio di Chicago, fuggendo con lui e poi abbandonandolo nella miseria per darsi al teatro – vedeva la sua originalità nel fatto che nessuno dei personaggi è malvagio, ma malvagia è la vita. Le quali idee, rimasticate nel romanzo con bella caparbietà di giovane autore, son ciò che fa ridere i lettori del ’33. L’originalità – quel poco che ce n’è in Sister Carrie – sta invece in parte nello stupore per la grande città che sorge, stupore reso nelle camminate di Carrie per Chicago e del suo compagno Hurstwood per Nuova York, a cercar lavoro; e, in genere, nel gusto delle passioni osservate come un vigoroso spettacolo di forze.</p>
