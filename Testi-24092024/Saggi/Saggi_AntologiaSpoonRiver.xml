@@ -3876,7 +3876,7 @@
 			<p/>
 			<p>La ribellione, che è uno degli stati più ricorrenti nel libro, è anche quella che mostra meglio l’altezza di Lee Masters. Non una frase di retorica, non un gesto, ma anime stanche che si raccolgono in sé e si fanno schiacciare, o scompaiono, nel mondo. Assai notevole mi pare l’epigrafe di questa ragazza:</p>
 			<p/>
-			<p>ROSIE ROBERTS</p>
+			<p><persName cert="high" ref="#RosieRoberts" type="fictional">ROSIE ROBERTS</persName></p>
 			<p/>
 			<p>Ero nauseata, ma, più ancora, impazzita,</p>
 			<p>dalla disonestà della polizia, dalla disonestà della vita.</p>
@@ -3889,7 +3889,7 @@
 			<p>a casa sua, pulendo un fucile da caccia –</p>
 			<p>mentivano come l’inferno, per far tacere lo scandalo,</p>
 			<p>comprati dalla réclame.</p>
-			<p>Nella mia camera l’ho ucciso, da Madam Lou,</p>
+			<p>Nella mia camera l’ho ucciso, da <persName ref="#MadameLou" type="fictional">Madam Lou</persName>,</p>
 			<p>perché lui mi ha buttato a terra quando gli ho detto</p>
 			<p>che, a dispetto di tutto il suo denaro,</p>
 			<p>avrei veduto il mio amante quella notte».</p>
