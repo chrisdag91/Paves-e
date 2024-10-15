@@ -2623,6 +2623,164 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?place_annotation_20241015235033610",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T21:50:33.610Z",
+	"dcterms:modified": "2024-10-15T21:50:33.610Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?place_annotation_20241015235033610#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?place_annotation_20241015235033610#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?place_annotation_20241015235048506",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T21:50:48.506Z",
+	"dcterms:modified": "2024-10-15T21:50:48.506Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?place_annotation_20241015235048506#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?place_annotation_20241015235048506#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/placeName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2633,7 +2791,7 @@
 			<p>L’infanzia nell’<placeName key="Ohio Ohio United States" ref="https://geonames.org/5165418">Ohio</placeName> aveva insegnato a <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Sherwood Anderson</persName> soltanto a leggere e a scrivere e che la vita è dura. Figlie di emigranti o quasi, quelle famiglie erano una generazione che viveva nell’<placeName key="Ohio Ohio United States" ref="https://geonames.org/5165418">Ohio</placeName> – come altre nella <placeName key="Nebraska Nebraska United States" ref="https://geonames.org/5073708">Nebraska</placeName>, nell’<placeName key="Illinois Illinois United States" ref="https://geonames.org/4896861">Illinois</placeName>, nel <placeName key="South Dakota South Dakota United States" ref="https://geonames.org/5769223">Dakota</placeName> – senza nemmeno l’orgoglio della conquista che era stato dei vecchi pionieri ora scomparsi, senza una ragione di affetto, senza un interesse: viveva là perchè la vita l’aveva buttata. Praterie vuote, qualche fiume, villaggi di legno, granturco e cavoli dappertutto e immensità piatta e opprimente.</p>
 			<p>A <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> dove cercava fortuna, il giovane <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName> aveva trovato soltanto un’altra desolazione: uomini che faticavano, che lottavano, che si davan gomitate, sognando una vita grassa, aggreggiati in baracche altrettanto provvisorie che nelle campagne, con parole altrettanto banali e neanche più il conforto degli orizzonti aperti. E inoltre una miseria spietata, uno sfruttamento della bestia umana quale non s’era più visto dal tempo degli schiavi.</p>
 			<p>Il giovane <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> leggeva. Leggeva di tutto: dai <title key="Commentarii de Bello Gallico" ref="http://dbpedia.org/resource/Commentarii_de_Bello_Gallico" level="m">Commentari</title> di <persName key="Giulio Cesare" ref="http://dbpedia.org/resource/Giulio_Cesare" cert="high">Cesare</persName> alle biografie del Rinascimento, alle <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">Foglie d’erba</title> di <persName key="Whitman, Walt, 1859-1928" ref="http://viaf.org/viaf/187129231/" type="real">Walt Whitman</persName>. La fantasia gli giocava brutti scherzi. Per molto tempo anche in seguito, quando fu più formato e più uomo, gli accadde di trasformare, da allucinato, pacifici nordamericani in signorotti del cinquecento e di scrivere lunghe liste di parole senza senso, non per altro che per sfogare le sue ubriacature di solitudine.</p>
-			<p>Ma un’idea fa importanti anche tutte le assurdità più luminose che <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName> può aver fantasticato e vissuto da operaio nella città in formazione. E l’idea è la stessa che dà fascino e vigore a questo libro – <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Riso nero</title> – scritto da <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Anderson</persName> a quarantanove anni nel <date when="1925">1925</date>, quando già <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> e tutti gli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName> avevan preso un assetto e una pacata larghezza di respiro da far quasi dimenticare i tempi caotici delle origini. Idea e problema sono gli stessi che hanno tormentato e tormentano tuttora gli artisti e gli uomini che conteranno in futuro nella storia degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>. Si chiedeva l’operaio <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName>: qual’è mai il significato di quest’enorme nazione che è fatta dei rifiuti di tutte le nazioni; che vive, che suda, bestemmia e si rinnova continuamente; che non ha bellezza, non ha memorie, non ha nulla, se non un’avidità smisurata di vita e di fortuna e che nelle sue espressioni sinora più alte non ha saputo che scimmiottare i gesti stracchi dell’Europa, e riverniciarsi di tutti i lustri più falsi dell’Europa?</p>
+			<p>Ma un’idea fa importanti anche tutte le assurdità più luminose che <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName> può aver fantasticato e vissuto da operaio nella città in formazione. E l’idea è la stessa che dà fascino e vigore a questo libro – <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Riso nero</title> – scritto da <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Anderson</persName> a quarantanove anni nel <date when="1925">1925</date>, quando già <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> e tutti gli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName> avevan preso un assetto e una pacata larghezza di respiro da far quasi dimenticare i tempi caotici delle origini. Idea e problema sono gli stessi che hanno tormentato e tormentano tuttora gli artisti e gli uomini che conteranno in futuro nella storia degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>. Si chiedeva l’operaio <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName>: qual’è mai il significato di quest’enorme nazione che è fatta dei rifiuti di tutte le nazioni; che vive, che suda, bestemmia e si rinnova continuamente; che non ha bellezza, non ha memorie, non ha nulla, se non un’avidità smisurata di vita e di fortuna e che nelle sue espressioni sinora più alte non ha saputo che scimmiottare i gesti stracchi dell’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>, e riverniciarsi di tutti i lustri più falsi dell’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>?</p>
 			<p>Una risposta a questo, Anderson la cercò in tutti i libri, in tutti i fatti, in tutta la vita che gli giungeva alla coscienza – e non soltanto da operaio, ma anche più tardi, quando fu soldato, garzone di cavalli, agente pubblicitario e industriale – e dal caos di barlumi e di parvenze informi non sapeva cavare che fantasticherie, trasfigurazioni interiori di quel cinematografo incessante che gli scorreva davanti, finchè a poco a poco la fantasticheria, la trasfigurazione della realtà, non gli apparvero altro che il senso stesso della sua vita e la strada per cui egli avrebbe potuto dare un significato, una giustificazione anche agli Stati.</p>
 			<p>E allora comincia l’altro problema, l’altro lavoro immane, che Anderson si è sobbarcato per la sua terra: Come esprimerlo questo fatto nuovo alla storia, come ricreare in fantasia, riordinare, costruire (poichè questa per Anderson è l’arte: portare ordine e disegno dove è il caos) il materiale disperso che forma l’inaudita Nazione di una cinquantina di nazioni? Dov’è una tradizione artistica e spirituale dell’America?</p>
 			<p>Di fronte gli sta l’Europa – la vedete, nel libro – antica, matura, sapiente: esperta, prima, della vita, e poi, conseguentemente, dell’arte, dove i creatori vivono vicino alla loro terra, alle cose, con semplicità, con umiltà, ascoltando. Nell’America invece l’artista è un isolato, un estraneo al suo paese; il paese stesso non pare che vernice, la pretensiosità è il motto di tutta la vita: che cosa sa l’America della umiltà e terrestrità dei grandi artisti del passato dell’Europa?</p>
