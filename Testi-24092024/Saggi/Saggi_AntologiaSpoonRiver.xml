@@ -4227,11 +4227,11 @@
 			<p>non bere –</p>
 			<p>perché la scarlattina mi aveva lasciato il cuore malato.</p>
 			<p>Eppure giaccio qui</p>
-			<p>carezzato da un segreto che soltanto Maria conosce:</p>
+			<p>carezzato da un segreto che soltanto <persName ref="#Maria" type="fictional">Maria</persName> conosce:</p>
 			<p>c’è un giardino d’acacie,</p>
 			<p>di catalpe, di pergole coperte di viti –</p>
 			<p>là in quel pomeriggio di giugno</p>
-			<p>al fianco di Maria –</p>
+			<p>al fianco di <persName ref="#Maria">Maria</persName> –</p>
 			<p>baciandola coll’anima sulle labbra</p>
 			<p>l’anima d’improvviso mi è fuggita.</p>
 			<p/>
