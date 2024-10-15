@@ -5235,6 +5235,164 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?title_annotation_20241016000239795",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T22:02:39.795Z",
+	"dcterms:modified": "2024-10-15T22:02:39.795Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?title_annotation_20241016000239795#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?title_annotation_20241016000239795#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/1542161332348852420009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?title_annotation_20241016000308643",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T22:03:08.643Z",
+	"dcterms:modified": "2024-10-15T22:03:08.643Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?title_annotation_20241016000308643#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?title_annotation_20241016000308643#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/1542161332348852420009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5252,7 +5410,7 @@
 			<p>Questo alla prima occhiata di <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName>, e, in più, in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> ci sono le macchine, la facile ricchezza e il puritanesimo: tutto che soffoca l’artista e la vita.</p>
 			<p>Ma – e qui sta l’importanza di <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Riso nero</title> e di tutto <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Anderson</persName>, in contrasto con certi artistucoli americani che fanno i fuorusciti in <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> – anche in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> scorre il sangue nei corpi, anche in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> ci sono istinti, ci sono passioni, ci sono lavori vitali e non solo efficienti; si posson pensare immagini e costruire mondi. E quel che è più, qualche americano questa costruzione l’ha fatta. Quelle pagine su <persName key="Mark Twain" ref="http://dbpedia.org/resource/Mark_Twain" cert="high" type="real">Mark Twain</persName> autore di <title key="The Adventures of Tom Sawyer" ref="http://dbpedia.org/resource/The_Adventures_of_Tom_Sawyer" level="m">Tom Sawyer</title> e <title key="Adventures of Huckleberry Finn" ref="http://dbpedia.org/resource/Adventures_of_Huckleberry_Finn" level="m">Huckleberry Finn</title>, poeta della vita schietta del <placeName key="Central America  " ref="https://geonames.org/7729892">Centro</placeName> sul gran fiume, sono sprazzi della scoperta nazionale di <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Anderson</persName>.</p>
 			<p>C’è la vita in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>, come nella Vecchia <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>: c’è la natura eterna, ci sono i canti, il fiume, l’amore, le risa, i negri: <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Riso nero</title>. E con raddoppiata energia <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName> canta l’inno alla vita negra, all’umiltà dei negri dinanzi alle cose, perchè così può colpire le pastoie bianche dell’orgoglio e del materialismo puritano.</p>
-			<p>Questo libro è propriamente la costruzione di un nuovo ideale di vita americana nella coppia Bruce-Aline e la tragedia degli sfalsamenti dell’orgoglio e della retorica in Bernice e Fred. E questa nuova vita Bruce e Aline se la costruiscono lentamente, con dolore, come ha fatto l’oscuro operaio di <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName>, dinanzi ai negri e all’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>, impregnandosi della sensualità umile e sana dei primi e di tutta la saggezza dolorosa e profonda che Anderson vede in noi antichi. Così il romanzo è tutto fatto della sensibilità fantastica nella quale Anderson ha scoperto la sua <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>: i personaggi vivono e ci parlano con quella fissità trasognata e ricchissima che è la vita che Anderson vuole insegnare all’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>; essi si raccontano con un loro lento lavorio, dinanzi a noi, come presi essi stessi dal gusto, dal bisogno di esistere fantasticamente o non essere: non essere che un caos, un nulla, una nazione fatta di banale ottimismo e di menzogne.</p>
+			<p>Questo <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">libro</title> è propriamente la costruzione di un nuovo ideale di vita americana nella coppia Bruce-Aline e la tragedia degli sfalsamenti dell’orgoglio e della retorica in Bernice e Fred. E questa nuova vita Bruce e Aline se la costruiscono lentamente, con dolore, come ha fatto l’oscuro operaio di <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName>, dinanzi ai negri e all’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>, impregnandosi della sensualità umile e sana dei primi e di tutta la saggezza dolorosa e profonda che Anderson vede in noi antichi. Così il <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">romanzo</title> è tutto fatto della sensibilità fantastica nella quale Anderson ha scoperto la sua <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>: i personaggi vivono e ci parlano con quella fissità trasognata e ricchissima che è la vita che Anderson vuole insegnare all’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>; essi si raccontano con un loro lento lavorio, dinanzi a noi, come presi essi stessi dal gusto, dal bisogno di esistere fantasticamente o non essere: non essere che un caos, un nulla, una nazione fatta di banale ottimismo e di menzogne.</p>
 			<p/>
 			<p><persName key="Pavese, Cesare, 1908-1950." ref="http://viaf.org/viaf/36922880/" cert="high" type="real">Cesare Pavese</persName></p>
 		</body>
