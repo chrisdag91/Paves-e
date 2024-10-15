@@ -6750,7 +6750,7 @@
 			<p>Andammo a <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070">Roma</placeName>. Mi avvelenò, credo.</p>
 			<p>Ed ora nel Camposanto che guarda</p>
 			<p>il mare dove <persName key="Christopher Columbus" ref="http://dbpedia.org/resource/Christopher_Columbus" type="real">Colombo</persName> giovane sognò nuovi mondi,</p>
-			<p>ecco che cosa han scolpito: «Contessa Navigato</p>
+			<p>ecco che cosa han scolpito: «<persName ref="#ContessaNavigato" type="fictional">Contessa Navigato</persName></p>
 			<p>implora eterna quiete» (6).</p>
 			<p/>
 			<p>La tragedia che qui vien fuori da una gran massa d’esperienze, organizzate in un’esistenza, altre volte esce da un contrasto, da un sarcasmo finale della vita, da uno di quei giochi che deliziano il demonio dell’Epilogo.</p>
