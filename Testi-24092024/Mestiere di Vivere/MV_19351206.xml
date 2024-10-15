@@ -89,11 +89,90 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351206.xml?person_annotation_20241015150347331",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T13:03:47.331Z",
+	"dcterms:modified": "2024-10-15T13:03:47.331Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351206.xml?person_annotation_20241015150347331#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351206.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351206.xml?person_annotation_20241015150347331#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Charles_Baudelaire",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p><date when="1935-12-06">6 dic.</date></p>
-			<p>Bestemmiare, per quei tipi all’antica che non sono perfettamente convinti che Dio non esista, ma, pure infischiandosene se lo tengono ogni tanto tra carne e pelle, è una bella attività. Viene un accesso d’asma e l’uomo comincia a bestemmiare con rabbia e tenacia: con la precisa intenzione di offendere questo Dio eventuale. Pensa che dopotutto, se c’è, ogni bestemmia è un colpo di martello sui chiodi della croce e un dispiacere fatto a colui. Poi Dio si vendicherà – è il suo sistema – farà il diavolo a quattro, manderà altre disgrazie, metterà all’inferno, ma capovolga anche il mondo, nessuno gli toglierà il dispiacere provato, la martellata sofferta. Nessuno! È una bella consolazione. E certo ciò rivela che dopotutto questo Dio non ha pensato a tutto. Pensate: è il padrone assoluto, il tiranno, il tutto; l’uomo è una merda, un nulla, e pure l’uomo ha questa “possibilità di farlo irritare e scontentarlo e mandargli a male un attimo della sua beata esistenza". Questo è davvero il “meilleur témoignage que nous puissions donner de notre dignité”. Come mai Baudelaire non ci ha fatto sopra una poesia?</p>
+			<p>Bestemmiare, per quei tipi all’antica che non sono perfettamente convinti che Dio non esista, ma, pure infischiandosene se lo tengono ogni tanto tra carne e pelle, è una bella attività. Viene un accesso d’asma e l’uomo comincia a bestemmiare con rabbia e tenacia: con la precisa intenzione di offendere questo Dio eventuale. Pensa che dopotutto, se c’è, ogni bestemmia è un colpo di martello sui chiodi della croce e un dispiacere fatto a colui. Poi Dio si vendicherà – è il suo sistema – farà il diavolo a quattro, manderà altre disgrazie, metterà all’inferno, ma capovolga anche il mondo, nessuno gli toglierà il dispiacere provato, la martellata sofferta. Nessuno! È una bella consolazione. E certo ciò rivela che dopotutto questo Dio non ha pensato a tutto. Pensate: è il padrone assoluto, il tiranno, il tutto; l’uomo è una merda, un nulla, e pure l’uomo ha questa “possibilità di farlo irritare e scontentarlo e mandargli a male un attimo della sua beata esistenza". Questo è davvero il “<q cert="high" generatedBy="human" source="#CharlesBaudelaireLesFleursDuMal" type="spoken" xml:space="default">meilleur témoignage que nous puissions donner de notre dignité</q>”. Come mai <persName key="Charles Baudelaire" ref="http://dbpedia.org/resource/Charles_Baudelaire">Baudelaire</persName> non ci ha fatto sopra una poesia?</p>
 		</body>
 	</text>
 </TEI>
