@@ -1355,13 +1355,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015141030503",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T12:10:30.503Z",
+	"dcterms:modified": "2024-10-15T12:10:30.503Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015141030503#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015141030503#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/title[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/182113193/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Polemica antipuritana con ardore puritano (1).</p>
 			<p/>
 			<p>I pochi accenni che si sono fatti finora in <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> a questo libro rivelano il falso atteggiamento che, per tutte le cose del <placeName key="North America  " ref="https://geonames.org/6255149">Nordamerica</placeName>, da noi piace prendere. Persino <persName key="Michaud, Régis, 1880-1939." ref="http://viaf.org/viaf/46917655/" cert="high" type="real">Régis Michaud</persName> che, per quanto io sappia, è la persona al mondo che ha sinora meglio giudicato di quella letteratura, giunto nel suo Panorama (2) al paragrafo <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Edgar Lee Masters</persName> (p. 188), fa intendere che la <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" cert="high" level="m">Spoon River Anthology</title> è essenzialmente un’opera rappresentativa delle folle ingabbiate e livellate, refoulées, dal puritanesimo e dalla nuova civiltà degli <placeName key="United States  United States" ref="https://geonames.org/6252001">Stati</placeName>. Sarà poi meglio non rilevare (perché daremmo loro un’importanza che non meritano) ciò che del libro dicono certi corrispondenti italiani di laggiù, i quali hanno ridotto la <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River</title> a un documento culturale etnico, specchio giornalistico di una civiltà, che, come ce la presentan loro, comincerebbe davvero a dar noia, da contrapporre – per tarparla – alla «bimillenaria tradizione nostra». Perché, quando due ragazzi litigano, è sicuro che, a corto di ragioni, vien fuori la gara: – Io sono il figlio del maresciallo. – E io, del capitano.</p>
-			<p>Tutti vi sapranno dire che il gran merito di <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" type="real">Lee Masters</persName> è di aver cominciato, al suo paese, la descrizione realistica, spietata, della cittadina di provincia, del villaggio, puritani. Le date sono date: <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River</title>, <date when="1915">1915</date>, – <title key="Anderson, Sherwood, 1876-1941. | Winesburg, Ohio" ref="http://viaf.org/viaf/314848338/" level="m">Winesburg Ohio</title>, <date when="1919">1919</date> – My Antonia e Main Street, <date when="1920">1920</date>. <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Edgar Lee Masters</persName> batte quindi il record: è il padre dell’odierna letteratura; dopo di che, si passa a parlar d’altro.</p>
+			<p>Tutti vi sapranno dire che il gran merito di <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" type="real">Lee Masters</persName> è di aver cominciato, al suo paese, la descrizione realistica, spietata, della cittadina di provincia, del villaggio, puritani. Le date sono date: <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River</title>, <date when="1915">1915</date>, – <title key="Anderson, Sherwood, 1876-1941. | Winesburg, Ohio" ref="http://viaf.org/viaf/314848338/" level="m">Winesburg Ohio</title>, <date when="1919">1919</date> – <title key="Cather, Willa, 1873-1947. | My Ántonia" ref="http://viaf.org/viaf/182113193/" level="m">My Antonia</title> e Main Street, <date when="1920">1920</date>. <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Edgar Lee Masters</persName> batte quindi il record: è il padre dell’odierna letteratura; dopo di che, si passa a parlar d’altro.</p>
 			<p>Ora – lasciando stare che in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> il villaggio era già stato passato al crogiolo da <persName key="Hawthorne, Nathaniel, 1804-1864." ref="http://viaf.org/viaf/44435463/" cert="high" type="real">Hawthorne</persName> per lo meno nel <date when="1846">1846</date> – sarebbe, ai nostri occhi, un titolo ben magro per i nuovi scrittori, quello di aver per tutta novità rivolta l’attenzione a un loro ambiente locale, pieno di problemi locali e risolti questi ultimi in modi di vita locali. Ché, se poi vogliamo leggere sulla vita di provincia, sono anche troppi gli scrittori europei che ne han trattato.</p>
 			<p>Dov’è, dunque, il grande interesse di quei libri?</p>
 			<p>La verità mi pare anzitutto questa: che, se si prende Edgar Lee Masters, come vogliono, per un antipuritano, lo si riduce a un ben misero e trascurabile libellista. Sono già seccanti in casa propria, i problemi di questo genere. Vero che, come del resto in tutti i libri – americani o europei – che valgono qualcosa, c’è nella Spoon River un ambiente, un’esperienza, indigeni; un ricorrere di modi di vita e di tipi nazionali che, a ogni modesto frequentatore di cinema, saltano agli occhi come conoscenze vecchie. Ma questo non è che la schiettezza del libro, la sua diretta ispirazione dalla vita, la sua materia e, ripeto, tutti i libri di qualche valore più o meno mostrano questa caratteristica.</p>
