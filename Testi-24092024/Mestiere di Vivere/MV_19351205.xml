@@ -89,11 +89,89 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351205.xml?date_annotation_20241015145735898",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T12:57:35.898Z",
+	"dcterms:modified": "2024-10-15T12:57:35.898Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351205.xml?date_annotation_20241015145735898#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351205.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19351205.xml?date_annotation_20241015145735898#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-11-24"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p><date when="1935-12-05">5 dic.</date></p>
-			<p>Deve avere qualche significato il fatto che, scoprendo la mia maniera, non mi sono per nulla aiutato con la facilità della materia sessuale. <title ref="#MariDelSud">Mari del Sud</title>, <title ref="#Antenati">Antenati</title>, *<title ref="#FumatoriDiCarta">Fumatori di carta</title>, ignorano questa vena. E se entravo nell’argomento, era in modo sdegnoso e saputo (ricordare *<title ref="#DonnePerdute">Donne Perdute</title>, il *<title ref="#BluesDeiBlues">Blues dei Blues</title>, *<title ref="#Maestrine">Maestrine</title>). Cominciò la nuova preoccupazione con <title ref="#CanzoneDiStrada">Canzone di Strada</title> e <title ref="#Tradimento">Tradimento</title>, in forma di vivida descrizione di esperienze sensoriali. Finché scoppiò come nuova materia proiettata nel mondo in <title ref=" #UnaStagione">Una stagione</title>. Qui l’argomento era proprio l’importanza e la all-pervadingness del sesso, la riduzione di tutte le esperienze sensoriali a equivalenti del sesso (“il vento di marzo sui vestiti”). Un ritorno all’abbassamento malizioso delle sensazioni sessuali può essere una via d’uscita dal pantano di abitudinaria facilità descrittiva attuale. Come andranno però d’accordo questa malizia sessuale con l’inquietudine contemplativa segnalata il 24 nov.? A prima vista parrebbe che malizia e inquietudine contrastassero.</p>
+			<p>Deve avere qualche significato il fatto che, scoprendo la mia maniera, non mi sono per nulla aiutato con la facilità della materia sessuale. <title ref="#MariDelSud">Mari del Sud</title>, <title ref="#Antenati">Antenati</title>, *<title ref="#FumatoriDiCarta">Fumatori di carta</title>, ignorano questa vena. E se entravo nell’argomento, era in modo sdegnoso e saputo (ricordare *<title ref="#DonnePerdute">Donne Perdute</title>, il *<title ref="#BluesDeiBlues">Blues dei Blues</title>, *<title ref="#Maestrine">Maestrine</title>). Cominciò la nuova preoccupazione con <title ref="#CanzoneDiStrada">Canzone di Strada</title> e <title ref="#Tradimento">Tradimento</title>, in forma di vivida descrizione di esperienze sensoriali. Finché scoppiò come nuova materia proiettata nel mondo in <title ref=" #UnaStagione">Una stagione</title>. Qui l’argomento era proprio l’importanza e la all-pervadingness del sesso, la riduzione di tutte le esperienze sensoriali a equivalenti del sesso (“<q cert="high" generatedBy="human" source="#UnaStagione" type="spoken" xml:space="default">il vento di marzo sui vestiti</q>”). Un ritorno all’abbassamento malizioso delle sensazioni sessuali può essere una via d’uscita dal pantano di abitudinaria facilità descrittiva attuale. Come andranno però d’accordo questa malizia sessuale con l’inquietudine contemplativa segnalata il <date when="1935-11-24">24 nov.</date>? A prima vista parrebbe che malizia e inquietudine contrastassero.</p>
 		</body>
 	</text>
 </TEI>
