@@ -7354,7 +7354,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015230747207#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[18]/persName[5]"
+			"rdf:value": "TEI/text/body/p[18]/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -7363,6 +7363,249 @@
 			"cwrc:FictionalPerson"
 		],
 		"@id": "http://dbpedia.org/resource/The_Financier",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015230819391",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T21:08:19.391Z",
+	"dcterms:modified": "2024-10-15T21:08:19.391Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015230819391#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015230819391#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[18]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://dbpedia.org/resource/The_Financier",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015230835015",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T21:08:35.015Z",
+	"dcterms:modified": "2024-10-15T21:08:35.015Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015230835015#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?person_annotation_20241015230835015#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://dbpedia.org/resource/The_Financier",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?title_annotation_20241015230853433",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T21:08:53.433Z",
+	"dcterms:modified": "2024-10-15T21:08:53.433Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?title_annotation_20241015230853433#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DreiserBattaglia.xml?title_annotation_20241015230853433#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[18]/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/174079025/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -7394,8 +7637,8 @@
 			<p>(<title key="The Titan" ref="http://www.wikidata.org/entity/Q4458189" level="m">The Titan</title>).</p>
 			<p>Non sempre, naturalmente, il cattivo gusto tocca questi vertici; sovente nel <title key="The Financier" ref="http://www.wikidata.org/entity/Q577607" level="m">Financier</title>, nel <title key="The Titan" ref="http://www.wikidata.org/entity/Q4458189" level="m">Titan</title> e nel <title level="m" ref="#TheGenius">Genius</title> la digressione non ha che funzione ambientatrice e per questa sua stessa natura non è di gusto né buono né cattivo: si tratta di pagine informative, non-artistiche. Si vedano, per esempio nel <title key="The Financier" ref="http://www.wikidata.org/entity/Q577607" level="m">Financier</title>, quelle interminabili dove si arreda una casa o s’introducono personaggi con tutto il loro curriculum sociale. Se si pensa poi a quelle opere di <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName> che sono tutta digressione – le memorie e i saggi vari – si trova in esse, nel tono più dimesso dell’opera minore, un fare discreto tra discorsivo e scientifico, che se non regge al confronto colla muscolosa intensità narrativa delle grandi pagine nei grossi romanzi, è però ben superiore a certi svolazzi barocchi, di questi ultimi, messi lì apposta, pare, a sollevare, quasi parodia, il lettore dalla desolatezza di altre pagine.</p>
 			<p>Non basta dire che l’<title key="Dreiser, Theodore 1871-1945 An American tragedy" ref="http://viaf.org/viaf/175657310/" level="m">American Tragedy</title> riesce il migliore dei libri di <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/">Dreiser</persName> per il suo rigore narrativo che rifiuta ogni leggerezza digressiva. Ciò riguarda semplicemente l’unità del suo tono, non il suo significato.</p>
-			<p>Quasi tutta la materia della <title key="Dreiser, Theodore 1871-1945 An American tragedy" ref="http://viaf.org/viaf/175657310/" level="m">Tragedy</title> era già apparsa, variamente dissociata, negli altri romanzi. <persName ref="#ClydeGriffith" type="fictional">Clyde Griffith</persName>, il protagonista, figlio di evangelisti laici, abbandonato presto a sé, senza educazione, pieno d’ammirazione e di voglie per il mondo superiore della ricchezza e degli agi, quale glielo impersona l’innamorata milionaria <persName ref="#SondraFinchley">Sondra Finchley</persName> – the beautiful <persName ref="#SondraFinchley">Sondra</persName> – ha molto, a parte l’energia della tempra, del Cowperwood, o meglio, dell’<persName ref="#Aileen" type="fictional">Aileen</persName>, che è la prima amante di <persName key="The Financier" ref="http://dbpedia.org/resource/The_Financier" type="fictional">Cowperwood</persName>, e lo segue come incantata in quei suoi mondi splendidi che, da un giorno all’altro, rovinano e altri subito se ne sostituiscono. Cosí Roberta Alden – operaia di fabbrica e amante furtiva di Clyde, per liberarsi della quale e fuggire con Sondra, Clyde alla fine commette il delitto – ricorda molto, nella sua dolcezza un po’ stoica e più tardi, quando si scopre madre, nella fermezza disperata con cui esige il matrimonio, la femminilità severa dell’antica Sister Carrie. Finalmente, tutta l’ultima parte del libro – il processo a Clyde assassino, dove l’interesse si sposta dai protagonisti sul difensore e sull’accusatore, su tutto un tribunale e una provincia, sulle madri della morta e di Clyde e sulla pena stessa – non è che una ripresa più ricca, più chiara e definitiva di un gusto antico in Dreiser: concludere un romanzo colla contrapposizione violenta del protagonista e della società tutta armata, tutta formidabile e solitamente vittoriosa. Lo interessa, nello spettacolo della vita, il solito «equilibrio dell’equazione».</p>
-			<p>Ma l’American Tragedy presenta soprattutto un rovesciamento d’interesse umano, a cui non è preparato chi, scorrendo gli altri romanzi, si sia fermato, com’è naturale, al Titan come al punto più alto. Pare, prima del 1925, che Dreiser, un po’ per le sue idee di trionfo del più forte e un po’ per la sua apparente insensibilità di freddo osservatore dei contrasti della vita, abbia oggettivato tutto il suo ideale in Cowperwood, pirata della Borsa e dei contribuenti e titano sempre risorgente. Ma al contrario, egli è una natura sensibilissima e talvolta persino fanciullesca, che si esalta allo spettacolo di Chicago «babelica» e simpatizza, benché teorizzi la legge della necessità ferrea, col povero lavoratore «privo d’arte, privo di pensiero, privo di tenerezza... strumento nelle mani di padroni indifferenti». Non è un caso che l’America, il paese mitico dell’uomo fattosi da sé, dell’arrivista senza scrupoli, non abbia ancor dato l’esaltazione dionisiaca e antisociale del superuomo, come la si è vista in Europa. Ciò proviene naturalmente da quello stato d’animo – trasformazione dello zelo puritano, più antico – diffuso ora in America sotto forma d’interesse sociale, di responsabilità, di service; per cui, e questo non ha a che fare coll’eccellenza o meno delle opere, laggiù il tono medio della letteratura è più serio, più convinto di assolvere una missione, che non da noi. Dei due più famosi, tra i molti romanzieri americani che hanno messo in scena il capitano d’industria, Jack London in Burning Daylight crea una figura più di cavaliere dell’ideale che non di spietato superuomo (finisce in Arcadia, addirittura, il suo eroe); e Sinclair Lewis in Dodsworth ne esamina le tragicomiche insufficienze, le borghesi e provincialissime aspirazioni a un’onorata vecchiaia. E Dreiser, a chi abbia meditato l’American Tragedy, rivela come anche il dittico del Titano non fosse, dopo tutto, l’esaltazione del più forte, ma il semplice bisogno di vedere il fondo in ogni tragedia, la sconsolata e furibonda scoperta che la giustizia non è di questo mondo, e nemmeno gli sforzi di un grande individuo hanno scopo.</p>
+			<p>Quasi tutta la materia della <title key="Dreiser, Theodore 1871-1945 An American tragedy" ref="http://viaf.org/viaf/175657310/" level="m">Tragedy</title> era già apparsa, variamente dissociata, negli altri romanzi. <persName ref="#ClydeGriffith" type="fictional">Clyde Griffith</persName>, il protagonista, figlio di evangelisti laici, abbandonato presto a sé, senza educazione, pieno d’ammirazione e di voglie per il mondo superiore della ricchezza e degli agi, quale glielo impersona l’innamorata milionaria <persName ref="#SondraFinchley">Sondra Finchley</persName> – the beautiful <persName ref="#SondraFinchley">Sondra</persName> – ha molto, a parte l’energia della tempra, del <persName key="The Financier" ref="http://dbpedia.org/resource/The_Financier" type="fictional">Cowperwood</persName>, o meglio, dell’<persName ref="#Aileen" type="fictional">Aileen</persName>, che è la prima amante di <persName key="The Financier" ref="http://dbpedia.org/resource/The_Financier" type="fictional">Cowperwood</persName>, e lo segue come incantata in quei suoi mondi splendidi che, da un giorno all’altro, rovinano e altri subito se ne sostituiscono. Cosí Roberta Alden – operaia di fabbrica e amante furtiva di Clyde, per liberarsi della quale e fuggire con Sondra, Clyde alla fine commette il delitto – ricorda molto, nella sua dolcezza un po’ stoica e più tardi, quando si scopre madre, nella fermezza disperata con cui esige il matrimonio, la femminilità severa dell’antica <title key="Dreiser, Theodore, 1871-1945. | Sister Carrie" ref="http://viaf.org/viaf/174079025/" level="m">Sister Carrie</title>. Finalmente, tutta l’ultima parte del libro – il processo a Clyde assassino, dove l’interesse si sposta dai protagonisti sul difensore e sull’accusatore, su tutto un tribunale e una provincia, sulle madri della morta e di Clyde e sulla pena stessa – non è che una ripresa più ricca, più chiara e definitiva di un gusto antico in Dreiser: concludere un romanzo colla contrapposizione violenta del protagonista e della società tutta armata, tutta formidabile e solitamente vittoriosa. Lo interessa, nello spettacolo della vita, il solito «equilibrio dell’equazione».</p>
+			<p>Ma l’American Tragedy presenta soprattutto un rovesciamento d’interesse umano, a cui non è preparato chi, scorrendo gli altri romanzi, si sia fermato, com’è naturale, al Titan come al punto più alto. Pare, prima del 1925, che Dreiser, un po’ per le sue idee di trionfo del più forte e un po’ per la sua apparente insensibilità di freddo osservatore dei contrasti della vita, abbia oggettivato tutto il suo ideale in <persName key="The Financier" ref="http://dbpedia.org/resource/The_Financier" type="fictional">Cowperwood</persName>, pirata della Borsa e dei contribuenti e titano sempre risorgente. Ma al contrario, egli è una natura sensibilissima e talvolta persino fanciullesca, che si esalta allo spettacolo di Chicago «babelica» e simpatizza, benché teorizzi la legge della necessità ferrea, col povero lavoratore «privo d’arte, privo di pensiero, privo di tenerezza... strumento nelle mani di padroni indifferenti». Non è un caso che l’America, il paese mitico dell’uomo fattosi da sé, dell’arrivista senza scrupoli, non abbia ancor dato l’esaltazione dionisiaca e antisociale del superuomo, come la si è vista in Europa. Ciò proviene naturalmente da quello stato d’animo – trasformazione dello zelo puritano, più antico – diffuso ora in America sotto forma d’interesse sociale, di responsabilità, di service; per cui, e questo non ha a che fare coll’eccellenza o meno delle opere, laggiù il tono medio della letteratura è più serio, più convinto di assolvere una missione, che non da noi. Dei due più famosi, tra i molti romanzieri americani che hanno messo in scena il capitano d’industria, Jack London in Burning Daylight crea una figura più di cavaliere dell’ideale che non di spietato superuomo (finisce in Arcadia, addirittura, il suo eroe); e Sinclair Lewis in Dodsworth ne esamina le tragicomiche insufficienze, le borghesi e provincialissime aspirazioni a un’onorata vecchiaia. E Dreiser, a chi abbia meditato l’American Tragedy, rivela come anche il dittico del Titano non fosse, dopo tutto, l’esaltazione del più forte, ma il semplice bisogno di vedere il fondo in ogni tragedia, la sconsolata e furibonda scoperta che la giustizia non è di questo mondo, e nemmeno gli sforzi di un grande individuo hanno scopo.</p>
 			<p>Nella Tragedy egli non si pronuncia sul caso di Clyde Griffith, elettrogiustiziato con tutte le formalità, ma ce l’ha sordamente coll’educazione che abbandona le anime o le soffoca di vuoti precetti; colla società che nelle sue differenze cova i germi del delitto; coll’ordinamento giuridico che permette l’intromissione di interessi estranei nell’amministrazione della giustizia; e persino col regime carcerario che uccide mille volte il condannato prima di abbandonarlo alla sedia definitiva. Non che Dreiser abbia il rimedio pronto per tutte queste «ingiustizie». Non è tempra di pensatore e ce lo dicono i suoi saggi vari che vanno dall’arte all’economia e ripetono rabbiosi luoghi comuni. Egli vuole limitarsi a «rappresentare» – e quest’è un’inconscia negazione delle sue pretese a pensatore – ma le sue rappresentazioni giungono al fondo di molti gesti umani e ne esprimono l’essenziale tragedia, quindi l’essenziale pietà. Alla luce di questa pietà bisogna seguire la storia di Roberta Alden, dal primo incontro amoroso con Clyde, in canoa su un laghetto, all’ultima gita con l’amante su un altro lago dove egli la precipita e l’annega; seguire la storia delle cieche aspirazioni di Clyde a un mondo più bello, più ricco e più affettuoso, dalle scoraggianti esperienze in un postribolo ai malintesi con Sondra, radiant Sondra. Ma soprattutto bisogna leggere le «insensibili» pagine in cui Clyde già condannato attende con altri per mesi nella «casa della morte» una grazia impossibile o la fine, e ogni tanto per qualche compagno arriva l’ordine e l’ultima passeggiata. C’è in questo gruppo di condannati qualcosa delle vittime che attendono di venir scelte per il sacrificio a un idolo mostruoso. Per la solitudine in cui la società li tiene sepolti e la freddezza macchinale con cui giorno per giorno ne dispone, pare di leggere la storia di individui già sepolti. Tanto che fanno un effetto curioso, come di bagliori nel buio e di urli uditi a distanza nel silenzio, certi tratti che toccano ancora del mondo, dell’interesse umano: come l’ira di <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName> contro l’«idiozia» di tenere uno stesso filo a dar la luce alle celle e la corrente alla sedia, in modo che ad ogni esecuzione gli altri condannati sentono dalle celle il momento preciso del guizzo al leggero offuscarsi delle lampade. E ripeto, questa tragedia non ha conclusione morale, non ha e non può averla perché ciò non è nella mente dell’autore. Ma basta il miracolo di pietà umana rivelato nella complessa e interminabile «equazione di emozioni» a farne uno dei libri più grandi di questi ultimi tempi.</p>
 		</body>
 	</text>
