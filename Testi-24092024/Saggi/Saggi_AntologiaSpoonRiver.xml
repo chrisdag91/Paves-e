@@ -5686,11 +5686,11 @@
 			<p>Questo modo di trattare di una vita così liricamente, discorrendone quasi in astratto, dandone, per dir così, l’alone e non i fatti, si trova non di rado nell’<title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Anthology</title> ed è molto pericoloso. La natura irresistibilmente puritana, moraleggiante cioè, predicatrice, dell’autore arriva così a far qualche volta di un’epigrafe un nebuloso pistolotto astratto, eco delle altre sue innumerevoli opere dove il torrente lirico fragoroso e interminabile viene giù tutto velato nei vapori (4). Comunque, in questo libro, il bisogno di brevità, di risalto e di definizione del personaggio non permettono a <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Lee Masters</persName> di sbagliare che molto raramente.</p>
 			<p>L’efficacia, ed anche l’originalità maggiore, questo poeta l’ottiene condensando più direttamente una vita in un episodio assurto a significato totale, o in un seguito di tratti potenti, la muscolatura, appena sbozzata, di un’esistenza. Qualche volta l’episodio ha un lontano sapore ironico o polemico e non dimostra altro che la felicità dell’autore nello scolpire linee eterne sulla materia di un pettegolezzo, per la semplice virtù del suo giudizio sub specie aeternitatis.</p>
 			<p/>
-			<p>A. D. BLOOD</p>
+			<p><persName ref="#ADBlood" type="fictional">A. D. BLOOD</persName></p>
 			<p/>
 			<p>Se voi del villaggio pensate che abbia fatto un buon lavoro,</p>
 			<p>chiudendo le osterie e proibendo di giocare alle carte,</p>
-			<p>e trascinando Daisy Fraser (5) vecchia dinanzi al giudice Arnett,</p>
+			<p>e trascinando <persName ref="#DaisyFraser">Daisy Fraser</persName> (5) vecchia dinanzi al giudice Arnett,</p>
 			<p>in tutte quelle crociate per purgare la gente dal vizio;</p>
 			<p>perché allora lasciate che la figlia della modista, Dora,</p>
 			<p>e il figlio indegno di Benjamin Pantier</p>
