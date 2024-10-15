@@ -5153,6 +5153,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?person_annotation_20241015212415069",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T19:24:15.069Z",
+	"dcterms:modified": "2024-10-15T19:24:15.069Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?person_annotation_20241015212415069#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?person_annotation_20241015212415069#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[68]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/199162664406755002248/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5223,7 +5302,7 @@
 			<p>che attende di venir posto ancora</p>
 			<p>nella corrente della creazione.</p>
 			<p>Ma la prossima volta verrà dato alla luce</p>
-			<p>sotto gli occhi di <persName key="Raphael" ref="http://www.wikidata.org/entity/Q5597" cert="high" type="real">Raffaello</persName> e san Francesco</p>
+			<p>sotto gli occhi di <persName key="Raphael" ref="http://www.wikidata.org/entity/Q5597" cert="high" type="real">Raffaello</persName> e <persName key="Francis of Assisi, Saint" ref="http://viaf.org/viaf/199162664406755002248/">san Francesco</persName></p>
 			<p>mentre passano.</p>
 			<p>Perché io sono il loro fratellino,</p>
 			<p>che sarà conosciuto bene a faccia a faccia</p>
@@ -5235,7 +5314,7 @@
 			<p>nella camera nuziale della terra.</p>
 			<p>Gettatemi ancora nella corrente,</p>
 			<p>concedetemi un’altra prova –</p>
-			<p>salvami tu, o Shelley!</p>
+			<p>salvami tu, o <persName ref="#Shelley" type="fictional">Shelley</persName>!</p>
 			<p/>
 			<p>O, anche, un bambino morto colla mamma:</p>
 			<p/>
