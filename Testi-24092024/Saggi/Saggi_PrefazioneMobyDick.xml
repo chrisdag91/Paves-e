@@ -7664,6 +7664,89 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016135148221",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T11:51:48.221Z",
+	"dcterms:modified": "2024-10-16T11:51:48.221Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016135148221#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016135148221#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[31]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://dbpedia.org/resource/List_of_Moby-Dick_characters",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -7697,7 +7780,7 @@
 			<p>Il quale <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)">Achab</persName> occorre dir subito che non è un uomo come tutti gli altri. Lui delira, lui digiuna, lui veglia, lui parla come <persName key="Hamlet" ref="http://dbpedia.org/resource/Hamlet" cert="high" type="fictional">Amleto</persName> e, ogni tanto, fa allocuzioni al cielo. Chi cerca in lui la creazione di un personaggio psicologico e vero, può cercare.</p>
 			<p>Chissà chi per primo mise in giro la storiella della caratterizzazione? Che a me paia, in un <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> non ce n’ha a essere che uno, di personaggio, l’<persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">autore</persName>, e a lui debbono far capo tutte le riflessioni, tutte le descrizioni parziali di ambienti e di personaggi che concorrono alla costruzione. <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)">Achab</persName> non è un uomo reale per il semplice fatto che è il riscontro di <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Moby Dick</persName>, di cui nessuno, immagino, pretenderà la psicologia. È l’universo intorno ai due che contribuisce a fermarli in quel loro aspetto, e un universo tanto tormentato e biblico è fortuna se ha dato un tipo ancor così pacato. Tutte le altre figure del <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> sono parti, parti costruttive, e tutte servono al loro scopo, non già perchè vere, ma perchè armonizzate nella loro forma, che potrebbe anche esser falsa nella vita, col particolare ambiente fantastico in cui si trovano e, da cui staccati, perderebbero ogni consistenza. Per esempio, <persName ref="#Fedellah">Fedellah</persName>, il capo misterioso dei malesi di <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName>, che strappato al suo luogo e portato al riscontro colla realtà potrebbe anche parere a un lettore maligno una prima copia dell’<persName key="Queequeg" ref="http://dbpedia.org/resource/Queequeg" type="fictional">Indiano vendicatore</persName> di <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«Giovanotti non esageriamo»</quote>… Il solo personaggio umano del libro ha da essere <persName key="Ishmael (Moby-Dick)" ref="http://dbpedia.org/resource/Ishmael_(Moby-Dick)">Ismaele</persName>, in qualità dell’occhio che giudica, un racconto in rima persona, in qualità dell’autore insomma.</p>
 			<p>C’è piuttosto da dire una parola sul mistero di <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Moby Dick</persName> e su tutto il soprannaturale che lo accompagna.</p>
-			<p>Non c’è nulla da scoprire sotto la <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters">Balena Bianca</persName>. Il suo pauroso significato sta appunto in questo che significa un vuoto, un nulla, una forza bruta, oppure un agente inconoscibile (che viene ad essere lo stesso). E qui torna da osservare con quanta sottigliezza è tenuto sino alla fine in ombra Moby Dick, pur discutendolo per tutto il libro in tutti i modi, e con quanta abilità lo si porta via via a giganteggiare sulla scena attraverso i suoi effetti raccontati dalle navi che l’hanno incontrato.</p>
+			<p>Non c’è nulla da scoprire sotto la <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters">Balena Bianca</persName>. Il suo pauroso significato sta appunto in questo che significa un vuoto, un nulla, una forza bruta, oppure un agente inconoscibile (che viene ad essere lo stesso). E qui torna da osservare con quanta sottigliezza è tenuto sino alla fine in ombra <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" cert="high" type="fictional">Moby Dick</persName>, pur discutendolo per tutto il libro in tutti i modi, e con quanta abilità lo si porta via via a giganteggiare sulla scena attraverso i suoi effetti raccontati dalle navi che l’hanno incontrato.</p>
 			<p>Su tutto il <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> si potrebbe continuare l’esame e scoprire quanto ragionato, quanto calcolato sia ogni capitolo, ogni periodo, ogni frase. Il continuo alone soprannaturale, che trasfigura fin le più spregiudicate e positive ricerche dell’<persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">autore</persName>, non è che un modo di esprimere, attraverso ogni laicismo di cultura, lo spirito biblico della concezione.</p>
 			<p>E occorre dir qualcosa di questa coltura, poichè essa ci apre la via all’altra metà del mondo di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>.</p>
 			<p>Rimarrà sorpreso il lettore aprendo il <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> a quelle pagine di <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="a">Estratti iniziali</title> sulla balena e crederà che almeno queste pedantesche citazioni si possan saltare, almeno queste sian superflue. Neanche queste.</p>
