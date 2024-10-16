@@ -14545,6 +14545,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016194246413",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T17:42:46.413Z",
+	"dcterms:modified": "2024-10-16T17:42:46.413Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016194246413#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016194246413#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[32]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Herman_Melville",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -14579,7 +14659,7 @@
 			<p>Nessuna scusa ha invece <title key="Melville, Herman, 1819-1891. | Pierre" ref="http://viaf.org/viaf/180808871/" level="m">Pierre</title>, or <title key="Melville, Herman, 1819-1891. | Pierre" ref="http://viaf.org/viaf/180808871/" level="m">The Ambiguities</title>, tentativo psicologico di dimostrare che la società e l’universo sono mal congegnati, che la perfezione morale stessa non può condurre al bene, che un atto di abnegazione (il matrimonio che <persName ref="#Pierre" type="fictional">Pierre</persName> contrae con una sorella naturale, pur di darle una casa) diventa nelle strettoie della società – e della vita – una mostruosità (l’amore più che fraterno dei due). È la malvagità della <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Balena Bianca</persName> che cerca di porsi spiegatamente in quest’analisi, che più nulla lascia al soprannaturale, al mistero. Ed allora, il solito squilibrio: lo stile si fa convulso, l’ispirazione epilettica, frammentaria, il senso delle proporzioni viene meno e, su qualche pagina ancor tagliata all’antica, si stende una palude di paroloni, di stonature e di sottigliezze, che non solo è noiosa, ma dopo tutto anche ingenua. Davvero il <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> sembra scritto da <persName key="Achab" ref="http://dbpedia.org/resource/Achab" type="fictional">Achab</persName>.</p>
 			<p>Com’è di tutte le opere grandi, non si finirebbe mai di analizzare <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> per scoprirvi nuovi angoli di prospettiva, nuovi sensi e nuova importanza.</p>
 			<p>Quel che mi pare il suo più definitivo significato nella storia l’ho accennato nel discorso precedente, ma, con tutto ciò, che cosa sa chi legge, del suo austero fare leggendario, di quel tono che non si risolve affatto in uno spasso immaginativo, ma è tutto impregnato di severa pensosità morale? O della pacatezza nervosa e solenne, qualche volta sfiorata di un sorriso malizioso, con cui scorrono i capitoli realistici di descrizione, d’informazione e di discussione? Ma soprattutto è quel senso continuo dell’enorme, del sovrumano, al quale si converge per tutto il libro, in un prodigio di costruzione per cui via via l’atmosfera gioconda e puritanesca dell’inizio e poi quella scientifica delle lunghe spiegazioni centrali, si vengono a fondere nell’ultima parte in uno spirito di lucida e gagliarda temerità quasi mitica, di mano in mano che il nome e la fama della Balena Bianca, tenuta fuori scena fino alla chiusa, crescono fino a giganteggiare e occupare tutti gli ambienti, i gesti e i pensieri. A mostrare intera la costruzione di questa opera occorrerebbe un commento pagina per pagina per tutte le seicento del libro. Né si potrebbe altrimenti esaurire la ricchezza di mezzi e di effetti di Moby Dick. Ma qui non posso altro che dare due frammenti diversi per illustrare quanto ho detto.</p>
-			<p>Si veda nel primo la vita misteriosa e gonfia di presagi che Melville sa trarre dal suo oceano:</p>
+			<p>Si veda nel primo la vita misteriosa e gonfia di presagi che <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> sa trarre dal suo oceano:</p>
 			<p/>
 			<p>Ma quando finalmente, volgendoci noi ad est, i venti del Capo cominciarono a ulularci intorno e sorgemmo e cademmo sui lunghi marosi sconvolti che son là; quando il <persName key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" type="fictional">Pequod</persName> dalle zanne d’avorio si abbatté seccamente alla raffica e squarciò i flutti neri nella sua pazzia, finché, simili a rovesci d’argento, le gocciole di schiuma gli volarono sulle murate; allora tutta quella desolata vacuità di vita scomparve, ma diede luogo a spettacoli più paurosi ancora.</p>
 			<p>Accanto alla nostra prora, forme bizzarre, nell’acqua, ci scattavano dinanzi qua e là; mentre densi alle spalle ci volavano gli imperscrutabili corvi del mare. Ed ogni mattina, appollaiate sugli stragli, file di questi uccelli si mostravano e, malgrado le nostre vociate, per un bel po’ aderivano ostinatamente ai canapi come se credessero la nostra nave un legno alla deriva e disabitato; una cosa destinata alla desolazione e perciò adatto posatoio alle loro anime erranti. E il mare nero gonfiava, gonfiava, sempre, senza posa, gonfiava, come se le sue onde immense fossero una coscienza e la grande anima del mondo soffrisse angoscia e rimorso per il lungo peccato e dolore che aveva causato.</p>
