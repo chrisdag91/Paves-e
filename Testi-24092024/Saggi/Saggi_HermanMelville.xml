@@ -2311,6 +2311,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016183338021",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T16:33:38.021Z",
+	"dcterms:modified": "2024-10-16T16:33:38.021Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016183338021#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016183338021#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Herman_Melville",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2320,7 +2399,7 @@
 			<p>Non a caso <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> è un nordamericano. Questi ultimi arrivati della cultura che, dai suoi difensori, sono tenuti responsabili del rimbarbarimento dei nostri ideali e, biasimo escluso, con ragione, han molto da insegnarci a questo proposito. Loro sì, hanno saputo rinnovarsi, passando</p>
 			<p>la cultura attraverso l’esperienza primitiva, reale, ma non, com’è l’andazzo da noi, rinnegando un termine per l’altro, bensì, attraverso ciò che si chiama la vita, arricchendo, temprando e potenziando la letteratura.</p>
 			<p>«Un pensiero non significa nulla di nulla se non è pensato con tutto il corpo», questa è bene una sentenza americana e a quest’ideale tutta la tradizione degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>, da <persName key="Henry David Thoreau" ref="http://dbpedia.org/resource/Henry_David_Thoreau" type="real">Thoreau</persName> a <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName>, consciamente o inconsciamente mira, riuscendo alla creazione di poderosi individui che passano un buon numero d’anni barbaramente, vivendo e assorbendo, e poi si danno alla cultura, rielaborando la realtà sperimentata in pensieri ed immagini che per la loro dignità e per la schiettezza serena e virile, han qualcosa di quell’equilibrio che usiamo chiamar greco. Siamo ben lontani dai paradisi artificiali che accolgono in capo al mondo i nostri rimbarbariti schizzinosi.</p>
-			<p><persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> entrò nella vita malaticcio e straniato. Sui <date when="1938">diciannove</date>, pare anche che scribacchiasse. Poi d’improvviso, il mare: quattro anni di peripezie e di compagni, la baleneria, le <placeName key="Marquesas Islands  French Polynesia" ref="https://geonames.org/4019977">Marquesas</placeName>, una donna, <placeName key="Tahiti Îles du Vent French Polynesia" ref="https://geonames.org/4033649">Tahiti</placeName>, il <placeName key="Japan  Japan" ref="https://geonames.org/1861060">Giappone</placeName>, i capodogli, qualche lettura, molte fantasticherie, <placeName key="Callao Callao Peru" ref="https://geonames.org/3946083">Callao</placeName>, il <placeName key="Cape Horn Region of Magallanes Chile" ref="https://geonames.org/3887850">Capo Horn</placeName>, e a <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName> nell’<date when="1844-10">ottobre del 1844</date>, scende a terra un uomo quadrato, bruciato dal sole, esperto dei vizi umani e del valore. <quote cert="high" defective="unknown" generatedBy="human" source="#Melville" xml:space="default">«Un gentiluomo pienamente sviluppato è sempre robusto e sano»</quote>, dirà più tardi Melville, in mezzo a una vita di strettezze, di malinconie e, anche, di malanni. Poiché questa gente, tanto pratica, non è affatto superficiale e facilona come si potrebbe sospettare. Quasi tutti gli scrittori nordamericani che più han portato nella letteratura quest’ideale di equilibrio e di serenità hanno compiuta la loro opera in mezzo a difficoltà dure, in mezzo al bisogno e alla malattia. Esempio per tutti, Walt Whitman, paralitico per quasi vent’anni e spiantato cronico. Poiché anche questo ha contribuito alla loro esperienza della realtà, concentrando loro il pensiero, facendoli più consci. La sanità di questa gente sta, oltreché nel corpo che ne è condizione, nella vitalità e schiettezza di spirito che sopravvivono all’integrità fisica.</p>
+			<p><persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> entrò nella vita malaticcio e straniato. Sui <date when="1938">diciannove</date>, pare anche che scribacchiasse. Poi d’improvviso, il mare: quattro anni di peripezie e di compagni, la baleneria, le <placeName key="Marquesas Islands  French Polynesia" ref="https://geonames.org/4019977">Marquesas</placeName>, una donna, <placeName key="Tahiti Îles du Vent French Polynesia" ref="https://geonames.org/4033649">Tahiti</placeName>, il <placeName key="Japan  Japan" ref="https://geonames.org/1861060">Giappone</placeName>, i capodogli, qualche lettura, molte fantasticherie, <placeName key="Callao Callao Peru" ref="https://geonames.org/3946083">Callao</placeName>, il <placeName key="Cape Horn Region of Magallanes Chile" ref="https://geonames.org/3887850">Capo Horn</placeName>, e a <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName> nell’<date when="1844-10">ottobre del 1844</date>, scende a terra un uomo quadrato, bruciato dal sole, esperto dei vizi umani e del valore. <quote cert="high" defective="unknown" generatedBy="human" source="#Melville" xml:space="default">«Un gentiluomo pienamente sviluppato è sempre robusto e sano»</quote>, dirà più tardi <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>, in mezzo a una vita di strettezze, di malinconie e, anche, di malanni. Poiché questa gente, tanto pratica, non è affatto superficiale e facilona come si potrebbe sospettare. Quasi tutti gli scrittori nordamericani che più han portato nella letteratura quest’ideale di equilibrio e di serenità hanno compiuta la loro opera in mezzo a difficoltà dure, in mezzo al bisogno e alla malattia. Esempio per tutti, Walt Whitman, paralitico per quasi vent’anni e spiantato cronico. Poiché anche questo ha contribuito alla loro esperienza della realtà, concentrando loro il pensiero, facendoli più consci. La sanità di questa gente sta, oltreché nel corpo che ne è condizione, nella vitalità e schiettezza di spirito che sopravvivono all’integrità fisica.</p>
 			<p>E nemmeno Melville, nella sua lunga vita letteraria che comincia il giorno dello sbarco a Boston, sarà lo scrittore fecondo, un po’ facile ed esteriore, che è scusabile attendersi da chi ha molto viaggiato e veduto di esotico. Parecchi libri li fallirà, in mezzo a sforzi eroici, pur trattandosi, come nel caso di Mardi, di magnifici difetti di crescita ed altri, come Moby Dick, rielaborerà o tormenterà fino a rimetterci della salute, fratello in ciò a tanti altri connazionali barbari, che furono invece fra i più incontentabili e raffinati cesellatori del secolo.</p>
 			<p>Un greco veramente è Melville. Voi leggete le evasioni europee dalla letteratura e vi sentite più letterato che mai, vi sentite piccino, cerebrale, effeminato: leggete Melville, che non si vergogna di cominciare Moby Dick, il poema della vita barbara, con otto pagine di citazioni, e di andare innanzi discutendo, citando ancora, facendo il letterato, e vi si allargano i polmoni, vi si magnifica il cervello, vi sentite più vivo e più uomo. E, come nei greci, la tragedia (Moby Dick) ha un bell’essere fosca, è tanta la serenità e la schiettezza del coro (Ismaele) che dal teatro si esce sempre soltanto esaltati nella propria capacità vitale.</p>
 			<p/>
