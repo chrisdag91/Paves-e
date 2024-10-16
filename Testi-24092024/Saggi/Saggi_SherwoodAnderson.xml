@@ -7997,6 +7997,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017001455496",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T22:14:55.496Z",
+	"dcterms:modified": "2024-10-16T22:14:55.496Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017001455496#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017001455496#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[39]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/James_Joyce",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -8038,7 +8117,7 @@
 			<p>C’è la complicazione che le novità di Joyce, come le idee freudiane, trovano un debole in America per la pregiudiziale del puritanesimo, per cui i nemici di quest’ultimo si fanno un dovere di accogliere festosamente ogni libro europeo che tratti con franchezza di cose sessuali. Mentre noi, in</p>
 			<p>generale, ai problemi sessuali leggiamo sopra Boccaccio o Rabelais.</p>
 			<p>Ma è un fatto che tra le pagine sessuali di J. Joyce – lunghe paludi grigie di notazioni e notazioni dove, ogni tanto appena qualche tratto si distingue, ma per se stesso, per la sua singolarità, non contribuendo a costruire il personaggio e indipendentemente da tutto il macchinoso apparato del metodo nuovo – e le pagine di serena narrazione in The New Englander, per esempio, – The Triumph of the Egg – dove è descritta l’ossessione di una ragazza di famiglia puritana che, trapiantata nell’Ovest, sente istinti insoffocabili scuoterla e cacciarla a perdersi e confondersi tra il panico respiro estuoso dei campi di granturco – non c’è confronto possibile.</p>
-			<p>Ed un’altra ragione per cui a Sherwood Anderson piace, o almeno interessa, J. Joyce e il joycianesimo e l’opera, insopportabile a noi, della signora Gertrude Stein, è che in quell’abbondanza e libertà e gioia – viziosa negli europei – delle parole per sé stanti, o quasi, l’americano, il middlewestern, trova il sostituto dei secoli di tradizione che gli mancano a dare il sapore al suo linguaggio, a dare la terrestrità alla materia vivente dei suoi racconti, come gli indiani l’avevano data a loro parole, legandole ai luoghi:</p>
+			<p>Ed un’altra ragione per cui a Sherwood Anderson piace, o almeno interessa, <persName key="James Joyce" ref="http://dbpedia.org/resource/James_Joyce" type="real">J. Joyce</persName> e il joycianesimo e l’opera, insopportabile a noi, della signora Gertrude Stein, è che in quell’abbondanza e libertà e gioia – viziosa negli europei – delle parole per sé stanti, o quasi, l’americano, il middlewestern, trova il sostituto dei secoli di tradizione che gli mancano a dare il sapore al suo linguaggio, a dare la terrestrità alla materia vivente dei suoi racconti, come gli indiani l’avevano data a loro parole, legandole ai luoghi:</p>
 			<p/>
 			<p>Un tempo gli Indiani avevan danzato là e fatto feste. Avevano gettato intorno canzoni come semi sul vento. Nomi di fiumi, nomi di città, <placeName key="Ohio Ohio United States" ref="https://geonames.org/5165418">Ohio</placeName>! <placeName key="Illinois Illinois United States" ref="https://geonames.org/4896861">Illinois</placeName>! <placeName key="Keokuk Iowa United States" ref="https://geonames.org/4863349">Keokuk</placeName>! <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName>! <placeName key="Illinois Illinois United States" ref="https://geonames.org/4896861">Illinois</placeName>! <placeName key="Michigan Michigan United States" ref="https://geonames.org/5001836">Michigan</placeName>!</p>
 			<p>(<title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Dark Laughter</title>).</p>
