@@ -1042,12 +1042,171 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182540925",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T16:25:40.925Z",
+	"dcterms:modified": "2024-10-16T16:25:40.925Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182540925#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182540925#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/persName[9]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Herman_Melville",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182606421",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T16:26:06.421Z",
+	"dcterms:modified": "2024-10-16T16:26:06.421Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182606421#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182606421#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/persName[10]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Plato",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Il baleniere letterato (1).</p>
 			<p/>
-			<p>L’importanza attuale di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">questo scrittore</persName> ottocentesco che rinasce solo oggi alla fama, si può condensare tutta in una contrapposizione: noi, figli dell’<date when="1800">Ottocento</date>, abbiamo nelle ossa il gusto delle avventure, del primitivo, della vita reale, che seguono e succedono alla cultura e ci liberano dalle complicazioni facendo da cataplasma all’animuccia decadente, malata di civiltà: i nostri eroi si chiamano ancora <persName key="Arthur Rimbaud" ref="http://dbpedia.org/resource/Arthur_Rimbaud" type="real">Rimbaud</persName>, <persName key="Paul Gauguin" ref="http://dbpedia.org/resource/Paul_Gauguin" cert="high" type="real">Gauguin</persName> e <persName key="Robert Louis Stevenson" ref="http://dbpedia.org/resource/Robert_Louis_Stevenson" cert="high" type="real">Stevenson</persName>; mentre <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Herman Melville</persName> ha vissuto prima le avventure reali, il primitivo, è stato barbaro prima e nel mondo del pensiero e della cultura è entrato in seguito portandovi la sanità e l’equilibrio acquistati nella vita vissuta. Ora, che da qualche tempo noi si provi un gran bisogno di rimbarbarimento, è pacifico. Stanno a dimostrarlo il gusto rinnovato dei viaggi e dello sport, il cinema, il jazz, l’interesse per i negri e tutto il resto che è persin banale ricordare e che con una parola sintetica chiamiamo antiletteratura. Ed è senza dubbio molto bello tutto ciò. Ma è il modo che offende. Poiché mi pare che, nel fervore antiletterario, si tenda a un tal primitivismo che è quasi imbecillità. Debolezza, voglio dire: è vile fuggire le complicazioni in un paradiso semplicistico che dopo tutto, come è inteso, non è che uno dei tanti raffinamenti della civiltà. Sbagliavo prima: il nostro eroe non è <persName key="Arthur Rimbaud" ref="http://dbpedia.org/resource/Arthur_Rimbaud" cert="high" type="real">Rimbaud</persName>, o <persName key="Paul Gauguin" ref="http://dbpedia.org/resource/Paul_Gauguin" cert="high" type="real">Gauguin</persName>, o <persName key="Robert Louis Stevenson" ref="http://dbpedia.org/resource/Robert_Louis_Stevenson" type="real">Stevenson</persName>, è il rottame umano. Mentre l’ideale di Melville culmina in Ismaele, un marinaio che può remare coi colleghi illetterati mezza giornata dietro a un capodoglio e che poi si ritira sulla testa d’albero a meditare Platone.</p>
+			<p>L’importanza attuale di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">questo scrittore</persName> ottocentesco che rinasce solo oggi alla fama, si può condensare tutta in una contrapposizione: noi, figli dell’<date when="1800">Ottocento</date>, abbiamo nelle ossa il gusto delle avventure, del primitivo, della vita reale, che seguono e succedono alla cultura e ci liberano dalle complicazioni facendo da cataplasma all’animuccia decadente, malata di civiltà: i nostri eroi si chiamano ancora <persName key="Arthur Rimbaud" ref="http://dbpedia.org/resource/Arthur_Rimbaud" type="real">Rimbaud</persName>, <persName key="Paul Gauguin" ref="http://dbpedia.org/resource/Paul_Gauguin" cert="high" type="real">Gauguin</persName> e <persName key="Robert Louis Stevenson" ref="http://dbpedia.org/resource/Robert_Louis_Stevenson" cert="high" type="real">Stevenson</persName>; mentre <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Herman Melville</persName> ha vissuto prima le avventure reali, il primitivo, è stato barbaro prima e nel mondo del pensiero e della cultura è entrato in seguito portandovi la sanità e l’equilibrio acquistati nella vita vissuta. Ora, che da qualche tempo noi si provi un gran bisogno di rimbarbarimento, è pacifico. Stanno a dimostrarlo il gusto rinnovato dei viaggi e dello sport, il cinema, il jazz, l’interesse per i negri e tutto il resto che è persin banale ricordare e che con una parola sintetica chiamiamo antiletteratura. Ed è senza dubbio molto bello tutto ciò. Ma è il modo che offende. Poiché mi pare che, nel fervore antiletterario, si tenda a un tal primitivismo che è quasi imbecillità. Debolezza, voglio dire: è vile fuggire le complicazioni in un paradiso semplicistico che dopo tutto, come è inteso, non è che uno dei tanti raffinamenti della civiltà. Sbagliavo prima: il nostro eroe non è <persName key="Arthur Rimbaud" ref="http://dbpedia.org/resource/Arthur_Rimbaud" cert="high" type="real">Rimbaud</persName>, o <persName key="Paul Gauguin" ref="http://dbpedia.org/resource/Paul_Gauguin" cert="high" type="real">Gauguin</persName>, o <persName key="Robert Louis Stevenson" ref="http://dbpedia.org/resource/Robert_Louis_Stevenson" type="real">Stevenson</persName>, è il rottame umano. Mentre l’ideale di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> culmina in Ismaele, un marinaio che può remare coi colleghi illetterati mezza giornata dietro a un capodoglio e che poi si ritira sulla testa d’albero a meditare <persName key="Plato" ref="http://dbpedia.org/resource/Plato" type="real">Platone</persName>.</p>
 			<p>Non a caso Herman Melville è un nordamericano. Questi ultimi arrivati della cultura che, dai suoi difensori, sono tenuti responsabili del rimbarbarimento dei nostri ideali e, biasimo escluso, con ragione, han molto da insegnarci a questo proposito. Loro sì, hanno saputo rinnovarsi, passando</p>
 			<p>la cultura attraverso l’esperienza primitiva, reale, ma non, com’è l’andazzo da noi, rinnegando un termine per l’altro, bensì, attraverso ciò che si chiama la vita, arricchendo, temprando e potenziando la letteratura.</p>
 			<p>«Un pensiero non significa nulla di nulla se non è pensato con tutto il corpo», questa è bene una sentenza americana e a quest’ideale tutta la tradizione degli Stati, da Thoreau a Sherwood Anderson, consciamente o inconsciamente mira, riuscendo alla creazione di poderosi individui che passano un buon numero d’anni barbaramente, vivendo e assorbendo, e poi si danno alla cultura, rielaborando la realtà sperimentata in pensieri ed immagini che per la loro dignità e per la schiettezza serena e virile, han qualcosa di quell’equilibrio che usiamo chiamar greco. Siamo ben lontani dai paradisi artificiali che accolgono in capo al mondo i nostri rimbarbariti schizzinosi.</p>
