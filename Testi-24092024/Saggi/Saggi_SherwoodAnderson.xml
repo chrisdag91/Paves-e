@@ -6730,6 +6730,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?title_annotation_20241017000729300",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T22:07:29.300Z",
+	"dcterms:modified": "2024-10-16T22:07:29.300Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?title_annotation_20241017000729300#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?title_annotation_20241017000729300#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[49]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/1542161332348852420009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -6781,7 +6860,7 @@
 			<p>Lo stile di Anderson! Non il dialetto crudo ancora troppo locale – come fanno qui da noi gli specialisti dialettali che, anche negli esempi più insigni, conservano sempre qualcosa di un po’ gretto – ma una nuova intramatura dell’inglese, tutta fatta d’idiotismi americani, di uno stile che non è più dialetto, ma linguaggio, ripensato, ricreato, poesia. Nel racconto scritto da Anderson sempre echeggia così il parlatore americano, l’uomo vivo. Il quale racconto, com’egli senta sanamente e vitalmente, ho già detto e posso concludere ricordando ancora le pagine di A Storyteller’s Story, dove si rievoca il tipo bizzarro del padre, fannullone dionisiaco, che non sa che</p>
 			<p>inventar storie – sotto tutti gli aspetti sono storie – e le racconta ai contadini dell’Ohio, dell’Ovest, alle famiglie di provincia, come un aedo, come un trovero (ne ha così poca di letteratura nelle ossa, Sherwood Anderson, che possiamo infliggergliene noi, senza paura: è sempre schietto), come un</p>
 			<p>trovero, dicevo, ma allegro, spigliato, mestierante, ricavandone vino, alloggio e simpatia.</p>
-			<p>E, per finire, nulla di meglio che una pagina di Dark Laughter dove, a esprimere quell’amore sensuale ma sano, che ho detto, per le parole e per la poesia, cantano i negri, i negri «dall’ugola rossa».</p>
+			<p>E, per finire, nulla di meglio che una pagina di <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Dark Laughter</title> dove, a esprimere quell’amore sensuale ma sano, che ho detto, per le parole e per la poesia, cantano i negri, i negri «dall’ugola rossa».</p>
 			<p/>
 			<p>Dalle gole dei neri cenciosi mentre trottavano su e giù per lo sbarcatoio, strane note suggestive. Parole afferrate, scosse intorno, trattenute nella gola. Innamorati della parola, innamorati del suono... Amore inconscio di cose inanimate perdute ai bianchi – i cieli, il fiume, una barca che va – misticismo negro – non espresso che nel canto, che nei movimenti del corpo. I corpi dei lavoratori neri appartenevano uno all’altro, come il cielo al suo fiume. Lontano, ora, a valle, il cielo, dove era intriso di rosso, si piegava a toccare la faccia del fiume. I toni dalle gole dei neri si toccavano l’un l’altro, carezzandosi...</p>
 			<p>Le parole che uscivano dalle gole dei neri non potevano venir comprese dal ragazzo, ma eran forti e dolcissime... Fluir di rossi, di bruni, di gialli dorati dalle gole dei neri... Suoni afferrati e trattenuti nelle gole... La parola, come senso, non importa. Forse sempre così, le parole. C’eran strane parole di un banjo dog. Che cos’era un banjo dog? Oh, my banjo dog! Oh, oh! my banjo dog!</p>
@@ -6789,7 +6868,7 @@
 			<p/>
 			<p/>
 			<p>(1) <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName>, saggio pubblicato su <title level="j" ref="#LaCultura">«La Cultura»</title>, <date when="1931-04">aprile 1931</date>.</p>
-			<p>(2) In italiano questi titoli di novelle significano rispettivamente: <title level="a" ref="#NobodyKnows">Nessuno sa</title>, <title level="a" ref="#Surrender">Resa</title>, <title level="a" ref="#Alone">Solitudine</title>, <title level="a" ref="#Death">Morte</title>, <title level="a" ref="#Sophistication">Sofisticheria</title>, <title level="a" ref="#UnlightedLamps">Lampade non accese</title>, <title level="a" ref="#OutOfNowhereIntoNothing">Fuori dal nulla verso il nulla</title> e Mai usata.</p>
+			<p>(2) In italiano questi titoli di novelle significano rispettivamente: <title level="a" ref="#NobodyKnows">Nessuno sa</title>, <title level="a" ref="#Surrender">Resa</title>, <title level="a" ref="#Alone">Solitudine</title>, <title level="a" ref="#Death">Morte</title>, <title level="a" ref="#Sophistication">Sofisticheria</title>, <title level="a" ref="#UnlightedLamps">Lampade non accese</title>, <title level="a" ref="#OutOfNowhereIntoNothing">Fuori dal nulla verso il nulla</title> e <title level="a" ref="#Unused">Mai usata</title>.</p>
 			<p/>
 		</body>
 	</text>
