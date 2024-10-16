@@ -1675,6 +1675,243 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016232514717",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T21:25:14.717Z",
+	"dcterms:modified": "2024-10-16T21:25:14.717Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016232514717#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016232514717#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName[7]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/5769223",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016232534347",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T21:25:34.347Z",
+	"dcterms:modified": "2024-10-16T21:25:34.347Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016232534347#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016232534347#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName[8]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/5073708",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016232553915",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T21:25:53.915Z",
+	"dcterms:modified": "2024-10-16T21:25:53.915Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016232553915#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016232553915#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1684,8 +1921,8 @@
 			<p>Ora, non solo, per capire i moderni romanzieri nordamericani – alludo al gruppo, più famoso che noto, dei tre innovatori: <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Theodore Dreiser</persName>, <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Sinclair Lewis</persName> e <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Sherwood Anderson</persName> – è necessario conoscere qual è il bisogno storico comune cui essi sono venuti incontro colla loro opera, ma è indispensabile, a non buttare il fiato, trovare un’immagine, un parallelo storico, che riporti a termini noti, nostri, quegli atti di vita d’oltreoceano che ai più invece piace immaginare come tanto esotici.</p>
 			<p>E il parallelo c’è, chiaro e verissimo.</p>
 			<p>Si pensi a quel che è stato nella letteratura italiana la scoperta delle regioni che è proceduta parallela alla ricerca dell’unità nazionale, storia della fine del ’<date when="1700">700</date> e di tutto l’<date when="1800">800</date>. Dall’<persName key="Vittorio Alfieri" ref="http://dbpedia.org/resource/Vittorio_Alfieri" cert="high" type="real">Alfieri</persName> in giù, tutti gli scrittori italiani che si sforzano, talvolta e anzi spesso inconsciamente, di giungere a una più profonda unità nazionale, penetrando sempre più il loro carattere regionale, la loro vera natura; giungendo così alla creazione di una coscienza umana e di un linguaggio ricchi di tutto il sangue della provincia e di tutta la dignità di una vita rinnovata. E ci pensino specialmente i miei conterranei del <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831">Piemonte</placeName>, dove più forte si sente ancora il fermento di quest’aspirazione e più lontana ne è la realizzazione, sviati come siamo ora dietro a troppa specializzazione dialettale. Noi, piemontesi, pensiamoci, nel nome dei quali, con l’<persName key="Vittorio Alfieri" ref="http://dbpedia.org/resource/Vittorio_Alfieri" type="real">Alfieri</persName>, è pur cominciata storicamente questa rinascita e che, a cominciare appunto dall’<persName key="Vittorio Alfieri" ref="http://dbpedia.org/resource/Vittorio_Alfieri" cert="high" type="real">Alfieri</persName>, attraverso il <persName key="Massimo d'Azeglio" ref="http://dbpedia.org/resource/Massimo_d'Azeglio" type="real">D’Azeglio</persName>, l’<persName key="Abba, Giuseppe Cesare, 1838-1910." ref="http://viaf.org/viaf/41861149/" cert="high" type="real">Abba</persName>, fino al <persName key="Calandra, Edoardo, 1852-1911" ref="http://viaf.org/viaf/51736122/" type="real">Calandra</persName>, e più giù, non abbiamo mai avuto quell’uomo e quell’opera che, oltre ad essere carissimi a noi, raggiungessero davvero quell’universalità e quella freschezza che si fanno comprendere a tutti gli uomini e non soltanto ai conterranei. Questo è il nostro bisogno non ancora soddisfatto. Mentre, al rispettivo bisogno, nella loro terra e nella loro provincia, sono appunto bastati i romanzieri americani di cui parlo. Da questi noi, dunque, dobbiamo imparare.</p>
-			<p>E così, il lettore intelligente, quando sente parlare di <placeName key="Ohio Ohio United States" ref="https://geonames.org/5165418" cert="high">Ohio<precision match="@ref" precision="high"/></placeName>, <placeName key="Illinois Illinois United States" ref="https://geonames.org/4896861">Illinois</placeName>, <placeName key="Michigan Michigan United States" ref="https://geonames.org/5001836">Michigan</placeName>, <placeName key="Minnesota Minnesota United States" ref="https://geonames.org/5037779">Minnesota</placeName>, <placeName key="Iowa Iowa United States" ref="https://geonames.org/4862182">Iowa</placeName>, <placeName key="Indiana Indiana United States" ref="https://geonames.org/4921868">Indiana</placeName>, Dakota, Nebraska, lasci stare – dopo aver gustata la ricca armonia dei nomi indiani – l’esotismo e s’immagini piuttosto con colori nostrani quei luoghi che, un’ottantina d’anni fa, erano</p>
-			<p>praterie e boscaglie che una prima generazione anglosassone stava rompendo a fatica, tra austerità e sudori quasi biblici, e che la seconda e la terza generazione coltivavano, con non meno fatica e già qualche bestemmia, o perdevano in mezzo a un proletariato fecondo e dilagante da tutti i porti dell’Europa, di tedeschi, svedesi, boemi e italiani, che toglievano ai pionieri del Middle West – il Centro Ovest – anche l’alone di popolo eletto. Cominciano qui i romanzi di Dreiser e Lewis e, specialmente, di Anderson.</p>
+			<p>E così, il lettore intelligente, quando sente parlare di <placeName key="Ohio Ohio United States" ref="https://geonames.org/5165418" cert="high">Ohio<precision match="@ref" precision="high"/></placeName>, <placeName key="Illinois Illinois United States" ref="https://geonames.org/4896861">Illinois</placeName>, <placeName key="Michigan Michigan United States" ref="https://geonames.org/5001836">Michigan</placeName>, <placeName key="Minnesota Minnesota United States" ref="https://geonames.org/5037779">Minnesota</placeName>, <placeName key="Iowa Iowa United States" ref="https://geonames.org/4862182">Iowa</placeName>, <placeName key="Indiana Indiana United States" ref="https://geonames.org/4921868">Indiana</placeName>, <placeName key="South Dakota South Dakota United States" ref="https://geonames.org/5769223">Dakota</placeName>, <placeName key="Nebraska Nebraska United States" ref="https://geonames.org/5073708">Nebraska</placeName>, lasci stare – dopo aver gustata la ricca armonia dei nomi indiani – l’esotismo e s’immagini piuttosto con colori nostrani quei luoghi che, un’ottantina d’anni fa, erano</p>
+			<p>praterie e boscaglie che una prima generazione anglosassone stava rompendo a fatica, tra austerità e sudori quasi biblici, e che la seconda e la terza generazione coltivavano, con non meno fatica e già qualche bestemmia, o perdevano in mezzo a un proletariato fecondo e dilagante da tutti i porti dell’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>, di tedeschi, svedesi, boemi e italiani, che toglievano ai pionieri del Middle West – il Centro Ovest – anche l’alone di popolo eletto. Cominciano qui i romanzi di Dreiser e Lewis e, specialmente, di Anderson.</p>
 			<p>Grandi pianure grigie di miseria e di lavoro, piccole comunità di pettegolezzo e di grettezza, artigiani che si dànno convegno al drugstore, la «censa», qualche particolare già ricco, il farmer; molto grano, molta meliga e molta frutta. Zuppa di cavoli e torta di mele. Ma i latini e gli slavi – gli</p>
 			<p>europei del continente – ci han da mettere il vino. Che lasciando la metafora, è poi la fantasia. Tutti i nuovi scrittori sono figli di questa fusione. C’è svedesi, tedeschi, israeliti, italiani. Quella mescolanza di sangue che già alla metà del secolo, nella Nuova Inghilterra puritana e quacchera aveva (olandesi ed inglesi) messo l’argento vivo nelle vene di Walt Whitman e di Herman Melville, alla fine del secolo rinnova il prodigio. Proprio in questa evasione nel sangue straniero rinasce una letteratura che scopre l’America. Sherwood Anderson, anzi, imposterà il problema della rinascita</p>
 			<p>nazionale sulla fusione degli anglosassoni coi latini – o coi negri – con quelli insomma che sanno giocare e cantare.</p>
