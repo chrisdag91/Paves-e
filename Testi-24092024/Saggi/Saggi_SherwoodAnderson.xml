@@ -327,15 +327,174 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241016231656222",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T21:16:56.222Z",
+	"dcterms:modified": "2024-10-16T21:16:56.222Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241016231656222#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241016231656222#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Vittorio_Alfieri",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241016231717896",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T21:17:17.896Z",
+	"dcterms:modified": "2024-10-16T21:17:17.896Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241016231717896#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241016231717896#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/39372890/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p><placeName key="Midwest  United States" ref="https://geonames.org/11887750">Middle West</placeName> e <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831">Piemonte</placeName> (1).</p>
 			<p/>
 			<p>È difficile parlare in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395">Italia</placeName> di scrittori nordamericani poiché appunto i più grandi tra questi si sono trovati nella loro opera a risolvere problemi di natura storica di cui quasi nessuno tra il pubblico ha idea. E non solo parlare di questi scrittori è difficile, ma anche intenderli alla lettura, poiché si ha un bel dire che un’opera d’arte è tale in quanto esce dalle contingenze storiche che l’hanno prodotta e crea un suo mondo fantastico, ecc., ma sono parole. Al fatto, l’opera d’arte ci commuove e ci si lascia comprendere soltanto finché conserva per noi un interesse storico, finché risponde a un qualche nostro problema, risolve insomma un nostro bisogno di vita pratica. Non esiste arte per l’arte. E persino la più oziosa lirica parnassiana risolverà per il lettore – un po’ antiquato ha da essere, questo lettore, a dir la verità – un problema della pratica: come vivere sognando.</p>
-			<p>Ora, non solo, per capire i moderni romanzieri nordamericani – alludo al gruppo, più famoso che noto, dei tre innovatori: Theodore Dreiser, Sinclair Lewis e Sherwood Anderson – è necessario conoscere qual è il bisogno storico comune cui essi sono venuti incontro colla loro opera, ma è indispensabile, a non buttare il fiato, trovare un’immagine, un parallelo storico, che riporti a termini noti, nostri, quegli atti di vita d’oltreoceano che ai più invece piace immaginare come tanto esotici.</p>
+			<p>Ora, non solo, per capire i moderni romanzieri nordamericani – alludo al gruppo, più famoso che noto, dei tre innovatori: Theodore Dreiser, Sinclair Lewis e <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Sherwood Anderson</persName> – è necessario conoscere qual è il bisogno storico comune cui essi sono venuti incontro colla loro opera, ma è indispensabile, a non buttare il fiato, trovare un’immagine, un parallelo storico, che riporti a termini noti, nostri, quegli atti di vita d’oltreoceano che ai più invece piace immaginare come tanto esotici.</p>
 			<p>E il parallelo c’è, chiaro e verissimo.</p>
-			<p>Si pensi a quel che è stato nella letteratura italiana la scoperta delle regioni che è proceduta parallela alla ricerca dell’unità nazionale, storia della fine del ’700 e di tutto l’800. Dall’Alfieri in giù, tutti gli scrittori italiani che si sforzano, talvolta e anzi spesso inconsciamente, di giungere a una più profonda unità nazionale, penetrando sempre più il loro carattere regionale, la loro vera natura; giungendo così alla creazione di una coscienza umana e di un linguaggio ricchi di tutto il sangue della provincia e di tutta la dignità di una vita rinnovata. E ci pensino specialmente i miei conterranei del <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831">Piemonte</placeName>, dove più forte si sente ancora il fermento di quest’aspirazione e più lontana ne è la realizzazione, sviati come siamo ora dietro a troppa specializzazione dialettale. Noi, piemontesi, pensiamoci, nel nome dei quali, con l’Alfieri, è pur cominciata storicamente questa rinascita e che, a cominciare appunto dall’Alfieri, attraverso il D’Azeglio, l’Abba, fino al Calandra, e più giù, non abbiamo mai avuto quell’uomo e quell’opera che, oltre ad essere carissimi a noi, raggiungessero davvero quell’universalità e quella freschezza che si fanno comprendere a tutti gli uomini e non soltanto ai conterranei. Questo è il nostro bisogno non ancora soddisfatto. Mentre, al rispettivo bisogno, nella loro terra e nella loro provincia, sono appunto bastati i romanzieri americani di cui parlo. Da questi noi, dunque, dobbiamo imparare.</p>
+			<p>Si pensi a quel che è stato nella letteratura italiana la scoperta delle regioni che è proceduta parallela alla ricerca dell’unità nazionale, storia della fine del ’700 e di tutto l’800. Dall’<persName key="Vittorio Alfieri" ref="http://dbpedia.org/resource/Vittorio_Alfieri" cert="high" type="real">Alfieri</persName> in giù, tutti gli scrittori italiani che si sforzano, talvolta e anzi spesso inconsciamente, di giungere a una più profonda unità nazionale, penetrando sempre più il loro carattere regionale, la loro vera natura; giungendo così alla creazione di una coscienza umana e di un linguaggio ricchi di tutto il sangue della provincia e di tutta la dignità di una vita rinnovata. E ci pensino specialmente i miei conterranei del <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831">Piemonte</placeName>, dove più forte si sente ancora il fermento di quest’aspirazione e più lontana ne è la realizzazione, sviati come siamo ora dietro a troppa specializzazione dialettale. Noi, piemontesi, pensiamoci, nel nome dei quali, con l’Alfieri, è pur cominciata storicamente questa rinascita e che, a cominciare appunto dall’Alfieri, attraverso il D’Azeglio, l’Abba, fino al Calandra, e più giù, non abbiamo mai avuto quell’uomo e quell’opera che, oltre ad essere carissimi a noi, raggiungessero davvero quell’universalità e quella freschezza che si fanno comprendere a tutti gli uomini e non soltanto ai conterranei. Questo è il nostro bisogno non ancora soddisfatto. Mentre, al rispettivo bisogno, nella loro terra e nella loro provincia, sono appunto bastati i romanzieri americani di cui parlo. Da questi noi, dunque, dobbiamo imparare.</p>
 			<p>E così, il lettore intelligente, quando sente parlare di Ohio, Illinois, Michigan, Minnesota, Iowa, Indiana, Dakota, Nebraska, lasci stare – dopo aver gustata la ricca armonia dei nomi indiani – l’esotismo e s’immagini piuttosto con colori nostrani quei luoghi che, un’ottantina d’anni fa, erano</p>
 			<p>praterie e boscaglie che una prima generazione anglosassone stava rompendo a fatica, tra austerità e sudori quasi biblici, e che la seconda e la terza generazione coltivavano, con non meno fatica e già qualche bestemmia, o perdevano in mezzo a un proletariato fecondo e dilagante da tutti i porti dell’Europa, di tedeschi, svedesi, boemi e italiani, che toglievano ai pionieri del Middle West – il Centro Ovest – anche l’alone di popolo eletto. Cominciano qui i romanzi di Dreiser e Lewis e, specialmente, di Anderson.</p>
 			<p>Grandi pianure grigie di miseria e di lavoro, piccole comunità di pettegolezzo e di grettezza, artigiani che si dànno convegno al drugstore, la «censa», qualche particolare già ricco, il farmer; molto grano, molta meliga e molta frutta. Zuppa di cavoli e torta di mele. Ma i latini e gli slavi – gli</p>
