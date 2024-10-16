@@ -4057,6 +4057,244 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184938592",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T16:49:38.592Z",
+	"dcterms:modified": "2024-10-16T16:49:38.592Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184938592#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184938592#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/quote/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3174659",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185003894",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T16:50:03.894Z",
+	"dcterms:modified": "2024-10-16T16:50:03.894Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185003894#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185003894#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/quote/persName[8]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Percy_Bysshe_Shelley",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185016405",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T16:50:16.405Z",
+	"dcterms:modified": "2024-10-16T16:50:16.405Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185016405#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185016405#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/quote/persName[9]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Percy_Bysshe_Shelley",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4073,7 +4311,7 @@
 			<p/>
 			<p><persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> è dunque soprattutto un uomo di lettere e di pensiero che ha cominciato facendo il baleniere, il robinson e il vagabondo. Si ha senz’altro un esempio del suo modo di essere primitivo leggendo i frammenti di quest’elogio della marineria che fa all’autore un lupo di mare conosciuto e rispettato da tutti come il <persName ref="#NobileJack">Nobile Jack</persName>, che nei momenti d’ozio usa recitare, ai colleghi più degni, brani dei <title key="Os Lusíadas" ref="http://dbpedia.org/resource/Os_Lusíadas" level="m">Lusiadi</title>. Ed è il barbaro, lo scopritore in letteratura dei <rs ref="#IMariDelSud">Mari del Sud</rs>, che scrive:</p>
 			<p/>
-			<p><quote cert="high" defective="unknown" generatedBy="human" source="#WhiteJacket_LXV" xml:space="default">Sicuro, <persName ref="#Camoens" type="fictional">Camoens</persName> fu un tempo marinaio! Poi c’è <persName ref="#Falconer">Falconer</persName>, il cui <persName ref="#Naufragio">Naufragio</persName> non andrà mai a fondo, benché lui, povero diavolo, si sia perduto colla fregata <persName ref="#Aurora">Aurora</persName>. Il vecchio <persName key="Noah" ref="http://dbpedia.org/resource/Noah">Noè</persName> fu il primo marinaio. E <persName key="Paul the Apostle" ref="http://dbpedia.org/resource/Paul_the_Apostle">San Paolo</persName> anche, la sapeva la bussola, ragazzo! Ricordate quel capitolo negli <title key="Acts of the Apostles" ref="http://dbpedia.org/resource/Acts_of_the_Apostles" level="m">Atti</title>? Non l’avrei raccontato meglio io. Siete mai stato a <placeName key="Republic of Malta  Malta" ref="https://geonames.org/2562770">Malta</placeName>? La chiamavano <placeName key="Republic of Malta  Malta" ref="https://geonames.org/2562770">Melita</placeName> al tempo dell’<persName key="Paul the Apostle" ref="http://dbpedia.org/resource/Paul_the_Apostle">Apostolo</persName>... E c’è Shelley che era tutto un marinaio. Shelley – povero giovane!... – è annegato nel <placeName key="Mediterranean Sea  " ref="https://geonames.org/363196">Mediterraneo</placeName>, sapete, vicino a Livorno... Trelawny assisteva alla cremazione e anche lui era uno scorridore dell’oceano! Sì, e Byron aiutò a mettere un pezzo di chiglia sul fuoco... e non era Byron un marinaio? Un marinaio dilettante... Ascoltatemi, Giacchetta Bianca, non c’è mai stato un uomo grande che abbia passata tutta la vita a terra... Giurerei che Shakespeare fu pennese del castello. Ricordate la prima scena della Tempesta?... Un respiro del mare, ragazzo mio, è l’ispirazione... perché, vedete, non c’è trincea per l’oceano; l’oceano strappa subito la falsa chiglia della prora di un buono a nulla; gli dice chi è e glielo fa sentire anche...</quote></p>
+			<p><quote cert="high" defective="unknown" generatedBy="human" source="#WhiteJacket_LXV" xml:space="default">Sicuro, <persName ref="#Camoens" type="fictional">Camoens</persName> fu un tempo marinaio! Poi c’è <persName ref="#Falconer">Falconer</persName>, il cui <persName ref="#Naufragio">Naufragio</persName> non andrà mai a fondo, benché lui, povero diavolo, si sia perduto colla fregata <persName ref="#Aurora">Aurora</persName>. Il vecchio <persName key="Noah" ref="http://dbpedia.org/resource/Noah">Noè</persName> fu il primo marinaio. E <persName key="Paul the Apostle" ref="http://dbpedia.org/resource/Paul_the_Apostle">San Paolo</persName> anche, la sapeva la bussola, ragazzo! Ricordate quel capitolo negli <title key="Acts of the Apostles" ref="http://dbpedia.org/resource/Acts_of_the_Apostles" level="m">Atti</title>? Non l’avrei raccontato meglio io. Siete mai stato a <placeName key="Republic of Malta  Malta" ref="https://geonames.org/2562770">Malta</placeName>? La chiamavano <placeName key="Republic of Malta  Malta" ref="https://geonames.org/2562770">Melita</placeName> al tempo dell’<persName key="Paul the Apostle" ref="http://dbpedia.org/resource/Paul_the_Apostle">Apostolo</persName>... E c’è <persName key="Percy Bysshe Shelley" ref="http://dbpedia.org/resource/Percy_Bysshe_Shelley" cert="high" type="real">Shelley</persName> che era tutto un marinaio. <persName key="Percy Bysshe Shelley" ref="http://dbpedia.org/resource/Percy_Bysshe_Shelley" type="real">Shelley</persName> – povero giovane!... – è annegato nel <placeName key="Mediterranean Sea  " ref="https://geonames.org/363196">Mediterraneo</placeName>, sapete, vicino a <placeName key="Livorno Tuscany Italy" ref="https://geonames.org/3174659">Livorno</placeName>... Trelawny assisteva alla cremazione e anche lui era uno scorridore dell’oceano! Sì, e Byron aiutò a mettere un pezzo di chiglia sul fuoco... e non era Byron un marinaio? Un marinaio dilettante... Ascoltatemi, Giacchetta Bianca, non c’è mai stato un uomo grande che abbia passata tutta la vita a terra... Giurerei che Shakespeare fu pennese del castello. Ricordate la prima scena della Tempesta?... Un respiro del mare, ragazzo mio, è l’ispirazione... perché, vedete, non c’è trincea per l’oceano; l’oceano strappa subito la falsa chiglia della prora di un buono a nulla; gli dice chi è e glielo fa sentire anche...</quote></p>
 			<p>(<title key="Melville, Herman, 1819-1891. | White Jacket or, The world in a man-of-war" ref="http://viaf.org/viaf/1999155286668687180001/" level="a">White Jacket</title>, cap. LXV).</p>
 			<p/>
 			<p>Occorre aver bene a mente in che consiste questa cultura di Melville, che ha tanta parte nella sua opera. Sarebbe un errore credere che quest’uomo si sia formato sul ’700. Com’è di tutto l’ambiente letterario degli Stati, dal 1830 al ’50 – Poe, Emerson, Hawthorne, Alcott, ecc. – il ’700, pure notissimo, è superato, almeno nelle sue parti più settecentesche. Benjamin Franklin non interessa più che i patrioti. I gusti di quest’«epoca d’oro» sono affini a quelli inglesi di un Coleridge, di un Keats, di uno Shelley: il grande secolo per costoro è il ’600, quel ’600 spirituale che comprende anche una buona metà, almeno, del ’500. Però, mentre un Keats o uno Shelley cercavano, nel primo ’600, più che altro una tradizione lirica, stilistica, i nordamericani, e Melville innanzi tutti, vi scoprono radici più profonde, non solamente nella memoria della crisi storica che ha originata la colonia, ma nel bisogno di richiami spirituali alla fiera sete di libertà interiore, di al di là</p>
