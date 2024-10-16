@@ -89,13 +89,91 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360410.xml?date_annotation_20241016150836737",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T13:08:36.737Z",
+	"dcterms:modified": "2024-10-16T13:08:36.737Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360410.xml?date_annotation_20241016150836737#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360410.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360410.xml?date_annotation_20241016150836737#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1930/1934"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p><date when="1936-04-10">10 Apr.</date></p>
 			<p>Quando un uomo è nel mio stato non gli resta che fare l’esame di coscienza.</p>
 			<p>Non ho motivo di rifiutare la mia idea fissa che quanto accade a un uomo è condizionato da tutto il suo passato; insomma, è meritato. Evidentemente, le ho fatte grosse per trovarmi a questo punto.</p>
-			<p>Anzitutto, <hi cert="high" generatedBy="human" rend="italic" xml:space="default">leggerezza morale</hi>. Mi sono mai posto davvero il problema di che debbo fare secondo coscienza? Ho sempre seguito impulsi sentimentali, edonistici: Su questo non c’è dubbio. Persino il mio misoginismo (1930-1934) era un principio voluttuario: non volevo seccature e mi compiacevo della posa. Quanto questa posa fosse invertebrata si è visto poi. E anche nella questione del lavoro, sono mai stato altro che un edonista? Mi compiacevo del lavoro febbrile a scatti, sotto l’estro dell’ambizione, ma avevo paura, paura di legarmi. Non ho mai lavorato davvero e infatti non so nessun mestiere. E si vede chiara anche un’altra magagna. Non sono stato mai il semplice incosciente, che gode le sue soddisfazioni e se ne infischia. Sono troppo vile per questo. Mi sono sempre carezzato con l’illusione di sentire la vita morale, passando attimi deliziosi – è la parola giusta – a farmi dei casi di coscienza, senza risoluzione di risolverli nell’azione. Se poi non voglio dissotterrare la compiacenza che un tempo provavo nell’avvilimento morale a scopo estetico, sperandone una carriera da genio. E questo tempo non l’ho poi ancora superato.</p>
+			<p>Anzitutto, <hi cert="high" generatedBy="human" rend="italic" xml:space="default">leggerezza morale</hi>. Mi sono mai posto davvero il problema di che debbo fare secondo coscienza? Ho sempre seguito impulsi sentimentali, edonistici: Su questo non c’è dubbio. Persino il mio misoginismo (<date from="1930" to="1934">1930-1934</date>) era un principio voluttuario: non volevo seccature e mi compiacevo della posa. Quanto questa posa fosse invertebrata si è visto poi. E anche nella questione del lavoro, sono mai stato altro che un edonista? Mi compiacevo del lavoro febbrile a scatti, sotto l’estro dell’ambizione, ma avevo paura, paura di legarmi. Non ho mai lavorato davvero e infatti non so nessun mestiere. E si vede chiara anche un’altra magagna. Non sono stato mai il semplice incosciente, che gode le sue soddisfazioni e se ne infischia. Sono troppo vile per questo. Mi sono sempre carezzato con l’illusione di sentire la vita morale, passando attimi deliziosi – è la parola giusta – a farmi dei casi di coscienza, senza risoluzione di risolverli nell’azione. Se poi non voglio dissotterrare la compiacenza che un tempo provavo nell’avvilimento morale a scopo estetico, sperandone una carriera da genio. E questo tempo non l’ho poi ancora superato.</p>
 			<p>Alla prova. Ora che ho raggiunta la piena abiezione morale, a che cosa penso? Penso come sarebbe bello se quest’abiezione fosse anche materiale, avessi per esempio le scarpe rotte.</p>
 			<p>Soltanto così si spiega la mia vita attuale da suicida. E so che per sempre sono condannato a pensare al suicidio davanti a ogni imbarazzo o dolore. È questo che mi atterrisce: il mio principio è il suicidio, mai consumato, che non consumerò mai, ma che mi carezza la sensibilità.</p>
 			<p>Il terribile è che tutto quanto mi resta ora non basta a raddrizzarmi perché nell’identico stato – a parte i tradimenti – c’ero già stato in passato e già allora non avevo trovato nessuna salvezza morale. Nemmeno questa volta mi indurirò, è chiaro.</p>
