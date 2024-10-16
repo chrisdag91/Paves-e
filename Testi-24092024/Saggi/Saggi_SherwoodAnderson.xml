@@ -7364,6 +7364,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?title_annotation_20241017001226529",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T22:12:26.529Z",
+	"dcterms:modified": "2024-10-16T22:12:26.529Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?title_annotation_20241017001226529#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?title_annotation_20241017001226529#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[42]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/1542161332348852420009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017001253818",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T22:12:53.818Z",
+	"dcterms:modified": "2024-10-16T22:12:53.818Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017001253818#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017001253818#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[44]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/39372890/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -7408,9 +7567,9 @@
 			<p>Ed un’altra ragione per cui a Sherwood Anderson piace, o almeno interessa, J. Joyce e il joycianesimo e l’opera, insopportabile a noi, della signora Gertrude Stein, è che in quell’abbondanza e libertà e gioia – viziosa negli europei – delle parole per sé stanti, o quasi, l’americano, il middlewestern, trova il sostituto dei secoli di tradizione che gli mancano a dare il sapore al suo linguaggio, a dare la terrestrità alla materia vivente dei suoi racconti, come gli indiani l’avevano data a loro parole, legandole ai luoghi:</p>
 			<p/>
 			<p>Un tempo gli Indiani avevan danzato là e fatto feste. Avevano gettato intorno canzoni come semi sul vento. Nomi di fiumi, nomi di città, Ohio! Illinois! Keokuk! Chicago! Illinois! Michigan!</p>
-			<p>(Dark Laughter).</p>
+			<p>(<title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Dark Laughter</title>).</p>
 			<p/>
-			<p>Quel problema della terra, per cui noi, europei, secondo Anderson, ci godiamo di più l’esistenza perché di più siamo legati – nei secoli – alla nostra materia.</p>
+			<p>Quel problema della terra, per cui noi, europei, secondo <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName>, ci godiamo di più l’esistenza perché di più siamo legati – nei secoli – alla nostra materia.</p>
 			<p>E qui si pensi a <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" type="real">Walt Whitman</persName> che si struggeva appunto ai nomi indiani, che faceva lunghe liste di parole collo scopo di rinverginarle e difendeva il nuovo gergo degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>.</p>
 			<p>Lo stile di <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName>! Non il dialetto crudo ancora troppo locale – come fanno qui da noi gli specialisti dialettali che, anche negli esempi più insigni, conservano sempre qualcosa di un po’ gretto – ma una nuova intramatura dell’inglese, tutta fatta d’idiotismi americani, di uno stile che non è più dialetto, ma linguaggio, ripensato, ricreato, poesia. Nel racconto scritto da <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> sempre echeggia così il parlatore americano, l’uomo vivo. Il quale racconto, com’egli senta sanamente e vitalmente, ho già detto e posso concludere ricordando ancora le pagine di <title level="m" ref="#AStorytellersStory">A Storyteller’s Story</title>, dove si rievoca il tipo bizzarro del padre, fannullone dionisiaco, che non sa che</p>
 			<p>inventar storie – sotto tutti gli aspetti sono storie – e le racconta ai contadini dell’<placeName key="Ohio Ohio United States" ref="https://geonames.org/5165418">Ohio</placeName>, dell’<placeName key="West  United States" ref="https://geonames.org/11887751">Ovest</placeName>, alle famiglie di provincia, come un aedo, come un trovero (ne ha così poca di letteratura nelle ossa, <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName>, che possiamo infliggergliene noi, senza paura: è sempre schietto), come un</p>
