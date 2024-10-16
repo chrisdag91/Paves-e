@@ -1353,6 +1353,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016124643503",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T10:46:43.503Z",
+	"dcterms:modified": "2024-10-16T10:46:43.503Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016124643503#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016124643503#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[38]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/36922880/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?title_annotation_20241016124701046",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T10:47:01.046Z",
+	"dcterms:modified": "2024-10-16T10:47:01.046Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?title_annotation_20241016124701046#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?title_annotation_20241016124701046#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[40]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Moby-Dick",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1393,9 +1552,9 @@
 			<p>L’interessante lista di riferimenti, pescati in tutte «le Vaticane e le bancarelle della terra» e le etimologie in più d’una dozzina di lingue, che precedono, servono a portare il lettore a quel grado di universalità, ad ambientarlo in quell’atmosfera laica di dotta discussione, che sarà il nero, talvolta umoristico e talvolta eroico, di tutti i futuri capitoli. Poichè, questo è curioso in Moby Dick e in Melville: benchè si tratti di un’opera ispirata da esperienze di vita quasi barbarica, ai confini della terra, Melville non è mai un pagliaccio che si mette a fingere anche lui il barbaro e il primitivo, ma, dignitoso e coraggioso, non si spaventa di rielaborare quella vita vergine attraverso tutto lo scibile della terra. Poichè credo che ci voglia meno coraggio ad affrontare un capodoglio o un tifone che a rischiare di passare per un pedante o un letterato.</p>
 			<p>E Melville, nel ringraziamento al Vice-vice-bibliotecario, ch’egli finge gli abbia fornite le citazioni, lo compiange per uno di quella «classe disperata e ingiallita che nessun vino al mondo scalderà mai più e per i quali persino il pallido Xeres sarebbe troppo generoso»; lo compiange col suo solito tono scherzoso di uomo che conosce ben altro nella vita oltre le Vaticane e i bancherottoli e sa che i migliori poemi sono quelli raccontati da marinai illetterati sul castello di prora (cfr. La storia del Town-ho); sa tutto questo, e scherza, ma non si vergogna di mostrarsi qual è, un marinaio che ha studiato: un letterato.</p>
 			<p/>
-			<p>Cesare Pavese</p>
+			<p><persName key="Pavese, Cesare, 1908-1950." ref="http://viaf.org/viaf/36922880/" cert="high" type="real">Cesare Pavese</persName></p>
 			<p/>
-			<p>NOTA. Traducendo questo libro si è cercato di tenere una linea di mezzo tra un’eccessiva modernizzazione dello stile e una giusta fedeltà a certa abbondanza e involutezza del testo, che naturalmente risente degli anni trascorsi e dell’ambiente in cui è nato.</p>
+			<p>NOTA. Traducendo questo <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> si è cercato di tenere una linea di mezzo tra un’eccessiva modernizzazione dello stile e una giusta fedeltà a certa abbondanza e involutezza del testo, che naturalmente risente degli anni trascorsi e dell’ambiente in cui è nato.</p>
 			<p>Occorre poi notare che l’autore stesso ha sovente usato passaggi un po’ rapidi tra quella sua rotondità espressiva nelle parti «filosofiche» e l’immediatezza e dialettalità delle pagine più marinaresche e «avventurose».</p>
 			<p>Si voglia quindi leggere il libro senza preconcetti e cercando di seguire il traduttore nel suo sforzo sempre coscienzioso, non sempre, forse, felice.</p>
 			<p/>
