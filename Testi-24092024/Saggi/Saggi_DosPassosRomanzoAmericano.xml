@@ -9204,6 +9204,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?rs_annotation_20241016181422521",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T16:14:22.521Z",
+	"dcterms:modified": "2024-10-16T16:14:22.521Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?rs_annotation_20241016181422521#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?rs_annotation_20241016181422521#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[31]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://dbpedia.org/resource/National_Bolshevism",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -9237,7 +9316,7 @@
 			<p>groupons-nous et demain</p>
 			<p>l’internationale</p>
 			<p>sera le genre humain</p>
-			<p>LA PROSSIMA CADUTA DEL BOLSCEVISMO NELLE</p>
+			<p>LA PROSSIMA CADUTA DEL <rs key="National Bolshevism" ref="http://dbpedia.org/resource/National_Bolshevism">BOLSCEVISMO</rs> NELLE</p>
 			<p>DICHIARAZIONI DI UN GENERALE SCAMPATO</p>
 			<p>La Censura Francese non permette all’«Herald» di rivelare ciò che ha fatto la Delegazione Cinese, ma che ci sia una grave irrequietezza, sarebbe inutile negarlo. Uomini che son stati privati della possibilità di guadagnarsi da vivere, che hanno visto i loro bambini piangere per avere da sfamarsi, che si trovan di fronte a un’indefinita chiusura delle industrie e a una possibile cessazione del traffico ferroviario con tutta la disorganizzazione della vita nazionale che ne consegue, questi uomini non ci si può troppo aspettare che fronteggino la situazione con calma ed equanimità.</p>
 			<p>SFORZI INGLESI PER MANTENERE LA PROMESSA</p>
