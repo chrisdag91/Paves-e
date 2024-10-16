@@ -168,11 +168,90 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360217.xml?title_annotation_20241016103846990",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T08:38:46.990Z",
+	"dcterms:modified": "2024-10-16T08:38:46.990Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/saveriovita",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Saverio Vita"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360217.xml?title_annotation_20241016103846990#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360217.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360217.xml?title_annotation_20241016103846990#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Odyssey",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p><date when="1936-02-17">17 Febbr.</date></p>
-			<p>È bene rifarsi a <persName key="Homer" ref="http://dbpedia.org/resource/Homer">Omero</persName>. Qual’è  l’unità dei suoi poemi? Ogni libro ha una sua unità sentimentale, di posizione, per cui armonicamente, e fisicamente anche, lo si legge come un insieme. Libro VIII Odissea: il conforto della poesia, della danza, della gara; il canto, il mito aureo, scherzoso; la rivincita della nobiltà di vita, in un’oasi di godimento e di lacrime ideali. Libro X Odissea: l’avventura, il susseguirsi di ostacoli, il pianto umano e l’indurirsi. Libro III Iliade: la bella donna e la guerra per la donna, e l’amore snervante. E via. Pensava a queste definizioni Omero o chi per esso? Non credo, ma è rivelatore che il libro dove vive tutta la Grecia sia fatto in questo modo o, che è lo stesso, sia possibile interpretarlo così.</p>
+			<p>È bene rifarsi a <persName key="Homer" ref="http://dbpedia.org/resource/Homer">Omero</persName>. Qual’è  l’unità dei suoi poemi? Ogni libro ha una sua unità sentimentale, di posizione, per cui armonicamente, e fisicamente anche, lo si legge come un insieme. <title key="Odyssey" ref="http://dbpedia.org/resource/Odyssey">Libro VIII Odissea</title>: il conforto della poesia, della danza, della gara; il canto, il mito aureo, scherzoso; la rivincita della nobiltà di vita, in un’oasi di godimento e di lacrime ideali. Libro X Odissea: l’avventura, il susseguirsi di ostacoli, il pianto umano e l’indurirsi. Libro III Iliade: la bella donna e la guerra per la donna, e l’amore snervante. E via. Pensava a queste definizioni Omero o chi per esso? Non credo, ma è rivelatore che il libro dove vive tutta la Grecia sia fatto in questo modo o, che è lo stesso, sia possibile interpretarlo così.</p>
 			<p>Ma stiamo attenti. Il grande fascino dei due poemi è l’unità materiale dei loro personaggi, che a volta a volta si accende in queste conflagrazioni di poesia. Abbiamo cioè, fin dal primo esempio di grande poesia intenzionale, questo doppio gioco: naturale svolgersi di casi (che potrebbero anche essere il doppio o la metà, senza danno) e successive ed organiche illuminazioni poetiche. Il racconto cioè, e la poesia. L’unione dei due elementi non è più che abilità .</p>
 			<p>Ora si apre il problema se, in poesie separate non sia possibile rifare il miracolo; non per altra ragione che tendendo sempre la mente all’unità in tutte le sue manifestazioni. Comporre secondo l’estro, ma con sotterranea abilità far concorrere i varî pezzi a un poema.</p>
 			<p>Il modo più semplice parrebbe quello di conservare uno stesso elemento protagonista nelle successive poesie. E questo non va, perché allora sarebbe meglio fare senz’altro il poema raccontato, cosa dimostrata assurda.</p>
