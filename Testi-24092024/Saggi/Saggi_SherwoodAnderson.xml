@@ -4365,6 +4365,164 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234031600",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T21:40:31.600Z",
+	"dcterms:modified": "2024-10-16T21:40:31.600Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234031600#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234031600#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255149",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234049201",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T21:40:49.201Z",
+	"dcterms:modified": "2024-10-16T21:40:49.201Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234049201#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234049201#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255149",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4383,7 +4541,7 @@
 			<p>Nell’<date when="1880">80</date> un ciclone attraversa l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. L’industrialismo in grande si sposa alle risorse del paese, assorbe tutte le formule nazionali di conquista e di ottimismo, apre un pratico campo a ciò che fino allora era stato solo mistica aspirazione, spazza e trasforma tutti i modi antichi. I villaggi del centro, dai pettegoli e chiusi abitanti e dai timidi nomi di <placeName key="Camden New Jersey United States" ref="https://geonames.org/4501018">Camden</placeName>, <placeName key="Willow Springs Missouri United States" ref="https://geonames.org/4414959">Willow Springs</placeName>, <placeName key="Parkers Prairie Minnesota United States" ref="https://geonames.org/5040846">Gopher Prairie</placeName>, Old Harbor, Sauk Center, Sandusky, divengono i centri fumosi e fragorosi, fattivi e ottimisti che il mondo conosce: <placeName key="Cleveland Ohio United States" ref="https://geonames.org/5150529">Cleveland</placeName>, <placeName key="Springfield Illinois United States" ref="https://geonames.org/4250542">Springfield</placeName>, <placeName key="Detroit Michigan United States" ref="https://geonames.org/4990729">Detroit</placeName>, <placeName key="Akron Ohio United States" ref="https://geonames.org/5145476">Akron</placeName>, <placeName key="Pittsburg California United States" ref="https://geonames.org/5383465">Pittsburg</placeName>, e, su tutti, gigantesca, la metropoli, <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName>. Le fabbriche inghiottono tutto. Gli artigiani, innamorati un tempo del cantuccio, della materia, diventano operai che ogni giorno cambiano mestiere, indifferenti all’opera. I campi son lavorati a macchina, grandi fabbriche anch’essi. Uno diventa un eroe perché trova una leva, una biella speciale. Si forma la leggenda dell’uomo d’affari nordamericano. <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> accoglie tutti. I nuovi numi sono grotteschi penosi. Nascono i re del petrolio, dell’acciaio, della carne scatolata, del grano. Ha origine, insomma, l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> attuale.</p>
 			<p>Da questo mondo <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Lewis</persName> ha cavato i suoi meravigliosi provinciali che sembran così buffi e sono invece tanto seri, il prodotto più profondo e definitivo di quella civiltà, i contadini volgari e severi, fracassoni e tormentati, delle grandi città provvisorie.</p>
 			<p>Da questo mondo <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName>, proiettando in genere il contrasto attuale nel tempo storico in cui esso ha cominciato a manifestarsi (gli anni della sua giovinezza) ha tratto le più dolorose e pensose e risolutive rappresentazioni di vita moderna, insieme elementari e complicatissime, cerebrali e illetterate, belle di una bellezza che supera la pagina scritta.</p>
-			<p>Molti problemi puramente nazionali tocca nei suoi libri, e di questi è inutile dire per ora: basta che tutti tengano a mente qual è in lui il problema e l’ambiente di vita, che tutti li supera e fonde. Per <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName>, tutto il mondo moderno è un contrasto di città e di campagna, di schiettezza e di vuota finzione, di natura e di piccoli uomini. Quanto tocchi anche noi quest’idea, credo inutile dire. E di quanto noi siamo inferiori in potenza vitale alla giovane America, possiamo vedere da questo: un problema che ha dato all’America opere come quelle di cui parlo, non ha dato tra noi che una caricatura letteraria: stracittà e strapaese.</p>
+			<p>Molti problemi puramente nazionali tocca nei suoi libri, e di questi è inutile dire per ora: basta che tutti tengano a mente qual è in lui il problema e l’ambiente di vita, che tutti li supera e fonde. Per <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName>, tutto il mondo moderno è un contrasto di città e di campagna, di schiettezza e di vuota finzione, di natura e di piccoli uomini. Quanto tocchi anche noi quest’idea, credo inutile dire. E di quanto noi siamo inferiori in potenza vitale alla giovane <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>, possiamo vedere da questo: un problema che ha dato all’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> opere come quelle di cui parlo, non ha dato tra noi che una caricatura letteraria: stracittà e strapaese.</p>
 			<p/>
 			<p/>
 			<p>Sherwood Anderson ha pubblicato il suo primo libro nel 1916. Continua ancora ed ha cinquantacinque anni. Facciamo conto che scarabocchiasse anche un po’ prima. Ne restan sempre almeno trenta di silenzio. Questi trenta li ha impiegati ad andare in giro: tutto il centro dell’Ovest, dall’Ohio village dov’è nato, fino a Chicago, a Nuova Orleans e a Nuova York; sotto il ciclone dell’industrialismo: stalliere, operaio, soldato, giornalista, e industriale. Finché un giorno pianta azienda e dattilografa, fuggendo – è stato detto, come un monaco in Tebaide – tutto solo, e si dispone a scrivere libri. Pubblica il primo e poi non cessa più.</p>
