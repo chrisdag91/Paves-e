@@ -3257,6 +3257,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016233221572",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T21:32:21.572Z",
+	"dcterms:modified": "2024-10-16T21:32:21.572Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016233221572#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016233221572#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/4501018",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3272,7 +3351,7 @@
 			<p>europei del continente – ci han da mettere il vino. Che lasciando la metafora, è poi la fantasia. Tutti i nuovi scrittori sono figli di questa fusione. C’è svedesi, tedeschi, israeliti, italiani. Quella mescolanza di sangue che già alla metà del secolo, nella <placeName key="New England  United States" ref="https://geonames.org/11919979">Nuova Inghilterra</placeName> puritana e quacchera aveva (olandesi ed inglesi) messo l’argento vivo nelle vene di <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" cert="high" type="real">Walt Whitman</persName> e di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Herman Melville</persName>, alla fine del secolo rinnova il prodigio. Proprio in questa evasione nel sangue straniero rinasce una letteratura che scopre l’<placeName key="North America  " ref="https://geonames.org/6255149">America.</placeName> <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName>, anzi, imposterà il problema della rinascita</p>
 			<p>nazionale sulla fusione degli anglosassoni coi latini – o coi negri – con quelli insomma che sanno giocare e cantare.</p>
 			<p>Ma fin qui il <placeName key="Midwest  United States" ref="https://geonames.org/11887750">Centro Ovest</placeName> non sarebbe che morto e gli scrittori detti – che han cominciato tutti dopo il <date when="1900">1900</date> – se l’avessero descritto soltanto così, qual è stato fino all’<date when="1880">80</date>, sarebbero i soliti rievocatori di un passato, simpaticissimi anche, ma senza una vita nuova da insegnare a noi, piemontesi, che di questo genere abbiamo scrittori maestri – <persName key="Calandra, Edoardo, 1852-1911" ref="http://viaf.org/viaf/51736122/" cert="high" type="real">Edoardo Calandra</persName> e <persName key="Augusto Monti" ref="http://dbpedia.org/resource/Augusto_Monti" type="real">Augusto Monti</persName>.</p>
-			<p>Nell’<date when="1880">80</date> un ciclone attraversa l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. L’industrialismo in grande si sposa alle risorse del paese, assorbe tutte le formule nazionali di conquista e di ottimismo, apre un pratico campo a ciò che fino allora era stato solo mistica aspirazione, spazza e trasforma tutti i modi antichi. I villaggi del centro, dai pettegoli e chiusi abitanti e dai timidi nomi di Camden, Willow Springs, Gopher Prairie, Old Harbor, Sauk Center, Sandusky, divengono i centri fumosi e fragorosi, fattivi e ottimisti che il mondo conosce: Cleveland, Springfield, Detroit, Akron, Pittsburg, e, su tutti, gigantesca, la metropoli, Chicago. Le fabbriche inghiottono tutto. Gli artigiani, innamorati un tempo del cantuccio, della materia, diventano operai che ogni giorno cambiano mestiere, indifferenti all’opera. I campi son lavorati a macchina, grandi fabbriche anch’essi. Uno diventa un eroe perché trova una leva, una biella speciale. Si forma la leggenda dell’uomo d’affari nordamericano. Chicago accoglie tutti. I nuovi numi sono grotteschi penosi. Nascono i re del petrolio, dell’acciaio, della carne scatolata, del grano. Ha origine, insomma, l’America attuale.</p>
+			<p>Nell’<date when="1880">80</date> un ciclone attraversa l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. L’industrialismo in grande si sposa alle risorse del paese, assorbe tutte le formule nazionali di conquista e di ottimismo, apre un pratico campo a ciò che fino allora era stato solo mistica aspirazione, spazza e trasforma tutti i modi antichi. I villaggi del centro, dai pettegoli e chiusi abitanti e dai timidi nomi di <placeName key="Camden New Jersey United States" ref="https://geonames.org/4501018">Camden</placeName>, Willow Springs, Gopher Prairie, Old Harbor, Sauk Center, Sandusky, divengono i centri fumosi e fragorosi, fattivi e ottimisti che il mondo conosce: Cleveland, Springfield, Detroit, Akron, Pittsburg, e, su tutti, gigantesca, la metropoli, Chicago. Le fabbriche inghiottono tutto. Gli artigiani, innamorati un tempo del cantuccio, della materia, diventano operai che ogni giorno cambiano mestiere, indifferenti all’opera. I campi son lavorati a macchina, grandi fabbriche anch’essi. Uno diventa un eroe perché trova una leva, una biella speciale. Si forma la leggenda dell’uomo d’affari nordamericano. Chicago accoglie tutti. I nuovi numi sono grotteschi penosi. Nascono i re del petrolio, dell’acciaio, della carne scatolata, del grano. Ha origine, insomma, l’America attuale.</p>
 			<p>Da questo mondo Lewis ha cavato i suoi meravigliosi provinciali che sembran così buffi e sono invece tanto seri, il prodotto più profondo e definitivo di quella civiltà, i contadini volgari e severi, fracassoni e tormentati, delle grandi città provvisorie.</p>
 			<p>Da questo mondo Anderson, proiettando in genere il contrasto attuale nel tempo storico in cui esso ha cominciato a manifestarsi (gli anni della sua giovinezza) ha tratto le più dolorose e pensose e risolutive rappresentazioni di vita moderna, insieme elementari e complicatissime, cerebrali e illetterate, belle di una bellezza che supera la pagina scritta.</p>
 			<p>Molti problemi puramente nazionali tocca nei suoi libri, e di questi è inutile dire per ora: basta che tutti tengano a mente qual è in lui il problema e l’ambiente di vita, che tutti li supera e fonde. Per Anderson, tutto il mondo moderno è un contrasto di città e di campagna, di schiettezza e di vuota finzione, di natura e di piccoli uomini. Quanto tocchi anche noi quest’idea, credo inutile dire. E di quanto noi siamo inferiori in potenza vitale alla giovane America, possiamo vedere da questo: un problema che ha dato all’America opere come quelle di cui parlo, non ha dato tra noi che una caricatura letteraria: stracittà e strapaese.</p>
