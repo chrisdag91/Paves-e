@@ -17652,6 +17652,243 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016200145363",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T18:01:45.363Z",
+	"dcterms:modified": "2024-10-16T18:01:45.363Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016200145363#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016200145363#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[50]/title[17]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Moby-Dick",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016200208716",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T18:02:08.716Z",
+	"dcterms:modified": "2024-10-16T18:02:08.716Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016200208716#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016200208716#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[51]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Moby-Dick",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016200227515",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T18:02:27.515Z",
+	"dcterms:modified": "2024-10-16T18:02:27.515Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016200227515#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016200227515#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[51]/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/178419916/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -17704,8 +17941,8 @@
 			<p>(Cap. LXI).</p>
 			<p/>
 			<p>Resta il <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> minore, le prime operette più materialmente autobiografiche: <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">Typee</title>, la vita primitiva e idilliaca tra i cannibali delle <placeName key="Marquesas Islands  French Polynesia" ref="https://geonames.org/4019977">Marquesas</placeName>; <title key="Melville, Herman, 1819-1891. | Omoo. 1982" ref="http://viaf.org/viaf/183442551/" level="m">Omoo</title> (<title key="Melville, Herman, 1819-1891. | Omoo. 1982" ref="http://viaf.org/viaf/183442551/" level="m">l’Errante</title>), le peregrinazioni per le isole della Società, tra i coloni e i nativi; <title key="Melville, Herman, 1819-1891. | White Jacket or, The world in a man-of-war" ref="http://viaf.org/viaf/1999155286668687180001/" level="m">White Jacket</title>, la vita militare di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>, a bordo di una nave da guerra, un diluvio di figure, di macchiette, una scuola di saper vivere e di umanità. E questi, a chi non li ha letti, possono anche parere quei libri barbarici che a tutti i costi il baleniere, non più puritano ma pagano, deve comunque aver scritto.</p>
-			<p>Ho già citato un passo di <title key="Melville, Herman, 1819-1891. | White Jacket or, The world in a man-of-war" ref="http://viaf.org/viaf/1999155286668687180001/" level="m">White Jacket</title> che dà la misura di quanto incolto fosse Melville anche in queste opere, ma si può sempre obiettare che <title key="Melville, Herman, 1819-1891. | White Jacket or, The world in a man-of-war" ref="http://viaf.org/viaf/1999155286668687180001/" level="m">White Jacket</title> è del ’<date when="1850">50</date>, dopo <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title> cioè, e che innegabilmente la <placeName key="Polynesia  " ref="https://geonames.org/7729901">Polinesia</placeName> dei primi libri ha un tono ben più ingenuo che non gli ambienti dei tre romanzi già discussi, <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title>, <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> e <title key="Melville, Herman, 1819-1891. | Pierre" ref="http://viaf.org/viaf/180808871/" level="m">Pierre</title>. Il che, possiamo aggiungere, salta agli occhi specialmente in <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title> dove, benché <persName ref="#Yillah" type="fictional">Yillah</persName> (l’ideale femminile che il protagonista persegue tra le isole) non sia soltanto la <persName cert="high" ref="#Fayaway" type="fictional">Fayaway</persName> di <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">Typee</title>, l’innocenza e la grazia primitive, cioè, in carne ed ossa, ma un simbolo metafisico di queste ed altre virtù compagne, pure il racconto – che apre il <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">libro</title> – della bonaccia in mare, l’idillio con <persName ref="#Yillah" type="fictional">Yillah</persName> nel paradiso di <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title> e qualche paesaggio in seguito che ride tra le allegorie, hanno ancora il tono piano, e sciolto da sofisticherie, delle migliori pagine di <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">Typee</title> e <title key="Melville, Herman, 1819-1891. | Omoo. 1982" ref="http://viaf.org/viaf/183442551/" level="m">Omoo</title>. Ora questa stonatura tra le due parti di <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title> segna appunto la differenza tra il <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> minore e quello di <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> e di <title key="Melville, Herman, 1819-1891. | Pierre" ref="http://viaf.org/viaf/180808871/" level="m">Pierre</title>. L’intrusione di nuove preoccupazioni ideologiche, sotto forma di allegoria, di psicologia barocca o di mistero, sarà la rovina ma anche la gloria del <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> futuro. Le operette che abbiamo ora sotto gli occhi ignorano queste preoccupazioni, ignorano il mistero dell’universo, il cosiddetto problema della <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Balena Bianca</persName>. Evitano in questo modo il fallimento clamoroso di un <title key="Melville, Herman, 1819-1891. | Pierre" ref="http://viaf.org/viaf/180808871/" level="m">Pierre</title>, ma sono anche precluse al miracolo di un Moby Dick.</p>
-			<p>Questa, la differenza. Ma la parentela spirituale col resto dell’opera, consiste ancora nel tono, pur nella sua semplicità, dottamente conscio di sé, e per questo più dignitoso. Il fascino dei tre libri sta senza dubbio, riportando la semplice prima impressione, in quel loro parlato continuo, in quello spumeggiamento di spirito, di caricatura e di gioia di vivere, su uno sfondo di immensa serenità come lo scintillìo dell’oceano che descrivono. Ma, a pensarci, che cosa è poi Typee se non il raffronto continuo, istituito da un uomo di completa educazione occidentale, tra certi andazzi e certe aberrazioni della sua civiltà e la testimonianza vissuta di una civiltà più semplice, ma essenzialmente più curiosa, non priva cioè di pure vistosità? ed Omoo e White Jacket, che altro non sono che una spigliata commedia, dove il Dante giudice sorride in buona salute e cordialità ai camerati, ma sotto sotto è diverso da loro e – nelle isole dell’arcipelago – fa dotta comunella col Dottore; – sulla nave da guerra – col Nobile Jack, quello di Camõens, giudicando di tutto il resto, compresi i grandi, console, capitano e commodoro, colla pacata sicurezza dell’uomo che ha studiato?</p>
+			<p>Ho già citato un passo di <title key="Melville, Herman, 1819-1891. | White Jacket or, The world in a man-of-war" ref="http://viaf.org/viaf/1999155286668687180001/" level="m">White Jacket</title> che dà la misura di quanto incolto fosse Melville anche in queste opere, ma si può sempre obiettare che <title key="Melville, Herman, 1819-1891. | White Jacket or, The world in a man-of-war" ref="http://viaf.org/viaf/1999155286668687180001/" level="m">White Jacket</title> è del ’<date when="1850">50</date>, dopo <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title> cioè, e che innegabilmente la <placeName key="Polynesia  " ref="https://geonames.org/7729901">Polinesia</placeName> dei primi libri ha un tono ben più ingenuo che non gli ambienti dei tre romanzi già discussi, <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title>, <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> e <title key="Melville, Herman, 1819-1891. | Pierre" ref="http://viaf.org/viaf/180808871/" level="m">Pierre</title>. Il che, possiamo aggiungere, salta agli occhi specialmente in <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title> dove, benché <persName ref="#Yillah" type="fictional">Yillah</persName> (l’ideale femminile che il protagonista persegue tra le isole) non sia soltanto la <persName cert="high" ref="#Fayaway" type="fictional">Fayaway</persName> di <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">Typee</title>, l’innocenza e la grazia primitive, cioè, in carne ed ossa, ma un simbolo metafisico di queste ed altre virtù compagne, pure il racconto – che apre il <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">libro</title> – della bonaccia in mare, l’idillio con <persName ref="#Yillah" type="fictional">Yillah</persName> nel paradiso di <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title> e qualche paesaggio in seguito che ride tra le allegorie, hanno ancora il tono piano, e sciolto da sofisticherie, delle migliori pagine di <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">Typee</title> e <title key="Melville, Herman, 1819-1891. | Omoo. 1982" ref="http://viaf.org/viaf/183442551/" level="m">Omoo</title>. Ora questa stonatura tra le due parti di <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title> segna appunto la differenza tra il <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> minore e quello di <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> e di <title key="Melville, Herman, 1819-1891. | Pierre" ref="http://viaf.org/viaf/180808871/" level="m">Pierre</title>. L’intrusione di nuove preoccupazioni ideologiche, sotto forma di allegoria, di psicologia barocca o di mistero, sarà la rovina ma anche la gloria del <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> futuro. Le operette che abbiamo ora sotto gli occhi ignorano queste preoccupazioni, ignorano il mistero dell’universo, il cosiddetto problema della <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Balena Bianca</persName>. Evitano in questo modo il fallimento clamoroso di un <title key="Melville, Herman, 1819-1891. | Pierre" ref="http://viaf.org/viaf/180808871/" level="m">Pierre</title>, ma sono anche precluse al miracolo di un <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>.</p>
+			<p>Questa, la differenza. Ma la parentela spirituale col resto dell’<title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">opera</title>, consiste ancora nel tono, pur nella sua semplicità, dottamente conscio di sé, e per questo più dignitoso. Il fascino dei tre libri sta senza dubbio, riportando la semplice prima impressione, in quel loro parlato continuo, in quello spumeggiamento di spirito, di caricatura e di gioia di vivere, su uno sfondo di immensa serenità come lo scintillìo dell’oceano che descrivono. Ma, a pensarci, che cosa è poi <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">Typee</title> se non il raffronto continuo, istituito da un uomo di completa educazione occidentale, tra certi andazzi e certe aberrazioni della sua civiltà e la testimonianza vissuta di una civiltà più semplice, ma essenzialmente più curiosa, non priva cioè di pure vistosità? ed Omoo e White Jacket, che altro non sono che una spigliata commedia, dove il Dante giudice sorride in buona salute e cordialità ai camerati, ma sotto sotto è diverso da loro e – nelle isole dell’arcipelago – fa dotta comunella col Dottore; – sulla nave da guerra – col Nobile Jack, quello di Camõens, giudicando di tutto il resto, compresi i grandi, console, capitano e commodoro, colla pacata sicurezza dell’uomo che ha studiato?</p>
 			<p>Ma non vorrei che questo <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> restasse in mente come un feroce pedante, tutto inteso a propinare, sotto la scusa delle avventure, le sue dosi di polvere libresca. Semplicemente, fa piacere notare come Melville, i libri che ha letto, quando scrive li ricorda e li cita da uomo, misurandoli cioè senza schifiltà nel loro giusto valore e sempre con un mezzo sorriso tra la barba. In lui, questo fare scherzoso dell’erudito a spasso per gli oceani è, come dire, lo strato epidermico di una struttura spirituale di straordinaria e comprensiva profondità. Conclude così un paragrafo di Moby Dick, dove essendo sospesa al fianco del Pequod una testa di capodoglio, un’altra di balena franca, nel seguito della caccia, viene issata dall’altra parte:</p>
 			<p/>
 			<p>Come prima il Pequod si abbatteva a picco sulla testa del capodoglio, ora, per il contrappeso delle due teste, si raddrizzò sulla chiglia; benché malamente sforzato come si può immaginare. Allo stesso modo, quando issate da una parte la testa di Locke, vi abboccate da quella parte; e voi issate allora dall’altra la testa di Kant e tornerete a ricadere ma in uno stato pietoso. È così che certe menti continuan sempre a rassettare. Poveri sciocchi! Gettate in mare tutte quelle testacce e navigherete leggeri e liberi che sarà un piacere.</p>
