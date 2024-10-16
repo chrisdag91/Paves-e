@@ -13350,6 +13350,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016193143793",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T17:31:43.793Z",
+	"dcterms:modified": "2024-10-16T17:31:43.793Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016193143793#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016193143793#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[28]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/176487338/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -13380,7 +13459,7 @@
 			<p><placeName key="Pacific Ocean  " ref="https://geonames.org/2363254">Pacifico</placeName>, nominalmente, come credono cioè gli armatori e all’imbarco l’equipaggio, alla caccia dei capodogli; ma effettivamente, come, in una scenografia da tregenda, svela e fa giurare all’equipaggio il <persName key="Capitaine Achab" ref="http://fr.dbpedia.org/resource/Capitaine_Achab" type="fictional">Capitano Achab</persName>, a uccidere e far vendetta della <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Balena Bianca</persName> (<persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Moby Dick</persName>), un capodoglio famoso per ferocia, che in una crociera precedente ha mutilato <persName key="Achab" ref="http://dbpedia.org/resource/Achab" type="fictional">Achab</persName>. E la sostanza del <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> – che reca anche per sottotitolo <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">The Whale</title> – sta tutta in un equilibrio miracoloso tra minute particolarità tecniche, realistiche, che descrivono gli usi del mare e della baleneria, e folli tratti soprannaturali di segni, di predizioni, irradianti come un alone dal truce e biblico <persName key="Achab" ref="http://dbpedia.org/resource/Achab" type="fictional">Achab</persName>, tutto preso dalla sua monomania. Poiché, per l’equipaggio del <persName key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" type="fictional">Pequod</persName>, <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Moby Dick</persName>, nel magnetismo che ha per il loro comandante e nei terrori di leggenda che sorgono dalle sue gesta, come sono riferite via via dalle navi incontrate, accenna confusamente a diventare un mito coi soliti doppi fondi allegorici.</p>
 			<p>Ma l’enigma resta enigma e la <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Balena Bianca</persName>, con tutti gli annessi, scompare; sicché di lei non si sa nulla o, proprio per questo, tutto. Poiché <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> non è un mestierante che adoperi l’alone del mistero tutte le volte che occorre un effetto ed egli non sappia più cosa dire. <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName> è uno di quei <persName key="Thomas the Apostle" ref="http://www.wikidata.org/entity/Q43669" type="real">san Tommasi</persName> della ragione che illustrarono appunto il ’<date when="1600">600</date>. Come gli <persName key="Apostles in the New Testament" ref="http://dbpedia.org/resource/Apostles_in_the_New_Testament">Apostoli</persName> non volevano credere alla <rs key="Resurrection of Jesus" ref="http://dbpedia.org/resource/Resurrection_of_Jesus">Resurrezione</rs>, in <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> non vuole credere alla sfiatata fantasma, uno dei tratti soprannaturali accennati, non vuole credere che <persName ref="#Fedellah" type="fictional">Fedallah</persName>, il capo dei malesi di <persName key="Achab" ref="http://dbpedia.org/resource/Achab" type="fictional">Achab</persName>, abbia indosso una tal quale puzza di zolfo, non vuole credere alle predizioni, e persino l’accanimento degli squali dietro alla lancia di <persName key="Achab" ref="http://dbpedia.org/resource/Achab" type="fictional">Achab</persName>, tenta di spiegarlo col fatto che la carne dei malesi ai pescicani piace più di ogni altra. Ciò che resta mistero in <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, il demonismo dell’universo, la coscienza dietro alle forze naturali distruttrici, quel «Mondo invisibile di cui il visibile non è che un Ritratto», tutto questo è mistero veramente – dato, si capisce, il mondo spirituale dell’autore – e un critico fantasioso potrebbe dire che, a chi tenta oltre di spiegarlo, è riservata la fine del <persName key="Capitaine Achab" ref="http://fr.dbpedia.org/resource/Capitaine_Achab">Capitano Achab</persName>.</p>
 			<p>Che è la fine che ha fatto <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> quando, cresciuto in confidenza, tentò nel <date when="1852">1852</date>, in <title key="Melville, Jean-Pierre, 1917-1973. | Cinéma selon melville" ref="http://viaf.org/viaf/5928151474913400490001/" level="m">Pierre</title>, l’analisi psicologica – come nel ’<date when="1848">48</date> l’aveva tentata in <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title>, ma più in sordina, metafisica e sociale – del male del mondo, delle contraddizioni della morale, del muro cieco «contro cui cozzano alla fine tutte le teste che indagano». Dato l’occhio di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>, la sua cultura, la sua preparazione e esperienza, questa «metà del mondo» deve restare un mistero e tale è in <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> e per questo <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> è un’opera grande. Tutti gli altri libri di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> – esclusi quelli più giovanili che ignorano questo problema, e qualche opera minore, le novelle di <title key="Melville, Herman, 1819-1891. | Encantadas" ref="http://viaf.org/viaf/179207434/" level="m">The Encantadas</title> (<date when="1854">1854</date>) e <title key="Melville, Herman, 1819-1891. | Benito Cereno. 1968" ref="http://viaf.org/viaf/183024478/" level="m">Benito Cereno</title> (<date when="1855">1855</date>) – falliscono più o meno per questo. Si potrebbe dire: in essi il razionale uccide il trascendente. Notevole tra l’altro, <title key="Melville, Herman, 1819-1891. | Confidence-man" ref="http://viaf.org/viaf/214797277/" level="m">The Confidence Man</title> (<date when="1857">1857</date>) che, in una specie di commedia umana che si svolge su un piroscafo del <placeName key="Mississippi Mississippi United States" ref="https://geonames.org/4436296">Mississippi</placeName>, tenta di dare fondo all’umanità, a scopi polemici pessimistici, ma riesce invece a una satira diluita, oscura e pesante.</p>
-			<p>E in Mardi – storia simbolica delle peregrinazioni di Taji, cercatore di un ideale non ben definito, attraverso la Polinesia, trasformata al bisogno in una triste carta a chiave, dove ogni nome corrisponde a uno Stato o un’istituzione del mondo occidentale – l’equilibrio tra razionale e trascendente, necessario all’arte matura di Melville, viene meno appunto per la vivisezione allegorica e filosofica che si fa degli «enigmi». E, malgrado l’ambiente dei Mari del Sud (quale in Typee e in Omoo), malgrado innumerevoli spunti fortunati di satira, parodia e dialogo filosofico, malgrado l’eleganza e precisione di certi simboli, il libro nel suo insieme è fallito. Ma, come ho detto, c’è la scusa che questi sono difetti di crescenza e che Mardi ha battuto la strada a Moby Dick.</p>
+			<p>E in <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title> – storia simbolica delle peregrinazioni di Taji, cercatore di un ideale non ben definito, attraverso la Polinesia, trasformata al bisogno in una triste carta a chiave, dove ogni nome corrisponde a uno Stato o un’istituzione del mondo occidentale – l’equilibrio tra razionale e trascendente, necessario all’arte matura di Melville, viene meno appunto per la vivisezione allegorica e filosofica che si fa degli «enigmi». E, malgrado l’ambiente dei Mari del Sud (quale in Typee e in Omoo), malgrado innumerevoli spunti fortunati di satira, parodia e dialogo filosofico, malgrado l’eleganza e precisione di certi simboli, il libro nel suo insieme è fallito. Ma, come ho detto, c’è la scusa che questi sono difetti di crescenza e che Mardi ha battuto la strada a Moby Dick.</p>
 			<p>Nessuna scusa ha invece Pierre, or The Ambiguities, tentativo psicologico di dimostrare che la società e l’universo sono mal congegnati, che la perfezione morale stessa non può condurre al bene, che un atto di abnegazione (il matrimonio che Pierre contrae con una sorella naturale, pur di darle una casa) diventa nelle strettoie della società – e della vita – una mostruosità (l’amore più che fraterno dei due). È la malvagità della Balena Bianca che cerca di porsi spiegatamente in quest’analisi, che più nulla lascia al soprannaturale, al mistero. Ed allora, il solito squilibrio: lo stile si fa convulso, l’ispirazione epilettica, frammentaria, il senso delle proporzioni viene meno e, su qualche pagina ancor tagliata all’antica, si stende una palude di paroloni, di stonature e di sottigliezze, che non solo è noiosa, ma dopo tutto anche ingenua. Davvero il libro sembra scritto da Achab.</p>
 			<p>Com’è di tutte le opere grandi, non si finirebbe mai di analizzare Moby Dick per scoprirvi nuovi angoli di prospettiva, nuovi sensi e nuova importanza.</p>
 			<p>Quel che mi pare il suo più definitivo significato nella storia l’ho accennato nel discorso precedente, ma, con tutto ciò, che cosa sa chi legge, del suo austero fare leggendario, di quel tono che non si risolve affatto in uno spasso immaginativo, ma è tutto impregnato di severa pensosità morale? O della pacatezza nervosa e solenne, qualche volta sfiorata di un sorriso malizioso, con cui scorrono i capitoli realistici di descrizione, d’informazione e di discussione? Ma soprattutto è quel senso continuo dell’enorme, del sovrumano, al quale si converge per tutto il libro, in un prodigio di costruzione per cui via via l’atmosfera gioconda e puritanesca dell’inizio e poi quella scientifica delle lunghe spiegazioni centrali, si vengono a fondere nell’ultima parte in uno spirito di lucida e gagliarda temerità quasi mitica, di mano in mano che il nome e la fama della Balena Bianca, tenuta fuori scena fino alla chiusa, crescono fino a giganteggiare e occupare tutti gli ambienti, i gesti e i pensieri. A mostrare intera la costruzione di questa opera occorrerebbe un commento pagina per pagina per tutte le seicento del libro. Né si potrebbe altrimenti esaurire la ricchezza di mezzi e di effetti di Moby Dick. Ma qui non posso altro che dare due frammenti diversi per illustrare quanto ho detto.</p>
