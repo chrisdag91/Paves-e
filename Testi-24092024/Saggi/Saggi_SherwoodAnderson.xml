@@ -12510,6 +12510,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017005343274",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T22:53:43.274Z",
+	"dcterms:modified": "2024-10-16T22:53:43.274Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017005343274#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017005343274#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[25]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/39372890/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241017005414396",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T22:54:14.396Z",
+	"dcterms:modified": "2024-10-16T22:54:14.396Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241017005414396#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241017005414396#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[25]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/4436296",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -12537,7 +12696,7 @@
 			<p>Il romanzo più importante di quest’uomo resta sempre <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Dark Laughter</title>, della, diciamo, seconda maniera: che riassume entro di sé tutti i motivi sparsi negli altri racconti dal ’<date when="1916">16</date> in qua – qualche volta anche più chiari, più riusciti, ma non mai tanto definitivi.</p>
 			<p>È la storia di un giornalista di <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> che si secca e sente inutile nella vita che conduce a contar fandonie alla nazione e a gironzare per i salotti colla moglie intellettuale e romanziera. Qualche volta va a ubriacarsi col collega, ma finiscono soltanto per parlare d’impotenza e di degenerazione. Finché un giorno pianta tutto, muta nome e se ne scende ozioso in treno e in barca per il <placeName key="Mississippi Mississippi United States" ref="https://geonames.org/4436296">Mississippi</placeName>, fino a <placeName key="New Orleans Louisiana United States" ref="https://geonames.org/4335045">Nuova Orleans</placeName>. Qui s’impregna di molle far niente e di risa, di canto, di spirito negro. Poi risale e si ferma ad <placeName ref="#OldHarbor">Old Harbor</placeName>, <placeName key="Indiana Indiana United States" ref="https://geonames.org/4921868">Indiana</placeName>, dov’è vissuto in fanciullezza e s’impiega – operaio – a dipingere ruote d’auto in una fabbrica fattiva, americana, che lo lascia indifferente.</p>
 			<p>Il racconto comincia solo ora, ma la materia è quella che ho detto. Poiché <persName ref="#BruceDudley" type="fictional">Bruce Dudley</persName> – il nuovo nome – è uno <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName> completo, e fantastica, pensa, rivive, racconta a se stesso, indolente, a riprese, a legami leggeri coi fatti di <placeName ref="#OldHarbor">Old Harbor</placeName>, la vita passata.</p>
-			<p>Gli si accende nel ricordo – ad un ritmo pensoso e indolentemente solenne, di periodi – il gran tempo del Fiume, quando la vita americana vera, di gente che rideva e cantava, si muoveva sul Mississippi ed i negri eran negri e <persName key="Mark Twain" ref="http://dbpedia.org/resource/Mark_Twain" type="real">Mark Twain</persName>, non ancora ingabbiato dalle idee puritane – la Nuova Inghilterra, la negazione dell’America – ne creava la favola eroica coi libri di <title key="The Adventures of Tom Sawyer" ref="http://dbpedia.org/resource/The_Adventures_of_Tom_Sawyer" level="m">Tom Sawyer</title> e di <title key="Adventures of Huckleberry Finn" ref="http://dbpedia.org/resource/Adventures_of_Huckleberry_Finn" level="m">Huckle Finn</title>. Poiché Bruce Dudley (Sherwood Anderson) è, come ho detto, un narratore e non vede nella vita che lo sforzo di un racconto ed ha quel modo di parlare così lento e pensieroso perché tutto quel che dice gli si travaglia in mente trasformandosi in racconti. Questa che potrebbe essere la rovina dello scrittore, gli si fa invece la sua poesia, poiché nessuno è più lontano dalla letteratura e più vivente di lui, nessuno più innamorato delle cose e del mondo, in un modo ch’è quasi sensuale. Giunge al punto di dire, quest’uomo, che per far lo scrittore è anche bene leggere libri.</p>
+			<p>Gli si accende nel ricordo – ad un ritmo pensoso e indolentemente solenne, di periodi – il gran tempo del Fiume, quando la vita americana vera, di gente che rideva e cantava, si muoveva sul <placeName key="Mississippi Mississippi United States" ref="https://geonames.org/4436296">Mississippi</placeName> ed i negri eran negri e <persName key="Mark Twain" ref="http://dbpedia.org/resource/Mark_Twain" type="real">Mark Twain</persName>, non ancora ingabbiato dalle idee puritane – la Nuova Inghilterra, la negazione dell’America – ne creava la favola eroica coi libri di <title key="The Adventures of Tom Sawyer" ref="http://dbpedia.org/resource/The_Adventures_of_Tom_Sawyer" level="m">Tom Sawyer</title> e di <title key="Adventures of Huckleberry Finn" ref="http://dbpedia.org/resource/Adventures_of_Huckleberry_Finn" level="m">Huckle Finn</title>. Poiché <persName cert="high" ref="#BruceDudley" type="fictional">Bruce Dudley</persName> (<persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName>) è, come ho detto, un narratore e non vede nella vita che lo sforzo di un racconto ed ha quel modo di parlare così lento e pensieroso perché tutto quel che dice gli si travaglia in mente trasformandosi in racconti. Questa che potrebbe essere la rovina dello scrittore, gli si fa invece la sua poesia, poiché nessuno è più lontano dalla letteratura e più vivente di lui, nessuno più innamorato delle cose e del mondo, in un modo ch’è quasi sensuale. Giunge al punto di dire, quest’uomo, che per far lo scrittore è anche bene leggere libri.</p>
 			<p>Ad Old Harbor, Indiana, Bruce Dudley trascorse l’infanzia. Ed è questa la vena del libro che più riecheggia e riassume le storie anteriori. Il villaggetto grigio, che soffoca come villaggio (Winesburg, Ohio) e che si fa rimpiangere quand’è diventato città americana (Poor White – 1920), è bene ancora la materia di queste pagine. E Bruce Dudley ricorda i bei giorni che i campi eran campi ed il Fiume era il Fiume e rispecchia quei tempi in Sponge Martin, suo collega di lavoro, vecchio ameno che sa ridere e godere e che un tempo era un buon artigiano, mentre ora lavora a dipingere in</p>
 			<p>fabbrica, stranito e ubriacone. E coll’infanzia viene in mente a <persName ref="#Dudley" type="fictional">Dudley</persName> la sua mamma, quella che già nell’autobiografia era comparsa donna chiusa e superiore, d’altra razza (la nonna italiana), nobile nelle faccende più vili, l’ideale – per <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName> – di quel mondo europeo che lui s’immagina tanto vicino alla terra, tanto artigiano, tanto <placeName key="Mississippi Mississippi United States" ref="https://geonames.org/4436296">Mississippi</placeName> d’un tempo.</p>
 			<p>Ed, intanto, la moglie del padrone e direttore della fabbrica – l’industriale odiato, fattivo e puritano, che è poi, sotto, un bambino, un ometto, persino miserevole (<title key="Lewis, Sinclair, 1885-1951,. | Babbitt" ref="http://viaf.org/viaf/206861413/" level="m">Babbitt</title>!) – la moglie del padrone ha le sue fantasie. Ed anch’essa racconta a se stessa la vita anteriore, stimolata da rapidi incontri casuali con <persName ref="#Dudley" type="fictional">Dudley</persName>. E ricorda l’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> dov’è stata, finita la guerra, dov’ha vissuto in ambienti d’artisti (i salotti di <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName>!) ciarlataneschi e viziosi. E, per caso, ha sentito raccontare da una donna inorridita (e non era una vergine, questa) la farandola sessuale capitata in una festa per la fine della guerra, e tutti i ricordi della guerra sono così, amarissimi, frementi all’inutile strage e alla retorica odiosa. E una compagna di viaggio la vuole sedurre.</p>
