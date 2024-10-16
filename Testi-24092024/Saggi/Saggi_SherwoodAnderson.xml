@@ -10539,6 +10539,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241017003608678",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T22:36:08.678Z",
+	"dcterms:modified": "2024-10-16T22:36:08.678Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241017003608678#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241017003608678#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[27]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/4436296",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -10568,8 +10647,8 @@
 			<p>Il racconto comincia solo ora, ma la materia è quella che ho detto. Poiché Bruce Dudley – il nuovo nome – è uno Sherwood Anderson completo, e fantastica, pensa, rivive, racconta a se stesso, indolente, a riprese, a legami leggeri coi fatti di Old Harbor, la vita passata.</p>
 			<p>Gli si accende nel ricordo – ad un ritmo pensoso e indolentemente solenne, di periodi – il gran tempo del Fiume, quando la vita americana vera, di gente che rideva e cantava, si muoveva sul Mississippi ed i negri eran negri e Mark Twain, non ancora ingabbiato dalle idee puritane – la Nuova Inghilterra, la negazione dell’America – ne creava la favola eroica coi libri di Tom Sawyer e di Huckle Finn. Poiché Bruce Dudley (Sherwood Anderson) è, come ho detto, un narratore e non vede nella vita che lo sforzo di un racconto ed ha quel modo di parlare così lento e pensieroso perché tutto quel che dice gli si travaglia in mente trasformandosi in racconti. Questa che potrebbe essere la rovina dello scrittore, gli si fa invece la sua poesia, poiché nessuno è più lontano dalla letteratura e più vivente di lui, nessuno più innamorato delle cose e del mondo, in un modo ch’è quasi sensuale. Giunge al punto di dire, quest’uomo, che per far lo scrittore è anche bene leggere libri.</p>
 			<p>Ad Old Harbor, Indiana, Bruce Dudley trascorse l’infanzia. Ed è questa la vena del libro che più riecheggia e riassume le storie anteriori. Il villaggetto grigio, che soffoca come villaggio (Winesburg, Ohio) e che si fa rimpiangere quand’è diventato città americana (Poor White – 1920), è bene ancora la materia di queste pagine. E Bruce Dudley ricorda i bei giorni che i campi eran campi ed il Fiume era il Fiume e rispecchia quei tempi in Sponge Martin, suo collega di lavoro, vecchio ameno che sa ridere e godere e che un tempo era un buon artigiano, mentre ora lavora a dipingere in</p>
-			<p>fabbrica, stranito e ubriacone. E coll’infanzia viene in mente a Dudley la sua mamma, quella che già nell’autobiografia era comparsa donna chiusa e superiore, d’altra razza (la nonna italiana), nobile nelle faccende più vili, l’ideale – per Anderson – di quel mondo europeo che lui s’immagina tanto vicino alla terra, tanto artigiano, tanto Mississippi d’un tempo.</p>
-			<p>Ed, intanto, la moglie del padrone e direttore della fabbrica – l’industriale odiato, fattivo e puritano, che è poi, sotto, un bambino, un ometto, persino miserevole (<title key="Lewis, Sinclair, 1885-1951,. | Babbitt" ref="http://viaf.org/viaf/206861413/" level="m">Babbitt</title>!) – la moglie del padrone ha le sue fantasie. Ed anch’essa racconta a se stessa la vita anteriore, stimolata da rapidi incontri casuali con Dudley. E ricorda l’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> dov’è stata, finita la guerra, dov’ha vissuto in ambienti d’artisti (i salotti di <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName>!) ciarlataneschi e viziosi. E, per caso, ha sentito raccontare da una donna inorridita (e non era una vergine, questa) la farandola sessuale capitata in una festa per la fine della guerra, e tutti i ricordi della guerra sono così, amarissimi, frementi all’inutile strage e alla retorica odiosa. E una compagna di viaggio la vuole sedurre.</p>
+			<p>fabbrica, stranito e ubriacone. E coll’infanzia viene in mente a Dudley la sua mamma, quella che già nell’autobiografia era comparsa donna chiusa e superiore, d’altra razza (la nonna italiana), nobile nelle faccende più vili, l’ideale – per Anderson – di quel mondo europeo che lui s’immagina tanto vicino alla terra, tanto artigiano, tanto <placeName key="Mississippi Mississippi United States" ref="https://geonames.org/4436296">Mississippi</placeName> d’un tempo.</p>
+			<p>Ed, intanto, la moglie del padrone e direttore della fabbrica – l’industriale odiato, fattivo e puritano, che è poi, sotto, un bambino, un ometto, persino miserevole (<title key="Lewis, Sinclair, 1885-1951,. | Babbitt" ref="http://viaf.org/viaf/206861413/" level="m">Babbitt</title>!) – la moglie del padrone ha le sue fantasie. Ed anch’essa racconta a se stessa la vita anteriore, stimolata da rapidi incontri casuali con <persName ref="#Dudley" type="fictional">Dudley</persName>. E ricorda l’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> dov’è stata, finita la guerra, dov’ha vissuto in ambienti d’artisti (i salotti di <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName>!) ciarlataneschi e viziosi. E, per caso, ha sentito raccontare da una donna inorridita (e non era una vergine, questa) la farandola sessuale capitata in una festa per la fine della guerra, e tutti i ricordi della guerra sono così, amarissimi, frementi all’inutile strage e alla retorica odiosa. E una compagna di viaggio la vuole sedurre.</p>
 			<p>Tutto insieme questo mondo fa ribrezzo alla ragazza che, a fuggire, sposa <persName ref="#Fred" type="fictional">Fred</persName>, il futuro industriale, anch’esso disgustato dell’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>. E ritornano. Ed allora – l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> è gretta: – la fuga interiore, <title key="Madame Bovary" ref="http://dbpedia.org/resource/Madame_Bovary" level="m">Madame Bovary</title>. Ma non è più l’educazione falsa che induce la donna agli errori; è il problema serissimo della santa natura, che ha creato le più belle novelle del <title key="Anderson, Sherwood, 1876-1941. | Triumph of the egg a book of impressions from american life in tales and poems" ref="http://viaf.org/viaf/312340634/" level="m">Triumph of the Egg</title>, che si riaffaccia ed è poi cosa sola colla liberazione fantastica dell’uomo. E il paesaggio che accompagna i sogni erotici è, come nelle novelle del ’<date when="1921">21</date>, il miglior paesaggio elementare e sincero, pànico, di natura, di <placeName key="Mississippi Mississippi United States" ref="https://geonames.org/4436296">Mississippi</placeName>.</p>
 			<p>La conclusione è che <persName ref="#BruceDudley" type="fictional">Bruce Dudley</persName> s’impiega da giardiniere in casa Grey e poi ne porta via la donna. E, a questo punto, quell’universalità di <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName> che ho detto – non città, non paese, ma la verginità del paese elaborata in vita nostra, cittadina, contemporanea – qualcosa, in serio, come in grottesco, i cartoni sonori di quell’altro vertiginoso americano che è il creatore di <persName key="Mickey Mouse universe" ref="http://dbpedia.org/resource/Mickey_Mouse_universe" type="fictional">Mickey</persName> (<persName key="Topolino" ref="http://dbpedia.org/resource/Topolino" type="fictional">Topolino</persName>) – raggiunge un tono che se non fosse quel che è (la fusione appunto delle due nature) si potrebbe dire primitivo. Queste pagine – l’accostamento istintivo in primavera e la fuga, colle impotenti reazioni di <persName cert="high" ref="#Fred" type="fictional">Fred</persName>, tutto contento di pigliar parte alla parata per l’inaugurazione della statua ai Caduti e tutto disposto, umanamente, pietosamente, a non accorgersi che i due voglion fuggire e che poi ride, ride disperato col senso di liberazione «di un ferito, in battaglia» – sono tra le</p>
 			<p>cose più immediate e profonde dell’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> attuale.</p>
