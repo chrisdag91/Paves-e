@@ -7732,7 +7732,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135353594",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-14T11:53:53.594Z",
-	"dcterms:modified": "2024-10-14T11:53:53.594Z",
+	"dcterms:modified": "2024-10-16T18:24:52.482Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -7764,7 +7764,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/187129231/",
+		"@id": "http://www.wikidata.org/entity/Q81438",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -7972,7 +7972,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135541746",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-14T11:55:41.746Z",
-	"dcterms:modified": "2024-10-14T11:55:41.746Z",
+	"dcterms:modified": "2024-10-16T18:25:09.372Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -8004,7 +8004,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/187129231/",
+		"@id": "http://www.wikidata.org/entity/Q81438",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -9365,7 +9365,7 @@
 			<p>e un discorso mai pronunciato sul tavolino,</p>
 			<p>un uomo caparbio che non esprimeva altra opinione che la sua.</p>
 			<p>(<title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/" level="m">The 42nd Parallel</title>, <persName ref="#FightingBob">Fighting Bob</persName>).</p>
-			<p>Quest’energia di tratti, tutta realistica, che salva il verso libero degli americani dal fiacco impressionismo del verso libero europeo, è l’eredità di <persName key="Whitman, Walt, 1859-1928" ref="http://viaf.org/viaf/187129231/" cert="high" type="real">Walt Whitman</persName>. Raramente lui o <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" type="real">Carl Sandburg</persName> hanno tentato nel verso le raffinate sottigliezze di sensazioni a cui di solito si riduce il contenuto di questa poesia in <placeName key="Europe  " ref="https://geonames.org/6255148" cert="high">Europa<precision match="@ref" precision="high"/></placeName>. Piuttosto che secondo una legge musicale di armonia fonica, gli americani, dietro a <persName key="Whitman, Walt, 1859-1928" ref="http://viaf.org/viaf/187129231/" cert="high">Walt Whitman</persName>, dividono i loro versi secondo la legge logica della successione dei pensieri. Quest’è la loro originalità, di lontana derivazione biblica e particolarmente felice in una nazione dove, da <persName key="Whitman, Walt, 1859-1928" ref="http://viaf.org/viaf/187129231/" type="real">Walt Whitman</persName> in poi, la poesia assume fatalmente e volentieri una posa oratoria. Diceva già il vecchio <persName key="Whitman, Walt, 1859-1928" ref="http://viaf.org/viaf/187129231/" cert="high" type="real">Whitman</persName>:</p>
+			<p>Quest’energia di tratti, tutta realistica, che salva il verso libero degli americani dal fiacco impressionismo del verso libero europeo, è l’eredità di <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" cert="high" type="real">Walt Whitman</persName>. Raramente lui o <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" type="real">Carl Sandburg</persName> hanno tentato nel verso le raffinate sottigliezze di sensazioni a cui di solito si riduce il contenuto di questa poesia in <placeName key="Europe  " ref="https://geonames.org/6255148" cert="high">Europa<precision match="@ref" precision="high"/></placeName>. Piuttosto che secondo una legge musicale di armonia fonica, gli americani, dietro a <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" cert="high" type="real">Walt Whitman</persName>, dividono i loro versi secondo la legge logica della successione dei pensieri. Quest’è la loro originalità, di lontana derivazione biblica e particolarmente felice in una nazione dove, da <persName key="Whitman, Walt, 1859-1928" ref="http://viaf.org/viaf/187129231/" type="real">Walt Whitman</persName> in poi, la poesia assume fatalmente e volentieri una posa oratoria. Diceva già il vecchio <persName key="Whitman, Walt, 1859-1928" ref="http://viaf.org/viaf/187129231/" cert="high" type="real">Whitman</persName>:</p>
 			<p>... Ora racconto quello che seppi nel <placeName key="Texas Texas United States" ref="https://geonames.org/4736286" cert="high">Texas</placeName> nella mia prima giovinezza,</p>
 			<p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
 			<p>è il racconto dell’assassinio a sangue freddo di quattrocento e dodici giovani.</p>
