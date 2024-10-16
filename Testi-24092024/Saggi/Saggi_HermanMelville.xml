@@ -6671,6 +6671,168 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185909851",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T16:59:09.851Z",
+	"dcterms:modified": "2024-10-16T16:59:09.851Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185909851#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185909851#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Edgar_Allan_Poe",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185938729",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T16:59:38.729Z",
+	"dcterms:modified": "2024-10-16T16:59:38.729Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185938729#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185938729#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://fr.dbpedia.org/resource/Achab_(Moby-Dick)",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -6692,7 +6854,7 @@
 			<p/>
 			<p>Occorre aver bene a mente in che consiste questa cultura di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>, che ha tanta parte nella sua opera. Sarebbe un errore credere che quest’uomo si sia formato sul ’<date when="1700">700</date>. Com’è di tutto l’ambiente letterario degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>, <date from="1830" to="1850">dal 1830 al ’50</date> – <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName>, <persName key="Ralph Waldo Emerson" ref="http://dbpedia.org/resource/Ralph_Waldo_Emerson" cert="high" type="real">Emerson</persName>, <persName key="Nathaniel Hawthorne" ref="http://dbpedia.org/resource/Nathaniel_Hawthorne" type="real">Hawthorne</persName>, <persName key="Louisa May Alcott" ref="http://dbpedia.org/resource/Louisa_May_Alcott" cert="high" type="real">Alcott</persName>, ecc. – il ’<date when="1700">700</date>, pure notissimo, è superato, almeno nelle sue parti più settecentesche. <persName key="Benjamin Franklin" ref="http://dbpedia.org/resource/Benjamin_Franklin" type="real">Benjamin Franklin</persName> non interessa più che i patrioti. I gusti di quest’«epoca d’oro» sono affini a quelli inglesi di un <persName key="Samuel Taylor Coleridge" ref="http://dbpedia.org/resource/Samuel_Taylor_Coleridge" cert="high" type="real">Coleridge</persName>, di un <persName key="John Keats" ref="http://dbpedia.org/resource/John_Keats" cert="high" type="real">Keats</persName>, di uno <persName key="Percy Bysshe Shelley" ref="http://dbpedia.org/resource/Percy_Bysshe_Shelley" cert="high" type="real">Shelley</persName>: il grande secolo per costoro è il ’<date when="1600">600</date>, quel ’<date when="1600">600</date> spirituale che comprende anche una buona metà, almeno, del ’<date when="1500">500</date>. Però, mentre un <persName key="John Keats" ref="http://dbpedia.org/resource/John_Keats" type="real">Keats</persName> o uno <persName key="Percy Bysshe Shelley" ref="http://dbpedia.org/resource/Percy_Bysshe_Shelley" cert="high" type="real">Shelley</persName> cercavano, nel primo ’<date when="1600">600</date>, più che altro una tradizione lirica, stilistica, i nordamericani, e <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> innanzi tutti, vi scoprono radici più profonde, non solamente nella memoria della crisi storica che ha originata la colonia, ma nel bisogno di richiami spirituali alla fiera sete di libertà interiore, di al di là</p>
 			<p>e di ignoto che, a questa colonia, ha dato vita e tradizioni.</p>
-			<p>Grandi lettori della <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title>, questi americani della <placeName key="New England  United States" ref="https://geonames.org/11919979">Nuova Inghilterra</placeName> (e, si noti, la versione autorizzata inglese è del <date when="1611">1611</date>). In <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> se ne sente a ogni passo la presenza e non soltanto fonicamente nei nomi di Achab, Ismaele, Rachele, Geroboamo, Bildad, Elia e tutti gli altri, ma nello spirito continuo di terribilità e severità puritana, che fa, di quello che potrebbe anche parere uno scientifico tale of terror alla Poe, una fosca tragedia morale dove la catastrofe è opera non di una forza umana o naturale, ma di un mostro che si chiama il leviatan.</p>
+			<p>Grandi lettori della <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title>, questi americani della <placeName key="New England  United States" ref="https://geonames.org/11919979">Nuova Inghilterra</placeName> (e, si noti, la versione autorizzata inglese è del <date when="1611">1611</date>). In <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> se ne sente a ogni passo la presenza e non soltanto fonicamente nei nomi di <persName key="Achab (Moby-Dick)" ref="http://fr.dbpedia.org/resource/Achab_(Moby-Dick)" type="fictional">Achab</persName>, Ismaele, Rachele, Geroboamo, Bildad, Elia e tutti gli altri, ma nello spirito continuo di terribilità e severità puritana, che fa, di quello che potrebbe anche parere uno scientifico tale of terror alla <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" cert="high" type="real">Poe</persName>, una fosca tragedia morale dove la catastrofe è opera non di una forza umana o naturale, ma di un mostro che si chiama il leviatan.</p>
 			<p>Il curioso è che Melville mantiene dinanzi alla Bibbia uno spregiudicato atteggiamento razionalistico. C’è in Moby Dick un divertentissimo capitolo su Giona storicamente considerato. Ed è qui che entra in scena davvero il ’600.</p>
 			<p>Intanto, il tono frizzante della nuova lingua scientifica e filosofica che andava formandosi, mescolando i paludamenti latineggianti agli scatti nervosi, quasi dialettali, della nuova sensibilità, riecheggia sovente nelle pagine del baleniere puritano. Se fossi certo che l’ha letto, direi che Melville ha preso più di tutto da Giordano Bruno. Ma è spinoso trattare di queste cose. E, a ogni modo, gli scrittori che è più scientifico riconnettergli sono Rabelais e gli Elisabettiani. Il gusto del catalogo, dell’abbondanza verbale e del vivez joyeux è presente. Persino alla citazione burlesca qualche volta arriva, Melville. E gli Elisabettiani gli han dato quei bagliori di stile, quei paludamenti di immagini, quell’amor dei contrasti che finisce però a essere più disinvoltura fantastica che altro. Ma il razionalismo platonizzato, specialmente di saggisti inglesi, che sotto sotto serpeggia in tutte le</p>
 			<p>manifestazioni spirituali del secolo, è stata la vena dove ha più bevuto Melville. Naturalmente, come ha letto la Bibbia, egli ha letto anche Platone e, m’immagino, dal primo all’ultimo, i neoplatonici e i mistici. Ma la forma storica in cui queste tendenze gli si presentarono, fu senz’altro del ’600 inglese. Thomas Browne fu un suo padre spirituale, non soltanto un maestro di stile, e quella sentenza della Religio Medici «... questo Mondo visibile non è che un’Immagine dell’invisibile dove come in un Ritratto le cose non sono veramente, ma in forme equivoche...» (parte I, sez. XII) non soltanto ricorre consimile nell’epigrafe alla Ballata dell’Antico Marinaro del Coleridge – altra chiave essenziale per la comprensione di Moby Dick – ma ritorna in quest’opera stessa sulle labbra del Capitano Achab, che, benché matto, in filosofia è della scuola dell’autore. Ora Thomas Browne, oltreché una specie di mistico mago, è anche un sottile razionalista e trova certe ragioni alla fede cristiana che, da qualche testa quadra, l’han fatto prendere per un eretico o un ateo.</p>
