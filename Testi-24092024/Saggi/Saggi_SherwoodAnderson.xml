@@ -8712,6 +8712,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017002129038",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T22:21:29.038Z",
+	"dcterms:modified": "2024-10-16T22:21:29.038Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017002129038#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?person_annotation_20241017002129038#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[35]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/39372890/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -8749,7 +8829,7 @@
 			<p>C’è a proposito di Anderson da sfatare una leggenda. Quella che questo ormai classico e personalissimo scrittore sia un joyciano. Proprio in Dark Laughter Anderson cita Joyce e ci dice che l’Ulysses gli è piaciuto enormemente. Certo suo modo, poi, di parlar di pensieri parallelamente ai</p>
 			<p>fatti esterni, potrebbe ingannare il lettore.</p>
 			<p>Ora, è spiegabilissimo come ad Anderson – che, in America, è un novatore contro il modo convenzionale, puritanesco e vittoriano di scrivere, che là infuria, o infuriava – interessi James Joyce. Ma non bisogna dimenticare che gli interessano, e forse anche di più, per una ingenuità sua</p>
-			<p>di spirito e di cultura che noi abbiamo distrutto con tutto nostro danno, i romanzieri russi ed i francesi naturalisti. L’ideale supremo per Anderson è il racconto, – e i suoi mezzi li abbiamo veduti in quella definizione, che ho citato, dello stile. E in Hello Towns, tra parentesi, ci dice che Joyce non sa raccontare.</p>
+			<p>di spirito e di cultura che noi abbiamo distrutto con tutto nostro danno, i romanzieri russi ed i francesi naturalisti. L’ideale supremo per <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName> è il racconto, – e i suoi mezzi li abbiamo veduti in quella definizione, che ho citato, dello stile. E in Hello Towns, tra parentesi, ci dice che Joyce non sa raccontare.</p>
 			<p>C’è la complicazione che le novità di <persName key="James Joyce" ref="http://dbpedia.org/resource/James_Joyce" cert="high" type="real">Joyce</persName>, come le idee freudiane, trovano un debole in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> per la pregiudiziale del puritanesimo, per cui i nemici di quest’ultimo si fanno un dovere di accogliere festosamente ogni libro europeo che tratti con franchezza di cose sessuali. Mentre noi, in</p>
 			<p>generale, ai problemi sessuali leggiamo sopra <persName key="Giovanni Boccaccio" ref="http://dbpedia.org/resource/Giovanni_Boccaccio" type="real">Boccaccio</persName> o <persName key="François Rabelais" ref="http://dbpedia.org/resource/François_Rabelais" cert="high" type="real">Rabelais</persName>.</p>
 			<p>Ma è un fatto che tra le pagine sessuali di <persName key="James Joyce" ref="http://dbpedia.org/resource/James_Joyce" cert="high" type="real">J. Joyce</persName> – lunghe paludi grigie di notazioni e notazioni dove, ogni tanto appena qualche tratto si distingue, ma per se stesso, per la sua singolarità, non contribuendo a costruire il personaggio e indipendentemente da tutto il macchinoso apparato del metodo nuovo – e le pagine di serena narrazione in <title level="m" ref="#TheNewEnglander">The New Englander</title>, per esempio, – <title key="Anderson, Sherwood, 1876-1941. | Triumph of the egg a book of impressions from american life in tales and poems" ref="http://viaf.org/viaf/312340634/" level="m">The Triumph of the Egg</title> – dove è descritta l’ossessione di una ragazza di famiglia puritana che, trapiantata nell’<placeName key="West  United States" ref="https://geonames.org/11887751">Ovest</placeName>, sente istinti insoffocabili scuoterla e cacciarla a perdersi e confondersi tra il panico respiro estuoso dei campi di granturco – non c’è confronto possibile.</p>
