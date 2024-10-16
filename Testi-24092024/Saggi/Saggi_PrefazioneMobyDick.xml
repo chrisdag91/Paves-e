@@ -1178,12 +1178,170 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?place_annotation_20241016124530782#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/placeName"
+			"rdf:value": "TEI/text/body/p[4]/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
 		"@id": "https://geonames.org/3373405",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?place_annotation_20241016124602814",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T10:46:02.814Z",
+	"dcterms:modified": "2024-10-16T10:46:02.814Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?place_annotation_20241016124602814#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?place_annotation_20241016124602814#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/5128581",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?place_annotation_20241016124625382",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T10:46:25.382Z",
+	"dcterms:modified": "2024-10-16T10:46:25.382Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?place_annotation_20241016124625382#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?place_annotation_20241016124625382#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/5128581",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1201,7 +1359,7 @@
 			<p>Prefazione a <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>. O <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">la Balena</title>, <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName>, <orgName key="Edizioni Frassinelli" ref="http://viaf.org/viaf/315533589/">Frassinelli</orgName>, <date when="1932">1932</date></p>
 			<p/>
 			<p>Tradurre <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> è un mettersi al corrente con i tempi. Il <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> – ignoto sinora in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395">Italia</placeName> – ha tacitamente ispirato per tutta la metà del secolo scorso i maggiori libri di mare. E da qualche decina d’anni gli anglo-sassoni ritornano a <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName> come a un padre spirituale scoprendo in lui, enormi e vitali, i molti motivi che la letteratura esoticheggiante ha poi ridotto in mezzo secolo alla volgarità.</p>
-			<p><persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName>, nato a Nuova York nel <date when="1819">1819</date> da una famiglia antica e nobilesca, morì a Nuova York nel <date when="1891">1891</date>, dopo essere passato anche per gli impieghi statali, immiserito, sconosciuto e sdegnoso. Ma queste sue infelicità non ci toccano. È la solita sorte dei grandi uomini su cui piace ai professori sparger tenera eloquenza, salvo poi a trattare anch’essi i contemporanei nell’antichissimo modo. Quest’infelicità di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName> anzi ha avuto qualche parte in <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>. Ben venuta, quindi. Poi bisogna ricordare i quattro anni della giovinezza passati su navi baleniere e da guerra, nel Pacifico, nell’<placeName key="Atlantic Ocean  " ref="https://geonames.org/3373405">Atlantico</placeName>, tra cacce, tifoni, bonacce e avventure d’inferno o d’arcadia, tutta materia che è poi stata colata, con un lento lavoro di assimilazione, nelle opere.</p>
+			<p><persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName>, nato a <placeName key="New York City New York United States" ref="https://geonames.org/5128581">Nuova York</placeName> nel <date when="1819">1819</date> da una famiglia antica e nobilesca, morì a <placeName key="New York City New York United States" ref="https://geonames.org/5128581">Nuova York</placeName> nel <date when="1891">1891</date>, dopo essere passato anche per gli impieghi statali, immiserito, sconosciuto e sdegnoso. Ma queste sue infelicità non ci toccano. È la solita sorte dei grandi uomini su cui piace ai professori sparger tenera eloquenza, salvo poi a trattare anch’essi i contemporanei nell’antichissimo modo. Quest’infelicità di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName> anzi ha avuto qualche parte in <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>. Ben venuta, quindi. Poi bisogna ricordare i quattro anni della giovinezza passati su navi baleniere e da guerra, nel Pacifico, nell’<placeName key="Atlantic Ocean  " ref="https://geonames.org/3373405">Atlantico</placeName>, tra cacce, tifoni, bonacce e avventure d’inferno o d’arcadia, tutta materia che è poi stata colata, con un lento lavoro di assimilazione, nelle opere.</p>
 			<p>E l’arcadia c’è in Typee, c’è in Omoo, c’è in Mardi, le storie ispirate dai mesi di vita che l’autore condusse in comune coi cannibali di un’isola oceanica. L’inferno è in White Jacket – spigliato e spietato giornale della vita di bordo su una nave da guerra – e in Pierre, una truce storia morale fallita, che serve a mostrare a quale prezzo e con quali fatiche l’autore di Moby Dick sia giunto al capolavoro.</p>
 			<p>Il lettore deve anzitutto pensare che corrono più di ottant’anni da quando questo libro venne pubblicato la prima volta. L’ambiente spirituale da cui è uscito è ormai interamente dimenticato anche in America e tutte le volte che si vuole illustrarne qualche opera occorre uno sforzo pedante di rievocazione.</p>
 			<p>Fortunatamente in Italia sono abbastanza noti due scrittori rappresentativi, su per giù, di questo stesso ambiente; riuscirà più facile quindi il richiamo.</p>
