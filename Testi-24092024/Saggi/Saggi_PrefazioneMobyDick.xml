@@ -7343,6 +7343,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016134312364",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T11:43:12.364Z",
+	"dcterms:modified": "2024-10-16T11:43:12.364Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016134312364#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016134312364#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[35]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Herman_Melville",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -7380,7 +7460,7 @@
 			<p>Su tutto il <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> si potrebbe continuare l’esame e scoprire quanto ragionato, quanto calcolato sia ogni capitolo, ogni periodo, ogni frase. Il continuo alone soprannaturale, che trasfigura fin le più spregiudicate e positive ricerche dell’<persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">autore</persName>, non è che un modo di esprimere, attraverso ogni laicismo di cultura, lo spirito biblico della concezione.</p>
 			<p>E occorre dir qualcosa di questa coltura, poichè essa ci apre la via all’altra metà del mondo di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>.</p>
 			<p>Rimarrà sorpreso il lettore aprendo il <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> a quelle pagine di <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="a">Estratti iniziali</title> sulla balena e crederà che almeno queste pedantesche citazioni si possan saltare, almeno queste sian superflue. Neanche queste.</p>
-			<p>L’interessante lista di riferimenti, pescati in tutte <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«le Vaticane e le bancarelle della terra»</quote> e le etimologie in più d’una dozzina di lingue, che precedono, servono a portare il lettore a quel grado di universalità, ad ambientarlo in quell’atmosfera laica di dotta discussione, che sarà il nero, talvolta umoristico e talvolta eroico, di tutti i futuri capitoli. Poichè, questo è curioso in <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> e in <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>: benchè si tratti di un’<title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">opera</title> ispirata da esperienze di vita quasi barbarica, ai confini della terra, Melville non è mai un pagliaccio che si mette a fingere anche lui il barbaro e il primitivo, ma, dignitoso e coraggioso, non si spaventa di rielaborare quella vita vergine attraverso tutto lo scibile della terra. Poichè credo che ci voglia meno coraggio ad affrontare un capodoglio o un tifone che a rischiare di passare per un pedante o un letterato.</p>
+			<p>L’interessante lista di riferimenti, pescati in tutte <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«le Vaticane e le bancarelle della terra»</quote> e le etimologie in più d’una dozzina di lingue, che precedono, servono a portare il lettore a quel grado di universalità, ad ambientarlo in quell’atmosfera laica di dotta discussione, che sarà il nero, talvolta umoristico e talvolta eroico, di tutti i futuri capitoli. Poichè, questo è curioso in <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> e in <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>: benchè si tratti di un’<title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">opera</title> ispirata da esperienze di vita quasi barbarica, ai confini della terra, <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> non è mai un pagliaccio che si mette a fingere anche lui il barbaro e il primitivo, ma, dignitoso e coraggioso, non si spaventa di rielaborare quella vita vergine attraverso tutto lo scibile della terra. Poichè credo che ci voglia meno coraggio ad affrontare un capodoglio o un tifone che a rischiare di passare per un pedante o un letterato.</p>
 			<p>E <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>, nel ringraziamento al Vice-vice-bibliotecario, ch’egli finge gli abbia fornite le citazioni, lo compiange per uno di quella «classe disperata e ingiallita che nessun vino al mondo scalderà mai più e per i quali persino il pallido Xeres sarebbe troppo generoso»; lo compiange col suo solito tono scherzoso di uomo che conosce ben altro nella vita oltre le Vaticane e i bancherottoli e sa che i migliori poemi sono quelli raccontati da marinai illetterati sul castello di prora (cfr. La storia del Town-ho); sa tutto questo, e scherza, ma non si vergogna di mostrarsi qual è, un marinaio che ha studiato: un letterato.</p>
 			<p/>
 			<p><persName key="Pavese, Cesare, 1908-1950." ref="http://viaf.org/viaf/36922880/" cert="high" type="real">Cesare Pavese</persName></p>
