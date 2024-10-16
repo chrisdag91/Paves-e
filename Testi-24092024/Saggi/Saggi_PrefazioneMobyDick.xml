@@ -5499,6 +5499,167 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016132332920",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T11:23:32.920Z",
+	"dcterms:modified": "2024-10-16T11:23:32.920Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016132332920#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016132332920#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[26]/persName[8]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://dbpedia.org/resource/List_of_Moby-Dick_characters",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?title_annotation_20241016132352976",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T11:23:52.976Z",
+	"dcterms:modified": "2024-10-16T11:23:52.976Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?title_annotation_20241016132352976#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?title_annotation_20241016132352976#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[27]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Bible",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5527,8 +5688,8 @@
 			<p/>
 			<p>È soltanto quell’interpretazione biblica che dicevo, che può far comprendere come tutto ciiò sia armonico e stia al suo luogo come ogni singola frase in un racconto di <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" cert="high" type="real">Poe</persName>.</p>
 			<p>Tutto il <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">libro</title> è concepito così.</p>
-			<p>L’inizio è un po’ scapato e burlesco, la parte più materiale di quella vita, che culmina nella figura del ramponiere cannibale, leale e aperto quanto nessun bianco. L’entrata della nave che, così coperta d’avorio e e di zanne come un re barbarico, aggiunge un brivido nuovo all’avventura. Poi, ancora un intermezzo burlesco – gli armatori, <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Bildad</persName> e <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters">Peleg</persName> – di un umorismo semplice ma pieno di significati, poichè <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters">Bildad</persName>, tanto avaro, sta leggendo la <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title> e <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Peleg</persName>, tanto allegro ed empio, parlerà per primo d’<persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName>. L’arruolamento e poi le dicerie misteriose su <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName>. E si badi, nè <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName> nè la Balena Bianca compaiono che all’ultimo momento utile e sono tutti e due preceduti e accomunati da voci bisbigliate e paurose.</p>
-			<p>E già, sinora, i nomi che accompagnano questa tragedia, quante volte han richiamato la Bibbia! Ismaele, Giona, Elia, Bildad, Achab «di cui i cani leccarono il sangue».</p>
+			<p>L’inizio è un po’ scapato e burlesco, la parte più materiale di quella vita, che culmina nella figura del ramponiere cannibale, leale e aperto quanto nessun bianco. L’entrata della nave che, così coperta d’avorio e e di zanne come un re barbarico, aggiunge un brivido nuovo all’avventura. Poi, ancora un intermezzo burlesco – gli armatori, <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Bildad</persName> e <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters">Peleg</persName> – di un umorismo semplice ma pieno di significati, poichè <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters">Bildad</persName>, tanto avaro, sta leggendo la <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title> e <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Peleg</persName>, tanto allegro ed empio, parlerà per primo d’<persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName>. L’arruolamento e poi le dicerie misteriose su <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName>. E si badi, nè <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName> nè la <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Balena Bianca</persName> compaiono che all’ultimo momento utile e sono tutti e due preceduti e accomunati da voci bisbigliate e paurose.</p>
+			<p>E già, sinora, i nomi che accompagnano questa tragedia, quante volte han richiamato la <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title>! Ismaele, Giona, Elia, Bildad, Achab <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«di cui i cani leccarono il sangue»</quote>.</p>
 			<p>Il quale Achab occorre dir subito che non è un uomo come tutti gli altri. Lui delira, lui digiuna, lui veglia, lui parla come Amleto e, ogni tanto, fa allocuzioni al cielo. Chi cerca in lui la creazione di un personaggio psicologico e vero, può cercare.</p>
 			<p>Chissà chi per primo mise in giro la storiella della caratterizzazione? Che a me paia, in un libro non ce n’ha a essere che uno, di personaggio, l’autore, e a lui debbono far capo tutte le riflessioni, tutte le descrizioni parziali di ambienti e di personaggi che concorrono alla costruzione. Achab on è un uomo reale per il semplice fatto che è il riscontro di Moby Dick, di cui nessuno, immagino, pretenderà la psicologia. È l’universo intorno ai due che contribuisce a fermarli in quel loro aspetto, e un universo tanto tormentato e biblico è fortuna se ha dato un tipo ancor così pacato. Tutte le altre figure del libro sono parti, parti costruttive, e tutte servono al loro scopo, non già perchè vere, ma perchè armonizzate nella loro forma, che potrebbe anche esser falsa nella vita, col particolare ambiente fantastico in cui si trovano e, da cui staccati, perderebbero ogni consistenza. Per esempio, Fedellah, il capo misterioso dei malesi di Achab, che strappato al suo luogo e portato al riscontro colla realtà potrebbe anche parere a un lettore maligno una prima copia dell’Indiano vendicatore di «Giovanotti non esageriamo»… Il solo personaggio umano del libro ha da essere Ismaele, in qualità dell’occhio che giudica, un racconto in rima persona, in qualità dell’autore insomma.</p>
 			<p>C’è piuttosto da dire una parola sul mistero di Moby Dick e su tutto il soprannaturale che lo accompagna.</p>
