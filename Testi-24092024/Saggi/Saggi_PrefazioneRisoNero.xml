@@ -5710,6 +5710,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?title_annotation_20241016180623763",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T16:06:23.763Z",
+	"dcterms:modified": "2024-10-16T16:06:23.763Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?title_annotation_20241016180623763#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneRisoNero.xml?title_annotation_20241016180623763#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/1542161332348852420009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5723,7 +5802,7 @@
 			<p>Ma un’idea fa importanti anche tutte le assurdità più luminose che <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName> può aver fantasticato e vissuto da operaio nella città in formazione. E l’idea è la stessa che dà fascino e vigore a questo libro – <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Riso nero</title> – scritto da <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Anderson</persName> a quarantanove anni nel <date when="1925">1925</date>, quando già <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> e tutti gli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName> avevan preso un assetto e una pacata larghezza di respiro da far quasi dimenticare i tempi caotici delle origini. Idea e problema sono gli stessi che hanno tormentato e tormentano tuttora gli artisti e gli uomini che conteranno in futuro nella storia degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>. Si chiedeva l’operaio <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName>: qual’è mai il significato di quest’enorme nazione che è fatta dei rifiuti di tutte le nazioni; che vive, che suda, bestemmia e si rinnova continuamente; che non ha bellezza, non ha memorie, non ha nulla, se non un’avidità smisurata di vita e di fortuna e che nelle sue espressioni sinora più alte non ha saputo che scimmiottare i gesti stracchi dell’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>, e riverniciarsi di tutti i lustri più falsi dell’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>?</p>
 			<p>Una risposta a questo, <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Anderson</persName> la cercò in tutti i libri, in tutti i fatti, in tutta la vita che gli giungeva alla coscienza – e non soltanto da operaio, ma anche più tardi, quando fu soldato, garzone di cavalli, agente pubblicitario e industriale – e dal caos di barlumi e di parvenze informi non sapeva cavare che fantasticherie, trasfigurazioni interiori di quel cinematografo incessante che gli scorreva davanti, finchè a poco a poco la fantasticheria, la trasfigurazione della realtà, non gli apparvero altro che il senso stesso della sua vita e la strada per cui egli avrebbe potuto dare un significato, una giustificazione anche agli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>.</p>
 			<p>E allora comincia l’altro problema, l’altro lavoro immane, che <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName> si è sobbarcato per la sua terra: Come esprimerlo questo fatto nuovo alla storia, come ricreare in fantasia, riordinare, costruire (poichè questa per <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Anderson</persName> è l’arte: portare ordine e disegno dove è il caos) il materiale disperso che forma l’inaudita <placeName key="North America  " ref="https://geonames.org/6255149">Nazione</placeName> di una cinquantina di nazioni? Dov’è una tradizione artistica e spirituale dell’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>?</p>
-			<p>Di fronte gli sta l’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> – la vedete, nel libro – antica, matura, sapiente: esperta, prima, della vita, e poi, conseguentemente, dell’arte, dove i creatori vivono vicino alla loro terra, alle cose, con semplicità, con umiltà, ascoltando. Nell’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> invece l’artista è un isolato, un estraneo al suo paese; il paese stesso non pare che vernice, la pretensiosità è il motto di tutta la vita: che cosa sa l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> della umiltà e terrestrità dei grandi artisti del passato dell’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>?</p>
+			<p>Di fronte gli sta l’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> – la vedete, nel <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">libro</title> – antica, matura, sapiente: esperta, prima, della vita, e poi, conseguentemente, dell’arte, dove i creatori vivono vicino alla loro terra, alle cose, con semplicità, con umiltà, ascoltando. Nell’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> invece l’artista è un isolato, un estraneo al suo paese; il paese stesso non pare che vernice, la pretensiosità è il motto di tutta la vita: che cosa sa l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> della umiltà e terrestrità dei grandi artisti del passato dell’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>?</p>
 			<p>Questo alla prima occhiata di <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName>, e, in più, in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> ci sono le macchine, la facile ricchezza e il puritanesimo: tutto che soffoca l’artista e la vita.</p>
 			<p>Ma – e qui sta l’importanza di <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Riso nero</title> e di tutto <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Anderson</persName>, in contrasto con certi artistucoli americani che fanno i fuorusciti in <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> – anche in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> scorre il sangue nei corpi, anche in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> ci sono istinti, ci sono passioni, ci sono lavori vitali e non solo efficienti; si posson pensare immagini e costruire mondi. E quel che è più, qualche americano questa costruzione l’ha fatta. Quelle pagine su <persName key="Mark Twain" ref="http://dbpedia.org/resource/Mark_Twain" cert="high" type="real">Mark Twain</persName> autore di <title key="The Adventures of Tom Sawyer" ref="http://dbpedia.org/resource/The_Adventures_of_Tom_Sawyer" level="m">Tom Sawyer</title> e <title key="Adventures of Huckleberry Finn" ref="http://dbpedia.org/resource/Adventures_of_Huckleberry_Finn" level="m">Huckleberry Finn</title>, poeta della vita schietta del <placeName key="Central America  " ref="https://geonames.org/7729892">Centro</placeName> sul gran fiume, sono sprazzi della scoperta nazionale di <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Anderson</persName>.</p>
 			<p>C’è la vita in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>, come nella Vecchia <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>: c’è la natura eterna, ci sono i canti, il fiume, l’amore, le risa, i negri: <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Riso nero</title>. E con raddoppiata energia <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName> canta l’inno alla vita negra, all’umiltà dei negri dinanzi alle cose, perchè così può colpire le pastoie bianche dell’orgoglio e del materialismo puritano.</p>
