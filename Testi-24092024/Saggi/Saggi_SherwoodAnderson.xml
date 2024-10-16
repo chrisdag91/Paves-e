@@ -4917,6 +4917,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234259713",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T21:42:59.713Z",
+	"dcterms:modified": "2024-10-16T21:42:59.713Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234259713#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234259713#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/4335045",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234321519",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T21:43:21.519Z",
+	"dcterms:modified": "2024-10-16T21:43:21.519Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234321519#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241016234321519#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/placeName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/5128581",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4938,7 +5096,7 @@
 			<p>Molti problemi puramente nazionali tocca nei suoi libri, e di questi è inutile dire per ora: basta che tutti tengano a mente qual è in lui il problema e l’ambiente di vita, che tutti li supera e fonde. Per <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Anderson</persName>, tutto il mondo moderno è un contrasto di città e di campagna, di schiettezza e di vuota finzione, di natura e di piccoli uomini. Quanto tocchi anche noi quest’idea, credo inutile dire. E di quanto noi siamo inferiori in potenza vitale alla giovane <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>, possiamo vedere da questo: un problema che ha dato all’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> opere come quelle di cui parlo, non ha dato tra noi che una caricatura letteraria: stracittà e strapaese.</p>
 			<p/>
 			<p/>
-			<p><persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Sherwood Anderson</persName> ha pubblicato il suo primo libro nel <date when="1916">1916</date>. Continua ancora ed ha cinquantacinque anni. Facciamo conto che scarabocchiasse anche un po’ prima. Ne restan sempre almeno trenta di silenzio. Questi trenta li ha impiegati ad andare in giro: tutto il centro dell’<placeName key="West  United States" ref="https://geonames.org/11887751">Ovest</placeName>, dall’<placeName key="Ohio Ohio United States" ref="https://geonames.org/5165418">Ohio</placeName> village dov’è nato, fino a <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName>, a Nuova Orleans e a Nuova York; sotto il ciclone dell’industrialismo: stalliere, operaio, soldato, giornalista, e industriale. Finché un giorno pianta azienda e dattilografa, fuggendo – è stato detto, come un monaco in Tebaide – tutto solo, e si dispone a scrivere libri. Pubblica il primo e poi non cessa più.</p>
+			<p><persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/">Sherwood Anderson</persName> ha pubblicato il suo primo libro nel <date when="1916">1916</date>. Continua ancora ed ha cinquantacinque anni. Facciamo conto che scarabocchiasse anche un po’ prima. Ne restan sempre almeno trenta di silenzio. Questi trenta li ha impiegati ad andare in giro: tutto il centro dell’<placeName key="West  United States" ref="https://geonames.org/11887751">Ovest</placeName>, dall’<placeName key="Ohio Ohio United States" ref="https://geonames.org/5165418">Ohio</placeName> village dov’è nato, fino a <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName>, a <placeName key="New Orleans Louisiana United States" ref="https://geonames.org/4335045">Nuova Orleans</placeName> e a <placeName key="New York City New York United States" ref="https://geonames.org/5128581">Nuova York</placeName>; sotto il ciclone dell’industrialismo: stalliere, operaio, soldato, giornalista, e industriale. Finché un giorno pianta azienda e dattilografa, fuggendo – è stato detto, come un monaco in Tebaide – tutto solo, e si dispone a scrivere libri. Pubblica il primo e poi non cessa più.</p>
 			<p>Tutta la vita dell’America dell’epoca di Roosevelt, Sherwood Anderson l’ha vista. C’è piombato in giovinezza, l’ha vissuta e l’ha sofferta, – l’ha amata, – ha cercato in ogni modo di sfuggirne ed un giorno s’è accorto che lui, fin dagli anni dell’infanzia, fin dal padre, fannullone fantasioso, dalla nonna, l’italiana risoluta, terra e sangue, bevitrice e centenaria, ne era sempre stato un evaso, un sognatore, un facitore di racconti. Ed allora si decise di far solo più racconti, la sua vita, rimpiangendo solamente di non essere un cantore a viva voce ed uscendo in questa rivelatrice definizione dello stile: tutto lo sforzo di chi scrive è il tentativo di ridare i gesti e le espressioni di chi narra di persona (in Horses and Men). Ed i racconti che scrisse sono poi sempre, naturalmente, lo stesso racconto: la storia di chi vive soffocato dall’ambiente dell’Ohio (la provincia, il Centro Ovest), dall’ambiente delle fabbriche, dall’ambiente del puritanesimo e della letteratura e, o ci resta – e allora abbiamo le storie malinconiche e tragiche della sua prima maniera, di fino al ’23, le novelle, in genere, dai titoli disperati e rassegnati (Nobody knows, Surrender, Alone, Death, Sophistication in Winesburg, Ohio – 1919; Unlighted Lamps, Out of nowhere into nothing in The Triumph of the Egg – 1921; e Unused in Horses and Men – 1923) (2); – o ne riesce a fuggir via – e la fuga è l’immaginazione, la libertà interiore, la sincerità: sensualità pagana e poesia. Questi in genere, sono i racconti più autobiografici: l’artista, il sognatore del villaggio, l’odiatore dei salotti di Chicago e di Nuova York. Qualche novella di Horses and Men (1923) già annuncia questa vena, come quelle sui cavalli – la passione dei bei corpi – come An Ohio pagan – dove Cristo diventa un dio greco pur restando un giovanotto middlewestern; – come i tratti di artigiani innamorati del mestiere, che compaion dappertutto.</p>
 			<p>Ma, essenzialmente, questa liberazione è la materia dei romanzi più maturi e comprensivi: A Storyteller’s Story (1924) – autobiografia «immaginativa» di pochi fatti e di molta vita interiore, tutta assorta a risolvere il problema di «questa grossa, rumorosa, prosperosa e brancolante America»; – Dark Laughter (1925) – di cui dirò poi; – Tar (1926) – la ripresa, innamorata, della fanciullezza nel villaggio, ma coll’occhio risolutamente all’artista che nasce; – ed Hello Towns (1929) – curiosissima esperienza fantastica di un anno della pubblicazione di un settimanale di provincia, dove, nell’arguzia dei fatterelli, nella bonomia dei consigli e nella profondità delle osservazioni sull’America attuale, è definitivamente espresso quel semplice amore che solo Sherwood Anderson sa portare, in mezzo ai più complicati travagli, con un prodigio quasi trecentesco di volgarizzazione, alla vita umile, ordinaria, sincera del gran corpo dell’America. E nel frattempo, sparsamente fin dal ’21, poi raccolte nel ’27, le poesie di A New Testament, meditazioni pacate sul bisogno di espressione fantastica che travaglia l’America e l’autore.</p>
 			<p>Il romanzo più importante di quest’uomo resta sempre Dark Laughter, della, diciamo, seconda maniera: che riassume entro di sé tutti i motivi sparsi negli altri racconti dal ’16 in qua – qualche volta anche più chiari, più riusciti, ma non mai tanto definitivi.</p>
