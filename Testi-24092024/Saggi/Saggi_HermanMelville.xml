@@ -204,7 +204,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182225652",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:22:25.652Z",
-	"dcterms:modified": "2024-10-16T16:22:25.652Z",
+	"dcterms:modified": "2024-10-16T18:20:42.535Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -236,7 +236,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/187129231/",
+		"@id": "http://www.wikidata.org/entity/Q81438",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -245,7 +245,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -19482,7 +19483,7 @@
 			<p>per qualunque cosa che quaggiù scompaia?</p>
 			<p>Lasciate, lasciate!</p>
 			<p/>
-			<p>È il solo tratto di queste ultime poesie che fermi il lettore. E già <persName key="Whitman, Walt, 1859-1928" ref="http://viaf.org/viaf/187129231/">Walt Whitman</persName> aveva detto, colla sua sintassi catastrofica:</p>
+			<p>È il solo tratto di queste ultime poesie che fermi il lettore. E già <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" cert="high" type="real">Walt Whitman</persName> aveva detto, colla sua sintassi catastrofica:</p>
 			<p/>
 			<p>Io, per tutte le fasi passate – la mia giovinezza oziosa – la vecchiaia vicina,</p>
 			<p>i miei sessant’anni di vita sommati e più, e trascorsi,</p>
