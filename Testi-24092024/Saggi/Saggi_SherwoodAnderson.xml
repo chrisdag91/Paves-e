@@ -12036,6 +12036,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241017004953115",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T22:49:53.115Z",
+	"dcterms:modified": "2024-10-16T22:49:53.115Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241017004953115#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_SherwoodAnderson.xml?place_annotation_20241017004953115#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[23]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/4335045",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -12061,7 +12140,7 @@
 			<p>Tutta la vita dell’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> dell’epoca di <persName key="Franklin D. Roosevelt" ref="http://dbpedia.org/resource/Franklin_D._Roosevelt" cert="high" type="real">Roosevelt</persName>, <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Sherwood Anderson</persName> l’ha vista. C’è piombato in giovinezza, l’ha vissuta e l’ha sofferta, – l’ha amata, – ha cercato in ogni modo di sfuggirne ed un giorno s’è accorto che lui, fin dagli anni dell’infanzia, fin dal padre, fannullone fantasioso, dalla nonna, l’italiana risoluta, terra e sangue, bevitrice e centenaria, ne era sempre stato un evaso, un sognatore, un facitore di racconti. Ed allora si decise di far solo più racconti, la sua vita, rimpiangendo solamente di non essere un cantore a viva voce ed uscendo in questa rivelatrice definizione dello stile: tutto lo sforzo di chi scrive è il tentativo di ridare i gesti e le espressioni di chi narra di persona (in <title key="Anderson, Sherwood, 1876-1941. | Horses and men" ref="http://viaf.org/viaf/309262058/" level="m">Horses and Men</title>). Ed i racconti che scrisse sono poi sempre, naturalmente, lo stesso racconto: la storia di chi vive soffocato dall’ambiente dell’<placeName key="Ohio Ohio United States" ref="https://geonames.org/5165418">Ohio</placeName> (la provincia, il <placeName key="Midwest  United States" ref="https://geonames.org/11887750">Centro Ovest</placeName>), dall’ambiente delle fabbriche, dall’ambiente del puritanesimo e della letteratura e, o ci resta – e allora abbiamo le storie malinconiche e tragiche della sua prima maniera, di fino al ’<date when="1923">23</date>, le novelle, in genere, dai titoli disperati e rassegnati (<title cert="high" generatedBy="human" level="a" ref="#NobodyKnows" xml:space="default"><title level="m" ref="#NobodyKnows"><title level="a" ref="#NobodyKnows">Nobody knows</title></title></title>, <title level="m" ref="#Surrender"><title level="a" ref="#Surrender">Surrender</title></title>, <title level="m" ref="#Alone"><title level="a" ref="#Alone">Alone</title></title>, <title level="a" ref="#Death">Death</title>, <title level="a" ref="#Sophistication">Sophistication</title> in <title key="Anderson, Sherwood, 1876-1941. | Winesburg, Ohio" ref="http://viaf.org/viaf/314848338/" level="m">Winesburg, Ohio</title> – <date when="1919">1919</date>; <title key="Anderson, Sherwood (1876-1941). | Unlighted lamps" ref="http://viaf.org/viaf/3610165326471916290001/" level="m">Unlighted Lamps</title>, <title level="m" ref="#OutOfNowhereIntoNothing">Out of nowhere into nothing</title> in <title key="Anderson, Sherwood, 1876-1941. | Triumph of the egg a book of impressions from american life in tales and poems" ref="http://viaf.org/viaf/312340634/" level="m">The Triumph of the Egg</title> – <date when="1921">1921</date>; e <title level="a" ref="#Unused">Unused</title> in <title key="Anderson, Sherwood, 1876-1941. | Horses and men" ref="http://viaf.org/viaf/309262058/" level="m">Horses and Men</title> – <date when="1923">1923</date>) (2); – o ne riesce a fuggir via – e la fuga è l’immaginazione, la libertà interiore, la sincerità: sensualità pagana e poesia. Questi in genere, sono i racconti più autobiografici: l’artista, il sognatore del villaggio, l’odiatore dei salotti di <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> e di <placeName key="New York City New York United States" ref="https://geonames.org/5128581">Nuova York</placeName>. Qualche novella di <title key="Anderson, Sherwood, 1876-1941. | Horses and men" ref="http://viaf.org/viaf/309262058/" level="m">Horses and Men</title> (<date when="1923">1923</date>) già annuncia questa vena, come quelle sui cavalli – la passione dei bei corpi – come <title level="m" ref="#AnOhioPagan">An Ohio pagan</title> – dove <placeName key="Jesus" ref="http://dbpedia.org/resource/Jesus">Cristo</placeName> diventa un dio greco pur restando un giovanotto middlewestern; – come i tratti di artigiani innamorati del mestiere, che compaion dappertutto.</p>
 			<p>Ma, essenzialmente, questa liberazione è la materia dei romanzi più maturi e comprensivi: <title level="m" ref="#AStorytellersStory">A Storyteller’s Story</title> (<date when="1924">1924</date>) – autobiografia «immaginativa» di pochi fatti e di molta vita interiore, tutta assorta a risolvere il problema di «questa grossa, rumorosa, prosperosa e brancolante America»; – <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Dark Laughter</title> (<date when="1925">1925</date>) – di cui dirò poi; – <title level="m" ref="#Tar">Tar</title> (<date when="1926">1926</date>) – la ripresa, innamorata, della fanciullezza nel villaggio, ma coll’occhio risolutamente all’artista che nasce; – ed <title level="m" ref="#HelloTowns">Hello Towns</title> (<date when="1929">1929</date>) – curiosissima esperienza fantastica di un anno della pubblicazione di un settimanale di provincia, dove, nell’arguzia dei fatterelli, nella bonomia dei consigli e nella profondità delle osservazioni sull’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> attuale, è definitivamente espresso quel semplice amore che solo <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName> sa portare, in mezzo ai più complicati travagli, con un prodigio quasi trecentesco di volgarizzazione, alla vita umile, ordinaria, sincera del gran corpo dell’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. E nel frattempo, sparsamente fin dal ’<date when="1921">21</date>, poi raccolte nel ’<date when="1927">27</date>, le poesie di <title level="m" ref="#ANewTestament">A New Testament</title>, meditazioni pacate sul bisogno di espressione fantastica che travaglia l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> e l’<persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">autore</persName>.</p>
 			<p>Il romanzo più importante di quest’uomo resta sempre <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Dark Laughter</title>, della, diciamo, seconda maniera: che riassume entro di sé tutti i motivi sparsi negli altri racconti dal ’<date when="1916">16</date> in qua – qualche volta anche più chiari, più riusciti, ma non mai tanto definitivi.</p>
-			<p>È la storia di un giornalista di <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> che si secca e sente inutile nella vita che conduce a contar fandonie alla nazione e a gironzare per i salotti colla moglie intellettuale e romanziera. Qualche volta va a ubriacarsi col collega, ma finiscono soltanto per parlare d’impotenza e di degenerazione. Finché un giorno pianta tutto, muta nome e se ne scende ozioso in treno e in barca per il Mississippi, fino a Nuova Orleans. Qui s’impregna di molle far niente e di risa, di canto, di spirito negro. Poi risale e si ferma ad Old Harbor, Indiana, dov’è vissuto in fanciullezza e s’impiega – operaio – a dipingere ruote d’auto in una fabbrica fattiva, americana, che lo lascia indifferente.</p>
+			<p>È la storia di un giornalista di <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> che si secca e sente inutile nella vita che conduce a contar fandonie alla nazione e a gironzare per i salotti colla moglie intellettuale e romanziera. Qualche volta va a ubriacarsi col collega, ma finiscono soltanto per parlare d’impotenza e di degenerazione. Finché un giorno pianta tutto, muta nome e se ne scende ozioso in treno e in barca per il Mississippi, fino a <placeName key="New Orleans Louisiana United States" ref="https://geonames.org/4335045">Nuova Orleans</placeName>. Qui s’impregna di molle far niente e di risa, di canto, di spirito negro. Poi risale e si ferma ad <placeName ref="#OldHarbor">Old Harbor</placeName>, Indiana, dov’è vissuto in fanciullezza e s’impiega – operaio – a dipingere ruote d’auto in una fabbrica fattiva, americana, che lo lascia indifferente.</p>
 			<p>Il racconto comincia solo ora, ma la materia è quella che ho detto. Poiché <persName ref="#BruceDudley" type="fictional">Bruce Dudley</persName> – il nuovo nome – è uno <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName> completo, e fantastica, pensa, rivive, racconta a se stesso, indolente, a riprese, a legami leggeri coi fatti di <placeName ref="#OldHarbor">Old Harbor</placeName>, la vita passata.</p>
 			<p>Gli si accende nel ricordo – ad un ritmo pensoso e indolentemente solenne, di periodi – il gran tempo del Fiume, quando la vita americana vera, di gente che rideva e cantava, si muoveva sul Mississippi ed i negri eran negri e Mark Twain, non ancora ingabbiato dalle idee puritane – la Nuova Inghilterra, la negazione dell’America – ne creava la favola eroica coi libri di Tom Sawyer e di Huckle Finn. Poiché Bruce Dudley (Sherwood Anderson) è, come ho detto, un narratore e non vede nella vita che lo sforzo di un racconto ed ha quel modo di parlare così lento e pensieroso perché tutto quel che dice gli si travaglia in mente trasformandosi in racconti. Questa che potrebbe essere la rovina dello scrittore, gli si fa invece la sua poesia, poiché nessuno è più lontano dalla letteratura e più vivente di lui, nessuno più innamorato delle cose e del mondo, in un modo ch’è quasi sensuale. Giunge al punto di dire, quest’uomo, che per far lo scrittore è anche bene leggere libri.</p>
 			<p>Ad Old Harbor, Indiana, Bruce Dudley trascorse l’infanzia. Ed è questa la vena del libro che più riecheggia e riassume le storie anteriori. Il villaggetto grigio, che soffoca come villaggio (Winesburg, Ohio) e che si fa rimpiangere quand’è diventato città americana (Poor White – 1920), è bene ancora la materia di queste pagine. E Bruce Dudley ricorda i bei giorni che i campi eran campi ed il Fiume era il Fiume e rispecchia quei tempi in Sponge Martin, suo collega di lavoro, vecchio ameno che sa ridere e godere e che un tempo era un buon artigiano, mentre ora lavora a dipingere in</p>
