@@ -7673,7 +7673,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017160047771#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[27]/persName"
+			"rdf:value": "TEI/text/body/p[27]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -7848,6 +7848,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017160151771",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T14:01:51.771Z",
+	"dcterms:modified": "2024-10-17T14:01:51.771Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017160151771#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017160151771#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[26]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/107959665/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -7876,8 +7956,8 @@
 			<p>Le famose «insufficienze» di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>, quindi, di macchinosità nell’azione, di trucco cerebrale nella presentazione delle avventure, sarebbero intanto ben esemplificate in questa disinvolta intramatura. Così, ad esempio, il fatto che i due personaggi (il presidente <persName ref="#Miraflores" type="fictional">Miraflores</persName> e l’attrice <persName ref="#Isabella" type="fictional">Isabella</persName>, fuggiti coi denari della repubblica) impendenti e dominanti per tutto il libro, non sono affatto poi chi si crede e quelli son riusciti a scappare e il loro posto lo tengono in <placeName ref="#Coralio">Coralio</placeName> due americani – padre e figlia – fuggiti dalla patria coi denari di una società di assicurazioni, questo fatto non pare che una bizzarria, una trovata del novellatore, il colpo di scena finale voluto dal gusto un po’ grosso e fanciullesco del pubblico. Ma quando si è detto che il <rs ref="#work">libro</rs> è tutto costruito così come il solito castello di carte, che cosa si è scoperto di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>, oltre a ciò che con troppa fretta ci ha già lui stesso confessato? Il discorso si può ripetere per ciascuno dei capitoli-novella che compongono il <rs ref="#work">libro</rs> e per ogni altra novella che <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> abbia mai scritto. Sempre troviamo in lui, nella struttura dell’azione, questi rovesciamenti di valori, questi paradossi, questi bluff.</p>
 			<p>È di qui invece che la faccenda deve cominciare. Non ci sarà proprio che l’azione macchinale di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>? E questo – si noti – sarebbe un difetto altrettanto fatale quanto l’altro di scrittori pure stimatissimi, dove non si trova che frammenti di osservazioni, di «materiale» e l’azione, la costruzione, o non c’è o è come non ci fosse.</p>
 			<p>Rileggetevi, con quella tal cordialità indispensabile a qualunque godimento, tutto il <rs ref="#work">libro</rs> di cui parlo – non importano per ora le centinaia di altre novelle – ripensateci un po’ su tenendo a mente i capisaldi storici cui si è accennato e son convinto che alla fine cominceranno i dubbi sulla teoria del trucco. Non avremmo innanzi piuttosto un tipo bizzarro e piacevole di scrittore che vede tutto l’universo come una sconcertante stilizzazione e, lungi dall’inventare paradossali avventure perché non sa cosa dire, questi paradossi sente come la sostanza stessa della vita?</p>
-			<p>Insomma: precise condizioni storiche suggerivano a <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> un certo gusto, una certa maniera: gli imponevano – a tagliar corto – certi motivi. E perché non può O. Henry aver fatto poesia di questi motivi, creazione propria, cioè, forma propria d’una sensibilità vitale che di quello che può sembrare, e non è, all’inizio, che un trucco, la citata sostituzione dei personaggi in <title key="Henry, O., 1862-1910. | Cabbages and kings" ref="http://viaf.org/viaf/6188164661892903390002/" level="m">Cabbages and Kings</title>, fa un’espressione, un mito, della bizzarria e relatività e fondamentale illogicità della vita?</p>
-			<p>È caratteristica la conclusione dell’avventura di Miraflores e Isabella, salvati dall’equivoco, ma da questo costretti a vivere lontano in una vita fittizia e pressoché insopportabile. A concludere i vari fili del racconto <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> ha immaginato scenette cinematografiche.</p>
+			<p>Insomma: precise condizioni storiche suggerivano a <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> un certo gusto, una certa maniera: gli imponevano – a tagliar corto – certi motivi. E perché non può <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> aver fatto poesia di questi motivi, creazione propria, cioè, forma propria d’una sensibilità vitale che di quello che può sembrare, e non è, all’inizio, che un trucco, la citata sostituzione dei personaggi in <title key="Henry, O., 1862-1910. | Cabbages and kings" ref="http://viaf.org/viaf/6188164661892903390002/" level="m">Cabbages and Kings</title>, fa un’espressione, un mito, della bizzarria e relatività e fondamentale illogicità della vita?</p>
+			<p>È caratteristica la conclusione dell’avventura di <persName ref="#Miraflores" type="fictional">Miraflores</persName> e Isabella, salvati dall’equivoco, ma da questo costretti a vivere lontano in una vita fittizia e pressoché insopportabile. A concludere i vari fili del racconto <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> ha immaginato scenette cinematografiche.</p>
 			<p>La scritta sulla sabbia.</p>
 			<p>Scena: La spiaggia a <placeName key="Nice Provence-Alpes-Côte d'Azur France" ref="https://geonames.org/2990440">Nizza</placeName>. Una donna, bella, ancora giovane, squisitamente vestita, compiacente, equilibrata, è piegata accanto all’acqua e scarabocchia pigramente lettere sulla sabbia col manico dell’ombrellino di seta. La bellezza di quel volto è audace; la posa languida è quale voi sentite che non può durare – aspettate, ansiosi, che lei balzi o scivoli o strisci, come una pantera immobilizzatasi inspiegabilmente. Scarabocchia pigramente nella sabbia, e la parola che continua a scrivere è «Isabella». Un uomo siede alcuni metri più in là. Potete vedere che sono compagni, anche non più amici. La faccia di lui è scura e liscia e quasi impenetrabile – ma non del tutto. I due parlano poco insieme. Anche l’uomo scribacchia sulla sabbia col bastone. E la parola che scrive è «Anchuria». Poi guarda al largo, dove il Mediterraneo e il cielo si fondono, colla morte negli occhi.</p>
 			<p>E questo non parrebbe cerebrale. Si è poi naturalmente anche esagerato con la storia dei trucchi nell’azione. Molte volte la novella di O. Henry non presenta che una umoristica stilizzazione di personaggi o di casi, o soltanto riesce singolare come una scena è veduta, come è esposto un parere, come è tratta la «filosofia» del fatto.</p>
