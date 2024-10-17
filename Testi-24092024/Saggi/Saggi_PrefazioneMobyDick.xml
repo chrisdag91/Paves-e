@@ -4815,87 +4815,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016133204944",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T11:32:04.944Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016133204944#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016133204944#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[29]/persName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": [
-			"schema:Person",
-			"cwrc:FictionalPerson"
-		],
-		"@id": "http://dbpedia.org/resource/List_of_Moby-Dick_characters",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016133340961",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T11:33:40.961Z",
@@ -5997,7 +5916,7 @@
 			<p>In quel tempo in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> o più precisamente nella <placeName key="New England  United States" ref="https://geonames.org/11919979">Nuova Inghilterra</placeName>, la stabilità nazionale allora raggiunta aguzzava il desiderio di una cultura propria, di una tradizione. Questo che sarà il problema cronico degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName> e susciterà ancor oggi tanti disprezzi in <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> verso questi parvenus della cultura, è invece il segno della nobiltà del loro sforzo e del loro destino.</p>
 			<p>Poichè avere una tradizione è meno che nulla, è soltanto cercandola che si può viverla.</p>
 			<p>E <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> e contemporanei la cercarono, da buoni puritani, nel secolo delle lotte religiose in <placeName key="England England United Kingdom" ref="https://geonames.org/6269131" cert="high">Inghilterra<precision match="@ref" precision="high"/></placeName>, in quel secolo di visionari, di libellisti teologici e di interpretatori della <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title>, da cui era nata l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. Anche <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName>, che pure è nella sua opera abbastanza areligioso, ha fatto grandi indigestioni di <date from="1500" to="1600">‘500 e ‘600</date>, volgendosi essenzialmente agli scrittori di magia, di cose occulte e ai platonisti. Tutta gente che non dispiaceva neanche a <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>. E <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, così ragionato e tecnico com’è, vale soprattutto per l’ispirazione biblica. In esso <persName ref="#MobyDick" type="fictional">la Balena</persName>, dopo tutte le classificazioni e i nomi scientifici ed archeologici, rimane soprattutto il <persName ref="#Leviatan" type="fictional">Leviatan</persName>.</p>
-			<p>Leggete quest’opera tenendo a mente la <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title> e vedrete come quello che vi potrebbe anche parere un curioso romanzo d’avventure, un poco lungo a dire il vero e un poco oscuro, vi si svelerà invece per un vero e proprio poema sacro cui non sono mancati nè il cielo nè la terra a por mano. Dal primo estratto di citazione <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«E <persName key="God" ref="http://dbpedia.org/resource/God" cert="high" type="fictional">Dio</persName> creò grandi balene»</quote> fino all’epilogo, di <persName key="Job (biblical figure)" ref="http://dbpedia.org/resource/Job_(biblical_figure)">Giobbe</persName>: <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«E io solo sono scampato a raccontarvela»</quote> è tutta un’atmosfera di solennità e severità da <title key="Old Testament" ref="http://www.wikidata.org/entity/Q19786" level="m">Vecchio Testamento</title>, di orgogli umani che si rintuzzano dinanzi a <persName key="God" ref="http://dbpedia.org/resource/God" type="fictional">Dio</persName>, di terrori naturali che son la diretta manifestazione di Lui. Quei primi capitoli, che son anche parsi superflui, sulle tetre lapidi dei balenieri di <placeName key="New Bedford Massachusetts United States" ref="https://geonames.org/4945121">Nuove Bedford</placeName> e sul sermone di Giona, sono invece una parte essenziale del racconto: il brivido della baleneria che si fonde, al suo primo manifestarsi, col terror sacro puritano. Poichè non c’è nulla di superfluo, rispetto al tono del libro, in quest’epigrafe:</p>
+			<p>Leggete quest’opera tenendo a mente la <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title> e vedrete come quello che vi potrebbe anche parere un curioso romanzo d’avventure, un poco lungo a dire il vero e un poco oscuro, vi si svelerà invece per un vero e proprio poema sacro cui non sono mancati nè il cielo nè la terra a por mano. Dal primo estratto di citazione <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«E <persName key="God" ref="http://dbpedia.org/resource/God" cert="high" type="fictional">Dio</persName> creò grandi balene»</quote> fino all’epilogo, di <persName key="Job (biblical figure)" ref="http://dbpedia.org/resource/Job_(biblical_figure)">Giobbe</persName>: <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«E io solo sono scampato a raccontarvela»</quote> è tutta un’atmosfera di solennità e severità da <title key="Old Testament" ref="http://www.wikidata.org/entity/Q19786" level="m">Vecchio Testamento</title>, di orgogli umani che si rintuzzano dinanzi a <persName key="God" ref="http://dbpedia.org/resource/God" type="fictional">Dio</persName>, di terrori naturali che son la diretta manifestazione di Lui. Quei primi capitoli, che son anche parsi superflui, sulle tetre lapidi dei balenieri di <placeName key="New Bedford Massachusetts United States" ref="https://geonames.org/4945121">Nuove Bedford</placeName> e sul sermone di <persName ref="#Giona">Giona</persName>, sono invece una parte essenziale del racconto: il brivido della baleneria che si fonde, al suo primo manifestarsi, col terror sacro puritano. Poichè non c’è nulla di superfluo, rispetto al tono del libro, in quest’epigrafe:</p>
 			<p/>
 			<p>CONSACRATO ALLA MEMORIA</p>
 			<p>DI</p>
@@ -6014,7 +5933,7 @@
 			<p>L’inizio è un po’ scapato e burlesco, la parte più materiale di quella vita, che culmina nella figura del ramponiere cannibale, leale e aperto quanto nessun bianco. L’entrata della nave che, così coperta d’avorio e e di zanne come un re barbarico, aggiunge un brivido nuovo all’avventura. Poi, ancora un intermezzo burlesco – gli armatori, <persName ref="#Bildad">Bildad</persName> e <persName ref="#Peleg">Peleg</persName> – di un umorismo semplice ma pieno di significati, poichè <persName ref="#Bildad" type="fictional">Bildad</persName>, tanto avaro, sta leggendo la <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title> e <persName ref="#Peleg">Peleg</persName>, tanto allegro ed empio, parlerà per primo d’<persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName>. L’arruolamento e poi le dicerie misteriose su <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName>. E si badi, nè <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName> nè la <persName ref="#MobyDick">Balena Bianca</persName> compaiono che all’ultimo momento utile e sono tutti e due preceduti e accomunati da voci bisbigliate e paurose.</p>
 			<p>E già, sinora, i nomi che accompagnano questa tragedia, quante volte han richiamato la <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title>! <persName key="Ishmael (Moby-Dick)" ref="http://dbpedia.org/resource/Ishmael_(Moby-Dick)" cert="high" type="fictional">Ismaele</persName>, <persName ref="#Giona" type="fictional">Giona</persName>, <persName ref="#Elia">Elia</persName>, <persName ref="#Bildad">Bildad</persName>, <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)">Achab</persName> <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«di cui i cani leccarono il sangue»</quote>.</p>
 			<p>Il quale <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)">Achab</persName> occorre dir subito che non è un uomo come tutti gli altri. Lui delira, lui digiuna, lui veglia, lui parla come <persName key="Hamlet" ref="http://dbpedia.org/resource/Hamlet" cert="high" type="fictional">Amleto</persName> e, ogni tanto, fa allocuzioni al cielo. Chi cerca in lui la creazione di un personaggio psicologico e vero, può cercare.</p>
-			<p>Chissà chi per primo mise in giro la storiella della caratterizzazione? Che a me paia, in un libro non ce n’ha a essere che uno, di personaggio, l’autore, e a lui debbono far capo tutte le riflessioni, tutte le descrizioni parziali di ambienti e di personaggi che concorrono alla costruzione. <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)">Achab</persName> non è un uomo reale per il semplice fatto che è il riscontro di <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Moby Dick</persName>, di cui nessuno, immagino, pretenderà la psicologia. È l’universo intorno ai due che contribuisce a fermarli in quel loro aspetto, e un universo tanto tormentato e biblico è fortuna se ha dato un tipo ancor così pacato. Tutte le altre figure del libro sono parti, parti costruttive, e tutte servono al loro scopo, non già perchè vere, ma perchè armonizzate nella loro forma, che potrebbe anche esser falsa nella vita, col particolare ambiente fantastico in cui si trovano e, da cui staccati, perderebbero ogni consistenza. Per esempio, <persName ref="#Fedellah">Fedellah</persName>, il capo misterioso dei malesi di <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName>, che strappato al suo luogo e portato al riscontro colla realtà potrebbe anche parere a un lettore maligno una prima copia dell’<persName key="Queequeg" ref="http://dbpedia.org/resource/Queequeg" type="fictional">Indiano vendicatore</persName> di <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«Giovanotti non esageriamo»</quote>… Il solo personaggio umano del libro ha da essere <persName key="Ishmael (Moby-Dick)" ref="http://dbpedia.org/resource/Ishmael_(Moby-Dick)">Ismaele</persName>, in qualità dell’occhio che giudica, un racconto in rima persona, in qualità dell’autore insomma.</p>
+			<p>Chissà chi per primo mise in giro la storiella della caratterizzazione? Che a me paia, in un libro non ce n’ha a essere che uno, di personaggio, l’autore, e a lui debbono far capo tutte le riflessioni, tutte le descrizioni parziali di ambienti e di personaggi che concorrono alla costruzione. <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)">Achab</persName> non è un uomo reale per il semplice fatto che è il riscontro di <persName ref="#MobyDick" type="fictional">Moby Dick</persName>, di cui nessuno, immagino, pretenderà la psicologia. È l’universo intorno ai due che contribuisce a fermarli in quel loro aspetto, e un universo tanto tormentato e biblico è fortuna se ha dato un tipo ancor così pacato. Tutte le altre figure del libro sono parti, parti costruttive, e tutte servono al loro scopo, non già perchè vere, ma perchè armonizzate nella loro forma, che potrebbe anche esser falsa nella vita, col particolare ambiente fantastico in cui si trovano e, da cui staccati, perderebbero ogni consistenza. Per esempio, <persName ref="#Fedellah">Fedellah</persName>, il capo misterioso dei malesi di <persName key="Capitaine Achab (Moby Dick, Herman Melville)" ref="http://fr.dbpedia.org/resource/Capitaine_Achab_(Moby_Dick,_Herman_Melville)" type="fictional">Achab</persName>, che strappato al suo luogo e portato al riscontro colla realtà potrebbe anche parere a un lettore maligno una prima copia dell’<persName key="Queequeg" ref="http://dbpedia.org/resource/Queequeg" type="fictional">Indiano vendicatore</persName> di <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«Giovanotti non esageriamo»</quote>… Il solo personaggio umano del libro ha da essere <persName key="Ishmael (Moby-Dick)" ref="http://dbpedia.org/resource/Ishmael_(Moby-Dick)">Ismaele</persName>, in qualità dell’occhio che giudica, un racconto in rima persona, in qualità dell’autore insomma.</p>
 			<p>C’è piuttosto da dire una parola sul mistero di <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Moby Dick</persName> e su tutto il soprannaturale che lo accompagna.</p>
 			<p>Non c’è nulla da scoprire sotto la <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters">Balena Bianca</persName>. Il suo pauroso significato sta appunto in questo che significa un vuoto, un nulla, una forza bruta, oppure un agente inconoscibile (che viene ad essere lo stesso). E qui torna da osservare con quanta sottigliezza è tenuto sino alla fine in ombra <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" cert="high" type="fictional">Moby Dick</persName>, pur discutendolo per tutto il libro in tutti i modi, e con quanta abilità lo si porta via via a giganteggiare sulla scena attraverso i suoi effetti raccontati dalle navi che l’hanno incontrato.</p>
 			<p>Su tutto il libro si potrebbe continuare l’esame e scoprire quanto ragionato, quanto calcolato sia ogni capitolo, ogni periodo, ogni frase. Il continuo alone soprannaturale, che trasfigura fin le più spregiudicate e positive ricerche dell’autore, non è che un modo di esprimere, attraverso ogni laicismo di cultura, lo spirito biblico della concezione.</p>
