@@ -2865,6 +2865,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017130253544",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T11:02:53.544Z",
+	"dcterms:modified": "2024-10-17T11:02:53.544Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017130253544#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017130253544#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/315943496/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017130311844",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T11:03:11.844Z",
+	"dcterms:modified": "2024-10-17T11:03:11.844Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017130311844#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017130311844#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/264371",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2883,7 +3042,7 @@
 			<p>Ora questo fatto ha radici più profonde e complesse che non paia. E se chi legge le novelle di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> ripensasse all’ambiente culturale da cui queste novelle sono tolte, molte cose gli sembrerebbero ovvie che ora lo urtano, giacché la natura singolare del suo novelliere è stata tutta condizionata dal momento spirituale in cui esso è nato.</p>
 			<p>Chi ripensi al solo periodo delle lettere americane un po’ noto in <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName>, quello – per intenderci – di <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName> e <persName key="Ralph Waldo Emerson" ref="http://dbpedia.org/resource/Ralph_Waldo_Emerson" cert="high" type="real">Emerson</persName> (<date from="1830" to="1850">1830-50</date>), gli parrà di trovarsi addirittura in un altro continente di quello di cui ci dà idea <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> nei suoi scritti (<date from="1900" to="1910">1900-1910</date>). Quelli avevano fatto centro nella <placeName key="New England  United States" ref="https://geonames.org/11919979">Nuova Inghilterra</placeName>, nutrendosi di cultura europea, pur trasformandola vitalmente e ignorando tutto il gran territorio e la futura varietà di razze della <placeName key="North America  " ref="https://geonames.org/6255149">Nazione</placeName>. Usava allora il parlare forbito della migliore tradizione seicentesca inglese, usava il letterato rinchiuso in una torre a rimuginare scienze quasi sempre occulte, usava insomma una puritana provincia di ribelli antipuritani, aristocratici e isolati.</p>
 			<p>Guardate invece i tempi di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>. Il governo di <persName key="Theodore Roosevelt" ref="http://dbpedia.org/resource/Theodore_Roosevelt">Roosevelt</persName> ha dato i suoi frutti: l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> è ormai tutta una Nazione dall’<placeName key="Atlantic Ocean  " ref="https://geonames.org/3373405">Atlantico</placeName> al <placeName key="Pacific Ocean  " ref="https://geonames.org/2363254">Pacifico</placeName>, non più puritana di quanto basti, colla faccenda del popolo eletto, a scusare le sue conquiste e le sue nuove ricchezze, ed è tanto sicura di sé, tanto «crogiuolo di razze» che osa accogliere, per naturalizzarli, persino gli armeni, i negri e i cinesi.</p>
-			<p>I centri culturali sono ormai disseminati per tutto l’immenso paese e ne consegue un po’ la dispersione delle forze, benché una fanciullesca semplicità, e non povertà, di spiriti sciolga proprio ora gli inni più sfrenati dell’energia vitale (Jack London). Non esiste più un’Atene degli Stati, la Nuova Inghilterra. I nuovi centri sono tanti quanti il libero gioco delle razze, sciolte da ogni barriera tradizionale, ne sa produrre: la California, con Norris e London; il Centro (Chicago) con Sinclair e Dreiser giovane; Nuova York, infine, col primo cinematografo e O. Henry. Ed è d’immenso significato e importanza lo spostamento degli stabilimenti cinematografici da Nuova York in California che accade appunto sulla fine di questo periodo, verso il 1912. Tutto il territorio americano è ormai così attraversato da correnti spirituali. Prima, fino al 1850, l’America era divisa in due mondi: la Nuova Inghilterra che pensava e scriveva e l’Ovest, genericamente inteso, dagli Allegani al Wyoming e al Texas, che conquistava e dissodava. I primi, aristocratici letterati un po’ scettici, i secondi, puritanacci analfabeti che ciccavano e menavano le mani.</p>
+			<p>I centri culturali sono ormai disseminati per tutto l’immenso paese e ne consegue un po’ la dispersione delle forze, benché una fanciullesca semplicità, e non povertà, di spiriti sciolga proprio ora gli inni più sfrenati dell’energia vitale (<persName key="London, Jack, 1876-1916" ref="http://viaf.org/viaf/315943496/" cert="high" type="real">Jack London</persName>). Non esiste più un’<placeName key="Athens Attica Greece" ref="https://geonames.org/264371">Atene</placeName> degli Stati, la Nuova Inghilterra. I nuovi centri sono tanti quanti il libero gioco delle razze, sciolte da ogni barriera tradizionale, ne sa produrre: la California, con Norris e London; il Centro (Chicago) con Sinclair e Dreiser giovane; Nuova York, infine, col primo cinematografo e O. Henry. Ed è d’immenso significato e importanza lo spostamento degli stabilimenti cinematografici da Nuova York in California che accade appunto sulla fine di questo periodo, verso il 1912. Tutto il territorio americano è ormai così attraversato da correnti spirituali. Prima, fino al 1850, l’America era divisa in due mondi: la Nuova Inghilterra che pensava e scriveva e l’Ovest, genericamente inteso, dagli Allegani al Wyoming e al Texas, che conquistava e dissodava. I primi, aristocratici letterati un po’ scettici, i secondi, puritanacci analfabeti che ciccavano e menavano le mani.</p>
 			<p>Non è qui il luogo di raccontare tutta la storia. Basti dire che da Poe si giunge a O. Henry attraverso un mezzo secolo di apocalissi: trappolatori, minatori, nuove città, nuove province, guerra di secessione, contingenti tedeschi, svedesi, italiani, conquiste territoriali, industrialismo, petrolio e carbone, grano, amore sfrenato della vita in quanto vita, non più in quanto pensiero o pagina scritta. La Nuova Inghilterra di un tempo muore perché il pubblico inglese disimpara a leggere, non sa ancora bene l’inglese e tanto meno l’inglese forbito di Boston o di Richmond, o non ha più tempo da perdere a penetrare le filosofie. Il corpo strapotente degli Usa comincia a guardarsi intorno inquieto, a cercare scrittori che gli parlino della sua vita, che gli dicano qualcosa di più che non sia la sala da gioco, o il campo delle corse, o la febbre del lavoro. Ma, si badi: qualcosa di più, non qualcosa di diverso. Le nuove short-stories che trionfano su tutti i giornali dell’Unione dal 1870 al 1910, sono essenzialmente umoristiche o comunque, piene d’azione e di «sospensione». Hanno detto giustamente che l’americano di questo tempo cerca nella novella un duplicato delle emozioni del Luna Park: specchi grotteschi, taboga, brivido, buffoni, destrezza, cordialità e baccano. Altrove, essenzialmente negli Stati del Centro (Illinois, Indiana, Wisconsin), verranno in voga tetri romanzi di cui l’interesse sta tutto nel tentativo di dare una riproduzione della realtà grigiamente fedele: di cui uscirà Dreiser. Subito dopo, dal 1900 in su, entrano i gusti per la questione sociale, anche questi più vita che letteratura: il comizio, lo sciopero, l’organizzazione, la rivoluzione (The Iron Heel, Metropolis). Gusti che hanno portato alla rinascita del 1912, che sarà essenzialmente un approfondimento dei nuovi centri culturali in base a più vitali problemi: ma questo è tutto un altro discorso.</p>
 			<p>E finalmente, un carattere nuovo ha questa letteratura che culmina nel «principe» O. Henry: essa è una letteratura dialettale. È una curiosa letteratura dialettale, perché noi immaginiamo i dialetti come locali e ci saremmo aspettati una letteratura dialettale piuttosto dalla Nuova Inghilterra. Ma in America il dialetto è la lingua volgare parlata da tutti in contrasto all’inglese colto e aulico, insegnato nelle scuole. Non esistono quasi localismi (come dicono laggiù) nella loro lingua. Motivi: la giovinezza di questa e l’intrico delle comunicazioni che fa vivere giorno per giorno il nuovayorchese in California e il cittadino dei Laghi in Florida.</p>
 			<p>La dialettalità delle short-stories da Mark Twain a O. Henry viene dal bisogno di parlare a un pubblico parecchio democratico (minatori, talvolta) e, ad ogni modo, sempre ad una borghesia che tira al sodo e vuol capire e riconoscere se stessa nei suoi giornali. Poiché naturalmente, da Mark Twain a O. Henry, tutta la letteratura che vive è giornalistica.</p>
