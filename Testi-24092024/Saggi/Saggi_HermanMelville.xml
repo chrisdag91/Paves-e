@@ -201,10 +201,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182225652",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016202042535",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T16:22:25.652Z",
-	"dcterms:modified": "2024-10-16T18:20:42.535Z",
+	"dcterms:created": "2024-10-16T18:20:42.535Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -215,7 +214,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182225652#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016202042535#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
@@ -229,7 +228,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182225652#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016202042535#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[74]/persName"
 		}
@@ -360,86 +359,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182312818",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T16:23:12.818Z",
-	"dcterms:modified": "2024-10-16T16:23:12.818Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182312818#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182312818#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://dbpedia.org/resource/Herman_Melville",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?date_annotation_20241016182327650",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:23:27.650Z",
@@ -521,7 +440,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182345841",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:23:45.841Z",
-	"dcterms:modified": "2024-10-16T16:23:45.841Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -548,7 +466,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182345841#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName[2]"
+			"rdf:value": "TEI/text/body/p[3]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -600,7 +518,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182400523",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:24:00.523Z",
-	"dcterms:modified": "2024-10-16T16:24:00.523Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -627,7 +544,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182400523#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName[3]"
+			"rdf:value": "TEI/text/body/p[3]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -680,7 +597,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182413677",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:24:13.677Z",
-	"dcterms:modified": "2024-10-16T16:24:13.677Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -707,7 +623,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182413677#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName[4]"
+			"rdf:value": "TEI/text/body/p[3]/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -760,7 +676,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182427973",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:24:27.973Z",
-	"dcterms:modified": "2024-10-16T16:24:27.973Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -787,7 +702,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182427973#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName[5]"
+			"rdf:value": "TEI/text/body/p[3]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -839,7 +754,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182502039",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:25:02.039Z",
-	"dcterms:modified": "2024-10-16T16:25:02.039Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -866,7 +780,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182502039#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName[6]"
+			"rdf:value": "TEI/text/body/p[3]/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -919,7 +833,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182514894",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:25:14.894Z",
-	"dcterms:modified": "2024-10-16T16:25:14.894Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -946,7 +859,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182514894#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName[7]"
+			"rdf:value": "TEI/text/body/p[3]/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -999,7 +912,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182527446",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:25:27.446Z",
-	"dcterms:modified": "2024-10-16T16:25:27.446Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -1026,7 +938,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182527446#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName[8]"
+			"rdf:value": "TEI/text/body/p[3]/persName[7]"
 		}
 	},
 	"oa:hasBody": {
@@ -1078,7 +990,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182540925",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:25:40.925Z",
-	"dcterms:modified": "2024-10-16T16:25:40.925Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -1105,7 +1016,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182540925#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName[9]"
+			"rdf:value": "TEI/text/body/p[3]/persName[8]"
 		}
 	},
 	"oa:hasBody": {
@@ -1158,7 +1069,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182606421",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:26:06.421Z",
-	"dcterms:modified": "2024-10-16T16:26:06.421Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -1185,7 +1095,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182606421#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName[11]"
+			"rdf:value": "TEI/text/body/p[3]/persName[10]"
 		}
 	},
 	"oa:hasBody": {
@@ -1555,7 +1465,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182836470",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:28:36.470Z",
-	"dcterms:modified": "2024-10-16T16:28:36.470Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -1582,7 +1491,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016182836470#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/persName[10]"
+			"rdf:value": "TEI/text/body/p[3]/persName[9]"
 		}
 	},
 	"oa:hasBody": {
@@ -2389,86 +2298,6 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
 	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016183413875",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T16:34:13.875Z",
-	"dcterms:modified": "2024-10-16T18:17:23.899Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016183413875#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016183413875#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[7]/persName[3]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q81438",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -8215,10 +8044,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016190822334",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016191009356",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T17:08:22.334Z",
-	"dcterms:modified": "2024-10-16T17:10:09.356Z",
+	"dcterms:created": "2024-10-16T17:10:09.356Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -8229,7 +8057,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016190822334#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016191009356#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
@@ -8243,7 +8071,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016190822334#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016191009356#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[22]/persName[3]"
 		}
@@ -8295,10 +8123,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016190854149",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016190925748",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T17:08:54.149Z",
-	"dcterms:modified": "2024-10-16T17:09:25.748Z",
+	"dcterms:created": "2024-10-16T17:09:25.748Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -8309,7 +8136,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016190854149#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016190925748#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
@@ -8323,7 +8150,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016190854149#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016190925748#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[22]/title[2]"
 		}
@@ -14417,10 +14244,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016194146068",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016194431963",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T17:41:46.068Z",
-	"dcterms:modified": "2024-10-16T17:44:31.963Z",
+	"dcterms:created": "2024-10-16T17:44:31.963Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -14431,7 +14257,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016194146068#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016194431963#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
@@ -14445,7 +14271,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016194146068#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016194431963#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[36]/placeName"
 		}
@@ -19412,11 +19238,11 @@
 		<body>
 			<p>Il baleniere letterato (1).</p>
 			<p/>
-			<p>L’importanza attuale di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">questo scrittore</persName> ottocentesco che rinasce solo oggi alla fama, si può condensare tutta in una contrapposizione: noi, figli dell’<date when="1800">Ottocento</date>, abbiamo nelle ossa il gusto delle avventure, del primitivo, della vita reale, che seguono e succedono alla cultura e ci liberano dalle complicazioni facendo da cataplasma all’animuccia decadente, malata di civiltà: i nostri eroi si chiamano ancora <persName key="Arthur Rimbaud" ref="http://dbpedia.org/resource/Arthur_Rimbaud" type="real">Rimbaud</persName>, <persName key="Paul Gauguin" ref="http://dbpedia.org/resource/Paul_Gauguin" cert="high" type="real">Gauguin</persName> e <persName key="Robert Louis Stevenson" ref="http://dbpedia.org/resource/Robert_Louis_Stevenson" cert="high" type="real">Stevenson</persName>; mentre <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Herman Melville</persName> ha vissuto prima le avventure reali, il primitivo, è stato barbaro prima e nel mondo del pensiero e della cultura è entrato in seguito portandovi la sanità e l’equilibrio acquistati nella vita vissuta. Ora, che da qualche tempo noi si provi un gran bisogno di rimbarbarimento, è pacifico. Stanno a dimostrarlo il gusto rinnovato dei viaggi e dello sport, il cinema, il jazz, l’interesse per i negri e tutto il resto che è persin banale ricordare e che con una parola sintetica chiamiamo antiletteratura. Ed è senza dubbio molto bello tutto ciò. Ma è il modo che offende. Poiché mi pare che, nel fervore antiletterario, si tenda a un tal primitivismo che è quasi imbecillità. Debolezza, voglio dire: è vile fuggire le complicazioni in un paradiso semplicistico che dopo tutto, come è inteso, non è che uno dei tanti raffinamenti della civiltà. Sbagliavo prima: il nostro eroe non è <persName key="Arthur Rimbaud" ref="http://dbpedia.org/resource/Arthur_Rimbaud" cert="high" type="real">Rimbaud</persName>, o <persName key="Paul Gauguin" ref="http://dbpedia.org/resource/Paul_Gauguin" cert="high" type="real">Gauguin</persName>, o <persName key="Robert Louis Stevenson" ref="http://dbpedia.org/resource/Robert_Louis_Stevenson" type="real">Stevenson</persName>, è il rottame umano. Mentre l’ideale di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> culmina in <persName key="Ishmael (Moby-Dick)" ref="http://dbpedia.org/resource/Ishmael_(Moby-Dick)" type="fictional">Ismaele</persName>, un marinaio che può remare coi colleghi illetterati mezza giornata dietro a un capodoglio e che poi si ritira sulla testa d’albero a meditare <persName key="Plato" ref="http://dbpedia.org/resource/Plato" type="real">Platone</persName>.</p>
+			<p>L’importanza attuale di questo scrittore ottocentesco che rinasce solo oggi alla fama, si può condensare tutta in una contrapposizione: noi, figli dell’<date when="1800">Ottocento</date>, abbiamo nelle ossa il gusto delle avventure, del primitivo, della vita reale, che seguono e succedono alla cultura e ci liberano dalle complicazioni facendo da cataplasma all’animuccia decadente, malata di civiltà: i nostri eroi si chiamano ancora <persName key="Arthur Rimbaud" ref="http://dbpedia.org/resource/Arthur_Rimbaud" type="real">Rimbaud</persName>, <persName key="Paul Gauguin" ref="http://dbpedia.org/resource/Paul_Gauguin" cert="high" type="real">Gauguin</persName> e <persName key="Robert Louis Stevenson" ref="http://dbpedia.org/resource/Robert_Louis_Stevenson" cert="high" type="real">Stevenson</persName>; mentre <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Herman Melville</persName> ha vissuto prima le avventure reali, il primitivo, è stato barbaro prima e nel mondo del pensiero e della cultura è entrato in seguito portandovi la sanità e l’equilibrio acquistati nella vita vissuta. Ora, che da qualche tempo noi si provi un gran bisogno di rimbarbarimento, è pacifico. Stanno a dimostrarlo il gusto rinnovato dei viaggi e dello sport, il cinema, il jazz, l’interesse per i negri e tutto il resto che è persin banale ricordare e che con una parola sintetica chiamiamo antiletteratura. Ed è senza dubbio molto bello tutto ciò. Ma è il modo che offende. Poiché mi pare che, nel fervore antiletterario, si tenda a un tal primitivismo che è quasi imbecillità. Debolezza, voglio dire: è vile fuggire le complicazioni in un paradiso semplicistico che dopo tutto, come è inteso, non è che uno dei tanti raffinamenti della civiltà. Sbagliavo prima: il nostro eroe non è <persName key="Arthur Rimbaud" ref="http://dbpedia.org/resource/Arthur_Rimbaud" cert="high" type="real">Rimbaud</persName>, o <persName key="Paul Gauguin" ref="http://dbpedia.org/resource/Paul_Gauguin" cert="high" type="real">Gauguin</persName>, o <persName key="Robert Louis Stevenson" ref="http://dbpedia.org/resource/Robert_Louis_Stevenson" type="real">Stevenson</persName>, è il rottame umano. Mentre l’ideale di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> culmina in <persName key="Ishmael (Moby-Dick)" ref="http://dbpedia.org/resource/Ishmael_(Moby-Dick)" type="fictional">Ismaele</persName>, un marinaio che può remare coi colleghi illetterati mezza giornata dietro a un capodoglio e che poi si ritira sulla testa d’albero a meditare <persName key="Plato" ref="http://dbpedia.org/resource/Plato" type="real">Platone</persName>.</p>
 			<p>Non a caso <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> è un nordamericano. Questi ultimi arrivati della cultura che, dai suoi difensori, sono tenuti responsabili del rimbarbarimento dei nostri ideali e, biasimo escluso, con ragione, han molto da insegnarci a questo proposito. Loro sì, hanno saputo rinnovarsi, passando</p>
 			<p>la cultura attraverso l’esperienza primitiva, reale, ma non, com’è l’andazzo da noi, rinnegando un termine per l’altro, bensì, attraverso ciò che si chiama la vita, arricchendo, temprando e potenziando la letteratura.</p>
 			<p>«Un pensiero non significa nulla di nulla se non è pensato con tutto il corpo», questa è bene una sentenza americana e a quest’ideale tutta la tradizione degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>, da <persName key="Henry David Thoreau" ref="http://dbpedia.org/resource/Henry_David_Thoreau" type="real">Thoreau</persName> a <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName>, consciamente o inconsciamente mira, riuscendo alla creazione di poderosi individui che passano un buon numero d’anni barbaramente, vivendo e assorbendo, e poi si danno alla cultura, rielaborando la realtà sperimentata in pensieri ed immagini che per la loro dignità e per la schiettezza serena e virile, han qualcosa di quell’equilibrio che usiamo chiamar greco. Siamo ben lontani dai paradisi artificiali che accolgono in capo al mondo i nostri rimbarbariti schizzinosi.</p>
-			<p><persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> entrò nella vita malaticcio e straniato. Sui <date when="1938">diciannove</date>, pare anche che scribacchiasse. Poi d’improvviso, il mare: quattro anni di peripezie e di compagni, la baleneria, le <placeName key="Marquesas Islands  French Polynesia" ref="https://geonames.org/4019977">Marquesas</placeName>, una donna, <placeName key="Tahiti Îles du Vent French Polynesia" ref="https://geonames.org/4033649">Tahiti</placeName>, il <placeName key="Japan  Japan" ref="https://geonames.org/1861060">Giappone</placeName>, i capodogli, qualche lettura, molte fantasticherie, <placeName key="Callao Callao Peru" ref="https://geonames.org/3946083">Callao</placeName>, il <placeName key="Cape Horn Region of Magallanes Chile" ref="https://geonames.org/3887850">Capo Horn</placeName>, e a <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName> nell’<date when="1844-10">ottobre del 1844</date>, scende a terra un uomo quadrato, bruciato dal sole, esperto dei vizi umani e del valore. <quote cert="high" defective="unknown" generatedBy="human" source="#Melville" xml:space="default">«Un gentiluomo pienamente sviluppato è sempre robusto e sano»</quote>, dirà più tardi <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>, in mezzo a una vita di strettezze, di malinconie e, anche, di malanni. Poiché questa gente, tanto pratica, non è affatto superficiale e facilona come si potrebbe sospettare. Quasi tutti gli scrittori nordamericani che più han portato nella letteratura quest’ideale di equilibrio e di serenità hanno compiuta la loro opera in mezzo a difficoltà dure, in mezzo al bisogno e alla malattia. Esempio per tutti, <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" cert="high" type="real">Walt Whitman</persName>, paralitico per quasi vent’anni e spiantato cronico. Poiché anche questo ha contribuito alla loro esperienza della realtà, concentrando loro il pensiero, facendoli più consci. La sanità di questa gente sta, oltreché nel corpo che ne è condizione, nella vitalità e schiettezza di spirito che sopravvivono all’integrità fisica.</p>
+			<p><persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> entrò nella vita malaticcio e straniato. Sui <date when="1938">diciannove</date>, pare anche che scribacchiasse. Poi d’improvviso, il mare: quattro anni di peripezie e di compagni, la baleneria, le <placeName key="Marquesas Islands  French Polynesia" ref="https://geonames.org/4019977">Marquesas</placeName>, una donna, <placeName key="Tahiti Îles du Vent French Polynesia" ref="https://geonames.org/4033649">Tahiti</placeName>, il <placeName key="Japan  Japan" ref="https://geonames.org/1861060">Giappone</placeName>, i capodogli, qualche lettura, molte fantasticherie, <placeName key="Callao Callao Peru" ref="https://geonames.org/3946083">Callao</placeName>, il <placeName key="Cape Horn Region of Magallanes Chile" ref="https://geonames.org/3887850">Capo Horn</placeName>, e a <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName> nell’<date when="1844-10">ottobre del 1844</date>, scende a terra un uomo quadrato, bruciato dal sole, esperto dei vizi umani e del valore. <quote cert="high" defective="unknown" generatedBy="human" source="#Melville" xml:space="default">«Un gentiluomo pienamente sviluppato è sempre robusto e sano»</quote>, dirà più tardi <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>, in mezzo a una vita di strettezze, di malinconie e, anche, di malanni. Poiché questa gente, tanto pratica, non è affatto superficiale e facilona come si potrebbe sospettare. Quasi tutti gli scrittori nordamericani che più han portato nella letteratura quest’ideale di equilibrio e di serenità hanno compiuta la loro opera in mezzo a difficoltà dure, in mezzo al bisogno e alla malattia. Esempio per tutti, Walt Whitman, paralitico per quasi vent’anni e spiantato cronico. Poiché anche questo ha contribuito alla loro esperienza della realtà, concentrando loro il pensiero, facendoli più consci. La sanità di questa gente sta, oltreché nel corpo che ne è condizione, nella vitalità e schiettezza di spirito che sopravvivono all’integrità fisica.</p>
 			<p>E nemmeno <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>, nella sua lunga vita letteraria che comincia il giorno dello sbarco a <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName>, sarà lo scrittore fecondo, un po’ facile ed esteriore, che è scusabile attendersi da chi ha molto viaggiato e veduto di esotico. Parecchi libri li fallirà, in mezzo a sforzi eroici, pur trattandosi, come nel caso di <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title>, di magnifici difetti di crescita ed altri, come <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, rielaborerà o tormenterà fino a rimetterci della salute, fratello in ciò a tanti altri connazionali barbari, che furono invece fra i più incontentabili e raffinati cesellatori del secolo.</p>
 			<p>Un greco veramente è <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>. Voi leggete le evasioni europee dalla letteratura e vi sentite più letterato che mai, vi sentite piccino, cerebrale, effeminato: leggete <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>, che non si vergogna di cominciare <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, il poema della vita barbara, con otto pagine di citazioni, e di andare innanzi discutendo, citando ancora, facendo il letterato, e vi si allargano i polmoni, vi si magnifica il cervello, vi sentite più vivo e più uomo. E, come nei greci, la tragedia (<title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>) ha un bell’essere fosca, è tanta la serenità e la schiettezza del coro (<persName key="Ishmael (Moby-Dick)" ref="http://dbpedia.org/resource/Ishmael_(Moby-Dick)" type="fictional">Ismaele</persName>) che dal teatro si esce sempre soltanto esaltati nella propria capacità vitale.</p>
 			<p/>
