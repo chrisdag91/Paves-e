@@ -4788,85 +4788,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015211657847",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-15T19:16:57.847Z",
-	"dcterms:modified": "2024-10-15T19:16:57.847Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015211657847#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015211657847#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[60]/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "http://viaf.org/viaf/178834148/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?person_annotation_20241015212252286",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-15T19:22:52.286Z",
@@ -6558,8 +6479,8 @@
 			<p>Vita Infinita.</p>
 			<p/>
 			<p>Ma questo non tocca le voci di <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River</title>. Il problema di ciascuno di quei morti rimane sempre lo stesso, fermato nella lapide del suo testamento sepolcrale.</p>
-			<p>Dare saggi di queste epigrafi è un po’ sacrilego. Come sempre in questi casi, l’ideale sarebbe che un editore volonteroso pubblicasse del libro una traduzione integrale. Ma temono che non si venderebbe. Vediamo, quindi, i passi scelti.</p>
-			<p>Io credo che in questo <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">libro</title>, tanto esso è vasto d’esperienza, ognuno possa trovare la sua epigrafe. La rassegna va dal feto non nato al filosofo convertito.</p>
+			<p>Dare saggi di queste epigrafi è un po’ sacrilego. Come sempre in questi casi, l’ideale sarebbe che un editore volonteroso pubblicasse del <rs ref="#work">libro</rs> una traduzione integrale. Ma temono che non si venderebbe. Vediamo, quindi, i passi scelti.</p>
+			<p>Io credo che in questo <rs ref="#work">libro</rs>, tanto esso è vasto d’esperienza, ognuno possa trovare la sua epigrafe. La rassegna va dal feto non nato al filosofo convertito.</p>
 			<p>Ecco il primo:</p>
 			<p/>
 			<p>Uno stelo del globo terrestre,</p>
