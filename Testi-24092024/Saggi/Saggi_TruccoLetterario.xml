@@ -9038,6 +9038,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017160922277",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T14:09:22.277Z",
+	"dcterms:modified": "2024-10-17T14:09:22.277Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017160922277#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017160922277#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[34]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/5128581",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -9074,7 +9153,7 @@
 			<p>Si entra così nel vero cuore della questione sulla «vita interiore» di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName>; questione che in potenza mi par già tutta risolta dalla risposta alle accuse di trucco nell’azione. Senonché molti ancora, specialmente in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>, distinguono bravamente l’azione dai personaggi, i personaggi dallo stile, lo stile dal contenuto.</p>
 			<p>Ritornando perciò al punto di partenza, si immagini <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> come lo sveglio nordamericano che ha vissuto di espedienti per tutti gli Stati dell’<placeName key="North America  " ref="https://geonames.org/6255149">Unione</placeName> e fuori, badando a mettersi da parte quel po’ di ricchezza che gli permette di snocciolarvi alla buona, colle gambe sotto la tavola, tutti i suoi ricordi dell’esistenza condensati in barzellette, in dimostrazioni di bonari paradossi e in qualche tratto commosso per un’amicizia, per un dolore, per un sacrificio lontano; solo così si avrà innanzi la sua «vita interiore».</p>
 			<p>Tutti gli eroi di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> – si osservi – sono di <placeName key="New York City New York United States" ref="https://geonames.org/5128581">Nuova York</placeName> o provinciali che come lui han fatto il tirocinio per tutta l’<placeName key="North America  " ref="https://geonames.org/6255149">Unione</placeName> e finiscono ora scaltriti e indulgenti a riparare nella vecchia <placeName key="Manhattan New York United States" ref="https://geonames.org/5125771">Manhattan</placeName>. Queste persone non sono naturalmente monumenti di psicologia o roghi di passione: la lingua che le descrive, il tono del racconto, la familiarità bonaria dell’evocazione, tutto congiura a ridurne le proporzioni, tutto distende sui fatti una tinta leggera di scherzo e di «filosofia», – che non permette nessun lusso creativo – nel senso comune del termine. Li descrive conversando, <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>, i suoi tipi: dà una pennellata e poi si ferma – guarda l’interlocutore – fa un’osservazione su un ricordo laterale, ammicca cogli occhi, accenna colle mani, cambia di posto al sigaro, dà un’altra pennellata. Poiché lo scopo di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> non è descrivere quel tale o tal altro personaggio in nome dell’umanità: egli tende semplicemente a rappresentarvi nel modo più diretto e meno pedante possibile un ricordo di qualcosa di inaudito, di curioso, di paradossale. L’elemento che comprende e unifica tutto il suo novelliere è appunto questo, l’esposizione scaltrita di un qualcosa di intellettualmente insolito, di bizzarro, di queer.</p>
-			<p>Non potete trovare nessuna legge d’unità ai suoi personaggi se non questa. Ci sono vagabondi nelle sue novelle, scassinatori allegri, malinconici gentiluomini, bevitori, ragazze ingenue, nobili spostati, politicanti, prostitute dai rigidi costumi, sposine disperate per dispetto, assassini: tutta la feccia e il fiore del calderone degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>. Ma nemmeno il richiamo della beatitudine dell’alcool e dell’ozio che è il più universale del mondo di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>, basta a raccoglierli tutti, questi personaggi. La loro vera affinità sta soltanto nella stranezza, nella bizzarria del loro caso, qualche volta triste, quasi sempre allegro, più o meno rassegnato. Avete un esempio. Un signore decaduto, ridotto a dormir sulle panche e a vivere d’espedienti, sente avvicinarsi l’inverno a Nuova York. Che cosa fare? Farsi arrestare. Tre mesi a Staten Island: il riparo e la tranquillità. Come farsi arrestare? Prova a mangiare in un albergo senza un soldo: non lo denunziano, lo picchiano. Prova a spaccare il vetro di un negozio, accusandosi: non gli credono. Prova a dar noia a una signora: la signora ci sta. Viene la sera; il never-wuzzer gira disperato per le strade. Davanti a una chiesa si ferma. Sente un organo. Dolci pensieri cominciano a frullargli, l’infanzia, le illusioni, l’abiettezza presente. Ha deciso: domani comincerà a lavorare e si rifarà la vita. In quel momento un poliziotto trovandolo senza carte lo arresta. Tre mesi di «riparo» a Staten Island.</p>
+			<p>Non potete trovare nessuna legge d’unità ai suoi personaggi se non questa. Ci sono vagabondi nelle sue novelle, scassinatori allegri, malinconici gentiluomini, bevitori, ragazze ingenue, nobili spostati, politicanti, prostitute dai rigidi costumi, sposine disperate per dispetto, assassini: tutta la feccia e il fiore del calderone degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>. Ma nemmeno il richiamo della beatitudine dell’alcool e dell’ozio che è il più universale del mondo di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>, basta a raccoglierli tutti, questi personaggi. La loro vera affinità sta soltanto nella stranezza, nella bizzarria del loro caso, qualche volta triste, quasi sempre allegro, più o meno rassegnato. Avete un esempio. Un signore decaduto, ridotto a dormir sulle panche e a vivere d’espedienti, sente avvicinarsi l’inverno a <placeName key="New York City New York United States" ref="https://geonames.org/5128581">Nuova York</placeName>. Che cosa fare? Farsi arrestare. Tre mesi a Staten Island: il riparo e la tranquillità. Come farsi arrestare? Prova a mangiare in un albergo senza un soldo: non lo denunziano, lo picchiano. Prova a spaccare il vetro di un negozio, accusandosi: non gli credono. Prova a dar noia a una signora: la signora ci sta. Viene la sera; il never-wuzzer gira disperato per le strade. Davanti a una chiesa si ferma. Sente un organo. Dolci pensieri cominciano a frullargli, l’infanzia, le illusioni, l’abiettezza presente. Ha deciso: domani comincerà a lavorare e si rifarà la vita. In quel momento un poliziotto trovandolo senza carte lo arresta. Tre mesi di «riparo» a Staten Island.</p>
 			<p>Come questa se ne potrebbero raccontare mille. Non bisogna aver paura di affermare che la poesia di O. Henry sta proprio e soltanto nel senso ironico e un po’ doloroso di questi contrasti paradossali.</p>
 			<p>Concepita a questo modo la novella – una chiacchiera al bar su un bel caso accaduto – ne consegue che sovente varrà meno l’insieme di un racconto che certi suoi particolari: un’immagine beffarda, un’esclamazione, una scena. Questo, se mai, è un po’ il difetto di O. Henry, non quell’altro dell’«azione superficiale». E si potrebbe far tutto un elenco di locuzioni, di tratti descrittivi, di appellativi scoppiettanti, scultorei, estrosissimi: loro unico difetto, questo, che si possono così bene staccare e raccogliere. Ma per una di queste espressioni un po’ esteriori, quante felicissime! Ad apertura del libro, si può verificare, né io voglio ora dare la caccia alle mosche.</p>
 			<p>È una vera arguzia dialettale quella di O. Henry, nessuna lingua fatta sopporterebbe una gragnuola tanto vulcanica e continuata di modi e di parole. In questo, O. Henry è veramente il Rabelais degli Stati Uniti. E ancora nel gusto, tra erudito e popolaresco, del lasciar correre, del vivere allegri – la Devinière, lo spaccio dell’alcool – i due si somigliano.</p>
