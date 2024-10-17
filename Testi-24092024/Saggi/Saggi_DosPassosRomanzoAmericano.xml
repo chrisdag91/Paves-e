@@ -6379,90 +6379,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133837110",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-14T11:38:37.110Z",
-	"dcterms:modified": "2024-10-14T11:38:37.110Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133837110#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133837110#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[48]/persName[3]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/61588662/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133908115",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-14T11:39:08.115Z",
-	"dcterms:modified": "2024-10-14T11:39:08.115Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -6489,7 +6408,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133908115#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[48]/persName[6]"
+			"rdf:value": "TEI/text/body/p[48]/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -6568,7 +6487,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202427607#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[48]/persName[4]"
+			"rdf:value": "TEI/text/body/p[48]/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -6621,7 +6540,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133953971",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-14T11:39:53.971Z",
-	"dcterms:modified": "2024-10-14T11:39:53.971Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -6648,7 +6566,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133953971#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[48]/persName[5]"
+			"rdf:value": "TEI/text/body/p[48]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -6701,7 +6619,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014134023210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-14T11:40:23.210Z",
-	"dcterms:modified": "2024-10-14T11:40:23.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -6728,7 +6645,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014134023210#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[48]/persName[7]"
+			"rdf:value": "TEI/text/body/p[48]/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -6781,7 +6698,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014134050478",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-14T11:40:50.478Z",
-	"dcterms:modified": "2024-10-14T11:40:50.478Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -6808,7 +6724,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014134050478#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[48]/persName[8]"
+			"rdf:value": "TEI/text/body/p[48]/persName[7]"
 		}
 	},
 	"oa:hasBody": {
@@ -7019,6 +6935,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014134300830",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-14T11:43:00.830Z",
+	"dcterms:modified": "2024-10-14T11:43:00.830Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -7045,7 +6962,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014134300830#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[48]/persName[9]"
+			"rdf:value": "TEI/text/body/p[48]/persName[8]"
 		}
 	},
 	"oa:hasBody": {
@@ -7098,7 +7015,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014134247826",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-14T11:42:47.826Z",
-	"dcterms:modified": "2024-10-14T11:42:47.826Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -7125,7 +7041,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014134247826#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[48]/persName[10]"
+			"rdf:value": "TEI/text/body/p[48]/persName[9]"
 		}
 	},
 	"oa:hasBody": {
@@ -9212,7 +9128,7 @@
 			<p>Qualche volta la scena si fa comica, ma di una comicità a denti stretti; sotto quell’assurdo, quel contrasto risibile, c’è sempre qualcuno che geme o bestemmia; e <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> impassibile rende tutto con la stessa aria oggettiva, rapida, cronistica dell’uomo che ha fretta e non può baloccarsi a cercare gli effetti. Questa è la sua potenza.</p>
 			<p><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">... E <persName ref="#Joe" type="fictional">Joe</persName> e <persName ref="#Del" type="fictional">Del</persName> se ne andarono in un tassì guidato da un uomo che lui conosceva e tutti gettavano riso e <persName ref="#Joe" type="fictional">Joe</persName> scoprì che aveva un cartello Oggi Sposi appuntato alla coda dell’abito e <persName ref="#Del" type="fictional">Del</persName> continuava a piangere e, quando arrivarono all’alloggio, <persName ref="#Del" type="fictional">Del</persName> si chiuse nella stanza da bagno e non rispondeva quando la chiamava e <persName ref="#Joe" type="fictional">Joe</persName> aveva paura che fosse svenuta. <persName ref="#Joe" type="fictional">Joe</persName> si tolse l’abito nuovo di panno blu, il colletto e la cravatta, e camminava avanti e indietro, non sapendo cosa fare. Erano le sei pomeridiane. Doveva trovarsi a bordo a mezzanotte, perché sarebbe partito per la <placeName key="Republic of France  France" ref="https://geonames.org/3017382">Francia</placeName> appena giorno. Non sapeva cosa fare. Pensò che forse <persName ref="#Del" type="fictional">Del</persName> aveva bisogno di mangiar qualcosa e le fece cuocere uova e prosciutto sulla stufa. Quando tutto fu freddo e <persName ref="#Joe" type="fictional">Joe</persName> camminava avanti e indietro bestemmiando fra i denti, <persName ref="#Del" type="fictional">Del</persName> uscì dalla stanza da bagno, fresca e rosea come niente fosse stato. Disse che non poteva mangiar nulla, ma andiamo a un cinema... – Ma cattivaccia, – disse <persName ref="#Joe" type="fictional">Joe</persName>, – io bisogna che tagli la corda a mezzanotte –. <persName ref="#Del" type="fictional">Del</persName> ricominciò a piangere e <persName ref="#Joe" type="fictional">Joe</persName> arrossì e si sentì terribilmente scosso. <persName ref="#Del" type="fictional">Del</persName> gli si appoggiò dicendogli: – Non ci fermeremo per tutto lo spettacolo. Torneremo in tempo –. Egli l’afferrò e cominciò a stringerla, ma lei lo tenne scostato, con forza, e disse: – Dopo. <persName ref="#Joe" type="fictional">Joe</persName> non riuscì a guardare il film. Quando tornarono all’alloggio erano le dieci. Del lasciò che la svestisse, ma poi saltò nel letto e si avvolse intorno le coperte e piagnucolò che aveva paura di fare un bambino e lui doveva aspettare finché lei trovasse come si faceva per non fare un bambino. Tutto ciò che gli permise fu di sfregarsi a lei attraverso le coperte e poi d’un colpo fu mezzanotte meno dieci e <persName ref="#Joe" type="fictional">Joe</persName> dové saltare nei vestiti e precipitarsi alla calata. Un vecchio negro lo portò remando fin dove era ancorata la nave. Era una dolce profumata notte di primavera, senza luna. <persName ref="#Joe" type="fictional">Joe</persName> sentì stridere sul suo capo e cercò di volgere gli occhi per veder passare gli uccelli sopra le stelle pallide. – Son l’oche, padrone, – disse il vecchio negro con voce placida. Quando salì a bordo, tutti cominciarono a pigliarlo in giro e dicevano che aveva l’aria di non star più dritto dalla fatica. <persName ref="#Joe" type="fictional">Joe</persName> non sapeva cosa dire e così parlò grosso e prese in giro gli altri e mentì come un birro.</quote></p>
 			<p>(<title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title>, <persName ref="#JoeWilliams" type="fictional"><persName cert="high" ref="#JoeWilliams " type="fictional">Joe Williams</persName></persName>).</p>
-			<p>La poesia di <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> sta in questo modo asciutto di percepire e rendere le cose. <quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default"><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">«<persName ref="#Joe" type="fictional">Joe</persName> non riuscì a guardare il film»</quote></quote>; e questo è il punto più introspettivo di una narrazione tutta fatti esterni, inesauribilmente e nitidamente esposti, con un distacco che è giudizio morale. Attraverso questo suo orrore di tracciar svolazzi psicologici in una vita dove basta guardare e accumulare le mille parvenze per giudicare, <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> si è fatto uno stile, nella sua umile oggettività ricchissimo di sfumature: sono mezzi gesti, mezze parole, oppure colori odori suoni, pieni di significato, gioiosi nella loro energia espressiva; una novità nella poesia americana, se non si risalga fino a certe pagine d’impressioni, ai jottings disseminati nelle prose e versi di quell’altro enfant terrible di questa cultura, che è Walt Whitman.</p>
+			<p>La poesia di <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> sta in questo modo asciutto di percepire e rendere le cose. <quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default"><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">«<persName ref="#Joe" type="fictional">Joe</persName> non riuscì a guardare il film»</quote></quote>; e questo è il punto più introspettivo di una narrazione tutta fatti esterni, inesauribilmente e nitidamente esposti, con un distacco che è giudizio morale. Attraverso questo suo orrore di tracciar svolazzi psicologici in una vita dove basta guardare e accumulare le mille parvenze per giudicare, <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> si è fatto uno stile, nella sua umile oggettività ricchissimo di sfumature: sono mezzi gesti, mezze parole, oppure colori odori suoni, pieni di significato, gioiosi nella loro energia espressiva; una novità nella poesia americana, se non si risalga fino a certe pagine d’impressioni, ai jottings disseminati nelle prose e versi di quell’altro enfant terrible di questa cultura, che è <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>.</p>
 			<p><quote cert="high" defective="unknown" generatedBy="human" xml:space="default" source="#The42ndParallel ">– ... Di’, <persName cert="high" ref="#Mac">Mac</persName>, faremmo meglio a tenerci nascosti, se vogliamo saltare su quel treno. Ci son certi luridi guardiani su questa linea. – Giusto –. Si allontanarono per un centinaio di metri, nella giovane vegetazione di pini nani e di betulle. Vicino a un grosso ceppo verdemuscoso, <persName ref="#Mac" type="fictional">Mac</persName> si fermò a far acqua. L’orina volava giallosplendida nel sole, scomparendo subito nell’impasto poroso di foglie e legno fradici. <persName cert="high" ref="#Mac">Mac</persName> era pieno di felicità. Diede un calcio al ceppo. Fradicio. Il piede lo attraversò e una polvere minuta, come fumo, s’innalzò, mentre il ceppo rovinava nei cespugli di sambuchi ch’eran dietro.</quote></p>
 			<p>(<title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/" cert="high" level="m">The 42nd Parallel</title>, <persName cert="high" type="fictional"><persName ref="#Mac">Mac</persName></persName>).</p>
 			<p><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">... Le donne facevano il carico. Dopo un po’ cominciarono a salire per una delle passerelle, tutte con un enorme grappolo verde di banane, gettato sulla testa e sulle spalle; c’erano vecchie mamme nere, e giovani mulatte belle; le facce lucevano di sudore sotto i grossi lumi appesi ai grappoli; si potevan vedere i loro seni dondolanti pendere attraverso le vesti lacere, carne bruna attraverso uno strappo in una manica. Quando arrivavano in cima alla passerella, due grandi negri sollevavano amorosamente il grappolo dalle spalle di ciascuna; il sorvegliante dava a costei un pezzo di carta e lei tornava sulla calata correndo per l’altra passerella. Eccettuati gli uomini al motore, l’equipaggio non aveva nulla da fare. Stavan lì intorno, a disagio, guardando le donne, il lampo dei denti e degli occhi bianchi, i seni pesanti, il movimento pompante di quelle cosce. Stavan lì intorno, guardando le donne, grattandosi, cambiando posizione da un piede all’altro; e non dicevan nemmeno troppe sconcezze. Era una calma notte nera; il profumo delle banane e il sentore di donna negra sudata pesavano caldi intorno a loro; di tanto in tanto un po’ di freschezza veniva in uno sbuffo di là da certe casse di cedri ammucchiate sulla calata.</quote></p>
@@ -9247,7 +9163,7 @@
 			<p>(<title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title>, <persName cert="high" ref="#BenCompton"><persName ref="#BenCompton">Ben Compton</persName></persName>).</p>
 			<p>Occorre chiarire bene questa felice posizione di <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> che da noi, troppo unilateralmente, corre il pericolo di venir ridotto a un oratore libellista della scuola sociale di <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Upton Sinclair</persName> e del <persName key="London, Jack, 1876-1916" ref="http://viaf.org/viaf/315943496/" cert="high" type="real">Jack London</persName> di <title key="Iron heel" ref="http://viaf.org/viaf/1847154387445430970009/" level="m">The Iron Heel</title>, oppure a un cerebrale novecentista formato agli influssi europei del <rs key="Futurism" ref="http://dbpedia.org/resource/Futurism">futurismo</rs>, del <rs ref="#frammentismo" type="culturaltrend">frammentismo</rs> e della <rs key="Lethen, Helmut 1939- | Neue Sachlichkeit 1924-1932" ref="http://viaf.org/viaf/9952150382233213500007/">neue Sachlichkeit</rs>, il tutto mal misto e peggio digerito. Si osservi invece come questi due eccessi vengano nelle ultime opere a esaurirsi in un significativo distacco dalla narrazione: il primo, nelle sezioni <title level="a" ref="#FilmGiornale">Film-Giornale</title>, e il secondo, negli <title level="a" ref="#ObbiettivoFotografico ">Obbiettivo Fotografico</title>. Mentre le pagine narrative, sgombre da teoriche o avanguardismi, restano il vero <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName>, fatto di umana comprensione e immediatezza e di una moralità giudicante che supera ogni polemica e ogni ricerca stilistica.</p>
 			<p>In genere, tendiamo troppo noi europei a trovare fonti nostre ai fenomeni spirituali americani; col risultato di ridurre una letteratura – che ora in fatto di poesia ha se mai da insegnarci – a una maldestra esasperazione di motivi nostrali. Sta di fatto che il <placeName key="North America  " ref="https://geonames.org/6255149">Nordamerica</placeName> da tempo possiede una sua ricca tradizione che, in più, è tanto vicina nel tempo da nutrire, anche se non cercata, i suoi giovani, senza quegli sforzi di voluta rinascita che troppo sovente da noi dànno un tono di letteratura ai meglio intenzionati. Che <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName>, come i suoi commilitoni che han vissuto la guerra, abbia imparato qualcosa in <placeName key="Republic of France  France" ref="https://geonames.org/3017382">Francia</placeName> e in Europa, è fuori di discussione e torna a tutto suo onore, dato che è privilegio dei giovani profittare in modo vitale di ogni contatto con altre civiltà; ma anche per lui mi pare si esageri trascurandone le virtù indigene per cercarvi quegli influssi europei che sono l’ossessione della nostra cerebralità. Ora, <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/">Dos Passos</persName> è tutto imbevuto degli spiriti di quella generazione nordamericana ch’era matura al tempo della guerra mondiale. Oltre <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Upton Sinclair</persName> e <persName key="London, Jack, 1876-1916." ref="http://viaf.org/viaf/46764200/" cert="high" type="real">Jack London</persName>, che pure han contato, c’è in lui essenziale l’influsso di <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName> e di <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Lewis</persName> che, all’esposizione polemica di una società malcongegnata, aggiungono il ricco interesse umano verso i tipi di quella società.</p>
-			<p>Ho detto più sopra che <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> si accosta per qualche aspetto a <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q15830815" cert="high" type="real">Walt Whitman</persName>. E questa, per i vertiginosi settant’anni di intervallo tra i due, non paia un’acrobazia. Poiché c’è <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" cert="high" type="real">Carl Sandburg</persName>, coetaneo di Lewis, che tra i due fa da ponte. Di <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" cert="high" type="real">Walt Whitman</persName> è evidente in <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" cert="high" type="real">Sandburg</persName> e poi in <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> il fare stilistico a particolari coordinati, la vivezza impressionistica e quella disinvoltura sintattica, che, più che non il lessico, giova alla diversificazione di un «volgare americano» dall’inglese. Inoltre <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" cert="high" type="real">Carl Sandburg</persName> ha sostituito i problemi sociali dei suoi anni all’apocalittico democratismo whitmaniano, ma per il resto, per la sensibilità, discende bene da quello. E <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName>, in quell’ultimo gruppo di sezioni di <title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/" level="m">The 42nd Parallel</title> e <title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title>, che non han nome collettivo e s’intitolano a volta a volta <title level="a" ref="#BigBill">Big Bill</title>, <title level="a" ref="#ImperatoreDeiCaraibi">Imperatore dei Caraibi</title>, <title level="a" ref="#IlMagodellElettricità">Il Mago dell’Elettricità</title>, <title level="a" ref="#MeesterVeelson">Meester Veelson</title>, <title level="a" ref="#LaCasaDiMorgan">La Casa di Morgan</title>, <title level="a" ref="#IlCorpoDiUnAmericano">Il Corpo di un Americano</title>, ecc., ripete il fare oratorio e muscoloso di quei due. Son specie di poesie biografiche su un individuo rappresentativo americano; figure che han dominato nella vita politica e spirituale del paese, rievocate in tratti rapidi e, anche qui, quasi mai ironici e grossolanamente polemici: <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> guarda piuttosto alla tragedia dell’uomo, anche se suo nemico (e la tragedia c’è sempre); per cui la moralità nasce, non dalle critiche o dalle approvazioni, ma semplicemente da una rappresentazione rapida e severa. Quest’è <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" type="real">Sandburg</persName>:</p>
+			<p>Ho detto più sopra che <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> si accosta per qualche aspetto a <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q15830815" cert="high" type="real">Walt Whitman</persName>. E questa, per i vertiginosi settant’anni di intervallo tra i due, non paia un’acrobazia. Poiché c’è Carl Sandburg, coetaneo di Lewis, che tra i due fa da ponte. Di <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" cert="high" type="real">Walt Whitman</persName> è evidente in <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" cert="high" type="real">Sandburg</persName> e poi in <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> il fare stilistico a particolari coordinati, la vivezza impressionistica e quella disinvoltura sintattica, che, più che non il lessico, giova alla diversificazione di un «volgare americano» dall’inglese. Inoltre <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" cert="high" type="real">Carl Sandburg</persName> ha sostituito i problemi sociali dei suoi anni all’apocalittico democratismo whitmaniano, ma per il resto, per la sensibilità, discende bene da quello. E <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName>, in quell’ultimo gruppo di sezioni di <title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/" level="m">The 42nd Parallel</title> e <title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title>, che non han nome collettivo e s’intitolano a volta a volta <title level="a" ref="#BigBill">Big Bill</title>, <title level="a" ref="#ImperatoreDeiCaraibi">Imperatore dei Caraibi</title>, <title level="a" ref="#IlMagodellElettricità">Il Mago dell’Elettricità</title>, <title level="a" ref="#MeesterVeelson">Meester Veelson</title>, <title level="a" ref="#LaCasaDiMorgan">La Casa di Morgan</title>, <title level="a" ref="#IlCorpoDiUnAmericano">Il Corpo di un Americano</title>, ecc., ripete il fare oratorio e muscoloso di quei due. Son specie di poesie biografiche su un individuo rappresentativo americano; figure che han dominato nella vita politica e spirituale del paese, rievocate in tratti rapidi e, anche qui, quasi mai ironici e grossolanamente polemici: <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> guarda piuttosto alla tragedia dell’uomo, anche se suo nemico (e la tragedia c’è sempre); per cui la moralità nasce, non dalle critiche o dalle approvazioni, ma semplicemente da una rappresentazione rapida e severa. Quest’è <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" type="real">Sandburg</persName>:</p>
 			<p>Conosco un portatore di ghiaccio, vestito di una camicia di flanella con bottoni di</p>
 			<p>madreperla grossi come dollari,</p>
 			<p>e strascina un pane di cento libbre nella ghiacciaia di una liquoreria, si serve di salame</p>
