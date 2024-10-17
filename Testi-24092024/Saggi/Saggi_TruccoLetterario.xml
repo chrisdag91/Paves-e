@@ -8007,6 +8007,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017160327244",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T14:03:27.244Z",
+	"dcterms:modified": "2024-10-17T14:03:27.244Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017160327244#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017160327244#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[30]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/107959665/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017160349875",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T14:03:49.875Z",
+	"dcterms:modified": "2024-10-17T14:03:49.875Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017160349875#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017160349875#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[31]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/107959665/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -8039,8 +8198,8 @@
 			<p>È caratteristica la conclusione dell’avventura di <persName ref="#Miraflores" type="fictional">Miraflores</persName> e <persName ref="#Isabella" type="fictional">Isabella</persName>, salvati dall’equivoco, ma da questo costretti a vivere lontano in una vita fittizia e pressoché insopportabile. A concludere i vari fili del racconto <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> ha immaginato scenette cinematografiche.</p>
 			<p>La scritta sulla sabbia.</p>
 			<p>Scena: La spiaggia a <placeName key="Nice Provence-Alpes-Côte d'Azur France" ref="https://geonames.org/2990440">Nizza</placeName>. Una donna, bella, ancora giovane, squisitamente vestita, compiacente, equilibrata, è piegata accanto all’acqua e scarabocchia pigramente lettere sulla sabbia col manico dell’ombrellino di seta. La bellezza di quel volto è audace; la posa languida è quale voi sentite che non può durare – aspettate, ansiosi, che lei balzi o scivoli o strisci, come una pantera immobilizzatasi inspiegabilmente. Scarabocchia pigramente nella sabbia, e la parola che continua a scrivere è «Isabella». Un uomo siede alcuni metri più in là. Potete vedere che sono compagni, anche non più amici. La faccia di lui è scura e liscia e quasi impenetrabile – ma non del tutto. I due parlano poco insieme. Anche l’uomo scribacchia sulla sabbia col bastone. E la parola che scrive è «Anchuria». Poi guarda al largo, dove il <placeName key="Mediterranean Sea  " ref="https://geonames.org/363196">Mediterraneo</placeName> e il cielo si fondono, colla morte negli occhi.</p>
-			<p>E questo non parrebbe cerebrale. Si è poi naturalmente anche esagerato con la storia dei trucchi nell’azione. Molte volte la novella di O. Henry non presenta che una umoristica stilizzazione di personaggi o di casi, o soltanto riesce singolare come una scena è veduta, come è esposto un parere, come è tratta la «filosofia» del fatto.</p>
-			<p>Si entra così nel vero cuore della questione sulla «vita interiore» di O. Henry; questione che in potenza mi par già tutta risolta dalla risposta alle accuse di trucco nell’azione. Senonché molti ancora, specialmente in America, distinguono bravamente l’azione dai personaggi, i personaggi dallo stile, lo stile dal contenuto.</p>
+			<p>E questo non parrebbe cerebrale. Si è poi naturalmente anche esagerato con la storia dei trucchi nell’azione. Molte volte la novella di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> non presenta che una umoristica stilizzazione di personaggi o di casi, o soltanto riesce singolare come una scena è veduta, come è esposto un parere, come è tratta la «filosofia» del fatto.</p>
+			<p>Si entra così nel vero cuore della questione sulla «vita interiore» di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName>; questione che in potenza mi par già tutta risolta dalla risposta alle accuse di trucco nell’azione. Senonché molti ancora, specialmente in America, distinguono bravamente l’azione dai personaggi, i personaggi dallo stile, lo stile dal contenuto.</p>
 			<p>Ritornando perciò al punto di partenza, si immagini O. Henry come lo sveglio nordamericano che ha vissuto di espedienti per tutti gli Stati dell’Unione e fuori, badando a mettersi da parte quel po’ di ricchezza che gli permette di snocciolarvi alla buona, colle gambe sotto la tavola, tutti i suoi ricordi dell’esistenza condensati in barzellette, in dimostrazioni di bonari paradossi e in qualche tratto commosso per un’amicizia, per un dolore, per un sacrificio lontano; solo così si avrà innanzi la sua «vita interiore».</p>
 			<p>Tutti gli eroi di O. Henry – si osservi – sono di Nuova York o provinciali che come lui han fatto il tirocinio per tutta l’Unione e finiscono ora scaltriti e indulgenti a riparare nella vecchia Manhattan. Queste persone non sono naturalmente monumenti di psicologia o roghi di passione: la lingua che le descrive, il tono del racconto, la familiarità bonaria dell’evocazione, tutto congiura a ridurne le proporzioni, tutto distende sui fatti una tinta leggera di scherzo e di «filosofia», – che non permette nessun lusso creativo – nel senso comune del termine. Li descrive conversando, O. Henry, i suoi tipi: dà una pennellata e poi si ferma – guarda l’interlocutore – fa un’osservazione su un ricordo laterale, ammicca cogli occhi, accenna colle mani, cambia di posto al sigaro, dà un’altra pennellata. Poiché lo scopo di O. Henry non è descrivere quel tale o tal altro personaggio in nome dell’umanità: egli tende semplicemente a rappresentarvi nel modo più diretto e meno pedante possibile un ricordo di qualcosa di inaudito, di curioso, di paradossale. L’elemento che comprende e unifica tutto il suo novelliere è appunto questo, l’esposizione scaltrita di un qualcosa di intellettualmente insolito, di bizzarro, di queer.</p>
 			<p>Non potete trovare nessuna legge d’unità ai suoi personaggi se non questa. Ci sono vagabondi nelle sue novelle, scassinatori allegri, malinconici gentiluomini, bevitori, ragazze ingenue, nobili spostati, politicanti, prostitute dai rigidi costumi, sposine disperate per dispetto, assassini: tutta la feccia e il fiore del calderone degli Stati. Ma nemmeno il richiamo della beatitudine dell’alcool e dell’ozio che è il più universale del mondo di O. Henry, basta a raccoglierli tutti, questi personaggi. La loro vera affinità sta soltanto nella stranezza, nella bizzarria del loro caso, qualche volta triste, quasi sempre allegro, più o meno rassegnato. Avete un esempio. Un signore decaduto, ridotto a dormir sulle panche e a vivere d’espedienti, sente avvicinarsi l’inverno a Nuova York. Che cosa fare? Farsi arrestare. Tre mesi a Staten Island: il riparo e la tranquillità. Come farsi arrestare? Prova a mangiare in un albergo senza un soldo: non lo denunziano, lo picchiano. Prova a spaccare il vetro di un negozio, accusandosi: non gli credono. Prova a dar noia a una signora: la signora ci sta. Viene la sera; il never-wuzzer gira disperato per le strade. Davanti a una chiesa si ferma. Sente un organo. Dolci pensieri cominciano a frullargli, l’infanzia, le illusioni, l’abiettezza presente. Ha deciso: domani comincerà a lavorare e si rifarà la vita. In quel momento un poliziotto trovandolo senza carte lo arresta. Tre mesi di «riparo» a Staten Island.</p>
