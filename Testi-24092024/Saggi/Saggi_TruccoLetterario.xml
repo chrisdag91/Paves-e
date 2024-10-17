@@ -6817,6 +6817,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017155144089",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T13:51:44.089Z",
+	"dcterms:modified": "2024-10-17T13:51:44.089Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017155144089#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017155144089#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[22]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255149",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -6841,7 +6920,7 @@
 			<p>La dialettalità delle short-stories da <persName key="Mark Twain" ref="http://dbpedia.org/resource/Mark_Twain" type="real">Mark Twain</persName> a <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> viene dal bisogno di parlare a un pubblico parecchio democratico (minatori, talvolta) e, ad ogni modo, sempre ad una borghesia che tira al sodo e vuol capire e riconoscere se stessa nei suoi giornali. Poiché naturalmente, da <persName key="Mark Twain" ref="http://dbpedia.org/resource/Mark_Twain" cert="high" type="real">Mark Twain</persName> a <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>, tutta la letteratura che vive è giornalistica.</p>
 			<p>Basterebbe quindi senz’altro, se accadesse per la poesia come per una coltivazione di frutta, definire la novella di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/">O. Henry</persName> l’ultima manifestazione letteraria di quel periodo che comincia coi fogli rozzi di anonimi minatori dove barzellette in dialetto han da rallegrare gente piuttosto triviale e piuttosto provata dall’esistenza.</p>
 			<p>Ma, ripeto, la poesia non è una coltivazione di frutta, e non è ancora dimostrato che un bell’esempio di essa sorga da lunghe stagioni di selezione e di innesto: accade quindi che, spiegato tutto quanto, giovi ricominciare daccapo e richiedersi: <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> ha proprio «creato qualcosa»? O non è piuttosto lo scrittore «leggero» «epidermico» «concettista», e nel senso peggiore di queste parole?</p>
-			<p>Ritorniamo a quei <title key="Henry, O., 1862-1910. | Cabbages and kings" ref="http://viaf.org/viaf/6188164661892903390002/" level="m">Cabbages and Kings</title> di prima. È questo un seguito di novelle raccolte in romanzo. L’ambiente del romanzo è già senz’altro una prova del nuovo cosmopolitismo e imperialismo degli Stati. Una repubblichetta dell’America Centrale, l’Anchuria, allegramente sconvolta da fazioni, retta da personaggi spagnoleschi pieni di parole grandiose e intesi essenzialmente al proprio «particulare». La mano di O. Henry comincia a sentirsi nel modo in cui viene presentata questa materia: i fatti sono visti da Coralio, cittadina di molte capanne e qualche residenza in riva al Mar delle Antille, dove consoli nordamericani e commercianti di banane, di gomme e di scarpe assistono, accompagnandosi con tirate ai fili, alle varie rivoluzioni locali, attribuendo loro quel tanto d’importanza che è lecito a un discreto cittadino dell’Unione, che non crede poi troppo nemmeno alla politica del suo paese. L’atmosfera del racconto è soprattutto la beata indolenza di quel cielo e mare, dove tutto può succedere e nulla succede o, almeno, nulla lascia tracce e, come cade un presidente o muore un cristiano, ne potrebbero cadere e morire centomila e il romanzo sarebbe sempre lo stesso. Ottima è perciò la sua natura chiaramente confessata a episodi, a novelle svariate.</p>
+			<p>Ritorniamo a quei <title key="Henry, O., 1862-1910. | Cabbages and kings" ref="http://viaf.org/viaf/6188164661892903390002/" level="m">Cabbages and Kings</title> di prima. È questo un seguito di novelle raccolte in romanzo. L’ambiente del romanzo è già senz’altro una prova del nuovo cosmopolitismo e imperialismo degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>. Una repubblichetta dell’America Centrale, l’Anchuria, allegramente sconvolta da fazioni, retta da personaggi spagnoleschi pieni di parole grandiose e intesi essenzialmente al proprio «particulare». La mano di O. Henry comincia a sentirsi nel modo in cui viene presentata questa materia: i fatti sono visti da Coralio, cittadina di molte capanne e qualche residenza in riva al Mar delle Antille, dove consoli nordamericani e commercianti di banane, di gomme e di scarpe assistono, accompagnandosi con tirate ai fili, alle varie rivoluzioni locali, attribuendo loro quel tanto d’importanza che è lecito a un discreto cittadino dell’Unione, che non crede poi troppo nemmeno alla politica del suo paese. L’atmosfera del racconto è soprattutto la beata indolenza di quel cielo e mare, dove tutto può succedere e nulla succede o, almeno, nulla lascia tracce e, come cade un presidente o muore un cristiano, ne potrebbero cadere e morire centomila e il romanzo sarebbe sempre lo stesso. Ottima è perciò la sua natura chiaramente confessata a episodi, a novelle svariate.</p>
 			<p>Le famose «insufficienze» di O. Henry, quindi, di macchinosità nell’azione, di trucco cerebrale nella presentazione delle avventure, sarebbero intanto ben esemplificate in questa disinvolta intramatura. Così, ad esempio, il fatto che i due personaggi (il presidente Miraflores e l’attrice Isabella, fuggiti coi denari della repubblica) impendenti e dominanti per tutto il libro, non sono affatto poi chi si crede e quelli son riusciti a scappare e il loro posto lo tengono in Coralio due americani – padre e figlia – fuggiti dalla patria coi denari di una società di assicurazioni, questo fatto non pare che una bizzarria, una trovata del novellatore, il colpo di scena finale voluto dal gusto un po’ grosso e fanciullesco del pubblico. Ma quando si è detto che il libro è tutto costruito così come il solito castello di carte, che cosa si è scoperto di O. Henry, oltre a ciò che con troppa fretta ci ha già lui stesso confessato? Il discorso si può ripetere per ciascuno dei capitoli-novella che compongono il libro e per ogni altra novella che O. Henry abbia mai scritto. Sempre troviamo in lui, nella struttura dell’azione, questi rovesciamenti di valori, questi paradossi, questi bluff.</p>
 			<p>È di qui invece che la faccenda deve cominciare. Non ci sarà proprio che l’azione macchinale di O. Henry? E questo – si noti – sarebbe un difetto altrettanto fatale quanto l’altro di scrittori pure stimatissimi, dove non si trova che frammenti di osservazioni, di «materiale» e l’azione, la costruzione, o non c’è o è come non ci fosse.</p>
 			<p>Rileggetevi, con quella tal cordialità indispensabile a qualunque godimento, tutto il libro di cui parlo – non importano per ora le centinaia di altre novelle – ripensateci un po’ su tenendo a mente i capisaldi storici cui si è accennato e son convinto che alla fine cominceranno i dubbi sulla teoria del trucco. Non avremmo innanzi piuttosto un tipo bizzarro e piacevole di scrittore che vede tutto l’universo come una sconcertante stilizzazione e, lungi dall’inventare paradossali avventure perché non sa cosa dire, questi paradossi sente come la sostanza stessa della vita?</p>
