@@ -10467,6 +10467,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017162217736",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T14:22:17.736Z",
+	"dcterms:modified": "2024-10-17T14:22:17.736Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017162217736#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017162217736#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[40]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255149",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017162236520",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T14:22:36.520Z",
+	"dcterms:modified": "2024-10-17T14:22:36.520Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017162236520#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?place_annotation_20241017162236520#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[39]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255149",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -10508,8 +10666,8 @@
 			<p>Concepita a questo modo la novella – una chiacchiera al bar su un bel caso accaduto – ne consegue che sovente varrà meno l’insieme di un racconto che certi suoi particolari: un’immagine beffarda, un’esclamazione, una scena. Questo, se mai, è un po’ il difetto di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>, non quell’altro dell’«azione superficiale». E si potrebbe far tutto un elenco di locuzioni, di tratti descrittivi, di appellativi scoppiettanti, scultorei, estrosissimi: loro unico difetto, questo, che si possono così bene staccare e raccogliere. Ma per una di queste espressioni un po’ esteriori, quante felicissime! Ad apertura del <rs ref="#work">libro</rs>, si può verificare, né io voglio ora dare la caccia alle mosche.</p>
 			<p>È una vera arguzia dialettale quella di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName>, nessuna lingua fatta sopporterebbe una gragnuola tanto vulcanica e continuata di modi e di parole. In questo, <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> è veramente il <persName key="François Rabelais" ref="http://dbpedia.org/resource/François_Rabelais" type="real">Rabelais</persName> degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati Uniti</placeName>. E ancora nel gusto, tra erudito e popolaresco, del lasciar correre, del vivere allegri – la Devinière, lo spaccio dell’alcool – i due si somigliano.</p>
 			<p>Come Rabelais appare, più che un iniziatore, il coronamento necessario di una tradizione gauloise che s’era essenzialmente espressa nei fabliaux, così <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> conclude la giovinezza spensierata della novella – la shortstory – nordamericana. Questo genere – parliamo una volta tanto del genere – nato con quei tali primi umoristi dei giornali di minatori – portato ai primi trionfi da motteggiatori e dialettisti insigni come Artemas Ward – aveva già eccelso nelle mani di <persName key="Mark Twain" ref="http://dbpedia.org/resource/Mark_Twain" cert="high" type="real">Mark Twain</persName> e <persName key="Bret Harte" ref="http://dbpedia.org/resource/Bret_Harte" type="real">Bret Harte</persName>, i pionieri consci della nuova letteratura non più nuovinglese ma nazionale. Al tempo di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> tutti scrivevano short-stories. Il genere si era arricchito, non c’erano ora solo più le novelle tra umoristiche e sentimentali, ma Ambrose Bierce, ad esempio, rifaceva il verso, piuttosto male, in verità, a Poe; e Jack London – tutti sanno quel che faceva Jack London.</p>
-			<p><persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> trovò il tono con una sicurezza e una tempestività rare. Era anche il meglio adatto di tutti gli scrittori del suo tempo, lui, a parlare su di un giornale a tutta la Nazione. La vena del bizzarro e del cosmopolitico che egli aprì, fu, pur nelle sue precise delimitazioni, il sunto più comprensivo di ogni sforzo novellistico compiuto fino allora nella nuova Nazione. E se pure, come Rabelais, egli conchiuse un periodo, in modo che più nessuno ebbe a fermarsi là ed altre tendenze ebbero a svilupparsi, comunque, la lingua, l’estro espressivo americano, da lui esemplificati e giustificati in mille modi, poterono ben sopravvivergli.</p>
-			<p>La generazione infatti che segue <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> – <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName>, <persName key="Vachel Lindsay" ref="http://dbpedia.org/resource/Vachel_Lindsay" type="real">Lindsay</persName>, <persName cert="high" ref="#EdgardLeeMasters" type="real">Lee Masters</persName>, <persName key="Carl Sandburg" ref="http://dbpedia.org/resource/Carl_Sandburg" type="real">Sandburg</persName>, <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Lewis</persName>, <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> – non dimentica la lezione e nella sua opera di interpretazione e ricreamento degli Usa porterà a termine la grande ribellione linguistica e questa definitivamente si farà tra le nuove mani strumento conscio di una ricerca tutta spirituale.</p>
+			<p><persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> trovò il tono con una sicurezza e una tempestività rare. Era anche il meglio adatto di tutti gli scrittori del suo tempo, lui, a parlare su di un giornale a tutta la Nazione. La vena del bizzarro e del cosmopolitico che egli aprì, fu, pur nelle sue precise delimitazioni, il sunto più comprensivo di ogni sforzo novellistico compiuto fino allora nella nuova <placeName key="North America  " ref="https://geonames.org/6255149">Nazione</placeName>. E se pure, come Rabelais, egli conchiuse un periodo, in modo che più nessuno ebbe a fermarsi là ed altre tendenze ebbero a svilupparsi, comunque, la lingua, l’estro espressivo americano, da lui esemplificati e giustificati in mille modi, poterono ben sopravvivergli.</p>
+			<p>La generazione infatti che segue <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> – <persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName>, <persName key="Vachel Lindsay" ref="http://dbpedia.org/resource/Vachel_Lindsay" type="real">Lindsay</persName>, <persName cert="high" ref="#EdgardLeeMasters" type="real">Lee Masters</persName>, <persName key="Carl Sandburg" ref="http://dbpedia.org/resource/Carl_Sandburg" type="real">Sandburg</persName>, <persName key="Upton, Sinclair, 1878-1968" ref="http://viaf.org/viaf/94923304/" cert="high" type="real">Lewis</persName>, <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" type="real">Anderson</persName> – non dimentica la lezione e nella sua opera di interpretazione e ricreamento degli <placeName key="North America  " ref="https://geonames.org/6255149">Usa</placeName> porterà a termine la grande ribellione linguistica e questa definitivamente si farà tra le nuove mani strumento conscio di una ricerca tutta spirituale.</p>
 		</body>
 	</text>
 </TEI>
