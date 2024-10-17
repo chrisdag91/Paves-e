@@ -3211,7 +3211,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016184353041",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:43:53.041Z",
-	"dcterms:modified": "2024-10-16T16:43:53.041Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -3238,7 +3237,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016184353041#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/persName[5]"
+			"rdf:value": "TEI/text/body/p[14]/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -3290,7 +3289,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016184431613",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:44:31.613Z",
-	"dcterms:modified": "2024-10-16T16:44:31.613Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -3317,7 +3315,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016184431613#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/persName[6]"
+			"rdf:value": "TEI/text/body/p[14]/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -3369,7 +3367,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184450165",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:44:50.165Z",
-	"dcterms:modified": "2024-10-16T16:44:50.165Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -3396,7 +3393,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184450165#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/placeName"
+			"rdf:value": "TEI/text/body/p[14]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -3527,7 +3524,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016184818647",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:48:18.647Z",
-	"dcterms:modified": "2024-10-16T16:48:18.647Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -3554,7 +3550,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016184818647#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/title"
+			"rdf:value": "TEI/text/body/p[14]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -3606,7 +3602,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184840478",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:48:40.478Z",
-	"dcterms:modified": "2024-10-16T16:48:40.478Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -3633,7 +3628,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184840478#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/placeName[2]"
+			"rdf:value": "TEI/text/body/p[14]/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -3685,7 +3680,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016184907143",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:49:07.143Z",
-	"dcterms:modified": "2024-10-16T16:49:07.143Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -3712,7 +3706,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016184907143#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/persName[7]"
+			"rdf:value": "TEI/text/body/p[14]/persName[7]"
 		}
 	},
 	"oa:hasBody": {
@@ -3764,7 +3758,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184925574",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:49:25.574Z",
-	"dcterms:modified": "2024-10-16T16:49:25.574Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -3791,7 +3784,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184925574#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/placeName[3]"
+			"rdf:value": "TEI/text/body/p[14]/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -3843,7 +3836,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184938592",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:49:38.592Z",
-	"dcterms:modified": "2024-10-16T16:49:38.592Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -3870,7 +3862,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?place_annotation_20241016184938592#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/placeName[4]"
+			"rdf:value": "TEI/text/body/p[14]/placeName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -3922,7 +3914,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185003894",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:50:03.894Z",
-	"dcterms:modified": "2024-10-16T16:50:03.894Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -3949,7 +3940,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185003894#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/persName[8]"
+			"rdf:value": "TEI/text/body/p[14]/persName[8]"
 		}
 	},
 	"oa:hasBody": {
@@ -4002,7 +3993,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185016405",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:50:16.405Z",
-	"dcterms:modified": "2024-10-16T16:50:16.405Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -4029,7 +4019,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185016405#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/persName[9]"
+			"rdf:value": "TEI/text/body/p[14]/persName[9]"
 		}
 	},
 	"oa:hasBody": {
@@ -4081,7 +4071,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185142118",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:51:42.118Z",
-	"dcterms:modified": "2024-10-16T16:51:42.118Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -4108,7 +4097,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185142118#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/persName[10]"
+			"rdf:value": "TEI/text/body/p[14]/persName[10]"
 		}
 	},
 	"oa:hasBody": {
@@ -4161,7 +4150,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185157541",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:51:57.541Z",
-	"dcterms:modified": "2024-10-16T16:51:57.541Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -4188,7 +4176,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185157541#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/persName[11]"
+			"rdf:value": "TEI/text/body/p[14]/persName[11]"
 		}
 	},
 	"oa:hasBody": {
@@ -4240,7 +4228,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185211688",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:52:11.688Z",
-	"dcterms:modified": "2024-10-16T16:52:11.688Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -4267,7 +4254,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185211688#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/persName[12]"
+			"rdf:value": "TEI/text/body/p[14]/persName[12]"
 		}
 	},
 	"oa:hasBody": {
@@ -4317,92 +4304,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185242632",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T16:52:42.632Z",
-	"dcterms:modified": "2024-10-16T16:52:42.632Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185242632#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185242632#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/persName[13]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": [
-			"schema:Person",
-			"cwrc:FictionalPerson"
-		],
-		"@id": "http://dbpedia.org/resource/White-Jacket",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185258416",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:52:58.416Z",
-	"dcterms:modified": "2024-10-16T16:52:58.416Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -4429,7 +4333,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016185258416#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/persName[14]"
+			"rdf:value": "TEI/text/body/p[14]/persName[14]"
 		}
 	},
 	"oa:hasBody": {
@@ -4482,7 +4386,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016185313261",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T16:53:13.261Z",
-	"dcterms:modified": "2024-10-16T16:53:13.261Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -4509,7 +4412,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?title_annotation_20241016185313261#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/quote/title[2]"
+			"rdf:value": "TEI/text/body/p[14]/title[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -8442,90 +8345,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016191324523",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T17:13:24.523Z",
-	"dcterms:modified": "2024-10-16T17:13:24.523Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016191324523#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016191324523#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[22]/persName[6]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://dbpedia.org/resource/Herman_Melville",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016191344058",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T17:13:44.058Z",
-	"dcterms:modified": "2024-10-16T17:13:44.058Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -8552,7 +8374,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016191344058#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[22]/persName[7]"
+			"rdf:value": "TEI/text/body/p[22]/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -18203,7 +18025,7 @@
 			<p/>
 			<p><persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> è dunque soprattutto un uomo di lettere e di pensiero che ha cominciato facendo il baleniere, il robinson e il vagabondo. Si ha senz’altro un esempio del suo modo di essere primitivo leggendo i frammenti di quest’elogio della marineria che fa all’autore un lupo di mare conosciuto e rispettato da tutti come il <persName ref="#NobileJack">Nobile Jack</persName>, che nei momenti d’ozio usa recitare, ai colleghi più degni, brani dei <title key="Os Lusíadas" ref="http://dbpedia.org/resource/Os_Lusíadas" level="m">Lusiadi</title>. Ed è il barbaro, lo scopritore in letteratura dei <rs ref="#IMariDelSud">Mari del Sud</rs>, che scrive:</p>
 			<p/>
-			<p><quote cert="high" defective="unknown" generatedBy="human" source="#WhiteJacket_LXV" xml:space="default">Sicuro, <persName ref="#Camoens" type="fictional">Camoens</persName> fu un tempo marinaio! Poi c’è <persName ref="#Falconer">Falconer</persName>, il cui <persName ref="#Naufragio">Naufragio</persName> non andrà mai a fondo, benché lui, povero diavolo, si sia perduto colla fregata <persName ref="#Aurora">Aurora</persName>. Il vecchio <persName key="Noah" ref="http://dbpedia.org/resource/Noah">Noè</persName> fu il primo marinaio. E <persName key="Paul the Apostle" ref="http://dbpedia.org/resource/Paul_the_Apostle">San Paolo</persName> anche, la sapeva la bussola, ragazzo! Ricordate quel capitolo negli <title key="Acts of the Apostles" ref="http://dbpedia.org/resource/Acts_of_the_Apostles" level="m">Atti</title>? Non l’avrei raccontato meglio io. Siete mai stato a <placeName key="Republic of Malta  Malta" ref="https://geonames.org/2562770">Malta</placeName>? La chiamavano <placeName key="Republic of Malta  Malta" ref="https://geonames.org/2562770">Melita</placeName> al tempo dell’<persName key="Paul the Apostle" ref="http://dbpedia.org/resource/Paul_the_Apostle">Apostolo</persName>... E c’è <persName key="Percy Bysshe Shelley" ref="http://dbpedia.org/resource/Percy_Bysshe_Shelley" cert="high" type="real">Shelley</persName> che era tutto un marinaio. <persName key="Percy Bysshe Shelley" ref="http://dbpedia.org/resource/Percy_Bysshe_Shelley" type="real">Shelley</persName> – povero giovane!... – è annegato nel <placeName key="Mediterranean Sea  " ref="https://geonames.org/363196">Mediterraneo</placeName>, sapete, vicino a <placeName key="Livorno Tuscany Italy" ref="https://geonames.org/3174659">Livorno</placeName>... <persName key="John Salusbury-Trelawny" ref="http://dbpedia.org/resource/John_Salusbury-Trelawny" cert="high" type="real">Trelawny</persName> assisteva alla cremazione e anche lui era uno scorridore dell’oceano! Sì, e <persName key="Lord Byron" ref="http://dbpedia.org/resource/Lord_Byron" type="real">Byron</persName> aiutò a mettere un pezzo di chiglia sul fuoco... e non era <persName key="Lord Byron" ref="http://dbpedia.org/resource/Lord_Byron" cert="high" type="real">Byron</persName> un marinaio? Un marinaio dilettante... Ascoltatemi, <persName key="White-Jacket" ref="http://dbpedia.org/resource/White-Jacket" type="fictional">Giacchetta Bianca</persName>, non c’è mai stato un uomo grande che abbia passata tutta la vita a terra... Giurerei che <persName key="William Shakespeare" ref="http://dbpedia.org/resource/William_Shakespeare" cert="high" type="real">Shakespeare</persName> fu pennese del castello. Ricordate la prima scena della <title key="The Tempest" ref="http://dbpedia.org/resource/The_Tempest" level="m">Tempesta</title>?... Un respiro del mare, ragazzo mio, è l’ispirazione... perché, vedete, non c’è trincea per l’oceano; l’oceano strappa subito la falsa chiglia della prora di un buono a nulla; gli dice chi è e glielo fa sentire anche...</quote></p>
+			<p>Sicuro, <persName ref="#Camoens" type="fictional">Camoens</persName> fu un tempo marinaio! Poi c’è <persName ref="#Falconer">Falconer</persName>, il cui <persName ref="#Naufragio">Naufragio</persName> non andrà mai a fondo, benché lui, povero diavolo, si sia perduto colla fregata <persName ref="#Aurora">Aurora</persName>. Il vecchio <persName key="Noah" ref="http://dbpedia.org/resource/Noah">Noè</persName> fu il primo marinaio. E <persName key="Paul the Apostle" ref="http://dbpedia.org/resource/Paul_the_Apostle">San Paolo</persName> anche, la sapeva la bussola, ragazzo! Ricordate quel capitolo negli <title key="Acts of the Apostles" ref="http://dbpedia.org/resource/Acts_of_the_Apostles" level="m">Atti</title>? Non l’avrei raccontato meglio io. Siete mai stato a <placeName key="Republic of Malta  Malta" ref="https://geonames.org/2562770">Malta</placeName>? La chiamavano <placeName key="Republic of Malta  Malta" ref="https://geonames.org/2562770">Melita</placeName> al tempo dell’<persName key="Paul the Apostle" ref="http://dbpedia.org/resource/Paul_the_Apostle">Apostolo</persName>... E c’è <persName key="Percy Bysshe Shelley" ref="http://dbpedia.org/resource/Percy_Bysshe_Shelley" cert="high" type="real">Shelley</persName> che era tutto un marinaio. <persName key="Percy Bysshe Shelley" ref="http://dbpedia.org/resource/Percy_Bysshe_Shelley" type="real">Shelley</persName> – povero giovane!... – è annegato nel <placeName key="Mediterranean Sea  " ref="https://geonames.org/363196">Mediterraneo</placeName>, sapete, vicino a <placeName key="Livorno Tuscany Italy" ref="https://geonames.org/3174659">Livorno</placeName>... <persName key="John Salusbury-Trelawny" ref="http://dbpedia.org/resource/John_Salusbury-Trelawny" cert="high" type="real">Trelawny</persName> assisteva alla cremazione e anche lui era uno scorridore dell’oceano! Sì, e <persName key="Lord Byron" ref="http://dbpedia.org/resource/Lord_Byron" type="real">Byron</persName> aiutò a mettere un pezzo di chiglia sul fuoco... e non era <persName key="Lord Byron" ref="http://dbpedia.org/resource/Lord_Byron" cert="high" type="real">Byron</persName> un marinaio? Un marinaio dilettante... Ascoltatemi, <persName ref="#WhiteJacket" type="fictional">Giacchetta Bianca</persName>, non c’è mai stato un uomo grande che abbia passata tutta la vita a terra... Giurerei che <persName key="William Shakespeare" ref="http://dbpedia.org/resource/William_Shakespeare" cert="high" type="real">Shakespeare</persName> fu pennese del castello. Ricordate la prima scena della <title key="The Tempest" ref="http://dbpedia.org/resource/The_Tempest" level="m">Tempesta</title>?... Un respiro del mare, ragazzo mio, è l’ispirazione... perché, vedete, non c’è trincea per l’oceano; l’oceano strappa subito la falsa chiglia della prora di un buono a nulla; gli dice chi è e glielo fa sentire anche...</p>
 			<p>(<title key="Melville, Herman, 1819-1891. | White Jacket or, The world in a man-of-war" ref="http://viaf.org/viaf/1999155286668687180001/" level="a">White Jacket</title>, cap. LXV).</p>
 			<p/>
 			<p>Occorre aver bene a mente in che consiste questa cultura di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>, che ha tanta parte nella sua opera. Sarebbe un errore credere che quest’uomo si sia formato sul ’<date when="1700">700</date>. Com’è di tutto l’ambiente letterario degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>, <date from="1830" to="1850">dal 1830 al ’50</date> – <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName>, <persName key="Ralph Waldo Emerson" ref="http://dbpedia.org/resource/Ralph_Waldo_Emerson" cert="high" type="real">Emerson</persName>, <persName key="Nathaniel Hawthorne" ref="http://dbpedia.org/resource/Nathaniel_Hawthorne" type="real">Hawthorne</persName>, <persName key="Louisa May Alcott" ref="http://dbpedia.org/resource/Louisa_May_Alcott" cert="high" type="real">Alcott</persName>, ecc. – il ’<date when="1700">700</date>, pure notissimo, è superato, almeno nelle sue parti più settecentesche. <persName key="Benjamin Franklin" ref="http://dbpedia.org/resource/Benjamin_Franklin" type="real">Benjamin Franklin</persName> non interessa più che i patrioti. I gusti di quest’«epoca d’oro» sono affini a quelli inglesi di un <persName key="Samuel Taylor Coleridge" ref="http://dbpedia.org/resource/Samuel_Taylor_Coleridge" cert="high" type="real">Coleridge</persName>, di un <persName key="John Keats" ref="http://dbpedia.org/resource/John_Keats" cert="high" type="real">Keats</persName>, di uno <persName key="Percy Bysshe Shelley" ref="http://dbpedia.org/resource/Percy_Bysshe_Shelley" cert="high" type="real">Shelley</persName>: il grande secolo per costoro è il ’<date when="1600">600</date>, quel ’<date when="1600">600</date> spirituale che comprende anche una buona metà, almeno, del ’<date when="1500">500</date>. Però, mentre un <persName key="John Keats" ref="http://dbpedia.org/resource/John_Keats" type="real">Keats</persName> o uno <persName key="Percy Bysshe Shelley" ref="http://dbpedia.org/resource/Percy_Bysshe_Shelley" cert="high" type="real">Shelley</persName> cercavano, nel primo ’<date when="1600">600</date>, più che altro una tradizione lirica, stilistica, i nordamericani, e <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> innanzi tutti, vi scoprono radici più profonde, non solamente nella memoria della crisi storica che ha originata la colonia, ma nel bisogno di richiami spirituali alla fiera sete di libertà interiore, di al di là</p>
@@ -18211,7 +18033,7 @@
 			<p>Grandi lettori della <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title>, questi americani della <placeName key="New England  United States" ref="https://geonames.org/11919979">Nuova Inghilterra</placeName> (e, si noti, la versione autorizzata inglese è del <date when="1611">1611</date>). In <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> se ne sente a ogni passo la presenza e non soltanto fonicamente nei nomi di <persName key="Achab (Moby-Dick)" ref="http://fr.dbpedia.org/resource/Achab_(Moby-Dick)" type="fictional">Achab</persName>, <persName key="Ishmael (Moby-Dick)" ref="http://dbpedia.org/resource/Ishmael_(Moby-Dick)">Ismaele</persName>, <persName key="Ráhel" ref="http://www.wikidata.org/entity/Q73785947">Rachele</persName>, <persName key="Jeroboam" ref="http://dbpedia.org/resource/Jeroboam">Geroboamo</persName>, <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Bildad</persName>, <persName ref="#Elia">Elia</persName> e tutti gli altri, ma nello spirito continuo di terribilità e severità puritana, che fa, di quello che potrebbe anche parere uno scientifico tale of terror alla <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" cert="high" type="real">Poe</persName>, una fosca tragedia morale dove la catastrofe è opera non di una forza umana o naturale, ma di un mostro che si chiama il leviatan.</p>
 			<p>Il curioso è che <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> mantiene dinanzi alla <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title> uno spregiudicato atteggiamento razionalistico. C’è in <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> un divertentissimo capitolo su <persName key="Jonah" ref="http://dbpedia.org/resource/Jonah">Giona</persName> storicamente considerato. Ed è qui che entra in scena davvero il ’<date when="1600">600</date>.</p>
 			<p>Intanto, il tono frizzante della nuova lingua scientifica e filosofica che andava formandosi, mescolando i paludamenti latineggianti agli scatti nervosi, quasi dialettali, della nuova sensibilità, riecheggia sovente nelle pagine del baleniere puritano. Se fossi certo che l’ha letto, direi che <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> ha preso più di tutto da <persName key="Giordano Bruno" ref="http://dbpedia.org/resource/Giordano_Bruno" type="real">Giordano Bruno</persName>. Ma è spinoso trattare di queste cose. E, a ogni modo, gli scrittori che è più scientifico riconnettergli sono <persName key="François Rabelais" ref="http://dbpedia.org/resource/François_Rabelais" cert="high" type="real">Rabelais</persName> e gli Elisabettiani. Il gusto del catalogo, dell’abbondanza verbale e del vivez joyeux è presente. Persino alla citazione burlesca qualche volta arriva, <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>. E gli Elisabettiani gli han dato quei bagliori di stile, quei paludamenti di immagini, quell’amor dei contrasti che finisce però a essere più disinvoltura fantastica che altro. Ma il razionalismo platonizzato, specialmente di saggisti inglesi, che sotto sotto serpeggia in tutte le</p>
-			<p>manifestazioni spirituali del secolo, è stata la vena dove ha più bevuto <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>. Naturalmente, come ha letto la <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title>, egli ha letto anche <persName key="Plato" ref="http://dbpedia.org/resource/Plato" cert="high" type="real">Platone</persName> e, m’immagino, dal primo all’ultimo, i neoplatonici e i mistici. Ma la forma storica in cui queste tendenze gli si presentarono, fu senz’altro del ’<date when="1600">600</date> inglese. <persName key="Browne, Thomas, 1604?-1673" ref="http://viaf.org/viaf/5999881/" cert="high" type="real">Thomas Browne</persName> fu un suo padre spirituale, non soltanto un maestro di stile, e quella sentenza della <title key="Browne, Thomas, Sir, 1605-1682. | Religio medici. 1643" ref="http://viaf.org/viaf/186257406/" level="m">Religio Medici</title> <quote cert="high" defective="unknown" generatedBy="human" source="#ReligioMedici_I_XII" xml:space="default">«... questo Mondo visibile non è che un’Immagine dell’invisibile dove come in un Ritratto le cose non sono veramente, ma in forme equivoche...»</quote> (parte I, sez. XII) non soltanto ricorre consimile nell’epigrafe alla <title key="Coleridge, Samuel Taylor, 1772-1834. | Rime of the ancient mariner and other poems" ref="http://viaf.org/viaf/4446155105822276320006/" level="m">Ballata dell’Antico Marinaro</title> del <persName key="Samuel Taylor Coleridge" ref="http://dbpedia.org/resource/Samuel_Taylor_Coleridge" cert="high" type="real">Coleridge</persName> – altra chiave essenziale per la comprensione di <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> – ma ritorna in quest’opera stessa sulle labbra del <persName key="Achab (Moby-Dick)" ref="http://fr.dbpedia.org/resource/Achab_(Moby-Dick)" type="fictional">Capitano Achab</persName>, che, benché matto, in filosofia è della scuola dell’<persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">autore</persName>. Ora <persName key="Browne, Thomas, 1604?-1673" ref="http://viaf.org/viaf/5999881/">Thomas Browne</persName>, oltreché una specie di mistico mago, è anche un sottile razionalista e trova certe ragioni alla fede cristiana che, da qualche testa quadra, l’han fatto prendere per un eretico o un ateo.</p>
+			<p>manifestazioni spirituali del secolo, è stata la vena dove ha più bevuto <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>. Naturalmente, come ha letto la <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title>, egli ha letto anche <persName key="Plato" ref="http://dbpedia.org/resource/Plato" cert="high" type="real">Platone</persName> e, m’immagino, dal primo all’ultimo, i neoplatonici e i mistici. Ma la forma storica in cui queste tendenze gli si presentarono, fu senz’altro del ’<date when="1600">600</date> inglese. <persName key="Browne, Thomas, 1604?-1673" ref="http://viaf.org/viaf/5999881/" cert="high" type="real">Thomas Browne</persName> fu un suo padre spirituale, non soltanto un maestro di stile, e quella sentenza della <title key="Browne, Thomas, Sir, 1605-1682. | Religio medici. 1643" ref="http://viaf.org/viaf/186257406/" level="m">Religio Medici</title> <quote cert="high" defective="unknown" generatedBy="human" source="#ReligioMedici_I_XII" xml:space="default">«... questo Mondo visibile non è che un’Immagine dell’invisibile dove come in un Ritratto le cose non sono veramente, ma in forme equivoche...»</quote> (parte I, sez. XII) non soltanto ricorre consimile nell’epigrafe alla <title key="Coleridge, Samuel Taylor, 1772-1834. | Rime of the ancient mariner and other poems" ref="http://viaf.org/viaf/4446155105822276320006/" level="m">Ballata dell’Antico Marinaro</title> del <persName key="Samuel Taylor Coleridge" ref="http://dbpedia.org/resource/Samuel_Taylor_Coleridge" cert="high" type="real">Coleridge</persName> – altra chiave essenziale per la comprensione di <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> – ma ritorna in quest’opera stessa sulle labbra del <persName key="Achab (Moby-Dick)" ref="http://fr.dbpedia.org/resource/Achab_(Moby-Dick)" type="fictional">Capitano Achab</persName>, che, benché matto, in filosofia è della scuola dell’autore. Ora <persName key="Browne, Thomas, 1604?-1673" ref="http://viaf.org/viaf/5999881/">Thomas Browne</persName>, oltreché una specie di mistico mago, è anche un sottile razionalista e trova certe ragioni alla fede cristiana che, da qualche testa quadra, l’han fatto prendere per un eretico o un ateo.</p>
 			<p>Tale è l’atteggiamento di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>. Nelle prime opere d’argomento polinesiano – <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">Typee</title> (<date when="1846">1846</date>) e <title key="Melville, Herman, 1819-1891. | Omoo. 1982" ref="http://viaf.org/viaf/183442551/" level="m">Omoo</title> (<date when="1847">1847</date>) – e in <title key="Melville, Herman, 1819-1891. | White Jacket or, The world in a man-of-war" ref="http://viaf.org/viaf/1999155286668687180001/" level="m">White Jacket</title> (<date when="1850">1850</date>), egli è ancora un giovanotto robusto che ama il sole e il vento, e le belle ragazze indigene e le avventure che finiscon bene: è, si direbbe, ancora inconscio. Ma aprite <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title> (<date when="1848">1848</date>) e finalmente <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> (<date when="1851">1851</date>) e trovate l’esperienza, più vasta, di un uomo tormentato da cose insolubili, tanto da dare, come in <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title>, in stranezze e pasticci allegorici, e, in <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, in qualche declamazione esasperata; ma soprattutto in una lucida e sottile ricerca, in un lavoro scientifico d’esame, di meditazione, di citazione continui, pur di risolvere il mistero.</p>
 			<p>Ora, ci vorrebbe altro a dar qui una chiara idea riassuntiva di <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, ma pur invitando il lettore, che ne avesse ancor bisogno, a lasciar piuttosto da parte qualunque articolo per leggere il libro, dirò che si tratta della crociera della baleniera <persName key="Pequod (Moby-Dick)" ref="http://dbpedia.org/resource/Pequod_(Moby-Dick)" type="fictional">Pequod</persName> per tre oceani, l’<placeName key="Atlantic Ocean  " ref="https://geonames.org/3373405">Atlantico</placeName>, l’<placeName key="Indian Ocean" ref="http://dbpedia.org/resource/Indian_Ocean">Indiano</placeName> e il</p>
 			<p><placeName key="Pacific Ocean  " ref="https://geonames.org/2363254">Pacifico</placeName>, nominalmente, come credono cioè gli armatori e all’imbarco l’equipaggio, alla caccia dei capodogli; ma effettivamente, come, in una scenografia da tregenda, svela e fa giurare all’equipaggio il <persName key="Capitaine Achab" ref="http://fr.dbpedia.org/resource/Capitaine_Achab" type="fictional">Capitano Achab</persName>, a uccidere e far vendetta della <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Balena Bianca</persName> (<persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Moby Dick</persName>), un capodoglio famoso per ferocia, che in una crociera precedente ha mutilato <persName key="Achab" ref="http://dbpedia.org/resource/Achab" type="fictional">Achab</persName>. E la sostanza del libro – che reca anche per sottotitolo <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">The Whale</title> – sta tutta in un equilibrio miracoloso tra minute particolarità tecniche, realistiche, che descrivono gli usi del mare e della baleneria, e folli tratti soprannaturali di segni, di predizioni, irradianti come un alone dal truce e biblico <persName key="Achab" ref="http://dbpedia.org/resource/Achab" type="fictional">Achab</persName>, tutto preso dalla sua monomania. Poiché, per l’equipaggio del <persName key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" type="fictional">Pequod</persName>, <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Moby Dick</persName>, nel magnetismo che ha per il loro comandante e nei terrori di leggenda che sorgono dalle sue gesta, come sono riferite via via dalle navi incontrate, accenna confusamente a diventare un mito coi soliti doppi fondi allegorici.</p>
