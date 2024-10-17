@@ -3598,86 +3598,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014125224401",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-14T10:52:24.401Z",
-	"dcterms:modified": "2024-10-16T18:23:37.494Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014125224401#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014125224401#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[13]/persName[3]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q81438",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?title_annotation_20241014125354934",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-14T10:53:54.934Z",
@@ -6380,10 +6300,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133755432",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202409975",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-14T11:37:55.432Z",
-	"dcterms:modified": "2024-10-16T18:24:09.975Z",
+	"dcterms:created": "2024-10-16T18:24:09.975Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -6394,7 +6313,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133755432#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202409975#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
@@ -6408,7 +6327,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133755432#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202409975#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[48]/persName[2]"
 		}
@@ -6620,10 +6539,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133929148",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202427607",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-14T11:39:29.148Z",
-	"dcterms:modified": "2024-10-16T18:24:27.607Z",
+	"dcterms:created": "2024-10-16T18:24:27.607Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -6634,7 +6552,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133929148#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202427607#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
@@ -6648,7 +6566,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014133929148#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202427607#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[48]/persName[4]"
 		}
@@ -7729,10 +7647,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135353594",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202452482",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-14T11:53:53.594Z",
-	"dcterms:modified": "2024-10-16T18:24:52.482Z",
+	"dcterms:created": "2024-10-16T18:24:52.482Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -7743,7 +7660,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135353594#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202452482#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
@@ -7757,7 +7674,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135353594#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202452482#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[80]/persName"
 		}
@@ -7969,10 +7886,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135541746",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202509372",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-14T11:55:41.746Z",
-	"dcterms:modified": "2024-10-16T18:25:09.372Z",
+	"dcterms:created": "2024-10-16T18:25:09.372Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -7983,7 +7899,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135541746#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202509372#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
@@ -7997,7 +7913,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135541746#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202509372#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[80]/persName[3]"
 		}
@@ -8049,10 +7965,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135615479",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202530602",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-14T11:56:15.479Z",
-	"dcterms:modified": "2024-10-16T18:25:30.602Z",
+	"dcterms:created": "2024-10-16T18:25:30.602Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -8063,7 +7978,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135615479#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202530602#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
@@ -8077,7 +7992,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135615479#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202530602#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[80]/persName[4]"
 		}
@@ -8128,10 +8043,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135654108",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202557532",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-14T11:56:54.108Z",
-	"dcterms:modified": "2024-10-16T18:25:57.532Z",
+	"dcterms:created": "2024-10-16T18:25:57.532Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -8142,7 +8056,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135654108#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202557532#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml",
@@ -8156,7 +8070,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241014135654108#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_DosPassosRomanzoAmericano.xml?person_annotation_20241016202557532#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[80]/persName[5]"
 		}
@@ -9298,7 +9212,7 @@
 			<p>Qualche volta la scena si fa comica, ma di una comicità a denti stretti; sotto quell’assurdo, quel contrasto risibile, c’è sempre qualcuno che geme o bestemmia; e <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> impassibile rende tutto con la stessa aria oggettiva, rapida, cronistica dell’uomo che ha fretta e non può baloccarsi a cercare gli effetti. Questa è la sua potenza.</p>
 			<p><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">... E <persName ref="#Joe" type="fictional">Joe</persName> e <persName ref="#Del" type="fictional">Del</persName> se ne andarono in un tassì guidato da un uomo che lui conosceva e tutti gettavano riso e <persName ref="#Joe" type="fictional">Joe</persName> scoprì che aveva un cartello Oggi Sposi appuntato alla coda dell’abito e <persName ref="#Del" type="fictional">Del</persName> continuava a piangere e, quando arrivarono all’alloggio, <persName ref="#Del" type="fictional">Del</persName> si chiuse nella stanza da bagno e non rispondeva quando la chiamava e <persName ref="#Joe" type="fictional">Joe</persName> aveva paura che fosse svenuta. <persName ref="#Joe" type="fictional">Joe</persName> si tolse l’abito nuovo di panno blu, il colletto e la cravatta, e camminava avanti e indietro, non sapendo cosa fare. Erano le sei pomeridiane. Doveva trovarsi a bordo a mezzanotte, perché sarebbe partito per la <placeName key="Republic of France  France" ref="https://geonames.org/3017382">Francia</placeName> appena giorno. Non sapeva cosa fare. Pensò che forse <persName ref="#Del" type="fictional">Del</persName> aveva bisogno di mangiar qualcosa e le fece cuocere uova e prosciutto sulla stufa. Quando tutto fu freddo e <persName ref="#Joe" type="fictional">Joe</persName> camminava avanti e indietro bestemmiando fra i denti, <persName ref="#Del" type="fictional">Del</persName> uscì dalla stanza da bagno, fresca e rosea come niente fosse stato. Disse che non poteva mangiar nulla, ma andiamo a un cinema... – Ma cattivaccia, – disse <persName ref="#Joe" type="fictional">Joe</persName>, – io bisogna che tagli la corda a mezzanotte –. <persName ref="#Del" type="fictional">Del</persName> ricominciò a piangere e <persName ref="#Joe" type="fictional">Joe</persName> arrossì e si sentì terribilmente scosso. <persName ref="#Del" type="fictional">Del</persName> gli si appoggiò dicendogli: – Non ci fermeremo per tutto lo spettacolo. Torneremo in tempo –. Egli l’afferrò e cominciò a stringerla, ma lei lo tenne scostato, con forza, e disse: – Dopo. <persName ref="#Joe" type="fictional">Joe</persName> non riuscì a guardare il film. Quando tornarono all’alloggio erano le dieci. Del lasciò che la svestisse, ma poi saltò nel letto e si avvolse intorno le coperte e piagnucolò che aveva paura di fare un bambino e lui doveva aspettare finché lei trovasse come si faceva per non fare un bambino. Tutto ciò che gli permise fu di sfregarsi a lei attraverso le coperte e poi d’un colpo fu mezzanotte meno dieci e <persName ref="#Joe" type="fictional">Joe</persName> dové saltare nei vestiti e precipitarsi alla calata. Un vecchio negro lo portò remando fin dove era ancorata la nave. Era una dolce profumata notte di primavera, senza luna. <persName ref="#Joe" type="fictional">Joe</persName> sentì stridere sul suo capo e cercò di volgere gli occhi per veder passare gli uccelli sopra le stelle pallide. – Son l’oche, padrone, – disse il vecchio negro con voce placida. Quando salì a bordo, tutti cominciarono a pigliarlo in giro e dicevano che aveva l’aria di non star più dritto dalla fatica. <persName ref="#Joe" type="fictional">Joe</persName> non sapeva cosa dire e così parlò grosso e prese in giro gli altri e mentì come un birro.</quote></p>
 			<p>(<title key="Dos Passos, John, 1896-1970. | 1919" ref="http://viaf.org/viaf/174146555/" level="m">1919</title>, <persName ref="#JoeWilliams" type="fictional"><persName cert="high" ref="#JoeWilliams " type="fictional">Joe Williams</persName></persName>).</p>
-			<p>La poesia di <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> sta in questo modo asciutto di percepire e rendere le cose. <quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default"><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">«<persName ref="#Joe" type="fictional">Joe</persName> non riuscì a guardare il film»</quote></quote>; e questo è il punto più introspettivo di una narrazione tutta fatti esterni, inesauribilmente e nitidamente esposti, con un distacco che è giudizio morale. Attraverso questo suo orrore di tracciar svolazzi psicologici in una vita dove basta guardare e accumulare le mille parvenze per giudicare, <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> si è fatto uno stile, nella sua umile oggettività ricchissimo di sfumature: sono mezzi gesti, mezze parole, oppure colori odori suoni, pieni di significato, gioiosi nella loro energia espressiva; una novità nella poesia americana, se non si risalga fino a certe pagine d’impressioni, ai jottings disseminati nelle prose e versi di quell’altro enfant terrible di questa cultura, che è <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" cert="high" type="real">Walt Whitman</persName>.</p>
+			<p>La poesia di <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> sta in questo modo asciutto di percepire e rendere le cose. <quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default"><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">«<persName ref="#Joe" type="fictional">Joe</persName> non riuscì a guardare il film»</quote></quote>; e questo è il punto più introspettivo di una narrazione tutta fatti esterni, inesauribilmente e nitidamente esposti, con un distacco che è giudizio morale. Attraverso questo suo orrore di tracciar svolazzi psicologici in una vita dove basta guardare e accumulare le mille parvenze per giudicare, <persName key="Dos Passos, John, 1896-1970." ref="http://viaf.org/viaf/41839211/" cert="high" type="real">Dos Passos</persName> si è fatto uno stile, nella sua umile oggettività ricchissimo di sfumature: sono mezzi gesti, mezze parole, oppure colori odori suoni, pieni di significato, gioiosi nella loro energia espressiva; una novità nella poesia americana, se non si risalga fino a certe pagine d’impressioni, ai jottings disseminati nelle prose e versi di quell’altro enfant terrible di questa cultura, che è Walt Whitman.</p>
 			<p><quote cert="high" defective="unknown" generatedBy="human" xml:space="default" source="#The42ndParallel ">– ... Di’, <persName cert="high" ref="#Mac">Mac</persName>, faremmo meglio a tenerci nascosti, se vogliamo saltare su quel treno. Ci son certi luridi guardiani su questa linea. – Giusto –. Si allontanarono per un centinaio di metri, nella giovane vegetazione di pini nani e di betulle. Vicino a un grosso ceppo verdemuscoso, <persName ref="#Mac" type="fictional">Mac</persName> si fermò a far acqua. L’orina volava giallosplendida nel sole, scomparendo subito nell’impasto poroso di foglie e legno fradici. <persName cert="high" ref="#Mac">Mac</persName> era pieno di felicità. Diede un calcio al ceppo. Fradicio. Il piede lo attraversò e una polvere minuta, come fumo, s’innalzò, mentre il ceppo rovinava nei cespugli di sambuchi ch’eran dietro.</quote></p>
 			<p>(<title key="Dos Passos, John 1896-1970 The 42nd parallel" ref="http://viaf.org/viaf/185050943/" cert="high" level="m">The 42nd Parallel</title>, <persName cert="high" type="fictional"><persName ref="#Mac">Mac</persName></persName>).</p>
 			<p><quote cert="high" defective="unknown" generatedBy="human" source="#1919" xml:space="default">... Le donne facevano il carico. Dopo un po’ cominciarono a salire per una delle passerelle, tutte con un enorme grappolo verde di banane, gettato sulla testa e sulle spalle; c’erano vecchie mamme nere, e giovani mulatte belle; le facce lucevano di sudore sotto i grossi lumi appesi ai grappoli; si potevan vedere i loro seni dondolanti pendere attraverso le vesti lacere, carne bruna attraverso uno strappo in una manica. Quando arrivavano in cima alla passerella, due grandi negri sollevavano amorosamente il grappolo dalle spalle di ciascuna; il sorvegliante dava a costei un pezzo di carta e lei tornava sulla calata correndo per l’altra passerella. Eccettuati gli uomini al motore, l’equipaggio non aveva nulla da fare. Stavan lì intorno, a disagio, guardando le donne, il lampo dei denti e degli occhi bianchi, i seni pesanti, il movimento pompante di quelle cosce. Stavan lì intorno, guardando le donne, grattandosi, cambiando posizione da un piede all’altro; e non dicevan nemmeno troppe sconcezze. Era una calma notte nera; il profumo delle banane e il sentore di donna negra sudata pesavano caldi intorno a loro; di tanto in tanto un po’ di freschezza veniva in uno sbuffo di là da certe casse di cedri ammucchiate sulla calata.</quote></p>
