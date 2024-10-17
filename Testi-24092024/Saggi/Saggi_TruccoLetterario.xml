@@ -805,6 +805,165 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017124839529",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T10:48:39.529Z",
+	"dcterms:modified": "2024-10-17T10:48:39.529Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017124839529#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017124839529#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/107959665/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017124904793",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-17T10:49:04.793Z",
+	"dcterms:modified": "2024-10-17T10:49:04.793Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017124904793#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_TruccoLetterario.xml?person_annotation_20241017124904793#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/107959665/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -815,8 +974,8 @@
 			<p>Da noi sinora questo estroso novellista è stato un po’ troppo malmenato su riviste illustrate, o quasi, che ogni tanto a corto di novità finivano con ricorrere alle sue mille e una notte e di là, traducendo a orecchio, tagliando e rafforzando, continuavano a cavare sconcertanti pagine quasi anonime che bene o male riportavano un po’ di brio in mezzo alle stanche elucubrazioni dei nostri novellatori. Senonché questa volgarizzazione di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> ha servito un po’ troppo a seminare tra noi quella che in America, dove di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> si leggono almeno i volumi intieri, è ormai tendenza diffusa: il sospetto che non tutto quel barbaglio di inventiva inesauribile sia di buona lega.</p>
 			<p>Troppe novelle brillanti avrebbe scritto <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>. E alla ventunesima si grida basta. Ma intanto, chi non ha gridato basta a un certo punto di un qualunque novelliere? Sono cose queste come le raccolte, che usavano una volta, di epigrammi o di sonetti: vanno lette a piccole dosi, a rate.</p>
 			<p>Senonché <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> sarebbe stucchevole non in quanto novellista ma proprio in quanto scrittore. I suoi racconti, è ormai assodato, finiscono con urtare perché sono vuoti, perché della realtà non dànno che l’epidermide, perché in essi freddure e paradossi sono il lenocinio di una povera vita interiore.</p>
-			<p>Lasciamo stare – per ora – la «vita interiore»: personalmente posso affermare che a leggere <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> quasi sempre ci si diverte e sempre si ha innanzi un tipo d’uomo simpaticissimo che, pieno di brio come uno dei suoi tanti eroi di whisky, continua a raccontare storielle e barzellette e avventure con una cordialità e uno spirito, senz’altro, eccezionali. Coloro quindi che si lamentano che <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> non ha creato nulla, nessun personaggio, hanno intanto, almeno per una volta, torto: un personaggio c’è, vivo e parlante – anche troppo – che tutti i momenti ha da dire la sua e – oh rabbia – la dice quasi sempre bene: <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>, per gli amici William S. Porter. Uno scrittore occorre anche starlo un po’ a sentire e se qualcuno avesse detto in faccia di O. Henry che ci voleva più umanità dolorante o che so io, quello sicuramente gli avrebbe consigliato di pigliarla più bassa, ché ad insistere su certe fissazioni si va a rischio di perdere quel poco che c’è e di guastarsi l’anima per quel poco che non c’è.</p>
-			<p>Poiché è onesto O. Henry. Non cerca lui di bluffare, come tanti suoi simpaticissimi personaggi, ma fin dalle prime pagine del suo libro più bello vi svela il trucco, se trucco c’è e non invece la disinvoltura di ogni artista degno del nome:</p>
+			<p>Lasciamo stare – per ora – la «vita interiore»: personalmente posso affermare che a leggere <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName> quasi sempre ci si diverte e sempre si ha innanzi un tipo d’uomo simpaticissimo che, pieno di brio come uno dei suoi tanti eroi di whisky, continua a raccontare storielle e barzellette e avventure con una cordialità e uno spirito, senz’altro, eccezionali. Coloro quindi che si lamentano che <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> non ha creato nulla, nessun personaggio, hanno intanto, almeno per una volta, torto: un personaggio c’è, vivo e parlante – anche troppo – che tutti i momenti ha da dire la sua e – oh rabbia – la dice quasi sempre bene: <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>, per gli amici William S. Porter. Uno scrittore occorre anche starlo un po’ a sentire e se qualcuno avesse detto in faccia di <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" type="real">O. Henry</persName> che ci voleva più umanità dolorante o che so io, quello sicuramente gli avrebbe consigliato di pigliarla più bassa, ché ad insistere su certe fissazioni si va a rischio di perdere quel poco che c’è e di guastarsi l’anima per quel poco che non c’è.</p>
+			<p>Poiché è onesto <persName key="Henry, O., 1862-1910" ref="http://viaf.org/viaf/107959665/" cert="high" type="real">O. Henry</persName>. Non cerca lui di bluffare, come tanti suoi simpaticissimi personaggi, ma fin dalle prime pagine del suo libro più bello vi svela il trucco, se trucco c’è e non invece la disinvoltura di ogni artista degno del nome:</p>
 			<p>È contrario tanto all’arte che alla filosofia anticiparvi questo... L’arte del raccontare consiste nel tener nascosto all’uditorio tutto quello che lui vuol sapere, finché non avete prima esposto le vostre opinioni favorite su argomenti estranei al soggetto. Un buon racconto è come una pillola amara col rivestimento di zucchero all’interno. Comincerò quindi, se permettete, con un oroscopo... (Cabbages and Kings).</p>
 			<p>Ora, una simile confessione, fatta dov’è fatta, può chiarire le intenzioni e i modi di O. Henry. Anzitutto egli non esce da una società raffinata come quella di un Maupassant o di un Flaubert, e non si è quindi mai sognato di vagheggiare una letteratura impersonale, realistica o primitiveggiante. Non che si preferisca qui una ricetta a un’altra, ché l’importante è dir qualcosa in qualunque delle molte, ma serve al nostro caso distinguere bene O. Henryda quegli altri, perché troppi non trovandolo un secondo Maupassant lo hanno bocciato.</p>
 			<p>O. Henry vi afferma chiaro di concepire la novella come un discorso traverso, come una serie di trucchi verbali e costruttivi che sembrano e non sono, come un continuo commento e una controscena del narratore ai fatti dei suoi personaggi: tanto che, come ho già accennato, il personaggio che finisce con saltare più agli occhi nelle sue pagine è lui stesso che vi parla.</p>
