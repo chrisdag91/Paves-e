@@ -6341,88 +6341,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016135704397",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T11:57:04.397Z",
-	"dcterms:modified": "2024-10-16T11:57:04.397Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016135704397#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?person_annotation_20241016135704397#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[11]/persName[5]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": [
-			"schema:Person",
-			"cwrc:FictionalPerson"
-		],
-		"@id": "http://dbpedia.org/resource/List_of_Moby-Dick_characters",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_PrefazioneMobyDick.xml?place_annotation_20241016135747079",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T11:57:47.079Z",
@@ -6643,7 +6561,7 @@
 			<p>Si pensi che <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> è una specie di fusione e, con ciò, di superamento di <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Edgardo Poe</persName> e <persName key="Hawthorne, Nathaniel, 1804-1864." ref="http://viaf.org/viaf/44435463/">Nataniele Hawthorne</persName>. Nel nostro caso, <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> è, in un migliaio di pagine, una novella alla <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName>, con tutta la sua costruzione, i suoi effetti ragionati di terrore, la sua matematicità anche di lingua; e, insieme, una di quelle analisi morali di peccatori, di ribelli a Dio che, espresse in uno stile caldo e sfavillante da sermone, legano il nome della <title level="m" ref="#LetteraScarlatta">Lettera Scarlatta</title> più forse alla storia del puritanesimo che non a quella della poesia.</p>
 			<p>In quel tempo in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> o più precisamente nella <placeName key="New England  United States" ref="https://geonames.org/11919979">Nuova Inghilterra</placeName>, la stabilità nazionale allora raggiunta aguzzava il desiderio di una cultura propria, di una tradizione. Questo che sarà il problema cronico degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName> e susciterà ancor oggi tanti disprezzi in <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> verso questi parvenus della cultura, è invece il segno della nobiltà del loro sforzo e del loro destino.</p>
 			<p>Poichè avere una tradizione è meno che nulla, è soltanto cercandola che si può viverla.</p>
-			<p>E <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> e contemporanei la cercarono, da buoni puritani, nel secolo delle lotte religiose in <placeName key="England England United Kingdom" ref="https://geonames.org/6269131" cert="high">Inghilterra<precision match="@ref" precision="high"/></placeName>, in quel secolo di visionari, di libellisti teologici e di interpretatori della <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title>, da cui era nata l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. Anche <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName>, che pure è nella sua opera abbastanza areligioso, ha fatto grandi indigestioni di <date from="1500" to="1600">‘500 e ‘600</date>, volgendosi essenzialmente agli scrittori di magia, di cose occulte e ai platonisti. Tutta gente che non dispiaceva neanche a <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>. E <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, così ragionato e tecnico com’è, vale soprattutto per l’ispirazione biblica. In esso <persName ref="#MobyDick" type="fictional">la Balena</persName>, dopo tutte le classificazioni e i nomi scientifici ed archeologici, rimane soprattutto il <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Leviatan</persName>.</p>
+			<p>E <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> e contemporanei la cercarono, da buoni puritani, nel secolo delle lotte religiose in <placeName key="England England United Kingdom" ref="https://geonames.org/6269131" cert="high">Inghilterra<precision match="@ref" precision="high"/></placeName>, in quel secolo di visionari, di libellisti teologici e di interpretatori della <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title>, da cui era nata l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. Anche <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName>, che pure è nella sua opera abbastanza areligioso, ha fatto grandi indigestioni di <date from="1500" to="1600">‘500 e ‘600</date>, volgendosi essenzialmente agli scrittori di magia, di cose occulte e ai platonisti. Tutta gente che non dispiaceva neanche a <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>. E <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, così ragionato e tecnico com’è, vale soprattutto per l’ispirazione biblica. In esso <persName ref="#MobyDick" type="fictional">la Balena</persName>, dopo tutte le classificazioni e i nomi scientifici ed archeologici, rimane soprattutto il <persName ref="#Leviatan" type="fictional">Leviatan</persName>.</p>
 			<p>Leggete quest’opera tenendo a mente la <title key="Bible" ref="http://dbpedia.org/resource/Bible" level="m">Bibbia</title> e vedrete come quello che vi potrebbe anche parere un curioso romanzo d’avventure, un poco lungo a dire il vero e un poco oscuro, vi si svelerà invece per un vero e proprio poema sacro cui non sono mancati nè il cielo nè la terra a por mano. Dal primo estratto di citazione <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«E <persName key="God" ref="http://dbpedia.org/resource/God" cert="high" type="fictional">Dio</persName> creò grandi balene»</quote> fino all’epilogo, di <persName key="Job (biblical figure)" ref="http://dbpedia.org/resource/Job_(biblical_figure)">Giobbe</persName>: <quote cert="high" defective="unknown" generatedBy="human" source="#MobyDick" xml:space="default">«E io solo sono scampato a raccontarvela»</quote> è tutta un’atmosfera di solennità e severità da <title key="Old Testament" ref="http://www.wikidata.org/entity/Q19786" level="m">Vecchio Testamento</title>, di orgogli umani che si rintuzzano dinanzi a <persName key="God" ref="http://dbpedia.org/resource/God" type="fictional">Dio</persName>, di terrori naturali che son la diretta manifestazione di Lui. Quei primi capitoli, che son anche parsi superflui, sulle tetre lapidi dei balenieri di <placeName key="New Bedford Massachusetts United States" ref="https://geonames.org/4945121">Nuove Bedford</placeName> e sul sermone di <persName key="Jonah" ref="http://dbpedia.org/resource/Jonah">Giona</persName>, sono invece una parte essenziale del racconto: il brivido della baleneria che si fonde, al suo primo manifestarsi, col terror sacro puritano. Poichè non c’è nulla di superfluo, rispetto al tono del libro, in quest’epigrafe:</p>
 			<p/>
 			<p>CONSACRATO ALLA MEMORIA</p>
