@@ -3918,85 +3918,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015143732295",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-15T12:37:32.295Z",
-	"dcterms:modified": "2024-10-15T12:37:32.295Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015143732295#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015143732295#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "http://viaf.org/viaf/178834148/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?title_annotation_20241015143852950",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-15T12:38:52.950Z",
@@ -6744,7 +6665,7 @@
 			<p>Ora – lasciando stare che in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> il villaggio era già stato passato al crogiolo da <persName key="Hawthorne, Nathaniel, 1804-1864." ref="http://viaf.org/viaf/44435463/" cert="high" type="real">Hawthorne</persName> per lo meno nel <date when="1846">1846</date> – sarebbe, ai nostri occhi, un titolo ben magro per i nuovi scrittori, quello di aver per tutta novità rivolta l’attenzione a un loro ambiente locale, pieno di problemi locali e risolti questi ultimi in modi di vita locali. Ché, se poi vogliamo leggere sulla vita di provincia, sono anche troppi gli scrittori europei che ne han trattato.</p>
 			<p>Dov’è, dunque, il grande interesse di quei libri?</p>
 			<p>La verità mi pare anzitutto questa: che, se si prende <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Edgar Lee Masters</persName>, come vogliono, per un antipuritano, lo si riduce a un ben misero e trascurabile libellista. Sono già seccanti in casa propria, i problemi di questo genere. Vero che, come del resto in tutti i libri – americani o europei – che valgono qualcosa, c’è nella <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River</title> un ambiente, un’esperienza, indigeni; un ricorrere di modi di vita e di tipi nazionali che, a ogni modesto frequentatore di cinema, saltano agli occhi come conoscenze vecchie. Ma questo non è che la schiettezza del libro, la sua diretta ispirazione dalla vita, la sua materia e, ripeto, tutti i libri di qualche valore più o meno mostrano questa caratteristica.</p>
-			<p>Bisogna capire che, con questo sfondo nazionale, il fatto importante non sta nella polemica contro certi modi puritani (polemica, del resto, ridotta a ben poco nel <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">libro</title>) ma nell’ardore invece veramente da puritano con cui sono affrontati, oltre il particolare momento storico, il problema del senso dell’esistenza e il problema delle proprie azioni: ardore e problemi essenzialmente morali e di non lontano sapore biblico. Ché se poi nella ricerca qualche botta va alla struttura storica, puritanesca, del paese, questo può interessar molto gli americani che questa struttura se la vedono intorno e sentono addosso, ma poco noi, a meno che la poesia dell’autore non abbia mutata quella, che per gli indigeni e gli studiosi è una chiara allusione, in una figura che sia, non più un semplice nome storico, ma una nuova creatura. E, per far questo, per riuscire in quest’opera di creazione – ch’io credo in gran parte compiuta – mi pare persin banale dire che l’autore ha dovuto amare il suo ambiente, godersi i propri personaggi, sentirli nascere nel suo spirito.</p>
+			<p>Bisogna capire che, con questo sfondo nazionale, il fatto importante non sta nella polemica contro certi modi puritani (polemica, del resto, ridotta a ben poco nel <rs ref="#work">libro</rs>) ma nell’ardore invece veramente da puritano con cui sono affrontati, oltre il particolare momento storico, il problema del senso dell’esistenza e il problema delle proprie azioni: ardore e problemi essenzialmente morali e di non lontano sapore biblico. Ché se poi nella ricerca qualche botta va alla struttura storica, puritanesca, del paese, questo può interessar molto gli americani che questa struttura se la vedono intorno e sentono addosso, ma poco noi, a meno che la poesia dell’autore non abbia mutata quella, che per gli indigeni e gli studiosi è una chiara allusione, in una figura che sia, non più un semplice nome storico, ma una nuova creatura. E, per far questo, per riuscire in quest’opera di creazione – ch’io credo in gran parte compiuta – mi pare persin banale dire che l’autore ha dovuto amare il suo ambiente, godersi i propri personaggi, sentirli nascere nel suo spirito.</p>
 			<p>Sono rarissime le caricature polemiche in <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Lee Masters</persName>. L’ardore di ognuna delle centinaia di anime sepolte in Spoon River si è fatto il suo ardore, e veramente il poeta ci parla per la bocca di ognuna. Ha una tal serietà e sincerità, questa ricerca sempre rinnovata del valore dell’esistenza in articulo mortis, che, anche per <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Lee Masters</persName>, vien da ripetere quello che è ormai un luogo comune nella storia della cultura nordamericana: all’opposizione contro il puritanesimo ci sono sempre stati i più grandi puritani.</p>
 			<p>La <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River Anthology</title>, uscita a pezzo a pezzo su un settimanale del <placeName key="Midwest  United States" ref="https://geonames.org/11887750">Middle West</placeName> (3) è un gran corpo di epigrafi sepolcrali poste sulle labbra, secondo il buon gusto classico, ai morti stessi, di un villaggetto tipico nordamericano, <placeName key="Lewistown Missouri United States" ref="https://geonames.org/5055908">Spoon River</placeName>. Naturalmente vien subito da pensare che ci sia qui un influsso dell’<title key="Antologia Palatina" ref="http://viaf.org/viaf/8314150325552710090008/" level="m">Antologia Palatina</title>. E, a parte lo spirito che, in quegli addii ellenistici alla vita, di vergini, di naviganti, di cortigiane, di guerrieri, di filosofi, di contadini e di poeti, è un tenero o stoico rimpianto per la luce del sole – mentre vedremo tutta la complessa modernità e trascendenza delle aspirazioni di <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River</title> – a parte lo spirito, non è impossibile che <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Lee Masters</persName> da quegli epigrammi abbia tratta l’idea formale del suo libro: il titolo e lo stampo dell’epigrafe, rapida, sentenziosa, classica. Ma anche in ciò abbiamo un rinnovamento: la forma, pur serbando il verso, ignora la rima e il ritmo. Questo ha cominciato a dar nel naso a molti: han trovato che così vien fuori uno stile odiosamente prosaico. È inutile discutere: se uno non sente da sé la solennità tragica e definitiva di quelle poche frasi, poste a concludere una vita, in un verseggiare così sobrio e pacato, che ha semplicemente l’ufficio di segnare il pensiero, dubito che</p>
 			<p>qualunque discorso lo possa mai educare.</p>
