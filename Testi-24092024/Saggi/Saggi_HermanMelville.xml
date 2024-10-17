@@ -14964,89 +14964,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016194738499",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T17:47:38.499Z",
-	"dcterms:modified": "2024-10-16T17:47:38.499Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016194738499#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016194738499#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[43]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": [
-			"schema:Person",
-			"cwrc:FictionalPerson"
-		],
-		"@id": "http://dbpedia.org/resource/List_of_Moby-Dick_characters",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016194804643",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T17:48:04.643Z",
@@ -18628,90 +18545,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016200808953",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T18:08:08.953Z",
-	"dcterms:modified": "2024-10-16T18:08:08.953Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016200808953#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016200808953#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[58]/persName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://dbpedia.org/resource/Herman_Melville",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016200832345",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T18:08:32.345Z",
-	"dcterms:modified": "2024-10-16T18:08:32.345Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -18738,7 +18574,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016200832345#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[59]/persName[2]"
+			"rdf:value": "TEI/text/body/p[59]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -18910,86 +18746,6 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
 	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016201552276",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T18:15:52.276Z",
-	"dcterms:modified": "2024-10-16T18:15:52.276Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/eleonoragatto",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Eleonora Gatto"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016201552276#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_HermanMelville.xml?person_annotation_20241016201552276#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[59]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q81438",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -19242,7 +18998,7 @@
 			<p>Non a caso <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> è un nordamericano. Questi ultimi arrivati della cultura che, dai suoi difensori, sono tenuti responsabili del rimbarbarimento dei nostri ideali e, biasimo escluso, con ragione, han molto da insegnarci a questo proposito. Loro sì, hanno saputo rinnovarsi, passando</p>
 			<p>la cultura attraverso l’esperienza primitiva, reale, ma non, com’è l’andazzo da noi, rinnegando un termine per l’altro, bensì, attraverso ciò che si chiama la vita, arricchendo, temprando e potenziando la letteratura.</p>
 			<p>«Un pensiero non significa nulla di nulla se non è pensato con tutto il corpo», questa è bene una sentenza americana e a quest’ideale tutta la tradizione degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>, da <persName key="Henry David Thoreau" ref="http://dbpedia.org/resource/Henry_David_Thoreau" type="real">Thoreau</persName> a <persName key="Anderson, Sherwood, 1876-1941." ref="http://viaf.org/viaf/39372890/" cert="high" type="real">Sherwood Anderson</persName>, consciamente o inconsciamente mira, riuscendo alla creazione di poderosi individui che passano un buon numero d’anni barbaramente, vivendo e assorbendo, e poi si danno alla cultura, rielaborando la realtà sperimentata in pensieri ed immagini che per la loro dignità e per la schiettezza serena e virile, han qualcosa di quell’equilibrio che usiamo chiamar greco. Siamo ben lontani dai paradisi artificiali che accolgono in capo al mondo i nostri rimbarbariti schizzinosi.</p>
-			<p><persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> entrò nella vita malaticcio e straniato. Sui <date when="1938">diciannove</date>, pare anche che scribacchiasse. Poi d’improvviso, il mare: quattro anni di peripezie e di compagni, la baleneria, le <placeName key="Marquesas Islands  French Polynesia" ref="https://geonames.org/4019977">Marquesas</placeName>, una donna, <placeName key="Tahiti Îles du Vent French Polynesia" ref="https://geonames.org/4033649">Tahiti</placeName>, il <placeName key="Japan  Japan" ref="https://geonames.org/1861060">Giappone</placeName>, i capodogli, qualche lettura, molte fantasticherie, <placeName key="Callao Callao Peru" ref="https://geonames.org/3946083">Callao</placeName>, il <placeName key="Cape Horn Region of Magallanes Chile" ref="https://geonames.org/3887850">Capo Horn</placeName>, e a <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName> nell’<date when="1844-10">ottobre del 1844</date>, scende a terra un uomo quadrato, bruciato dal sole, esperto dei vizi umani e del valore. <quote cert="high" defective="unknown" generatedBy="human" source="#Melville" xml:space="default">«Un gentiluomo pienamente sviluppato è sempre robusto e sano»</quote>, dirà più tardi <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>, in mezzo a una vita di strettezze, di malinconie e, anche, di malanni. Poiché questa gente, tanto pratica, non è affatto superficiale e facilona come si potrebbe sospettare. Quasi tutti gli scrittori nordamericani che più han portato nella letteratura quest’ideale di equilibrio e di serenità hanno compiuta la loro opera in mezzo a difficoltà dure, in mezzo al bisogno e alla malattia. Esempio per tutti, Walt Whitman, paralitico per quasi vent’anni e spiantato cronico. Poiché anche questo ha contribuito alla loro esperienza della realtà, concentrando loro il pensiero, facendoli più consci. La sanità di questa gente sta, oltreché nel corpo che ne è condizione, nella vitalità e schiettezza di spirito che sopravvivono all’integrità fisica.</p>
+			<p><persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> entrò nella vita malaticcio e straniato. Sui <date when="1938">diciannove</date>, pare anche che scribacchiasse. Poi d’improvviso, il mare: quattro anni di peripezie e di compagni, la baleneria, le <placeName key="Marquesas Islands  French Polynesia" ref="https://geonames.org/4019977">Marquesas</placeName>, una donna, <placeName key="Tahiti Îles du Vent French Polynesia" ref="https://geonames.org/4033649">Tahiti</placeName>, il <placeName key="Japan  Japan" ref="https://geonames.org/1861060">Giappone</placeName>, i capodogli, qualche lettura, molte fantasticherie, <placeName key="Callao Callao Peru" ref="https://geonames.org/3946083">Callao</placeName>, il <placeName key="Cape Horn Region of Magallanes Chile" ref="https://geonames.org/3887850">Capo Horn</placeName>, e a <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName> nell’<date when="1844-10">ottobre del 1844</date>, scende a terra un uomo quadrato, bruciato dal sole, esperto dei vizi umani e del valore. <quote cert="high" defective="unknown" generatedBy="human" source="#Melville" xml:space="default">«Un gentiluomo pienamente sviluppato è sempre robusto e sano»</quote>, dirà più tardi <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>, in mezzo a una vita di strettezze, di malinconie e, anche, di malanni. Poiché questa gente, tanto pratica, non è affatto superficiale e facilona come si potrebbe sospettare. Quasi tutti gli scrittori nordamericani che più han portato nella letteratura quest’ideale di equilibrio e di serenità hanno compiuta la loro opera in mezzo a difficoltà dure, in mezzo al bisogno e alla malattia. Esempio per tutti, <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>, paralitico per quasi vent’anni e spiantato cronico. Poiché anche questo ha contribuito alla loro esperienza della realtà, concentrando loro il pensiero, facendoli più consci. La sanità di questa gente sta, oltreché nel corpo che ne è condizione, nella vitalità e schiettezza di spirito che sopravvivono all’integrità fisica.</p>
 			<p>E nemmeno <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName>, nella sua lunga vita letteraria che comincia il giorno dello sbarco a <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName>, sarà lo scrittore fecondo, un po’ facile ed esteriore, che è scusabile attendersi da chi ha molto viaggiato e veduto di esotico. Parecchi libri li fallirà, in mezzo a sforzi eroici, pur trattandosi, come nel caso di <title key="Melville, Herman, 1819-1891. | Mardi and a voyage thither" ref="http://viaf.org/viaf/176487338/" level="m">Mardi</title>, di magnifici difetti di crescita ed altri, come <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, rielaborerà o tormenterà fino a rimetterci della salute, fratello in ciò a tanti altri connazionali barbari, che furono invece fra i più incontentabili e raffinati cesellatori del secolo.</p>
 			<p>Un greco veramente è <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>. Voi leggete le evasioni europee dalla letteratura e vi sentite più letterato che mai, vi sentite piccino, cerebrale, effeminato: leggete <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>, che non si vergogna di cominciare <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, il poema della vita barbara, con otto pagine di citazioni, e di andare innanzi discutendo, citando ancora, facendo il letterato, e vi si allargano i polmoni, vi si magnifica il cervello, vi sentite più vivo e più uomo. E, come nei greci, la tragedia (<title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>) ha un bell’essere fosca, è tanta la serenità e la schiettezza del coro (<persName key="Ishmael (Moby-Dick)" ref="http://dbpedia.org/resource/Ishmael_(Moby-Dick)" type="fictional">Ismaele</persName>) che dal teatro si esce sempre soltanto esaltati nella propria capacità vitale.</p>
 			<p/>
@@ -19278,7 +19034,7 @@
 			<p>E, nel secondo, la lucidità, appena un po’ concitata dal dramma, del narratore epico che sa di avere sotto mano un argomento in cui è prima stanco lo spirito d’immaginare che le possibilità di poesia vengano esaurite.</p>
 			<p/>
 			<p>– Ala, ala! – gridò al prodiere, mentre la balena venendo meno rilassava la furia. – Ala, sotto! – e l’imbarcazione si affiancò al pesce. Allora, sporgendosi molto in prora, <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Stubb</persName> dimenò adagio la lunga lancia aguzza nel pesce e ve la tenne, smuovendola accuratamente, come se cercasse con cautela un qualche orologio d’oro che la balena avesse inghiottito, e temesse di romperlo prima di riuscire a estrarlo. Ma l’orologio d’oro che cercava era l’intima vita del pesce. E d’improvviso la toccò; poiché scattando dalla pausa in quelle cose indescrivibili che sono chiamate le sue «convulsioni» il mostro si dibatté terribilmente nel sangue, si ravvolse di una impenetrabile schiuma, folle e ribollente, cosicché il legno, messo a repentaglio, cadde di botto in poppa ed ebbe molto da fare a liberarsi, così alla cieca, da quel crepuscolo frenetico e uscire all’aria limpida del giorno.</p>
-			<p>Ed ora, indebolendosi le convulsioni, <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" cert="high" type="fictional">la balena</persName> uscì fuori alla luce, mareggiando da fianco a fianco, spasmodicamente dilatando e contraendo lo sfiatatoio con un secco e crepitante respiro di morte. E alla fine, sgorgate su sgorgate di rosso sanguaccio, come fosse stata la feccia del vino, spruzzarono nell’aria spaventata e ricadendo corsero gocciolando giù per i fianchi immobili nel mare. Le era scoppiato il cuore.</p>
+			<p>Ed ora, indebolendosi le convulsioni, la balena uscì fuori alla luce, mareggiando da fianco a fianco, spasmodicamente dilatando e contraendo lo sfiatatoio con un secco e crepitante respiro di morte. E alla fine, sgorgate su sgorgate di rosso sanguaccio, come fosse stata la feccia del vino, spruzzarono nell’aria spaventata e ricadendo corsero gocciolando giù per i fianchi immobili nel mare. Le era scoppiato il cuore.</p>
 			<p>– È morta, signor <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Stubb</persName>, – disse <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" type="fictional">Deggu</persName>.</p>
 			<p>– Sì, tutte e due le pipe sono spente! – e traendo la sua di bocca, <persName key="List of Moby-Dick characters" ref="http://dbpedia.org/resource/List_of_Moby-Dick_characters" cert="high" type="fictional">Stubb</persName> sparse le ceneri morte sul mare; e, per un istante, stette a guardare pensoso il gran cadavere che aveva fatto.</p>
 			<p/>
@@ -19293,8 +19049,8 @@
 			<p/>
 			<p>(Cap. LXXIII).</p>
 			<p/>
-			<p>Finalmente, <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> ha lasciato raccolte di versi, della vecchiaia o quasi, versi in metro e colla rima. Ma che cosa volete che dica in metro il <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">prosatore</persName> che ha scritto <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> e <title key="Melville, Herman, 1819-1891. | Encantadas" ref="http://viaf.org/viaf/179207434/" level="m">The Encantadas</title>?</p>
-			<p>C’è qualcosa in questo che lo assomiglia a <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" cert="high" type="real">Walt Whitman</persName>. Col saggio di Camden <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high">Herman Melville</persName> non ha in comune soltanto la ribellione alle piccole realtà del suo tempo, la genealogia mista inglese e olandese e le date della nascita, e quasi della morte (<date from="1819" to="1891">1819-91</date> e ’<date when="1892">92</date>).</p>
+			<p>Finalmente, <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> ha lasciato raccolte di versi, della vecchiaia o quasi, versi in metro e colla rima. Ma che cosa volete che dica in metro il prosatore che ha scritto <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title> e <title key="Melville, Herman, 1819-1891. | Encantadas" ref="http://viaf.org/viaf/179207434/" level="m">The Encantadas</title>?</p>
+			<p>C’è qualcosa in questo che lo assomiglia a Walt Whitman. Col saggio di Camden <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high">Herman Melville</persName> non ha in comune soltanto la ribellione alle piccole realtà del suo tempo, la genealogia mista inglese e olandese e le date della nascita, e quasi della morte (<date from="1819" to="1891">1819-91</date> e ’<date when="1892">92</date>).</p>
 			<p>Li accomuna il lento disfarsi in vecchiaia nella stanchezza e nella solitudine, accompagnato dallo spettacolo un po’ malinconico della letteratura diventata abitudine, della «garrulità» degli ultimi anni, che tenta disperata di riprendere una nota alle sinfonie oceaniche dell’età virile.</p>
 			<p>Più fortunato <persName key="Walt Whitman" ref="http://www.wikidata.org/entity/Q81438" type="real">Walt Whitman</persName> che, dopo l’ostinato ottimismo degli anni creativi, scopre nel dolore e nella delusione un’ultima vena leggera di poesia sommessa, di «morte celestiale», di rassegnazione crepuscolare. Triste invece <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Herman Melville</persName> che il dolore, l’aldilà inconoscibile, il nulla, aveva già espresso nella gran leggenda del mare e si trova adesso alla fine, stremato e vuoto, con nulla più di un ritornello in cuore:</p>
 			<p/>
