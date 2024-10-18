@@ -9409,6 +9409,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018174150895",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T15:41:50.895Z",
+	"dcterms:modified": "2024-10-18T15:41:50.895Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018174150895#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018174150895#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[199]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/31555830/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018174209942",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T15:42:09.942Z",
+	"dcterms:modified": "2024-10-18T15:42:09.942Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018174209942#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018174209942#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[199]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/3040162301483920270009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body cert="high" source="#LeavesOfGrass_L" xml:space="default">
@@ -9610,7 +9769,7 @@
 			<p>(2) È stata anche la migliore, che non vuol sempre dire sufficiente, critica della sua poesia, BLISS PERRY, Walt Whitman – his Life and Works, The Riverside Press, Boston 1906. BASIL DE SÉLINCOURT, Walt Whitman – a Critical Study, M. Secker, Londra 1914. VALERY LARBAUD, Étude, 1914. Ristampato in OEuvres Choisies de W. W., in «NRF», Parigi 1930. H. B. BINNS, Walt Whitman and his Poetry, Harrap and Co., Londra 1915. RÉGIS MICHAUD, W. W., poète cosmique, in Mystiques et Réalistes anglo-saxons, Colin, Parigi 1918; L’expansion poétique, in Littérature Américaine, Kra, Parigi 1928.</p>
 			<p>(3) Per un esempio recente, cfr. <persName key="Rho Servi, Lidia" ref="http://viaf.org/viaf/304920079/" type="real">LIDIA RHO SERVI</persName>, <title level="m" ref="#IntornoAWW">Intorno a W. W</title>., <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> <date when="1933">1933</date>.</p>
 			<p>(4) <persName cert="high" ref="#WaltWhitman" type="real">WALT WHITMAN</persName>, <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">Leaves of Grass</title>, sotto <title level="a" ref="#QueriesOfMySeventiethYear">Queries of my seventieth year</title>, <orgName ref="#CentenaryEdition">Centenary Edition</orgName>, <orgName key="D. Appleton &amp; Co" ref="http://viaf.org/viaf/1585169084886590310007/">Appleton and Co</orgName>., <placeName key="New York City New York United States" ref="https://geonames.org/5128581">Nuova York</placeName>, vol. II, p. 296, e Preface, vol. III, pp. 3-5.</p>
-			<p>(5) CAMERON ROGERS, The Magnificent Idler, Doubleday Page and Co., Garden City <date when="1926">1926</date>.</p>
+			<p>(5) <persName key="Rogers, Cameron, 1900-1971" ref="http://viaf.org/viaf/31555830/" cert="medium" type="real">CAMERON ROGERS</persName>, <title key="Rogers, Cameron, 1900-1971. | Magnificent idler; the story of walt whitman" ref="http://viaf.org/viaf/3040162301483920270009/" level="m">The Magnificent Idler</title>, Doubleday Page and Co., Garden City <date when="1926">1926</date>.</p>
 			<p>(6) VALERY LARBAUD, Étude cit., p. 20.</p>
 			<p>(7) WALT WHITMAN, L. o. G., sotto A Backward Glance o’er Travel’d Roads, ed. cit., vol. III, p. 64, pubblicato per la prima volta in November Boughs, <date when="1888">1888</date>.</p>
 			<p>(8) WALT WHITMAN, L. o. G., sotto A Backward Glance ecc., ed. cit., volume III, p. 65.</p>
