@@ -8859,6 +8859,241 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?place_annotation_20241018173719990",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T15:37:19.990Z",
+	"dcterms:modified": "2024-10-18T15:37:19.990Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?place_annotation_20241018173719990#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?place_annotation_20241018173719990#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[197]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?date_annotation_20241018173729302",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T15:37:29.302Z",
+	"dcterms:modified": "2024-10-18T15:37:29.302Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?date_annotation_20241018173729302#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?date_annotation_20241018173729302#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[197]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1933"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?date_annotation_20241018173737894",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T15:37:37.894Z",
+	"dcterms:modified": "2024-10-18T15:37:37.894Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?date_annotation_20241018173737894#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?date_annotation_20241018173737894#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[201]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1888"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body cert="high" source="#LeavesOfGrass_L" xml:space="default">
@@ -9058,11 +9293,11 @@
 			<p/>
 			<p/>
 			<p>(2) È stata anche la migliore, che non vuol sempre dire sufficiente, critica della sua poesia, BLISS PERRY, Walt Whitman – his Life and Works, The Riverside Press, Boston 1906. BASIL DE SÉLINCOURT, Walt Whitman – a Critical Study, M. Secker, Londra 1914. VALERY LARBAUD, Étude, 1914. Ristampato in OEuvres Choisies de W. W., in «NRF», Parigi 1930. H. B. BINNS, Walt Whitman and his Poetry, Harrap and Co., Londra 1915. RÉGIS MICHAUD, W. W., poète cosmique, in Mystiques et Réalistes anglo-saxons, Colin, Parigi 1918; L’expansion poétique, in Littérature Américaine, Kra, Parigi 1928.</p>
-			<p>(3) Per un esempio recente, cfr. <persName key="Rho Servi, Lidia" ref="http://viaf.org/viaf/304920079/" type="real">LIDIA RHO SERVI</persName>, Intorno a W. W., Torino 1933.</p>
+			<p>(3) Per un esempio recente, cfr. <persName key="Rho Servi, Lidia" ref="http://viaf.org/viaf/304920079/" type="real">LIDIA RHO SERVI</persName>, <title level="m" ref="#IntornoAWW">Intorno a W. W</title>., <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> <date when="1933">1933</date>.</p>
 			<p>(4) WALT WHITMAN, Leaves of Grass, sotto Queries of my seventieth year, Centenary Edition, Appleton and Co., Nuova York, vol. II, p. 296, e Preface, vol. III, pp. 3-5.</p>
 			<p>(5) CAMERON ROGERS, The Magnificent Idler, Doubleday Page and Co., Garden City 1926.</p>
 			<p>(6) VALERY LARBAUD, Étude cit., p. 20.</p>
-			<p>(7) WALT WHITMAN, L. o. G., sotto A Backward Glance o’er Travel’d Roads, ed. cit., vol. III, p. 64, pubblicato per la prima volta in November Boughs, 1888.</p>
+			<p>(7) WALT WHITMAN, L. o. G., sotto A Backward Glance o’er Travel’d Roads, ed. cit., vol. III, p. 64, pubblicato per la prima volta in November Boughs, <date when="1888">1888</date>.</p>
 			<p>(8) WALT WHITMAN, L. o. G., sotto A Backward Glance ecc., ed. cit., volume III, p. 65.</p>
 			<p>(9) WALT WHITMAN, Prose Works, Kennerly, Nuova York 1914, pp. 199-200.</p>
 			<p>(10) WALT WHITMAN, L. o. G., sotto Yonnondio, ed. cit., vol. II, p. 310.</p>
