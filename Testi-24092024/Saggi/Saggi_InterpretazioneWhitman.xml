@@ -5519,7 +5519,86 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018144321980#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[23]/persName[3]"
+			"rdf:value": "TEI/text/body/p[23]/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Edgar_Allan_Poe",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018144424474",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T12:44:24.474Z",
+	"dcterms:modified": "2024-10-18T12:44:24.474Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018144424474#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018144424474#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[23]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -5561,7 +5640,7 @@
 			<p>L’interessante comincia in questo, che, appunto come il libro intiero non ha un pregio di costruzione, così questo poema sopporterebbe senza danno lunghi tagli o lunghe aggiunte o spostamenti e del resto il suo autore ciò l’ha fatto e continuerebbe a fare, se non per il caso tutto accidentale della vecchiaia e morte sopravvenute. Vorremmo dire che il pregio del poema sta senz’altro nelle frammentarie scenette dove qualcosa di realisticamente definito ferma la vista? Nemmeno, benché in esso ci siano pagine trascurabili ed altre eleggibili tra le cento ottime della poesia di tutti i tempi.</p>
 			<p>Cominciamo dal metro. È tempo perso, e molto ve ne persi io stesso, spulciare nelle <title level="m" ref="#ProseWorks">Prose Works</title> del buon vecchio con la speranza di cavare dagli Specimens Days intorno alle esperienze di infermiere nella guerra di secessione e alla beata vacanza nudista nelle solitudini di Timber Creek, pagine, frammenti, quadretti insomma, da confrontare con motivi consimili nelle Leaves, allo scopo di mostrare come in definitiva non ci sia differenza tra il suo verso e la sua prosa. Nessuno più di me ammira le prose d’arte di Walt Whitman, ma è ancora necessario ricordare che esse vennero quasi tutte scritte dopo la guerra di secessione e durante la malattia e quando la barba era già per lo meno brizzolata? Già più sopra ho accennato come, da quel tempo innanzi, Walt Whitman rimasticasse piuttosto a lungo sulla sua poesia e, benché trovasse la nuova vena che chiameremo «della contemplazione» [cfr. tutte le <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">Leaves</title> dagli <title level="a" ref="#AutumnRivulets">Autumn Rivulets</title> (<date when="1881">1881</date>) agli <title level="a" ref="#OldAgeEchoes">Old Age Echoes</title> (postumi)], pure in quell’estate indiana di impressioni, di pensieri saggi, di paralleli rivelatori, di fioritura innumerevole insomma di quadretti, tra le molte nuove virtù, v’è pure il difetto di quel nerbo, di quel brivido, che trasfigurava fin le più allegoriche e programmatiche pagine delle prime <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">Leaves</title>. Quasi tutte le poesie whitmaniane, dagli <title level="a" ref="#AutumnRivultes">Autumn Rivulets</title> (cominciati a comporre fin dalla pace del <date when="1865">1865</date>) alla morte, guadagnerebbero, a esser scritte in prosa, di immediatezza, chiarezza, efficacia, e le prose che le accompagnano e riflettono sono infatti, fuori d’ogni discussione, preferibili. Mentre, di ciò che ha scritto fino ai hispers</p>
 			<p>of <title level="m" ref="#HeavenlyDeath">Heavenly Death</title> (<date when="1871">1871</date>), chi cerca, anzi chi oggi ricorda, le poche prose? Ci sono dunque due periodi nell’opera whitmaniana, il primo di poesia e il secondo di prosa e c’è una differenza sostanziale, tra quel verso e quella prosa, che non si può ignorare, confondendo, tra l’altro, ciò che <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> stesso ha distinto con tanta cura.</p>
-			<p>Parrebbe superfluo, ma giova ripetere che <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>, anche quando inventava il suo versetto, sapeva quel che faceva. Non per nulla, nell’accenno che egli fa alla sua innovazione o liberazione metrica, si contrappone proprio a Edgard Poe. Dice il passo (16): «Verso la fine io avevo, tra molte altre cose, lette attentamente le poesie di Edgar Poe – delle quali non ero un ammiratore, benché mi fossi sempre accorto che, al di là della loro limitata scala melodica (come perpetui rintocchi di campane, scorrenti dal si bemolle al sol), esse erano espressioni armoniose, e forse mai superate, di certe pronunciatissime fasi dell’umana morbosità». L’elogio un poco ambiguo di quegli effetti che, malgrado «scorrano dal si bemolle al sol» «come perpetui rintocchi di campane», giungono all’espressione armoniosa «di certe pronunciatissime fasi dell’umana morbosità», mostra come Walt Whitman non abbia mai inteso di guadagnare in musicalità, in effetti fonici, in «rintocchi di campane» sostituendo agli schemi tradizionali il suo verso. E nemmeno, possiamo aggiungere noi, fatti accorti da trent’anni di esperimenti, <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> ha mai pensato di scrivere nel nostro – europeo – versolibero della decadenza, esasperazione, se mai, proprio dei prodigi francesi e inglesi di tecnica tradizionale, compiuti nella metà del secolo. Altra è la natura e la portata del verso whitmaniano e, ripeto, contrapponendosi a <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName> sinfonista, <persName cert="high" type="real">Walt Whitman</persName> dà prova di esserne stato ben conscio.</p>
+			<p>Parrebbe superfluo, ma giova ripetere che <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>, anche quando inventava il suo versetto, sapeva quel che faceva. Non per nulla, nell’accenno che egli fa alla sua innovazione o liberazione metrica, si contrappone proprio a <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Edgar Poe</persName>. Dice il passo (16): «Verso la fine io avevo, tra molte altre cose, lette attentamente le poesie di Edgar Poe – delle quali non ero un ammiratore, benché mi fossi sempre accorto che, al di là della loro limitata scala melodica (come perpetui rintocchi di campane, scorrenti dal si bemolle al sol), esse erano espressioni armoniose, e forse mai superate, di certe pronunciatissime fasi dell’umana morbosità». L’elogio un poco ambiguo di quegli effetti che, malgrado «scorrano dal si bemolle al sol» «come perpetui rintocchi di campane», giungono all’espressione armoniosa «di certe pronunciatissime fasi dell’umana morbosità», mostra come <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> non abbia mai inteso di guadagnare in musicalità, in effetti fonici, in «rintocchi di campane» sostituendo agli schemi tradizionali il suo verso. E nemmeno, possiamo aggiungere noi, fatti accorti da trent’anni di esperimenti, <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> ha mai pensato di scrivere nel nostro – europeo – versolibero della decadenza, esasperazione, se mai, proprio dei prodigi francesi e inglesi di tecnica tradizionale, compiuti nella metà del secolo. Altra è la natura e la portata del verso whitmaniano e, ripeto, contrapponendosi a <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName> sinfonista, <persName cert="high" type="real">Walt Whitman</persName> dà prova di esserne stato ben conscio.</p>
 			<p>Walt Whitman non ce l’aveva affatto col metro e con la rima per sé stanti. Ne fece anzi anche lui di poesie col metro e con la rima. Ce l’aveva con la musicalità scopo a se stessa e ciò, se fosse vissuto a conoscerli, gli avrebbe fatto condannare i versoliberisti. La sua unità metrica, evidentemente ricalcata sulle versioni della Bibbia, non segue leggi foniche. Accanto a un versetto di mezza riga, se ne trova talvolta di spessi due dita. Walt Whitman segue una legge, diremo così, fantastica. Esprime un pensiero, uno scatto, un’immagine, e via, a capo. Canta per onde di fantasia – quando in lui anche il pensiero si è fatto fantasia – e l’armonia si dilata di unità in unità, rivestendo e fornendo di una voce il lavorio stesso di liberazione di questi fantasmi o pensieri, i quali valgono ognuno per se stesso e possono scattar fuori per un attimo o per venti pagine che, salvo la stanchezza o gli ingombri mentali del poeta, non si confondono o paralizzano vicendevolmente mai. Questo è il respiro, creato ed espresso dal verso, di tutto il meglio delle Leaves e si capisce bene come, avendo già costruito in vasti poemi tutti i suoi motivi, essendosi poi abituato, durante e dopo la guerra, a una rapida e illustrativa annotazione prosastica e mancando ormai di quella ingenua e splendida gioia della scoperta di un mondo e del mondo, Walt Whitman si sia trasformato, invecchiando, nel sottile contemplatore di cose naturali, dalle involute impressioni e dal senile gusto dei quadretti moralizzanti: tutte cose che giovano, come a lui han giovato, più al buon prosatore che non al poeta che ora c’interessa.</p>
 			<p>Per ben comprendere che cosa sia l’ottimo verso whitmaniano non c’è che da tornare a quelli del Song of Myself. E la risposta a quale sia la forma del suo canto – non linea costruttiva dell’insieme; non frammenti sopravvissuti, come quelli della vecchiaia – possiamo darla ora. Il versetto, la frase gridata o sussurrata, il respiro oratorio – sempre scandito a versetti – sono la forma vera del Song of Myself e con esso di tutte le Leaves, finché all’autore è bastato il fiato.</p>
 			<p>L’inizio del Song of Myself:</p>
