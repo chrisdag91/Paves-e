@@ -14285,12 +14285,170 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?place_annotation_20241018182730481#Selector",
 			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[196]/placeName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2988507",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?place_annotation_20241018182806421",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T16:28:06.421Z",
+	"dcterms:modified": "2024-10-18T16:28:06.421Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?place_annotation_20241018182806421#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?place_annotation_20241018182806421#Selector",
+			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[196]/placeName[5]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
 		"@id": "https://geonames.org/2988507",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018182827695",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T16:28:27.695Z",
+	"dcterms:modified": "2024-10-18T16:28:27.695Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018182827695#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018182827695#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[196]/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/46917655/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -14500,7 +14658,7 @@
 			<p>non serve obbiettare che queste cose sono la prova dei cattivi servizi che la deprecata tecnica dei primi canti ha reso a <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>. S’intende che quando si compongono i cataloghi col dizionario o l’enciclopedia sottomano, semplicemente per riempire un argomento prefissosi, non si fa poesia: questo non nega, e anzi corrobora, come documento psicologico, la teoria che la natura di <persName cert="high" type="real">Walt Whitman</persName> sia proprio quella di non soddisfarsi in una scenetta, in un quadretto compiuti, per se stessi, ma di esprimere, e nei suoi cattivi momenti invocare, l’ansia e il fervore e la sempre risorgente compiacenza del sentire tutto l’universo intorno come una presenza fraterna e reale.</p>
 			<p/>
 			<p/>
-			<p>(2) È stata anche la migliore, che non vuol sempre dire sufficiente, critica della sua poesia, <persName key="Bliss Perry" ref="http://dbpedia.org/resource/Bliss_Perry" cert="high" type="real">BLISS PERRY</persName>, <title level="m" ref="#WaltWhitmanHisLifeAndHisWorks">Walt Whitman – his Life and Works,</title> <orgName key="Riverside Press" ref="http://viaf.org/viaf/243906668/">The Riverside Press</orgName>, <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName> <date when="1906">1906</date>. <persName key="De Sélincourt, Basil 1876-" ref="http://viaf.org/viaf/30470182/" type="real">BASIL DE SÉLINCOURT</persName>, <title level="m" ref="#WaltWhitmanACriticalStudy">Walt Whitman – a Critical Study</title>, <orgName ref="#MSecker"><orgName key="Martin Secker Ltd." ref="http://viaf.org/viaf/134095566/">M. Secker</orgName></orgName>, <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Londra</placeName> <date when="1914">1914</date>. <persName key="Valery Larbaud" ref="http://dbpedia.org/resource/Valery_Larbaud" type="real">VALERY LARBAUD</persName>, <title level="m" ref="#étude">Étude</title>, <date when="1914">1914</date>. Ristampato in <title level="m" ref="#OEuvresChoisiesDeWW">OEuvres Choisies de W. W.</title>, in «<title key="La Nouvelle Revue française" ref="http://www.wikidata.org/entity/Q616067" level="j">NRF</title>», <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName> <date when="1930">1930</date>. <persName ref="#HBBinns" type="real">H. B. BINNS</persName>, <title level="m" ref="#WaltWhitmanAndHisPoetry">Walt Whitman and his Poetry</title>, <orgName key="George G. Harrap &amp; Company." ref="http://viaf.org/viaf/5851159820917514000008/">Harrap and Co.</orgName>, <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Londra</placeName> <date when="1915">1915</date>. RÉGIS MICHAUD, W. W., poète cosmique, in Mystiques et Réalistes anglo-saxons, Colin, Parigi <date when="1918">1918</date>; L’expansion poétique, in Littérature Américaine, Kra, <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName> <date when="1928">1928</date>.</p>
+			<p>(2) È stata anche la migliore, che non vuol sempre dire sufficiente, critica della sua poesia, <persName key="Bliss Perry" ref="http://dbpedia.org/resource/Bliss_Perry" cert="high" type="real">BLISS PERRY</persName>, <title level="m" ref="#WaltWhitmanHisLifeAndHisWorks">Walt Whitman – his Life and Works,</title> <orgName key="Riverside Press" ref="http://viaf.org/viaf/243906668/">The Riverside Press</orgName>, <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName> <date when="1906">1906</date>. <persName key="De Sélincourt, Basil 1876-" ref="http://viaf.org/viaf/30470182/" type="real">BASIL DE SÉLINCOURT</persName>, <title level="m" ref="#WaltWhitmanACriticalStudy">Walt Whitman – a Critical Study</title>, <orgName ref="#MSecker"><orgName key="Martin Secker Ltd." ref="http://viaf.org/viaf/134095566/">M. Secker</orgName></orgName>, <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Londra</placeName> <date when="1914">1914</date>. <persName key="Valery Larbaud" ref="http://dbpedia.org/resource/Valery_Larbaud" type="real">VALERY LARBAUD</persName>, <title level="m" ref="#étude">Étude</title>, <date when="1914">1914</date>. Ristampato in <title level="m" ref="#OEuvresChoisiesDeWW">OEuvres Choisies de W. W.</title>, in «<title key="La Nouvelle Revue française" ref="http://www.wikidata.org/entity/Q616067" level="j">NRF</title>», <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName> <date when="1930">1930</date>. <persName ref="#HBBinns" type="real">H. B. BINNS</persName>, <title level="m" ref="#WaltWhitmanAndHisPoetry">Walt Whitman and his Poetry</title>, <orgName key="George G. Harrap &amp; Company." ref="http://viaf.org/viaf/5851159820917514000008/">Harrap and Co.</orgName>, <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Londra</placeName> <date when="1915">1915</date>. <persName key="Michaud, Régis, 1880-1939." ref="http://viaf.org/viaf/46917655/">RÉGIS MICHAUD</persName>, <title level="a" ref="#WWApoètecosmique">W. W., poète cosmique</title>, in Mystiques et Réalistes anglo-saxons, Colin, <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName> <date when="1918">1918</date>; L’expansion poétique, in Littérature Américaine, Kra, <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName> <date when="1928">1928</date>.</p>
 			<p>(3) Per un esempio recente, cfr. <persName key="Rho Servi, Lidia" ref="http://viaf.org/viaf/304920079/" type="real">LIDIA RHO SERVI</persName>, <title level="m" ref="#IntornoAWW">Intorno a W. W</title>., <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> <date when="1933">1933</date>.</p>
 			<p>(4) <persName cert="high" ref="#WaltWhitman" type="real">WALT WHITMAN</persName>, <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">Leaves of Grass</title>, sotto <title level="a" ref="#QueriesOfMySeventiethYear">Queries of my seventieth year</title>, <orgName ref="#CentenaryEdition">Centenary Edition</orgName>, <orgName key="D. Appleton &amp; Co" ref="http://viaf.org/viaf/1585169084886590310007/">Appleton and Co</orgName>., <placeName key="New York City New York United States" ref="https://geonames.org/5128581">Nuova York</placeName>, vol. II, p. 296, e Preface, vol. III, pp. 3-5.</p>
 			<p>(5) <persName key="Rogers, Cameron, 1900-1971" ref="http://viaf.org/viaf/31555830/" cert="medium" type="real">CAMERON ROGERS</persName>, <title key="Rogers, Cameron, 1900-1971. | Magnificent idler; the story of walt whitman" ref="http://viaf.org/viaf/3040162301483920270009/" level="m">The Magnificent Idler</title>, <orgName key="Doubleday, Page &amp; Company." ref="http://viaf.org/viaf/265181339/">Doubleday Page and Co</orgName>., <placeName ref="#GardenCity">Garden City</placeName> <date when="1926">1926</date>.</p>
