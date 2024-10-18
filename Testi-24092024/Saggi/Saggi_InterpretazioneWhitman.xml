@@ -11859,6 +11859,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018181050897",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T16:10:50.897Z",
+	"dcterms:modified": "2024-10-18T16:10:50.897Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018181050897#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018181050897#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[210]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/4469150567617306370002/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body cert="high" source="#LeavesOfGrass_L" xml:space="default">
@@ -12071,7 +12150,7 @@
 			<p>(13) La frase è di Sherwood Anderson in Dark Laughter, ma il sentimento generale non si può verificare che studiando distesamente tutto il vasto campo dei tentativi nordamericani di poesia degli ultimi trent’anni.</p>
 			<p>(14) BASIL DE SÉLINCOURT, Walt Whitman – a Critical Study cit., cfr. tutto il cap. Plan.</p>
 			<p>(15) VALERY LARBAUD, Étude cit., p. 32.</p>
-			<p>(16) <persName cert="high" ref="#WaltWhitman" type="real">WALT WHITMAN</persName>, L. o. G., sotto A Backward Glance ecc., ed. cit., vol. III, p. 56.</p>
+			<p>(16) <persName cert="high" ref="#WaltWhitman" type="real">WALT WHITMAN</persName>, <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">L. o. G</title>., sotto <title level="a" ref="#ABackwardGlance">A Backward Glance</title> ecc., ed. cit., vol. III, p. 56.</p>
 			<p>(17) <persName key="John Bailey Mason (1909-1983)" ref="http://viaf.org/viaf/9703151595796505470006/" cert="medium" type="real">JOHN BAILEY</persName>, <title level="m" ref="#WaltWhitman">Walt Whitman</title>, <orgName key="Macmillan Publishers Ltd" ref="http://viaf.org/viaf/3094159880889618540003/">MacMillan</orgName>, <placeName key="North America  " ref="https://geonames.org/6255149">Nuova York</placeName> <date when="1926">1926</date>, p. 146.</p>
 			<p>(18) <persName cert="high" ref="#WillHayes">WILL HAYES</persName>, <title level="m" ref="#WWThe ProphetOfTheNewEra">W. W. – the Prophet of the New Era</title>, <orgName key="C. W. Daniel Company." ref="http://viaf.org/viaf/27154981736767741167/">Daniel C. W</orgName>., <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Londra</placeName> s.a.</p>
 			<p>(19) <persName key="John Bailey Mason (1909-1983)" ref="http://viaf.org/viaf/9703151595796505470006/" cert="medium">JOHN BAILEY</persName>, Walt Whitman cit., p. 21.</p>
