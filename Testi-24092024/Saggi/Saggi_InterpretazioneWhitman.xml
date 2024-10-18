@@ -6962,6 +6962,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018165402084",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T14:54:02.084Z",
+	"dcterms:modified": "2024-10-18T14:54:02.084Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018165402084#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018165402084#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[52]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/176620365/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -7016,7 +7095,7 @@
 			<p>il primo passo, vi dico, mi diede tanto timore e tanta gioia,</p>
 			<p>che non sono più andato e non desidero di andar più oltre,</p>
 			<p>ma immobile indugio tutto il tempo a cantarlo in estatici canti (21).</p>
-			<p>Così inteso, anche il Song of Myself si svela. Quella lieve struttura: l’io, che proclama la propria indipendenza (sez. 1-8), si annulla davanti alle esperienze (9-19), poi ricompare in carne e spirito (20-24) e finalmente, dopo un altro caos di esperienze (25-45), abbraccia virilmente il tu, il Compagno perfetto (46-52), appare la tipica struttura whitmaniana: non figure, non fatti, se non come particolari di un immenso campo di esperienze, l’universo, e una sola figura, un solo fatto che tutto abbraccia e assorbe, il Myself, il Comrade, catalogatore – attraverso se stesso – di tutto l’universo.</p>
+			<p>Così inteso, anche il <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title> si svela. Quella lieve struttura: l’io, che proclama la propria indipendenza (sez. 1-8), si annulla davanti alle esperienze (9-19), poi ricompare in carne e spirito (20-24) e finalmente, dopo un altro caos di esperienze (25-45), abbraccia virilmente il tu, il Compagno perfetto (46-52), appare la tipica struttura whitmaniana: non figure, non fatti, se non come particolari di un immenso campo di esperienze, l’universo, e una sola figura, un solo fatto che tutto abbraccia e assorbe, il Myself, il Comrade, catalogatore – attraverso se stesso – di tutto l’universo.</p>
 			<p>Fissati questi fondamenti, riesce spassosissimo ripercorrere molta della critica whitmaniana, per esempio là dove si discute se veramente il gruppo Calamus sia poesia dell’amicizia («l’amore senza il sesso») e se il gruppo che va innanzi, i Children of Adam, sia veramente poesia erotica («il sesso senza l’amore») (22). E tutto questo mescolato a commosse indignazioni e difese e disquisizioni biografiche intorno al sospetto della pederastia, che tra l’altro, per via delle reticenze e dei poco agili sottintesi dei pesanti letterati di discendenza puritana, si fa una fatica infame a penetrare e seguire (23).</p>
 			<p>Si veda per esempio una delle poesie «libertine» dei Children:</p>
 			<p>ISTANTI NATIVI</p>
