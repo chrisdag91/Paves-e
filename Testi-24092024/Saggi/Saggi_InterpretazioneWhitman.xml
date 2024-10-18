@@ -8543,6 +8543,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018172953279",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T15:29:53.279Z",
+	"dcterms:modified": "2024-10-18T15:29:53.279Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018172953279#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018172953279#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[179]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/176620365/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body cert="high" source="#LeavesOfGrass_L" xml:space="default">
@@ -8724,7 +8803,7 @@
 			<p>Se non riesci a raggiungermi subito, non perdere coraggio,</p>
 			<p>se non mi trovi in un luogo, cerca in un altro,</p>
 			<p>in qualche luogo io son fermo ad attendere te.</p>
-			<p>Chiunque vede ora come il verso di Walt Whitman giochi: sono successivi pensieri, tutti scoppianti dalla pienezza che l’identificazione con tutte le cose trascorse crea al Myself. È la gioia della successiva scoperta di questi pensieri: la loro importanza dinamica quindi, non il loro valore logico, che importa:</p>
+			<p>Chiunque vede ora come il verso di <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> giochi: sono successivi pensieri, tutti scoppianti dalla pienezza che l’identificazione con tutte le cose trascorse crea al <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Myself</title>. È la gioia della successiva scoperta di questi pensieri: la loro importanza dinamica quindi, non il loro valore logico, che importa:</p>
 			<p>Mi contraddico dunque?</p>
 			<p>Benissimo, mi contraddico,</p>
 			<p>(sono vasto, contengo moltitudini).</p>
