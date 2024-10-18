@@ -11148,6 +11148,163 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?place_annotation_20241018180433124",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T16:04:33.124Z",
+	"dcterms:modified": "2024-10-18T16:04:33.124Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?place_annotation_20241018180433124#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?place_annotation_20241018180433124#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[214]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2643743",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?date_annotation_20241018180442641",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T16:04:42.641Z",
+	"dcterms:modified": "2024-10-18T16:04:42.641Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?date_annotation_20241018180442641#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?date_annotation_20241018180442641#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[214]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1910"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body cert="high" source="#LeavesOfGrass_L" xml:space="default">
@@ -11364,7 +11521,7 @@
 			<p>(17) JOHN BAILEY, Walt Whitman, MacMillan, Nuova York 1926, p. 146.</p>
 			<p>(18) WILL HAYES, W. W. – the Prophet of the New Era, Daniel C. W., Londra s.a.</p>
 			<p>(19) JOHN BAILEY, Walt Whitman cit., p. 21.</p>
-			<p>(20) <persName key="Perry, Bliss, 1860-1954" ref="http://viaf.org/viaf/76448095/" type="real">BLISS PERRY</persName>, <title level="m" ref="#WaltWhitmanHisLifeAndWorks">Walt Whitman – his Life and Works</title> cit., le ultime pagine del cap. VI; <persName ref="#JamesThompson" type="real">JAMES THOMPSON</persName>, <title level="m" ref="#WWTheManAndThePoet">W. W. – the Man and the Poet</title>, Dobell, Londra 1910, cap. I.</p>
+			<p>(20) <persName key="Perry, Bliss, 1860-1954" ref="http://viaf.org/viaf/76448095/" type="real">BLISS PERRY</persName>, <title level="m" ref="#WaltWhitmanHisLifeAndWorks">Walt Whitman – his Life and Works</title> cit., le ultime pagine del cap. VI; <persName ref="#JamesThompson" type="real">JAMES THOMPSON</persName>, <title level="m" ref="#WWTheManAndThePoet">W. W. – the Man and the Poet</title>, Dobell, <placeName key="London England United Kingdom" ref="https://geonames.org/2643743">Londra</placeName> <date when="1910">1910</date>, cap. I.</p>
 			<p>(21) <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" ref="#WaltWhitman" type="real">WALT WHITMAN</persName>, <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">L. o. G</title>., ed. cit., vol. I, p. 9.</p>
 			<p>(22) <persName key="De Sélincourt, Basil 1876-" ref="http://viaf.org/viaf/30470182/" type="real">BASIL DE SÉLINCOURT</persName>, <title level="m" ref="#WaltWhitmanHisLifeAndHisWorks">Walt Whitman – his Life and Works</title> cit., pp. 207-8.</p>
 			<p>(23) Ci vuol tanto a esprimersi con la scientifica schiettezza di <persName key="Schlaf, Johannes, 1862-1941" ref="http://viaf.org/viaf/64055661/">J. Schlaf</persName> che, chiaro come il sole, intitolò il suo studio <title level="m" ref="#WWHomosexueller">W. W. homosexueller</title>? Bisogna andare a leggere, a questo proposito, le pagine del <persName key="Perry, Bliss, 1860-1954" ref="http://viaf.org/viaf/76448095/" cert="high" type="real">Perry</persName> nel cap. <title level="a" ref="#TheCarasserOfLife">The caresser of life</title> (op. cit., pp. 44-48) dove, discutendo della lettera famosa di <persName key="Symonds, J. A. (John Addington), 1840-1893" ref="http://viaf.org/viaf/2433167807382918130004/">J. A. Symonds</persName> e della risposta di <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> (<date when="1890-08-10">10 agosto 1890</date>), si difende la persona morale di quest’ultimo con così appariscenti reticenze che, per la legittima impazienza, vien quasi la voglia di credere il contrario.</p>
