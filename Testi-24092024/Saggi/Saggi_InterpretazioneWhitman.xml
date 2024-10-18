@@ -2700,6 +2700,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018141621202",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T12:16:21.202Z",
+	"dcterms:modified": "2024-10-18T12:16:21.202Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018141621202#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018141621202#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/persName[9]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Ralph_Waldo_Emerson",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2711,7 +2790,7 @@
 			<p>Nonostante l’atteggiamento che una giusta reazione alla canonizzazione un po’ precritica del «veggente» ha attualmente diffuso, si può sostenere con buone ragioni che <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> ha sempre accompagnato con una chiara coscienza critica il suo lavoro. Ed è naturale del resto, ché altrimenti bisognerebbe farsi di <persName ref="#WaltWhitman" type="real"><persName cert="high" ref="#WaltWhitman" type="real">Walt</persName></persName>, uomo terrestre e accanito nel menar la lima se altri mai, un’antipatica immagine di estatico fannullone cui un demone insuffla di tanto in tanto i canti all’orecchio. <title level="m" ref="#IlMagnificoFannullone">Il Magnifico Fannullone</title> è appunto il titolo di una vispa biografia romanzata scritta su di lui da <persName key="Rogers, Robert Cameron, 1862-1912" ref="http://viaf.org/viaf/70967838/" type="real">Cameron Rogers</persName> (5), lo studioso che ha sinora, credo, meglio compreso il poeta, appunto perché non si è sforzato a discettare retoricamente di cataloghi o di quadretti, di rima psichica o interna, di pederastia o magnetismo, e tutte le altre eterne bazzecole whitmaniane, ma ha ricreato sicuramente il suo uomo nei gesti, nelle parole, negli stati, che ogni lettore un po’ umile può intravedere tra i poemi. E «fannullone» veramente fu <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>, nel senso in cui ogni poeta è un fannullone, quando invece di lavorare gli piaceva andare in giro, rimuginando e tormentando dentro di sé, con molta fatica e con le rare gioie che compensano di ogni fatica, i suoi versi, o «versetti» che fossero. Fannullone in ogni lavoro dei soliti, perché altra opera aveva per le mani, che gli rubava ogni interesse e forse anche un po’ i sonni. Ma queste cose le ha già dette, e molto bene, <persName key="Valery Larbaud" ref="http://dbpedia.org/resource/Valery_Larbaud" cert="high" type="real">Valery Larbaud</persName> (6).</p>
 			<p>Importa invece battere sul chiodo che <persName ref="#WaltWhitman" type="real">Walt Whitman</persName> sapeva il fatto suo e che insomma – come ogni artista che concluda qualcosa – il suo qualcosa <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> l’ha rimuginato, tormentato, vissuto, voluto e che, se certe sue pretese teoriche si sono alla lunga, ai lumi del nostro secolo, chiarite false o malfondate, la stessa cosa è accaduta, o va accadendo, non solo a tutti gli artisti, ma a tutti gli uomini. E se qualcuno, davanti a una sentenza come: <quote cert="high" defective="unknown" generatedBy="human" xml:space="default" source="#LeavesOfGrass">«I vantaggi individuali della condizione, del favore o della fortuna – le fila dirette o indirette di tutta la poesia del passato – non si confanno secondo me allo spirito repubblicano e non offrono alcun fondamento per una poesia che gli sia adatta»</quote> (7), osserverà che sono cose da non dirsi nemmeno per burla, si potrà rispondere a costui che, anzitutto, è proprio attraverso pensamenti del genere che <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> è giunto a chiarirsi e delimitarsi la propria «materia poetica» e che, comunque, subito dopo l’eretica sentenza, egli si compiace di riferire un aneddoto letto in gioventù; il quale aneddoto potrà anche ricordare come da tempo gli artisti, quando i teorici discutevano ancora di generi e di scuole, sapessero che cosa pensare in proposito. Diceva <persName key="Peter Paul Rubens" ref="http://dbpedia.org/resource/Peter_Paul_Rubens" type="real">Rubens</persName> agli allievi, davanti a un quadro d’incerta attribuzione: <quote cert="high" defective="unknown" generatedBy="human" source="#LeavesOfGrass" xml:space="default">«Non credo che quell’artista, sconosciuto e forse già morto, che ha lasciato questo legato al mondo, sia mai appartenuto a una scuola o mai abbia dipinto altro che questo quadro, il quale è un affare personale – un’opera fatta di tutta l’esistenza di un uomo» </quote>(8). E riportando, quasi a settant’anni, queste parole, <persName ref="#WaltWhitman" type="real">Walt Whitman</persName> sapeva quel che diceva, sapeva – se altri mai in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> – che cosa fosse un’opera fatta di tutta l’esistenza di un uomo.</p>
 			<p>Sarebbe però facile, stendendo una lista di passi teorici, spigolati tra le molte prefazioni, delucidazioni, glosse e memorie, che inzeppano il volume delle <title level="m" ref="#ProseWorks">Prose Works</title>, gettare una luce paradossale su molti aspetti, tra i più vistosi, della predicazione whitmaniana, e conseguenze insospettate ne deriverebbero. Insospettate non solo dall’autore.</p>
-			<p>Diceva <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>: <quote cert="high" defective="unknown" generatedBy="human" source="#ProseWorks" xml:space="default">«Il nostro bisogno fondamentale oggi negli <placeName key="North America  " ref="https://geonames.org/6255149">Stati Uniti</placeName>, col più stretto e ampio rapporto alle condizioni presenti e al futuro, è una classe, e una chiara idea di una classe, di autori indigeni, letterati, più diversi e più alti in grado di qualunque noto sinora, sacerdotali, moderni, adatti a misurarsi con le nostre occasioni e terre, permeanti l’intera massa della mentalità, del gusto e della fede americani, e infondenti in essa un nuovo respiro di vita... toccanti la politica molto più che non il superficiale suffragio popolare, con risultati al cuore e alle radici delle elezioni dei Presidenti e dei Congressi – irradianti, procreanti maestri, scuole e modi appropriati e, come loro massimo risultato, creanti... un carattere religioso e morale sotto la base politica e produttiva e intellettuale degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>»</quote> (9). Si noti che questa è la sua idea fissa e ad apertura di libro nelle <title level="m" ref="#ProseWorks">Prose Works</title> se ne trova la traccia. Se poi a questa raccostassimo l’altra idea fissa compagna – da nessuno sinora notata nella sua singolarità – della storia del mondo vista soltanto attraverso le sue supreme manifestazioni letterarie, attraverso i grandi poemi nazionali, e ricordassimo, per le confessioni stesse di <persName ref="#WaltWhitman" type="real">Walt</persName>, quei modi naturalistici di declamazione all’aria aperta che spaventavano i gabbiani a <placeName ref="#ConeyIsland">Coney Island</placeName> o divertivano i cocchieri sulle diligenze di <placeName key="Broadway New Jersey United States" ref="https://geonames.org/5095979">Broadway</placeName> alle spese di <persName key="Homer" ref="http://dbpedia.org/resource/Homer" cert="high" type="real">Omero</persName>, <persName key="William Shakespeare" ref="http://dbpedia.org/resource/William_Shakespeare" type="real">Shakespeare</persName>, <persName key="Aeschylus" ref="http://dbpedia.org/resource/Aeschylus" cert="high" type="real">Eschilo</persName>, <title key="Macpherson, James, 1736-1796. | Ossian" ref="http://viaf.org/viaf/314208049/" level="m">Ossian</title> e altri immortali, troveremmo facile costruire su documenti quella tal teoria paradossale del fenomeno <persName ref="#WaltWhitman" type="real">Whitman</persName>, che si diceva. Ai detti poemi – i contemporanei <persName key="Scott Bart, Walter Sir 1771-1832" ref="http://viaf.org/viaf/1462159820903414000002/" cert="high" type="real">Walter Scott</persName> e <persName key="Alfred, Lord Tennyson" ref="http://dbpedia.org/resource/Alfred,_Lord_Tennyson" type="real">Alfred Tennyson</persName> andavano, come Ossian, coi grandi poeti nazionali – si aggiunga l’abbondante gazzetteria del tempo, Emerson, opere di storia naturale, compendî dello scibile, melodrammi e si avrà tutta la cultura apparente, esteriore di Walt Whitman.</p>
+			<p>Diceva <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>: <quote cert="high" defective="unknown" generatedBy="human" source="#ProseWorks" xml:space="default">«Il nostro bisogno fondamentale oggi negli <placeName key="North America  " ref="https://geonames.org/6255149">Stati Uniti</placeName>, col più stretto e ampio rapporto alle condizioni presenti e al futuro, è una classe, e una chiara idea di una classe, di autori indigeni, letterati, più diversi e più alti in grado di qualunque noto sinora, sacerdotali, moderni, adatti a misurarsi con le nostre occasioni e terre, permeanti l’intera massa della mentalità, del gusto e della fede americani, e infondenti in essa un nuovo respiro di vita... toccanti la politica molto più che non il superficiale suffragio popolare, con risultati al cuore e alle radici delle elezioni dei Presidenti e dei Congressi – irradianti, procreanti maestri, scuole e modi appropriati e, come loro massimo risultato, creanti... un carattere religioso e morale sotto la base politica e produttiva e intellettuale degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName>»</quote> (9). Si noti che questa è la sua idea fissa e ad apertura di libro nelle <title level="m" ref="#ProseWorks">Prose Works</title> se ne trova la traccia. Se poi a questa raccostassimo l’altra idea fissa compagna – da nessuno sinora notata nella sua singolarità – della storia del mondo vista soltanto attraverso le sue supreme manifestazioni letterarie, attraverso i grandi poemi nazionali, e ricordassimo, per le confessioni stesse di <persName ref="#WaltWhitman" type="real">Walt</persName>, quei modi naturalistici di declamazione all’aria aperta che spaventavano i gabbiani a <placeName ref="#ConeyIsland">Coney Island</placeName> o divertivano i cocchieri sulle diligenze di <placeName key="Broadway New Jersey United States" ref="https://geonames.org/5095979">Broadway</placeName> alle spese di <persName key="Homer" ref="http://dbpedia.org/resource/Homer" cert="high" type="real">Omero</persName>, <persName key="William Shakespeare" ref="http://dbpedia.org/resource/William_Shakespeare" type="real">Shakespeare</persName>, <persName key="Aeschylus" ref="http://dbpedia.org/resource/Aeschylus" cert="high" type="real">Eschilo</persName>, <title key="Macpherson, James, 1736-1796. | Ossian" ref="http://viaf.org/viaf/314208049/" level="m">Ossian</title> e altri immortali, troveremmo facile costruire su documenti quella tal teoria paradossale del fenomeno <persName ref="#WaltWhitman" type="real">Whitman</persName>, che si diceva. Ai detti poemi – i contemporanei <persName key="Scott Bart, Walter Sir 1771-1832" ref="http://viaf.org/viaf/1462159820903414000002/" cert="high" type="real">Walter Scott</persName> e <persName key="Alfred, Lord Tennyson" ref="http://dbpedia.org/resource/Alfred,_Lord_Tennyson" type="real">Alfred Tennyson</persName> andavano, come Ossian, coi grandi poeti nazionali – si aggiunga l’abbondante gazzetteria del tempo, <persName key="Ralph Waldo Emerson" ref="http://dbpedia.org/resource/Ralph_Waldo_Emerson" type="real">Emerson</persName>, opere di storia naturale, compendî dello scibile, melodrammi e si avrà tutta la cultura apparente, esteriore di <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>.</p>
 			<p>E allora, tirando le somme, diremo che Walt Whitman ha voluto fare per l’America quello che i vari poeti nazionali hanno fatto nei tempi per i loro popoli: Walt Whitman è tutto invasato da quest’idea romantica che lui per primo ha trapiantato in America, Walt Whitman vede l’America e il mondo soltanto in funzione del poema che li esprimerà nel secolo XIX e tutto il resto al confronto non conta. È ben lui – il gran primitivo, il nemico feroce di ogni vivere letterario che tolga spontaneità alla natura – è ben lui che, per lamento supremo sulla razza rossa sterminata, ha saputo dire (10):</p>
 			<p>... (non un quadro, non una poesia, non un’affermazione, che li tramandi al futuro)...</p>
 			<p>Walt Whitman vive tanto intensamente l’idea di questa missione, che, pure non salvandosi dal fallimento ovvio di un simile disegno, si salva per essa dal fallimento della sua opera. Egli non fece il poema primitivo che sognava, ma il poema di questo suo sogno. Non riuscì negli assurdi di creare una poesia adatta al mondo democratico e repubblicano e ai caratteri della nuova terra scoperta – poiché la poesia è una sola – ma passando la vita a ripetere in vario modo questo disegno, egli di questo disegno fece poesia, la poesia dello scoprire un mondo nuovo nella storia e del cantarlo. Per scrivere insomma l’apparente paradosso, egli fece poesia del far poesia.</p>
