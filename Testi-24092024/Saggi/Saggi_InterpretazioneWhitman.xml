@@ -3882,6 +3882,243 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018143049491",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T12:30:49.491Z",
+	"dcterms:modified": "2024-10-18T12:30:49.491Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018143049491#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018143049491#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/184246557/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018143105130",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T12:31:05.130Z",
+	"dcterms:modified": "2024-10-18T12:31:05.130Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018143105130#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018143105130#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/5635159156327312180008/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018143118043",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T12:31:18.043Z",
+	"dcterms:modified": "2024-10-18T12:31:18.043Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018143118043#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018143118043#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/title[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/3610151172698839210000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3900,7 +4137,7 @@
 			<p>Ma si diceva che <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> accompagnò con una certa coscienza critica il suo lavoro. E parrebbe, da questo saggio di ragion poetica, che non certo lui sia stato il migliore storico della sua opera. Ora, il caso è complesso. <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> si sarà ingannato sulla portata, sugli effetti, sul significato delle <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">Leaves</title>, anzi, senz’altro, in proposito ha delirato. Ma l’essenza, la natura del libro è altra cosa e io non posso credere che un poeta, e specialmente un poeta che, come <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>, si accolla l’impresa di rinnovare i modi e gli spiriti del gusto dei tempi, quando riesca a dar fuori qualcosa di vitale, ignori poi come questo qualcosa sia fatto, ignori cioè per quale ragione ha scritto in un modo piuttosto che nell’altro e una cosa piuttosto che un’altra. Specialmente <persName ref="#WaltWhitman" type="real">Walt Whitman</persName>, ripeto, che non ha nemmeno a proteggerlo quell’equivoco alone di poeta giovinetto; ma a trent’anni, dopo svariati mestieri, dopo pietosi tentativi di novellistica e di giornalismo, mette insieme col lavorio, a dir poco, di un quadriennio un centinaio di pagine in tutto e lentamente le evolve, sviluppa, accresce, tormenta, in una ricerca instancabile. Anche chi ci pensi senza conoscerne l’opera, troverebbe naturale che, con quel po’ po’ di cultura raffazzonata ed entusiastica, <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> desse fuori in stranezze programmatiche. Ma rimane il problema che, mentre i titolari di quella cultura non han saputo al più cavarne che illustrative raccolte di ballate medioevali o inni al progresso, <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> ne ha insomma fatto, o attraverso o malgrado, il miracolo delle <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">Leaves of Grass</title>.</p>
 			<p>E chi sa cercare, scopre poi nelle <title level="m" ref="#ProseWorks">Prose Works</title> certe proteste, certe affermazioni, certe – le chiami chi vuole – intuizioni, che sono in definitiva tra i passi migliori di tutta l’imperversata critica whitmaniana. Per esempio, si veda nel già citato <title level="m" ref="#ABackwardGlanceOerTraveldRoads">A Backward Glance o’er Travel’d Roads</title> la pacatezza con cui il poeta analizza le ragioni e i motivi del libro. E la prima cosa che ne dice è questa: <quote cert="high" defective="unknown" generatedBy="human" source="#LeavesOfGrass" xml:space="default">«...un sentimento e un’ambizione di articolare e fedelmente esprimere in forma letteraria o poetica, e senza compromessi, la mia propria Persona fisica, emotiva, morale, intellettuale ed estetica, accordandola nel mezzo dello spirito e dei fatti importanti dei suoi giorni immediati, e dell’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> attuale – e di svolgere questa personalità, identificata nel tempo e nello spazio, in un senso molto più ingenuo e comprensivo che in qualunque libro o poema scritto sinora» </quote>(11). E in fondo, dopo la consueta e sempre assurda esposizione della vera natura democratica delle <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">Leaves</title>, ecco ritorna, a concludere, l’idea che il libro non è l’espressione di un mondo fantastico, non una galleria di staccate figure (i quadretti), ma una Persona, una emotività, che si muove nel mondo reale: <quote cert="high" defective="unknown" generatedBy="human" source="#LeavesOfGrass" xml:space="default">«Le <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">Leaves of Grass</title> sono state in verità (non lo ripeterò mai abbastanza) principalmente l’affiorare della mia personale natura, emotiva e altrimenti – un tentativo da capo a fondo di tramandare una Persona, un essere umano (me stesso, nella seconda metà del secolo diciannovesimo, in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>) liberamente, pienamente e sinceramente»</quote> (12). La quale idea, anche fuori della sua applicazione critica all’opera di <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName>, ha una singolare importanza storica, perché con essa fu la prima volta che in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> si formulò il problema che nel ’<date when="1900">900</date> ogni artista degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati</placeName> ha ricominciato a proporsi. Comunque espresso, il problema ha questo di sempreverde, che, mentre un artista europeo, un antico, sosterrà che il segreto dell’arte è di costruire un mondo più o meno fantastico, di negare la realtà per sostituirla con un’altra magari più significativa, un americano delle generazioni recenti vi dirà che la sua aspirazione è tutta di giungere alla natura vera delle cose, di vedere le cose con occhi vergini, di arrivare a quell’<quote cert="high" defective="unknown" generatedBy="human" source="#DarkLaughter" xml:space="default">«ultimate grip of reality»</quote> (13) che solo è degno di esser conosciuto. Una specie di cosciente ambientazione nel mondo e nell’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. È giusto quindi riconoscere che <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> non solo ha testimoniato per primo con la sua opera questa tendenza della cultura nazionale, ma altresì l’ha scoperta dentro di sé e formulata con una maggior chiarezza critica che non sia stata quella di parecchi suoi commentatori.</p>
 			<p>Se io non credo che la forma della poesia di <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> stia, come dichiarano o sottintendono molti commentatori, in un’antologia di scenette spiccabili per la loro graziosità, non credo nemmeno che una qualche efficacia abbia l’architettura di tutto il libro, secondo quella che fu invece l’aspirazione costante di <persName cert="high" ref="#WaltWhitman" type="real">Walt</persName> e dei discepoli.</p>
-			<p>Le scenette, o quadretti, sarebbero quelle rapide poesie – o parti di poesie – d’impressione, dove è fermata una figura, una scena, un pensiero, un paesaggetto, nelle sue linee essenziali: e hanno intanto il difetto che verso la vecchiaia sono andate spesseggiando senza misericordia, per la smania ormai tra buffa e pietosa del «saggio di Camden» di vedere in ogni piccola cosa i segni del suo vasto sistema ed esprimerli in un parallelo, un’immagine, una descrizione. Però, in una natura come la sua, che tendeva al profetico, il quadretto, che poteva anche riuscire di genere, fu sempre piuttosto l’apologo, l’esemplificazione, giustificato dall’insieme della dottrina e del libro. Mentre gli ultimi critici che giustamente hanno rifiutate le sue pretese profetiche, non han fatto altro che togliere il sostegno, il significato ai quadretti, riducendoli a miserevoli frammenti e guastandosi poi anche la prospettiva, perché naturalmente nell’andazzo son parsi migliori, tra i quadretti, quelli più bozzettistici di tutti, come O Captain! My Captain!, Come up from the Fields Father, e The Singer in the Prison.</p>
+			<p>Le scenette, o quadretti, sarebbero quelle rapide poesie – o parti di poesie – d’impressione, dove è fermata una figura, una scena, un pensiero, un paesaggetto, nelle sue linee essenziali: e hanno intanto il difetto che verso la vecchiaia sono andate spesseggiando senza misericordia, per la smania ormai tra buffa e pietosa del «saggio di Camden» di vedere in ogni piccola cosa i segni del suo vasto sistema ed esprimerli in un parallelo, un’immagine, una descrizione. Però, in una natura come la sua, che tendeva al profetico, il quadretto, che poteva anche riuscire di genere, fu sempre piuttosto l’apologo, l’esemplificazione, giustificato dall’insieme della dottrina e del libro. Mentre gli ultimi critici che giustamente hanno rifiutate le sue pretese profetiche, non han fatto altro che togliere il sostegno, il significato ai quadretti, riducendoli a miserevoli frammenti e guastandosi poi anche la prospettiva, perché naturalmente nell’andazzo son parsi migliori, tra i quadretti, quelli più bozzettistici di tutti, come <title key="Whitman, Walt, 1819-1892. | O captain! My captain!" ref="http://viaf.org/viaf/184246557/" level="a">O Captain! My Captain!</title>, <title key="Whitman, Walt, 1819-1892. | Come up from the fields, father" ref="http://viaf.org/viaf/5635159156327312180008/" level="a">Come up from the Fields Father</title>, e <title key="Whitman, Walt, 1819-1892. | Singer in the prison" ref="http://viaf.org/viaf/3610151172698839210000/" level="a">The Singer in the Prison</title>.</p>
 			<p>Quell’estrema giustificazione dei quadretti ch’era la ragione architettonica del libro delle Leaves, rappresenta – chiunque lo vede – la traduzione in arte dell’impulso profetico, il fine pratico del libro, allo stesso modo che la vessata architettura della Divina Commedia. Però, che quest’architettura delle Leaves sia fatta di un materiale filosofico meno pregiato o che somigli poco a una cattedrale o che so io, c’è stato su di essa meno accanimento che su quella della Commedia, e i più audaci sono poi quelli che l’accettano, scusandosi che in fin dei conti l’ordine delle poesie è, nelle linee essenziali, quello cronologico della loro composizione (14), e allora non vale più la pena di fermarcisi.</p>
 			<p>Non quadretti dunque – le stanche o modeste impressioni o i frammenti descrittivi dei lunghi Songs; – non costruzione – l’inutile gerarchia tra pagine identiche di argomento o di intensità: – dove si troverà la forma di Walt Whitman?</p>
 			<p>Fermiamoci a un poemetto, anzi a un poemone, il pezzo più duro delle Leaves, il Song of Myself. Questo Song, fin dalla prima edizione del 1855, campeggiava nelle Leaves da padrone, benché ancora senza titolo, e seguì la fortuna del libro subendo rimaneggiamenti, limature, tagli e aggiunte d’ogni genere. Nell’’81 lo troviamo in forma definitiva, cinquantadue sezioni, enorme pur tra la covata dei primi poemi «aux titres immenses, les mastodontes et les iguanodons de la création whitmanienne» (15). Questo Song of Myself è qualcosa come una quintessenza delle Leaves of Grass: in esso s’incontrano tutti i motivi, anche intesi come semplici soggetti, della poesia whitmaniana.</p>
