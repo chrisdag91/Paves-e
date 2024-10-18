@@ -6468,7 +6468,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018145123590#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[43]/title[4]"
+			"rdf:value": "TEI/text/body/p[43]/title[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -6547,7 +6547,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018145140814#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[43]/title[5]"
+			"rdf:value": "TEI/text/body/p[43]/title[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -6866,7 +6866,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018145344334#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[43]/title[3]"
+			"rdf:value": "TEI/text/body/p[43]/title[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -6945,7 +6945,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018145407030#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[43]/title[2]"
+			"rdf:value": "TEI/text/body/p[43]/quote/title"
 		}
 	},
 	"oa:hasBody": {
@@ -7007,7 +7007,7 @@
 			<p>Sono dei giovani e dei vecchi, degli sciocchi come dei saggi...</p>
 			<p>Sono il poeta del Corpo e sono il poeta dell’Anima...:</p>
 			<p>sono tanti inizi di sezioni nel <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title> e ciò che segue a ciascuno, più che svolgere un motivo accennato, ripete – in altri particolari e in altri pensieri – l’atteggiamento iniziale di chi afferma senza posa quanto sia bello scoprire e abbracciare tutta la vita. Naturalmente, per chiarirla, si sforza un poco l’idea: qualche volta l’immagine richiede da <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> parecchi versetti, qualche volta un pensiero si lega logicamente a un altro, ma resta il fatto definitivo della vigorosa affermazione di ciascun verso, finito, pronunciato come fosse la sintesi di tutto il libro e insieme il più ingenuo e nuovo e fresco particolare della sezione. Ora questo si spiega soltanto con la natura di quei pensieri e fantasmi whitmaniani che informano i versi.</p>
-			<p>L’enorme <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself,</title> le cinquantadue sezioni del quale non giurerei che tutti i critici abbiano letto per disteso, è veramente la loro pietra di paragone. Tra uno che dice: «Il <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title> non è forse affatto una poesia. Ma è una delle più stupefacenti espressioni di energia vitale che siano mai entrate in un libro» (17) e un altro che accenna a una specie di Sermone della Montagna: «Tale è il Canto cantato dal Profeta della Nuova Era sul monte della visione» (18), il più fantastico non è forse il secondo. Certo, il <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title> contiene per la mole e per i modi tutta la quintessenza dei vizi e delle virtù whitmaniane. Quasi, tant’è bizzarro il modo del poema, viene la tentazione di credere a <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> e, quel che è peggio, al critico e ricercare qui una poesia di nuovo conio: non un poemetto, ma «una espressione di energia vitale». Ma sono debolezze. Considerando un istante, ci si convince che anche il <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title>, il «tremendous <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title>» (19) non può essere, attraverso qualunque eccentricità, nient’altro che lirica, poesia – riuscita o no, è compito del critico ricercare – espressione di stati d’animo insomma, né più né meno di quella, ad esempio, del <persName key="John Keats" ref="http://dbpedia.org/resource/John_Keats" cert="high" type="real">Keats</persName>, che tanto piace ai critici whitmaniani contrapporre a <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> (20). È ancora la storia dell’<persName key="Ludovico Ariosto" ref="http://dbpedia.org/resource/Ludovico_Ariosto" cert="high" type="real">Ariosto</persName> e dell’<persName key="Dante Alighieri" ref="http://dbpedia.org/resource/Dante_Alighieri" cert="high" type="real">Alighieri</persName>: uno sarebbe l’artista e l’altro il poeta.</p>
+			<p>L’enorme <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself,</title> le cinquantadue sezioni del quale non giurerei che tutti i critici abbiano letto per disteso, è veramente la loro pietra di paragone. Tra uno che dice: <quote cert="high" defective="unknown" generatedBy="human" source="#WaltWhitman" xml:space="default">«Il <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title> non è forse affatto una poesia. Ma è una delle più stupefacenti espressioni di energia vitale che siano mai entrate in un libro»</quote> (17) e un altro che accenna a una specie di Sermone della Montagna: «Tale è il Canto cantato dal Profeta della Nuova Era sul monte della visione» (18), il più fantastico non è forse il secondo. Certo, il <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title> contiene per la mole e per i modi tutta la quintessenza dei vizi e delle virtù whitmaniane. Quasi, tant’è bizzarro il modo del poema, viene la tentazione di credere a <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> e, quel che è peggio, al critico e ricercare qui una poesia di nuovo conio: non un poemetto, ma «una espressione di energia vitale». Ma sono debolezze. Considerando un istante, ci si convince che anche il <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title>, il «tremendous <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title>» (19) non può essere, attraverso qualunque eccentricità, nient’altro che lirica, poesia – riuscita o no, è compito del critico ricercare – espressione di stati d’animo insomma, né più né meno di quella, ad esempio, del <persName key="John Keats" ref="http://dbpedia.org/resource/John_Keats" cert="high" type="real">Keats</persName>, che tanto piace ai critici whitmaniani contrapporre a <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> (20). È ancora la storia dell’<persName key="Ludovico Ariosto" ref="http://dbpedia.org/resource/Ludovico_Ariosto" cert="high" type="real">Ariosto</persName> e dell’<persName key="Dante Alighieri" ref="http://dbpedia.org/resource/Dante_Alighieri" cert="high" type="real">Alighieri</persName>: uno sarebbe l’artista e l’altro il poeta.</p>
 			<p>Ho già ripetuto come il poema non abbia una struttura, una trama che ne renda necessarie, costruite, le parti. Riassumerlo infatti, non è facile e non significherebbe nulla. E occorre notare che qualunque altra grande poesia di Walt Whitman si presti più agevolmente a un riassunto (per esempio The Mystic Trumpeter e Out of the Cradle endlessly rocking) rivela poi a un esame attento come il suo pregio, la sua vita, stiano in qualcosa di più profondo, in uno spirito insieme più immediato e impalpabile, che non l’occasionale disegno logico o narrativo. O, se si vuol porre la cosa altrimenti, tutte le grandi pagine di Walt Whitman (intendo quelle che sole c’interessano qui: scritte prima che le facoltà di Walt Whitman maturassero all’esperienza di una prosa, potente e ordinata pur nel suo impressionismo), tutte le poesie della virilità non hanno che un solo disegno: l’uomo forte, pensoso, «ricettivo», che passa tra i fenomeni del mondo e tutti questi assorbe, rapito proprio dalla loro semplicità, normalità, realtà, e a questi risponde con un attaccamento, un’estasi perenne, nati dall’identificazione fantastica dell’uomo con gli uomini e le cose.</p>
 			<p>Al solito, su questo punto Walt Whitman è stato ancora il suo miglior critico:</p>
 			<p>Cominciando i miei studi, il primo passo mi piacque tanto,</p>
