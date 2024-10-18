@@ -10595,6 +10595,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018175702686",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T15:57:02.686Z",
+	"dcterms:modified": "2024-10-18T15:57:02.686Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018175702686#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018175702686#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[217]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/64055661/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body cert="high" source="#LeavesOfGrass_L" xml:space="default">
@@ -10814,7 +10893,7 @@
 			<p>(20) BLISS PERRY, Walt Whitman – his Life and Works cit., le ultime pagine del cap. VI; JAMES THOMPSON, W. W. – the Man and the Poet, Dobell, Londra 1910, cap. I.</p>
 			<p>(21) <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" ref="#WaltWhitman" type="real">WALT WHITMAN</persName>, L. o. G., ed. cit., vol. I, p. 9.</p>
 			<p>(22) BASIL DE SÉLINCOURT, Walt Whitman – his Life and Works cit., pp. 207-8.</p>
-			<p>(23) Ci vuol tanto a esprimersi con la scientifica schiettezza di J. Schlaf che, chiaro come il sole, intitolò il suo studio W. W. homosexueller? Bisogna andare a leggere, a questo proposito, le pagine del Perry nel cap. The caresser of life (op. cit., pp. 44-48) dove, discutendo della lettera famosa di J. A. Symonds e della risposta di <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> (10 agosto 1890), si difende la persona morale di quest’ultimo con così appariscenti reticenze che, per la legittima impazienza, vien quasi la voglia di credere il contrario.</p>
+			<p>(23) Ci vuol tanto a esprimersi con la scientifica schiettezza di <persName key="Schlaf, Johannes, 1862-1941" ref="http://viaf.org/viaf/64055661/">J. Schlaf</persName> che, chiaro come il sole, intitolò il suo studio W. W. homosexueller? Bisogna andare a leggere, a questo proposito, le pagine del Perry nel cap. The caresser of life (op. cit., pp. 44-48) dove, discutendo della lettera famosa di J. A. Symonds e della risposta di <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> (10 agosto 1890), si difende la persona morale di quest’ultimo con così appariscenti reticenze che, per la legittima impazienza, vien quasi la voglia di credere il contrario.</p>
 			<p>(24) <persName key="De Sélincourt, Basil 1876-" ref="http://viaf.org/viaf/30470182/" type="real">BASIL DE SÉLINCOURT</persName>, <title level="m" ref="#WaltWhitmanHisLifeAndHisWorks">Walt Whitman – his Life and Works</title> cit., pp. 26-28.</p>
 			<p>(25) <persName cert="high" ref="#WaltWhitman" type="real">WALT WHITMAN</persName>, <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">L. o. G</title>., ed. cit., vol. I, p. 127.</p>
 			<p>(26) <persName cert="high" ref="#WaltWhitman" type="real">WALT WHITMAN</persName>, <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">L. o. G</title>., ed. cit., vol. I, p. 125.</p>
