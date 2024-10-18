@@ -7392,7 +7392,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018170515558",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-18T15:05:15.558Z",
-	"dcterms:modified": "2024-10-18T15:05:15.558Z",
+	"dcterms:modified": "2024-10-18T16:33:30.489Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -7424,7 +7424,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/107021136/",
+		"@id": "http://viaf.org/viaf/30470182/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -7433,7 +7433,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -14769,7 +14770,7 @@
 			<p>O voi persone che tutti evitano, io almeno non vi evito,</p>
 			<p>io vengo senz’altro in mezzo a voi, io sarò il vostro poeta,</p>
 			<p>io sarò più a voi che non a qualunque degli altri.</p>
-			<p>Chiunque vede che, tolto un leggero colore polemico, la poesia è un momento del consueto desiderio whitmaniano: fronteggiare una esperienza delle mille, e dimenticarsi, identificarsi in essa: poesia della scoperta. Chiunque vede che le «persone che tutti evitano» non sono altro che il solito Comrade, il solito alter ego whitmaniano, riassunto, a volta a volta, di tutto l’universo. Ma il <persName key="De Sélincourt, Aubrey, 1894-1962." ref="http://viaf.org/viaf/107021136/" type="real">De Sélincourt</persName>, che pure altrove si dimostra tutt’altro che stupido, preferisce dimostrare sottilmente (24) che <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> non ebbe mai le esperienze vergognose elencate nei <title level="a" ref="#NativeMoments">Native Moments</title> e questo per la convincente ragione che, appunto perché queste esperienze sono desiderate e invocate, il loro poeta non poteva averle provate.</p>
+			<p>Chiunque vede che, tolto un leggero colore polemico, la poesia è un momento del consueto desiderio whitmaniano: fronteggiare una esperienza delle mille, e dimenticarsi, identificarsi in essa: poesia della scoperta. Chiunque vede che le «persone che tutti evitano» non sono altro che il solito Comrade, il solito alter ego whitmaniano, riassunto, a volta a volta, di tutto l’universo. Ma il <persName key="De Sélincourt, Basil 1876-" ref="http://viaf.org/viaf/30470182/" type="real" cert="high">De Sélincourt</persName>, che pure altrove si dimostra tutt’altro che stupido, preferisce dimostrare sottilmente (24) che <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> non ebbe mai le esperienze vergognose elencate nei <title level="a" ref="#NativeMoments">Native Moments</title> e questo per la convincente ragione che, appunto perché queste esperienze sono desiderate e invocate, il loro poeta non poteva averle provate.</p>
 			<p>Questa confusione dei problemi biografici con quelli estetici ha imperversato nei due gruppi «amorosi» delle <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">Leaves</title>, intorbidando molte viste altrimenti ben limpide. Mentre la verità è, ad occhi sgombri, che i <title key="Whitman, Walt, 1819-1892. | Children of Adam" ref="http://viaf.org/viaf/300317847/" level="a">Children of Adam</title> e <title key="Whitman, Walt, 1819-1892. | Calamus" ref="http://viaf.org/viaf/186204008/" level="a">Calamus</title> sono uno stesso inno al perfetto individuo whitmaniano – donna o uomo, non fa differenza – che sperimenta la gioia, la sanità, la libertà di ogni contatto con le cose dell’universo: un ciuffo d’erba, un corpo altrui, un pensiero «profetico».</p>
 			<p>Non si capisce <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> se non ci si convince che le varie figure, che empiricamente si sono imposte al suo canto nei vari momenti della sua esistenza, sono sempre una stessa figura, identificata (e la loro vita sta in questa identificazione) a volta a volta con i vari campi dell’esperienza. Così le amanti e gli amici (meglio, i camerati) dei due gruppi «amorosi»; così i soldati (meglio, i camerati) della guerra di secessione; così i pionieri (meglio, i camerati) dei grandi <title level="a" ref="#Songs">Songs</title> sull’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>, e tipica è qui la figura di <persName key="Abraham Lincoln" ref="http://dbpedia.org/resource/Abraham_Lincoln" cert="high" type="real">Lincoln</persName>; così persino le parvenze ultraterrene, le presenze celestiali (meglio, i camerati) dei <title level="a" ref="#WhispersOfHeavenlyDeath">Whispers of Heavenly Death</title>.</p>
 			<p>È significativa nei primi gruppi l’indifferenza con cui <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> nomina il corpo delle donne accanto a quello degli uomini. Lasciamo stare la coscienza offesa; non è il caso, perché mai a <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> passa in mente una lascivia in quanto lascivia, ma soltanto gli balzano alle labbra grida di riconoscenza per l’inesauribile campo di esperienze, di scoperte, di identificazioni; e del resto oltre l’uomo e la donna c’è addirittura il campo della terra, e quello del mare, e insomma di tutto l’universo, che lo accoglie:</p>
