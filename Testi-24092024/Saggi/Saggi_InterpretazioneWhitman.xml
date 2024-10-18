@@ -10911,6 +10911,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018180059953",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T16:00:59.953Z",
+	"dcterms:modified": "2024-10-18T16:00:59.953Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018180059953#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?person_annotation_20241018180059953#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[226]/persName[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/30470182/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body cert="high" source="#LeavesOfGrass_L" xml:space="default">
@@ -11139,7 +11218,7 @@
 			<p>(29) <persName cert="high" ref="#WaltWhitman" type="real">WALT WHITMAN</persName>, <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">L. o. G</title>., ed. cit., vol. II, p. 221.</p>
 			<p>(30) <persName cert="high" ref="#WaltWhitman" type="real">WALT WHITMAN</persName>, cfr. qui nota 3.</p>
 			<p>(31) <persName cert="high" ref="#WaltWhitman">WALT WHITMAN</persName>, <title key="Whitman, Walt, 1819-1892. | Works. 1982" ref="http://viaf.org/viaf/4469150567617306370002/" level="m">L. o. G</title>., ed. cit., vol. I, pp. 63 e 206.</p>
-			<p>(32) <persName key="Noyes, Carleton Eldredge, 1872-1950" ref="http://viaf.org/viaf/31266890/" cert="high" type="real">CARLETON NOYES</persName>, <title level="m" ref="#AnApproachToWW">An approach to W. W</title>., cap. <title level="m" ref="#WWSArt">W. W.’s art</title>, <orgName key="Houghton Mifflin Company." ref="http://viaf.org/viaf/159556432/">Houghton Mifflin and Co</orgName>., <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName> <date when="1910">1910</date>. Ma tutti gli studiosi del Whitman ce l’hanno coi cataloghi, escluso il <persName key="Sélincourt, Aubrey de" ref="http://viaf.org/viaf/151146998611618942967/">De Sélincourt</persName> che escogita, a difenderli, la seguente teoria: i cataloghi sono il modo più schietto del fantasma poetico whitmaniano, perché in essi le parti morte (meri nomi) accanto alle vive (scenette più rimpolpate di particolari) concorrono a una lirica dell’universalità, presentano cioè, nella loro opposizione, tutto il bene e tutto il male del mondo. Eppure questa bizzarria è meritoria, specialmente se presa con tutto il resto del capitolo (sullo «Stile») dove, attraverso le molte stranezze e oscurità, si esce pur a dire tutto a un tratto: «la sua poesia è il desiderio della poesia» (op. cit., p. 139).</p>
+			<p>(32) <persName key="Noyes, Carleton Eldredge, 1872-1950" ref="http://viaf.org/viaf/31266890/" cert="high" type="real">CARLETON NOYES</persName>, <title level="m" ref="#AnApproachToWW">An approach to W. W</title>., cap. <title level="m" ref="#WWSArt">W. W.’s art</title>, <orgName key="Houghton Mifflin Company." ref="http://viaf.org/viaf/159556432/">Houghton Mifflin and Co</orgName>., <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956">Boston</placeName> <date when="1910">1910</date>. Ma tutti gli studiosi del Whitman ce l’hanno coi cataloghi, escluso il <persName key="Sélincourt, Aubrey de" ref="http://viaf.org/viaf/151146998611618942967/"><persName key="De Sélincourt, Basil 1876-" ref="http://viaf.org/viaf/30470182/" type="real">De Sélincourt</persName></persName> che escogita, a difenderli, la seguente teoria: i cataloghi sono il modo più schietto del fantasma poetico whitmaniano, perché in essi le parti morte (meri nomi) accanto alle vive (scenette più rimpolpate di particolari) concorrono a una lirica dell’universalità, presentano cioè, nella loro opposizione, tutto il bene e tutto il male del mondo. Eppure questa bizzarria è meritoria, specialmente se presa con tutto il resto del capitolo (sullo «Stile») dove, attraverso le molte stranezze e oscurità, si esce pur a dire tutto a un tratto: «la sua poesia è il desiderio della poesia» (op. cit., p. 139).</p>
 		</body>
 	</text>
 </TEI>
