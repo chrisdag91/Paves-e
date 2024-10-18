@@ -8147,6 +8147,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018172117541",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T15:21:17.541Z",
+	"dcterms:modified": "2024-10-18T15:21:17.541Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018172117541#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018172117541#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[115]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/176620365/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -8264,7 +8343,7 @@
 			<p>eguali, muniti finalmente (O gioia! O frutto di tutto!) per compierli o anima (29).</p>
 			<p><persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> è il poeta di questa scoperta, sia essa la scoperta di un ciuffo d’erba o del <persName key="Abraham Lincoln" ref="http://dbpedia.org/resource/Abraham_Lincoln" type="real">Presidente Lincoln</persName> o, nei momenti di vena meno pura, meno nostra, della confederazione americana. È attraverso il suo cosmico stupore per le cose e gli uomini che <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> dà una vita al risecchito proposito romantico di fare il poema primitivo dell’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. Non canta mai l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>: canta se stesso inteso a scoprire l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> come – ed è qui che è più torbido – entità politica, ma canta altresì se stesso assorto nella scoperta della vita di cui l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> non è che un atomo o, nei momenti artisticamente meno felici, un simbolo.</p>
 			<p>Tutto ciò tende a fare di <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> essenzialmente un catalogatore. Questo problema dei cataloghi cede soltanto in importanza, presso i commentatori, a quell’altro se <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> abbia o no scritto metricamente. E, di passaggio, si noti come la trovata critica dei quadretti, dei frammentini, aveva ed ha lo scopo di relegare nel limbo dell’informe tutte le pagine catalogiche di Walt Whitman. Ora, si ammette qui che molti dei quadretti del vecchio <persName cert="high" ref="#WaltWhitman" type="real">Walt</persName> siano meno stanchi, meno pappagalleschi (30), soltanto dietro il riconoscimento ch’essi sono però pallidi echi di quelle superbe filze di rapidissimi e ben definiti quadretti, ch’erano i cataloghi nei grandi <title level="a" ref="#ProseSongs">Songs</title>.</p>
-			<p>Il Song of Myself ne è pieno, di cataloghi:</p>
+			<p>Il <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title> ne è pieno, di cataloghi:</p>
 			<p>Il piccolo dorme nella culla,</p>
 			<p>io sollevo la garza e guardo a lungo e, in silenzio, scaccio le mosche con la mano.</p>
 			<p>Il giovanotto e la ragazza rossa in faccia scantonano su per la collina cespugliosa,</p>
