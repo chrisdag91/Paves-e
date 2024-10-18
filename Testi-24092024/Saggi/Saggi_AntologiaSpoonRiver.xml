@@ -3604,7 +3604,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_AntologiaSpoonRiver.xml?organization_annotation_20241015143230095",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-15T12:32:30.095Z",
-	"dcterms:modified": "2024-10-15T12:32:30.095Z",
+	"dcterms:modified": "2024-10-18T16:39:24.675Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -3636,7 +3636,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "org:Organization",
-		"@id": "http://viaf.org/viaf/137671416/",
+		"@id": "http://viaf.org/viaf/200887528/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -6705,7 +6705,7 @@
 			<p/>
 			<p/>
 			<p>(1) L’<title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Antologia di Spoon River</title>, saggio pubblicato su <title level="j" ref="#LaCultura">«La Cultura»</title>, <date when="1931-11">novembre 1931</date>.</p>
-			<p>(2) <persName key="Michaud, Régis, 1880-1939." ref="http://viaf.org/viaf/46917655/" cert="high" type="real">R. MICHAUD</persName>, <title key="Michaud, Régis, 1880-1939,. | Panorama de la littérature américaine contemporaine" ref="http://viaf.org/viaf/6269150470098404330000/" level="m">Littérature américaine</title>, <orgName key="Editions Kra" ref="http://viaf.org/viaf/137671416/">Kra</orgName>, <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName> <date when="1928">1928</date>.</p>
+			<p>(2) <persName key="Michaud, Régis, 1880-1939." ref="http://viaf.org/viaf/46917655/" cert="high" type="real">R. MICHAUD</persName>, <title key="Michaud, Régis, 1880-1939,. | Panorama de la littérature américaine contemporaine" ref="http://viaf.org/viaf/6269150470098404330000/" level="m">Littérature américaine</title>, <orgName key="Éditions du Sagittaire." ref="http://viaf.org/viaf/200887528/">Kra</orgName>, <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName> <date when="1928">1928</date>.</p>
 			<p>(3) Il <title level="j" ref="#ReedysMirror">«Reedy’s Mirror»</title>. Nel <date when="1915">1915</date> venne riunita in volume e pubblicata dalla <orgName key="Macmillan Publishers Ltd" ref="http://viaf.org/viaf/9423159880879718540004/">MacMillan Co</orgName>. Nel</p>
 			<p><date when="1916">1916</date> se ne fece una nuova edizione con nuove poesie.</p>
 			<p>(4) Alludo specialmente a <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/" cert="high" type="real">Lee</persName> (<orgName key="Macmillan Publishers Ltd" ref="http://viaf.org/viaf/9423159880879718540004/">MacMillan</orgName>, <date when="1927">1927</date>) e al <title level="m" ref="#DomesdayBook">Domesday Book</title> (<date when="1920">1920</date>).</p>
