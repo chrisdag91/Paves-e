@@ -8385,6 +8385,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018172703766",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-18T15:27:03.766Z",
+	"dcterms:modified": "2024-10-18T15:27:03.766Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018172703766#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Saggi/Saggi_InterpretazioneWhitman.xml?title_annotation_20241018172703766#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[137]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/176620365/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -8523,8 +8602,8 @@
 			<p>verso nord, giovanotti di Mannahattan, la compagnia dei tiratori che tornano a casa alla</p>
 			<p>sera da un’escursione, le bocche dei moschetti portano tutte mazzolini di fiori regalati</p>
 			<p>da donne...</p>
-			<p>E del resto quando, come in molte poesie brevi (ed ecco <title key="Whitman, Walt, 1819-1892. | Calamus" ref="http://viaf.org/viaf/186204008/" level="a">Calamus</title>, i <title level="a" ref="#DrumTaps">Drum-Taps</title> e i Whispers of Heavenly Death) Walt Whitman tanto sovente ricorre a un’altra materia più logica, più costruttiva, si tratta sempre di uno scorcio tecnico per cui una spiegazione razionale, una ambientazione in una scena ben definita, incorniciano il solito attimo di rapimento, di contatto amoroso ed essenziale, con un camerata, un «tu» sintetico dell’universo, sia questi una persona o una cosa.</p>
-			<p>Ciò si vede anche nella chiusa del Song of Myself dove non più un catalogo di esperienze con la quale il Myself s’identifichi, ma una tremante atmosfera d’avvenuto miracolo si diffonde agli occhi «gravidi di visione» del lettore:</p>
+			<p>E del resto quando, come in molte poesie brevi (ed ecco <title key="Whitman, Walt, 1819-1892. | Calamus" ref="http://viaf.org/viaf/186204008/" level="a">Calamus</title>, i <title level="a" ref="#DrumTaps">Drum-Taps</title> e i <title level="a" ref="#WhispersOfHeavenlyDeath">Whispers of Heavenly Death</title>) <persName cert="high" ref="#WaltWhitman" type="real">Walt Whitman</persName> tanto sovente ricorre a un’altra materia più logica, più costruttiva, si tratta sempre di uno scorcio tecnico per cui una spiegazione razionale, una ambientazione in una scena ben definita, incorniciano il solito attimo di rapimento, di contatto amoroso ed essenziale, con un camerata, un «tu» sintetico dell’universo, sia questi una persona o una cosa.</p>
+			<p>Ciò si vede anche nella chiusa del <title key="Whitman, Walt, 1819-1892. | Song of myself" ref="http://viaf.org/viaf/176620365/" level="a">Song of Myself</title> dove non più un catalogo di esperienze con la quale il Myself s’identifichi, ma una tremante atmosfera d’avvenuto miracolo si diffonde agli occhi «gravidi di visione» del lettore:</p>
 			<p>SEZ. 50.</p>
 			<p>C’è questa cosa in me – non so che cosa sia – ma so che è in me.</p>
 			<p>Stroncato e sudato – calmo e fresco diventa allora il mio corpo, io dormo, dormo a</p>
