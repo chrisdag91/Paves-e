@@ -172,8 +172,8 @@
 	<text>
 		<body>
 			<p><date when="1936-09-14">14 sett.</date></p>
-			<p>D’accordo con <persName key="Henri Bergson" ref="http://dbpedia.org/resource/Henri_Bergson">Berg.</persName> che tanto il razzismo quanto la bontà naturale dell’uomo sono miti politici da giudicarsi alle loro realizzazioni, ma è disonesto scusare la riconosciuta debolezza filosofica del razzismo col fatto che ora si è riconosciuta debole filosoficamente anche la bontà naturale. Perché un mito per essere storicamente legittimo va creduto al suo tempo, e deve essere l’ultima parola della critica del suo tempo. Tale era la bontà naturale nel ’700, tale non è il razzismo nel ’900.</p>
-			<p>Lo stesso accade per le strutture della poesia dei vari tempi. Che le favole del passato per noi siano miti è pacifico, ma per fare grande poesia il poeta ha dovuto credere alle sue favole, crederle cioè l’ultima parola della critica dei suoi tempi.</p>
+			<p>D’accordo con <persName key="Henri Bergson" ref="http://dbpedia.org/resource/Henri_Bergson">Berg.</persName> che tanto il razzismo quanto la bontà naturale dell’uomo sono miti politici da giudicarsi alle loro realizzazioni, ma è disonesto scusare la riconosciuta debolezza filosofica del razzismo col fatto che <hi cert="high" generatedBy="human" rend="italic" xml:space="default">ora</hi> si è riconosciuta debole filosoficamente anche la bontà naturale. Perché un mito per essere storicamente legittimo va creduto al suo tempo, e deve essere l’ultima parola della critica del suo tempo. Tale era la bontà naturale nel ’700, tale non è il razzismo nel ’900.</p>
+			<p>Lo stesso accade per le strutture della poesia dei vari tempi. Che le favole del passato per noi siano miti è pacifico, ma per fare grande poesia il poeta ha dovuto <hi cert="high" generatedBy="human" rend="italic" xml:space="default">credere </hi>alle sue favole, crederle cioè l’ultima parola della critica dei suoi tempi.</p>
 		</body>
 	</text>
 </TEI>
