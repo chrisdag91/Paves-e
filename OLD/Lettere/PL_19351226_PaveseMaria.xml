@@ -43,10 +43,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104234319",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104234319",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-17T08:42:34.319Z",
-	"dcterms:modified": "2024-08-17T08:42:34.319Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -57,10 +56,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104234319#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104234319#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -68,10 +67,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104234319#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104234319#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/placeName"
 		}
@@ -86,7 +85,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
@@ -122,10 +121,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104255604",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104255604",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-17T08:42:55.604Z",
-	"dcterms:modified": "2024-08-17T08:42:55.604Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -136,10 +134,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104255604#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104255604#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -147,10 +145,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104255604#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817104255604#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[2]/placeName"
 		}
@@ -165,7 +163,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
@@ -201,10 +199,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104314500",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104314500",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-17T08:43:14.500Z",
-	"dcterms:modified": "2024-08-17T08:43:14.500Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -215,10 +212,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104314500#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104314500#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -226,10 +223,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104314500#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104314500#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[2]/date"
 		}
@@ -243,7 +240,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
@@ -279,10 +276,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104353927",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104353927",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-17T08:43:53.927Z",
-	"dcterms:modified": "2024-08-17T08:43:53.927Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -293,10 +289,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104353927#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104353927#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -304,10 +300,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104353927#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?date_annotation_20240817104353927#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[5]/date"
 		}
@@ -321,7 +317,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
@@ -357,10 +353,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105342428",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105448760",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-08-17T08:53:42.428Z",
-	"dcterms:modified": "2024-08-17T08:54:48.760Z",
+	"dcterms:created": "2024-08-17T08:54:48.760Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -371,10 +366,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105342428#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105448760#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -382,10 +377,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105342428#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105448760#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[7]/persName"
 		}
@@ -400,7 +395,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
@@ -436,10 +431,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105645627",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105645627",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-17T08:56:45.627Z",
-	"dcterms:modified": "2024-08-17T08:56:45.627Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -450,10 +444,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105645627#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105645627#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -461,10 +455,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105645627#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105645627#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[11]/placeName"
 		}
@@ -479,7 +473,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
@@ -515,10 +509,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105715833",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105715833",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-17T08:57:15.833Z",
-	"dcterms:modified": "2024-08-17T08:57:15.833Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -529,10 +522,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105715833#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105715833#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -540,10 +533,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105715833#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?place_annotation_20240817105715833#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[11]/placeName[2]"
 		}
@@ -558,7 +551,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
@@ -594,10 +587,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105944784",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105944784",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-17T08:59:44.784Z",
-	"dcterms:modified": "2024-08-17T08:59:44.784Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -608,10 +600,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105944784#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105944784#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -619,10 +611,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105944784#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?person_annotation_20240817105944784#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[12]/persName"
 		}
@@ -637,7 +629,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
@@ -673,10 +665,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?organization_annotation_20240817110813632",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?organization_annotation_20240817110813632",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-17T09:08:13.632Z",
-	"dcterms:modified": "2024-08-17T09:08:13.632Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alzuliani1",
 		"@type": [
@@ -687,10 +678,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?organization_annotation_20240817110813632#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?organization_annotation_20240817110813632#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -698,10 +689,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Lettere/PL_19351226_PaveseMaria.xml?organization_annotation_20240817110813632#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/OLD/Lettere/PL_19351226_PaveseMaria.xml?organization_annotation_20240817110813632#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[16]/orgName"
 		}
@@ -716,7 +707,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
@@ -735,7 +726,7 @@
 			<p/>
 			<p>Certo però, che siete in gamba. Avete trovato l'unico mezzo capace di fermarmi. E con questo sia chiuso l'incidente. Ormai non scriverò più lettere esasperanti. Vedo la vanità di questa, come di molte altre cose. Non scriverò nemmeno a <placeName key="Serralunga di Crea Piedmont Italy" ref="https://geonames.org/3166666" type="real">Serralunga</placeName>. Anzi, vi accludo una cartolina indirizzata ai nonni, che voi imposterete da <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, per mantener loro la beatifica illusione.</p>
 			<p>Vi ho già scritto per la cassetta vostra. Ne ricevo anche una con panettone e altro da <persName key="Frassinèlli, Carlo (1896-1983)." ref="http://viaf.org/viaf/8584545/" type="real">Frassinelli</persName> e vi prego di ringraziarlo. Gli scriverò anch'io. Ringraziate <persName ref="#SiniIrma" type="real">Irma</persName> e <persName ref="#PaveseBattista" type="real">Battista</persName> e <persName ref="#Giovanna" type="real">Giovanna</persName> degli augurî (non ricordo i loro indirizzi). Voi vi bacio e vi abbraccio affettuosissimamente (la grappa è buona).</p>
-			<p>Alla signorina <persName ref="#Agata" type="real">Agata</persName> baciate le unghiette. E vogliatemi tutti bene, come io ve ne voglio.</p>
+			<p>Alla signorina Agata baciate le unghiette. E vogliatemi tutti bene, come io ve ne voglio.</p>
 			<p>Cesare</p>
 			<p/>
 			<p>Certo che il clima e il vitto mi dà al sangue. Non bisogna dimenticare che in questo paese, al tempo dei <orgName key="House of Bourbon" ref="http://dbpedia.org/resource/House_of_Bourbon">Borboni</orgName>, si ammazzava per un'occhiata. È colpa dei peperoni e della latitudine</p>
