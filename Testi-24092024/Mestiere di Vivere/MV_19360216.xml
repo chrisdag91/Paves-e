@@ -672,12 +672,91 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360216.xml?place_annotation_20241031145013951",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-31T13:50:13.951Z",
+	"dcterms:modified": "2024-10-31T13:50:13.951Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Lvcal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luca Calcagno"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360216.xml?place_annotation_20241031145013951#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360216.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360216.xml?place_annotation_20241031145013951#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p><date when="1936-02-16">16 febbr.</date></p>
 			<p>Il caso mi ha fatto cominciare e finire <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/">Lavorare stanca</title> con poesie su <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> – più precisamente, su <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" cert="high">Torino<precision match="@ref" precision="low"/></placeName> come luogo da cui si torna, e su <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> luogo dove si tornerà. Si direbbe il libro l’allargamento e la conquista di <placeName ref="#SantoStefanoBelbo"><placeName key="Santo Stefano Belbo (Italy)" ref="http://viaf.org/viaf/233814474/" cert="high">S. Stefano Belbo<precision match="@ref" precision="low"/></placeName></placeName> su <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>. Tra le molte spiegazioni del “poema” questa è una. Il paese diventa la città, la natura diventa la vita umana, il ragazzo diventa uomo. Come vedo, “da S. Stefano a Torino” è un mito di tutti i significati escogitabili per questo libro.</p>
-			<p>Altrettanto curioso è che le poesie composte dopo l’ultimo <title ref="#PaesaggioVI">Paesaggio</title>, tutte, parlano d’altro che non Torino. Il caso sembra volermi insegnare a trasformare la mia disgrazia in un deciso rivolgimento di poesia.</p>
+			<p>Altrettanto curioso è che le poesie composte dopo l’ultimo <title ref="#PaesaggioVI">Paesaggio</title>, tutte, parlano d’altro che non <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>. Il caso sembra volermi insegnare a trasformare la mia disgrazia in un deciso rivolgimento di poesia.</p>
 			<p>Sorpassare Torino e giochi connessi, significherà costruire un altro mondo, di cui le basi saranno, come sempre, un periodo ben determinato di dolore e di silenzio. Perché, qualunque cosa scriva in questi mesi di ozio febbrile, sarà sempre soltanto una “curiosità” per il futuro, cioè silenzio. Cadono in questi mesi molti valori del passato e si distruggono abitudini interiori, che – straordinaria fortuna – nulla per ora sostituisce. Debbo imparare a prendere questa rovina futile, questa faticosa inutilità come un benedetto dono – quale ne hanno soltanto i poeti – come un tendone davanti alla rappresentazione che dovrà poi ricominciare. Mi spiego. Ritorno a uno stato larvale d’infanzia, meglio di immaturità, con tutte le rozzezze e le disperazioni del periodo. Ritorno l’uomo che <hi cert="high" generatedBy="human" rend="italic" xml:space="default">non </hi>ha ancora scritto Lavorare stanca. Passare ore a rosicchiarmi le unghie, a disperare degli uomini, a disprezzare luce e natura, a temere per paure infantili e pure atroci, è un ritorno ai miei vent’anni. Quale mondo giaccia di là di questo mare non so, ma ogni mare ha l’altra riva, e arriverò. Mi disgusto ora della vita per poterla assaporare un’altra volta.</p>
 			<p>Quel che è certo, le poesie scritte ora – <title ref="#Parole">Parole</title>, <title ref="#AltriTempi">Altri tempi</title>, <title ref="#Poetica">Poetica</title>, <title ref="#Mito">Mito</title>, <title ref="#Semplicità">Semplicità</title>, <title ref="#UnRicordo">Un ricordo</title>, Paternità, <title ref="#L'Istinto">L’istinto</title>, <title ref="#Tolleranza">Tolleranza</title>, <title ref="#USteddazzu">U steddazzu</title> – vanno spiritualmente con – <title ref="#IlDioCaprone">Il dio-caprone</title>, <title ref="#Balletto">Balletto</title>, <title ref="#PensieriDiDina">Pensieri di Dina</title>, <title ref="#Gelosia">Gelosia</title>, <title ref="#Creazione">Creazione</title>, <title ref="#Dopo">Dopo</title>, <title ref="#Agonia">Agonia</title> e le dimenticate –: sarà questo un libretto di <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Epaves</hi>, non l’opera del futuro.</p>
 			<p>Il futuro verrà da un lungo dolore e un lungo silenzio. Presuppone uno stato di tale ignoranza e smarrimento che sia umiltà, la scoperta insomma di nuovi valori, un nuovo mondo. L’unico vantaggio che avrò sui miei primi vent’anni sarà la mano fatta, l’inconscio istinto. Lo svantaggio, la messe precedente e l’esaurimento del fondo.</p>
