@@ -245,6 +245,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360410.xml?person_annotation_20241031162541469",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-31T15:25:41.469Z",
+	"dcterms:modified": "2024-10-31T15:25:41.469Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Lvcal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luca Calcagno"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360410.xml?person_annotation_20241031162541469#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360410.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Mestiere%20di%20Vivere/MV_19360410.xml?person_annotation_20241031162541469#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/46055900/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -255,7 +335,7 @@
 			<p>Alla prova. Ora che ho raggiunta la piena abiezione morale, a che cosa penso? Penso come sarebbe bello se quest’abiezione fosse anche materiale, avessi per esempio le scarpe rotte.</p>
 			<p>Soltanto così si spiega la mia vita attuale da suicida. E so che per sempre sono condannato a pensare al suicidio davanti a ogni imbarazzo o dolore. È questo che mi atterrisce: il mio principio è il suicidio, mai consumato, che non consumerò mai, ma che mi carezza la sensibilità.</p>
 			<p>Il terribile è che tutto quanto mi resta ora non basta a raddrizzarmi perché nell’identico stato – a parte i tradimenti – c’ero già stato in passato e già allora non avevo trovato nessuna salvezza morale. Nemmeno questa volta mi indurirò, è chiaro.</p>
-			<p>Eppure – o che l’infatuazione mi inganna, ma non credo – avevo trovato la via della salvezza. E, con tutta la debolezza ch’era in me, quella persona mi sapeva legare a una disciplina, a un sacrificio, col semplice dono di sé. E non credo che questa fosse la virtù di Pierino, perché il dono di lei mi alzava all’intuizione di nuovi doveri, me li rendeva <hi cert="high" generatedBy="human" rend="italic" xml:space="default">corpo </hi>dinanzi. Perché abbandonato a me, ne ho fatta l’esperienza, sono <hi cert="high" generatedBy="human" rend="italic" xml:space="default">certo </hi>di non riuscirci. Fatto una carne e un destino con lei, ci sarei riuscito, ne sono altrettanto certo. Anche per la mia stessa viltà: sarebbe stato un imperativo al mio fianco.</p>
+			<p>Eppure – o che l’infatuazione mi inganna, ma non credo – avevo trovato la via della salvezza. E, con tutta la debolezza ch’era in me, <persName key="Pizzardo, Tina, 1903-1989" ref="http://viaf.org/viaf/46055900/" cert="low" type="real">quella persona</persName> mi sapeva legare a una disciplina, a un sacrificio, col semplice dono di sé. E non credo che questa fosse la virtù di Pierino, perché il dono di lei mi alzava all’intuizione di nuovi doveri, me li rendeva <hi cert="high" generatedBy="human" rend="italic" xml:space="default">corpo </hi>dinanzi. Perché abbandonato a me, ne ho fatta l’esperienza, sono <hi cert="high" generatedBy="human" rend="italic" xml:space="default">certo </hi>di non riuscirci. Fatto una carne e un destino con lei, ci sarei riuscito, ne sono altrettanto certo. Anche per la mia stessa viltà: sarebbe stato un imperativo al mio fianco.</p>
 			<p>Invece, che cosa ha fatto! Forse lei non lo sa, o se lo sa non gliene importa. Ed è giusto perché lei è lei ed ha il suo passato che le traccia l’avvenire.</p>
 			<p>Ma ha fatto questo. Che io ho avuto un’avventura , durante la quale sono stato giudicato e dichiarato indegno di continuare. Davanti a questo tracollo non è assolutamente più nulla il rimpianto dell’amante che pure è così atroce, o la rovina della posizione, che pure è grave.</p>
 			<p>Si confonde, il senso di questo tracollo, con la martellata che nel <date when="1934">1934</date> aveva cessato di picchiarmi: via l’estetica, via le pose, via il genio, via tutte le balle, ho mai fatto qualcosa io nella vita che non fosse da fesso?</p>
