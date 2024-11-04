@@ -411,7 +411,7 @@
 			<p>Ad <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Alberto Carocci</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>.</p>
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>,] <date when="1935-08-25">25 agosto [1935]</date></p>
 			<p>Caro <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName>,</p>
-			<p>sappimi dire al più presto, se correttele dovrò inviare io le bozze al Ministero dell'Interno per l'autorizzazione (che dato il mio stato è necessaria) o se, mandandole a voi per far più presto, penserete voi alla formalità. Credo che io stesso dovrò fare una domanda, no?</p>
+			<p>sappimi dire al più presto, se correttele dovrò inviare io le bozze al <orgName ref="#MinisteroDellInterno">Ministero dell'Interno</orgName> per l'autorizzazione (che dato il mio stato è necessaria) o se, mandandole a voi per far più presto, penserete voi alla formalità. Credo che io stesso dovrò fare una domanda, no?</p>
 		</body>
 	</text>
 </TEI>
