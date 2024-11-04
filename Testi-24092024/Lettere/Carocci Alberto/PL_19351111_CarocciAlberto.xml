@@ -1204,7 +1204,7 @@
 			<p><persName ref="#MelvilleHerman" type="real">H. Melville</persName>, <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, <orgName ref="#FrassinelliEditore">ed. Frassinelli</orgName>, <date when="1932">1932</date></p>
 			<p><persName ref="#AndersonSherwood" type="real">Sh. Anderson</persName>, <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Riso Nero</title>, <orgName ref="#FrassinelliEditore">ed. Fr.</orgName>, <date when="1932">1932</date></p>
 			<p><persName ref="#JoyceJames" type="real">J. Joyce</persName>, <title level="m" ref="#Dedalus">Dedalus</title>, <date when="1933">1933</date></p>
-			<p>J. Dos Passos, 42° Parallelo, Mondadori, 1933.</p>
+			<p><persName ref="#JohnRodrigoDosPassos" type="real">J. Dos Passos</persName>, 42° Parallelo, Mondadori, 1933.</p>
 			<p>Ha scritto di letteratura nordamericana sulla «Cultura» una mezza dozzina di saggi dal 1930 al ’34. Ha atteso alla composizione di Lavorare Stanca fin dal 1930.</p>
 			<p>Ti rinnovo i ringraziamenti e ti saluto tuo</p>
 			<p>Pavese</p>
