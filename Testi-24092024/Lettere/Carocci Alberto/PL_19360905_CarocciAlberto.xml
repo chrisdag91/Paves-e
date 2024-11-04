@@ -405,6 +405,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360905_CarocciAlberto.xml?rs_annotation_20241104145616655",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T13:56:16.655Z",
+	"dcterms:modified": "2024-11-04T13:56:16.655Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360905_CarocciAlberto.xml?rs_annotation_20241104145616655#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360905_CarocciAlberto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360905_CarocciAlberto.xml?rs_annotation_20241104145616655#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://viaf.org/viaf/212909346/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -412,8 +491,8 @@
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>,] <date when="1936-09-05">5 Sett. ’36</date></p>
 			<p>Caro <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName>,</p>
 			<p>mi sembra un secolo che non ti scrivo. Ho dovuto attendere a rimettermi in carreggiata sinora e mi rimaneva ben poco gusto per la cosa letteraria.</p>
-			<p>Non che ora sia a posto — sono disoccupatissimo — ma insomma mi ci sono abituato. Mandami qualche notizia di te e della casa, della defunta e del libro, al cui titolo vorrei ora far precedere una negativa per accordarlo al mio nuovo sentire. Tutte le volte che ho potuto ho procurato qualche nuovo compratore al suddetto; non molti, ma buoni.</p>
-			<p>Che cosa se ne dice in giro? Io, dopo l’Italia Letteraria (chi era quel signore?), non ho più trovato chi lo nominasse.</p>
+			<p>Non che ora sia a posto — sono disoccupatissimo — ma insomma mi ci sono abituato. Mandami qualche notizia di te e della casa, della defunta e del <rs key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/">libro</rs>, al cui titolo vorrei ora far precedere una negativa per accordarlo al mio nuovo sentire. Tutte le volte che ho potuto ho procurato qualche nuovo compratore al suddetto; non molti, ma buoni.</p>
+			<p>Che cosa se ne dice in giro? Io, dopo l’<title level="j" ref="#ItaliaLetteraria">Italia Letteraria</title> (chi era quel signore?), non ho più trovato chi lo nominasse.</p>
 			<p>Qui me ne parla qualcuno a voce, concludendo sempre «Perché non tenta la prosa? Lei c’è nato».</p>
 			<p>Le tue ultime notizie, o meglio le notizie della Casa, le ho avute da un nostro poeta petulante, G. G. Severi, ungarettiano.</p>
 			<p>Io, tutto sommato, sono avvilito di aver stampato. Quando avrai un momento libero, mi farai un piacere aprendomi i tuoi sentimenti su Lavorare Stanca, che non ho mai compreso bene perché tu abbia pubblicato.</p>
