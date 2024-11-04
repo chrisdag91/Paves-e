@@ -800,6 +800,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?person_annotation_20241104212309270",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T20:23:09.270Z",
+	"dcterms:modified": "2024-11-04T20:23:09.270Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?person_annotation_20241104212309270#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?person_annotation_20241104212309270#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[20]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Ganymede_(mythology)",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -822,7 +901,7 @@
 			<p>Non mi basterà la notte per prepararmi. E tutta quest'occupazione è anche il motivo per cui non potrò venirle a fare una visita a <placeName key="Giaveno Piedmont Italy" ref="https://geonames.org/3176130">Giaveno</placeName>. Al <date when="1929-08-15">15</date> sarà a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> anche lei m'immagino.</p>
 			<p>Qua intanto viviamo nella crème. Si senton dei nomi spaventosi.</p>
 			<p>Son capitato nel centro araldico di mezzo <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831">Piemonte</placeName>.</p>
-			<p>L'altro giorno c'è venuto il Principe in casa e io ero "il Professore Pavese". Finirò di prendermi un processo. Va e viene una baronia tal e quale. E alla sera si discute ghiottamente di stemmi, di quadri di famiglia, di mobili in stile, di investiture e di mescolanze di sangue. Io mi son già distinto scoprendo i veri soggetti di una coppia di statue settecentesche che c'è nel giardino, <persName ref="#Ebe">Ebe</persName> e <persName key="Ganymede (mythology)" ref="http://dbpedia.org/resource/Ganymede_(mythology)">Ganimede</persName>. Questo e il fatto che sorbisco il caffè ancor bollente hanno stretto i legami tra me e il Commendatore. Davanti al Principe, sono colui che "sapeva che l'aquila è l'insegna di Ganimede".</p>
+			<p>L'altro giorno c'è venuto il Principe in casa e io ero "il Professore Pavese". Finirò di prendermi un processo. Va e viene una baronia tal e quale. E alla sera si discute ghiottamente di stemmi, di quadri di famiglia, di mobili in stile, di investiture e di mescolanze di sangue. Io mi son già distinto scoprendo i veri soggetti di una coppia di statue settecentesche che c'è nel giardino, <persName ref="#Ebe">Ebe</persName> e <persName key="Ganymede (mythology)" ref="http://dbpedia.org/resource/Ganymede_(mythology)">Ganimede</persName>. Questo e il fatto che sorbisco il caffè ancor bollente hanno stretto i legami tra me e il Commendatore. Davanti al Principe, sono colui che "sapeva che l'aquila è l'insegna di <persName key="Ganymede (mythology)" ref="http://dbpedia.org/resource/Ganymede_(mythology)">Ganimede</persName>".</p>
 			<p>E il cameriere fa peggio. Ormai mi batte la mano sulle spalle dicendo "Il nostro signor professore!"</p>
 		</body>
 	</text>
