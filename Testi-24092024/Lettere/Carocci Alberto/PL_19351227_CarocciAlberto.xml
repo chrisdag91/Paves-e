@@ -719,6 +719,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19351227_CarocciAlberto.xml?person_annotation_20241104143551798",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T13:35:51.798Z",
+	"dcterms:modified": "2024-11-04T13:35:51.798Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19351227_CarocciAlberto.xml?person_annotation_20241104143551798#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19351227_CarocciAlberto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19351227_CarocciAlberto.xml?person_annotation_20241104143551798#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Plato",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -727,7 +806,7 @@
 			<p>Caro <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName>,</p>
 			<p>rispondo alle tue del <date when="1935-11-30">30 novembre</date> e <date when="1935-12-17">17 dicembre</date>. Sento da <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> che molti hanno ricevuto la cartolina, e mia <rs ref="#PaveseSiniMaria">sorella</rs> e <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/" type="real">Monti</persName> il pacco da distribuire. Promettono grandi cose e spero che presto riceverai le prime sottoscrizioni.</p>
 			<p>Mi attacco disperatamente alla tua promessa di stamparmi dopo Natale. Anche per la decenza, ora che la gente ha ricevuto l'avviso. In caso, sono pronto a pagare una parte della carta (parlo sul serio). Ma ora, che non ho altre consolazioni, non differirmi più quest’ultima.</p>
-			<p>Io mi annoio molto e ritorno al greco, traducendo tutto il giorno <persName ref="#Omero" type="real">Omero</persName> e Platone. Ho trovato dappoco molte delle edizioni Solaria che mi facesti mandare; gli unici scrittori mi sono parsi Nannetti e Carocci, che (arrossisco) non conoscevo ancora.</p>
+			<p>Io mi annoio molto e ritorno al greco, traducendo tutto il giorno <persName ref="#Omero" type="real">Omero</persName> e <persName key="Plato" ref="http://dbpedia.org/resource/Plato" type="real">Platone</persName>. Ho trovato dappoco molte delle edizioni Solaria che mi facesti mandare; gli unici scrittori mi sono parsi Nannetti e Carocci, che (arrossisco) non conoscevo ancora.</p>
 			<p>Quest'ultimo tu – se hai letto le mie poesie – vedrai che mi piace anche per una certa similarità di vena (il paradiso dell'infanzia e dell’adolescenza, visto non al lattemiele o ai raggi X, ma nella sua interezza e meraviglia umane). Insomma, non solo ti rubo tempo e fatica, ma anche poesia.</p>
 			<p>Ricambio gli auguri. Spero che prima di morire ci vedremo una volta.</p>
 		</body>
