@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,17 +11,97 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?person_annotation_20241104200852454",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T19:08:52.454Z",
+	"dcterms:modified": "2024-11-04T19:08:52.454Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?person_annotation_20241104200852454#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?person_annotation_20241104200852454#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/5057618/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>﻿Ad Augusto Monti, Giaveno.</p>
+			<p>Ad <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/" cert="high" type="real">Augusto Monti</persName>, Giaveno.</p>
 			<p>[Reaglie, agosto 1926]</p>
-			<p>Ho ricevuto la Sua lettera: uno di questi giorni le ricapiterò in casa e spero che sarò più fortunato dell'altra volta. Mi ci incaponisco così perché quella lettera me ne incoraggia. In essa ho trovato espresso in poche parole tutto ciò che io da un bel tempo in qua andavo rimuginando come venirle a dire appena finita la scuola. &quot;Per voi la scuola nostra comincia ora... venite a parlarmi dei vostri studi, delle vostre opere, dei vostri giorni…&quot; Questo intendevo io e già una certa frasaccia l'avevo trovata, che mi andava sì e no. &quot;Quest'estate che sarò libero dei miei atti, del Prof. Monti mi voglio fare un amico&quot;. Se il mio modo di dire le parrà troppo spiccio si consoli pensando che il mio sentimento era ed è proprio questo e quindi sarebbe stato contro i nostri principi vestirlo di un bello stile più letterario, ma meno schietto.</p>
+			<p>Ho ricevuto la Sua lettera: uno di questi giorni le ricapiterò in casa e spero che sarò più fortunato dell'altra volta. Mi ci incaponisco così perché quella lettera me ne incoraggia. In essa ho trovato espresso in poche parole tutto ciò che io da un bel tempo in qua andavo rimuginando come venirle a dire appena finita la scuola. "Per voi la scuola nostra comincia ora... venite a parlarmi dei vostri studi, delle vostre opere, dei vostri giorni…" Questo intendevo io e già una certa frasaccia l'avevo trovata, che mi andava sì e no. "Quest'estate che sarò libero dei miei atti, del Prof. Monti mi voglio fare un amico". Se il mio modo di dire le parrà troppo spiccio si consoli pensando che il mio sentimento era ed è proprio questo e quindi sarebbe stato contro i nostri principi vestirlo di un bello stile più letterario, ma meno schietto.</p>
 			<p>A quanto pare, queste nostre lettere van prendendo l'aspetto di campagna spietata contro la letteratura.</p>
 			<p>Ma io verserò subito molta acqua fresca sul fuoco, parlandole se lei me lo permette delle mie occupazioni in villa. (Le giuro però, sul mio avvenire, che non imito ora il Machiavelli). Stia dunque a sentire, se vuole.</p>
 			<p>Scribacchio e studio tutto il santo giorno e quando, preso dalla rabbia, scappo fuor di casa, ho intorno un giogo di colline, tutte boschi, ch'è una meraviglia vagabondarli.</p>
 			<p>E qua, forse presuntuoso, mi attendo una sua paternale: che io debbo svagarmi di più, che le maracchelle bisogna farle da giovane per non farle poi a capelli grigi, che il mondo non si conosce tutto solo sui libri, le cose insomma che mi dicon sempre tutti.</p>
-			<p>Ma lei che sinora non mi conosce che alla scuola, può dirle queste cose e con ragione, gli altri invece che mi seguono nella vita di tutti i giorni e continuano ugualmente a ripetermele mi farebbero quasi pietà se non avessero la attenuante che il mio carattere è troppo chiuso per conoscerlo a fondo. Pensi solo a questo: che non c'è uno della mia famiglia che da quattro anni in qua sia riuscito a leggersi un mio scritto, se non &quot;cacciandomelo&quot; di nascosto.</p>
+			<p>Ma lei che sinora non mi conosce che alla scuola, può dirle queste cose e con ragione, gli altri invece che mi seguono nella vita di tutti i giorni e continuano ugualmente a ripetermele mi farebbero quasi pietà se non avessero la attenuante che il mio carattere è troppo chiuso per conoscerlo a fondo. Pensi solo a questo: che non c'è uno della mia famiglia che da quattro anni in qua sia riuscito a leggersi un mio scritto, se non "cacciandomelo" di nascosto.</p>
 			<p>Perché, bisogna bene avermi capito com’io capisco i teoremi di matematica per chiamarmi il letterato per un mese o due che io tutti gli anni costretto anche dalle circostanze passo studiando a buono ciò che più mi piace.</p>
 			<p>Dico dunque contro la prima accusa che quando non si sente bisogno di svago è inutile prendersene.</p>
 			<p>In quanto alle maracchelle poi, le assicuro che ne faccio peggio di un lanzichenecco. Tre anni fa, no, ero uno scolaretto allora, non mi slanciavo mica, vivevo nel guscio: gli anni accresciuti in seguito, l'ampliarsi delle idee, delle aspirazioni, il suo insegnamento, tutto concorse ed entrai nella vita.</p>
@@ -38,8 +115,8 @@
 			<p>Tutto questo mi son lasciato tirare a dire per difendere il mio metodo di vita estivo ed anche un po' per rompere finalmente il ghiaccio e cominciare quella comunione spirituale che io desideravo tanto e colla più gran gioia mi son visto offrire da lei stesso.</p>
 			<p>Come vede senza cerimonie le ho imbandito un piatto di mie esperienze, se pure posso chiamare così quelle che forse non sono che le illusioni dorate di un giovane inesperto; ma mi consolo pensando che anche lei è stato giovane e anche lei certo ha avuto le sue illusioni. E credo, questo non l'ho sperimentato ma me l'immagino, che in seguito nella vita i momenti migliori sono quando si rivive quei tempi. Mi sbaglio forse?</p>
 			<p>E a proposito dell'ammirazione le protesto qua che stimo più lei che non tutti i Provveditori al mondo. Finalmente lo posso dire senza più timore di esser preso per un suonatore di violino. Non so quanto potrà farsene lei di questa mia povera dichiarazione, ma le accerto che metà almeno dei miei compagni, quelli che conosco bene, son del mio stesso identico sentimento, se non maggiore.</p>
-			<p>Per ora basta, che lei avrà altro da fare. Oso pregarla di una sua risposta, ma mi raccomando sia con tutto suo agio. E in essa mi riveda le buccie interamente, mi critichi, mi maltratti. Le ricordo qua la chiusa di un mio componimento, il primo, la &quot;Presentazione al professore&quot;.</p>
-			<p>&quot;E mi tratti con tutta severità poiché gli ostacoli più sono sodi e più c'è gusto ad abbatterli&quot;. Questo scrivevo, con quella baldanza sfacciatella che non mi ha mai abbandonato nei tre anni, e lei ne sa qualcosa, che neppure in questa lettera mi abbandona e che non mi abbandonerà mai (è il mio tesoro più caro forse). E lei, imperturbato, mi cambiò il &quot;sodo&quot; in &quot;duro&quot; &quot;difficile&quot; se ben ricordo. Così faccia sempre. Fin da quel giorno, io amai in lei qualcosa di più che il professore.</p>
+			<p>Per ora basta, che lei avrà altro da fare. Oso pregarla di una sua risposta, ma mi raccomando sia con tutto suo agio. E in essa mi riveda le buccie interamente, mi critichi, mi maltratti. Le ricordo qua la chiusa di un mio componimento, il primo, la "Presentazione al professore".</p>
+			<p>"E mi tratti con tutta severità poiché gli ostacoli più sono sodi e più c'è gusto ad abbatterli". Questo scrivevo, con quella baldanza sfacciatella che non mi ha mai abbandonato nei tre anni, e lei ne sa qualcosa, che neppure in questa lettera mi abbandona e che non mi abbandonerà mai (è il mio tesoro più caro forse). E lei, imperturbato, mi cambiò il "sodo" in "duro" "difficile" se ben ricordo. Così faccia sempre. Fin da quel giorno, io amai in lei qualcosa di più che il professore.</p>
 			<p>Suo.</p>
 			<p>Pavese</p>
 		</body>
