@@ -1118,6 +1118,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19351212_MontiAugusto.xml?title_annotation_20241104220000541",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T21:00:00.541Z",
+	"dcterms:modified": "2024-11-04T21:00:00.541Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19351212_MontiAugusto.xml?title_annotation_20241104220000541#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19351212_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19351212_MontiAugusto.xml?title_annotation_20241104220000541#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Philoctetes_(Sophocles_play)",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1129,7 +1208,7 @@
 			<p>Gran fantasticare su quel "qualchecos'altro" che deve fare "per me": magari Lei vuol dire semplicemente un'altra serqua di scocciatori nati in <placeName key="Hellenic Republic  Greece" ref="https://geonames.org/390903">Grecia</placeName>: io però mi ostino a interpretarlo nel più radicale e lusinghiero dei sensi.</p>
 			<p>Non che io abbia dimenticato aperto a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> il becco del gas e frigga di tornare a chiuderlo, ma di beccheria insomma si tratta, ed è questo ariostesco rischio che si vorrebbe scongiurare.</p>
 			<p>Il nostro <persName ref="#MarioSturani" type="real">Mariolino</persName> dovrà andar sotto, vero? Dopo tante trasformazioni (dall’ago al milione), gli toccava ancora questa! Anch'io in fondo mi considero mobilitato e così inganno il tempo.</p>
-			<p>Ho apprezzato lo squarcio su Filottete e il conte Biosaskonsi, ma, quanto all’othòne, il mio dizionario spiega "pannolino da servire alle donne". Ho capito però egualmente e, come già scrissi al genero suo, me ne tengo di sapere a tempo e luogo indossare la persona tragica. Dato che così ci si libera, si produce la catarsi, avviene la contemplazione e si gode. Come a vomitare insomma ("La pasta l'ho mangiata... Il vino l'ho bevuto... ma il cane affedidio, non mi ricordo...").</p>
+			<p>Ho apprezzato lo squarcio su <title key="Philoctetes (Sophocles play)" ref="http://dbpedia.org/resource/Philoctetes_(Sophocles_play)" level="m">Filottete</title> e il conte Biosaskonsi, ma, quanto all’othòne, il mio dizionario spiega "pannolino da servire alle donne". Ho capito però egualmente e, come già scrissi al genero suo, me ne tengo di sapere a tempo e luogo indossare la persona tragica. Dato che così ci si libera, si produce la catarsi, avviene la contemplazione e si gode. Come a vomitare insomma ("La pasta l'ho mangiata... Il vino l'ho bevuto... ma il cane affedidio, non mi ricordo...").</p>
 			<p>Questa allegrezza che mi schiarisce la pagina lei avrà già capito che nasce proprio dall'enormità dell’afflizione, per cui uno decide di fregarsene. Faccia conto che mi sveglio circa sei volte ogni notte e ogni volta inizio la lotta per lo spirito (il fiato). Per il resto va come un guanto (rotto).</p>
 			<p>Suo</p>
 			<p>Pavese</p>
