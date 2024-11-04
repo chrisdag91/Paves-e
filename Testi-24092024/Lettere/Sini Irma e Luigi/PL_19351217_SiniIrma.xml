@@ -325,6 +325,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Sini%20Irma%20e%20Luigi/PL_19351217_SiniIrma.xml?rs_annotation_20241104150651767",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T14:06:51.767Z",
+	"dcterms:modified": "2024-11-04T14:06:51.767Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Sini%20Irma%20e%20Luigi/PL_19351217_SiniIrma.xml?rs_annotation_20241104150651767#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Sini%20Irma%20e%20Luigi/PL_19351217_SiniIrma.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Sini%20Irma%20e%20Luigi/PL_19351217_SiniIrma.xml?rs_annotation_20241104150651767#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://viaf.org/viaf/212909346/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -334,7 +413,7 @@
 			<p>Cara e gentile Signora,</p>
 			<p>La ringrazio di essersi ricordata di me. La sua lettera – e quella del <date when="1935-12-10">10</date> di mia <persName ref="#PaveseSiniMaria" type="real">sorella</persName> – sono piene di buon senso. Ma se si dovesse vivere col solo buon senso, non ne varrebbe più la pena, il mondo sarebbe troppo noioso. Mentre è bello che il mondo somigli a una gabbia di matti. Io ho la pazzia malinconica e poetica, un altro ce l'ha furiosa, un terzo passionale. Del resto, chi ha attraversato mezza Italia con le manette e tutto ha diritto di essere un poco anormale.</p>
 			<p>A questi lumi di luna i suoi consigli non sono però da pigliarsi alla leggera. Quando sarò arrivato a sei accessi d'asma al giorno (sono già a quattro), Le prometto che ritornerò su quanto Lei mi scrive. Va bene?</p>
-			<p>Godo a sentire che è ansiosa di leggere il mio libro. Io mi sento nella situazione di quegli autori che nell'imminenza della pubblicazione spargevano la notizia della loro morte immatura. Non c'è niente di più bello che sparire dalla circolazione quando si stampano delle poesie: non fosse che per creanza tutti sentono il dovere di dirne bene e di comperarle. Anzi Lei che è tanto gentile dovrebbe fare una cosa. Girare nei salotti con trenta cartoline di prenotazione e, quando languisca la conversazione, azzardare, sorridendo, sulla cartolina, "È il libro di un giovane, bellissimo ingegno, attualmente (un sospiro)...". E chiedere distratta "Vuol firmare?"</p>
+			<p>Godo a sentire che è ansiosa di leggere il mio <rs key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/">libro</rs>. Io mi sento nella situazione di quegli autori che nell'imminenza della pubblicazione spargevano la notizia della loro morte immatura. Non c'è niente di più bello che sparire dalla circolazione quando si stampano delle poesie: non fosse che per creanza tutti sentono il dovere di dirne bene e di comperarle. Anzi Lei che è tanto gentile dovrebbe fare una cosa. Girare nei salotti con trenta cartoline di prenotazione e, quando languisca la conversazione, azzardare, sorridendo, sulla cartolina, "È il libro di un giovane, bellissimo ingegno, attualmente (un sospiro)...". E chiedere distratta "Vuol firmare?"</p>
 			<p>Noti che non parlo per avidità: io non ci guadagno un soldo. Tutti i diritti li ha l’editore. Ma si tratta appunto di premiare chi ha avuto tanta abnegazione da stamparmi.</p>
 			<p>Torniamo a parlare di cose allegre. Immagino la seduta in camera da letto con mia sorella, Guglielmo, Luigi (ciau, bello), e intorno le bambine; e l'impegno solenne, da Lei preso, di scrivermi toccandomi le corde più tenere.</p>
 			<p>Al quale impegno, non appena le condizioni saranno adeguate (sei accessi), mi sforzerò di dare il mio appoggio. Può dubitarne? Si ricordi di quando troncavo le telefonate. E mi abbia, come allora e come ora, suo dev.</p>
