@@ -491,7 +491,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1935-04-05">5 Apr. ’35</date></p>
 			<p>Caro <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName>,</p>
 			<p>non so più niente della mia moralità. Si sta decidendo qualcosa? <persName key="Giulio Einaudi" ref="http://dbpedia.org/resource/Giulio_Einaudi" type="real">Einaudi</persName> mi ha detto che eri tutto infuriato: non me la prendo io, vuoi prendertela tu?</p>
-			<p>Ma certo che se ci bocciano il Caprone me la prenderò anch’io.</p>
+			<p>Ma certo che se ci bocciano il <title level="a" ref="#IlDioCaprone_LavorareStanca43">Caprone</title> me la prenderò anch’io.</p>
 			<p>Saluti</p>
 			<p>Pavese</p>
 		</body>
