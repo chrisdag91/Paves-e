@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,14 +11,330 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?place_annotation_20241104211645403",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T20:16:45.403Z",
+	"dcterms:modified": "2024-11-04T20:16:45.403Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?place_annotation_20241104211645403#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?place_annotation_20241104211645403#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6535386",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?date_annotation_20241104211656626",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T20:16:56.626Z",
+	"dcterms:modified": "2024-11-04T20:16:56.626Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?date_annotation_20241104211656626#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?date_annotation_20241104211656626#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1929-08-24"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?person_annotation_20241104211709041",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T20:17:09.041Z",
+	"dcterms:modified": "2024-11-04T20:17:09.041Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?person_annotation_20241104211709041#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?person_annotation_20241104211709041#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/5057618/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?place_annotation_20241104211718008",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T20:17:18.008Z",
+	"dcterms:modified": "2024-11-04T20:17:18.008Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?place_annotation_20241104211718008#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19290824_MontiAugusto.xml?place_annotation_20241104211718008#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3176130",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>﻿Ad Augusto Monti, Giaveno.</p>
-			<p>[Bibiana,] 24 agosto 1929</p>
-			<p>Come offa, per non farmi dare soltanto del seccatore, le getto subito la buona notizia: deve sapere che qua ho operato una gran campagna pubblicitaria per &quot;Papà&quot; e il Commendatore e la figlia l'aspettano ormai con impazienza, allettati dai miei scaltri accenni al nostro risorgimento veduto da un uomo di studio che attraverso la cultura non ha perduto nulla della giocondità ed epicità monferrine. Poiché la signorina legge Costa de Beauregard e ricorda benissimo le sue lezioni e il Commendatore mi ha già contato vita e miracoli di tutti i blasoni qua intorno.</p>
+			<p>Ad <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/" cert="high" type="real">Augusto Monti</persName>, <placeName key="Giaveno Piedmont Italy" ref="https://geonames.org/3176130">Giaveno</placeName>.</p>
+			<p>[<placeName key="Bibiana Piedmont Italy" ref="https://geonames.org/6535386">Bibiana</placeName>,] <date when="1929-08-24">24 agosto 1929</date></p>
+			<p>Come offa, per non farmi dare soltanto del seccatore, le getto subito la buona notizia: deve sapere che qua ho operato una gran campagna pubblicitaria per "Papà" e il Commendatore e la figlia l'aspettano ormai con impazienza, allettati dai miei scaltri accenni al nostro risorgimento veduto da un uomo di studio che attraverso la cultura non ha perduto nulla della giocondità ed epicità monferrine. Poiché la signorina legge Costa de Beauregard e ricorda benissimo le sue lezioni e il Commendatore mi ha già contato vita e miracoli di tutti i blasoni qua intorno.</p>
 			<p>Prima di cena, mi piglia con sé (ormai è un'istituzione) e andiamo a spasso per i campi: si discute di storia, di araldica, di pedagogia e di agricoltura: lui cita in latino, i contadini lo salutano, e si torna sfavillanti. È insomma un ottimo gentilhomme campagnard.</p>
-			<p>Dopo di che ricomincio i lamenti. Io le avevo scritto &quot;Son soddisfatto&quot; e lei, ne ero sicuro, ha subito messe avanti le res. Intendevo dire che stavo bene, che non c'era niente di ostico, che il trucco delle lezioni riusciva, che insomma facevo una vita d'oro, che non avevo tempo d'annoiarmi i tre primi giorni. E sfido. Entrar così in un mondo nuovo, aver da cambiare tutte le abitudini, da studiare cinquanta per poter disporre di venti e traboccare di sensazioni, osservare, ascoltare, disciplinarsi, chi è che trova ancora il tempo di guardarsi alle spalle? Ma, appena le rotelle han preso un giro costante, ecco che si son fatti i vuoti, che è sparita la meraviglia, che tutto è diventato naturale, quindi monotono, quindi lacrimevole.</p>
+			<p>Dopo di che ricomincio i lamenti. Io le avevo scritto "Son soddisfatto" e lei, ne ero sicuro, ha subito messe avanti le res. Intendevo dire che stavo bene, che non c'era niente di ostico, che il trucco delle lezioni riusciva, che insomma facevo una vita d'oro, che non avevo tempo d'annoiarmi i tre primi giorni. E sfido. Entrar così in un mondo nuovo, aver da cambiare tutte le abitudini, da studiare cinquanta per poter disporre di venti e traboccare di sensazioni, osservare, ascoltare, disciplinarsi, chi è che trova ancora il tempo di guardarsi alle spalle? Ma, appena le rotelle han preso un giro costante, ecco che si son fatti i vuoti, che è sparita la meraviglia, che tutto è diventato naturale, quindi monotono, quindi lacrimevole.</p>
 			<p>Mica che i padroni siano cambiati, o che il trattamento sia diverso, ma è così, i soliti patemi.</p>
 			<p>Insomma, di tutta questa avventura non resta che qualche spunto comico da scrivere agli amici, e qualcuno serio da... chissà quando? Ormai son quasi rassegnato.</p>
 			<p>Parlando di cose reali, lei diceva di dar per perduto il greco e rifarmi col latino. Ma il male è che Manolito bello vuol dare l'esame a tutti i costi e studiare studia niente. Dice ventisette freddure per lezione.</p>
@@ -32,12 +345,12 @@
 			<p>Non so poi come si facciano gli esami orali di greco. Ma se chiedono di analisi grammaticale, è fritto.</p>
 			<p>In venti giorni che ha ancora, appena appena potrà finire gli autori. E poi la storia, e poi le scienze, e poi l'italiano (che tra parentesi dovrò fargli io). Mah!</p>
 			<p>Tutti qua riconoscono che studia niente, che è intelligente ma svogliato (e una volta tanto il luogo comune par giusto), però nel fervorino che ogni tanto gli intonano, l'esame è sempre presente. È un bel pasticcio.</p>
-			<p>Lasciando stare che adesso arriva Tucidide e questa sarà altro che una &quot;res&quot;.</p>
+			<p>Lasciando stare che adesso arriva Tucidide e questa sarà altro che una "res".</p>
 			<p>Non mi basterà la notte per prepararmi. E tutta quest'occupazione è anche il motivo per cui non potrò venirle a fare una visita a Giaveno. Al 15 sarà a Torino anche lei m'immagino.</p>
 			<p>Qua intanto viviamo nella crème. Si senton dei nomi spaventosi.</p>
 			<p>Son capitato nel centro araldico di mezzo Piemonte.</p>
-			<p>L'altro giorno c'è venuto il Principe in casa e io ero &quot;il Professore Pavese&quot;. Finirò di prendermi un processo. Va e viene una baronia tal e quale. E alla sera si discute ghiottamente di stemmi, di quadri di famiglia, di mobili in stile, di investiture e di mescolanze di sangue. Io mi son già distinto scoprendo i veri soggetti di una coppia di statue settecentesche che c'è nel giardino, Ebe e Ganimede. Questo e il fatto che sorbisco il caffè ancor bollente hanno stretto i legami tra me e il Commendatore. Davanti al Principe, sono colui che &quot;sapeva che l'aquila è l'insegna di Ganimede&quot;.</p>
-			<p>E il cameriere fa peggio. Ormai mi batte la mano sulle spalle dicendo &quot;Il nostro signor professore!&quot;</p>
+			<p>L'altro giorno c'è venuto il Principe in casa e io ero "il Professore Pavese". Finirò di prendermi un processo. Va e viene una baronia tal e quale. E alla sera si discute ghiottamente di stemmi, di quadri di famiglia, di mobili in stile, di investiture e di mescolanze di sangue. Io mi son già distinto scoprendo i veri soggetti di una coppia di statue settecentesche che c'è nel giardino, Ebe e Ganimede. Questo e il fatto che sorbisco il caffè ancor bollente hanno stretto i legami tra me e il Commendatore. Davanti al Principe, sono colui che "sapeva che l'aquila è l'insegna di Ganimede".</p>
+			<p>E il cameriere fa peggio. Ormai mi batte la mano sulle spalle dicendo "Il nostro signor professore!"</p>
 		</body>
 	</text>
 </TEI>
