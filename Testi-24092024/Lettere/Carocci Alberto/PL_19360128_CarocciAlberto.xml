@@ -326,13 +326,170 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360128_CarocciAlberto.xml?person_annotation_20241104144830958",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T13:48:30.958Z",
+	"dcterms:modified": "2024-11-04T13:48:30.958Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360128_CarocciAlberto.xml?person_annotation_20241104144830958#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360128_CarocciAlberto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360128_CarocciAlberto.xml?person_annotation_20241104144830958#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/72191994/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360128_CarocciAlberto.xml?date_annotation_20241104144850975",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T13:48:50.975Z",
+	"dcterms:modified": "2024-11-04T13:48:50.975Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360128_CarocciAlberto.xml?date_annotation_20241104144850975#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360128_CarocciAlberto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19360128_CarocciAlberto.xml?date_annotation_20241104144850975#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1936-01-17"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Alberto Carocci</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>.</p>
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>,] <date when="1936-01-28">28 gennaio [1936]</date></p>
-			<p>Caro Carocci,</p>
-			<p>ricevo la tua lett. del 17 gennaio dove mi parli dell’indice. Io avevo notato la cosa, ma nemmeno te ne parlai nella mia del 24 c. m., stimando inutile recriminare l'inosservanza di una semplice – dopotutto – mania (esterofila, per giunta).</p>
+			<p>Caro <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName>,</p>
+			<p>ricevo la tua lett. del <date when="1936-01-17">17 gennaio</date> dove mi parli dell’indice. Io avevo notato la cosa, ma nemmeno te ne parlai nella mia del 24 c. m., stimando inutile recriminare l'inosservanza di una semplice – dopotutto – mania (esterofila, per giunta).</p>
 			<p>Piuttosto vorrei chiederti se non sia il caso di unire un foglietto volante di errata. Oltre ai tre errori a te segnalati nella sudd. del 24, altri due ne saltaron fuori in una medesima pag. (103): mezzi per mezzo (riga 2) e splancato per spalancato (riga 8). Non sono cose gravi – chiunque le corregge – ma insieme a quelli di prima, più seccanti, danno un'aria un po' sciatta proprio alle ultime pagine del libro. Dammi tu un consiglio: se credi bene (tenendo anche presenti le consuetudini della collana) unire un foglio volante di errata. Io sarei d'accordo. Se ti va, ordina, senza perdere tempo a scrivermi; altrimenti, sia come non detto.</p>
 			<p>Sinora non ho avuto contratti di sorta.</p>
 			<p>La questione dei critici è spinosa. Io - non lo dico per darmi arie - non ne conosco, quasi nemmeno di nome. Di più – non lo dico per darmi arie –  trovo impertinente seccare una persona con un libro di versi p. r. Che cosa vuoi quindi che ti consigli? Non ho obblighi e non speranze con nessuno. Manda tu, che te ne intendi, a chi vuoi. E non irritarti, se trovi che esagero la parte del «puro folle».</p>
