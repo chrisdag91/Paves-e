@@ -1125,7 +1125,7 @@
 			<p>Cesare Pavese. Nato a <placeName key="Santo Stefano Belbo (Italy)" ref="http://viaf.org/viaf/233814474/">Santo Stefano Belbo</placeName> – <date when="1908">1908</date>. Vissuto sempre in <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831">Piemonte</placeName>. Laureato in lettere. Ha tradotto:</p>
 			<p><persName ref="#MelvilleHerman" type="real">H. Melville</persName>, <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, <orgName ref="#FrassinelliEditore">ed. Frassinelli</orgName>, <date when="1932">1932</date></p>
 			<p><persName ref="#AndersonSherwood" type="real">Sh. Anderson</persName>, <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Riso Nero</title>, <orgName ref="#FrassinelliEditore">ed. Fr.</orgName>, <date when="1932">1932</date></p>
-			<p>J. Joyce, Dedalus, 1933</p>
+			<p><persName ref="#JoyceJames" type="real">J. Joyce</persName>, <title level="m" ref="#Dedalus">Dedalus</title>, 1933</p>
 			<p>J. Dos Passos, 42° Parallelo, Mondadori, 1933.</p>
 			<p>Ha scritto di letteratura nordamericana sulla «Cultura» una mezza dozzina di saggi dal 1930 al ’34. Ha atteso alla composizione di Lavorare Stanca fin dal 1930.</p>
 			<p>Ti rinnovo i ringraziamenti e ti saluto tuo</p>
