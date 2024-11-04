@@ -170,14 +170,252 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?date_annotation_20241104201153831",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T19:11:53.831Z",
+	"dcterms:modified": "2024-11-04T19:11:53.831Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?date_annotation_20241104201153831#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?date_annotation_20241104201153831#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1926-08"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?person_annotation_20241104201229799",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T19:12:29.799Z",
+	"dcterms:modified": "2024-11-04T19:12:29.799Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?person_annotation_20241104201229799#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?person_annotation_20241104201229799#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/5057618/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?person_annotation_20241104201257983",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T19:12:57.983Z",
+	"dcterms:modified": "2024-11-04T19:12:57.983Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?person_annotation_20241104201257983#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_192608_MontiAugusto.xml?person_annotation_20241104201257983#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Niccolò_Machiavelli",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/" cert="high" type="real">Augusto Monti</persName>, <placeName key="Giaveno Piedmont Italy" ref="https://geonames.org/3176130">Giaveno</placeName>.</p>
-			<p>[<placeName ref="#Reaglie">Reaglie</placeName>, agosto 1926]</p>
-			<p>Ho ricevuto la Sua lettera: uno di questi giorni le ricapiterò in casa e spero che sarò più fortunato dell'altra volta. Mi ci incaponisco così perché quella lettera me ne incoraggia. In essa ho trovato espresso in poche parole tutto ciò che io da un bel tempo in qua andavo rimuginando come venirle a dire appena finita la scuola. "Per voi la scuola nostra comincia ora... venite a parlarmi dei vostri studi, delle vostre opere, dei vostri giorni…" Questo intendevo io e già una certa frasaccia l'avevo trovata, che mi andava sì e no. "Quest'estate che sarò libero dei miei atti, del Prof. Monti mi voglio fare un amico". Se il mio modo di dire le parrà troppo spiccio si consoli pensando che il mio sentimento era ed è proprio questo e quindi sarebbe stato contro i nostri principi vestirlo di un bello stile più letterario, ma meno schietto.</p>
+			<p>[<placeName ref="#Reaglie">Reaglie</placeName>, <date when="1926-08">agosto 1926</date>]</p>
+			<p>Ho ricevuto la Sua lettera: uno di questi giorni le ricapiterò in casa e spero che sarò più fortunato dell'altra volta. Mi ci incaponisco così perché quella lettera me ne incoraggia. In essa ho trovato espresso in poche parole tutto ciò che io da un bel tempo in qua andavo rimuginando come venirle a dire appena finita la scuola. "Per voi la scuola nostra comincia ora... venite a parlarmi dei vostri studi, delle vostre opere, dei vostri giorni…" Questo intendevo io e già una certa frasaccia l'avevo trovata, che mi andava sì e no. "Quest'estate che sarò libero dei miei atti, del <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/" cert="high" type="real">Prof. Monti</persName> mi voglio fare un amico". Se il mio modo di dire le parrà troppo spiccio si consoli pensando che il mio sentimento era ed è proprio questo e quindi sarebbe stato contro i nostri principi vestirlo di un bello stile più letterario, ma meno schietto.</p>
 			<p>A quanto pare, queste nostre lettere van prendendo l'aspetto di campagna spietata contro la letteratura.</p>
-			<p>Ma io verserò subito molta acqua fresca sul fuoco, parlandole se lei me lo permette delle mie occupazioni in villa. (Le giuro però, sul mio avvenire, che non imito ora il Machiavelli). Stia dunque a sentire, se vuole.</p>
+			<p>Ma io verserò subito molta acqua fresca sul fuoco, parlandole se lei me lo permette delle mie occupazioni in villa. (Le giuro però, sul mio avvenire, che non imito ora il <persName key="Niccolò Machiavelli" ref="http://dbpedia.org/resource/Niccolò_Machiavelli" cert="high" type="real">Machiavelli</persName>). Stia dunque a sentire, se vuole.</p>
 			<p>Scribacchio e studio tutto il santo giorno e quando, preso dalla rabbia, scappo fuor di casa, ho intorno un giogo di colline, tutte boschi, ch'è una meraviglia vagabondarli.</p>
 			<p>E qua, forse presuntuoso, mi attendo una sua paternale: che io debbo svagarmi di più, che le maracchelle bisogna farle da giovane per non farle poi a capelli grigi, che il mondo non si conosce tutto solo sui libri, le cose insomma che mi dicon sempre tutti.</p>
 			<p>Ma lei che sinora non mi conosce che alla scuola, può dirle queste cose e con ragione, gli altri invece che mi seguono nella vita di tutti i giorni e continuano ugualmente a ripetermele mi farebbero quasi pietà se non avessero la attenuante che il mio carattere è troppo chiuso per conoscerlo a fondo. Pensi solo a questo: che non c'è uno della mia famiglia che da quattro anni in qua sia riuscito a leggersi un mio scritto, se non "cacciandomelo" di nascosto.</p>
