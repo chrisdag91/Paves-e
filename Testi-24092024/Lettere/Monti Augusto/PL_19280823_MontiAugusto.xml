@@ -407,6 +407,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19280823_MontiAugusto.xml?title_annotation_20241104210655930",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T20:06:55.930Z",
+	"dcterms:modified": "2024-11-04T20:06:55.930Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19280823_MontiAugusto.xml?title_annotation_20241104210655930#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19280823_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19280823_MontiAugusto.xml?title_annotation_20241104210655930#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Madame_Bovary",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -423,7 +502,7 @@
 			<p>Scribacchio, vomito poesie, per avere un terreno, un punto su cui fermarmi e dire "Sono io". Per provare a me stesso di non essere nulla.</p>
 			<p>Macché! solo i futuristi creano. Ma io non riesco a capirli: sono troppo sani.</p>
 			<p><persName ref="#EnzoMonferini">Monferini</persName> ride e m'assicura che potrò ammazzarmi anche, ma sarò sempre il buon Pavese scolaro che ha la mania di scappare dal collegio, <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" cert="high" type="real">Sturani</persName> mi guarda cogli occhi moribondi, ma che nascondono chissà che altro bel romanzo, e Giacchero mi canta le canzonette.</p>
-			<p>A volte persino quella donna mi esaspera, perché mi accorgo che non è altro che una Madame Bovary, senza nemmeno il tragico. Tutte le novelle umoristiche che leggo, sento che ridono di me.</p>
+			<p>A volte persino quella donna mi esaspera, perché mi accorgo che non è altro che una <title key="Madame Bovary" ref="http://dbpedia.org/resource/Madame_Bovary" level="m">Madame Bovary</title>, senza nemmeno il tragico. Tutte le novelle umoristiche che leggo, sento che ridono di me.</p>
 			<p>E Ginzburg mi studia.</p>
 			<p>Per consolazione: "È tutta scioperataggine".</p>
 			<p>Ed ora che ho finito vedo bene che non c'è risposta a questa lettera se non insolenze o calci in culo.</p>
