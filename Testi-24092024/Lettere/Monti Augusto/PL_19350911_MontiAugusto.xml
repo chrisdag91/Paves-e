@@ -565,6 +565,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19350911_MontiAugusto.xml?person_annotation_20241104213753808",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T20:37:53.808Z",
+	"dcterms:modified": "2024-11-04T20:37:53.808Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19350911_MontiAugusto.xml?person_annotation_20241104213753808#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19350911_MontiAugusto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Monti%20Augusto/PL_19350911_MontiAugusto.xml?person_annotation_20241104213753808#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Corrado_Alvaro",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -577,7 +657,7 @@
 			<p>Il giorno lo passo "dando volta". Leggicchio, ristudio per la terza volta il greco, fumo la pipa, faccio insomma venir notte, ogni volta indignandomi che, con tante invenzioni solenni, il genio italico non abbia ancora escogitata una droga che propini il letargo a volontà: nel mio caso, per tre anni. Il che risponde anche alla sua domanda sulle mie intenzioni di permanere o non.</p>
 			<p>Capisco molto meglio gli scrittori del secolo d'Augusto e non dò più così a vanvera il titolo di buffone a <persName key="Ovid" ref="http://dbpedia.org/resource/Ovid">Ovidio</persName>. Naturalmente scrivo ex ponto le mie <title key="Tristia" ref="http://dbpedia.org/resource/Tristia" level="m">Tristia</title>.</p>
 			<p>Di libri accetto qualunque cosa, anche a caso (ma specialmente classici latini e greci); se poi lei o <persName cert="high" ref="#MarioSturani" type="real">Sturani</persName> ne avesse voglia, si faccia mostrare la lista che ho mandato (e aggiorno sempre) ai miei e lì peschi a volontà. Fate bene a soccorrere i miei nella spesa dei libri, perché quelli mi debbono già mantenere, essendo stato io dichiarato in grado di mantenermi e non ricevendo sussidio alcuno.</p>
-			<p>E finalmente sono a pochi km dal paese di Corrado Alvaro. Ma lo preferivo nei libri. Del sogno del Marchese Curlo ricordo appunto quanto lei; in più, vagamente, un accenno ai lettori della Treccani, che ci lasciano dentro il moccio. E poi, mi pare, una scena di gelosia tra donne.</p>
+			<p>E finalmente sono a pochi km dal paese di <persName key="Corrado Alvaro" ref="http://dbpedia.org/resource/Corrado_Alvaro" cert="high" type="real">Corrado Alvaro</persName>. Ma lo preferivo nei libri. Del sogno del Marchese Curlo ricordo appunto quanto lei; in più, vagamente, un accenno ai lettori della Treccani, che ci lasciano dentro il moccio. E poi, mi pare, una scena di gelosia tra donne.</p>
 			<p>Sono contentissimo delle disavventure dei suoi figli. È giusto che anche a loro girino un po’ le scatole: erano vergognosamente fortunati sinora. Soltanto, vorrei disgrazie più di sostanza.</p>
 			<p>Mi piace, finalmente, che lei abbia deciso di vivere metà in campagna metà a Torino, e non cambiar città. Così ci rivedremo al mio ritorno che, le ripeto, avverrà finiti i tre anni, a meno che qualche mattina non mi scappi la mano, annodandomi la cravatta. Nel qual caso la saluto fin d'ora.</p>
 		</body>
