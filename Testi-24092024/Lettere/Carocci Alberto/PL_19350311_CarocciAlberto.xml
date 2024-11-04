@@ -405,6 +405,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19350311_CarocciAlberto.xml?rs_annotation_20241104120238623",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-04T11:02:38.623Z",
+	"dcterms:modified": "2024-11-04T11:02:38.623Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19350311_CarocciAlberto.xml?rs_annotation_20241104120238623#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19350311_CarocciAlberto.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Carocci%20Alberto/PL_19350311_CarocciAlberto.xml?rs_annotation_20241104120238623#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://viaf.org/viaf/212909346/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -414,7 +493,7 @@
 			<p>Caro <persName key="Carocci, Alberto, 1904-1972" ref="http://viaf.org/viaf/72191994/" type="real">Carocci</persName>,</p>
 			<p>sono avvilito. Mi attendevo l’onore della censura politica e quelli me la fanno puritana.</p>
 			<p>Ma ogni albero ha i suoi nidi. Le riserve moralistiche colpiscono tre poesie che già mi andavano poco a genio. Via dunque i <title level="a" ref="#PensieriDiDina_LavorareStanca43">Pensieri di Dina</title> (p. 31), le Cattive Compagnie (p. 52) e Pater­nità (p. 58). È un servizio reso all’arte. Le cancello io stesso dalle bozze. (Però le Catt. Compagnie sono innocenti come l’acqua).</p>
-			<p>Nelle altre, Una stagione (p. 29), Balletto (p. 56) e <title level="a" ref="#UnaGenerazione_LavorareStanca36">Una generazione</title> (p. 89), modificazioni non ne voglio né so farne. Tengo specialmente a <title level="a" ref="#UnaGenerazione_LavorareStanca36">Una generazione</title> perché conclude il libro. Puoi fare presente a quei tali, poi, che Una stagione non è affatto antidemografica, ma incita semmai a generare. Ma siccome credo che in genere questi appunti della Prefettura valgano come consigli all’edit. piuttosto che come vere e proprie intimazioni, sarei dell’idea che tu tentassi di far passare le tre suddette. Una volta stampato il libro, nessuno credo vorrà notare il culetto (grazioso) o le ragazze che piangono (ingenua tristezza). Se non ti va, però, sei autorizzato a cancellare le tre poesie (Mutilare, no).</p>
+			<p>Nelle altre, Una stagione (p. 29), Balletto (p. 56) e <title level="a" ref="#UnaGenerazione_LavorareStanca36">Una generazione</title> (p. 89), modificazioni non ne voglio né so farne. Tengo specialmente a <title level="a" ref="#UnaGenerazione_LavorareStanca36">Una generazione</title> perché conclude il libro. Puoi fare presente a quei tali, poi, che Una stagione non è affatto antidemografica, ma incita semmai a generare. Ma siccome credo che in genere questi appunti della Prefettura valgano come consigli all’edit. piuttosto che come vere e proprie intimazioni, sarei dell’idea che tu tentassi di far passare le tre suddette. Una volta stampato il <rs key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/">libro</rs>, nessuno credo vorrà notare il culetto (grazioso) o le ragazze che piangono (ingenua tristezza). Se non ti va, però, sei autorizzato a cancellare le tre poesie (Mutilare, no).</p>
 			<p>Resta il Dio Caprone (p. 36). Qui, niente da fare.</p>
 			<p>Lo considero il mio capolavoro. E ci voleva tutto l’insatirimento di un censore per vedere nel drizzarsi della bestia un simbolo dell’erezione. Ho corretto sulle bozze, hanno peli là sotto in sono bestie là sotto. Se non fosse che mi stampate gratuitamente e spese ne avete già fatte, direi senz’altro: non si fa più il libro. Così come stiamo, non oso dirlo, ma lo penso. Non prendo quindi decisioni: vedi tu, se è possibile, di salvare la poesia con parole (« la fecondità delle nostre campagne » « il sano tono folcloristico » « il caprone-toro, simbolo del Piemonte (l’ha detto anche il Capo del Governo) », ecc.). Se nemmeno rinunciando a tutte le altre, non puoi salvare integro il Dio-caprone, informami a volta di corriere. Decideremo in un secondo tempo.</p>
 			<p>Addio e ridiamo fin che si può.</p>
