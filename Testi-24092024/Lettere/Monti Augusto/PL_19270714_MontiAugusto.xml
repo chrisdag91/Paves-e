@@ -252,8 +252,8 @@
 	<text>
 		<body>
 			<p>Ad <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/" cert="high" type="real">Augusto Monti</persName>?, <placeName key="Giaveno Piedmont Italy" ref="https://geonames.org/3176130">Giaveno</placeName>.</p>
-			<p><placeName>Reaglie</placeName>, <date when="1927-07-14">14 luglio 1927</date></p>
-			<p>Causa la mia assenza da <placeName>Reaglie</placeName> abbiamo combinato un bel pasticcio. Siccome, per lo stesso motivo, mi sono sorti altri impedimenti svariati per la settimana entrante, così fissiamo: la mia II cartolina (da Pont) è annullata. Io verrò lunedì 22 alle ore solite (e questa mia presente cartolina annulli anche una sua eventuale che mi potrebbe arrivare tra qualche giorno).</p>
+			<p><placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="#Reaglie" xml:space="default">Reaglie</placeName>, <date when="1927-07-14">14 luglio 1927</date></p>
+			<p>Causa la mia assenza da <placeName><placeName ref="#Reaglie">Reaglie</placeName></placeName> abbiamo combinato un bel pasticcio. Siccome, per lo stesso motivo, mi sono sorti altri impedimenti svariati per la settimana entrante, così fissiamo: la mia II cartolina (da Pont) è annullata. Io verrò lunedì 22 alle ore solite (e questa mia presente cartolina annulli anche una sua eventuale che mi potrebbe arrivare tra qualche giorno).</p>
 			<p>E mi scusi una volta per tutte, ché proprio sono dolente dell'accaduto.</p>
 		</body>
 	</text>
