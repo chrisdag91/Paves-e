@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Sini%20Irma%20e%20Luigi/PL_19360105_SiniLuigi.xml?place_annotation_20241105100558031",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T09:05:58.031Z",
+	"dcterms:modified": "2024-11-05T09:05:58.031Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Sini%20Irma%20e%20Luigi/PL_19360105_SiniLuigi.xml?place_annotation_20241105100558031#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Sini%20Irma%20e%20Luigi/PL_19360105_SiniLuigi.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Sini%20Irma%20e%20Luigi/PL_19360105_SiniLuigi.xml?place_annotation_20241105100558031#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2525505",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -256,7 +335,7 @@
 			<p>Caro <persName ref="#SiniLuigi" type="real">Luigi</persName>,</p>
 			<p>ho letto la tua lettera con la curiosità divertita con cui si riceve la visita del parroco in circostanze di funerali, nozze, battesimi. Non avrei mai creduto che il terribile <persName ref="#SiniLuigi" type="real">Luigi</persName> fosse un tipo così ecclesiastico. "Lo studio tua occupazione prediletta... le piccole cosette che trasformino la tua stanzetta in un invitante studiolo... Cristiana rassegnazione... Serenità, rassegnazione e speranza...", o mi sbaglio o è così che il parroco si esprime per consolare un parrocchiano afflitto per esempio da lue venerea.</p>
 			<p>E, adesso che ci penso, mi pare davvero di ricordare giusto quel che <persName ref="#SiniFederica" type="real">Federica</persName> raccontava: da piccoli giocavate agli altarini e al culto, e tu officiavi. Naturalmente apprezzo quanto più posso il tuo pensiero e il tentativo relativo, ma, se è consolarmi che vuoi, bada che così non serve a niente. Io ho due ordini di seccature: quelle fisiche (l'asma) – e non basta certo un complimento per levarmela; quelle fisico-morali (la mancanza di compagnia) – e non mi può consolare che la presenza di compagnia. Dilemmi inequivocabili. Del resto, lasciamola perdere. Ho deciso di dire d'or innanzi che sto bene e non se ne parli più.</p>
-			<p>Sento che lavori come un cane in ufficio. Val la pena essere un integerrimo cittadino come sei tu, per menare lo stesso una vita che ti riduce il fisico come un merluzzo e il morale come una cella? Io, con tutto che sono a Brancaleone, non t'invidio affatto. I miei disagi sono un divertimento, rispetto al tiro della tua carretta.</p>
+			<p>Sento che lavori come un cane in ufficio. Val la pena essere un integerrimo cittadino come sei tu, per menare lo stesso una vita che ti riduce il fisico come un merluzzo e il morale come una cella? Io, con tutto che sono a <placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName>, non t'invidio affatto. I miei disagi sono un divertimento, rispetto al tiro della tua carretta.</p>
 			<p>Tu sei proprio uno di quei mortali per cui è fatto Lavorare stanca. Compralo, leggilo e vi imparerai i vari modi – tutti onesti, bada bene – di darsi bel tempo e fregare il capo-ufficio. Ma vedi che stupido. Dimenticavo che sei proprio tu il capo-ufficio.</p>
 			<p>E allora augurandoti nuovi e legittimi scatti nella carriera, ti ringrazio e saluto, unitamente a tutta la flebile e sacra famiglia.</p>
 			<p>Tuo</p>
