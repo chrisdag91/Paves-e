@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Luigi Russo, Firenze.</p>
+			<p>[Torino,] 8 dicembre 1931</p>
+			<p/>
+			<p>Chiarissimo Professore,</p>
+			<p>per consiglio dell'amico Leone Ginzburg, ardisco mandarle un saggio per La Nuova Italia.</p>
+			<p>Spero mi ricorderà ancora – uno degli amici di Torino che salirono con lei alla Villa Allason.</p>
+			<p>Questo mio articolo ha – almeno – il difetto di essere un po' lungo, ma l'argomento era vasto e non se ne dice mai abbastanza qui in Italia, dove una storia degli Stati Uniti è ancor da costruire e troppi dilettanti ingombrano la strada. Veda se l'O. Henry si accorda al carattere della rivista ed abbia la bontà di scrivermene qualcosa.</p>
+			<p>Suo devotissimo</p>
+		</body>
+	</text>
+</TEI>

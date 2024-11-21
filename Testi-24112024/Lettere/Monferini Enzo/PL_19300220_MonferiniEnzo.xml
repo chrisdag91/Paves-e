@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Enzo Monferini, Torino.</p>
+			<p>[Torino,] 20 febbraio 1930</p>
+			<p>Oggi mentre, servito a puntino in letto, mordevo una bisteccona con sopra un bel uovo bianco e giallo, e pensavo con gioia al riposo di quasi una settimana, che sto godendomi, mi arrivò la simpatica vostra.</p>
+			<p>Io che proprio in questi giorni aspetto una lettera da una ragazza in America, ho mandato al diavolo il francobollo, poi ho visto che era Sturani e allora l'ho messa lì, e ho finito con comodo di mangiare. Lettala, mi son commosso abbastanza sull’epicedio, ma, ti prego di’ pure a Sturani che pare il più triste, che, come vedi, io sto da papa, anzi, per farlo più contento, rivelagli pure anche che ho appena finita una novella e che son pieno di belle idee.</p>
+			<p>Per le mie poesie, poi non è il caso. Posseggo del resto un mio discreto pubblico e non mi occorre più ora di farle leggere a un qualunque cretino pur di vedergliene la reazione sulla faccia. Più pensieroso mi lascia invece il testamento dei miei beni, visto che tutti – vivendo io –  restate ora al secco.</p>
+			<p>Ma almeno per te un compenso ci vuole, ed ho pensato di tener qua a tua disposizione dei buoni aghi d’iniezione che Giacchero mi ha rotto nel culo, ma che per te vanno ancora. Questi e altri avanzi di materiale, scoli di bottiglie, pillole, cachets, e una buona dose finale di morfina, tengo in disparte, per quel tuo collasso fisiologico che, venga pur presto, sarà pur sempre stato preveduto dal desiderio unanime.</p>
+			<p>Io come ripeto sto bene. Mangio e lavoro molto, così in pace, senza rompiballe e conto di vedere i medesimi molto più di rado d'ora innanzi.</p>
+			<p>La tesi va avanti ed è sempre più notevole e poi l'uccello mi tira in modo straordinario.</p>
+			<p>In quanto all'America, andate pure. Io me ne verrò più tardi ché di là mi han già scritto per un corso di conferenze in 2 lingue e Radio a tutta l'Unione.</p>
+			<p>P.S. Affinché non capiti che &quot;vada perduta&quot; sappi che Sturani riceve contemporaneamente una cartolina con questi paragrafi.</p>
+		</body>
+	</text>
+</TEI>

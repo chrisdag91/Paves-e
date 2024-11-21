@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿All'Amministrazione della Cultura, Milano.</p>
+			<p>[Torino,] 25 agosto [1931]</p>
+			<p>È la terza volta che sollecito senza risultato il saldo di due articoli di 22 e di 8 pagine, pubblicati nella Cultura, il novembre del '30 e il maggio del '31.</p>
+			<p>Se ancora Loro saranno nell'impossibilità di soddisfarmi, finirò di rivolgermi alla direzione di Firenze, a nome della quale ho già scritto a Loro la prima volta.</p>
+			<p>Con ossequi.</p>
+		</body>
+	</text>
+</TEI>

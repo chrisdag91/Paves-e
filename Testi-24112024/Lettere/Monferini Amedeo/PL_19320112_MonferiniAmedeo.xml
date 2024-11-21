@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Amedeo Monferini, Pegli.</p>
+			<p>[Torino], 12 gennaio 1932</p>
+			<p>Caro Ingegnere,</p>
+			<p>Ho avuto la Sua lettera molto gradita che quasi quasi mi aspettavo.</p>
+			<p>Ne avevamo già parlato con Sturani e ancor ieri sera ho visto Ginzburg che ha dato la sua idea.</p>
+			<p>Noi conosciamo la ragazza come amici, di vista, e certo non abbiamo gli elementi per giudicare che invece hanno Lei e la Signora Elda.</p>
+			<p>Non è il caso, quindi, almeno per ora di parlare della persona.</p>
+			<p>Molto invece conosciamo il carattere di Enzo e per questo noi tre siamo tutti concordi che in consigliarlo occorre andar molto cauti poiché Enzo è un po' capace di fare qualunque sciocchezza, soltanto perché qualcuno gliel'ha sconsigliato.</p>
+			<p>Siamo tutti d'accordo con Lei, che - almeno per ora, nell'età e nella condizione in cui si trova Suo figlio - sarebbe una &quot;corbelleria&quot; un legame come quello che lui si vuole assumere.</p>
+			<p>E questo gliel'abbiamo già ripetuto un po' tutti, prima ancora di sapere della sua disapprovazione.</p>
+			<p>Ma, ripeto, bisogna sempre tenere a mente che Enzo, oltre al molto ingegno, e alla molta esperienza della vita, ha anche un senso della personalità gelosissimo e delicatissimo e non vorrei che fosse proprio questo a spingerlo dietro i consigli altrui, a fare ciò che appunto non si vorrebbe. Mentre, se lasciato a se stesso - tanto più che il patatrac non è imminente -  la sua molta esperienza basterebbe credo da sola a fargli vedere certi lati della questione dinnanzi ai quali lui stesso chiude gli occhi volontariamente e stia certo che in calma e in libertà di spirito non tarderà molto la sua intelligenza a rendersi conto dei fatti.</p>
+			<p>Le ho spiegato la cosa come meglio ho saputo, dal nostro punto di vista. Ad ogni modo, stia certo che, con cautela, già da tempo specialmente Ginzburg lavora per far bene intendere ad Enzo quel che lui un po' ciecamente sta per fare. E Ginzburg ha molto influsso su Enzo.</p>
+			<p>Ma soprattutto tenga a mente quel che diceva sempre Enzo ridendo - i consigli si chiedono per poi far tutto il contrario.</p>
+			<p>Mi saluti la signorina e per sé abbia i più cordiali auguri e, se permette, le più cordiali assicurazioni di amicizia.</p>
+			<p>Suo</p>
+		</body>
+	</text>
+</TEI>

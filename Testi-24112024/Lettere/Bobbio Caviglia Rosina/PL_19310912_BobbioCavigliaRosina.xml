@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Rosina Bobbio Caviglia, Rivalta Bormida.</p>
+			<p>[Torino,] 12 settembre 1931</p>
+			<p>Gentile Signora,</p>
+			<p>ora che sono tornato a richiudermi a Torino comprendo di più la piacevolezza del soggiorno a Rivalta e la Sua cortesia che mi rendeva questo soggiorno incantevole.</p>
+			<p>L’unico pensiero che mi guasta un po’ il ricordo è che ormai questo soggiorno sia finito.</p>
+			<p>Comunque, mi è facile rassegnarmi pensando al disturbo che debbo aver arrecato costì, e di cui La prego ancora di scusarmi.</p>
+			<p>Credo che Betino, tirerà finalmente un respirone riprendendo possesso dei suoi appartamenti. Anche da parte di mia sorella La ringrazio del gentile dono campagnolo che più davvicino mi ricorderà l’ospitalità di Rivalta.</p>
+			<p>Al Professore, a Betino, e a tutti i villeggianti che ho conosciuto La prego di ricordarmi e a Lei presento i miei più vivi ossequii e ringraziamenti.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Remo Giacchero, Asti.</p>
+			<p>[Torino, circa metà agosto 1931]</p>
+			<p>Caro Remo,</p>
+			<p>non offenderti se tra tutte le proteste di simpatia che hai ricevuto in questi giorni, la mia ti sembrerà irriverente. Se non altro ti ricorderà le sere che passeggiavamo insieme. Va a pagina... di Giovanotti non esageriamo, al periodo &quot;Il vecchietto ebbe un sorriso radioso&quot; e troverai là quanto di più profondo e più vero potrei dirti io stesso. E c'è poi ancora una cosa che Campanile non dice ma che io stesso ho provato e posso quindi scriverti con sincerità, una persona non la si conosce davvero, non la si comprende dentro di noi, se non quando è morta. Allora, forse perché diventa noi stessi, noi la viviamo questa persona, e l'amiamo di più. Ricordati, anch'io l'ho provato.</p>
+			<p>A tuo fratello, a tua mamma, a tutti i tuoi cui m'immagino quanto ti ho scritto non dica nulla, rinnovo le mie condoglianze e le mie simpatie. Ringraziali.</p>
+			<p>Tutti noi ti salutiamo.</p>
+		</body>
+	</text>
+</TEI>

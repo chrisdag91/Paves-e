@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Nina Perini, Torino.</p>
+			<p>[Brancaleone,] 27 agosto [1935]</p>
+			<p/>
+			<p>Cara Nina,</p>
+			<p>ho ricevuto la sua lettera dove mi fa tante feste.</p>
+			<p>Mi è spiaciuto molto dell'esaurimento della sua amica anche perché io invece che non ne ho bisogno sono in grande salute e pronto a ogni strapazzo.</p>
+			<p>In barca la condurrò fra due anni e otto mesi. Non le sembra ragionevole?</p>
+			<p>La domanda che lei mi consiglia io la farei senz'altro, perché non me ne importa un fico; ma se un uomo fa di queste cose, la donna si vergogna per lui.</p>
+			<p>Sia buona col Conte.</p>
+			<p>Saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

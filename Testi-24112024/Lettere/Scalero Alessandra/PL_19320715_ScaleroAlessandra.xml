@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Alessandra Scalero, Settimo Vittone.</p>
+			<p>[Torino,] 15 luglio 1932</p>
+			<p/>
+			<p>Gentilissima Signora</p>
+			<p>Rispondo subito alla Sua lettera, lieto di avere ricevuto sue notizie. Ecco dunque per quel che riguarda l'editore e le Sue traduzioni. Il Direttore mio amico La prega per mezzo mio di inviare se crede subito quel che ha pronto: così O'Neill come i due tedeschi. Naturalmente senza impegno e solo a titolo d’esame, che sarà rapido e, spero, secondo le possibilità della Casa, conclusivo. È già in corso di stampa un volume di O'Neill con drammi marini e l'Imperatore Jones.</p>
+			<p>Faccia anche sapere quei diritti che gravino sulle traduzioni. Gradirei molto per l'Editore e me l'articolo di sua sorella su O' Neill.</p>
+			<p>La ringrazio di tutto quel bene che dice di me e del Suo interessamento per darmi lavoro. Non ho al momento nulla sott'occhio che possa fare al Suo caso, ma sarò lieto di approfittarne a un'occasione.</p>
+			<p>Cordiali auguri e saluti dal suo</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

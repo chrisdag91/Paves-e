@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Ugo Ojetti, Firenze.</p>
+			<p>15-X-31</p>
+			<p>Torino - Via Lamarmora 35</p>
+			<p>Eccellenza Gentilissima,</p>
+			<p>il giudizio ch'Ella ha avuto la cortesia di esprimere sul mio articolo mi è riuscito lusinghiero e graditissimo: mi compensa della mancata pubblicazione su Pegaso.</p>
+			<p>Comprendo facilmente le ragioni che si oppongono agli &quot;arretrati&quot; e vogliono l'&quot;attualità&quot;: la Sua stima m'incoraggia a preparare qualcosa che s'accordi con quelle ragioni.</p>
+			<p>Gliene darò notizia prima e affiderò ancora alla Sua liberalità.</p>
+			<p>Con gratitudine e cordiale ossequio, suo</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Giuseppe Prezzolini, New York.</p>
+			<p>[Torino,] 2 Settembre 1930</p>
+			<p/>
+			<p>Egregio Professore,</p>
+			<p>Credo che una mia lettera del 9 Luglio, a Lei diretta, sia andata perduta, poiché non ho sinora ricevuto risposta. Ella ricorderà di aver già nel mese di giugno trasmesso alla Segreteria dell'Università una mia lettera dove sollecitavo schiarimenti circa il posto in quest'Univ. di cui Ella stesso aveva scritto a S. Ecc. Farinelli.</p>
+			<p>Ora, l'Ufficio delle Ammissioni all'Univ. ha carteggiato con me, e mi ha finalmente inviato i documenti che dichiarano ch'io sono atteso a New York per il 25 Settembre in qualità di studente. Ora, come debbo già averLe scritto, S. Ecc. Farinelli mi ha sempre parlato di un sussidio, anzi, in un suo recente biglietto, di uno «stipendio» che costì giunto mi permetterebbe di vivere. Ancora ultimamente, da me richiesto, egli ha insistito, esortandomi a scriverLe ancora, per chiarire il possibile malinteso.</p>
+			<p>Io mi trovo ora in sospeso non sapendo che cosa decidere circa il mio viaggio e d'altra parte non potendo intraprendere nulla in Italia. Certo, comunque stiano le cose io non sarei più in tempo a trovarmi a New York City per l'inizio dell'anno scolastico, il 25 settembre anche perché certi impedimenti personali mi tratterrebbero in Italia fino al principio del '31 e, ad ogni modo, non voglio certo intraprendere un tal viaggio senza essere prima sicuro di ciò che mi aspetta.</p>
+			<p>La prego perciò, Professore, di voler gentilmente chiarirmi questa situazione e, se possibile, aiutarmi, anche in nome di Arturo Farinelli che mi ha incoraggiato nello studio della letteratura nord americana.</p>
+		</body>
+	</text>
+</TEI>

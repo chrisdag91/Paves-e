@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Ponina Tallone, Milano?</p>
+			<p>[Torino,] 2 gennaio 1930</p>
+			<p/>
+			<p>Crede, signorina? Io, di ventun'anno di vita, vorrei averne dimenticati venti almeno. Del passato pochi istanti solo, perduti qua e là, mi paiono degni e questi forse perché sono lontani. Ed è proprio l'incidersi inevitabile nella mente delle cose del passato, che rende così rabbiosa la vita, per il rimorso e il rimpianto.</p>
+			<p>Dopo tante esperienze fallite, che appunto fanno solo soffrire per il ricordo, vien voglia di chiudersi gli occhi e la bocca e tacere, sparire. Non ha mai provato una sera, la vergogna, l'orrore, di aver parlato, di aver riso, di essere stata nel mondo, quel giorno?</p>
+			<p>Io comincio a credere che sia una mia mania poiché non passa notte che non soffra questo tormento. Eppure sono allegro, vado, conosco persone, parlo, lavoro, vivo insomma. Lei non crede questo?</p>
+			<p>Mi perdoni queste lettere isteriche</p>
+			<p>suo</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

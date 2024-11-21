@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Ponina Tallone, Milano?</p>
+			<p>[Torino,] 4 novembre [1929]</p>
+			<p/>
+			<p>Ieri miracolosamente ho scritto qualcosa. Potrebbe darsi che rinascessi.</p>
+			<p>Mi dica lei se ne vale la pena.</p>
+			<p/>
+			<p>La gran città schiacciata dalle nubi,</p>
+			<p>in mezzo alla campagna</p>
+			<p>si colora di un verde spaurito.</p>
+			<p/>
+			<p>Andare per le vie interminabili</p>
+			<p>sotto un cielo nerastro,</p>
+			<p>spaccato in lontananza</p>
+			<p>da un orizzonte chiaro,</p>
+			<p>nell'alito bagnato della pioggia.</p>
+			<p/>
+			<p>Un respiro dell'anima,</p>
+			<p>via dal tedio e dal freddo,</p>
+			<p>una porta di liberazione.</p>
+			<p>Lo sbocco della via</p>
+			<p>in chiarità lontana</p>
+			<p>ha l'aspetto di un volto trasognato.</p>
+			<p>Fantasia di un grand'angelo severo</p>
+			<p>verde e grigio, librato</p>
+			<p>dietro le nubi, sopra l'orizzonte.</p>
+			<p>Ora io vivo in quel bianco spalancato.</p>
+			<p>E perun attimo d'eternità</p>
+			<p>levo da terra il capo.</p>
+			<p/>
+			<p>Ma il verde e il grigio che son pioggia e fango</p>
+			<p>continuano nel vento</p>
+			<p>il monotono tedio delle vie.</p>
+			<p>Sotto il cielo nerastro</p>
+			<p/>
+			<p>Io mi dibatto in cose senza senso</p>
+			<p>Che mi martellan come litanie.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Ponina Tallone, Alpignano?</p>
+			<p>[Torino,] 3 ottobre 1929</p>
+			<p/>
+			<p>Ieri, con tanta gente attorno, si è dovuto rimandare ancora una volta una conversazione un po' più geniale. Ma il pomeriggio non è andato perduto egualmente: io le mandai quei fogli, Lei mi rispose con Debussy. Non per il confronto, ma per quello che ciascuno di noi immaginò dentro di sé.</p>
+			<p>Poi Lei mi ha parlato, confusamente, tra il chiacchierio di tutti. Compresi appena le parole, ricordo soltanto il loro suono, la loro intenzione.</p>
+			<p>Era intorno a quei miei fogli. Io vorrei che Lei mi ripetesse quelle frasi, e rimpiango soltanto di non saper scrivere nel suo linguaggio, la musica.</p>
+			<p>Ma qualcosa comincio davvero a comprendere. Durante l'Appassionata mi sentivo a tratti intorno il fragore di un mondo che si sconvolge e brucia. Nella Nona, un'ascesa vertiginosa come di stella in stella e, su tutto, un'armonia così remota ed alta che pare eludere anche il suo creatore.</p>
+			<p>Ma tutto questo a tratti, a lampi, annaspando in una specie di sordità mentale esasperante.</p>
+			<p>Ho compreso dunque qualcosa? Sono certo che se potessi ascoltare Lei di più e parlarle più a lungo e leggerle i miei poeti, come Lei mi suona i suoi musici, noi scopriremmo insieme meraviglie. Ma la vita è pesante, è triste e Lei è lontana, e se anche mi fosse vicina, io sarei ancor più chiuso e triste. Sono come un pianoforte – stonato - che più si ascolta da vicino e peggio è.</p>
+			<p>Poi, questo è un periodo in cui sto facendo il novelliere spiritoso e la vacuità delle cose che stavo scrivendo l'ho compresa soltanto oggi, ascoltando Beethoven.</p>
+			<p>Chissà se saprò salvarmi. Pensi: da giugno non ho più messo giù un verso e comincio a convincermi che le mie speranze di poeta siano state un vicolo cieco.</p>
+			<p>Ora aspetto la morte.</p>
+			<p>L'altro giorno un mio passato compagno s'è sparato nel cuore e &quot;boccheggiava in una pozza di sangue&quot;. Ebbene, così finiremo tutti.</p>
+			<p>Sono allegro, no?</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

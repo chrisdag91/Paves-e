@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Giuseppe Prezzolini, New York.</p>
+			<p>[Torino,] 19 aprile 1931</p>
+			<p/>
+			<p>Chiarissimo Professore,</p>
+			<p>come da Sua del 19 settembre 1930, dovrei ora scriverLe, ricordandole la lettera da me indirizzataLe nel maggio 1930, contenente una preghiera di S. E. Arturo Farinelli di farmi ottenere una borsa di studio alla Columbia University. Ella mi prometteva nella Sua lettera che per la fine del presente aprile avrebbe potuto aiutarmi. Ma debbo ora scriverle con mio gran rincrescimento, che mi è sopravvenuto un impegno di leva, da cui credevo di ottenere l'esonero e quest'impedimento mi durerà fino al giugno del '32. Non so dirLe quanto mi dispiaccia questo contrattempo, ma si tratta di cosa categorica.</p>
+			<p>Ella, Professore, farebbe cosa grata a S. Eccell. Farinelli, e più a me, se potesse farmi sapere se nel prossimo anno potrò ancora sperare in un Suo aiuto per la medesima borsa.</p>
+			<p>Le mando separatamente intanto ancora una copia di quel mio saggio su Sinclair Lewis di cui Ella mi ha richiesto e due, appena escono, di un saggio su Sherwood Anderson.</p>
+			<p>In attesa quindi di una Sua cortesissima</p>
+			<p>-----------</p>
+			<p>A questa lettera Prezzolini risponderà il 2 maggio 1931:</p>
+			<p>In realtà (cfr. p. 255) la lettera di Prezzolini è datata 18 dicembre.</p>
+			<p>Preg.mo Signor Pavese,</p>
+			<p>Non c'è per ora alcuna possibilità di farLe ottenere una borsa di studio ma non dubiti che tengo conto del Suo nome e della valida raccomandazione di S. E. Farinelli per il giorno in cui l'occasione si presenterà.</p>
+			<p>Non ho ancora ricevuto i Suoi saggi in letteratura americana ma mi faranno molto piacere e saranno un prezioso contributo alla Biblioteca della Casa Italiana.</p>
+			<p>Mi creda cordialmente</p>
+			<p>Suo dev.mo</p>
+			<p>G. Prezzolini</p>
+		</body>
+	</text>
+</TEI>
