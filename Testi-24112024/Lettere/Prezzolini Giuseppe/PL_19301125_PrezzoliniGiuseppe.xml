@@ -1364,7 +1364,7 @@
 			<p>Preg. Signor Pavese,</p>
 			<p>Mi dispiace di non aver visto subito la lettera che <rs ref="#SaviniGioconda">Ella</rs> mi scrisse insieme a S. E. <persName key="Arturo Farinelli" ref="http://de.dbpedia.org/resource/Arturo_Farinelli">Farinelli</persName>. Purtroppo ora è troppo tardi per la borsa di studio ma spero di poterne avere un paio l'anno prossimo e La prego di ricordarmi la cosa verso la fine di <date when="1931-04">Aprile</date>. Sarà bene che mi mandi un paio di copie dei Suoi articoli sulla letteratura americana.</p>
 			<p>Gradisca i miei saluti</p>
-			<p>G. Prezzolini</p>
+			<p>G. <persName ref="http://viaf.org/viaf/109649570/">Prezzolini</persName></p>
 		</body>
 	</text>
 </TEI>
