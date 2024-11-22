@@ -560,6 +560,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19310419_PrezzoliniGiuseppe.xml?person_annotation_20241122143016285",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-22T13:30:16.285Z",
+	"dcterms:modified": "2024-11-22T13:30:16.285Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19310419_PrezzoliniGiuseppe.xml?person_annotation_20241122143016285#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19310419_PrezzoliniGiuseppe.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19310419_PrezzoliniGiuseppe.xml?person_annotation_20241122143016285#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://de.dbpedia.org/resource/Arturo_Farinelli",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -568,7 +647,7 @@
 			<p/>
 			<p>Chiarissimo <rs ref="http://viaf.org/viaf/109649570/">Professore</rs>,</p>
 			<p>come da Sua del <date when="1930-09-19">19 settembre 1930</date>, dovrei ora scriverLe, ricordandole la lettera da me indirizzataLe nel <date when="1930-05">maggio 1930</date>, contenente una preghiera di S. E. <persName key="Arturo Farinelli" ref="http://de.dbpedia.org/resource/Arturo_Farinelli">Arturo Farinelli</persName> di farmi ottenere una borsa di studio alla <orgName ref="#UniversitàdiColumbia" type="real">Columbia University</orgName>. Ella mi prometteva nella Sua lettera che per la fine del presente aprile avrebbe potuto aiutarmi. Ma debbo ora scriverle con mio gran rincrescimento, che mi è sopravvenuto un impegno di leva, da cui credevo di ottenere l'esonero e quest'impedimento mi durerà fino al giugno del '<date when="1932">32</date>. Non so dirLe quanto mi dispiaccia questo contrattempo, ma si tratta di cosa categorica.</p>
-			<p>Ella, <rs ref="http://viaf.org/viaf/109649570/">Professore</rs>, farebbe cosa grata a S. Eccell. Farinelli, e più a me, se potesse farmi sapere se nel prossimo anno potrò ancora sperare in un Suo aiuto per la medesima borsa.</p>
+			<p>Ella, <rs ref="http://viaf.org/viaf/109649570/">Professore</rs>, farebbe cosa grata a S. Eccell. <persName key="Arturo Farinelli" ref="http://de.dbpedia.org/resource/Arturo_Farinelli">Farinelli</persName>, e più a me, se potesse farmi sapere se nel prossimo anno potrò ancora sperare in un Suo aiuto per la medesima borsa.</p>
 			<p>Le mando separatamente intanto ancora una copia di quel mio saggio su Sinclair Lewis di cui Ella mi ha richiesto e due, appena escono, di un saggio su Sherwood Anderson.</p>
 			<p>In attesa quindi di una Sua cortesissima</p>
 			<p>-----------</p>
