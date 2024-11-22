@@ -95,7 +95,7 @@
 		<body>
 			<p>A <persName ref="#CossoCarenaMarta" type="real">Marta Cosso</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			<p>[Brancaleone,] 29 gennaio [1936]</p>
-			<p>Gentile Signora,</p>
+			<p>Gentile <persName ref="#CossoCarenaMarta" type="real">Signora</persName>,</p>
 			<p>ricevo i suoi auguri. Li ricambio a Lei e parenti, assicurandola che, per quanto io non sia un gran chiromante, alla Sua famiglia quest'anno tutto andrà bene - meglio dell'anno scorso.</p>
 			<p>Suo</p>
 			<p>Pavese</p>
