@@ -1188,6 +1188,163 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?person_annotation_20241122141944080",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-22T13:19:44.080Z",
+	"dcterms:modified": "2024-11-22T13:19:44.080Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?person_annotation_20241122141944080#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?person_annotation_20241122141944080#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://de.dbpedia.org/resource/Arturo_Farinelli",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?date_annotation_20241122142012940",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-22T13:20:12.940Z",
+	"dcterms:modified": "2024-11-22T13:20:12.940Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?date_annotation_20241122142012940#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?date_annotation_20241122142012940#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1931-04"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1205,7 +1362,7 @@
 			<p>-----------</p>
 			<p>A questa lettera <persName ref="http://viaf.org/viaf/109649570/">Prezzolini</persName> rispose in data <date when="1930-12-18">18 dicembre 1930</date>:</p>
 			<p>Preg. Signor Pavese,</p>
-			<p>Mi dispiace di non aver visto subito la lettera che <rs ref="#SaviniGioconda">Ella</rs> mi scrisse insieme a S. E. Farinelli. Purtroppo ora è troppo tardi per la borsa di studio ma spero di poterne avere un paio l'anno prossimo e La prego di ricordarmi la cosa verso la fine di Aprile. Sarà bene che mi mandi un paio di copie dei Suoi articoli sulla letteratura americana.</p>
+			<p>Mi dispiace di non aver visto subito la lettera che <rs ref="#SaviniGioconda">Ella</rs> mi scrisse insieme a S. E. <persName key="Arturo Farinelli" ref="http://de.dbpedia.org/resource/Arturo_Farinelli">Farinelli</persName>. Purtroppo ora è troppo tardi per la borsa di studio ma spero di poterne avere un paio l'anno prossimo e La prego di ricordarmi la cosa verso la fine di <date when="1931-04">Aprile</date>. Sarà bene che mi mandi un paio di copie dei Suoi articoli sulla letteratura americana.</p>
 			<p>Gradisca i miei saluti</p>
 			<p>G. Prezzolini</p>
 		</body>
