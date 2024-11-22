@@ -93,7 +93,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A <persName key="Prezzolini, Giuseppe, 1882-1982" ref="http://viaf.org/viaf/109649570/">Giuseppe Prezzolini</persName>, New York.</p>
+			<p>A <persName key="Prezzolini, Giuseppe, 1882-1982" ref="http://viaf.org/viaf/109649570/">Giuseppe Prezzolini</persName>, <placeName ref="#NewYork" type="real">New York</placeName>.</p>
 			<p>[Torino,] 9 Luglio 1930</p>
 			<p/>
 			<p>Chiarissimo Professore,</p>
