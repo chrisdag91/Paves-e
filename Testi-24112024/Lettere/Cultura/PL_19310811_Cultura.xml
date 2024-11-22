@@ -563,7 +563,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>All'<orgName ref="#AmministrazionedellaCultura">Amministrazione della Cultura</orgName>, <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName>.</p>
+			<p>All'Amministrazione della Cultura, <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1931-08-11">11 agosto [1931]</date></p>
 			<p>A una mia del <date when="07-02">2 luglio</date> che sollecitava l'invio dei compensi di due miei articoli rispettivamente di 22 e 8 pagine, apparsi sulla <title level="j" ref="#LaCultura">Cultura</title> del <date when="1930-11">novembre del 30</date> e del <date when="1931-05">maggio del 31</date> ho ricevuto in risposta che il Loro Amministratore si trovava assente da <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName>.</p>
 			<p>Credo Egli sia ormai di ritorno e vorrei nuovamente sollecitare il saldo dovutomi.</p>
