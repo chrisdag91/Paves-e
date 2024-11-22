@@ -718,6 +718,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19310419_PrezzoliniGiuseppe.xml?date_annotation_20241122143520459",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-22T13:35:20.459Z",
+	"dcterms:modified": "2024-11-22T13:35:20.459Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19310419_PrezzoliniGiuseppe.xml?date_annotation_20241122143520459#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19310419_PrezzoliniGiuseppe.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19310419_PrezzoliniGiuseppe.xml?date_annotation_20241122143520459#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1931-05-02"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -730,7 +808,7 @@
 			<p>Le mando separatamente intanto ancora una copia di quel mio saggio su Sinclair Lewis di cui Ella mi ha richiesto e due, appena escono, di un saggio su <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="#AndersonSherwood" xml:space="default" type="real">Sherwood Anderson</persName>.</p>
 			<p>In attesa quindi di una Sua cortesissima</p>
 			<p>-----------</p>
-			<p>A questa lettera <persName key="Prezzolini, Giuseppe, 1882-1982" ref="http://viaf.org/viaf/109649570/">Prezzolini</persName> risponderà il 2 maggio 1931:</p>
+			<p>A questa lettera <persName key="Prezzolini, Giuseppe, 1882-1982" ref="http://viaf.org/viaf/109649570/">Prezzolini</persName> risponderà il <date when="1931-05-02">2 maggio 1931</date>:</p>
 			<p>In realtà (cfr. p. 255) la lettera di Prezzolini è datata 18 dicembre.</p>
 			<p>Preg.mo Signor Pavese,</p>
 			<p>Non c'è per ora alcuna possibilità di farLe ottenere una borsa di studio ma non dubiti che tengo conto del Suo nome e della valida raccomandazione di S. E. Farinelli per il giorno in cui l'occasione si presenterà.</p>
