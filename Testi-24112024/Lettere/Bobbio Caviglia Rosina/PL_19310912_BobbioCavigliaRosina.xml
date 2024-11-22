@@ -326,6 +326,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Bobbio%20Caviglia%20Rosina/PL_19310912_BobbioCavigliaRosina.xml?person_annotation_20241122104242273",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-22T09:42:42.273Z",
+	"dcterms:modified": "2024-11-22T09:42:42.273Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Bobbio%20Caviglia%20Rosina/PL_19310912_BobbioCavigliaRosina.xml?person_annotation_20241122104242273#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Bobbio%20Caviglia%20Rosina/PL_19310912_BobbioCavigliaRosina.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Bobbio%20Caviglia%20Rosina/PL_19310912_BobbioCavigliaRosina.xml?person_annotation_20241122104242273#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Norberto_Bobbio",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -335,7 +414,7 @@
 			<p>ora che sono tornato a richiudermi a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName> comprendo di più la piacevolezza del soggiorno a <placeName ref="https://geonames.org/6543042" type="real">Rivalta</placeName> e la Sua cortesia che mi rendeva questo soggiorno incantevole.</p>
 			<p>L’unico pensiero che mi guasta un po’ il ricordo è che ormai questo soggiorno sia finito.</p>
 			<p>Comunque, mi è facile rassegnarmi pensando al disturbo che debbo aver arrecato costì, e di cui La prego ancora di scusarmi.</p>
-			<p>Credo che Betino, tirerà finalmente un respirone riprendendo possesso dei suoi appartamenti. Anche da parte di mia sorella La ringrazio del gentile dono campagnolo che più davvicino mi ricorderà l’ospitalità di Rivalta.</p>
+			<p>Credo che <persName key="Norberto Bobbio" ref="http://dbpedia.org/resource/Norberto_Bobbio" type="real">Betino</persName>, tirerà finalmente un respirone riprendendo possesso dei suoi appartamenti. Anche da parte di mia sorella La ringrazio del gentile dono campagnolo che più davvicino mi ricorderà l’ospitalità di Rivalta.</p>
 			<p>Al Professore, a Betino, e a tutti i villeggianti che ho conosciuto La prego di ricordarmi e a Lei presento i miei più vivi ossequii e ringraziamenti.</p>
 		</body>
 	</text>
