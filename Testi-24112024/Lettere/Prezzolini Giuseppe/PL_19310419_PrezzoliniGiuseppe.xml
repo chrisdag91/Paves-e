@@ -1048,7 +1048,7 @@
 			<p>In realtà (cfr. p. 255) la lettera di <persName key="Prezzolini, Giuseppe, 1882-1982" ref="http://viaf.org/viaf/109649570/">Prezzolini</persName> è datata <date when="1931-12-18">18 dicembre</date>.</p>
 			<p>Preg.mo Signor Pavese,</p>
 			<p>Non c'è per ora alcuna possibilità di farLe ottenere una borsa di studio ma non dubiti che tengo conto del Suo nome e della valida raccomandazione di S. E. <persName key="Arturo Farinelli" ref="http://de.dbpedia.org/resource/Arturo_Farinelli">Farinelli</persName> per il giorno in cui l'occasione si presenterà.</p>
-			<p>Non ho ancora ricevuto i Suoi saggi in letteratura americana ma mi faranno molto piacere e saranno un prezioso contributo alla Biblioteca della Casa Italiana.</p>
+			<p>Non ho ancora ricevuto i Suoi saggi in letteratura americana ma mi faranno molto piacere e saranno un prezioso contributo alla <orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="#Bibliotecadellacasaitaliana" xml:space="default" type="real">Biblioteca della Casa Italiana</orgName>.</p>
 			<p>Mi creda cordialmente</p>
 			<p>Suo dev.mo</p>
 			<p>G. Prezzolini</p>
