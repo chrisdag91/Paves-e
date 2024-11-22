@@ -408,7 +408,7 @@
 		<body>
 			<p>All'<orgName ref="#AmministrazionedellaCultura">Amministrazione della Cultura</orgName>, <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435" type="real">Milano</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <date when="1931-07-02">2 luglio 1931</date>]</p>
-			<p>nel fascicolo di <date when="1930-11">novembre '30</date> e in quello di <date when="1931-05">maggio '31</date> della Cultura sono usciti due miei articoli, Sinclair Lewis e Sherwood Anderson.</p>
+			<p>nel fascicolo di <date when="1930-11">novembre '30</date> e in quello di <date when="1931-05">maggio '31</date> della <title level="j" ref="#LaCultura">Cultura</title> sono usciti due miei articoli, Sinclair Lewis e Sherwood Anderson.</p>
 			<p>Credo che il tempo solito alla rivista prima dell'invio dei compensi sia già trascorso e vorrei quindi sollecitare da Loro il saldo. Di questo ho già scritto ripetutamente al Prof. Cajumi a Firenze. I due articoli sono rispettivamente di 22 e 8 pagine.</p>
 			<p>In attesa di una Loro gradita, rispettosamente</p>
 		</body>
