@@ -326,6 +326,162 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?date_annotation_20241122135350562",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-22T12:53:50.562Z",
+	"dcterms:modified": "2024-11-22T12:53:50.562Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?date_annotation_20241122135350562#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?date_annotation_20241122135350562#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1930-05"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?date_annotation_20241122135403729",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-22T12:54:03.729Z",
+	"dcterms:modified": "2024-11-22T12:54:03.729Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?date_annotation_20241122135403729#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Prezzolini%20Giuseppe/PL_19301125_PrezzoliniGiuseppe.xml?date_annotation_20241122135403729#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1930-07"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -334,7 +490,7 @@
 			<p><date when="1930-11-25">25 novembre 1930</date></p>
 			<p/>
 			<p>Chiarissimo <rs ref="http://viaf.org/viaf/109649570/">Professore</rs>,</p>
-			<p>Ho saputo da un cortese biglietto della Sua segretaria, Sig. <persName ref="#SaviniGioconda">Savini</persName>, che Ella è stata in <placeName key="Republic of France  France" ref="https://geonames.org/3017382" type="real">Francia</placeName> tutta l'estate e non ha potuto quindi saper nulla finora delle mie lettere del maggio e del luglio a proposito di quel posto all'Università per uno studente italiano di cui Ella aveva scritto a S. E. Arturo Farinelli.</p>
+			<p>Ho saputo da un cortese biglietto della Sua segretaria, Sig. <persName ref="#SaviniGioconda">Savini</persName>, che Ella è stata in <placeName key="Republic of France  France" ref="https://geonames.org/3017382" type="real">Francia</placeName> tutta l'estate e non ha potuto quindi saper nulla finora delle mie lettere del <date when="1930-05">maggio</date> e del <date when="1930-07">luglio</date> a proposito di quel posto all'Università per uno studente italiano di cui Ella aveva scritto a S. E. Arturo Farinelli.</p>
 			<p>Vorrei pregarLa a nome anche di S. Ecc. con cui ho parlato ieri, di volermi dare una risposta definitiva. Potrà trovare alcune righe di mano di S. Ecc. nella mia lettera del maggio che spero non sarà andata perduta. Com'Ella già saprà, io ho carteggiato tutta l'estate coll’Università, ma questa non sapendo che aspiravo al sussidio, di cui mi parla Arturo Farinelli, ha semplicemente e burocraticamente richiesti i miei titoli di studio e, ricevendoli, mi ha fatto avere i documenti necessari a recarmi costì in qualità di studente in prova. Ciò fu per il 25 settembre. Naturalmente io ho avvertito la Segreteria dell'Università che c'era un malinteso e attendo ora dalla Sua cortesia una risposta e, possibilmente, un appoggio. Ella già sa che mi sono laureato in lettere nel luglio di quest'anno e che da più anni mi vado dedicando allo studio della letteratura inglese e nordamericana.</p>
 			<p>Sarebbe quindi vitale per me e non soltanto un capriccio frequentare, ad ogni modo, o come lettore o comunque, la Columbia.</p>
 			<p>Se Ella vuole avere la bontà di interessarsene, potrà trovare prove della mia attività in uno studio uscito nella «Cultura» questo novembre su Sinclair Lewis, di cui mi permetto di inviarle separatamente un estratto in omaggio, e in un prossimo che uscirà su Sherwood Anderson.</p>
