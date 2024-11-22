@@ -250,7 +250,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A <persName ref="#Perininina" type="real">Nina Perini</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
+			<p>A <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="#PeriniNina" xml:space="default" type="real">Nina Perini</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			<p>[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505" type="real">Brancaleone</placeName>,] <date when="1935-08-05">5 agosto [1935]</date></p>
 			<p/>
 			<p>Le voglio molto bene</p>
