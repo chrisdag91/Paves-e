@@ -405,6 +405,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Russo%20Luigi/PL_19311208_RussoLuigi.xml?place_annotation_20241125105042871",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-25T09:50:42.871Z",
+	"dcterms:modified": "2024-11-25T09:50:42.871Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Russo%20Luigi/PL_19311208_RussoLuigi.xml?place_annotation_20241125105042871#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Russo%20Luigi/PL_19311208_RussoLuigi.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Russo%20Luigi/PL_19311208_RussoLuigi.xml?place_annotation_20241125105042871#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -413,7 +492,7 @@
 			<p/>
 			<p>Chiarissimo <rs ref="#LuigiRusso">Professore</rs>,</p>
 			<p>per consiglio dell'amico <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">Leone Ginzburg</persName>, ardisco mandarle un saggio per <title level="j" ref="#LaNuovaItalia" type="real">La Nuova Italia</title>.</p>
-			<p>Spero mi ricorderà ancora – uno degli amici di Torino che salirono con lei alla <placeName ref="#VillaAllason" type="real">Villa Allason</placeName>.</p>
+			<p>Spero mi ricorderà ancora – uno degli amici di <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName> che salirono con lei alla <placeName ref="#VillaAllason" type="real">Villa Allason</placeName>.</p>
 			<p>Questo mio articolo ha – almeno – il difetto di essere un po' lungo, ma l'argomento era vasto e non se ne dice mai abbastanza qui in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="real">Italia</placeName>, dove una storia degli Stati Uniti è ancor da costruire e troppi dilettanti ingombrano la strada. Veda se l'<persName ref="#O.Henry">O. Henry</persName> si accorda al carattere della rivista ed abbia la bontà di scrivermene qualcosa.</p>
 			<p>Suo devotissimo</p>
 		</body>
