@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml?person_annotation_20241125115051246",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-25T10:50:51.246Z",
+	"dcterms:modified": "2024-11-25T10:50:51.246Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml?person_annotation_20241125115051246#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml?person_annotation_20241125115051246#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/370146998601618942786/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -254,7 +333,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1932-07-15">15 luglio 1932</date></p>
 			<p/>
 			<p>Gentilissima <rs ref="#ScaleroAlessandra">Signora</rs></p>
-			<p>Rispondo subito alla Sua lettera, lieto di avere ricevuto sue notizie. Ecco dunque per quel che riguarda l'editore e le Sue traduzioni. Il <rs key="Antonicelli, Franco." ref="http://viaf.org/viaf/41963413/">Direttore</rs> mio amico La prega per mezzo mio di inviare se crede subito quel che ha pronto: così O'Neill come i due tedeschi. Naturalmente senza impegno e solo a titolo d’esame, che sarà rapido e, spero, secondo le possibilità della Casa, conclusivo. È già in corso di stampa un volume di O'Neill con drammi marini e l'Imperatore Jones.</p>
+			<p>Rispondo subito alla Sua lettera, lieto di avere ricevuto sue notizie. Ecco dunque per quel che riguarda l'editore e le Sue traduzioni. Il <rs key="Antonicelli, Franco." ref="http://viaf.org/viaf/41963413/">Direttore</rs> mio amico La prega per mezzo mio di inviare se crede subito quel che ha pronto: così <persName key="O'Neill, Eugene" ref="http://viaf.org/viaf/370146998601618942786/">O'Neill</persName> come i due tedeschi. Naturalmente senza impegno e solo a titolo d’esame, che sarà rapido e, spero, secondo le possibilità della Casa, conclusivo. È già in corso di stampa un volume di O'Neill con drammi marini e l'Imperatore Jones.</p>
 			<p>Faccia anche sapere quei diritti che gravino sulle traduzioni. Gradirei molto per l'Editore e me l'articolo di sua sorella su O' Neill.</p>
 			<p>La ringrazio di tutto quel bene che dice di me e del Suo interessamento per darmi lavoro. Non ho al momento nulla sott'occhio che possa fare al Suo caso, ma sarò lieto di approfittarne a un'occasione.</p>
 			<p>Cordiali auguri e saluti dal suo</p>
