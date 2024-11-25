@@ -279,10 +279,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml?person_annotation_20241125115051246",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml?person_annotation_20241125115154968",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-11-25T10:50:51.246Z",
-	"dcterms:modified": "2024-11-25T10:51:54.968Z",
+	"dcterms:created": "2024-11-25T10:51:54.968Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Martinogiordano",
 		"@type": [
@@ -293,7 +292,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml?person_annotation_20241125115051246#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml?person_annotation_20241125115154968#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml",
@@ -307,7 +306,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml?person_annotation_20241125115051246#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Scalero%20Alessandra/PL_19320715_ScaleroAlessandra.xml?person_annotation_20241125115154968#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[5]/persName"
 		}
@@ -412,7 +411,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1932-07-15">15 luglio 1932</date></p>
 			<p/>
 			<p>Gentilissima <rs ref="#ScaleroAlessandra">Signora</rs></p>
-			<p>Rispondo subito alla Sua lettera, lieto di avere ricevuto sue notizie. Ecco dunque per quel che riguarda l'editore e le Sue traduzioni. Il <rs key="Antonicelli, Franco." ref="http://viaf.org/viaf/41963413/">Direttore</rs> mio amico La prega per mezzo mio di inviare se crede subito quel che ha pronto: così <persName key="O'Neill, Eugene" ref="http://viaf.org/viaf/370146998601618942786/">O'Neill</persName> come i due tedeschi. Naturalmente senza impegno e solo a titolo d’esame, che sarà rapido e, spero, secondo le possibilità della Casa, conclusivo. È già in corso di stampa un volume di <persName key="O'Neill, Eugene" ref="http://viaf.org/viaf/370146998601618942786/">O'Neill</persName> con drammi marini e <title level="m" ref="#ImperatoreJones">l'Imperatore Jones</title>.</p>
+			<p>Rispondo subito alla Sua lettera, lieto di avere ricevuto sue notizie. Ecco dunque per quel che riguarda l'<orgName ref="#FrassinelliEditore">editore</orgName> e le Sue traduzioni. Il <rs key="Antonicelli, Franco." ref="http://viaf.org/viaf/41963413/">Direttore</rs> mio amico La prega per mezzo mio di inviare se crede subito quel che ha pronto: così <persName key="O'Neill, Eugene" ref="http://viaf.org/viaf/370146998601618942786/">O'Neill</persName> come i due tedeschi. Naturalmente senza impegno e solo a titolo d’esame, che sarà rapido e, spero, secondo le possibilità della Casa, conclusivo. È già in corso di stampa un volume di <persName key="O'Neill, Eugene" ref="http://viaf.org/viaf/370146998601618942786/">O'Neill</persName> con drammi marini e <title level="m" ref="#ImperatoreJones">l'Imperatore Jones</title>.</p>
 			<p>Faccia anche sapere quei diritti che gravino sulle traduzioni. Gradirei molto per l'Editore e me l'articolo di sua sorella su <persName ref="http://viaf.org/viaf/370146998601618942786/">O' Neill</persName>.</p>
 			<p>La ringrazio di tutto quel bene che dice di me e del Suo interessamento per darmi lavoro. Non ho al momento nulla sott'occhio che possa fare al Suo caso, ma sarò lieto di approfittarne a un'occasione.</p>
 			<p>Cordiali auguri e saluti dal suo</p>
