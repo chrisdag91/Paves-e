@@ -326,13 +326,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Tallone%20Ponina/PL_19300102_TallonePonina.xml?rs_annotation_20241125144148474",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-25T13:41:48.474Z",
+	"dcterms:modified": "2024-11-25T13:41:48.474Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Tallone%20Ponina/PL_19300102_TallonePonina.xml?rs_annotation_20241125144148474#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Tallone%20Ponina/PL_19300102_TallonePonina.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Lettere/Tallone%20Ponina/PL_19300102_TallonePonina.xml?rs_annotation_20241125144148474#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://viaf.org/viaf/90334974/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A <persName key="Ciliberti Tallone, Ponina" ref="http://viaf.org/viaf/90334974/">Ponina Tallone</persName>, <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435" type="real">Milano</placeName>?</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1930-01-02">2 gennaio 1930</date></p>
 			<p/>
-			<p>Crede, signorina? Io, di ventun'anno di vita, vorrei averne dimenticati venti almeno. Del passato pochi istanti solo, perduti qua e là, mi paiono degni e questi forse perché sono lontani. Ed è proprio l'incidersi inevitabile nella mente delle cose del passato, che rende così rabbiosa la vita, per il rimorso e il rimpianto.</p>
+			<p>Crede, <rs key="Ciliberti Tallone, Ponina" ref="http://viaf.org/viaf/90334974/">signorina</rs>? Io, di ventun'anno di vita, vorrei averne dimenticati venti almeno. Del passato pochi istanti solo, perduti qua e là, mi paiono degni e questi forse perché sono lontani. Ed è proprio l'incidersi inevitabile nella mente delle cose del passato, che rende così rabbiosa la vita, per il rimorso e il rimpianto.</p>
 			<p>Dopo tante esperienze fallite, che appunto fanno solo soffrire per il ricordo, vien voglia di chiudersi gli occhi e la bocca e tacere, sparire. Non ha mai provato una sera, la vergogna, l'orrore, di aver parlato, di aver riso, di<hi cert="high" generatedBy="human" rend="italic" xml:space="default"> essere stata </hi>nel mondo, quel giorno?</p>
 			<p>Io comincio a credere che sia una mia mania poiché non passa notte che non soffra questo tormento. Eppure sono allegro, vado, conosco persone, parlo, lavoro, vivo insomma. Lei non crede questo?</p>
 			<p>Mi perdoni queste lettere isteriche</p>
