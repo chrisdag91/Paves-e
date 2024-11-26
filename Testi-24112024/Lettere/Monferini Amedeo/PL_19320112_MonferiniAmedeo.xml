@@ -255,7 +255,7 @@
 			<p>Caro <persName ref="#MonferiniAmedeo" type="real">Ingegnere</persName>,</p>
 			<p>Ho avuto la Sua lettera molto gradita che quasi quasi mi aspettavo.</p>
 			<p>Ne avevamo già parlato con <persName ref="http://viaf.org/viaf/56763727/" type="real">Sturani</persName> e ancor ieri sera ho visto <persName ref="http://viaf.org/viaf/94052107/" type="real">Ginzburg</persName> che ha dato la sua idea.</p>
-			<p>Noi conosciamo la ragazza come amici, di vista, e certo non abbiamo gli elementi per giudicare che invece hanno Lei e la Signora Elda.</p>
+			<p>Noi conosciamo la ragazza come amici, di vista, e certo non abbiamo gli elementi per giudicare che invece hanno Lei e la Signora <persName ref="#MonferiniElda" type="real">Elda</persName>.</p>
 			<p>Non è il caso, quindi, almeno per ora di parlare della persona.</p>
 			<p>Molto invece conosciamo il carattere di Enzo e per questo noi tre siamo tutti concordi che in consigliarlo occorre andar molto cauti poiché Enzo è un po' capace di fare qualunque sciocchezza, soltanto perché qualcuno gliel'ha sconsigliato.</p>
 			<p>Siamo tutti d'accordo con Lei, che - almeno per ora, nell'età e nella condizione in cui si trova Suo figlio - sarebbe una "corbelleria" un legame come quello che lui si vuole assumere.</p>
