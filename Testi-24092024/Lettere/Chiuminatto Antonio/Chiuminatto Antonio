@@ -2662,6 +2662,708 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20241126150425481",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-26T14:04:25.481Z",
+	"dcterms:modified": "2024-11-26T14:04:25.481Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20241126150425481#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20241126150425481#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[32]/persName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/68956184/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20241126150534478",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-26T14:05:34.478Z",
+	"dcterms:modified": "2024-11-26T14:05:34.478Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20241126150534478#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20241126150534478#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[32]/persName[7]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/61588662/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20241126151212961",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-26T14:12:12.961Z",
+	"dcterms:modified": "2024-11-26T14:12:46.054Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20241126151212961#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20241126151212961#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[32]/persName[9]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/3741149068491165730000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20241126151548045",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-26T14:15:48.045Z",
+	"dcterms:modified": "2024-11-26T14:15:48.045Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20241126151548045#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20241126151548045#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[32]/persName[10]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/3010160486076405180003/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20241126151619221",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-26T14:16:19.221Z",
+	"dcterms:modified": "2024-11-26T14:16:19.221Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20241126151619221#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20241126151619221#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[33]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3169070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20241126151951823",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-26T14:19:51.823Z",
+	"dcterms:modified": "2024-11-26T14:19:51.823Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20241126151951823#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20241126151951823#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[33]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/95191935/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20241126153220739",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-26T14:32:20.739Z",
+	"dcterms:modified": "2024-11-26T14:32:20.739Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20241126153220739#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20241126153220739#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[34]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/120757469/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?title_annotation_20241126153429910",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-26T14:34:29.910Z",
+	"dcterms:modified": "2024-11-26T14:34:29.910Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?title_annotation_20241126153429910#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?title_annotation_20241126153429910#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[36]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Babbitt_(novel)",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?title_annotation_20241126153509697",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-26T14:35:09.697Z",
+	"dcterms:modified": "2024-11-26T14:35:09.697Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?title_annotation_20241126153509697#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?title_annotation_20241126153509697#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[34]/term/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/310215030/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2696,11 +3398,11 @@
 			<p>I must then add here that I like <title key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)" level="m">Babbitt</title> also for another reason but this not an aesthetic one. It is the most complete picture of contemporary <placeName ref="https://geonames.org/6252001" type="real"><placeName ref="https://geonames.org/6252001" type="real">America</placeName></placeName> in its whole character: throughout manners, language, culture, doings, the whole life in short. And this refers itself if not to the piece of art to the powerful mind of <persName ref="#LewisSinclare">Lewis</persName> himself, certainly one of your greatest living writers.</p>
 			<p>It's done. I hope I should not have mistaken a word for another, smartly succeeding so in getting my ideas all balled up. You'll kindly give me a sincere hint of my lecture here in your next letter. But I should also like, were it possible, to have something written down by the curious young lady-friend of yours, about American literature or whatever else there is of common interest. Would she be interested in it, I should gladly inform her about our modern Italian writers and culture. As for me I would have her speaking about <persName key="Masters, Edgar Lee, 1868-1950." ref="http://viaf.org/viaf/27068379/">Edgar Lee Masters</persName> or <persName key="Lindsay, Vachel, 1879-1931" ref="http://viaf.org/viaf/9889931/">Vachel Lindsay</persName> whose works also (<title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River Anthology</title> by the former, and methinks <title ref="#TheCongo">The Congo</title> - <title level="m" ref="#TheChineseNightingale">The Chinese Nightingale</title> - <title ref="#TheGoldenWhalesofCalifornia">The Golden Whales of California</title> by the latter) I should pray you to look for, whether there is a cheap edition of them.</p>
 			<p>But there are other troubles for you. Would you be so kind as to go fetch them, I should pray you to send me a copy of <persName key="Frank, Waldo David" ref="http://viaf.org/viaf/3741149068491165730000/">Waldo Frank</persName>'s <title key="Frank, Waldo David, 1889-1967. | City block" ref="http://viaf.org/viaf/3510157416832116710004/">City Block</title> and something of <persName key="Hemingway, Ernest" ref="http://viaf.org/viaf/3010160486076405180003/">Ernest Hemingway</persName> (<title key="Hemingway, Ernest, 1899-1961. | Sun also rises" ref="http://viaf.org/viaf/177420720/" level="m">The Sun Also Rises</title> - <title key="Hemingway, Ernest, 1899-1961. | Short stories. Selections (Men without women)" ref="http://viaf.org/viaf/1729147665859860670003/">Men Without Women</title> - <title level="m" ref="#FarewelltotheArms">Farewell to the Arms</title>) or whatever else is attainable of him. Especially about the latter there is much talk now here, but no edition of its are seen.</p>
-			<p>And still there are scores of modern American books I should like, someone really I need: by <persName ref="#JohnDosPassos">J. Dos Passos</persName>, by <persName key="Cummings, E.E. (Edward Estlin), 1894-1962" ref="http://viaf.org/viaf/12306931/">E. Cummings</persName>, by <persName key="Williams, William Carlos" ref="http://viaf.org/viaf/7569163877689646060003/">W. Carlos Williams</persName>, by <persName key="Cullen, Countee, 1903-1946" ref="http://viaf.org/viaf/73872159/">Countee Cullen</persName>, by Eugene O'Neill, by Robinson Jeffers, by Carl Sandburg, by Sherwood Anderson, etc. They are numberless. To buy them by means of an Italian bookseller, there is the danger of finding himself gratified with a cheap edition of five dollars. You see how your christian help is here necessary for me. We ll digest those books little by little, in future letters. Each time one or two among them, and you'll seek for and mail them, together with your bill. Now let us begin with Frank and Hemingway.</p>
-			<p>Do you know? I found an American library in Rome very rich with American works such as historical and critical ones. Some classics also as Thoreau and Howells. I'm borrowing two volumes a fortnight by it. But as for modern, living, productions, there is nothing, there is only your help there yonder.</p>
-			<p>Accordingly, I send you now the Drolarie by Arnulfi, you wrote about, and <term cert="high" evaluate="all" generatedBy="human" xml:lang="fr" xml:space="default">l'ouest rien de nouveau</term> which you are wrong in believing a French book. It is by a German author, as you'll see perusing it, for it is worth while. As I don't know whether you are conversant with German language, I don't send you the German text, nor the Italian translation which does not exist by way of a legal prohibition. It seems that this book has the wrong to describe the war how it is really, an atrocious thing, and naturally we Italian babies are defended to know it by means of a direct translation. We could become too moody and refuse the next war. Mr Chiuminatto, we also wonder how Fascism will fan out.</p>
+			<p>And still there are scores of modern American books I should like, someone really I need: by <persName ref="#JohnDosPassos">J. Dos Passos</persName>, by <persName key="Cummings, E.E. (Edward Estlin), 1894-1962" ref="http://viaf.org/viaf/12306931/">E. Cummings</persName>, by <persName key="Williams, William Carlos" ref="http://viaf.org/viaf/7569163877689646060003/">W. Carlos Williams</persName>, by <persName key="Cullen, Countee, 1903-1946" ref="http://viaf.org/viaf/73872159/">Countee Cullen</persName>, by <persName ref="#EugeneO'Neill">Eugene O'Neill</persName>, by <persName key="Jeffers, Robinson, 1887-1962" ref="http://viaf.org/viaf/68956184/">Robinson Jeffers</persName>, by <persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/">Carl Sandburg</persName>, by <persName ref="#SherwoodAnderson">Sherwood Anderson</persName>, etc. They are numberless. To buy them by means of an Italian bookseller, there is the danger of finding himself gratified with a cheap edition of five dollars. You see how your christian help is here necessary for me. We ll digest those books little by little, in future letters. Each time one or two among them, and you'll seek for and mail them, together with your bill. Now let us begin with <persName key="Frank, Waldo David" ref="http://viaf.org/viaf/3741149068491165730000/">Frank</persName> and <persName key="Hemingway, Ernest" ref="http://viaf.org/viaf/3010160486076405180003/">Hemingway</persName>.</p>
+			<p>Do you know? I found an American library in <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070" type="real">Rome</placeName> very rich with American works such as historical and critical ones. Some classics also as <persName ref="#HenryDavidThoreau">Thoreau</persName> and <persName key="Howells, William Dean, 1837-1920." ref="http://viaf.org/viaf/95191935/">Howells</persName>. I'm borrowing two volumes a fortnight by it. But as for modern, living, productions, there is nothing, there is only your help there yonder.</p>
+			<p>Accordingly, I send you now the <title ref="#Drolarie">Drolarie</title> by <persName ref="#AlbertoArnulfi">Arnulfi</persName>, you wrote about, and <term cert="high" evaluate="all" generatedBy="human" xml:lang="fr" xml:space="default"><title key="Remarque, Erich Maria, 1898-1970. | Im Westen nichts Neues" ref="http://viaf.org/viaf/310215030/">l'ouest rien de nouveau</title></term> which you are wrong in believing a French book. It is by a <rs ref="#ErichMariaRemarque">German author</rs>, as you'll see perusing it, for it is worth while. As I don't know whether you are conversant with German language, I don't send you the German text, nor the Italian translation which does not exist by way of a legal prohibition. It seems that this book has the wrong to describe the war how it is really, an atrocious thing, and naturally we Italian babies are defended to know it by means of a direct translation. We could become too moody and refuse the next war. Mr <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Chiuminatto</persName>, we also wonder how Fascism will fan out.</p>
 			<p>But I must leave off. I wind up my yarn with a final thanksgiving for the book you kindly sent me. I'm waiting for it, and I assure you that hardly I'll have received it, by the by, I'll read it notwithstanding my many scholarly occupations and I ll write you something about it.</p>
-			<p>And still I beseech you to undergo the expounding of my shameful Babbitt-list only when you'll have nothing else, really nothing else to do. You're so kind I should feel sorry to bother you again.</p>
+			<p>And still I beseech you to undergo the expounding of my shameful <title key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)" level="m">Babbitt</title>-list only when you'll have nothing else, really nothing else to do. You're so kind I should feel sorry to bother you again.</p>
 			<p>Now I'll slip you the accustomed glove and am</p>
 			<p>Yours sincerely</p>
 		</body>
