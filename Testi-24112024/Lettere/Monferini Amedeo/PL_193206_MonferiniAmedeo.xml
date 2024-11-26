@@ -333,8 +333,8 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, <date when="1932-06">giugno 1932</date>?]</p>
 			<p>Caro <persName ref="#MonferiniAmedeo" type="real">Ingegnere</persName>,</p>
 			<p>La ringrazio dell'interessamento e delle buone notizie.</p>
-			<p>Quanto al nuoto credo di potermela cavare, e in questi due mesi migliorerò ancora la mia forma in Po.</p>
-			<p>Voglia essere tanto gentile da farmi sapere - con suo comodo, ché tanto non potrei far la mattana prima della metà d'agosto - quali documenti occorreranno (certificati, passaporti ecc.). Tenga presente che il mio itinerario ideale sarebbe di arrivare fino a <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="#Smirne" xml:space="default" type="real">Smirne</placeName> radendo l’<placeName key="Africa  " ref="https://geonames.org/6255146" type="real">Africa</placeName> e toccando l’Egitto o attraverso le isole greche.</p>
+			<p>Quanto al nuoto credo di potermela cavare, e in questi due mesi migliorerò ancora la mia forma in <placeName ref="#FiumePo" type="real">Po</placeName>.</p>
+			<p>Voglia essere tanto gentile da farmi sapere - con suo comodo, ché tanto non potrei far la mattana prima della metà d'agosto - quali documenti occorreranno (certificati, passaporti ecc.). Tenga presente che il mio itinerario ideale sarebbe di arrivare fino a <placeName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="#Smirne" xml:space="default" type="real">Smirne</placeName> radendo l’<placeName key="Africa  " ref="https://geonames.org/6255146" type="real">Africa</placeName> e toccando l’<placeName ref="#Egitto" type="real">Egitto</placeName> o attraverso le isole greche.</p>
 			<p>Suo figlio sta bene, sempre in bolletta e sempre normale; mi saluti la signorina. Mi è venuta una mezza idea sfacciata che è piaciuta molto ad Enzo: finiti gli esami in giugno, scappare un giorno a Pegli.</p>
 		</body>
 	</text>
