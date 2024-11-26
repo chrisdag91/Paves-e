@@ -14,7 +14,7 @@
 	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A Remo Giacchero, Asti.</p>
+			<p>A <persName ref="#GiaccheroRemo" type="real">Remo Giacchero</persName>, Asti.</p>
 			<p>[Torino, circa metà agosto 1931]</p>
 			<p>Caro Remo,</p>
 			<p>non offenderti se tra tutte le proteste di simpatia che hai ricevuto in questi giorni, la mia ti sembrerà irriverente. Se non altro ti ricorderà le sere che passeggiavamo insieme. Va a pagina... di Giovanotti non esageriamo, al periodo "Il vecchietto ebbe un sorriso radioso" e troverai là quanto di più profondo e più vero potrei dirti io stesso. E c'è poi ancora una cosa che Campanile non dice ma che io stesso ho provato e posso quindi scriverti con sincerità, una persona non la si conosce davvero, non la si <hi cert="high" generatedBy="human" rend="italic" xml:space="default">comprende</hi> dentro di noi, se non quando è morta. Allora, forse perché diventa noi stessi, noi la viviamo questa persona, e l'amiamo di più. Ricordati, anch'io l'ho provato.</p>
