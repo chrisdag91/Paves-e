@@ -252,7 +252,7 @@
 		<body>
 			<p>Ad <persName ref="#MonferiniAmedeo" type="real">Amedeo Monferini</persName>, <placeName key="Pegli Liguria Italy" ref="https://geonames.org/3171309" type="real">Pegli</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>], <date when="1932-01-12">12 gennaio 1932</date></p>
-			<p>Caro Ingegnere,</p>
+			<p>Caro <persName ref="#MonferiniAmedeo" type="real">Ingegnere</persName>,</p>
 			<p>Ho avuto la Sua lettera molto gradita che quasi quasi mi aspettavo.</p>
 			<p>Ne avevamo già parlato con Sturani e ancor ieri sera ho visto Ginzburg che ha dato la sua idea.</p>
 			<p>Noi conosciamo la ragazza come amici, di vista, e certo non abbiamo gli elementi per giudicare che invece hanno Lei e la Signora Elda.</p>
