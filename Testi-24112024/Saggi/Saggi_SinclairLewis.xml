@@ -90,85 +90,6 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?person_annotation_20241126152354430",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-11-26T14:23:54.430Z",
-	"dcterms:modified": "2024-11-26T14:23:54.430Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/irenecocuzza",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Irene Cocuzza"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?person_annotation_20241126152354430#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?person_annotation_20241126152354430#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q45765",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -177,7 +98,7 @@
 			<p>Questi americani hanno inventato un nuovo modo di bere. Parlo, s’intende, di un modo letterario. Un personaggio, a un certo punto di un romanzo pianta lì tutto: belle maniere, lavoro – famiglia, quando l’abbia – e solo, o in compagnia di un amico del cuore, scompare qualche tempo per la solita spedizione: he has gone on the grand sneak, si è buttato alla gran fuga. Talvolta l’assenza dura giornate. La condotta del ribelle nel frattempo è molto semplice: da un baccano di canzoni e di bei motti, a un muso angosciato e meditante. Alla fine il personaggio torna al posto nella vita. È un po’ abbacchiato e smorto, ma ha una nuova coscienza di se stesso: la macchina della civiltà non lo possiede intieramente, la vita è ancora degna.</p>
 			<p>Questo succede nei romanzi. Non m’interessa ora la vita. Certo è una novità. Dopo i bei conviti classici, dopo le sataneggianti ebbrezze dei moderni, questa nostra civiltà industriale doveva creare il terzo modo.</p>
 			<p>Il <placeName ref="#NorthAmerica" type="real">Nordamerica</placeName> è sempre stato un paese di bevitori eccezionali. Ma non importa citare qui il solito <persName key="Edgar Allan Poe" ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName>, il quale, del resto, beveva come un europeo. E nemmeno <persName ref="#O.Henry" type="real">O. Henry</persName> fa al caso nostro: il pittoresco <persName ref="#O.Henry" type="real">O. Henry</persName>, coi suoi allegri truffatori e bei tipi, vagabondi per tutti gli <placeName ref="https://www.geonames.org/6252001/united-states.html" type="real">Stati dell’Unione</placeName> e fuori, ubriachi dionisiaci e burloni – gente tutta che nemmeno quando è in prigione – e ciò capita spesso – non vede nel vino una fuga poiché già il suo spirito è troppo leggero e libero per averne bisogno. Gente che beve, insomma, come usa respirare. Le origini del nuovo significato del paradiso</p>
-			<p>dell’alcool nell’odierna letteratura nordamericana vanno ricercate piuttosto in certe opere dei primi anni del secolo, a tendenza socialistica e rivoluzionaria, in certi romanzi, per esempio, di <persName key="Jack London" ref="http://www.wikidata.org/entity/Q45765" type="real">Jack London</persName>. Quelle atroci ubriacature che Martin Eden si piglia col collega della stireria di Oakland hanno bene lo scopo preciso e confessato di assopire i muscoli e incantare lo spirito, istupidito dal lavoro bestiale. È già una protesta contro un ordine sociale che soffoca e nega la vita. Nato come polemica, coll’esagerazione e la rigidezza artistica di tutte le creazioni polemiche, questo mito si perpetuerà nella letteratura posteriore, piú libera da preoccupazioni ideologiche e più ricca di poeti. Due per tutti: Sherwood Anderson e il nostro Lewis.</p>
+			<p>dell’alcool nell’odierna letteratura nordamericana vanno ricercate piuttosto in certe opere dei primi anni del secolo, a tendenza socialistica e rivoluzionaria, in certi romanzi, per esempio, di Jack London. Quelle atroci ubriacature che Martin Eden si piglia col collega della stireria di Oakland hanno bene lo scopo preciso e confessato di assopire i muscoli e incantare lo spirito, istupidito dal lavoro bestiale. È già una protesta contro un ordine sociale che soffoca e nega la vita. Nato come polemica, coll’esagerazione e la rigidezza artistica di tutte le creazioni polemiche, questo mito si perpetuerà nella letteratura posteriore, piú libera da preoccupazioni ideologiche e più ricca di poeti. Due per tutti: Sherwood Anderson e il nostro Lewis.</p>
 			<p>Non son tipi d’eccezione questi bevitori: impiegati, operai, giornalisti, gente comune, gente di tutti i giorni. Non han genio furibondo da saziare, non sono maledetti. Sono poveri uomini, schiavi del job – l’impiego – che qualche volta ricorrono a quest’ultima parvenza di ribellione individuale. E</p>
 			<p>non lo fanno per fare un’enormità: collo stesso desiderio, i più raffinati fra loro vanno ad ascoltare un concerto. Da noi non si è mai scritto nulla di simile a questo. Se in qualche romanzo sociale del secolo scorso qualche europeo beve fuor dell’ordinario, siamo alla solita polemica: l’ubriacone è un operaio, un bruto, la bestia umana. Ora la novità e il valore del mito americano è proprio che invece il bevitore non ha nulla d’insolito: uomo medio tra gli uomini, la vita l’opprime e lui protesta a suo modo. Ed è più tragica questa ribellione rassegnata di non so quanto satanismo o imbestiamento esemplare.</p>
 			<p/>
