@@ -254,7 +254,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, circa metà <date when="1931-08">agosto 1931</date>]</p>
 			<p>Caro <persName ref="#GiaccheroRemo">Remo</persName>,</p>
 			<p>non offenderti se tra tutte le proteste di simpatia che hai ricevuto in questi giorni, la mia ti sembrerà irriverente. Se non altro ti ricorderà le sere che passeggiavamo insieme. Va a pagina... di <title level="m" ref="#GiovanottiNonEsageriamo">Giovanotti non esageriamo</title>, al periodo "<quote cert="high" defective="unknown" generatedBy="human" source="#GiovanottiNonEsageriamo" xml:space="default">Il vecchietto ebbe un sorriso radioso</quote>" e troverai là quanto di più profondo e più vero potrei dirti io stesso. E c'è poi ancora una cosa che <persName ref="#AchilleCampanile" type="real">Campanile</persName> non dice ma che io stesso ho provato e posso quindi scriverti con sincerità, una persona non la si conosce davvero, non la si <hi cert="high" generatedBy="human" rend="italic" xml:space="default">comprende</hi> dentro di noi, se non quando è morta. Allora, forse perché diventa noi stessi, noi la viviamo questa persona, e l'amiamo di più. Ricordati, anch'io l'ho provato.</p>
-			<p>A tuo fratello, a tua mamma, a tutti i tuoi cui m'immagino quanto ti ho scritto non dica nulla, rinnovo le mie condoglianze e le mie simpatie. Ringraziali.</p>
+			<p>A <persName ref="http://fr.dbpedia.org/resource/Enzo_Giacchero" type="real">tuo fratello</persName>, a tua mamma, a tutti i tuoi cui m'immagino quanto ti ho scritto non dica nulla, rinnovo le mie condoglianze e le mie simpatie. Ringraziali.</p>
 			<p>Tutti noi ti salutiamo.</p>
 		</body>
 	</text>
