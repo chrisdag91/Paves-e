@@ -326,13 +326,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300122_ChiuminattoAntonio.xml?person_annotation_20241126154348346",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-26T14:43:48.346Z",
+	"dcterms:modified": "2024-11-26T14:43:48.346Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300122_ChiuminattoAntonio.xml?person_annotation_20241126154348346#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300122_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300122_ChiuminattoAntonio.xml?person_annotation_20241126154348346#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/120757469/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Antonio Chiuminatto</persName>, <placeName ref="#GreenBay" type="real">Green Bay</placeName>, <placeName key="Wisconsin Wisconsin United States" ref="https://geonames.org/5279468" type="real">Wisconsin</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1930-01-22">22 gennaio '30</date></p>
 			<p/>
-			<p>Dear Mr Chiuminatto,</p>
+			<p>Dear Mr <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Chiuminatto</persName>,</p>
 			<p>Your gift of such a book as Sorrel and Son, caused me and Max to think of an answer. Here it is, in this same package. When I perceived the wonderful plot of Sorrel and Son, I bethought of an Italian book, - moreover, a Piedmontese one - written by a friend of ours, which is dealing with almost the same situation of a father trying to rear his son.</p>
 			<p>As you'll see, this book was issued only last year and really it is one of the worthiest contemporary books in Italy. I cannot speak of so wide a diffusion of it here, as of Sorrel and Son in America, for its very nature defends such a diffusion. Against Deeping's which is a book of universal appeal for its - in a good sense - triviality of experience, its elemental simplicity, being the expression of a life among common wants and deeds, a life which is what it is, by itself, without a weight of tradition or culture, save what is common to all middle men; against such a book, we have here in these Sanss-Sôssi, a world of extreme complication, breeded in a literary mood, old of ages by historical experiences and, more, bounded to a certain liking towards a definite region of the Country - Turin and the Monferrato, the dialect-title - which thing can but keep aloof most Italian readers.</p>
 			<p>But the miracle of the book is that with such a dangerous foreground it has succeeded in shaping a human world where such foreground becomes poetry. But you'll see by yourself, for you also are a Piedmontese almost, and a scholar, a learned one, and you can well understand such a poetry as the Sanss-Sôssi's.</p>
