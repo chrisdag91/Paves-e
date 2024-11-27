@@ -326,13 +326,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?person_annotation_20241127104755913",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-27T09:47:55.913Z",
+	"dcterms:modified": "2024-11-27T09:47:55.913Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?person_annotation_20241127104755913#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?person_annotation_20241127104755913#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/120757469/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Antonio Chiuminatto</persName>, <placeName ref="#GreenBay" type="real">Green Bay</placeName>, <placeName key="Wisconsin Wisconsin United States" ref="https://geonames.org/5279468" type="real">Wisconsin</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1930-03-01">1 marzo 1930</date></p>
 			<p/>
-			<p>Dear Mr Chiuminatto,</p>
+			<p>Dear Mr <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Chiuminatto</persName>,</p>
 			<p>I was just reading the Spoon River Anthology which I want you no more to trouble about as I found it here on loan from the Y.M.C.A. library, when I received the wonderful bunch about Babbitt you mailed me on February 11th. Ye Gods and Goddesses, it's too much and they say French people got the standard in kindness all over the world. There is a fellow somewhere about the river Fox who will someday send me his shirt last I should want one. Say, Mr Chiuminatto, it's too awfully nice of you to behave so. You'll lose your chances to hustle in the world and conquer the place you deserve, if you go on so wasting all your time in typing me slang-comments. I feel lost in your graciousness. You cause me to dislike all acquaintances of mine, as I find out none of them has the one per cent of your kindness. I peruse and devour the whole of your sheets with the greatest eagerness, trying to make the best out of them and also to feel worth of the stuff where I don't always succeed, but, honestly, Mr Chiuminatto, don't take it too much as a duty wasting so much of your time. When I begged of you the boon of some explanation I did not mean to overcharge you so. Methinks now day and night you sit typing comments for me.</p>
 			<p>Not only you receive my brazen-faced lists as "flowers in May", but now you start also an office of your own to pick out the raw material. You know, I understand you believe in "productiveness", but beware of the nervous depletion which will certainly overcome you. That day, I'll mail down the prescription of the hypos I'm myself already - giovinezza, primavera di bellezza - practising.</p>
 			<p>I guess, it's useless now I proceed to praise you for the carefulness and clearness of your new list. I should only repeat what I've already written a month ago on replying your first letter. With such a teacher, I cannot fail a "glorioso parto". Besides, the best compliment I can pay you is to profit from your lessons. You bet I mean to be a go-getter, but to succeed!</p>
