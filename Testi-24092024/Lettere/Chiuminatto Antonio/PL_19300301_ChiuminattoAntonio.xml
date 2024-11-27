@@ -2142,6 +2142,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?person_annotation_20241127140925941",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-27T13:09:25.941Z",
+	"dcterms:modified": "2024-11-27T13:09:25.941Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?person_annotation_20241127140925941#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?person_annotation_20241127140925941#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[18]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/James_Branch_Cabell",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2162,7 +2241,7 @@
 			<p>Say, now, Mr <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Chiuminatto</persName>, have you not yet received <persName ref="#AlbertoArnulfi">Arnulfi</persName> and <persName ref="#ErichMariaRemarque">Remarque</persName> that you don't speak about in your letter? Nevertheless you have already <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/">Monti</persName> which I mailed just ten days later. How come? Would they be lost? Say me about, for as I wrote you the guilt would be mine, and I would then repair.</p>
 			<p>I've read your innuendoes on Miss Franchi but till now I did not receive any request of the comments and accordingly hope I will never on account of the Italian word which explains the phrase "that's what gets me". As for the future you will act as you'll like and all will be for the better. I think after all Miss Franchi was a good friend of yours here in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="real">Italy</placeName>.</p>
 			<p>And now to the great novelty of your letter, the corking proposition you make me. I think, here also, it's useless to indulge in eulogistic prose about your well-known kindness. You really are keeping an eye skinned on all that can avail me and I've only to thank you for such earnestness of purpose. You bet I care to accept! I'll do more: I'll here at once unite a list of authors and books among which you can find out six the libraries possess. You understand, I put down many titles in order you can find out at least six. I'll agree with whatever condition you'll put on me: I know too well your skill and understanding, for me to advise you. As for the card you intend to ask of the Director, I also think it's difficult to obtain. You try, however. Meanwhile we'll open another current account.</p>
-			<p>I maintain here the ordination of the three books I wrote about lately, and this as I want them readily - you remember: Cabell, Frank and Dos Passos - but stop the purchase of those of poetry Lee Masters, Lindsay and Sandburg.</p>
+			<p>I maintain here the ordination of the three books I wrote about lately, and this as I want them readily - you remember: <persName key="James Branch Cabell" ref="http://dbpedia.org/resource/James_Branch_Cabell">Cabell</persName>, Frank and Dos Passos - but stop the purchase of those of poetry Lee Masters, Lindsay and Sandburg.</p>
 			<p>As for Lee Masters, you know, I found it here - and Lindsay and Sandburg I enter in the list you'll look for in the public circulation libraries.</p>
 			<p>Other books, you can keep in mind to make up the six allowed to loan, are:</p>
 			<p/>
