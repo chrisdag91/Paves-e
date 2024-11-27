@@ -1818,6 +1818,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241127141610500",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-27T13:16:10.500Z",
+	"dcterms:modified": "2024-11-27T13:16:10.500Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241127141610500#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241127141610500#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[43]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1863,7 +1942,7 @@
 			<p>Finito il preludio e levato il sipario sulla scena, essi affrontano le ansietà e le glorie di un mondo mutevole. Non senza liti ed ore tristi, non liberi da ignoranza e dallo sconforto di trovare che in mezzo alle vette bisogna, per lunghi periodi grigi, abitare in valli oscure, essi cominciano il loro dramma col privilegio di saper ridere insieme, colla fortuna di aver scoperto che né <placeName ref="#Schoenstorm" type="real">Schoenstrom</placeName>, né Brooklyn Heights sono tutto nella vita, e col vantaggio, d’importanza cosmica in questo tedioso mondo, di credere all’avventura che fa la giovinezza inestinguibile.</p>
 			<p/>
 			<p>Sono idilli, in fondo, questi romanzi del primo <persName ref="#LewisSinclair" type="real">Lewis</persName>. Avventure tenui che dell’idillio hanno tutto il sapore popolaresco e la nota spigliata e beffarda. Un idillio è <title level="m" ref="https://viaf.org/viaf/3507153063218119320004/">The Trail of the Hawk</title>, colla sua storia del giovane che vive d’aria e di libertà, che fa tutti i mestieri, che è nato a <placeName ref="#Joralemon" type="real">Joralemon</placeName> <placeName ref="https://www.geonames.org/5037779/minnesota.html" type="real">Minnesota</placeName>, che muove alla conquista del mondo e che conclude incontrando la solita ragazza dell’alta borghesia, la compagna, come lui, insofferente d’impacci e ansiosa di libertà e di buone cause. Un idillio è <title level="m" ref="#TheInnocents">The Innocents</title>, bonaria e deliziosa storia di due nonni dall’animo giovane, che tentano imprese e passano sventure, sempre lieti, Papà a suonare, Mamma ad amarlo e a borbottare: due vecchietti che fuggono come monelli dalla tirannia della figlia che li vuol vecchi a tutti i costi, e alla fine si rifanno anch’essi una posizione.</p>
-			<p>Questo racconto e <title level="m" ref="http://dbpedia.org/resource/Our_Mr._Wrenn">Our Mr Wrenn</title>, altra storia bonaria di un modesto impiegato sognator d’avventure, che fa un viaggio in Europa e goffamente e melanconicamente vi si innamora, e poi torna al suo impiego e al suo mondo di piccola gente e vi trova la pace e la felicità – il tutto narrato con quel tono inimitabile, che sarà poi ancora in parte quello di Babbitt, di divertita indulgenza e rassegnata superiorità al personaggio – questi due romanzi, dico, Our Mr Wrenn e The Innocents sono i capolavori dell’idillio lewisiano. Particolarmente Our Mr Wrenn. Fino a Babbitt, questa fu l’opera più bella di Lewis. E passò quasi inosservata. Tanto che l’autore, giunto alla fama, dové per richiamarla ai lettori, ristamparla con altre dei primi anni.</p>
+			<p>Questo racconto e <title level="m" ref="http://dbpedia.org/resource/Our_Mr._Wrenn">Our Mr Wrenn</title>, altra storia bonaria di un modesto impiegato sognator d’avventure, che fa un viaggio in <placeName key="Europe  " ref="https://geonames.org/6255148" type="real">Europa</placeName> e goffamente e melanconicamente vi si innamora, e poi torna al suo impiego e al suo mondo di piccola gente e vi trova la pace e la felicità – il tutto narrato con quel tono inimitabile, che sarà poi ancora in parte quello di Babbitt, di divertita indulgenza e rassegnata superiorità al personaggio – questi due romanzi, dico, Our Mr Wrenn e The Innocents sono i capolavori dell’idillio lewisiano. Particolarmente Our Mr Wrenn. Fino a Babbitt, questa fu l’opera più bella di Lewis. E passò quasi inosservata. Tanto che l’autore, giunto alla fama, dové per richiamarla ai lettori, ristamparla con altre dei primi anni.</p>
 			<p>Si direbbe che in questo primo romanzo Sinclair Lewis abbia come condensata la poesia che doveva poi sviluppare a poco a poco nelle varie opere future. Nei due protagonisti del romanzo, il signor Wrenn già descritto, e Istra Nash, la studentessa d’arte, avida e stanca della vita, di cui Wrenn s’innamora – la donna capricciosa e adorabile, e, insieme, l’intellettuale che l’insuccesso artistico e il proprio senso critico han tragicamente tagliata fuori dalla vita – abbiamo i due tipi estremi del suo mondo. E ritroveremo Wrenn in Babbitt e in Sam Dodsworth; Istra, sdoppiata, in Leora (Arrowsmith), Alverna (Mantrap) e Sharon Falconer (Elmer Gantry), da una parte, e, dall’altra, in Paul Riesling (Babbitt), in Arrowsmith stesso, in Gottlieb (Arrowsmith) e Frank Shallard (E. Gantry).</p>
 			<p>Ecco una scenetta a dialogo dal romanzo:</p>
 			<p/>
