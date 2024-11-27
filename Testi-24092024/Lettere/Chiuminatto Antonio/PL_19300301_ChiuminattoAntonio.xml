@@ -878,6 +878,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?title_annotation_20241127112245038",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-27T10:22:45.038Z",
+	"dcterms:modified": "2024-11-27T10:22:45.038Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?title_annotation_20241127112245038#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?title_annotation_20241127112245038#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Babbitt_(novel)",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -888,7 +967,7 @@
 			<p>I was just reading the <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River Anthology</title> which I want you no more to trouble about as I found it here on loan from the <orgName ref="#YMCALibrary" type="real">Y.M.C.A. library</orgName>, when I received the wonderful bunch about <title key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)">Babbitt</title> you mailed me on <date when="1930-02-11">February 11th</date>. Ye Gods and Goddesses, it's too much and they say French people got the standard in kindness all over the world. There is a fellow somewhere about the <placeName key="Fox River (Wis. ; cours d'eau)" ref="http://viaf.org/viaf/75169254053292701245/" type="real">river Fox</placeName> who will someday send me his shirt last I should want one. Say, Mr <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Chiuminatto</persName>, it's too awfully nice of you to behave so. You'll lose your chances to hustle in the world and conquer the place you deserve, if you go on so wasting all your time in typing me slang-comments. I feel lost in your graciousness. You cause me to dislike all acquaintances of mine, as I find out none of them has the one per cent of your kindness. I peruse and devour the whole of your sheets with the greatest eagerness, trying to make the best out of them and also to feel worth of the stuff where I don't always succeed, but, honestly, Mr <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Chiuminatto</persName>, don't take it too much as a duty wasting so much of your time. When I begged of you the boon of some explanation I did not mean to overcharge you so. Methinks now day and night you sit typing comments for me.</p>
 			<p>Not only you receive my brazen-faced lists as "flowers in May", but now you start also an office of your own to pick out the raw material. You know, I understand you believe in "productiveness", but beware of the nervous depletion which will certainly overcome you. That day, I'll mail down the prescription of the hypos I'm myself already - <term cert="high" evaluate="all" generatedBy="human" xml:lang="it" xml:space="default">giovinezza, primavera di bellezza</term> - practising.</p>
 			<p>I guess, it's useless now I proceed to praise you for the carefulness and clearness of your new list. I should only repeat what I've already written a month ago on replying your first letter. With such a teacher, I cannot fail a "<term cert="high" evaluate="all" generatedBy="human" xml:lang="it" xml:space="default">glorioso parto</term>". Besides, the best compliment I can pay you is to profit from your lessons. You bet I mean to be a go-getter, but to succeed!</p>
-			<p>As for your own opinion about Babbitt, you already know I think the same and, moreover, now I've received all your useful explanations, I stick only the more into it. Those personae are really capital fellows and it is an endless carnival of fun to follow them throughout Lewis' slang-stunts of style. I must thank you also for this, that your two letters have renewed and increased my own delight in this wonderful book. Now, I'll cast aside my studies and buy at Casanova's Lewis' two other works Our Mr Wrenn and Arrowsmith. It's too like a merry-go-round the review their author wields on American "sassiety". I wont procrastinate and so you wait for another task to fulfil. I hope, however, to be now on a firmer ground, thanks to your all surpassing help.</p>
+			<p>As for your own opinion about <title key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)" level="m">Babbitt</title>, you already know I think the same and, moreover, now I've received all your useful explanations, I stick only the more into it. Those personae are really capital fellows and it is an endless carnival of fun to follow them throughout Lewis' slang-stunts of style. I must thank you also for this, that your two letters have renewed and increased my own delight in this wonderful book. Now, I'll cast aside my studies and buy at Casanova's Lewis' two other works Our Mr Wrenn and Arrowsmith. It's too like a merry-go-round the review their author wields on American "sassiety". I wont procrastinate and so you wait for another task to fulfil. I hope, however, to be now on a firmer ground, thanks to your all surpassing help.</p>
 			<p>As for the Sanssôssi have it and keep still. You have such things on your conscience, you could not have them wiped out even should we mail you the whole peninsular boot.</p>
 			<p>What you say of Sorrel and Son is quite true and I don't know what you're complaining about the "childish American spirit I seem to find in it". What I said about its simplicity and triviality was, as I warned you, in a good sense, that is, the description of what I thought were the nature of the world the book performed. I certainly blundered in my English as I meant that its characters were common people, stripped of all the classical learning which underlies the pages of the Sanssôssi. I simply marked a difference between the books without giving a judgement. Now, if you like, I can tell you that surely Deeping is a powerful writer and to prove it would suffice the XXVII-XXVIII chapters, the love-affair of Kit and Mary, "the face like a flower" a wonderful episode, and the pages on the death of Sorrel, surely the best of all. To say nothing, you know, of the plot taken as a whole, a true story, all made up of original and alive characters scattered, in your saxon way, without savings, to fill a real world. But about Deeping's being more American-like than Lewis I should disagree on account also of the author's choice of England as his background. So little he felt a true want of American things!</p>
 			<p>We are agreed that it's not a novel background which brings the spirit of its nation in the style, and it would suffice the sheer Frenchness of certain exotical novels by Pierre Loti to prove it, but here in the case of Sorrel and Son there is something else. Not only the places, but also the characters are English people, and not only the accessory ones, but the true protagonists with their English sense, as for Sorrel, of a living continuity in his own son, notwithstanding death: and as for the son, with the sense of duty and manly conduct of life, the true self-denying and matter-of-fact spirit which has made the greatness of the British empire.</p>
