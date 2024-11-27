@@ -93,7 +93,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Ad <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Antonio Chiuminatto</persName>, Green Bay, Wisconsin.</p>
+			<p>Ad <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Antonio Chiuminatto</persName>, <placeName ref="#GreenBay" type="real">Green Bay</placeName>, Wisconsin.</p>
 			<p>[Torino,] 1 marzo 1930</p>
 			<p/>
 			<p>Dear Mr Chiuminatto,</p>
