@@ -1897,6 +1897,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?date_annotation_20241128143428370",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-28T13:34:28.370Z",
+	"dcterms:modified": "2024-11-28T13:34:28.370Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?date_annotation_20241128143428370#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?date_annotation_20241128143428370#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[78]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1922"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1977,8 +2055,8 @@
 			<p>Naturalmente è un gran progresso, in quanto a larghezza di mondo e di risonanze, questo sviluppo accessivo a <title level="m" ref="#MainStreet">Main Street</title>. I personaggi si fanno più vasti e numerosi e sicuri. Le storie si fanno più avvincenti per il contrasto vivo, dove sempre regna ancora sottilissima quell’ironia lewisiana, adesso più accorata di tono. E resta, anzi s’aggiunge, un difetto solo: com’ho detto già prima, la mania d’intraprendere in ciascun romanzo il ritratto di un tipo sociale col suo ambiente e la trattazione dei problemi annessi. Ne nasce una leggera monotonia di tono, ben diversa da quella di <title level="m" ref="#MainStreet">Main Street</title> ma che non di meno dà noia. Per esempio, in <title level="m" ref="http://viaf.org/viaf/186711229/">Arrowsmith</title>, dove tutto è medicina, e in <title level="m" ref="http://dbpedia.org/resource/Elmer_Gantry">E. Gantry</title>, dove tutto è religione.</p>
 			<p/>
 			<p/>
-			<p>Ho già detto che <title level="m" ref="http://dbpedia.org/resource/Babbitt_(novel)">Babbitt</title> (1922) è il capolavoro poiché in esso il più ridicolo fantoccio è veduto collo sguardo più allegramente disperato possibile.</p>
-			<p>Ma è inesatto dir fantoccio. Babbitt commuove appunto perché mostra come, essendo un uomo medio, un uomo comune, un normale, si assomigli a un fantoccio. Quale lettore del romanzo, leggendo, non si è voltato ogni tanto intorno, chiedendosi quante volte egli stesso è stato Babbitt?</p>
+			<p>Ho già detto che <title level="m" ref="http://dbpedia.org/resource/Babbitt_(novel)">Babbitt</title> (<date when="1922">1922</date>) è il capolavoro poiché in esso il più ridicolo fantoccio è veduto collo sguardo più allegramente disperato possibile.</p>
+			<p>Ma è inesatto dir fantoccio. <title level="m" ref="http://dbpedia.org/resource/Babbitt_(novel)">Babbitt</title> commuove appunto perché mostra come, essendo un uomo medio, un uomo comune, un normale, si assomigli a un fantoccio. Quale lettore del romanzo, leggendo, non si è voltato ogni tanto intorno, chiedendosi quante volte egli stesso è stato <persName ref="#BabbittGeorgeF" type="fictional">Babbitt</persName>?</p>
 			<p>E, ripeto, la grandezza del libro sta in questo, che Babbitt recalcitra, che Babbitt – in ciò più che mai Babbitt – non vuol essere tale e che tutti i suoi sforzi falliscono lasciandolo atrocemente rassegnato, atrocemente bonario e disposto a ricominciare. A un certo punto, ogni motto, ogni frase festosa, ogni gesto, ogni scena ridicola – e sa il lettore se ce ne sono nel libro – diventa una spina che vediamo infiggersi in Babbitt, e lui non se ne accorge, ma la sua figura ne vien fuori straziata, stoicissima, com’è, senza eroismo: il più comune – e in ciò il più straordinario – martire che sia mai stato al</p>
 			<p>mondo.</p>
 			<p>Hanno detto che Babbitt è un’opera grande per il suo realismo, che in essa la vita è fotografata, che, a sentir parlare quei grossi professionisti e industriali del Middlewest, par di sentire un disco fonografico della volgarità nordamericana – ma non è vero o, almeno, non è tutto.</p>
