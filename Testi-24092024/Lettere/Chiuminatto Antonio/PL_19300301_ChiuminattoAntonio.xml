@@ -3958,6 +3958,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?person_annotation_20241202151322579",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-02T14:13:22.579Z",
+	"dcterms:modified": "2024-12-02T14:13:22.579Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?person_annotation_20241202151322579#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300301_ChiuminattoAntonio.xml?person_annotation_20241202151322579#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[40]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Carl_Van_Vechten",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4000,7 +4079,7 @@
 			<p/>
 			<p>And so, Mr <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Chiuminatto</persName>, you have your choice. Perhaps before <date when="1930-06">June</date> when the loan will begin I'll want hurriedly from your kindness some of these books and then I'll write you to look for and buy them.</p>
 			<p>Methinks the many books of poetry which are here noted will not be likely for a circulation library to possess: you can however reply me about, and we'll decide something further.</p>
-			<p>And now, I have taken advantages of you in all possible manners. I skulk away and on the bargain sting you in the rear: here's a list of some words from <title key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)">Babbitt</title> I yet am puzzled about and some others gleaned from Van Vechten, O. Henry and Anderson.</p>
+			<p>And now, I have taken advantages of you in all possible manners. I skulk away and on the bargain sting you in the rear: here's a list of some words from <title key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)">Babbitt</title> I yet am puzzled about and some others gleaned from <persName key="Carl Van Vechten" ref="http://dbpedia.org/resource/Carl_Van_Vechten">Van Vechten</persName>, O. Henry and Anderson.</p>
 			<p>Ah, Mr Chiuminatto, if it lasts so, you'll have translated the whole body of American literature! I guess you are muttering: Damned fool! I'm too late onto his intentions now. He has made a shipping-clerk of me and, what's the worst, he teases me with the very words I taught him. Blow him! Don't you, Mr Chiuminatto?</p>
 			<p>But, think it out: ain't you enticing people with your unearthly serviceableness?</p>
 			<p>Now [...] and always chums</p>
