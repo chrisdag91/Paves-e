@@ -2056,6 +2056,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202105757639",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-02T09:57:57.639Z",
+	"dcterms:modified": "2024-12-02T09:57:57.639Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202105757639#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202105757639#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[98]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/4862182",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2156,7 +2235,7 @@
 			<p>In quel mondo di viandanti svanì Martin. Bevendo ferocemente, semiconscio soltanto di dove andava, di ciò che desiderava fare... egli errò da Zenith a Sparta, attraverso l’Ohio, su per il Michigan, a occidente dell’Illinois. La sua mente era un groviglio... Non poté mai ricordare bene, dopo, dov’era stato. Una volta, è certo, fu garzone in una drogheria di Minnemaganta, un’altra volta doveva essere stato, per una settimana, lavapiatti nel cattivo odore di una trattoria economica. Girava sui treni-merci, a sbafo, oppure a piedi. Ai suoi soci operai era noto come «Spilungone», il più intrattabile e irrequieto della banda.</p>
 			<p/>
 			<p/>
-			<p>Poi ritorna ed è medico. Fa il dottore di campagna nel <placeName ref="#NorthDakota" type="real">North Dakota</placeName>, diventa aiutante del direttore di un ufficio d’igiene a <placeName ref="#Nautilus" type="real">Nautilus</placeName> nell’Iowa, patologo in una clinica di Chicago e finalmente scienziato in un istituto di Nuova York. Va a provare un suo rimedio contro la peste nelle Antille, torna famoso, entra nell’alta società, se ne disgusta, pianta tutto e si ritira in mezzo ai boschi a far ricerche di laboratorio.</p>
+			<p>Poi ritorna ed è medico. Fa il dottore di campagna nel <placeName ref="#NorthDakota" type="real">North Dakota</placeName>, diventa aiutante del direttore di un ufficio d’igiene a <placeName ref="#Nautilus" type="real">Nautilus</placeName> nell’<placeName key="Iowa Iowa United States" ref="https://geonames.org/4862182" type="real">Iowa</placeName>, patologo in una clinica di Chicago e finalmente scienziato in un istituto di Nuova York. Va a provare un suo rimedio contro la peste nelle Antille, torna famoso, entra nell’alta società, se ne disgusta, pianta tutto e si ritira in mezzo ai boschi a far ricerche di laboratorio.</p>
 			<p>E il romanzo finisce così:</p>
 			<p/>
 			<p>– ... Questa faccenda del chinino può riuscire. Sgobberemo per due o tre anni e forse ne caveremo qualcosa di durevole, e probabilmente faremo fiasco.</p>
