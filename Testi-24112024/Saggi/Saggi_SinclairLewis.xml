@@ -3318,6 +3318,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202144133300",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-02T13:41:33.300Z",
+	"dcterms:modified": "2024-12-02T13:41:33.300Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202144133300#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202144133300#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[124]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3444,7 +3523,7 @@
 			<p/>
 			<p>– ... o forse un artista? Egli aveva creato qualcosa! Egli non aveva quadri nelle accademie o libri da rilegare in marocchino, composizioni o mobili delicati, col suo nome, ma di quei venti milioni d’automobili, sulle strade dell’America, ciascuna aveva sentito l’influsso, un quarto di secolo prima, della sua visione della carrozzeria lunga!</p>
 			<p/>
-			<p>Questo è il vero travaglio e la vera catarsi di <persName ref="#DodsworthSam" type="fictional">Dodsworth</persName>, premuto, da una parte, dai grossi amici americani e, dall’altra, dalla moglie, vana e vuota europeizzante. Ed è una fine trovata che le sue scoperte spirituali <persName ref="#DodsworthSam" type="fictional">Sam</persName> le faccia nella solitudine e nel tormento in cui lo lascia la <persName ref="#DodsworthFrances" type="fictional">moglie</persName>. Fino alla trionfale scoperta e liberazione degli ultimi capitoli: un’americana, Edith Cortright, che sa vivere a Venezia come una patrizia antica e a Napoli come una napoletana, anzi una contadina, che, come Dodsworth, ha compreso l’Europa e la vive cercandone la terra e la semplicità, le cose reali ed essenziali, ancora crede in lui e lo ama.</p>
+			<p>Questo è il vero travaglio e la vera catarsi di <persName ref="#DodsworthSam" type="fictional">Dodsworth</persName>, premuto, da una parte, dai grossi amici americani e, dall’altra, dalla moglie, vana e vuota europeizzante. Ed è una fine trovata che le sue scoperte spirituali <persName ref="#DodsworthSam" type="fictional">Sam</persName> le faccia nella solitudine e nel tormento in cui lo lascia la <persName ref="#DodsworthFrances" type="fictional">moglie</persName>. Fino alla trionfale scoperta e liberazione degli ultimi capitoli: un’americana, Edith Cortright, che sa vivere a Venezia come una patrizia antica e a Napoli come una napoletana, anzi una contadina, che, come <persName ref="#DodsworthSam" type="fictional">Dodsworth</persName>, ha compreso l’<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> e la vive cercandone la terra e la semplicità, le cose reali ed essenziali, ancora crede in lui e lo ama.</p>
 			<p>Ed un’altra novità riserba questo libro: esso è di nuovo a lieto fine. Poiché la frase finale d’ironia, che tanto piace all’Henry, a me pare non soltanto inutile, ma stonata. E la conclusione è la gioia di Sam. Un idillio pensoso. Dove si vede Sinclair Lewis, attraverso romanzi di sfiducia e di melanconiche risate, tornare ricco di esperienze e libero da ingenuità alle figure giovanili, fiduciose nell’America. Che questo mutamento preluda a un nuovo ciclo creativo?</p>
 			<p/>
 			<p/>
