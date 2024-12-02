@@ -2293,6 +2293,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202112605137",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-02T10:26:05.137Z",
+	"dcterms:modified": "2024-12-02T10:26:05.137Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202112605137#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202112605137#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[107]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2402,7 +2481,7 @@
 			<p>insopportabile, che ora è grottesco e volgare (<persName ref="#PickerbaughAlmus" type="fictional">Pickerbaugh</persName> – il direttore di <placeName ref="#Nautilus" type="real">Nautilus</placeName>), ora è vacuo e superbo (<persName ref="#HolabirdRippleton" type="fictional">Holabird</persName> di <placeName ref="#NewYork" type="real">Nuova York</placeName>), ora è ciarlatanesco e interessato (<persName ref="#DuerAngus" type="fictional">Angus Duer</persName> di <placeName ref="https://geonames.org/4887398" type="real">Chicago</placeName>). Dei tipi che portano un po’ di fede nella vita di <persName ref="#ArrowsmithMartin" type="fictional">Martin</persName>, <persName ref="#GottliebMax" type="fictional">Max Gottlieb</persName>, lo scienziato feroce che lo avvezza al lavoro severo, finisce pazzo e abbandonato; <persName ref="#SondeliusGustav" type="fictional">Gustaf Sondelius</persName>, il conferenziere rumoroso e simpatico, buon bevitore e miglior camerata di scienza e di vita, muore di peste a <placeName ref="#StHupert" type="real">St Hupert</placeName>; e <persName ref="#TozerLeora" type="fictional">Leora</persName>, la compagna ideale, un’<persName ref="#EasterAlverna" type="fictional">Alverna</persName> più seria e innamorata, consolatrice fedele fino al sacrificio del marito sconfitto e, per il resto, robusta e allegra figlia del <placeName ref="#Midland" type="real">Midland</placeName>, fa la fine di <persName ref="#SondeliusGustaf" type="fictional">Sondelius</persName>.</p>
 			<p>È una mirabile figura <persName ref="#TozerLeora" type="fictional">Leora</persName>, il fiore più bello, sbocciato sulla cupa atmosfera di <title level="m" ref="http://viaf.org/viaf/186711229/">Arrowsmith</title>, di tutta quella primavera di giovani e di donne avidi dei primi romanzi, la poesia perfetta di quel mondo di libertà quasi pagana che, accanto ai tristi <persName ref="#BabbittGeorgeF" type="fictional">Babbitt</persName>, accanto ai travagli spirituali e alle polemiche, <persName ref="#LewisSinclair" type="real">Sinclair Lewis</persName> ha scoperto nella sua terra.</p>
 			<p>Questa paganità ritorna e si conclude in <title level="m" ref="http://dbpedia.org/resource/Elmer_Gantry">Elmer Gantry</title>. La teoria del libro sarebbe che molti pastori del tempo presente son ciarlatani e gli altri, o sono idioti, o sono infelici, stimolati dalla coscienza a sconfessare ciò in cui non possono più credere. Ha il suo valore questa teoria, ma la vita del <rs ref="http://dbpedia.org/resource/Elmer_Gantry">libro</rs> è tutta un’altra. La figura di <persName ref="#GantryElmer" type="fictional">Elmer Gantry</persName>, seduttore, peccatore vario, delatore, mentitore, ignorante e ciarlatano, è oltremodo simpatica.</p>
-			<p>Il <rs ref="http://dbpedia.org/resource/Elmer_Gantry">libro</rs> comincia con una sbornia e finisce con una vittoria. Per tutto il tempo <persName ref="#GantryElmer" type="fictional">Gantry</persName> è andato errando per l’Unione, da studente di teologia a commesso viaggiatore, da commesso viaggiatore a predicatore wesleyano in Europa, sempre volgare, sempre slangy and backslapping, sempre terrestre e mascalzone. <persName ref="#GantryElmer" type="fictional">Gantry</persName> copia le prediche dai discorsi d’Ingersoll (6) e fa cacciare dalla scuola e morire di fame un insegnante che dubita dei dogmi; <persName ref="#GantryElmer" type="fictional">Gantry</persName> incontra l’amante in sacrestia e promuove a Zenith le crociate contro il vizio; <persName ref="#GantryElmer" type="fictional">Gantry</persName> mente, <persName ref="#GantryElmer" type="fictional">Gantry</persName> traffica, <persName ref="#GantryElmer" type="fictional">Gantry</persName> tradisce, eppure <persName ref="#GantryElmer" type="fictional">Gantry</persName> ha cura d’anime ed è un paragone di virtù negli Stati. Non so se <persName ref="#LewisSinclair" type="real">Sinclair Lewis</persName> intendesse fare di <persName ref="#GantryElmer" type="fictional">Elmer</persName> un tipo ripugnante. Certo la serietà della polemica lo fa supporre. E si sarebbe ricaduti in <title level="m" ref="#MainStreet">Main Street</title>. Ma la natura middlewestern dell’<persName ref="#LewisSinclair" type="real">autore</persName> l’ha salvato. S’accanisca pure <persName ref="#LewisSinclair" type="real">Lewis</persName> a accumulare sul capo di <persName ref="#GantryElmer" type="fictional">Elmer Gantry</persName> tutti i vizi e tutte le ipocrisie del mestiere. Esse han per effetto solo una nuova potenza. Troppo robusto e carnale e pagano è il personaggio. Troppo inconsciamente sincero e d’accordo con se stesso. Troppo equilibrato e padrone, nato capo di folle,</p>
+			<p>Il <rs ref="http://dbpedia.org/resource/Elmer_Gantry">libro</rs> comincia con una sbornia e finisce con una vittoria. Per tutto il tempo <persName ref="#GantryElmer" type="fictional">Gantry</persName> è andato errando per l’Unione, da studente di teologia a commesso viaggiatore, da commesso viaggiatore a predicatore wesleyano in <placeName key="Europe  " ref="https://geonames.org/6255148" type="real">Europa</placeName>, sempre volgare, sempre slangy and backslapping, sempre terrestre e mascalzone. <persName ref="#GantryElmer" type="fictional">Gantry</persName> copia le prediche dai discorsi d’Ingersoll (6) e fa cacciare dalla scuola e morire di fame un insegnante che dubita dei dogmi; <persName ref="#GantryElmer" type="fictional">Gantry</persName> incontra l’amante in sacrestia e promuove a Zenith le crociate contro il vizio; <persName ref="#GantryElmer" type="fictional">Gantry</persName> mente, <persName ref="#GantryElmer" type="fictional">Gantry</persName> traffica, <persName ref="#GantryElmer" type="fictional">Gantry</persName> tradisce, eppure <persName ref="#GantryElmer" type="fictional">Gantry</persName> ha cura d’anime ed è un paragone di virtù negli Stati. Non so se <persName ref="#LewisSinclair" type="real">Sinclair Lewis</persName> intendesse fare di <persName ref="#GantryElmer" type="fictional">Elmer</persName> un tipo ripugnante. Certo la serietà della polemica lo fa supporre. E si sarebbe ricaduti in <title level="m" ref="#MainStreet">Main Street</title>. Ma la natura middlewestern dell’<persName ref="#LewisSinclair" type="real">autore</persName> l’ha salvato. S’accanisca pure <persName ref="#LewisSinclair" type="real">Lewis</persName> a accumulare sul capo di <persName ref="#GantryElmer" type="fictional">Elmer Gantry</persName> tutti i vizi e tutte le ipocrisie del mestiere. Esse han per effetto solo una nuova potenza. Troppo robusto e carnale e pagano è il personaggio. Troppo inconsciamente sincero e d’accordo con se stesso. Troppo equilibrato e padrone, nato capo di folle,</p>
 			<p>oratore e creatore d’imprese.</p>
 			<p>Egli è ignorante, ma sa, con la parola, trascinare un uditorio. Egli è volgare e brutale ma sa conquistarsi tutte le donne che gli piacciono. È peccatore, ma ridà potenza alla sua Chiesa. Dinanzi a Frank Shallard, il compagno scrupoloso e indeciso che va a finir male tra i vinti, egli trascina gli uditori, costruisce una chiesa, sventa un ricatto e finisce trionfalmente ringraziando il suo Dio.</p>
 			<p>E ha la mente grandiosa Elmer Gantry. Quel disegno che gli balena sul ponte della nave che lo porta in Europa, non è grottesco, è esaltante.</p>
