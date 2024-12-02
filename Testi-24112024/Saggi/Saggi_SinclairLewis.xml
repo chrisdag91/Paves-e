@@ -2007,10 +2007,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?person_annotation_20241128145711133",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?person_annotation_20241128145850641",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-11-28T13:57:11.133Z",
-	"dcterms:modified": "2024-11-28T13:58:50.641Z",
+	"dcterms:created": "2024-11-28T13:58:50.641Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/irenecocuzza",
 		"@type": [
@@ -2021,7 +2020,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?person_annotation_20241128145711133#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?person_annotation_20241128145850641#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml",
@@ -2035,7 +2034,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?person_annotation_20241128145711133#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?person_annotation_20241128145850641#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[85]/persName[5]"
 		}
@@ -2157,7 +2156,7 @@
 			<p>In quel mondo di viandanti svanì Martin. Bevendo ferocemente, semiconscio soltanto di dove andava, di ciò che desiderava fare... egli errò da Zenith a Sparta, attraverso l’Ohio, su per il Michigan, a occidente dell’Illinois. La sua mente era un groviglio... Non poté mai ricordare bene, dopo, dov’era stato. Una volta, è certo, fu garzone in una drogheria di Minnemaganta, un’altra volta doveva essere stato, per una settimana, lavapiatti nel cattivo odore di una trattoria economica. Girava sui treni-merci, a sbafo, oppure a piedi. Ai suoi soci operai era noto come «Spilungone», il più intrattabile e irrequieto della banda.</p>
 			<p/>
 			<p/>
-			<p>Poi ritorna ed è medico. Fa il dottore di campagna nel North Dakota, diventa aiutante del direttore di un ufficio d’igiene a Nautilus nell’Iowa, patologo in una clinica di Chicago e finalmente scienziato in un istituto di Nuova York. Va a provare un suo rimedio contro la peste nelle Antille, torna famoso, entra nell’alta società, se ne disgusta, pianta tutto e si ritira in mezzo ai boschi a far ricerche di laboratorio.</p>
+			<p>Poi ritorna ed è medico. Fa il dottore di campagna nel <placeName ref="#NorthDakota" type="real">North Dakota</placeName>, diventa aiutante del direttore di un ufficio d’igiene a Nautilus nell’Iowa, patologo in una clinica di Chicago e finalmente scienziato in un istituto di Nuova York. Va a provare un suo rimedio contro la peste nelle Antille, torna famoso, entra nell’alta società, se ne disgusta, pianta tutto e si ritira in mezzo ai boschi a far ricerche di laboratorio.</p>
 			<p>E il romanzo finisce così:</p>
 			<p/>
 			<p>– ... Questa faccenda del chinino può riuscire. Sgobberemo per due o tre anni e forse ne caveremo qualcosa di durevole, e probabilmente faremo fiasco.</p>
