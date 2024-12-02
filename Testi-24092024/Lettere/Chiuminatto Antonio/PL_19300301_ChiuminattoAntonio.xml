@@ -3758,7 +3758,7 @@
 			<p>whatever work by <persName ref="#BenHecht">Ben Hecht</persName> and by <persName key="McAlmon, Robert, 1896-1956" ref="http://viaf.org/viaf/27073703/">Pr. McAlmon</persName></p>
 			<p><title key="Stein, Gertrude 1874-1946 | The making of Americans" ref="http://viaf.org/viaf/7733147270480435700003/">The Making of Americans</title> and <title key="Stein, Gertrude, 1874-1946. | Tender buttons" ref="http://viaf.org/viaf/6375147270612835700004/" level="m">Tender Buttons</title> by + <persName ref="#GertrudeStein">Gertr. Stein</persName></p>
 			<p><title ref="#TheAppleoftheEye">The apple of the eye</title> and <title level="m" ref="#TheGrandmothers">The grandmothers</title> by <persName key="Wescott, Glenway, 1901-1987." ref="http://viaf.org/viaf/12405830/">Glenway Wescott</persName></p>
-			<p><title ref="#GatsbyTheMagnificent">Gatsby the magnificent</title> by Scott Fitzgerald</p>
+			<p><title ref="#GatsbyTheMagnificent">Gatsby the magnificent</title> by <persName ref="#FrancisScottFitzgerald">Scott Fitzgerald</persName></p>
 			<p>+ The case of Mr Crump by Ludwig Lewisohn</p>
 			<p>(the + denotes that this book has the preference)</p>
 			<p/>
