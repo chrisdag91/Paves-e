@@ -3555,6 +3555,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202145843230",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-02T13:58:43.230Z",
+	"dcterms:modified": "2024-12-02T13:58:43.230Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202145843230#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24112024/Saggi/Saggi_SinclairLewis.xml?place_annotation_20241202145843230#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[128]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3685,7 +3764,7 @@
 			<p>Ed un’altra novità riserba questo libro: esso è di nuovo a lieto fine. Poiché la frase finale d’ironia, che tanto piace all’<persName ref="#RaymondHenry" type="real">Henry</persName>, a me pare non soltanto inutile, ma stonata. E la conclusione è la gioia di <persName ref="#DodsworthSam" type="fictional">Sam</persName>. Un idillio pensoso. Dove si vede <persName ref="#LewisSinclair" type="real">Sinclair Lewis</persName>, attraverso romanzi di sfiducia e di melanconiche risate, tornare ricco di esperienze e libero da ingenuità alle figure giovanili, fiduciose nell’<placeName ref="https://geonames.org/6252001" type="real">America</placeName>. Che questo mutamento preluda a un nuovo ciclo creativo?</p>
 			<p/>
 			<p/>
-			<p>A tirare le somme, una cosa soprattutto risalta da questi romanzi di <persName ref="#LewisSinclair" type="real">Lewis</persName>. I personaggi, e con essi l’autore, sono grandi provinciali. In ogni senso, grandi. Cominciano ingenui. Quelli delle praterie vanno a fare i provinciali a <placeName ref="#NewYork" type="real">Nuova York</placeName> e quelli di Nuova York vengono a farlo in Europa.</p>
+			<p>A tirare le somme, una cosa soprattutto risalta da questi romanzi di <persName ref="#LewisSinclair" type="real">Lewis</persName>. I personaggi, e con essi l’autore, sono grandi provinciali. In ogni senso, grandi. Cominciano ingenui. Quelli delle praterie vanno a fare i provinciali a <placeName ref="#NewYork" type="real">Nuova York</placeName> e quelli di <placeName ref="#NewYork" type="real">Nuova York</placeName> vengono a farlo in <placeName key="Europe  " ref="https://geonames.org/6255148" type="real">Europa</placeName>.</p>
 			<p>E finiscono seri, ma – ciarlatani o grandi scienziati o industriali come sono – una sala affollata d’abiti da sera li terrà sempre in soggezione.</p>
 			<p>Pure, di tali nature – con cui il Middle West, il paese americano, si perpetua nell’arte – occorrevano alla letteratura nazionale. Troppo lontano mi porterebbe ora dire, come e con quali autori, in essa questa figura sia nata. Ma, certo, senza i suoi provinciali una letteratura non ha nerbo. E provinciali e contadini sono, non solo Milt Daggett spensierato, Elmer Gantry sanguigno e Martin Arrowsmith pensoso, ma i tipi più impensati, come Sharon, che, prima di fare la trascinatrice di folle e la Cleopatra, ha fatto la stenografa ad Utica (U.S.A.), ed ha tanta forza umana in sé che, dell’ancor dubitante Elmer Gantry di Paris, Kansas, è capace di fare un amante per un istante appassionato e sincero e – senz’ironia – un grandioso ciarlatano per sempre. Persino il triste e ben pensante Babbitt partecipa di questa natura della sana provincia e, dopo tutto, anch’egli è, come Dodsworth, un laborioso costruttore della razza di quelli che hanno fatto la ricchezza dell’America. E Zenith, la città tanto buffa, è soltanto, cresciuto, il villaggio attivo del Midland, cui l’America – e lo fa capire Sam – deve non poco.</p>
 			<p>Nell’uso poi di slang e di volgare si dimostra la buona natura provinciale di Sinclair Lewis. Questa specie di gergo e di dialetto, espressione nazionale americana, è da lui compresa e amata e fatta, infine, poesia, risultandone la vera creazione di un linguaggio – il volgare americano –; cosa di cui non si ha più esempio dai tempi che i popoli neolatini hanno fermato idiomi vergini in opere d’arte e di vita. Prima di Lewis, lo slang americano era color locale o improvvisazione giornalistica. Forse soltanto O. Henry, quel felice ingegno matto, ne usò in qualche modo a comporre una lingua letteraria. Ma negli altri – M. Twain, W. D. Howells, i migliori – il volgare americano è troppo ancora nello stato in cui è il negro dei discorsi di Jupiter (The Gold Bug di Edgar Poe): macchia, color locale. Si veda in H. Mencken (9) competente, quanto altri mai, il debito che l’America ha per questo a Sinclair Lewis. E Mencken scriveva, soltanto, ai tempi di Main Street (1920).</p>
