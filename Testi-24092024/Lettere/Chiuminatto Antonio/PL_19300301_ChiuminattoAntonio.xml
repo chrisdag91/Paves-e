@@ -3759,7 +3759,7 @@
 			<p><title key="Stein, Gertrude 1874-1946 | The making of Americans" ref="http://viaf.org/viaf/7733147270480435700003/">The Making of Americans</title> and <title key="Stein, Gertrude, 1874-1946. | Tender buttons" ref="http://viaf.org/viaf/6375147270612835700004/" level="m">Tender Buttons</title> by + <persName ref="#GertrudeStein">Gertr. Stein</persName></p>
 			<p><title ref="#TheAppleoftheEye">The apple of the eye</title> and <title level="m" ref="#TheGrandmothers">The grandmothers</title> by <persName key="Wescott, Glenway, 1901-1987." ref="http://viaf.org/viaf/12405830/">Glenway Wescott</persName></p>
 			<p><title ref="#GatsbyTheMagnificent">Gatsby the magnificent</title> by <persName ref="#FrancisScottFitzgerald">Scott Fitzgerald</persName></p>
-			<p>+ <title level="m" ref="#TheCaseofMrCrump">The case of Mr Crump</title> by Ludwig Lewisohn</p>
+			<p>+ <title level="m" ref="#TheCaseofMrCrump">The case of Mr Crump</title> by <persName ref="#LudwigLewisohn">Ludwig Lewisohn</persName></p>
 			<p>(the + denotes that this book has the preference)</p>
 			<p/>
 			<p>And so, Mr Chiuminatto, you have your choice. Perhaps before June when the loan will begin I'll want hurriedly from your kindness some of these books and then I'll write you to look for and buy them.</p>
