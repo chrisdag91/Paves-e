@@ -3278,7 +3278,7 @@
 			<p><title key="Jeffers, Robinson, 1887-1962,. | Roan stallion" ref="http://viaf.org/viaf/870158915860050000006/">Roan Stallion</title> by <persName key="Jeffers, Robinson, 1887-1962" ref="http://viaf.org/viaf/68956184/">Robinson Jeffers</persName></p>
 			<p><title key="Anderson, Sherwood, 1876-1941. | Winesburg, Ohio" ref="http://viaf.org/viaf/314848338/" level="m">Winesburg Ohio</title>, <title level="m" ref="#ANewTestament">A New Testament</title> and <title ref="#MidAmericanChants">Mid-American Chants</title> by + <persName ref="#AndersonSherwood">Sherwood Anderson</persName></p>
 			<p><title key="Hemingway, Ernest, 1899-1961. | Sun also rises" ref="http://viaf.org/viaf/177420720/" level="m">The Sun also Rises</title> and <title key="Hemingway, Ernest, 1899-1961. | Short stories. Selections (Men without women)" ref="http://viaf.org/viaf/1729147665859860670003/">Men without Women</title> by <persName key="Hemingway, Ernest" ref="http://viaf.org/viaf/3010160486076405180003/">E. Hemingway</persName></p>
-			<p>+ The Great American Novel by William Carlos Williams</p>
+			<p>+ <title ref="#TheGreatAmericanNovel">The Great American Novel</title> by William Carlos Williams</p>
 			<p>+ whatever work by E. O'Neill.</p>
 			<p>Caroling Dusk by Countee Cullen</p>
 			<p>whatever work by Ben Hecht and by Pr. McAlmon</p>
