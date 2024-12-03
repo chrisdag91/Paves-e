@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,13 +11,170 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml?place_annotation_20241203190900580",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-03T18:09:00.580Z",
+	"dcterms:modified": "2024-12-03T18:09:00.580Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml?place_annotation_20241203190900580#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml?place_annotation_20241203190900580#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml?date_annotation_20241203190916643",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-03T18:09:16.643Z",
+	"dcterms:modified": "2024-12-03T18:09:16.643Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml?date_annotation_20241203190916643#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml?date_annotation_20241203190916643#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1924-11-04"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A Mario Sturani, Monza.</p>
-			<p>[Torino, in risposta a una lettera del 4 novembre 1924]</p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, in risposta a una lettera del <date when="1924-11-04">4 novembre 1924</date>]</p>
 			<p/>
-			<p>&quot;Grazie, o mio amico! Tu, col tuo fervore</p>
+			<p>"Grazie, o mio amico! Tu, col tuo fervore</p>
 			<p>mi trascini anche se non voglio: ascolta,</p>
 			<p>da te ho compreso che la gioia sboccia</p>
 			<p>lungo il cammino e che il fine è sol questo.</p>
@@ -28,23 +182,23 @@
 			<p>supera ogni pensiero ch'avrai agio</p>
 			<p>di far sull'opera creata, sai</p>
 			<p>che l'universo è un continuo creare</p>
-			<p>pel maggior gaudio, solo, del suo Dio?&quot;</p>
+			<p>pel maggior gaudio, solo, del suo Dio?"</p>
 			<p/>
 			<p>Ma ora ascolta. Che basti spezzare colla briglia la nuca al cavallo lo seppi sempre; ma la mia croce è la convinzione che il mio cavallo è uno di quei tanti, ossuti, impotenti, delle vetture da piazza. Con questa convinzione non posso avere il sangue freddo o l'entusiasmo di tendere le briglie. E più ci penso, e più rinnego quel cencio slavato, sciorinato là sopra tra le virgolette.</p>
 			<p>Ma, scrivendoti, d'or'innanzi seguirò l'impulso dell’istante. Siccome mi ferve ora nell'anima quella strofa di Tagore:... eccotela:</p>
-			<p>&quot;La malinconia ti pesa sul cuore e il sonno è sempre sui tuoi occhi.</p>
+			<p>"La malinconia ti pesa sul cuore e il sonno è sempre sui tuoi occhi.</p>
 			<p>Non hai osservato come il fiore regna splendido in mezzo alle spine? Svegliati, deh svegliati! Non lasciare che il tempo passi invano.</p>
 			<p>In fondo al sentiero sassoso, nel paese della solitudine vergine il mio amico se ne sta seduto e solo. Non lo ingannare. Svegliati, deh svegliati!</p>
 			<p>Che fa se il cielo smania e trema nel calore del sole meridiano; che fa se la sabbia ardente stende il suo manto di sete?</p>
-			<p>Non vi è forse gioia nel profondo del tuo cuore? Forse che, ad ogni tuo passo, la strada non echeggerà armoniosamente come un'arpa resa dolce dal dolore?&quot;</p>
+			<p>Non vi è forse gioia nel profondo del tuo cuore? Forse che, ad ogni tuo passo, la strada non echeggerà armoniosamente come un'arpa resa dolce dal dolore?"</p>
 			<p>Non mi si confà pienamente? Ne farò la mia legge. E rispondimi: nessuna gioia supera la gioia di soffrire.</p>
-			<p>Ora non ridere: &quot;ti scongiuro&quot; di dirmi sempre schiettamente i tuoi giudizi. Ricordi che io ho scritto e ti ho fatto leggere che alcuni tuoi versi &quot;valevano poco&quot;? Fa lo stesso con me, è il maggior segno d'amicizia che mi puoi dare. E spero di non lasciarti mancare il lavoro. Vuoi un consiglio per giudicare i miei versi? Sforzati di dimenticare che sono miei.</p>
+			<p>Ora non ridere: "ti scongiuro" di dirmi sempre schiettamente i tuoi giudizi. Ricordi che io ho scritto e ti ho fatto leggere che alcuni tuoi versi "valevano poco"? Fa lo stesso con me, è il maggior segno d'amicizia che mi puoi dare. E spero di non lasciarti mancare il lavoro. Vuoi un consiglio per giudicare i miei versi? Sforzati di dimenticare che sono miei.</p>
 			<p>Conto, un giorno o l’altro, di andare a ispirarmi, ad accendermi (fuochi di paglia) dinanzi alla Vita Nova. Le darò uno sguardo, cercando di non alterarlo col mio pensiero; sarà così come un tuo sguardo.</p>
 			<p>Noto con un piacere magro magro, che sei divenuto erudito: citazioni di qua, citazioni di là; ti assicuro che in questo campo sei più inanzi di me.</p>
 			<p/>
 			<p>Un giorno o l'altro saprò scriverti qualcosa che non so se comprenderai, che sarà lo sfogo di tutta la mia giovinezza. Oh i ricordi delle prime letture della Vita Nova! Certo non comprendi neppure ora, ma non spaventarti, non è per pochezza d’ingegno; ciò di cui parlo è il fondo intimo della mia anima.</p>
 			<p/>
-			<p>Passando intanto alla filosofia, tu dici &quot;Essa (la poesia) è il sentimento della bellezza&quot;. Non solo. Essa è il sentimento di tutto, del bello del brutto, del buono del cattivo, del giusto del falso, di quel contrasto tra bene e male che è la vita.</p>
+			<p>Passando intanto alla filosofia, tu dici "Essa (la poesia) è il sentimento della bellezza". Non solo. Essa è il sentimento di tutto, del bello del brutto, del buono del cattivo, del giusto del falso, di quel contrasto tra bene e male che è la vita.</p>
 			<p>Dalla mia riflessione hai poi ricavato proprio ciò che volevo: anche in un quadro può esservi poesia. La poesia è dappertutto. Un qualunque sentimento è poesia. E questo dono divino è l'unica cosa veramente nostra, poiché la scienza è, sotto un certo aspetto, una realtà fuori di noi, è di tutti e di nessuno.</p>
 			<p>E poi, infine, anche chi si rivolge alla scienza, è per un sentimento che ve l'attira.</p>
 			<p>Che ti piaccia la vita, proviene da un sentimento. La poesia è la regina del mondo, direi che è Dio (sempre parlando soltanto rispetto all'uomo).</p>
