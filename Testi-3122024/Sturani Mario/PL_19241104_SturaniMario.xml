@@ -485,6 +485,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml?title_annotation_20241203191526720",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-03T18:15:26.720Z",
+	"dcterms:modified": "2024-12-03T18:15:26.720Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml?title_annotation_20241203191526720#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19241104_SturaniMario.xml?title_annotation_20241203191526720#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[26]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/La_Vita_Nuova",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -513,7 +592,7 @@
 			<p>Conto, un giorno o l’altro, di andare a ispirarmi, ad accendermi (fuochi di paglia) dinanzi alla <title key="La Vita Nuova" ref="http://dbpedia.org/resource/La_Vita_Nuova" level="m">Vita Nova</title>. Le darò uno sguardo, cercando di non alterarlo col mio pensiero; sarà così come un tuo sguardo.</p>
 			<p>Noto con un piacere magro magro, che sei divenuto erudito: citazioni di qua, citazioni di là; ti assicuro che in questo campo sei più inanzi di me.</p>
 			<p/>
-			<p>Un giorno o l'altro saprò scriverti qualcosa che non so se comprenderai, che sarà lo sfogo di tutta la mia giovinezza. Oh i ricordi delle prime letture della Vita Nova! Certo non comprendi neppure ora, ma non spaventarti, non è per pochezza d’ingegno; ciò di cui parlo è il fondo intimo della mia anima.</p>
+			<p>Un giorno o l'altro saprò scriverti qualcosa che non so se comprenderai, che sarà lo sfogo di tutta la mia giovinezza. Oh i ricordi delle prime letture della <title key="La Vita Nuova" ref="http://dbpedia.org/resource/La_Vita_Nuova" level="m">Vita Nova</title>! Certo non comprendi neppure ora, ma non spaventarti, non è per pochezza d’ingegno; ciò di cui parlo è il fondo intimo della mia anima.</p>
 			<p/>
 			<p>Passando intanto alla filosofia, tu dici "Essa (la poesia) è il sentimento della bellezza". Non solo. Essa è il sentimento di tutto, del bello del brutto, del buono del cattivo, del giusto del falso, di quel contrasto tra bene e male che è la vita.</p>
 			<p>Dalla mia riflessione hai poi ricavato proprio ciò che volevo: anche in un quadro può esservi poesia. La poesia è dappertutto. Un qualunque sentimento è poesia. E questo dono divino è l'unica cosa veramente nostra, poiché la scienza è, sotto un certo aspetto, una realtà fuori di noi, è di tutti e di nessuno.</p>
