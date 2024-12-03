@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Celle Ligure.</p>
+			<p>[Reaglie, fine agosto 1926]</p>
+			<p/>
+			<p>Qua, nella calma, ho letti i versi che tu mi avevi dato e intanto ripensavo e rivivevo l'incontro di lunedì in scuola.</p>
+			<p>Con la figura di lei reale, dinanzi non ti so dire quanto li comprenda meglio quei versi.</p>
+			<p>Ha un volto strano, misterioso, che non è di quei volti misteriosi delle solite donne dette fatali, ma appare così per la serietà profonda di quei suoi occhi buoni insieme e intelligentissimi.</p>
+			<p>L'ho veduta per poco tempo ma sento in lei realmente qualcosa di superiore al comune delle sue compagne. Comprendo come tu te ne sia fatto il tuo ideale. Per quanto l'ho potuta conoscere, ne è degna.</p>
+			<p>Non spaventarti di tutto questo entusiasmo. Tu lo sai: &quot;Senza una donna da serrarmi al cuore…&quot; vengo su come un disperato e tutte le figure femminili che incontro incarnanti un qualche lato buono del mio spirito, me ne innamoro.</p>
+			<p>Così ho vissuto struggendomi per [...], così per quella piccola attrice americana che sai, così per venire a tempi più alla mano, mi sono esaltato per quella Wilma Banky e per la [...].</p>
+			<p>Ma ho detto male &quot;me ne innamoro&quot;: non sono da tanto io. Quel che sento ripensando quelle figure è una ammirazione timida timida mista a un desiderio platonico platonico e fin ridicolo ad altri che a me (ma forse, e questo mi consola in parte, tu vai eccettuato da questi &quot;altri&quot;).</p>
+			<p>E finora tutte queste donne che io sognavo così, diciamo, romanticamente, mi si scoprivano poi sbarazzine, puttanelle, qualcosa di ben diverso insomma.</p>
+			<p>Di [...] è inutile discorrere, che me ne avete dette troppe. Di quella &quot;piccola attrice americana&quot; proprio in questi giorni ho trovato la fotografia su per le pagine di una rivista: bella fotografia del resto, ma sotto c'era scritto &quot;La soubrette M. B. in una delle sue pose più biricchine&quot; e non era l'abbondanza dei vestiti quella che le nocesse. Per W. Banky non ho documenti precisi ma penso che un'attrice che sa abbracciare un uomo con tanto slancio e tanta passione così sulla scena, non dev'essere alle sue prime armi nella vita. Eppure è divino di dolcezza quel volto! Tale da lasciare lì l'anima a contemplarlo. Ma oramai ho imparato che la apparenza è ben diversa dalla realtà. Allora per reazione mi son detto: correggiamo questa realtà coll'arte. E così interamente quasi egoisticamente mi rinchiudo ad amare l'arte che sola è capace di pormi innanzi nella realtà un ideale sognato. Non è significativo questo che l'arte, il bel fiore che s'apre intero ogni volta che una civiltà è al suo sommo, sia una finzione tutta fatta di elementi immaginati il cui solo valore sta nel moto ch'essi san dare al nostro animo?</p>
+			<p>E siccome la vita non è che una ricerca di sensazioni e, più, di sentimenti piacevoli, ecco che l'arte diviene, almeno per me, lo scopo ultimo della vita, come quella che può dare al mio spirito i &quot;sentimenti piacevoli&quot; più alti, anche quelli che nella vita esterna a noi non si trovano e troveranno mai realizzati. Come vedi con queste idee (che credo sian anche le tue) sono perfettamente innocuo alla massa degli innamorati mortali.</p>
+			<p>Lasciami dunque nutrire in silenzio una fiammettina per la tua [...] povera fiammettina stentata che pure in questi giorni mi ha dato qualche istante di gioia.</p>
+			<p>L'ho veduta così di sfuggita e porto in me quel mistero dei suoi occhi. Te l'ho già detto: non dimenticherò mai quel sorriso che ti ha fatto mentre intorno le brillavano due o tre eleganti. Tu in disparte, colla cravatta sbiadita e i calzoni senza ripiegatura, loro intorno azzimati e petulanti: e quel sorriso muto volto a te!</p>
+			<p>Mi ha riempito di felicità. Mi son tanto abituato alla finzione dell'arte che, io o un altro il fortunato, poco importa, purché veda realizzarsi talvolta nella vita quelle che sono le mie aspirazioni più alte. E la scena che ho abbozzato più sopra, mille volte l'avevo già vissuta nei miei sogni. Meglio tu poi che un altro. Tu ne sei degno.</p>
+			<p>E dovranno essere meravigliose le tue fantasticherie, così, in riva al mare con quel ricordo inanzi! Salutami, se hai capo a ricordarti di me, quello spettacolo immenso.</p>
+			<p>Cesare</p>
+			<p/>
+			<p>N. B. A questo punto, m'accorgo che non ti ho fatta la &quot;critica&quot;. Sta a sentire se vuoi. Quei tuoi ultimi versi ci metto troppo di passione anch'io per poterne dare un giudizio sicuro. Pure ti posso dire che nella loro tenuità son buoni, specialmente quelli &quot;Piove e mi bagno…&quot; Molto mi piacciono questi per quella riuscita fusione di paesaggio (pioggia e nebbia) e di idea e sentimento.</p>
+			<p>Quello &quot;svanire&quot; quel &quot;sogno&quot; quel &quot;frusciare&quot; quel &quot;pulsare con calma&quot; formano un'armonia intima piana, che davvero si fa ammirare. Ottimo poi quel verso di chiusa (Perdut...): forte di contenuto e di accenti e del contrasto col verso breve e sommesso che precede (della pioggia).</p>
+			<p>Non ti dico ancor nulla su quell'altro pezzo (&quot;Com'è triste la pioggia&quot;) perché lo voglio meditare più a lungo. Molto originale di forma, di metro, di impostazione, di tutto. Vi intravedo un piccolo capolavoro. Ma ti dirò poi.</p>
+		</body>
+	</text>
+</TEI>

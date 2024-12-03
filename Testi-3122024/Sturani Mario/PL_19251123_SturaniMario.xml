@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Monza.</p>
+			<p>[Torino, in risposta a una lettera timbrata 23 novembre 1925]</p>
+			<p/>
+			<p>Caro Sturani,</p>
+			<p>ognuno di noi due è tutto intento a se stesso ed è naturale. Ti scrivo a denti stretti, perché mi convinco sempre più che il tuo ingegno è un'unità forte e cosciente e tutta data al suo ideale, mentr'io mi trovo essere un poetino piccolino, che teme di slargare ben gli occhi in faccia al sole per paura dello spasimo della luce. Proprio così. Tuttavia spero che questo vacillare continuo che è in me, sia in certa parte anche in te e in tutti coloro che vanno un passo fuori del comune. Ma, ti assicuro, il mio male non è più la malinconia consueta, di accademia che tu credevi l'altr'anno (ricordi?): è una lotta di tutti i giorni, di tutte le ore contro l'inerzia, lo sconforto, la paura; è una lotta, un contrasto in cui si va affinando, temprando il mio spirito come un metallo si separa nel fuoco dalla sua ganga e s'indura.</p>
+			<p>Questa lotta, questa sofferenza che mi è insieme dolorosa e dolcissima mi tien desto, sempre pronto, essa insomma mi trae dall'animo le opere.</p>
+			<p>Molto infatti mi pare di aver fatto e molto, spero, farò ancora.</p>
+			<p>Ebbene: questa mia trasformazione dalla malinconia accademica al dolore operoso, puoi vantarti di esserne tu in massima parte la causa. Vantarti, dico, poiché, se mai compirò un'opera grande, non dimenticherò che la tua forza mi è stata grande stimolo.</p>
+			<p>&quot;Tanto piacere, tu dirai, salutamela!&quot; ma pensa che, quantunque così meschino io sono superbo, e me ne vanto, di me stesso; pensa che nulla mi dà il maggior brivido che pensare alla magnifica solitudine dei genii: ora, dico, con tutto quest'amore all'opera solitaria, ti piego il capo innanzi e riconosco che mi sei stato maestro.</p>
+			<p>Urlerei dalla gioia se tu mi scrivessi altrettanto di me.</p>
+			<p>Lasciando stare i complimenti, le convenzioni, gli zuccherini con cui si parla agli amici e la retorica, con tutta schiettezza ti dico che, secondo me, sei un ingegno potente. Sono tre anni che ho questa convinzione. Ma non credere che ti scriva questo perché tu mi scriva altrettanto: no, trattami il più severamente possibile, ché ciò mi sarà un buon sprone.</p>
+			<p>Ed ora eccoci al sodo: è poesia scritta quest'estate, in mezzo alla natura libera, in un mattino pieno di vita:</p>
+			<p/>
+			<p>M'atterrisce il pensiero che io pure</p>
+			<p>dovrò un giorno lasciare questa terra</p>
+			<p>dove i dolori stessi mi son cari</p>
+			<p>poiché tento di renderli nell'arte.</p>
+			<p>E più tremo pensando all'agonia,</p>
+			<p>alla lunga terribile agonia</p>
+			<p>che forse andrà dinanzi alla mia morte.</p>
+			<p>Che cosa è mai la vita ai moribondi</p>
+			<p>che ancor comprendono e si senton lenti,</p>
+			<p>lenti spirare in una stanza tetra</p>
+			<p>soli in sé stessi? Oh, conoscessi un Dio,</p>
+			<p>così vorrei pregarlo: &quot;quando il petto</p>
+			<p>mi si gonfia ricolmo di un'ondata</p>
+			<p>di poesia ardente e dalle labbra</p>
+			<p>mi sfuggon rotte parole, che ansioso</p>
+			<p>m'affanno a collegare in forma d'arte,</p>
+			<p>quando più riardo e più deliro, oh, allora</p>
+			<p>mi si schianti una vena accanto al cuore</p>
+			<p>e soffochi, così, senza un rimpianto&quot;.</p>
+			<p/>
+			<p>N. B. Attendo con grande interesse le tue pagine. Noto, con mio scorno, che anche qui mantieni una visione sintetica vastissima e che sei sempre d'accordo colle tue idee. Ti prego, poi, unisci un giudizio su questi versi.</p>
+			<p>C. Pavese</p>
+		</body>
+	</text>
+</TEI>

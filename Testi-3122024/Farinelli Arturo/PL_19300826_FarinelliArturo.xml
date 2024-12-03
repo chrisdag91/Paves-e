@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arturo Farinelli.</p>
+			<p>Bibiana, 26 agosto 1930</p>
+			<p>Chiarissimo Professore,</p>
+			<p>Ella ricorda certamente la raccomandazione che ebbe modo di favorirmi per il Prof. Prezzolini in America. L'Università di Columbia ha carteggiato con me e mi offre ora di iscrivermi quale studente per un anno di prova e poi accettarmi nei corsi di laurea. Tutto ciò a mie spese e G. Prezzolini cui ho scritto ultimamente ricordando che Ella aveva parlato di un sussidio, non mi ha risposto.</p>
+			<p>Siccome all'Università di Columbia i corsi s'iniziano già il 25 sett. io desidererei sapere da Lei qualcosa di preciso sulle condizioni quali le prometteva Giuseppe Prezzolini nella sua lettera. Io pensavo che mi si offrisse, se non un incarico, almeno una borsa di studio, e certo alle condizioni attuali non posso accettare.</p>
+			<p>La prego perciò, ringraziandola ancora del suo cortese interessamento, di esser tanto gentile da scrivermi qualcosa in proposito, sempre ricordando come G. Prezzolini da me interpellato due volte non mi abbia risposto sinora a nessuna delle due.</p>
+			<p>Sono intanto lieto di annunziarle che la tesi di laurea sul Whitman, a cui Ella stessa mi prestò un aiuto bibliografico, è passata a</p>
+			<p>pieni voti e come coll'appoggio dell'amico mio e Suo discepolo Leone Ginzburg mi sto ora interessando di scrittori nord americani contemporanei pubblicandone studi di presentazione agli Italiani, il quale indirizzo vorrei fosse un titolo alla Sua cortese protezione, onde continuare questi studi con maggiori mezzi e maggior serietà nel loro proprio ambiente.</p>
+			<p>Con ossequio, suo devotissimo</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

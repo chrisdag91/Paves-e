@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Valentino Bompiani, Milano.</p>
+			<p>[Torino,] 14 ottobre 1930</p>
+			<p>Egregio Dottore,</p>
+			<p>ricevo la Sua del 13 c. m. e sono spiacentissimo di non poter accettare la proposta dell'articolo anglo-americano per il Suo Almanacco. Avendo avuti, e durandomi tuttora, altri impegni, poco mi sono occupato quest'anno delle produzioni in questione e mi occorrerebbe un certo tempo per raccogliere il materiale, specialmente quello illustrativo. Se accettassi, Le presenterei una cosa poco seria e poco degna della Sua pubblicazione.</p>
+			<p>Il tempo minimo in cui potrei far qualcosa è –  a causa specialmente degli Stati Uniti - di più d'un mese. Vede quindi la difficoltà. Ad ogni modo mi riterrò onorato se Ella vorrà ricordare il mio nome per un'eventuale impresa di traduzione o di presentazione d'autori che mi lasciasse un po’ più di respiro.</p>
+			<p>Le rinnovo il mio rammarico e con ossequii sono il suo</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

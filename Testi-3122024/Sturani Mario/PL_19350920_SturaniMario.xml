@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Torino.</p>
+			<p>[Brancaleone,] 20 settembre [1935]</p>
+			<p/>
+			<p>Caro Bacarozzo,</p>
+			<p>anzitutto è inutile che mi mandiate buste intestate – Hotel di qua Lago di là –. Sappiamo benissimo quali banali origini abbia il vostro patrimonio per prendere nella benché minima considerazione simili lustre da meccanico. Allo stesso modo ma con miglior diritto io potrei intitolarmi il Con. (-finato) di Brancaleone e gabbare con tale risonante e penoso equivoco la buona fede di ogni gentiluomo.</p>
+			<p>In secondo luogo date prova di scarso bon goût a parlarmi di poesia. Voi sapete per avermi aiutato nel trasloco che l'Elicona è ormai solo sulla collina di Torino (e le ninfe fanno il bagno nel Po e Diana va a caccia sui corsi e il Partenone è la Torre Littoria). Come potete quindi parlarmi di ispirazione in terra d'esilio; o di Magna Grecia, quando di magne io non conosco che le note vostre (votres très bien connues) ispiratrici?</p>
+			<p>Bacarozzo, siete volgare. Ma per non parlare oltre all'antico dipendente e rivolgermi invece all'amico, la tua lettera mi ha fatto un piacere folle e solo mi è dispiaciuto che hai aspettato tanto a farti vivo. Godo a sentirti sessantanovenne e mi ha invece fatto rabbia quando mi parli di Monferini. Chi sa perché, ma mi è diventato antipatico. Mi meraviglia però sentire che ti trovi solo. E la moglie è una scatola da scarpe? L'avessi io, la moglie.</p>
+			<p>Io non sto all'albergo, ma in una cameretta mobiliata piena di scarafaggi e che quando piove (l'inverno sarà tutto pioggia) si allaga come una barca. Inoltre, Capo Spartivento, spartisce davvero il vento e stanotte è il finimondo.</p>
+			<p>M'interessa mediocremente che a Torino abbia fatto caldo, mentre mi ha fatto piangere sentire della motonave Vittoria. O bei viluppi di schiene, folli schiacciate d'erba, oh tradimenti!</p>
+			<p>Nido dei padri miei, culla diletta. Quando ho letto di via Roma, bramivo come un vitello. E lo Splendor! e il Minerva! Il Minerva!</p>
+			<p>L'ultima volta che sei venuto a trovarmi, non ti ho detto la faccia di quel signore quando ha aperto la pornoteca. Davanti alla coincidentia oppositorum ha dimenticato tutto, patria, doveri, famiglia. Si è levato il cappello e piangeva come una vacca.</p>
+			<p>Di libri, caro Bacarozzo, mi potrete mandare, in armonia colla vostra ostentata posizione finanziaria, la versione francese integrale delle Mille e Una Notte (un 500 o 1000 franchi) (mais prenez garde! non pas celle par trop folâtre du dixhuitième siècle, par Galland le malin). Se però simile spesa vi suscitasse una sincera ma plebea ripugnanza, potrete ricorrere ai miei e farvi mostrare una lista di roba più andante (de marchandise plus grossière) che inviai loro tempo fa. Ma siccome non voglio che abbiate nessuna scusa per non fare il dovere vostro presso l'antico padrone, vi accludo questa lista di libri che potrete anche trovare, come vuole l'usanza del vostro ceto, di seconda mano:</p>
+			<p/>
+			<p>α) qualunque sorta di romanzo moderno tedesco (tradotto beninteso). Non ne lessi mai nessuno.</p>
+			<p>β) qualunque opera di esegesi biblica (vecchio o nuovo testamento) o italiana o francese o inglese. Altrimenti tradotta. Ma sempre eretica (Vous voyez, mon ami, je suis toujours un peu barbet).</p>
+			<p>γ) Qualunque opera di peregrina fantasia, o erudizione, del ‘400, ‘500 o ‘600, a caso, ché tanto ne ho lette poche.</p>
+			<p>δ) Il nuovo Kafka di Frassinelli (Cela gratuit de sa part, bien entendu).</p>
+			<p>ε) E infine qualunque altra opera voi stimiate degna di lettura o rilettura (escluso il vostro romanzo) (hors votre roman).</p>
+			<p/>
+			<p>E non mi parlerete un poco di vostra moglie amico mio? Voire parlez-moi d'amour.</p>
+			<p>N'est-elle pas même un peu enceinte? Hélas! Elle n'en sera que plus jolie.</p>
+			<p>Le bacio la mano, Signora. Lei vede in me un miserabile esempio della volubilità della femmina Fortuna. Un Odisseo, senza Circe, che sospira il dolce ritorno. Un Catullo cui morì il passero; un Cavaliere della Triste Figura, un Tristano sulla carretta. Le bacio la mano. E domani? Dove saremo domani?</p>
+			<p>Vostro affezion.mo</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

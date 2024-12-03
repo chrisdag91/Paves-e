@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Monza.</p>
+			<p>[Torino,] 8 aprile 1927</p>
+			<p/>
+			<p>Non ti ho mai più scritto perché da mandarti non avevo nulla e da dirti non sapevo di dove cominciare.</p>
+			<p>Finalmente stanotte che la primavera mi stuzzica, riuscirò a metterti in carta qualche tratto del mio &quot;essere verace&quot;.</p>
+			<p>Dunque devi sapere che io non scriverò più. Non scriverò più, ne sono quasi certo. Non ne ho più la forza, e poi, non ho niente da dire. Dopo arrivati ai versi della rivoltella non c'è più che posare la penna e procedere ai fatti.</p>
+			<p>Sono tre mesi che ho vissuto in passione continua: tira, molla; lo faccio, non lo faccio.</p>
+			<p>Fa una paura tremenda quello sconquasso sanguinoso del cervello molliccio e della scatola.</p>
+			<p>Coll'ultimo innamoramento, quello della ballerina, mi era parso di essere giunto definitivamente al punto, ma non ne ho avuto il coraggio.</p>
+			<p>Ora vado avanti passivamente, divertendomi, dimenticandomi, studiando per gli esami; non più per me, ché ogni passione verso l'alto è morta.</p>
+			<p>Ormai negli avvenimenti di questi ultimi tempi, mi son conosciuto bene, definitivamente: incapace, timido, pigro, malcerto, debole, mezzo matto, mai, mai potrò fermarmi in una posizione stabile, in ciò che si chiama la riuscita nella vita. Mai, mai.</p>
+			<p>Lo sforzo necessario a questa conquista non ho più l'energia di sopportarlo, perché tanto so che sarebbe inutile: non ci riuscirei. E anche se ci riuscissi, ne varrebbe poi la pena?</p>
+			<p>Vivo quindi sforzandomi il meno possibile.</p>
+			<p>Ma così non durerà, non può durare, troppi fermenti mi tormentano.</p>
+			<p>E, siccome, come ho detto, mai e poi mai saprò dirigere questi impulsi fermentanti, guarda in che bel tiramolla sono!</p>
+			<p>Bere, abbrutirmi, non ci riesco mica. Vorrei, ma non ci riesco. Sono un coglione. Cocaina, morfina, chissà quanto costano!</p>
+			<p>Almeno così ci sarebbe l'esaltazione di una fine grandiosa!</p>
+			<p>Macché! Non ho mica il coraggio. Bambino, cretino e poseur!</p>
+			<p>È più probabile che mi ammazzi colle seghe.</p>
+			<p>Di', io faccio tanto il disperato, eppure pensa che fortuna che nessuna donna mi abbia mai accettato: col bel carattere che mi dà fuori ora, staremmo freschi tutti e due.</p>
+			<p>Pavese è morto.</p>
+			<p>Tu scrivimi cos'hai fatto e che cosa farai: mi dà ancora un certo gusto parlare di queste cose.</p>
+			<p/>
+			<p>N. B. Non seccarti pensando di dovermi ora rispondere una lettera consolatoria (poiché so quanto sia scocciante fare quest'uffizio) anzi, fammi il favore di non tentarlo neppure il conforto, lasciami godere in pace il mio avvilimento.</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

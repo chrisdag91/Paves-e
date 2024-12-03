@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Monza.</p>
+			<p>[Reaglie, in risposta a una lettera del 5 luglio 1927]</p>
+			<p/>
+			<p>Caro mio,</p>
+			<p>sopra le ultime novità potrei scriverti un volume come anche potrei scrivertene niente.</p>
+			<p>Scelgo l'ultimo, anche perché è più facilmente conciliabile colla più nessuna voglia di lavorare che ho.</p>
+			<p>Noto però che tu il quale te la prendevi quando ti scrivevo che mi scocciava che le mie belle fossero passate per le braccia di tutti, tu che invocavi l'essenza astratta di [...] (&quot;non l'incarnazione reale di un nostro ideale, ma l'ideale in sé&quot;) e quindi la sua purità superiore a tutto (&quot;anche se fosse una pubblica meretrice&quot;) ora sei un po' cambiato quando te la prendi per un'innocentissima azione che ogni signorina alla sua età certo ha commesso, deve avere commesso.</p>
+			<p>Ma io, passando all'inevitabile io, io, sono tormentato invece da un dubbio: con che faccia, noi pretendiamo che loro restino fino al matrimonio, fino al piatto, grasso, soffocante, orribile matrimonio (non senti anche nella parola che peso e che schifo?) restino dico puri pezzi di ghiaccio, mentre poi per noi riserviamo il diritto di dir porcherie e, soli e in compagnia, di farle?</p>
+			<p>Non venirmi a dire che c'è una membrana chiamata imene, che c'è una differenza di età, che c'è delle conseguenze e tante altre cose: è inutile, se la morale dev'essere qualcosa di ben diverso da interessi economici (e prendendola così sul serio, così idealmente si afferma questa diversità) essa deve valere indistintamente per tutti e due i sessi. È inutile che mi contino storie.</p>
+			<p>Io ho deciso infatti o di piantarla di far porcherie io o di non pretendere più che non le facciano anche loro: naturalmente non riesco né nell'una né nell'altra cosa e questo perché io sono un porco e perché i sentimenti atavici lasciatimi da secoli di quella credenza mi soffocano i pensieri e spadroneggiano loro.</p>
+			<p>Ma così almeno, soffro in silenzio e in disparte di questo dilemma, lo metto fra i tanti altri che mi tengono nello stesso stato, e non alzo più la cresta contro le &quot;disoneste&quot;, e non dico più niente e non faccio più niente, se non lavori meccanici come traduzioni e studî o opere di pretenziosa ironia disperata.</p>
+			<p>Solo che ogni tanto mi scappa la pazienza e allora monologo in cerca della verità.</p>
+			<p>Però della verità non me ne importa niente. Niente: tanto non si saprà mai niente. E se talvolta la cerco anche questo è un resto di istinti atavici.</p>
+			<p>Ma c'è dell'altro.</p>
+			<p>È tornata la mia ballerina. Per questo ho tardato un po' a risponderti.</p>
+			<p>Il primo giorno l'ho voluta rivedere, poi mi sono imposto di girare tutta la notte per le strade delle mie colline, tra i boschi. Ho preso un freddo cane. È bella, sì, giovane, meravigliosa, tutto quello che si può dire, ma ci sono le poltrone in mezzo tra me e lei e nelle poltrone ci sono sempre seduti molti uomini. Questo piccolo fatto mi ha fatto riflettere e a poco a poco, e ci ho sofferto mica poco, la bella, la divina, la venerea lavoratrice delle gambe mi è svanita dalla mente. Cioè, è ancora qui, come un bel ricordo, ma certo non si accenderà più. Ho l'anima troppo stanca. Per me avere l'anima gonfia o di ispirazione o di amore, che poi è lo stesso, è una fatica terribile.</p>
+			<p>È sparita ed era giusto. Che cosa ne avrei fatto tanto? Anche se fosse venuta lei a cercarmi, come in quell'inverno vicinissimo eppure così lontano io cercavo lei, se avesse detto lei a me tutto quello che io non avrei mai osato di dire a lei, se si fosse ecc., che cosa ne avrei fatto tanto?</p>
+			<p>Se la più bella delle donne che mi passano accanto per la strada volesse me, me me solo, che cosa ne farei tanto? Io non so che cosa sia questa maledizione che ho indosso. Questa domanda che non mi lascia adorare in pace più nulla e nessuno.</p>
+			<p>Forse però non è che egoismo, la nessuna voglia di fare sacrifizi per conquistarsi la felicità. Ma che bisogno c'è poi della felicità? Non è indegno per un uomo star a godere la felicità mentre è considerato indegno che un uomo si dia la cipria per esempio?</p>
+			<p>E perché indegno? E chi se ne frega se una cosa è considerata indegna. E così di seguito fino all'infinito.</p>
+			<p>Vedi ormai che bel pesce sono ridotto.</p>
+			<p>L'altro giorno ho visto in un casino «Bel...».</p>
+			<p>In questi giorni non ho avuto modo di fare quelle tali domande a Durando, cercherò di riparare appena potrò: le cattive notizie c'è sempre tempo.</p>
+			<p>E adesso mi viene la nausea pensando che debbo ricominciare per la centesima volta il mio mestiere porco.</p>
+			<p>No lascia che non &quot;analizzi&quot; niente dei tuoi versi. Sono stufo, stufo. Mi hanno espresso tutto quel che tu volevi esprimere e anche oltre. Tanto ti basti.</p>
+		</body>
+	</text>
+</TEI>

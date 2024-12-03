@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Monza.</p>
+			<p>Reaglie, 14 luglio 1927</p>
+			<p/>
+			<p>eccoti un'insolita composizione in versi liberi e d'immaginazione. Per me è una vera novità:</p>
+			<p/>
+			<p>Giardini</p>
+			<p/>
+			<p>Sovente mi fermo davanti alle vetrine</p>
+			<p>dei profumieri. E tutti quei colori</p>
+			<p>disposti in nitide boccette</p>
+			<p>ornate di bei nastri,</p>
+			<p>tra i piumini, le ciprie, gli specchi,</p>
+			<p>e i piccoli strumenti fragili</p>
+			<p>lucidi lucidi</p>
+			<p>che passeranno per tenui mani femminee</p>
+			<p>e pare che nell'attesa ne abbian già assunto l'esilità e la forma di sogno</p>
+			<p>o i deliziosi ovali delle saponette,</p>
+			<p>gli spruzzetti, le reticelle;</p>
+			<p>ma sopratutto i profumi, i bei profumi gettati</p>
+			<p>in un ordine strano</p>
+			<p>sulle scansie di cristallo</p>
+			<p>dove fondono diafani i colori più belli:</p>
+			<p>sopratutto i profumi mi prendon l'anima</p>
+			<p>e costringono gli occhi,</p>
+			<p>i miei occhi incapaci, d'estraneo rozzo,</p>
+			<p>a fissarsi sospesi</p>
+			<p>sul prodigio fatto di mille minuscole meraviglie</p>
+			<p>ed allora un pensiero mi riempie la mente:</p>
+			<p>pensiero che nessuna fiorita terrestre vivente nel sole,</p>
+			<p>palpitante, o agitata dal vento</p>
+			<p>o umida sotto il cielo,</p>
+			<p>odorante un suo odore forte e selvaggio,</p>
+			<p>e non le più belle mescolanze di fiori</p>
+			<p>accordate da mani leggere,</p>
+			<p>da cui pure s'esalano stordimenti di profumo,</p>
+			<p>nulla, nulla, che abbia nome natura,</p>
+			<p>stagioni, doni strappati dall'uomo alla terra,</p>
+			<p>nulla mi può valere il giardino agghiacciato</p>
+			<p>nitido immobile sotto i cristalli,</p>
+			<p>dove le offerte più meravigliose delle stagioni,</p>
+			<p>i colori e i profumi,</p>
+			<p>son raccolte divinamente in piccoli vetri</p>
+			<p>e han la forma del sogno femineo:</p>
+			<p>un'esilità trasparente,</p>
+			<p>quasi purezza cristallina,</p>
+			<p>che talvolta canta una sua nota leggera, indicibilmente serena,</p>
+			<p>ma tal'altra, compresa</p>
+			<p>d'un'intensa anima verde,</p>
+			<p>o cupa, disperata,</p>
+			<p>s'esala d'intorno</p>
+			<p>in labirinti di depravazione,</p>
+			<p>in stanchezze di decadenza,</p>
+			<p>in tonfi di morte.</p>
+			<p>E d'accanto mi passano femmine,</p>
+			<p>dall'abito breve sul corpo</p>
+			<p>rivelante ogni forma,</p>
+			<p>talune nel viso e nel corpo tutte impregnate</p>
+			<p>e travagliate, consunte</p>
+			<p>terribilmente, senza più scampo,</p>
+			<p>dai piccoli oggetti di sogno,</p>
+			<p>immobili, dietro il grande cristallo;</p>
+			<p>altre, tutte freschezza,</p>
+			<p>come se il loro corpo, la loro vita</p>
+			<p>non fosse che un pieno, ininterrotto e inebriante canto,</p>
+			<p>e tutte, di questa forma e diverse,</p>
+			<p>e infinite e non mai conosciute</p>
+			<p>creano un altro meraviglioso giardino</p>
+			<p>vasto quanto la terra,</p>
+			<p>di cui questo cristallo non è se non l'imagine superba</p>
+			<p>raccolta in breve spazio, profumo in una boccetta.</p>
+			<p>E con le stelle nel cielo,</p>
+			<p>l'altissimo giardino intessuto di ombra e di luce,</p>
+			<p>tanto semplice che fa battere le mani ai bambini</p>
+			<p>tanto tremendo che fa rabbrividire i santi,</p>
+			<p>essi formano il mio grande giardino della vita,</p>
+			<p>dove soffro e gioisco ininterrottamente</p>
+			<p>e, dolorando per dare qualche canto ai miei fiori,</p>
+			<p>attendo la morte, l'ultimo canto, il più bello.</p>
+			<p>Ed è per questo che avviene che mi fermo</p>
+			<p>davanti alle fantastiche vetrine dei profumieri.</p>
+			<p/>
+			<p>Esigo pronta risposta e critica.</p>
+			<p>Grazie</p>
+			<p>C. Pavese</p>
+		</body>
+	</text>
+</TEI>

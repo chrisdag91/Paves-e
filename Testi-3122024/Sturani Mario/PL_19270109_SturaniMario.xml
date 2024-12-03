@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Monza.</p>
+			<p>[Torino,] 9 gennaio 1927</p>
+			<p/>
+			<p>Queste due lasse di versi che mi hai mandato per ben cominciare l'anno, vogliono, a quanto pare, riprodurre uno stato d'animo colla descrizione del seguito di fenomeni o, più alla buona, di fatterelli che avevano suscitato questo stato nel tuo animo o almeno, lo avevano accompagnato. Ora, ti dirò, nella prima non ci riesci affatto.</p>
+			<p>I fatti scelti, sono distinti l'uno dall'altro senza un legame intimo, il sentimento, cioè, o i sentimenti da esprimere.</p>
+			<p>La conclusione, poi, è banale e viene su come un fungo nient'affatto preparata dai quadretti precedenti che se la vivono ognuno per conto suo. E manca inoltre anche quell'armonia di verso libero che è la prima condizione per legare insieme le diverse parti, poiché non è altro che la musica del sentimento che deve pervadere il pezzo dal principio alla fine.</p>
+			<p>Pare insomma che tu, durante tutto il viaggio, passandoti per la testa le cose più diverse, abbia di tratto in tratto segnato ciò che ti colpiva gli occhi e le orecchie (segnato a titolo di memoria e non di rappresentazione poetica) e che poi ci abbia accodato, così, tanto per finire decentemente, un pensiero (ho pensato dici tu stesso), pensiero d'occasione espresso in un verso quale mi sarei aspettato piuttosto da Vaudagna che da te.</p>
+			<p>Ma per mia disgrazia tu non riesci mai impotente assoluto.</p>
+			<p>Il secondo pezzo, sebbene non sia uno dei tuoi capolavori, mi pare di ben diverso valore. Infatti, in questo pezzo, i fatti notati non sono più l'anarchia di prima.</p>
+			<p>Così, anche chi giudichi solo dalle parole, vi vede un sentimento che comincia al principio e finisce alla fine e permea, imbeve di sé tutti i tratti descrittivi sparsi.</p>
+			<p>Questo sentimento è un desiderio di solitudine: «portoni sbarrati» «strade deserte» «essere soli» ecc.</p>
+			<p>Poi c'è silenzio, c'è desiderio di cose SOMMESSE, leggere, «umili» come dici: «lume fioco», una «latteria» «il rumore del pendolo» «il gocciolio d'un rubinetto» «il colore e il profumo del latte», «spezzare il pane», «bere alla scodella». (A questo lavoro di vivisezione mi viene freddo, e pensare che sarà il mestiere della</p>
+			<p>mia vita!)</p>
+			<p>Poi c'è ordine e c'è quel che si dice un piccolo dramma riuscito, il passaggio dalla vita deserta invernale al caldo della latteria e sensazioni concomitanti.</p>
+			<p>Naturalmente tutto questo è aiutato dal ritmo.</p>
+			<p>Per es., il passaggio suddetto è segnato nel suo movimento rapido e improvviso, da quell'«entrare» solo, incisivo, dopo il lungo verso precedente, l'ultimo indugio fuori, camminando e cercando. E poi, appena entrati, si è subito nell'ambiente: lo sgocciolio, l'odor di latte.</p>
+			<p>È molto bello.</p>
+			<p>Concludendo, forse il tuo male è di scrivere versi troppo spesso. Quei tuoi primi sono uno sforzo disperato di scrivere.</p>
+			<p>Sarà perché io non ho quell'anima di poeta che vorrei, ma ti dico che una mia poesia mi costa prima di cominciare a scriverla mesi interi di vita e di dolori.</p>
+			<p>Vedi se sono ormai il perfetto professore!</p>
+			<p>Ma senti qua il contravveleno. Li ho scritti il 4 gennaio alle 3 del mattino, dopo una serata errabonda e tre ore di crisi meditativa nella mia stanza.</p>
+			<p>Senti come l'ho cominciato bene io l'anno.</p>
+			<p>(Ti parrà un tragico voluto ma no: tutto vi è vero).</p>
+			<p/>
+			<p>Sono andato una sera di dicembre</p>
+			<p>per una stradicciuola di campagna</p>
+			<p>tutta deserta, col tumulto in cuore.</p>
+			<p>Avevo dietro me una rivoltella.</p>
+			<p>Quando fui certo d'esser ben lontano</p>
+			<p>d'ogni abitato, l'ho rivolta a terra</p>
+			<p>ed ho premuto. Ha sussultato al rombo,</p>
+			<p>d'un rapido sussulto che mi è parso</p>
+			<p>scuoterla come viva in quel silenzio.</p>
+			<p>Davvero mi ha tremato tra le dita</p>
+			<p>alla luce improvvisa ch'è sprizzata</p>
+			<p>fuor della canna. Fu come lo spasimo,</p>
+			<p>l'ultimo strappo atroce di chi muore</p>
+			<p>di una morte violenta. L'ho riposta</p>
+			<p>allora, ancora calda, entro la tasca</p>
+			<p>e ho ripreso la via. Così, andando,</p>
+			<p>tra gli alberi spogliati, immaginavo</p>
+			<p>il sussulto tremendo che darà</p>
+			<p>nella notte che l'ultima illusione</p>
+			<p>e i timori mi avranno abbandonato</p>
+			<p>e me l'appoggerò contro una tempia</p>
+			<p>per spaccarmi il cervello.</p>
+			<p/>
+			<p>Saluti</p>
+			<p/>
+			<p>P. S. Scrivi spesso, spendi poco e attento alla salute.</p>
+		</body>
+	</text>
+</TEI>

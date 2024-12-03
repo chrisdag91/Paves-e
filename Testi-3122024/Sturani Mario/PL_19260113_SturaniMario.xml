@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Monza.</p>
+			<p>[Torino,] 13 gennaio 1926</p>
+			<p/>
+			<p>Andare per le vie solitario</p>
+			<p>tormentato in continuo dal terrore</p>
+			<p>di vedermi svanire sotto gli occhi</p>
+			<p>le creazioni a lungo vagheggiate;</p>
+			<p>sentire affievolirsi dentro all'anima</p>
+			<p>l'ardore, la speranza... tutto... tutto</p>
+			<p>e restare così senza un amore,</p>
+			<p>una grandezza, piccolo, volgare,</p>
+			<p>dannato alla tristezza quotidiana</p>
+			<p>e al pensiero incessante che infiniti</p>
+			<p>uomini han già sofferto quel ch'io soffro</p>
+			<p>ora e son morti oscuri, senza sorgere</p>
+			<p>a una luce di gloria, disperati.</p>
+			<p>Nel mio dolore nulla m'è lasciato</p>
+			<p>neppur l'orgoglio di sentirmi solo!</p>
+			<p>C. Pavese</p>
+		</body>
+	</text>
+</TEI>

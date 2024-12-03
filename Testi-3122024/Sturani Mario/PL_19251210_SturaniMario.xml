@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Monza.</p>
+			<p>[Torino,] 10 dicembre 1925</p>
+			<p/>
+			<p>Caro Mario,</p>
+			<p>è straordinario. Ciascuno di noi due si sente inferiore all'altro e prova come un piacere acre a dichiararsi piccolo, meschino. Ma nota: ognuno di noi si sente anzitutto se stesso ed io credo che per nulla al mondo tu vorresti mutarti in me, come io per nulla al mondo vorrei mutarmi in te. Siamo insoddisfatti tutti e due, ecco tutto: ottimo segno questo, ché, se non fosse la tema di restare indietro che ci stimola, non faremmo più nulla. Consolati: è segno (e qui intona la Marcia Reale) che noi siamo destinati a grandi</p>
+			<p>cose.</p>
+			<p>Intanto, quel tuo paragonare il tuo sorriso a quel di Leonardo, mi dà da pensare. «Sorriso rassegnato» dici, ma non vi è solo un sorriso rassegnato sulle labbra delle figure di Leonardo, vi è tutto un mondo là sotto, e tu porti in volto, a mio parere, proprio il segno di tutto quel mondo.</p>
+			<p>Lasciando ora le considerazioni sul nostro ingegno, che discuterne non approda a nulla: fra trent'anni chi vivrà vedrà, ti voglio dire che la tua lettera mi ha dato una giornata di gioia piena, generosa, feconda (e speriamo che continui).</p>
+			<p/>
+			<p>Senti, mi voglio sgravare di un'idea che mi tormenta continuamente ed è il perno di tutto il mio mondo interiore.</p>
+			<p>Nella vita, in tutte le nostre azioni, anche nei sacrifizi, noi cerchiamo il piacere di noi stessi, la nostra soddisfazione, sia essa d'ordine materiale o d'ordine spirituale.</p>
+			<p>E ne traggo questa considerazione: «Perché debbo sprezzare, svillaneggiare, come fanno certi futuristi, tutto ciò che è passato?» Io dico: il passato è passato: usi, istituzioni, lingue, storia, tutto è caduto, morto per sempre, ma i sentimenti che hanno agitato gli uomini del passato e che vivono eterni nelle produzioni di tutte le arti, perché han da essere da me considerati come cosa morta? Un sentimento, quando tu lo provi, è cosa viva. E che cos'è l'arte se non un mezzo per cui si eterna in una forma un sentimento, un contenuto, che possa così essere rivissuto da tutti?</p>
+			<p>Perché dovrei rifiutare il piacere, l'esaltazione di rivivere (capisci: rivivere) una vita che, idealizzata nella sua forma d'arte, mi leva su di me stesso, «mi gonfia il petto d'un'ondata di poesia ardente»? S'io compongo qualcosa lo faccio colla speranza (!!!) che duri eterno, colla speranza che coloro che chiameranno passato il nostro tempo ne saranno ancora scossi, esaltati.</p>
+			<p>D'accordo però: provare questo piacere, questa soddisfazione di esaltarsi nelle opere altrui, come si prova qualunque altro piacere, soddisfazione della vita immanente, ma poi nella propria opera d'arte non mettersi a dire: «Il tale grande poeta ha fatto così, debbo far così anch'io, altrimenti non riesco a un'arte». Questo stagnare è assurdo poiché ogni tempo è inanzi tutto se stesso, anzi non è che se stesso: io godo, m'esalto in tutto ciò che posso, anche quindi nella comprensione delle opere del passato, ma poi, quando sono io a produrre, non cerco che di esprimere il più chiaramente, efficacemente possibile una mia esaltazione un mio sentimento. E questo mi pare non sia passatismo poiché la mia esaltazione il mio sentimento è moderno, attuale, è il mio spirito stesso.</p>
+			<p>Tutto questo ti avrò espresso un po' farraginosamente, poiché è questa la prima volta che mi provo a distendere per intero la mia teoria dell'arte. Cerca di raccapezzarti, se t'interessa e se non t'interessa passa senz'altro alla rubrica critica.</p>
+			<p/>
+			<p>Rubrica critica.</p>
+			<p>Passando alla Rubrica critica ti dirò: dei tuoi due componimenti poetici il primo, e lo dici tu stesso, non è di molto valore. Vi sono esposte nude e crude delle idee e il sentimento che nella tua anima le accompagnava non è espresso in modo da entrare con queste idee nell'anima del lettore. Ma questo non è assoluto: vi sono alcuni versi specialmente in principio (e non credere te lo dica, così, per addolcirti il boccone) che muovono l'anima. Quanto, poi, al pensiero, esso è buono e dice cose che anch'io penso.</p>
+			<p>E non credere che io, dicendo questo, mi ponga in contraddizione coi miei versi che tu hai tanto lodato: in quei versi io mi sfogo semplicemente del terrore, dell'ansia che mi prende al pensiero dell'agonia cosciente, lenta, lenta e invoco una morte istantanea «senza un rimpianto», la quale morte mi colga proprio in un istante di esaltazione, di gioia quindi.</p>
+			<p>Il tuo secondo componimento è migliore sotto il rispetto poetico, perché rende meglio il sentimento che tu vi hai voluto esprimere.</p>
+			<p>Sarebbe inutile analizzare partitamente ciascuno dei versi, tutti chiari, teneri, pieni dell'immagine e del sentimento che ti tormentava quando li scrivevi.</p>
+			<p>In tutta la poesia dura un far sommesso, vago, che non so ridirti. È cosa nuova. Il colore, dirò pittoricamente, il giuoco di bianco e nero di questi tuoi versi è meraviglioso; e così il vanire leggero delle immagini trasvolanti e l'andamento quieto, estatico dei versi che non hanno metro, ma snodano negli accenti, nelle parole, in tutto, un'armonia continua, piana, «un mormorio soave d’oltretomba» come tu stesso dici. E non manca neppure il pensiero, condensato mirabilmente nell'ultimo verso «...le mille larve d'un amore solo».</p>
+			<p>Ti ho detto tutto quello che sentivo, non di più, per adulazione, credilo. Sarei stato ben felice di trovarti inferiore, ma no: ascolta bene: a me pare che anche in poesia tu mi superi.</p>
+			<p>Ed ora ti domando se non ho da soffrire tremendamente di questo: poiché la poesia non è propriamente la tua arte, tu la tratti solo da dilettante. E vi riesci così! Io, che cosa debbo fare io, che ho posto tutto l'ideale della mia vita nella poesia?</p>
+			<p>E finalmente, eccoti la bomba, che buttai giù due mesi fa, una sera tornando da un cinematografo.</p>
+			<p/>
+			<p>Mi strugge l'anima perdutamente</p>
+			<p>il desiderio d'una donna viva;</p>
+			<p>spirito e carne, da poterla stringere</p>
+			<p>senza ritegno e scuoterla, avvinghiato</p>
+			<p>il mio corpo al suo corpo sussultante;</p>
+			<p>ma poi, in altri giorni più sereni,</p>
+			<p>starle d'accanto dolcemente, senza</p>
+			<p>più un pensiero carnale, a contemplare</p>
+			<p>il suo volto soave di fanciulla,</p>
+			<p>ignaro, come avvolto in un dolore</p>
+			<p>e ascoltare la sua voce leggera</p>
+			<p>parlarmi, lentamente, come in sogno.</p>
+			<p/>
+			<p>(Gli aggettivi del verso dieci vanno attribuiti a «volto» non a «me»).</p>
+			<p>Ed eccoti un'altra bomba, scritta un giorno che il professore lodò un mio componimento (come vedi, alla scuola di Dante, mi approfondisco in modestia).</p>
+			<p/>
+			<p>Logoro, disilluso, disperato</p>
+			<p>di mai riuscire a suscitar nell'anima</p>
+			<p>degli uomini una vampa di passione</p>
+			<p>con un'arte ben mia, così vivo</p>
+			<p>triste nei lunghi giorni... eppure a tratti</p>
+			<p>mi sento traboccare d'una vita</p>
+			<p>caldissima potente che se mai</p>
+			<p>riuscissi a esprimere, sarebbe colma</p>
+			<p>tutta la mia esistenza!</p>
+			<p/>
+			<p>Naturalmente, oltre al manoscritto, attendo la lettera di risposta e giudizi, giudizi, pensieri, opere, roba tua insomma, che ti senta parlare. Non lodi voglio (o almeno non solo lodi voglio) ma giudizi ragionati e tu puoi farli.</p>
+			<p>Non venirmi a contare di non farli, perché ti senti inferiore: son tutte storie queste, per scusare la tua pigrizia.</p>
+			<p>C. Pavese</p>
+			<p/>
+			<p>N. B. Guarda questo quadro se non è sublime: esso mi conferma sempre più nella preferenza che do, su tutti i quadri che conosco, alle opere del 1300 e '400: Beato Angelico, Lippo Lippi e gli altri, Botticelli...</p>
+		</body>
+	</text>
+</TEI>

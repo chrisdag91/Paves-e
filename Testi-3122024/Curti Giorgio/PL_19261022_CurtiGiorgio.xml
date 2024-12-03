@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Giorgio Curti, Bra.</p>
+			<p>[Torino,] 22 ottobre 1926</p>
+			<p>Io mi ho l'aria di un mendicante, spiritualmente. A tutti vado descrivendo le mie miserie interiori, come gli accattoni van mettendo in mostra la loro sordidezza. E per che cosa lo faccio? Per cercarne conforto? Per farmene vanto? Per cavarne una pagina d'arte? Chi lo sa? Anche quest'incertezza è parte, e parte grandissima della mia miseria.</p>
+			<p>Da questo viene il fatto che da due mesi a questa parte io vado rompendo le tasche a tutta la gente che ho magari appena conosciuto, con sequele di lamentazioni che non finiscono più. Ci son molti qua a Torino che te ne potrebbero dire qualcosa. Prenditi dunque anche tu la tua razione.</p>
+			<p>Sappi intanto che ho rivisto Monti, il quale è sempre allegro, sappi che ho ritrovato Monferini, e sappi infine che medito il suicidio. Basta, chi vivrà vedrà. Ti ringrazio del consiglio circa alla premilitare ma non ne farò nulla. Son diventato fatalista. Non muovo più un dito di mia iniziativa. Avvenga quel che vuole.</p>
+			<p>Sento poi che anche tu sei stanco e svogliato, che non hai più voglia di scrivere. Ascolta, te lo dico di cuore: finché sei ancora in tempo, cavati da quella strada dell'arte, che, se non ci si è nati sopra, c'è da soffrir troppo anche solo a costeggiarla. Io sono uno dei tanti. Non farti illusioni come me, quel povero me, che è ridotto ormai al personaggio del genio incompreso.</p>
+			<p>Noterai qua, che sono un po' incoerente colla prima lettera che ti scrissi dove ti dicevo di tenere la pratica dell'arte come un conforto, un divino conforto della vita. Ma che vuoi? In questo momento la penso così. Ormai sono a un tal punto di putrefazione spirituale che l'incoerenza non mi fa più né caldo né freddo.</p>
+			<p>O tornerò cristiano fervente o mi ammazzerò o diventerò matto o mi adatterò alla vitaccia: questo è il continuo balletto che suonano le mie idee. Non credo più a nulla, non valgo nulla, sono meschino, abbietto.</p>
+			<p>Ecco perché mi lamento sempre di non avere una donna. Pensaci un momento: come potrei osare di mettermi sul serio con una bellezza intelligente quando non ho da offrirle di mio che questi bei fiori del pensiero che ti ho detto?!</p>
+			<p>E quando mi sento così vuoto e fiacco da non resistere a un discorso pieno di arguzie e di lampi neppure con una scema? Mi dirai che ci sono dei più stupidi di me che han fortuna colle ragazze: d'accordo, ma quelli non sanno di essere stupidi. Io invece lo so, ecco tutto il mio male. So di aver nulla di mio che sia un po' degno. Ho sperato troppo prima di essere un colosso, per adattarmi ora, senza fare qualche bestialità, alla realtà nuda.</p>
+			<p>Basta. Piantiamola lì.</p>
+			<p>Tu dunque hai il tuo amore. Che cosa si fa quando si sente che un amico ha un'innamorata, o peggio una fidanzata? Si dice: Povero fesso, bisogna essere cascato da piccolo per legarsi così a diciannove anni. (Risposta uso De Benedetti). Basta che sia una donna di casa. (Risposta uso mia madre). Ooooooohhh! (R: uso Martoglio). Dev'esser meraviglioso amare così una donna! E essere amato! Non continuerei a lungo io per amor di varietà, ma certo, un bel volto, giovane così, mi sconvolgerebbe deliziosamente il cervello! (risposta istintiva mia).</p>
+			<p>Ma siccome ti ho detto che son debole debole senza una sola idea, tu puoi capire che sento De Benedetti e la penso come lui, e mi vergogno di aver avuto altre opinioni, sento mia madre.</p>
+			<p>Tu prendila come vuoi e di' due o tre &quot;pater noster&quot; per quel bel merlo che è la mia anima.</p>
+		</body>
+	</text>
+</TEI>

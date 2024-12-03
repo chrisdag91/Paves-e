@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Mario Sturani, Torino.</p>
+			<p>[Brancaleone,] 27 novembre [1935]</p>
+			<p/>
+			<p>Caro Sturani,</p>
+			<p>ho ricevuto le notizie su Torino e su Dan. A proposito, tu dovrai passare la visita di controllo dei riformati, e non c'è dubbio che andrai sotto. È inutile, quando un uomo si sposa o si vuole sposare, ci si mette sempre di mezzo la Storia e gli fa posare l'osso. Vedo che insisti per sapere titoli di libri da mandarmi: in quella lettera che ti scrissi il 20 settembre mezza in francese, te ne facevo un elenco molto vario ed elastico, dove tu puoi sempre attingere. E poi ne ho segnalati altri, scrivendo ai miei. Ma ti sconsiglio di spendere altri soldi; non va bene esagerare in beneficenza, perché a un certo punto non si guadagna più che l'odio del beneficiato.</p>
+			<p>Ora è cominciato l'inverno sotto forma di piogge, venti torrenziali e umidità notturne, che per la mia asma sono tanto pepe. Questo è brutto, perché, essendo qui il sonno l'unico passatempo non esasperante, sentirselo troncare tutte le notti moltiplica per x la durata dell'esilio.</p>
+			<p>Io faccio poesie senza gusto e senz'appetito, e m'accorgo che il mestiere di poeta non serve nemmeno a ammazzare il tempo, perché l'interesse al lavoro viene rarissimo, e troppe sono le ore che è necessario stare tetramente concentrati su un'idea che non c'è. Era già brutto a Torino questo, pensiamo qui.</p>
+			<p>Il mare, già così antipatico d'estate, d'inverno è poi innominabile: alla riva, tutto giallo di sabbia smossa; al largo, un verde tenerello che fa rabbia. E pensare che è quello d'Ulisse: figurarsi gli altri.</p>
+			<p>La grande attrattiva del paese sono i pesci, che a me non piacciono, e così mangio pietanza non più che un giorno o due alla settimana, quando ammazzano la vitella.</p>
+			<p>Ho quindi comperato una bella corda, l'ho adattata a nodo scorsoio, e tutte le mattine la insapono per tenerla pronta.</p>
+			<p>Mi servirà a guadagnarmi un po' di carne, quando i vicini mi chiameranno a prender parte all'impiccagione del maiale, che sta ora ingrassando in rigorosa castità.</p>
+			<p>Mi ha scritto tuo suocero una cartolina dove mi promette libri greci, e mi dà del commediante. Digli, per ora, che se non mi restasse almeno il conforto di recitare una parte, mi sarei già trucidato da un pezzo.</p>
+			<p>Avrai saputo anche tu che Pinelli ha fatto rappresentare una sconcissima commedia intitolata la Pulce d'Oro. Io l'avevo letta e l'avevo trovata nel solito suo stile, ma divertente. E sporca, sporca, peggio del Tutto Banda. Così va il mondo. Non può uscire il Dio-Caprone tutto pieno di castissime risoluzioni, e rappresentano siffatte sessualità. Farebbe meglio ad adoperare il credito di cui gode, per farmi tornare a casa. Ma lui pensa a far figli e commedie: due operazioni cui attende esercitando i medesimi organi. E tanto basti.</p>
+			<p>Saluti alla tua beccaccina</p>
+			<p>Pav.</p>
+		</body>
+	</text>
+</TEI>

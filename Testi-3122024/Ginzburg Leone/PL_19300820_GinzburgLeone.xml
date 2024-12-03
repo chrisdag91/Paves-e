@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Leone Ginzburg, Viareggio.</p>
+			<p>[Torino,] 20 agosto 1930</p>
+			<p>Ho ricevuto stamattina la risposta da Columbia (non da Prezzolini) che così suona:</p>
+			<p>Mi pregio mandarle i certificati richiesti per l'ammissione all'Università. Lei ha il permesso di iscriversi nelle Graduate Faculties (Facoltà per la laurea?) come studente fuori classifica.</p>
+			<p>Adempiuto un anno di lavoro soddisfacente Lei potrà far domanda per la completa immatricolazione nelle G. F. (Facoltà per la Laurea?)</p>
+			<p>I certificati sono due fogli uguali colla patacca rossa, dove si dice che per il 25 Settembre io sono atteso dal direttore dai segretari e dalle dattilografe, che so l'inglese abbastanza da seguire i corsi e che esso foglio deve bastare a chiunque verifichi il mio passaporto, che il console mi darà senz'altro dietro consegna di uno di questi fogli.</p>
+			<p>Né soldi, né cattedre. Prezzolini è due settimane che dovrebbe avermi risposto se c'è i soldi, ma dev'essere morto.</p>
+			<p>Rispondimi presto l'indirizzo di Farinelli. Intanto io cerco di saperlo da Antonicelli e appena ce l'ho gli scrivo dicendo che non è la maniera e che mi paghi i danni e gli interessi.</p>
+			<p>Non mi pare nemmeno probabile che arrivato dal direttore, questo mi dica in una lingua che non capisco &quot;C’è per lei 50 000 L. Aspetti che glie le do&quot;.</p>
+			<p>Comunque se Farinelli mi rispondesse che è così e che di soldi in America finora non ne han parlato per delicatezza, c'è da fidarsi?</p>
+			<p>Mi pare che le Eccellenze e i loro amici siano dei bei maiali. Ma se non vado, quest'inverno gli nascondo in tasca una poesia contro il duce e poi scrivo al medesimo segnalando l’insurrezione. Vacca Dio.</p>
+		</body>
+	</text>
+</TEI>
