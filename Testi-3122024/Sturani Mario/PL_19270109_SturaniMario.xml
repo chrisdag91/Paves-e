@@ -327,6 +327,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19270109_SturaniMario.xml?date_annotation_20241204203231127",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-04T19:32:31.127Z",
+	"dcterms:modified": "2024-12-04T19:32:31.127Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19270109_SturaniMario.xml?date_annotation_20241204203231127#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19270109_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19270109_SturaniMario.xml?date_annotation_20241204203231127#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1927-01-04"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -350,7 +428,7 @@
 			<p>Concludendo, forse il tuo male è di scrivere versi troppo spesso. Quei tuoi primi sono uno sforzo disperato di scrivere.</p>
 			<p>Sarà perché io non ho quell'anima di poeta che vorrei, ma ti dico che una mia poesia mi costa prima di cominciare a scriverla mesi interi di vita e di dolori.</p>
 			<p>Vedi se sono ormai il perfetto professore!</p>
-			<p>Ma senti qua il contravveleno. Li ho scritti il 4 gennaio alle 3 del mattino, dopo una serata errabonda e tre ore di crisi meditativa nella mia stanza.</p>
+			<p>Ma senti qua il contravveleno. Li ho scritti il <date when="1927-01-04">4 gennaio</date> alle 3 del mattino, dopo una serata errabonda e tre ore di crisi meditativa nella mia stanza.</p>
 			<p>Senti come l'ho cominciato bene io l'anno.</p>
 			<p>(Ti parrà un tragico voluto ma no: tutto vi è vero).</p>
 			<p/>
