@@ -169,6 +169,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19260831_SturaniMario.xml?person_annotation_20241204195434048",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-04T18:54:34.048Z",
+	"dcterms:modified": "2024-12-04T18:54:34.048Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19260831_SturaniMario.xml?person_annotation_20241204195434048#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19260831_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19260831_SturaniMario.xml?person_annotation_20241204195434048#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Vilma_Bánky",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -180,7 +259,7 @@
 			<p>Ha un volto strano, misterioso, che non è di quei volti misteriosi delle solite donne dette fatali, ma appare così per la serietà profonda di quei suoi occhi buoni insieme e intelligentissimi.</p>
 			<p>L'ho veduta per poco tempo ma sento in lei realmente qualcosa di superiore al comune delle sue compagne. Comprendo come tu te ne sia fatto il tuo ideale. Per quanto l'ho potuta conoscere, ne è degna.</p>
 			<p>Non spaventarti di tutto questo entusiasmo. Tu lo sai: "<quote cert="high" defective="unknown" generatedBy="human" source="#SenzaUnaDonnaDaSerrarmiAlCuore" xml:space="default">Senza una donna da serrarmi al cuore…</quote>" vengo su come un disperato e tutte le figure femminili che incontro incarnanti un qualche lato buono del mio spirito, me ne innamoro.</p>
-			<p>Così ho vissuto struggendomi per [...], così per quella piccola attrice americana che sai, così per venire a tempi più alla mano, mi sono esaltato per quella Wilma Banky e per la [...].</p>
+			<p>Così ho vissuto struggendomi per [...], così per quella piccola attrice americana che sai, così per venire a tempi più alla mano, mi sono esaltato per quella <persName key="Vilma Bánky" ref="http://dbpedia.org/resource/Vilma_Bánky">Wilma Banky</persName> e per la [...].</p>
 			<p>Ma ho detto male "me ne innamoro": non sono da tanto io. Quel che sento ripensando quelle figure è una ammirazione timida timida mista a un desiderio platonico platonico e fin ridicolo ad altri che a me (ma forse, e questo mi consola in parte, tu vai eccettuato da questi "altri").</p>
 			<p>E finora tutte queste donne che io sognavo così, diciamo, romanticamente, mi si scoprivano poi sbarazzine, puttanelle, qualcosa di ben diverso insomma.</p>
 			<p>Di [...] è inutile discorrere, che me ne avete dette troppe. Di quella "piccola attrice americana" proprio in questi giorni ho trovato la fotografia su per le pagine di una rivista: bella fotografia del resto, ma sotto c'era scritto "La soubrette M. B. in una delle sue pose più biricchine" e non era l'abbondanza dei vestiti quella che le nocesse. Per W. Banky non ho documenti precisi ma penso che un'attrice che sa abbracciare un uomo con tanto slancio e tanta passione così sulla scena, non dev'essere alle sue prime armi nella vita. Eppure è divino di dolcezza quel volto! Tale da lasciare lì l'anima a contemplarlo. Ma oramai ho imparato che la apparenza è ben diversa dalla realtà. Allora per reazione mi son detto: correggiamo questa realtà coll'arte. E così interamente quasi egoisticamente mi rinchiudo ad amare l'arte che sola è capace di pormi innanzi nella realtà un ideale sognato. Non è significativo questo che l'arte, il bel fiore che s'apre intero ogni volta che una civiltà è al suo sommo, sia una finzione tutta fatta di elementi immaginati il cui solo valore sta nel moto ch'essi san dare al nostro animo?</p>
