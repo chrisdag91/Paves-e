@@ -1668,6 +1668,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300405_ChiuminattoAntonio.xml?person_annotation_20241204140042582",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-04T13:00:42.582Z",
+	"dcterms:modified": "2024-12-04T13:00:42.582Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300405_ChiuminattoAntonio.xml?person_annotation_20241204140042582#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300405_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300405_ChiuminattoAntonio.xml?person_annotation_20241204140042582#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[20]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Claude_McKay",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1690,7 +1769,7 @@
 			<p>Ain't it really corking? And you can go on, he is always the same feller. I want to write something about these humorists: from <persName key="Charles Farrar Browne" ref="http://dbpedia.org/resource/Charles_Farrar_Browne">A. Ward</persName> to <persName key="Anita Loos" ref="http://dbpedia.org/resource/Anita_Loos">A. Loos</persName> they are an exceedingly interesting gang. Many things in your two-reel films - <persName key="Mack Sennett" ref="http://dbpedia.org/resource/Mack_Sennett">Mack Sennet</persName>, <persName key="Agatha Christie" ref="http://dbpedia.org/resource/Agatha_Christie">Christie</persName>, etc. - can be understood only by means of these “harbingers”.</p>
 			<p>Now, to pull on you the accustomed something, I should pray you to look after the publisher's imprint and the date of the first edition of <title key="Lowell, Joan. | Cradle of the deep" ref="http://viaf.org/viaf/7146155708724622580001/">Cradle of the Deep</title> by <persName ref="#JoanLowell">Joan Lowell</persName>, which work I read here in a translation and should like to know about in order to quote it right in an essay of mine. Get me? The imprint and the date, not the book: I know it already.</p>
 			<p>As for the works you intend to send me in your next mailing on <date when="1930-05">May</date>, you can keep an eye to the list you have already and besides I jot here someone more:</p>
-			<p>Claude Mckay - Amy Lowell - Ezra Pound - Countee Cullen. Whatever work of these authors and, note it, also of the preceding list's, will do. I say this for I remember having written there about some one: whatever work, and about some other: only certain books. Of both lists you can send me whatever book you find under whatever name. For instance, by Dos Passos, W. Carlos Williams, and W. Frank there is a lot of works I don't know about: you select and mail: I'll accept everything.</p>
+			<p><persName key="Claude McKay" ref="http://dbpedia.org/resource/Claude_McKay">Claude Mckay</persName> - Amy Lowell - Ezra Pound - Countee Cullen. Whatever work of these authors and, note it, also of the preceding list's, will do. I say this for I remember having written there about some one: whatever work, and about some other: only certain books. Of both lists you can send me whatever book you find under whatever name. For instance, by Dos Passos, W. Carlos Williams, and W. Frank there is a lot of works I don't know about: you select and mail: I'll accept everything.</p>
 			<p>I wonder what has happened to the second package of books you mailed the same day with the library's I got already. However, hardly I'll have it, I'll write you something about.</p>
 			<p>As for the photos, Maxim told me he will send you his, here you have mine. It's the only snapshot I got among my papers and so I send it. You photographers are damned slow people and I'll get a new good one only next week. I've waited already too much and so I send this. Hardly I'll have the new one, I'll write and enclose it. Now, look at ... But, you know, I'm a lovelier young fellow. Don't worry about and don't advertise me too much. Naturally I'm waiting for yours, at least, in your soup-and-fish, spiffy young man.</p>
 			<p>Always yours.</p>
