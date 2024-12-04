@@ -94,7 +94,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" cert="high" type="real">Mario Sturani</persName>, Celle Ligure.</p>
+			<p>A <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" cert="high" type="real">Mario Sturani</persName>, <placeName ref="#CelleLigure">Celle Ligure</placeName>.</p>
 			<p>[Reaglie, in risposta a una lettera dell'8 agosto 1926]</p>
 			<p/>
 			<p>Che ti scriva a lungo? Ma che cosa vuoi che ti scriva se non una delle solite cicalate? E per di più nella monotonia in cui vivo, non un soffio di ispirazione mi scuote mai. Niente. Ecco la parola che basterebbe per questa mia risposta.</p>
