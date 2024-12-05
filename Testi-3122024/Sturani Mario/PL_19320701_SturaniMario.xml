@@ -1057,7 +1057,7 @@
 			<p>Non esagerare coll'idolo negro perché quello è ottocento, abbonda invece di seghe che sono eterne.</p>
 			<p>Pavese</p>
 			<p/>
-			<p>N. B. È morto mio zio Olimpio. Da grand'uomo. Il comune è incazzato perché gli deve pagare l'ospedale di <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> e, dopo morto, han trovato che da tre mesi doveva avere un dolore atroce nella testa e non diceva niente, perché non fosse detta che lui aveva male. Paveis!</p>
+			<p>N. B. È morto mio zio <persName ref="#PaveseOlimpio">Olimpio</persName>. Da grand'uomo. Il comune è incazzato perché gli deve pagare l'ospedale di <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> e, dopo morto, han trovato che da tre mesi doveva avere un dolore atroce nella testa e non diceva niente, perché non fosse detta che lui aveva male. Paveis!</p>
 		</body>
 	</text>
 </TEI>
