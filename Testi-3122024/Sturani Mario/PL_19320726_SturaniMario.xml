@@ -880,6 +880,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320726_SturaniMario.xml?place_annotation_20241205203935340",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T19:39:35.340Z",
+	"dcterms:modified": "2024-12-05T19:39:35.340Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320726_SturaniMario.xml?place_annotation_20241205203935340#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320726_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320726_SturaniMario.xml?place_annotation_20241205203935340#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/233814474/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -891,9 +970,9 @@
 			<p>Il lavoro non te lo mando. Ormai è passato, non è capolavoro e quindi è inutile riparlarne. Ne farò altri e vedremo allora. Piacciono molto le mie nuove poesie, dai <title level="a" ref="#IMariDelSud_LavorareStanca36">Mari del Sud</title> in giù, e ne ho sei o sette. Non hanno però ancora lo schietto successo dei miei poemi sporchi e fino che non l'avranno, a te niente.</p>
 			<p>A proposito di poemi sporchi. <persName key="Mila, Massimo, 1910-1988" ref="http://viaf.org/viaf/64047669/" cert="high" type="real">Mila</persName> ti imita. Ha preso un sonetto di <persName key="Ugo Foscolo" ref="http://dbpedia.org/resource/Ugo_Foscolo">Foscolo</persName> e ne ha cavato discrete osservazioni sulla bernarda. Ebbe un grande successo la sera della bevuta per la laurea di Giacchero (Dott.) che rimpiangeva molto la tua assenza. Comunque quella sera io ho preso una tal sbronza che il festeggiato mi ha dovuto fare un'iniezione di caffeina.</p>
 			<p>Sto aspettando che la mia vita cambi. Di fare il critico non ne ho più voglia (non son mai stato capace a pigliarmi sul serio, in questo); il professore neanche; il traduttore meno ancora. Sono libero come un neonato, di scegliermi una posizione. Vedremo.</p>
-			<p>Non mi piace più molto nemmeno andare in Po. Siamo ben cambiati. Una volta ne avrei avuto un tormento per un mese ora non m'importa e medito opere. Vedremo.</p>
+			<p>Non mi piace più molto nemmeno andare in <placeName ref="#FiumePo">Po</placeName>. Siamo ben cambiati. Una volta ne avrei avuto un tormento per un mese ora non m'importa e medito opere. Vedremo.</p>
 			<p>Non farti più seghe che guasta la stabilità spirituale.</p>
-			<p>Ciau. Ti manderò presto l'indirizzo di Santo Stefano.</p>
+			<p>Ciau. Ti manderò presto l'indirizzo di <placeName key="Santo Stefano Belbo (Italy)" ref="http://viaf.org/viaf/233814474/">Santo Stefano</placeName>.</p>
 			<p>Pavese</p>
 		</body>
 	</text>
