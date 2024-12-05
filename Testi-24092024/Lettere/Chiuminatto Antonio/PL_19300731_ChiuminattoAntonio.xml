@@ -1042,7 +1042,7 @@
 			<p>So you think about the following books:</p>
 			<p/>
 			<p><persName ref="#AndersonSherwood" type="real">Sherwood Anderson</persName>:</p>
-			<p>Windy McPherson's Son (<date when="1916">1916</date>)</p>
+			<p><title ref="#WindyMcPhersonsSon">Windy McPherson's Son</title> (<date when="1916">1916</date>)</p>
 			<p>Marching Men (<date when="1917">1917</date>)</p>
 			<p>Mid-American Chants (poems - <date when="1918">1918</date>)</p>
 			<p><title level="m" ref="http://viaf.org/viaf/314848338/">Winesburg Ohio</title> (<date when="1919">1919</date>)</p>
