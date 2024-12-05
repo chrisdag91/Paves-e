@@ -1752,6 +1752,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19350920_SturaniMario.xml?date_annotation_20241205213337934",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T20:33:37.934Z",
+	"dcterms:modified": "2024-12-05T20:33:37.934Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19350920_SturaniMario.xml?date_annotation_20241205213337934#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19350920_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19350920_SturaniMario.xml?date_annotation_20241205213337934#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1400/1499"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1770,13 +1848,13 @@
 			<p/>
 			<p>α) qualunque sorta di romanzo moderno tedesco (tradotto beninteso). Non ne lessi mai nessuno.</p>
 			<p>β) qualunque opera di esegesi biblica (vecchio o nuovo testamento) o italiana o francese o inglese. Altrimenti tradotta. Ma sempre eretica (Vous voyez, mon ami, je suis toujours un peu barbet).</p>
-			<p>γ) Qualunque opera di peregrina fantasia, o erudizione, del ‘400, ‘500 o ‘600, a caso, ché tanto ne ho lette poche.</p>
+			<p>γ) Qualunque opera di peregrina fantasia, o erudizione, del <date from="1400" to="1499">‘400</date>, ‘500 o ‘600, a caso, ché tanto ne ho lette poche.</p>
 			<p>δ) Il nuovo <persName key="Franz Kafka" ref="http://dbpedia.org/resource/Franz_Kafka">Kafka</persName> di <orgName ref="#FrassinelliEditore">Frassinelli</orgName> (Cela gratuit de sa part, bien entendu).</p>
 			<p>ε) E infine qualunque altra opera voi stimiate degna di lettura o rilettura (escluso il vostro romanzo) (hors votre roman).</p>
 			<p/>
 			<p>E non mi parlerete un poco di vostra moglie amico mio? Voire parlez-moi d'amour.</p>
 			<p>N'est-elle pas même un peu enceinte? Hélas! Elle n'en sera que plus jolie.</p>
-			<p>Le bacio la mano, <persName key="Sturani Monti, Luisa" ref="http://viaf.org/viaf/27231647/" cert="high" type="real">Signora</persName>. Lei vede in me un miserabile esempio della volubilità della femmina Fortuna. Un <persName key="Odysseus" ref="http://dbpedia.org/resource/Odysseus">Odisseo</persName>, senza <persName key="Circe" ref="http://dbpedia.org/resource/Circe">Circe</persName>, che sospira il dolce ritorno. Un <persName key="Catullus" ref="http://dbpedia.org/resource/Catullus" cert="high" type="real">Catullo</persName> cui morì il passero; un Cavaliere della Triste Figura, un <persName ref="#Tristano">Tristano</persName> sulla carretta. Le bacio la mano. E domani? Dove saremo domani?</p>
+			<p>Le bacio la mano, <persName key="Sturani Monti, Luisa" ref="http://viaf.org/viaf/27231647/" cert="high" type="real">Signora</persName>. Lei vede in me un miserabile esempio della volubilità della femmina Fortuna. Un <persName key="Odysseus" ref="http://dbpedia.org/resource/Odysseus">Odisseo</persName>, senza <persName key="Circe" ref="http://dbpedia.org/resource/Circe">Circe</persName>, che sospira il dolce ritorno. Un <persName key="Catullus" ref="http://dbpedia.org/resource/Catullus" cert="high" type="real">Catullo</persName> cui morì il passero; un <persName ref="#CavaliereDellaTristeFigura">Cavaliere della Triste Figura</persName>, un <persName ref="#Tristano">Tristano</persName> sulla carretta. Le bacio la mano. E domani? Dove saremo domani?</p>
 			<p>Vostro affezion.mo</p>
 			<p>Pavese</p>
 		</body>
