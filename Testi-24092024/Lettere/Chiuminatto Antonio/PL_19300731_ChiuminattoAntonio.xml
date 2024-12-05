@@ -1106,6 +1106,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300731_ChiuminattoAntonio.xml?title_annotation_20241205114843848",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T10:48:43.848Z",
+	"dcterms:modified": "2024-12-05T10:48:43.848Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300731_ChiuminattoAntonio.xml?title_annotation_20241205114843848#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300731_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300731_ChiuminattoAntonio.xml?title_annotation_20241205114843848#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[18]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/312340634/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1126,7 +1205,7 @@
 			<p><title level="m" ref="#MidAmericanChants">Mid-American Chants</title> (poems - <date when="1918">1918</date>)</p>
 			<p><title level="m" ref="http://viaf.org/viaf/314848338/">Winesburg Ohio</title> (<date when="1919">1919</date>)</p>
 			<p><title level="m" ref="http://viaf.org/viaf/1542161332348852420009/">Poor White</title> (<date when="1920">1920</date>)</p>
-			<p>The Triumph of the Egg (<date when="1921">1921</date>)</p>
+			<p><title key="Anderson, Sherwood, 1876-1941. | Triumph of the egg a book of impressions from american life in tales and poems" ref="http://viaf.org/viaf/312340634/">The Triumph of the Egg</title> (<date when="1921">1921</date>)</p>
 			<p>Many Marriages (<date when="1922">1922</date>)</p>
 			<p>Note Book (<date when="1926">1926</date>)</p>
 			<p>Tar (<date when="1926">1926</date>)</p>
