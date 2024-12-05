@@ -881,6 +881,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320701_SturaniMario.xml?place_annotation_20241205202618573",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T19:26:18.573Z",
+	"dcterms:modified": "2024-12-05T19:26:18.573Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320701_SturaniMario.xml?place_annotation_20241205202618573#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320701_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320701_SturaniMario.xml?place_annotation_20241205202618573#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/233814474/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -894,7 +973,7 @@
 			<p>Non so se insieme a questa lettera ti potrò spedire anche l'opera – spero.</p>
 			<p>Vedo, da come parli di mangiare e lavorare, che godi la vita e ne cavi soddisfazioni più che materiali. Sta zitto che vengo a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName>. Se non riesco a trovare il veliero con cui fare un giro nel <placeName key="Mediterranean Sea  " ref="https://geonames.org/363196">Mediterraneo</placeName> secondo la mia idea per l'estate, vengo a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName>. Ci vengo, ci vengo. Tanto più che col monumento equestre avrai da mantenere anche me.</p>
 			<p>A ogni modo sappimi dire il minimo indispensabile di denari per partire di qui e portarmi lí e cominciare a fare les copies.</p>
-			<p>A <placeName key="Bra Piedmont Italy" ref="https://geonames.org/3181631">Bra</placeName> intanto ho trovato una collega che è di Santo Stefano e parliamo di là e facciamo dei pranzoni in giro, insultandoci e sempre amici. Quelle sono donne! Brutta come una scimmia, ma grande! Mi chiama Paveis coll'e larga!</p>
+			<p>A <placeName key="Bra Piedmont Italy" ref="https://geonames.org/3181631">Bra</placeName> intanto ho trovato una collega che è di <placeName key="Santo Stefano Belbo (Italy)" ref="http://viaf.org/viaf/233814474/">Santo Stefano</placeName> e parliamo di là e facciamo dei pranzoni in giro, insultandoci e sempre amici. Quelle sono donne! Brutta come una scimmia, ma grande! Mi chiama Paveis coll'e larga!</p>
 			<p>Frassinelli mi ha detto che ti manderà i libri, che sono venuti anche bene. C'è una storia di copertine che tu hai fatto male e di lì Frassinelli bestemmiava e poi diceva "povero giovane!" – ti spiegherà lui.</p>
 			<p>Non esagerare coll'idolo negro perché quello è ottocento, abbonda invece di seghe che sono eterne.</p>
 			<p>Pavese</p>
