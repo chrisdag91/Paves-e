@@ -1123,7 +1123,7 @@
 			<p><persName ref="#AndersonSherwood" type="real">Sherwood Anderson</persName>:</p>
 			<p><title ref="#WindyMcPhersonsSon">Windy McPherson's Son</title> (<date when="1916">1916</date>)</p>
 			<p><title key="Anderson, Sherwood, 1876-1941. | Marching men" ref="http://viaf.org/viaf/801145424645886830523/" level="m">Marching Men</title> (<date when="1917">1917</date>)</p>
-			<p>Mid-American Chants (poems - <date when="1918">1918</date>)</p>
+			<p><title level="m" ref="#MidAmericanChants">Mid-American Chants</title> (poems - <date when="1918">1918</date>)</p>
 			<p><title level="m" ref="http://viaf.org/viaf/314848338/">Winesburg Ohio</title> (<date when="1919">1919</date>)</p>
 			<p><title level="m" ref="http://viaf.org/viaf/1542161332348852420009/">Poor White</title> (<date when="1920">1920</date>)</p>
 			<p>The Triumph of the Egg (<date when="1921">1921</date>)</p>
