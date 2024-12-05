@@ -644,6 +644,162 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351102_SturaniMario.xml?date_annotation_20241205215332135",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T20:53:32.135Z",
+	"dcterms:modified": "2024-12-05T20:53:32.135Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351102_SturaniMario.xml?date_annotation_20241205215332135#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351102_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351102_SturaniMario.xml?date_annotation_20241205215332135#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-10-28"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351102_SturaniMario.xml?date_annotation_20241205215342591",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T20:53:42.591Z",
+	"dcterms:modified": "2024-12-05T20:53:42.591Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351102_SturaniMario.xml?date_annotation_20241205215342591#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351102_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351102_SturaniMario.xml?date_annotation_20241205215342591#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-10-09"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -654,11 +810,11 @@
 			<p>sei davvero un grande pittore. Dato che tutti i grandi pittori sono pedantissimi, tu batti l'<persName key="Fra Angelico" ref="http://dbpedia.org/resource/Fra_Angelico" cert="high" type="real">Angelico</persName>. Venite al mondo disprezzando l'estetica, perché è un'occupazione pedantesca, e quando vi capita di esporre le vostre teorie siete più noiosi di un filosofo professionista. Che bisogno c'era di spiegarmi la teoria idealistica del bello naturale, tutto perché io mi sono lamentato di non essere a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>? Lo so anch'io che anche a <placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName> posso immaginare i paesaggi torinesi riveduti e aumentati, ma il punto è che non riesco a immaginarli, vuoi per la noia vuoi per la troia.</p>
 			<p>Del resto, se sono gli sproloquii estetici che ti piacciono, ecco qui un estratto del mio giornale tale da far risuscitare un morto:</p>
 			<p/>
-			<p>28 ottobre "Comincia la…"</p>
+			<p><date when="1935-10-28">28 ottobre</date> "Comincia la…"</p>
 			<p/>
 			<p>oppure</p>
 			<p/>
-			<p>9 ottobre "È da meditare...".</p>
+			<p><date when="1935-10-09">9 ottobre</date> "È da meditare...".</p>
 			<p/>
 			<p>Ho ricevuto sì i libri e le pipe e non finisco mai di benedirti. Grazie del Fabre e del Casanova, ma per ora no. Il Fabre non m'interessa, e il Casanova è un regalo fatto e quindi non lo voglio indietro (anche perché potrebbe suscitarmi immagini troppo allegre, in questo paese dove tutti, parlando tra uomini, accennano goderecciamente all'Alta Italia).</p>
 			<p>Altra tua infrazione al tatto: non va bene, perchè tu hai una moglie a portata, chiedere all'amico in esilio se la sega ha ancora denti. È malvagio e brutale.</p>
