@@ -960,6 +960,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19350920_SturaniMario.xml?place_annotation_20241205205359733",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T19:53:59.733Z",
+	"dcterms:modified": "2024-12-05T19:53:59.733Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19350920_SturaniMario.xml?place_annotation_20241205205359733#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19350920_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19350920_SturaniMario.xml?place_annotation_20241205205359733#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/placeName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Magna_Graecia",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -968,7 +1047,7 @@
 			<p/>
 			<p>Caro <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/">Bacarozzo</persName>,</p>
 			<p>anzitutto è inutile che mi mandiate buste intestate – Hotel di qua Lago di là –. Sappiamo benissimo quali banali origini abbia il vostro patrimonio per prendere nella benché minima considerazione simili lustre da meccanico. Allo stesso modo ma con miglior diritto io potrei intitolarmi il Con. (-finato) di <placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505">Brancaleone</placeName> e gabbare con tale risonante e penoso equivoco la buona fede di ogni gentiluomo.</p>
-			<p>In secondo luogo date prova di scarso bon goût a parlarmi di poesia. Voi sapete per avermi aiutato nel trasloco che l'<placeName key="Elikónas Central Greece Greece" ref="https://geonames.org/262733">Elicona</placeName> è ormai solo sulla collina di <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> (e le ninfe fanno il bagno nel <placeName ref="#FiumePo">Po</placeName> e <persName key="Artemis" ref="http://dbpedia.org/resource/Artemis">Diana</persName> va a caccia sui corsi e il <placeName key="Parthenon Attica Greece" ref="https://geonames.org/8354432">Partenone</placeName> è la <placeName key="Torre Littoria" ref="http://dbpedia.org/resource/Torre_Littoria">Torre Littoria</placeName>). Come potete quindi parlarmi di ispirazione in terra d'esilio; o di Magna Grecia, quando di magne io non conosco che le note vostre (votres très bien connues) ispiratrici?</p>
+			<p>In secondo luogo date prova di scarso bon goût a parlarmi di poesia. Voi sapete per avermi aiutato nel trasloco che l'<placeName key="Elikónas Central Greece Greece" ref="https://geonames.org/262733">Elicona</placeName> è ormai solo sulla collina di <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> (e le ninfe fanno il bagno nel <placeName ref="#FiumePo">Po</placeName> e <persName key="Artemis" ref="http://dbpedia.org/resource/Artemis">Diana</persName> va a caccia sui corsi e il <placeName key="Parthenon Attica Greece" ref="https://geonames.org/8354432">Partenone</placeName> è la <placeName key="Torre Littoria" ref="http://dbpedia.org/resource/Torre_Littoria">Torre Littoria</placeName>). Come potete quindi parlarmi di ispirazione in terra d'esilio; o di <placeName key="Magna Graecia" ref="http://dbpedia.org/resource/Magna_Graecia">Magna Grecia</placeName>, quando di magne io non conosco che le note vostre (votres très bien connues) ispiratrici?</p>
 			<p><persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/" cert="high" type="real">Bacarozzo</persName>, siete volgare. Ma per non parlare oltre all'antico dipendente e rivolgermi invece all'amico, la tua lettera mi ha fatto un piacere folle e solo mi è dispiaciuto che hai aspettato tanto a farti vivo. Godo a sentirti sessantanovenne e mi ha invece fatto rabbia quando mi parli di <persName ref="#EnzoMonferini">Monferini</persName>. Chi sa perché, ma mi è diventato antipatico. Mi meraviglia però sentire che ti trovi solo. E la moglie è una scatola da scarpe? L'avessi io, la moglie.</p>
 			<p>Io non sto all'albergo, ma in una cameretta mobiliata piena di scarafaggi e che quando piove (l'inverno sarà tutto pioggia) si allaga come una barca. Inoltre, Capo Spartivento, spartisce davvero il vento e stanotte è il finimondo.</p>
 			<p>M'interessa mediocremente che a Torino abbia fatto caldo, mentre mi ha fatto piangere sentire della motonave Vittoria. O bei viluppi di schiene, folli schiacciate d'erba, oh tradimenti!</p>
