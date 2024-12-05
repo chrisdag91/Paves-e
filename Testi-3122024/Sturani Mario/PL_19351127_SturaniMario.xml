@@ -721,6 +721,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351127_SturaniMario.xml?person_annotation_20241205215832207",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T20:58:32.207Z",
+	"dcterms:modified": "2024-12-05T20:58:32.207Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351127_SturaniMario.xml?person_annotation_20241205215832207#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351127_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351127_SturaniMario.xml?person_annotation_20241205215832207#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Augusto_Monti",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -735,8 +815,8 @@
 			<p>La grande attrattiva del paese sono i pesci, che a me non piacciono, e così mangio pietanza non più che un giorno o due alla settimana, quando ammazzano la vitella.</p>
 			<p>Ho quindi comperato una bella corda, l'ho adattata a nodo scorsoio, e tutte le mattine la insapono per tenerla pronta.</p>
 			<p>Mi servirà a guadagnarmi un po' di carne, quando i vicini mi chiameranno a prender parte all'impiccagione del maiale, che sta ora ingrassando in rigorosa castità.</p>
-			<p>Mi ha scritto tuo suocero una cartolina dove mi promette libri greci, e mi dà del commediante. Digli, per ora, che se non mi restasse almeno il conforto di recitare una parte, mi sarei già trucidato da un pezzo.</p>
-			<p>Avrai saputo anche tu che Pinelli ha fatto rappresentare una sconcissima commedia intitolata la Pulce d'Oro. Io l'avevo letta e l'avevo trovata nel solito suo stile, ma divertente. E sporca, sporca, peggio del Tutto Banda. Così va il mondo. Non può uscire il Dio-Caprone tutto pieno di castissime risoluzioni, e rappresentano siffatte sessualità. Farebbe meglio ad adoperare il credito di cui gode, per farmi tornare a casa. Ma lui pensa a far figli e commedie: due operazioni cui attende esercitando i medesimi organi. E tanto basti.</p>
+			<p>Mi ha scritto <persName key="Augusto Monti" ref="http://dbpedia.org/resource/Augusto_Monti" cert="high" type="real">tuo suocero</persName> una cartolina dove mi promette libri greci, e mi dà del commediante. Digli, per ora, che se non mi restasse almeno il conforto di recitare una parte, mi sarei già trucidato da un pezzo.</p>
+			<p>Avrai saputo anche tu che Pinelli ha fatto rappresentare una sconcissima commedia intitolata la <title level="m" ref="#PulceDOro">Pulce d'Oro</title>. Io l'avevo letta e l'avevo trovata nel solito suo stile, ma divertente. E sporca, sporca, peggio del Tutto Banda. Così va il mondo. Non può uscire il Dio-Caprone tutto pieno di castissime risoluzioni, e rappresentano siffatte sessualità. Farebbe meglio ad adoperare il credito di cui gode, per farmi tornare a casa. Ma lui pensa a far figli e commedie: due operazioni cui attende esercitando i medesimi organi. E tanto basti.</p>
 			<p>Saluti alla tua beccaccina</p>
 			<p>Pav.</p>
 		</body>
