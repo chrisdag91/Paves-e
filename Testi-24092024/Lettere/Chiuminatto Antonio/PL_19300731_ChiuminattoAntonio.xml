@@ -168,6 +168,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300731_ChiuminattoAntonio.xml?date_annotation_20241205112844929",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T10:28:44.929Z",
+	"dcterms:modified": "2024-12-05T10:28:44.929Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300731_ChiuminattoAntonio.xml?date_annotation_20241205112844929#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300731_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300731_ChiuminattoAntonio.xml?date_annotation_20241205112844929#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "09"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -177,7 +255,7 @@
 			<p>My <persName ref="https://viaf.org/viaf/120757469/" type="real">dear Prof</persName>.,</p>
 			<p>Here is at last another literary specimen of mine to enjoy yourself. (You seem to fancy them).</p>
 			<p>I'll begin shrieking Haboy for your corking lingo - you are the most wonderful slanger (does it go?), nay you are turning out a regular writer, a creator of speech. I think someday the manager of "my" sheet will send me a best-seller by <persName ref="https://viaf.org/viaf/120757469/" type="real">Mr Chiuminatto</persName>-Haliburton to review. I won't fail then to point out my previous friendship with the <rs ref="https://viaf.org/viaf/120757469/">Big Boy</rs>.</p>
-			<p>Do you know, <persName ref="https://viaf.org/viaf/120757469/" type="real">Tony</persName>, that my essay (I beg y.p.: my and your essay) has done kind of a hit in the office of the manager and editor etc.? It will appear on the issue of September - maybe we are not so slow in the Old Land, eh? - and, tear your hair! they asked me for another of them criticisms on Sh. Anderson, our good old Sh. Anderson, whose complete works you will now have to find out, and borrow and send me. I hope you'll now compare no more your gracious self to the forsaken wife of gone-by days. Won't you?</p>
+			<p>Do you know, <persName ref="https://viaf.org/viaf/120757469/" type="real">Tony</persName>, that <rs ref="#UnRomanziereAmericanoSinclairLewis">my essay</rs> (I beg y.p.: my and your essay) has done kind of a hit in the office of the manager and editor etc.? It will appear on the issue of <date when="09">September</date> - maybe we are not so slow in the Old Land, eh? - and, tear your hair! they asked me for another of them criticisms on Sh. Anderson, our good old Sh. Anderson, whose complete works you will now have to find out, and borrow and send me. I hope you'll now compare no more your gracious self to the forsaken wife of gone-by days. Won't you?</p>
 			<p>Really, could you - which I think, at this season of the year, a little difficult - gather for me the works I want, I should be exceedingly grateful to your person.</p>
 			<p>I am expected to hand over my essay before New Year's Eve and so, you see, we have plenty of time to ferret out and mail and read the books. I'm, together with this letter, mailing back to you the Lewis with thanks to your friend Cand. Cady, and in some days I'll also have finished and packed the other ones: I've only three more of them to wade through.</p>
 			<p>So you think about the following books:</p>
