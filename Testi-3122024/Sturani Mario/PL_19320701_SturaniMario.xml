@@ -627,7 +627,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320701_SturaniMario.xml?place_annotation_20241205201549074#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[9]/placeName[2]"
+			"rdf:value": "TEI/text/body/p[9]/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -723,6 +723,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320701_SturaniMario.xml?place_annotation_20241205202410073",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T19:24:10.073Z",
+	"dcterms:modified": "2024-12-05T19:24:10.073Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320701_SturaniMario.xml?place_annotation_20241205202410073#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320701_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19320701_SturaniMario.xml?place_annotation_20241205202410073#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/363196",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -734,7 +813,7 @@
 			<p>Comunque, non ti han detto che erano esterrefatti: in mezzo a tutti i difetti sentivano Pavese, un correntone elettrico che dava la scossa a chi toccava. Sono contentissimo della mia opera fallita: e mangio, bevo, godo, vado in giro, ne faccio delle altre e sono io.</p>
 			<p>E si capisce che tu abbia sentito a distanza la vita che ci dev'essere in quest'opera e che non abbia avuto un minuto di incredulità sui miei fatti. È proprio stato lo stesso di quando tutti ti piangevano morto con <orgName ref="#CeramicheLenci">Lenci</orgName> e rottame umano e naufrago e imbischerito (persino il Grande <persName cert="high" ref="#MonferiniEnzo" type="real">Monferini</persName>); e io me ne infischiavo e dicevo che <persName key="Sturani, Mario, 1906-1978" ref="http://viaf.org/viaf/56763727/">Sturani</persName> è come il mare, come il cinema, come me, che sempre casca e sempre è in piedi. Perché noi, se anche fossimo ignoranti e nati e vissuti nelle montagne saremmo sempre grandi uomini: gli altri, se non avessero studiato i libri e sentito dire come si fa a diventare grandi uomini, sarebbero bischeri – e quindi lo sono tuttora.</p>
 			<p>Non so se insieme a questa lettera ti potrò spedire anche l'opera – spero.</p>
-			<p>Vedo, da come parli di mangiare e lavorare, che godi la vita e ne cavi soddisfazioni più che materiali. Sta zitto che vengo a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName>. Se non riesco a trovare il veliero con cui fare un giro nel Mediterraneo secondo la mia idea per l'estate, vengo a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName>. Ci vengo, ci vengo. Tanto più che col monumento equestre avrai da mantenere anche me.</p>
+			<p>Vedo, da come parli di mangiare e lavorare, che godi la vita e ne cavi soddisfazioni più che materiali. Sta zitto che vengo a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName>. Se non riesco a trovare il veliero con cui fare un giro nel <placeName key="Mediterranean Sea  " ref="https://geonames.org/363196">Mediterraneo</placeName> secondo la mia idea per l'estate, vengo a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName>. Ci vengo, ci vengo. Tanto più che col monumento equestre avrai da mantenere anche me.</p>
 			<p>A ogni modo sappimi dire il minimo indispensabile di denari per partire di qui e portarmi lí e cominciare a fare les copies.</p>
 			<p>A Bra intanto ho trovato una collega che è di Santo Stefano e parliamo di là e facciamo dei pranzoni in giro, insultandoci e sempre amici. Quelle sono donne! Brutta come una scimmia, ma grande! Mi chiama Paveis coll'e larga!</p>
 			<p>Frassinelli mi ha detto che ti manderà i libri, che sono venuti anche bene. C'è una storia di copertine che tu hai fatto male e di lì Frassinelli bestemmiava e poi diceva "povero giovane!" – ti spiegherà lui.</p>
