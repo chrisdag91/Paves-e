@@ -644,6 +644,244 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml?person_annotation_20241205221038572",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T21:10:38.572Z",
+	"dcterms:modified": "2024-12-05T21:10:38.572Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml?person_annotation_20241205221038572#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml?person_annotation_20241205221038572#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Alberto_Moravia",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml?title_annotation_20241205221136482",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T21:11:36.482Z",
+	"dcterms:modified": "2024-12-05T21:11:36.482Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml?title_annotation_20241205221136482#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml?title_annotation_20241205221136482#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/212909346/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml?person_annotation_20241205221156298",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-05T21:11:56.298Z",
+	"dcterms:modified": "2024-12-05T21:11:56.298Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml?person_annotation_20241205221156298#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Sturani%20Mario/PL_19351215_SturaniMario.xml?person_annotation_20241205221156298#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Dante_Alighieri",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -657,8 +895,8 @@
 			<p>Non capisco poi dove hai letto che io sono scoraggiato: che cosa significa questa parola? Il tormento è un'altra cosa (lo sai benissimo): è come il marchese delle donne e quando cessa nasce un figlio. Mi consigli di lavorare? Non ho bisogno di consigli. Quattro mesi, quattordici poesie, di cui sette superiori a ogni elogio. Il che non vuol dire che non abbia il diritto di saltare, di urlare e impiccare il maiale.</p>
 			<p>Aggiungerò (strettamente confidenziale): qui, sto bene, mi trattano con ogni civiltà, sono pagato per non far niente, realizzo insomma il mio ideale di vita (Michelaccio), e se seccature ho, sono il sale che mi dà sapore e importanza; dunque? Mi manca una cosa, una cosa sola, e per questo mi piace gridare e sfruttare ogni disagio (chi se ne infischia in realtà dei disagi?) pur di ottenerla nei limiti del possibile. Quale sia questa cosa non si può dirlo a un uomo sposato. E dunque? – ripeti tu – Perché secchi noi coi piagnistei? E allora lascio perdere ogni spiegazione, perché se non l'hai capita in 12 anni, non la capisci più.</p>
 			<p>Passando oltre, lettere come la mia prima, te ne potrei scrivere tutti i giorni, ma questo non significherebbe niente. Potrei scrivertene anche in punto di morte. Non capisci che mi diverto? Tanto ridendo, tanto lamentandomi? E che qualunque cosa scriva, è per me sempre materia di piacere? E che se dovessi scrivere esclusivamente per dare notizie, non mi scomoderei nemmeno? Tanto basti.</p>
-			<p>Ho già letto due dei libri ricevuti da te. Chi c'è stato una volta è un libro insopportabile con tutto quel parlare di prigione e di necessità di ritornarci. Non mandarmene un altro simile, nemmeno per scherzo. Dicevi poi che <persName key="Sturani Monti, Luisa" ref="http://viaf.org/viaf/27231647/">tua moglie</persName> (la bacio con affetto, signora) trovava brutto Moravia. Bubbole! È un libro scritto con i piedi, sbagliato nella psicologia, ambientato antipaticissimamente, ma spiritoso, tragico, avvincente, fenomenale: un romanzo d'appendice di gran razza. È meglio del cinema.</p>
-			<p>Sento da te, da tuo suocero, e da mia sorella che sono arrivate le cartoline prenotazione di Lavorare. Speriamo bene. Ma non sono ancora convinto che il libro esca. Quando un uomo scrive le più belle poesie del secolo, il calvario ha da essere più lungo. Come vedi, mi hai attaccato la mania di persecuzione. Però, che bellezza! Mi è capitato come a Dante Alighieri, Omero ed altri sommi.</p>
+			<p>Ho già letto due dei libri ricevuti da te. Chi c'è stato una volta è un libro insopportabile con tutto quel parlare di prigione e di necessità di ritornarci. Non mandarmene un altro simile, nemmeno per scherzo. Dicevi poi che <persName key="Sturani Monti, Luisa" ref="http://viaf.org/viaf/27231647/">tua moglie</persName> (la bacio con affetto, signora) trovava brutto <persName key="Alberto Moravia" ref="http://dbpedia.org/resource/Alberto_Moravia" cert="high" type="real">Moravia</persName>. Bubbole! È un libro scritto con i piedi, sbagliato nella psicologia, ambientato antipaticissimamente, ma spiritoso, tragico, avvincente, fenomenale: un romanzo d'appendice di gran razza. È meglio del cinema.</p>
+			<p>Sento da te, da tuo suocero, e da mia sorella che sono arrivate le cartoline prenotazione di <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">Lavorare</title>. Speriamo bene. Ma non sono ancora convinto che il libro esca. Quando un uomo scrive le più belle poesie del secolo, il calvario ha da essere più lungo. Come vedi, mi hai attaccato la mania di persecuzione. Però, che bellezza! Mi è capitato come a <persName key="Dante Alighieri" ref="http://dbpedia.org/resource/Dante_Alighieri">Dante Alighieri</persName>, Omero ed altri sommi.</p>
 			<p/>
 			<p>Va per la selva bruna</p>
 			<p>solingo il trovator,</p>
