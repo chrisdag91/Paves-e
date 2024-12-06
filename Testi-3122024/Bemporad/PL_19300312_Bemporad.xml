@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19300312_Bemporad.xml?place_annotation_20241206165913782",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T15:59:13.782Z",
+	"dcterms:modified": "2024-12-06T15:59:13.782Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19300312_Bemporad.xml?place_annotation_20241206165913782#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19300312_Bemporad.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19300312_Bemporad.xml?place_annotation_20241206165913782#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255149",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -255,7 +334,7 @@
 			<p>Egregio Signore,</p>
 			<p>leggo, nell'<title level="a" ref="#Appendice">Appendice</title> acclusa a un volume della <title level="m" ref="#CollezioneModernissima">Collezione Modernissima</title>, gli scopi e il programma che Ella si propone nel Suo ciclo di traduzioni di opere straniere contemporanee e specialmente nord-americane.</p>
 			<p>In particolare mi riferisco al Suo proposito di "costituire in Italia un gruppo di traduttori appassionati, di gusto e di competenza".</p>
-			<p>Ove Ella non avesse ancora intero il numero dei traduttori che Le occorrono, o la novità sempre crescente della materia ne chiedesse dei nuovi, vorrei renderle noto ch'io sono in grado di associarmi alla sua opera quale traduttore da romanzi nord-americani, possedendo al proposito una buona competenza e in più la possibilità di informarmi direttamente dagli Stati Uniti.</p>
+			<p>Ove Ella non avesse ancora intero il numero dei traduttori che Le occorrono, o la novità sempre crescente della materia ne chiedesse dei nuovi, vorrei renderle noto ch'io sono in grado di associarmi alla sua opera quale traduttore da romanzi nord-americani, possedendo al proposito una buona competenza e in più la possibilità di informarmi direttamente dagli <placeName key="North America  " ref="https://geonames.org/6255149">Stati Uniti</placeName>.</p>
 			<p>Se Ella vorrà avere la cortesia di tenere in considerazione questa mia offerta e scrivermi delle condizioni e delle proposte, Le potrò senz’altro mandare un saggio di detta competenza in una pagina di traduzione o esibire titoli di studio, com’Ella vorrà.</p>
 			<p>Oso, intanto, fermare la sua attenzione, come su autori di mio speciale studio, su Sherwood Anderson e Sinclair Lewis, il primo dei quali Ella stessa nomina nei suoi "Propositi". Non occorre certo che io insista con Lei sull'importanza del secondo che tuttora anche in Francia è interamente trascurato ed è pure tanto rappresentativo dell'America da promettere un sicuro successo.</p>
 			<p>Naturalmente parlo di questi due, ma sempre nel campo nordamericano considererei favorevolmente anche una diversa proposta.</p>
