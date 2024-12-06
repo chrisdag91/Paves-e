@@ -407,7 +407,7 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A Valentino Bompiani, <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName>.</p>
+			<p>A <persName cert="high" ref="#BompianiValentino" type="real">Valentino Bompiani</persName>, <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1930-10-14">14 ottobre 1930</date></p>
 			<p>Egregio Dottore,</p>
 			<p>ricevo la Sua del <date when="1930-10-13">13 c. m.</date> e sono spiacentissimo di non poter accettare la proposta dell'articolo anglo-americano per il Suo <title level="m" ref="#Almanacco">Almanacco</title>. Avendo avuti, e durandomi tuttora, altri impegni, poco mi sono occupato quest'anno delle produzioni in questione e mi occorrerebbe un certo tempo per raccogliere il materiale, specialmente quello illustrativo. Se accettassi, Le presenterei una cosa poco seria e poco degna della Sua pubblicazione.</p>
