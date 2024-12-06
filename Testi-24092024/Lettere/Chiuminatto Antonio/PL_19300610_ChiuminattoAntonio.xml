@@ -484,6 +484,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300610_ChiuminattoAntonio.xml?title_annotation_20241206145119639",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T13:51:19.639Z",
+	"dcterms:modified": "2024-12-06T13:51:19.639Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300610_ChiuminattoAntonio.xml?title_annotation_20241206145119639#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300610_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300610_ChiuminattoAntonio.xml?title_annotation_20241206145119639#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/3510157416832116710004/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -496,7 +575,7 @@
 			<p>I'm overflowing with merriment for the new books. I'll wade through them, certainly, however there be much other work to do.</p>
 			<p>Say, I'm becoming a true authority about American literature, I begin to feel chesty with my fellow-students, and especially with co-eds. But, let's on: it's you the fellow who is doing half the work.</p>
 			<p>As for the funnies you sent me, it's again an awfuly kind idea and such a one as only you can conceive. With these texts, and with your explanations, I'll not miss the time and the target. You bet: in those cuttings there's slang galore: I'm fattening on it, day after day.</p>
-			<p>With all my heart: don't worry so much after <persName key="Frank, Waldo David" ref="http://viaf.org/viaf/3741149068491165730000/">Frank</persName>'s City block (not "black" as you mistook it), it's a good hunch, the autograph's, but don't waste all your time about.</p>
+			<p>With all my heart: don't worry so much after <persName key="Frank, Waldo David" ref="http://viaf.org/viaf/3741149068491165730000/">Frank</persName>'s <title key="Frank, Waldo David, 1889-1967. | City block" ref="http://viaf.org/viaf/3510157416832116710004/" level="m">City block</title> (not "black" as you mistook it), it's a good hunch, the autograph's, but don't waste all your time about.</p>
 			<p>Also Sandburg and Co. I rec'd safely, and I'm here renewing my excuses for all that foolish ado I did.</p>
 			<p>I'm beginning now Lewis' Our Mr Wrenn always according that plan. I wrote you about: to get a thorough knowledge of him in order to put down that essay on his general work, the first essay on him in Italy. There's a road open to immortality! I've some new ideas about Lewis I want to bid. Va sans dire, if I'll get the publication I'll send you the issue. You should have been midwife to it! You certainly remember I asked you for some more Lewis books on loan, as Elmer Gantry, Main Street, The Man who knew Coolidge etc. and it's a pity you selected the ten aforesaid ones having not yet rec'd my hint. However, now it's done; and I'll be contented with the three of four books I possess and frame the essay on them.</p>
 			<p>Should you find some reviews in newspapers and magazines about Mr Lewis, I'll be awfully glad to know them, or an extract from them. You understand...</p>
