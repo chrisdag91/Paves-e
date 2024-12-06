@@ -324,6 +324,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300819_ChiuminattoAntonio.xml?date_annotation_20241206101829990",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T09:18:29.990Z",
+	"dcterms:modified": "2024-12-06T09:18:29.990Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300819_ChiuminattoAntonio.xml?date_annotation_20241206101829990#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300819_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300819_ChiuminattoAntonio.xml?date_annotation_20241206101829990#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1923"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -337,7 +415,7 @@
 			<p>Important: On the <date when="1930-09-01">1st of September</date> my address will change: the new one being <placeName ref="#TorinoViaLamarmora35" type="real">Via Lamarmora 35</placeName>.</p>
 			<p>By the way, I pray you, but take it leisurely, to look after the association conditions of the following reviews: "Transition", "The Scribner's" "Harper's Magazine" "This Quarter" "Poetry, a Magazine of Verse".</p>
 			<p>And please don't cease to pull on me slang galore. I feed on it, do you know?</p>
-			<p>I beg a hurried pardon and (in cauda venenum) give you a last order: borrow or buy it, send me <title level="m" ref="#TheCongo">Congo</title>, or <title level="m" ref="#TheChineseNightingale">The Chinese Nightingale</title>, or better than all, <title level="m" ref="#CollectedPoems">Collected Poems</title> (Macmillan 1923), by Vachel Lindsay.</p>
+			<p>I beg a hurried pardon and (in cauda venenum) give you a last order: borrow or buy it, send me <title level="m" ref="#TheCongo">Congo</title>, or <title level="m" ref="#TheChineseNightingale">The Chinese Nightingale</title>, or better than all, <title level="m" ref="#CollectedPoems">Collected Poems</title> (<orgName ref="#Macmillan">Macmillan</orgName> <date when="1923">1923</date>), by Vachel Lindsay.</p>
 			<p>Your always ashamed and never reformed friend</p>
 		</body>
 	</text>
