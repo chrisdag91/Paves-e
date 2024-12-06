@@ -485,13 +485,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19310404_Bemporad.xml?person_annotation_20241206172103725",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T16:21:03.725Z",
+	"dcterms:modified": "2024-12-06T16:21:03.725Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19310404_Bemporad.xml?person_annotation_20241206172103725#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19310404_Bemporad.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19310404_Bemporad.xml?person_annotation_20241206172103725#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Adolf_Loos",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Bemporad, Enrico, 1868-1944" ref="http://viaf.org/viaf/3278496/" cert="high" type="real">Enrico Bemporad</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1931-04-04">4 aprile 1931</date></p>
 			<p>Egregio Signore,</p>
-			<p>La ringrazio anzitutto del saldo inviatomi –  di cui accludo ricevuta –  e delle copie in più, del <title key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn" level="m">Signor Wrenn</title> e dei due volumi della Loos che ho avuto contemporaneamente.</p>
+			<p>La ringrazio anzitutto del saldo inviatomi –  di cui accludo ricevuta –  e delle copie in più, del <title key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn" level="m">Signor Wrenn</title> e dei due volumi della <persName key="Adolf Loos" ref="http://dbpedia.org/resource/Adolf_Loos">Loos</persName> che ho avuto contemporaneamente.</p>
 			<p>Non Le nascondo che le Sue osservazioni in merito alla traduzione mi hanno sorpreso. In tutta modestia, io credo di non aver fatto opera indegna della <orgName ref="#BemporadEditore">Sua Casa</orgName> e, quel che più importa, del testo che avevo dinanzi.</p>
 			<p>Mi preme farle osservare che il mio sforzo è stato appunto di far sì che "i lettori capissero il pensiero e gli atteggiamenti dei personaggi del romanzo".</p>
 			<p>E ad ottenere questo non c’era che un mezzo: intendere il più fedelmente possibile il testo e rendere quel che s’era inteso, non colla letterale equivalenza linguistica, ma col più italiano, col più nostro, sforzo di ri-creazione possibile.</p>
