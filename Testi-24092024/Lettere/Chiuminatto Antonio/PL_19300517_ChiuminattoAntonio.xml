@@ -878,6 +878,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300517_ChiuminattoAntonio.xml?place_annotation_20241206144038924",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T13:40:38.924Z",
+	"dcterms:modified": "2024-12-06T13:40:38.924Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300517_ChiuminattoAntonio.xml?place_annotation_20241206144038924#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300517_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300517_ChiuminattoAntonio.xml?place_annotation_20241206144038924#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3169070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -889,7 +968,7 @@
 			<p>So, you'll rec[eive], in a few days since, there in <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398" type="real">Chicago</placeName>, a little present I dare to make you, to sweeten - posthumosly (it's my habit) - your birthday. It is some liquor-center chocolates (Perugina!) you wrote me once you are so fond of. Please, accept it as a token of my friendship and good will, and don't worry about the trouble, as it is your hypocrite habit, or, if you really will worry about something, let it be about the pettiness of the gift and you'll be right.</p>
 			<p>Would the chocolates arrive in <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398" type="real">Chicago</placeName> someway marred (the shop-clerk assures me they become dried within, in a spell of time) you could then think that you are in Prohibition land and that the Gods are overlooking it. But the ditto clerk swore me the sweets had arrived the day before from the ... factory.</p>
 			<p>You have certainly rec'd now my two silly letters about the "lost" books, and you'll, I hope, excuse me for my flurry.</p>
-			<p>By the way, if you intend to go on with your mailings of library books (and I'll be tickled to death if you will), put, for the moment, any other name apart and send me only <persName ref="#LewisSinclare">Lewis</persName>'s books except <rs key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)">B</rs>... <rs key="Arrowsmith (novel)" ref="http://dbpedia.org/resource/Arrowsmith_(novel)">A</rs>... <rs key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn">W</rs>... which I got here. Will you? The reason is I want to know him perfectly in order to write about him, an essay asked for by a certain literary review of Rome. You hear: I'm hustling (and boosting accordingly). The essay would be presented in the summer, so, if you can, give me a lift.</p>
+			<p>By the way, if you intend to go on with your mailings of library books (and I'll be tickled to death if you will), put, for the moment, any other name apart and send me only <persName ref="#LewisSinclare">Lewis</persName>'s books except <rs key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)">B</rs>... <rs key="Arrowsmith (novel)" ref="http://dbpedia.org/resource/Arrowsmith_(novel)">A</rs>... <rs key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn">W</rs>... which I got here. Will you? The reason is I want to know him perfectly in order to write about him, an essay asked for by a certain literary review of <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070" type="real">Rome</placeName>. You hear: I'm hustling (and boosting accordingly). The essay would be presented in the summer, so, if you can, give me a lift.</p>
 			<p>Say, I'm yet waiting for your ritzy photo. And I've yet a grand news, I'll write about hardly I'll be sure of it and best wishes</p>
 		</body>
 	</text>
