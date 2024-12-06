@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,21 +11,21 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>Ad <persName ref="https://viaf.org/viaf/120757469/" type="real">Antonio Chiuminatto</persName>, Chicago.</p>
 			<p>[Torino,] 26 Nov. '30</p>
 			<p/>
-			<p>Dear Tony,</p>
+			<p>Dear <persName ref="https://viaf.org/viaf/120757469/" type="real">Tony</persName>,</p>
 			<p>I got your last letter of 11th. Nov. and make haste to reply. You'll receive separately the everlasting essay with the due dedication. I was greatly favoured by the Nobel Prize and many a guy, who should otherwise have ignored my (b.y.p. your) work, has been obliged to sling his five lire on the counter. I am the only person in Italy to-day who knows all about Lewis, and so I'm highly priced on the market. Our plodding begins coming home, does not it?</p>
-			<p>But, there is sad news. Buddy, you know, my mother is dead. I should be lonely as the devil, were it not for my good married sister with whom I'm dwelling now. Of course, I'm pretty well... I only wanted you to know.</p>
+			<p>But, there is sad news. <rs ref="https://viaf.org/viaf/120757469/">Buddy</rs>, you know, my mother is dead. I should be lonely as the devil, were it not for my good married sister with whom I'm dwelling now. Of course, I'm pretty well... I only wanted you to know.</p>
 			<p>Leaving dirges aside, I get along thanking you for your kind troubles. Only, about that terrible Anderson-fellow, be careful - if you are yet in time -: wipe from the list Winesburg, Ohio and Poor White. (I found here a cultured lady who lent them to me). Of course, if you have already bought them, it is my absolute will to have them and pay for.</p>
 			<p>As things are now, I should be satisfied upon receiving only more Mid-American Chants and Hello Towns (absolutely both). I think I could manage to get my article on that.</p>
 			<p>Do you know, my boy, I'm translating Our Mr Wrenn? The Nobel Prize's awakened Eyetalian publishers and I'm drudging now six hours a day about this book. New worries for you. Of course there is something here and there I'm afraid I don't quite understand, and so I'll send you someday the very book with all difficult words underlined... will you then be so kind, as to send me, a last time, some of your thorough explanations? Honestly, let me know before, whether you have the time.</p>
 			<p>Surely, your bargains are all genius strokes and I can only compliment myself for having stumbled on such an agent... I beg your pardon, I'll pay you next time. I've now not the time to get the greenbacks and I want you to have the letter.</p>
 			<p>Thank you for the explanations on gangster life which truly is turning out every day more as the lovely Mafia, and don't take much trouble about Put on the Spot. Take care of your health. You are lucky enough, gangsters did not put an eye on fiddling-teaching the way they did on beauty-shops.</p>
-			<p>Miss Franchi wrote you about the &quot;Lega d'insegnamento&quot;, she says to me. But, as yet, you don't know anything about my (your!) new English class. I keep in the same room perhaps, where you had yours. What brazen-facedness! And say, among my she-pupils there are some exceedingly good-lookers, hot-scorching-mamas, we should say. My dear, old timer, I feel swoozie, while begetting English nonsenses in their youthful minds (ah!). I'm seriously thinking about love, do you know, &quot;that way&quot;, love and death, all this stuff, going wild, my boy. Nope, be sure, we'll yet meet in lil ole Manhattan.</p>
+			<p>Miss Franchi wrote you about the "Lega d'insegnamento", she says to me. But, as yet, you don't know anything about my (your!) new English class. I keep in the same room perhaps, where you had yours. What brazen-facedness! And say, among my she-pupils there are some exceedingly good-lookers, hot-scorching-mamas, we should say. My dear, old timer, I feel swoozie, while begetting English nonsenses in their youthful minds (ah!). I'm seriously thinking about love, do you know, "that way", love and death, all this stuff, going wild, my boy. Nope, be sure, we'll yet meet in lil ole Manhattan.</p>
 			<p/>
 			<p>P.S. Say, book-clerk, would it not be possible to let Sinclair Lewis, - I mean, the actual Mr Lewis -have as a humble token of my admiration a copy of the everlastingly blooming essay? Try and find out his address. 'Twould be great, would it not?.</p>
 			<p/>
