@@ -405,6 +405,162 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300621_ChiuminattoAntonio.xml?date_annotation_20241206152537727",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T14:25:37.727Z",
+	"dcterms:modified": "2024-12-06T14:25:37.727Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300621_ChiuminattoAntonio.xml?date_annotation_20241206152537727#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300621_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300621_ChiuminattoAntonio.xml?date_annotation_20241206152537727#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1930-06-05"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300621_ChiuminattoAntonio.xml?date_annotation_20241206152557840",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T14:25:57.840Z",
+	"dcterms:modified": "2024-12-06T14:25:57.840Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300621_ChiuminattoAntonio.xml?date_annotation_20241206152557840#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300621_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300621_ChiuminattoAntonio.xml?date_annotation_20241206152557840#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1930-06-07"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -412,7 +568,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1930-06-21">21 giugno 1930</date></p>
 			<p/>
 			<p>Dear <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Tony</persName>,</p>
-			<p>Gosh all fish-hooks! It's my lot to-day to be lectured by all. I've been lectured by the Board of Teachers of the <orgName ref="#UniversitadiTorino" type="real">University</orgName> about the fondness of slang I showed in my degree (which I got safely, I'm Ph.D. now, ah!) - late in the night coming home a little tight I found both your letters of 5th and 7th and worried myself infinitely about your lecture on comparative Italian and American fastness - at last, going this morning to the office to retire Lewis' goods I got together with them some curt advice about the best manner to pack things: "Write to the forwarder, let him know, his frequent mailings of 'books' have been noted, customs begins to feel obliged to open your packages, so let him pack them more loosely (it's the word), it will be a easier 'understanding'".</p>
+			<p>Gosh all fish-hooks! It's my lot to-day to be lectured by all. I've been lectured by the Board of Teachers of the <orgName ref="#UniversitadiTorino" type="real">University</orgName> about the fondness of slang I showed in my degree (which I got safely, I'm Ph.D. now, ah!) - late in the night coming home a little tight I found both your letters of <date when="1930-06-05">5th</date> and <date when="1930-06-07">7th</date> and worried myself infinitely about your lecture on comparative Italian and American fastness - at last, going this morning to the office to retire Lewis' goods I got together with them some curt advice about the best manner to pack things: "Write to the forwarder, let him know, his frequent mailings of 'books' have been noted, customs begins to feel obliged to open your packages, so let him pack them more loosely (it's the word), it will be a easier 'understanding'".</p>
 			<p>Get me? My buddy, you go on packing them in your wonted accurate way, if they get damaged, it is we must pay, no? Let custom-officers pry and ferret out - they are on the job for that.</p>
 			<p>Now, all this turns out to cast the blues on me. I'm very, very much displeased my contradictory orders have driven you in such a mess, and I can only excuse a little my rashness thinking how I did not know nothing about your welcomest mailing of ten books when I wrote you about Lewis!</p>
 			<p>And I feel the more worried as you also put down that your hurry and scurry gets you in wrong, and you worry about it and go fetching ways to repair. Certainly now that it is done, I've only to thank you a thousand times for your second expedition of books also and I'm beginning to wade through them which I cheerfully hope to succeed in, but, as far the general principle, you must not go fetching you so much trouble and hustle so, and disturb so many persons (e.g. your landlady) for your ungrateful buddy's sake. You see, till now I've only always answered to your kindest boons with always growing boldness. Now, I must stop, absolutely, and for the first time I'll try to write you a letter without asking for something.</p>
