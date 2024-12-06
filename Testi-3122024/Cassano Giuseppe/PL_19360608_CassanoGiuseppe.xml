@@ -877,6 +877,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Cassano%20Giuseppe/PL_19360608_CassanoGiuseppe.xml?person_annotation_20241206180217330",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T17:02:17.330Z",
+	"dcterms:modified": "2024-12-06T17:02:17.330Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Cassano%20Giuseppe/PL_19360608_CassanoGiuseppe.xml?person_annotation_20241206180217330#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Cassano%20Giuseppe/PL_19360608_CassanoGiuseppe.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Cassano%20Giuseppe/PL_19360608_CassanoGiuseppe.xml?person_annotation_20241206180217330#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/William_Shakespeare",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -888,7 +967,7 @@
 			<p>Io La stupirò forse, ma Le debbo confessare che sono tra i critici del <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">mio libro</title> il più convinto di una sua tara morale, e di una debolezza, di un'insufficienza umana tali che me lo rendono odioso ormai anche all'olfatto. Ma i libri sono come i figli - parlo senz’esperienza -: si conoscono solo una volta fatti, quando insomma non si è più a tempo a farli meglio. Occorrerà se si vuole riparare farne degli altri.</p>
 			<p>Questo voglio dirLe. A parte i giudizi particolari su <title level="a" ref="#Deola_LavorareStanca36">Deola</title> e sul <title level="a" ref="#RitrattoDAutore_LavorareStanca36">Ritratto d'autore</title> - credo fermamente la prima poesia un umano atto di tenerezza verso quella disgraziata, e nella seconda so importanti non solo gli odori e la barba, ma anche la meraviglia estiva dell'immobilità e dell'indolenza - a parte i particolari, su cui ci si può sempre intendere, è essenzialmente risolutivo che Ella finita la lettura abbia sentito il bisogno di prendere la penna e sfogare un'indignazione morale. Non si tratta qui di belle o di brutte poesie, ma di una concezione della vita piuttosto che di un’altra, ed io La lodo di avere, da una parte svincolato così nettamente il [profilo?] morale da quello estetico, e dall’altra di avermi fatto capire che, se a un lettore colto e intelligente, come Lei è indubbiamente, non risulta tutto quel vigore etico che io mettevo nelle mie invenzioni, il fatto è che di vigore etico nei miei carmi non ce n’è molto.</p>
 			<p>Se fossi, o valesse la pena di essere, un polemista potrei controbattere molte asserzioni Sue: la donna usata come macchina? e la poesia intitolata appunto <title level="a" ref="#LavorareStanca_LavorareStanca36">Lavorare stanca</title>? La madre disprezzata dal figlio porco? e <title level="a" ref="#Proprietari_LavorareStanca36">Proprietari</title>? L'insofferenza poetica del lavoro? e <title level="a" ref="#IMariDelSud_LavorareStanca36">I mari del Sud</title>? Ma la questione è qui sull’insieme, sul timbro morale dell’insieme; e non c’è da discutere, questo timbro o suona schietto o suona fesso. E visto quanto poco io sia riuscito a far almeno apparire degno un mondo in cui pure un tempo ho creduto, non posso che concludere "Ho suonato fesso".</p>
-			<p>In poche parole, l'idea delle mie poesie, astratta di volta in volta per decantazione, non anticipata in tesi, era questa: rappresentare un mondo (in cui l’autore entrasse come semplice personaggio e non con la prepotente sicumera del lirico che si canta), un mondo di giovani che vivono contenti e meravigliati delle cose reali, che si muovono con mattutina spensieratezza tra gli uomini, che non rifiutano di fare una risata o una nuotata o una bevuta o anche, perché no?, una chiavata, ma che sopratutto amano i gesti semplici e netti, le situazioni chiare, il riposo dopo la fatica, la fatica dopo il riposo. Quanto alle donne, i miei giovani non sono più adolescenti, quindi niente fanciulle angelicate; non sono ancora viri, niente quindi coppie responsabili e lavoro costruttivo e complesso. Le donne nel mio libro si chiamano compagne: ciò vuol dire che non sono soltanto strumenti occasionali e che non sono ancora spose. Sono camerati della vita, sovente graditi (<title level="a" ref="#Maternità_LavorareStanca36">Maternità</title>) e sovente scocciatori (<title level="a" ref="#Tradimento_LavorareStanca36">Tradimento</title>). Che poi io abbia affermato (<title level="a" ref="#Antenati_LavorareStanca36">Antenati</title>) le donne non contare in famiglia, non vuol dire che io insegni a insultare la propria madre, ma soltanto significa che in un momento particolare della sua esperienza il mio protagonista giovinetto si attacca disperatamente al senso di forza e di virilità che gli spira dalla tradizione paesana, e idealizza un poco il sacrosanto misoginismo di ogni piemontese, che per quanto '<date from="1901" to="1999">900</date> stima sempre un po’ la moglie alla Shakespeare un "gracious silence".</p>
+			<p>In poche parole, l'idea delle mie poesie, astratta di volta in volta per decantazione, non anticipata in tesi, era questa: rappresentare un mondo (in cui l’autore entrasse come semplice personaggio e non con la prepotente sicumera del lirico che si canta), un mondo di giovani che vivono contenti e meravigliati delle cose reali, che si muovono con mattutina spensieratezza tra gli uomini, che non rifiutano di fare una risata o una nuotata o una bevuta o anche, perché no?, una chiavata, ma che sopratutto amano i gesti semplici e netti, le situazioni chiare, il riposo dopo la fatica, la fatica dopo il riposo. Quanto alle donne, i miei giovani non sono più adolescenti, quindi niente fanciulle angelicate; non sono ancora viri, niente quindi coppie responsabili e lavoro costruttivo e complesso. Le donne nel mio libro si chiamano compagne: ciò vuol dire che non sono soltanto strumenti occasionali e che non sono ancora spose. Sono camerati della vita, sovente graditi (<title level="a" ref="#Maternità_LavorareStanca36">Maternità</title>) e sovente scocciatori (<title level="a" ref="#Tradimento_LavorareStanca36">Tradimento</title>). Che poi io abbia affermato (<title level="a" ref="#Antenati_LavorareStanca36">Antenati</title>) le donne non contare in famiglia, non vuol dire che io insegni a insultare la propria madre, ma soltanto significa che in un momento particolare della sua esperienza il mio protagonista giovinetto si attacca disperatamente al senso di forza e di virilità che gli spira dalla tradizione paesana, e idealizza un poco il sacrosanto misoginismo di ogni piemontese, che per quanto '<date from="1901" to="1999">900</date> stima sempre un po’ la moglie alla <persName key="William Shakespeare" ref="http://dbpedia.org/resource/William_Shakespeare">Shakespeare</persName> un "gracious silence".</p>
 			<p>Questa era dunque la mia intenzione etica nella composizione di <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">Lavorare stanca</title>: un paesaggio e delle figure, segnate con semplicità e con forza e, se possibile, con arguzia, a indicare la virtù loro propria di solido ottimismo, di attaccamento giovanile alla vita e alle cose, e di pronto sorriso. A questo scopo facevo concorrere lo stile, disadorno e schietto, rapido e maschio, e il verso, che cercavo di spogliare di ogni fronzolo e colare sostanzioso e sostenuto.</p>
 			<p>Ma perché ho messo in scena certi tipi tanto abbietti? Anzitutto, perché son vissuto nel loro mezzo, poi perché - simpatia congenita - quelli mi commuovevano ed altri no. E per bruciare l'ultima cartuccia, le dirò che Ella sbaglia supponendo che i salotti mondani e letterari applaudano alle mie poesie. C’è appunto troppo odore di sterco e di vino e di sudore e troppa voluta semplicità e chiarezza nelle mie situazioni perché io possa piacere veramente a quella gente. Diranno magari "quanto ingegno!" ma non leggeranno due volte lo stesso verso.</p>
 			<p>Tutto questo obiettato, ritorno alla Sua critica: il timbro morale del mio libro è piuttosto di perversione che non di sanità. Sarò con Lei tanto sincero da confessare che ciò avevo sempre temuto; sempre mi aveva preoccupato la frequenza e compiacenza con cui toccavo argomenti erotici. Mi dicevo: ma son parole fresche come l’acqua, non c'è vizio, non c’è decadenza, è come la sculacciata che dà l'operaio alla compagna d’uscita e tutto finisce lì, è insomma buon umore. Ma non mi liberavo dal timore che un pochino di sfogo fisico ci fosse in quelle fantasie. Come risolvere la questione? Aspettare il giudizio di una persona sana e normale, mi dicevo.</p>
