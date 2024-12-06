@@ -483,6 +483,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19310326_Bemporad.xml?person_annotation_20241206171542555",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T16:15:42.555Z",
+	"dcterms:modified": "2024-12-06T16:15:42.555Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19310326_Bemporad.xml?person_annotation_20241206171542555#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19310326_Bemporad.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Bemporad/PL_19310326_Bemporad.xml?person_annotation_20241206171542555#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/4473158792909839040006/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -490,7 +570,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1931-03-26">26 marzo [1931]</date></p>
 			<p>Egregio Signore,</p>
 			<p>ringrazio a mezzo Suo la <orgName ref="#BemporadEditore">Casa Editrice</orgName> dell'invio delle cinque copie del <title key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn" level="m">Nostro Signor Wrenn</title>. Vorrei pregarLa di farmi avere, se possibile, al più presto, a termini del nostro contratto <date when="1930-11-11">11 novembre '30</date>, il saldo del medesimo, tanto più che in esso si parla di pagamento all'approvazione del manoscritto.</p>
-			<p>Quanto a eventuali recensori del libro non conosco che di nome Alessandra Scalero la traduttrice di Babbitt, ma dubito che ci possa essere favorevole (Casa Editrice Modernissima).</p>
+			<p>Quanto a eventuali recensori del libro non conosco che di nome <persName key="Scalero, Alessandra 1893-1944" ref="http://viaf.org/viaf/4473158792909839040006/" cert="high" type="real">Alessandra Scalero</persName> la traduttrice di Babbitt, ma dubito che ci possa essere favorevole (Casa Editrice Modernissima).</p>
 			<p>Sarei grato alla Casa, di ricevere ancora qualche copia del Nostro Sign. Wrenn e, se è possibile, non troppo tardi.</p>
 			<p>Attendendo una loro cortese</p>
 			<p>devotissimo C. P.</p>
