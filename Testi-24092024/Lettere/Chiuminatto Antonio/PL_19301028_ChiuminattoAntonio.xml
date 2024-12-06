@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,18 +11,97 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19301028_ChiuminattoAntonio.xml?place_annotation_20241206105328283",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T09:53:28.283Z",
+	"dcterms:modified": "2024-12-06T09:53:28.283Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19301028_ChiuminattoAntonio.xml?place_annotation_20241206105328283#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19301028_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19301028_ChiuminattoAntonio.xml?place_annotation_20241206105328283#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Ad Antonio Chiuminatto, Chicago.</p>
-			<p>[Torino,] 28th Oct. '30</p>
+			<p>Ad <persName ref="https://viaf.org/viaf/120757469/" type="real">Antonio Chiuminatto</persName>, <placeName ref="https://geonames.org/4887398" type="real">Chicago</placeName>.</p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] 28th Oct. '30</p>
 			<p/>
 			<p>Dear Thon,</p>
 			<p>And so we're getting along pretty well, my boy, ain't we?</p>
 			<p>I'm shamefully late in replying to you, almost hopelessly late. Anyhow, here I am. Surely, I got the Lewis' short story and the two next Andersons, the Testament and the Triumph. You bought them, I think, and I'm now waiting for the bill stuff, do you know? Buy some more, buy all you can. I'm sure you'll do things better than I.</p>
 			<p>As for Bongo, the short story by S. Lewis, maybe it ain't the old cookie! Here we have a little George F. Babbitt, in the shape of a circus bear lost in the funniest predicament: a clan of wild bears shocked with Bongo's civilized effeminacies, and what not. In it, however, our Lewis is no more much of a slang-slinger, but never mind. Perhaps it is I that have got so deep-rooted a slang-culture not any more to feel the novelties.</p>
 			<p>I thank you for the gift. Ditto be said for all your other designs, your troubles, Put on the spot etc. I'm on this side of the Atlantic gaping: not only your kindness is enormous but also it is everlasting.</p>
-			<p>Now rejoice, old-timer, ferret out a prescription and with bells on get yourself sousy, cockeyed do death! Last week I rec'd the draughts of our essay to correct! In another week it will appear and you'll get it in three more. They procrastinated the whole, on account of its length: about a score of sheets! Five hundred &quot;caviglie&quot; to guzzle and destroy! Your lire! I'll toast to your health till my own will be practically gone. Hand, hand over only more books and I'll sweep the whole of the peninsula with essays galore! Slap it in the face of 'em, Big Boy, slap into them!</p>
+			<p>Now rejoice, old-timer, ferret out a prescription and with bells on get yourself sousy, cockeyed do death! Last week I rec'd the draughts of our essay to correct! In another week it will appear and you'll get it in three more. They procrastinated the whole, on account of its length: about a score of sheets! Five hundred "caviglie" to guzzle and destroy! Your lire! I'll toast to your health till my own will be practically gone. Hand, hand over only more books and I'll sweep the whole of the peninsula with essays galore! Slap it in the face of 'em, Big Boy, slap into them!</p>
 			<p>I got also the Trio Chiuminatto, the all-round-the-world-famous three Brothers and I wondered at the sturdy Jesuit. Fine stock ain't it? And you, the handle of them all! I hope to see you breathing someday in such a medium: 'twill be a glorious sunrise, then!</p>
 			<p>But let's come down to earth. I want you to explain to me: usuer, stool-pigeon and pine-apple man, you darned Halliburton! By-the-way, I bought here a translation of Halliburton's I conquer new worlds (is it so?) Not so bad, my boy, not at all. I should read some more with pleasure.</p>
 			<p>Take with leisure the Magazines stuff (have you got the list?) and Lindsay and Stein, and if I can be of some usefulness to you, ring only the buzzer, and I'm ready. Got me?</p>
