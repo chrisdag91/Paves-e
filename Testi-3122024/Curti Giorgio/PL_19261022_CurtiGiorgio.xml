@@ -326,6 +326,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Curti%20Giorgio/PL_19261022_CurtiGiorgio.xml?person_annotation_20241206181239499",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T17:12:39.499Z",
+	"dcterms:modified": "2024-12-06T17:12:39.499Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Curti%20Giorgio/PL_19261022_CurtiGiorgio.xml?person_annotation_20241206181239499#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Curti%20Giorgio/PL_19261022_CurtiGiorgio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Curti%20Giorgio/PL_19261022_CurtiGiorgio.xml?person_annotation_20241206181239499#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Augusto_Monti",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -333,7 +412,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1926-10-22">22 ottobre 1926</date></p>
 			<p>Io mi ho l'aria di un mendicante, spiritualmente. A tutti vado descrivendo le mie miserie interiori, come gli accattoni van mettendo in mostra la loro sordidezza. E per che cosa lo faccio? Per cercarne conforto? Per farmene vanto? Per cavarne una pagina d'arte? Chi lo sa? Anche quest'incertezza è parte, e parte grandissima della mia miseria.</p>
 			<p>Da questo viene il fatto che da due mesi a questa parte io vado rompendo le tasche a tutta la gente che ho magari appena conosciuto, con sequele di lamentazioni che non finiscono più. Ci son molti qua a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> che te ne potrebbero dire qualcosa. Prenditi dunque anche tu la tua razione.</p>
-			<p>Sappi intanto che ho rivisto Monti, il quale è sempre allegro, sappi che ho ritrovato Monferini, e sappi infine che medito il suicidio. Basta, chi vivrà vedrà. Ti ringrazio del consiglio circa alla premilitare ma non ne farò nulla. Son diventato fatalista. Non muovo più un dito di mia iniziativa. Avvenga quel che vuole.</p>
+			<p>Sappi intanto che ho rivisto <persName key="Augusto Monti" ref="http://dbpedia.org/resource/Augusto_Monti">Monti</persName>, il quale è sempre allegro, sappi che ho ritrovato Monferini, e sappi infine che medito il suicidio. Basta, chi vivrà vedrà. Ti ringrazio del consiglio circa alla premilitare ma non ne farò nulla. Son diventato fatalista. Non muovo più un dito di mia iniziativa. Avvenga quel che vuole.</p>
 			<p>Sento poi che anche tu sei stanco e svogliato, che non hai più voglia di scrivere. Ascolta, te lo dico di cuore: finché sei ancora in tempo, cavati da quella strada dell'arte, che, se non ci si è nati sopra, c'è da soffrir troppo anche solo a costeggiarla. Io sono uno dei tanti. Non farti illusioni come me, quel povero me, che è ridotto ormai al personaggio del genio incompreso.</p>
 			<p>Noterai qua, che sono un po' incoerente colla prima lettera che ti scrissi dove ti dicevo di tenere la pratica dell'arte come un conforto, un divino conforto della vita. Ma che vuoi? In questo momento la penso così. Ormai sono a un tal punto di putrefazione spirituale che l'incoerenza non mi fa più né caldo né freddo.</p>
 			<p>O tornerò cristiano fervente o mi ammazzerò o diventerò matto o mi adatterò alla vitaccia: questo è il continuo balletto che suonano le mie idee. Non credo più a nulla, non valgo nulla, sono meschino, abbietto.</p>
