@@ -801,6 +801,243 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml?person_annotation_20241206182109406",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T17:21:09.406Z",
+	"dcterms:modified": "2024-12-06T17:21:09.406Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml?person_annotation_20241206182109406#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml?person_annotation_20241206182109406#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/94052107/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml?person_annotation_20241206182135034",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T17:21:35.034Z",
+	"dcterms:modified": "2024-12-06T17:21:35.034Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml?person_annotation_20241206182135034#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml?person_annotation_20241206182135034#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Giuseppe_Prezzolini",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml?person_annotation_20241206182151866",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T17:21:51.866Z",
+	"dcterms:modified": "2024-12-06T17:21:51.866Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml?person_annotation_20241206182151866#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Farinelli%20Arturo/PL_19300826_FarinelliArturo.xml?person_annotation_20241206182151866#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Walt_Whitman",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -809,9 +1046,9 @@
 			<p>Chiarissimo Professore,</p>
 			<p>Ella ricorda certamente la raccomandazione che ebbe modo di favorirmi per il <persName key="Giuseppe Prezzolini" ref="http://dbpedia.org/resource/Giuseppe_Prezzolini" cert="high" type="real">Prof. Prezzolini</persName> in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. L'<orgName key="Columbia University." ref="http://viaf.org/viaf/124804870/">Università di Columbia</orgName> ha carteggiato con me e mi offre ora di iscrivermi quale studente per un anno di prova e poi accettarmi nei corsi di laurea. Tutto ciò a mie spese e <persName key="Giuseppe Prezzolini" ref="http://dbpedia.org/resource/Giuseppe_Prezzolini">G. Prezzolini</persName> cui ho scritto ultimamente ricordando che Ella aveva parlato di un sussidio, non mi ha risposto.</p>
 			<p>Siccome all'<orgName key="Columbia University." ref="http://viaf.org/viaf/124804870/">Università di Columbia</orgName> i corsi s'iniziano già il <date when="1930-09-25">25 sett</date>. io desidererei sapere da Lei qualcosa di preciso sulle condizioni quali le prometteva <persName key="Giuseppe Prezzolini" ref="http://dbpedia.org/resource/Giuseppe_Prezzolini" cert="high" type="real">Giuseppe Prezzolini</persName> nella sua lettera. Io pensavo che mi si offrisse, se non un incarico, almeno una borsa di studio, e certo alle condizioni attuali non posso accettare.</p>
-			<p>La prego perciò, ringraziandola ancora del suo cortese interessamento, di esser tanto gentile da scrivermi qualcosa in proposito, sempre ricordando come G. Prezzolini da me interpellato due volte non mi abbia risposto sinora a nessuna delle due.</p>
-			<p>Sono intanto lieto di annunziarle che la tesi di laurea sul Whitman, a cui Ella stessa mi prestò un aiuto bibliografico, è passata a</p>
-			<p>pieni voti e come coll'appoggio dell'amico mio e Suo discepolo Leone Ginzburg mi sto ora interessando di scrittori nord americani contemporanei pubblicandone studi di presentazione agli Italiani, il quale indirizzo vorrei fosse un titolo alla Sua cortese protezione, onde continuare questi studi con maggiori mezzi e maggior serietà nel loro proprio ambiente.</p>
+			<p>La prego perciò, ringraziandola ancora del suo cortese interessamento, di esser tanto gentile da scrivermi qualcosa in proposito, sempre ricordando come <persName key="Giuseppe Prezzolini" ref="http://dbpedia.org/resource/Giuseppe_Prezzolini">G. Prezzolini</persName> da me interpellato due volte non mi abbia risposto sinora a nessuna delle due.</p>
+			<p>Sono intanto lieto di annunziarle che la tesi di laurea sul <persName key="Walt Whitman" ref="http://dbpedia.org/resource/Walt_Whitman">Whitman</persName>, a cui Ella stessa mi prestò un aiuto bibliografico, è passata a</p>
+			<p>pieni voti e come coll'appoggio dell'amico mio e Suo discepolo <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" type="real">Leone Ginzburg</persName> mi sto ora interessando di scrittori nord americani contemporanei pubblicandone studi di presentazione agli Italiani, il quale indirizzo vorrei fosse un titolo alla Sua cortese protezione, onde continuare questi studi con maggiori mezzi e maggior serietà nel loro proprio ambiente.</p>
 			<p>Con ossequio, suo devotissimo</p>
 			<p>Cesare Pavese</p>
 		</body>
