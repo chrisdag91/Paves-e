@@ -405,6 +405,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300422_ChiuminattoAntonio.xml?place_annotation_20241206141745560",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T13:17:45.560Z",
+	"dcterms:modified": "2024-12-06T13:17:45.560Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300422_ChiuminattoAntonio.xml?place_annotation_20241206141745560#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300422_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19300422_ChiuminattoAntonio.xml?place_annotation_20241206141745560#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3175395",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -412,8 +491,8 @@
 			<p><placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Turin</placeName>, <date when="1930-04-22">April the 22nd, 1930</date></p>
 			<p/>
 			<p>Dear Mr <rs key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Prof</rs>.</p>
-			<p>At least I got your money and here it is in plunks. I wrote you, only a little ago, two letters, I've now nothing more to say. No: perhaps I'll undertake really for a "real" publisher a translation of <persName ref="#LewisSinclare">Lewis</persName> or <persName ref="#AndersonSherwood">Anderson</persName> to make them more known here in Italy. You see your lessons begin to bear fruit.</p>
-			<p>By-the-by, if you have time, apply to the Post Office, to ferret out something about the lost books of Sandburg etc. Naturally, should you have got them registered, you could somehow complain and get some compensation.</p>
+			<p>At least I got your money and here it is in plunks. I wrote you, only a little ago, two letters, I've now nothing more to say. No: perhaps I'll undertake really for a "real" publisher a translation of <persName ref="#LewisSinclare">Lewis</persName> or <persName ref="#AndersonSherwood">Anderson</persName> to make them more known here in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="real">Italy</placeName>. You see your lessons begin to bear fruit.</p>
+			<p>By-the-by, if you have time, apply to the Post Office, to ferret out something about the lost books of <persName ref="#CarlAugustSandburg">Sandburg</persName> etc. Naturally, should you have got them registered, you could somehow complain and get some compensation.</p>
 			<p>But I know what damnation it is to go about in offices so I would not have you worried too much.</p>
 			<p>Do what you think better and least troublesome. I already gave in. Notwithstanding this mishap, we can yet be satisfied that the ill-luck were not for your other mailing: do you think what a fine we should have had to pay, before we could get the books again?</p>
 			<p>When you'll have received my package which is now starting and I hope will arrive in due time, you can begin thinking about the next loan. You have already the list. Good-bye you fiddler</p>
