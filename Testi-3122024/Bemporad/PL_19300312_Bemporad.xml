@@ -250,8 +250,8 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>All'editore Bemporad, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>.</p>
-			<p><placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, via Ponza 3, <date when="1930-03-12">12 marzo 1930</date></p>
+			<p>All'<orgName ref="#BemporadEditore">editore Bemporad</orgName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>.</p>
+			<p><placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <placeName ref="#ViaPonza3_Torino">via Ponza 3</placeName>, <date when="1930-03-12">12 marzo 1930</date></p>
 			<p>Egregio Signore,</p>
 			<p>leggo, nell'Appendice acclusa a un volume della Collezione Modernissima, gli scopi e il programma che Ella si propone nel Suo ciclo di traduzioni di opere straniere contemporanee e specialmente nord-americane.</p>
 			<p>In particolare mi riferisco al Suo proposito di "costituire in Italia un gruppo di traduttori appassionati, di gusto e di competenza".</p>
