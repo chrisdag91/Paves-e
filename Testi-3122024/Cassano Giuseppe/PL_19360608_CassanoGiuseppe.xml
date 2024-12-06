@@ -1193,6 +1193,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Cassano%20Giuseppe/PL_19360608_CassanoGiuseppe.xml?title_annotation_20241206180400388",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T17:04:00.388Z",
+	"dcterms:modified": "2024-12-06T17:04:00.388Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Cassano%20Giuseppe/PL_19360608_CassanoGiuseppe.xml?title_annotation_20241206180400388#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Cassano%20Giuseppe/PL_19360608_CassanoGiuseppe.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Cassano%20Giuseppe/PL_19360608_CassanoGiuseppe.xml?title_annotation_20241206180400388#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/212909346/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1210,7 +1289,7 @@
 			<p>Tutto questo obiettato, ritorno alla Sua critica: il timbro morale del <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">mio libro</title> è piuttosto di perversione che non di sanità. Sarò con Lei tanto sincero da confessare che ciò avevo sempre temuto; sempre mi aveva preoccupato la frequenza e compiacenza con cui toccavo argomenti erotici. Mi dicevo: ma son parole fresche come l’acqua, non c'è vizio, non c’è decadenza, è come la sculacciata che dà l'operaio alla compagna d’uscita e tutto finisce lì, è insomma buon umore. Ma non mi liberavo dal timore che un pochino di sfogo fisico ci fosse in quelle fantasie. Come risolvere la questione? Aspettare il giudizio di una persona sana e normale, mi dicevo.</p>
 			<p>Ed ora il giudizio è arrivato e mi conferma: perversione. Che cosa debbo dirLe? Nel Suo disinteresse Ella è appunto l'oracolo</p>
 			<p>che attendevo. Eticamente, e quindi esteticamente, <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">il libro</title> non è riuscito; è ambiguo, è torbido, è tutto da rifare .</p>
-			<p>Va da sé che, se Le ho esposto l'intenzione, diciamo, morale del <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">libro</title>, questo non ho fatto per pavoneggiarmi, ma per amore di giustizia. Ciò che volevo fare e ciò che son riuscito a fare. Aggiungerò altresì che non ho scomodato tutto quel fascio di buone intenzioni solo per svolgere imparzialmente un argomento, ma spero sempre che, sentita la glossa, qualcosa del testo s'illumini. Troppo sono stato curvo sulle pagine di Lavorare stanca (quattro anni) e troppo della mia giovinezza ho preteso versarvi dentro, per rinnegarlo ora come un bastardo qualunque. Ma certo che le mie piuttosto vaghe apprensioni hanno trovato una conferma terribile nel Suo commento.</p>
+			<p>Va da sé che, se Le ho esposto l'intenzione, diciamo, morale del <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">libro</title>, questo non ho fatto per pavoneggiarmi, ma per amore di giustizia. Ciò che volevo fare e ciò che son riuscito a fare. Aggiungerò altresì che non ho scomodato tutto quel fascio di buone intenzioni solo per svolgere imparzialmente un argomento, ma spero sempre che, sentita la glossa, qualcosa del testo s'illumini. Troppo sono stato curvo sulle pagine di <title key="Pavese, Cesare 1908-1950 | Lavorare stanca" ref="http://viaf.org/viaf/212909346/" level="m">Lavorare stanca</title> (quattro anni) e troppo della mia giovinezza ho preteso versarvi dentro, per rinnegarlo ora come un bastardo qualunque. Ma certo che le mie piuttosto vaghe apprensioni hanno trovato una conferma terribile nel Suo commento.</p>
 			<p>È di questo che La ringrazio. Ella ha svolto inconsapevolmente una mia idea e mi ha quindi teso una mano. Spero ancora si capisce ("ultima dea") che la conclusione sia errata o almeno inesatta, ma insomma siamo più d'accordo che in contrasto. "Ma perché ha stampato il libro, allora?" mi chiederà. E qui non posso che supplicarla di non essere crudele.</p>
 			<p>Come sempre, non ho detto nemmeno la metà di quanto penso. Ci sarebbe la questione della città futura, la ragione del titolo, le giustificazioni tecniche, la querelle des anciens et des modernes (il <date from="1900" to="1999">900</date> !), e quantità di altre cose, ma la carta scritta è sempre quel tale paravento dentro a cui gioca a rimpiattino il pensiero. E poi, per la prima volta non voglio essere indiscreto.</p>
 			<p>Che io salga alla Vigna Allason non è immediatamente probabile, ma chi sa in tutta l'estate.</p>
