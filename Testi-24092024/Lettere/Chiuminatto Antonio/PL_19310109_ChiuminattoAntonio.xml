@@ -168,6 +168,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310109_ChiuminattoAntonio.xml?place_annotation_20241206153836051",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T14:38:36.051Z",
+	"dcterms:modified": "2024-12-06T14:38:36.051Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310109_ChiuminattoAntonio.xml?place_annotation_20241206153836051#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310109_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310109_ChiuminattoAntonio.xml?place_annotation_20241206153836051#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -185,7 +264,7 @@
 			<p>About <title level="m" ref="http://viaf.org/viaf/3510157416832116710004/">City Block</title> you surely must send it (when you will have it back) and as you are such a bosom-friend of mine the dedication will be better yet than done for me.</p>
 			<p>And so you liked <rs ref="#UnRomanziereAmericanoSinclairLewis">the essay</rs>, eh? I'm mightily glad, but keep an eye peeled. I'm a little devil of a writer and I don't say "provincials" in a bad sense: I mean <persName ref="#LewisSinclair" type="real">Lewis</persName>' people are healthy, unsophisticated and strong. Get me?</p>
 			<p>But I'm tickled to death by your proposition: to have some ideas of mine, printed in an American review! I'll sit on the top of the world.</p>
-			<p>Lastly I got acquainted with some opinions of your foremost critics about the <orgName ref="#PremioNobel">Nobel Prize</orgName>. They all say it's an offence to <placeName ref="https://geonames.org/6252001" type="real">America</placeName>, a shame, etc., but I should like to have some of them highbrows here to teach them how to defend themselves. These guys seem to ignore that almost all great American writers were discovered in Europe before. So it was with W. Whitman, so with H. James, so with Lewis. In USA the average people read and like them but they cannot gainsay the laureated asses who are, as in the Old Country, the learned men, the profs, the scholars.</p>
+			<p>Lastly I got acquainted with some opinions of your foremost critics about the <orgName ref="#PremioNobel">Nobel Prize</orgName>. They all say it's an offence to <placeName ref="https://geonames.org/6252001" type="real">America</placeName>, a shame, etc., but I should like to have some of them highbrows here to teach them how to defend themselves. These guys seem to ignore that almost all great American writers were discovered in <placeName key="Europe  " ref="https://geonames.org/6255148" type="real">Europe</placeName> before. So it was with <persName ref="http://dbpedia.org/resource/Walt_Whitman" type="real">W. Whitman</persName>, so with H. James, so with Lewis. In USA the average people read and like them but they cannot gainsay the laureated asses who are, as in the Old Country, the learned men, the profs, the scholars.</p>
 			<p>And it is perhaps the greatest feebleness with you Americans, who are so healthy and youthful and forward-looking in everything, that you so much respect university men, stuffed with non-digested classical learning, the pettiest and damnedest buttinskies woman's love ever produced. Oh, how I should like to beat someone's block off in this quarrel about Lewis! I feel myself Italian to the marrow, a wop, (you remember Dante Alighieri's sentence) "a coloro che così ragionano si vuole rispondere col coltello e non con le parole".</p>
 			<p>But I must stop otherwise I'll put on fire the sheet.</p>
 			<p>Say to whomsoever you meet making fun or saying that Lewis is clever, but no creator, that a not-so-stupid-after-all Italian reader maintains that he (the "whomsoever") is "fesso", un cretino, un coglione, nay, not a "coglione" for to be such would require a degree of virility the speaker certainly has not.</p>
