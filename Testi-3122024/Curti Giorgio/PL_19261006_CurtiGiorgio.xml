@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Curti%20Giorgio/PL_19261006_CurtiGiorgio.xml?place_annotation_20241206180918384",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-06T17:09:18.384Z",
+	"dcterms:modified": "2024-12-06T17:09:18.384Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Curti%20Giorgio/PL_19261006_CurtiGiorgio.xml?place_annotation_20241206180918384#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Curti%20Giorgio/PL_19261006_CurtiGiorgio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Curti%20Giorgio/PL_19261006_CurtiGiorgio.xml?place_annotation_20241206180918384#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3181631",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -255,7 +334,7 @@
 			<p>Non ti ho mai scritto perché non sapevo proprio che cosa dirti. "Caro amico... e la salute?... Come va ...? e la tua carriera?..." Tu sai bene che non è il mio pane questo. Finalmente la vergogna mi ha preso, ma sta certo che non ti scriverò che cose strambe e che interessino me in particolare.</p>
 			<p>Dunque, come stai a innamorate? Questo è un argomento che non mi stanca, scrivimi pure minutamente, come le incontri, come filate, mandami se vuoi anche le fotografie, ti seguirò sempre in ispirito.</p>
 			<p>Sono la mia debolezza le innamorate, e il bello è che non ne ho mai avuta neppure una, e più bello ancora è che quasi tutte le donne che mi passano accanto mi danno un giro alla testa e un pugno al cuore. Sono diventato una bestia feroce: ah le donne! Non sono che un giocattolo io in mano alle donne e dire che non ne ho ancora conosciuta nessuna! Chissà quando le avrò conosciute! Mi convinco però sempre più che proprio non sono fatto io per convivere. Troppo prepotente, individualista sono. Una donna che mi amasse davvero (oh numi!) dopo tre mesi l'avrei già fatta impazzire. Ma mi ricordo ora che, se la propria merda è piacevole a odorare, non è detto che tutti debbano gustartela allo stesso modo. Lascerò quindi di parlare di me.</p>
-			<p>Ti raccomando (ricordi la missione che mi ha dato tua madre?) ti raccomando di non abusare del tuo fascino fatale. Ora che è morto <persName ref="#ValentinoRodolfo">Rodolfo Valentino</persName> non avresti più rivali. Le ragazze di Bra saran già tutte rosolate a un'unica fiamma, ma pensa ai concittadini e alla salute (più importante dei concittadini). Pensa poi a me e lasciamene una nel mondo. Ed ecco che sono ricascato nella mia merda. Che, a proposito, a questi giorni è molto puzzolente perché ho fatto una mezza indigestione. Ma non temere, non morirò. Le ho sofferte ancor troppo poco le donne. (Sempre da lontano, però, sempre da lontano!) Pensa che starei al supplizio della corda pur di conoscerne una da vicino. Non mica il corpo. Ci son le statue greche e le puttane per quello. Ma l'anima, l'anima, un po' d'anima che mi dica che non è vero che io sia un nulla nel mondo, ma che valgo un affetto, un po' d'interessamento almeno. Macché! Mi si risponde che non so ballare e che non ho maniere. Cerco questo io forse, perdio? Basta, piantiamola lí.</p>
+			<p>Ti raccomando (ricordi la missione che mi ha dato tua madre?) ti raccomando di non abusare del tuo fascino fatale. Ora che è morto <persName ref="#ValentinoRodolfo">Rodolfo Valentino</persName> non avresti più rivali. Le ragazze di <placeName key="Bra Piedmont Italy" ref="https://geonames.org/3181631">Bra</placeName> saran già tutte rosolate a un'unica fiamma, ma pensa ai concittadini e alla salute (più importante dei concittadini). Pensa poi a me e lasciamene una nel mondo. Ed ecco che sono ricascato nella mia merda. Che, a proposito, a questi giorni è molto puzzolente perché ho fatto una mezza indigestione. Ma non temere, non morirò. Le ho sofferte ancor troppo poco le donne. (Sempre da lontano, però, sempre da lontano!) Pensa che starei al supplizio della corda pur di conoscerne una da vicino. Non mica il corpo. Ci son le statue greche e le puttane per quello. Ma l'anima, l'anima, un po' d'anima che mi dica che non è vero che io sia un nulla nel mondo, ma che valgo un affetto, un po' d'interessamento almeno. Macché! Mi si risponde che non so ballare e che non ho maniere. Cerco questo io forse, perdio? Basta, piantiamola lí.</p>
 			<p>Quando tu eri qui a Reaglie, mi dicevi che avresti voluto un carteggio tra noi due. C'era anche la ragione artistica amorosa... insomma... tu scrivevi... io scrivevo. Senti: qualche giorno fa ho scritto a Pinelli che si proponeva di coltivare a tempo perso il teatro: si guardasse bene dal fare dell'arte un'occupazione secondaria. O tutto o niente in questo campo, ho tuonato. O tutta la vita, o l'ignoranza perfetta!</p>
 			<p>Ma ora mi accorgo che non è vero affatto. I pochi istanti di gioia e di elevazione su tutto ciò che ti circonda, che sono gli istanti di una creazione artistica, saran sempre un ricordo meraviglioso anche se non hanno avuto seguito.</p>
 			<p>Io credevo di poterci dar la vita all'arte ma comincio ad accorgermi che son troppo piccolo per questa donna, che debbo fare anche dell'altro, forse solo dell'altro, di quel terribile altro. Ebbene, le speranze perdute non mi han guastato le gioie che provavo scrivendo quei miei po' di scritti e anche ora credo che, ogni volta che avrò l'anima gonfia, sarà il mio maggior piacere esprimerla in parole. Questa lettera per esempio è uno di questi sfoghi. Vedi se son riuscito a annoiarti.</p>
