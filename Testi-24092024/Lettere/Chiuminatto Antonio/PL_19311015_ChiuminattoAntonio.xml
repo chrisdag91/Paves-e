@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,16 +11,16 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>Ad <persName ref="https://viaf.org/viaf/120757469/" type="real">Antonio Chiuminatto</persName>, Chicago.</p>
 			<p>[Torino,] 15 ott. '31</p>
 			<p/>
-			<p>Dear Tony,</p>
-			<p>I waited for some days to reply to your last, in order to receive a note about the &quot;candy&quot;.</p>
+			<p>Dear <persName ref="https://viaf.org/viaf/120757469/" type="real">Tony</persName>,</p>
+			<p>I waited for some days to reply to your last, in order to receive a note about the "candy".</p>
 			<p>Now I'll despatch myself. I hope they'll be arrived safely and you already too drunk to think about friends. 'Twould be the greatest pity and nuisance, had they been marred or miscarried. Well. About Policemen, don't make a break like our Max, you know. It's easier to get in than come out what it comes to Big Houses. The S. J. has time to be tackled. A slap on the back, however, old fellow.</p>
-			<p>Now, don't hope I'll worry your gracious self with grammars and linguist stuff. Your time's too precious to waste it that way. And after all, I'm going to strike a great idea on the Lega. This year I'll teach English not on grammarian's notions but &quot;reading&quot;: I'll ferret out a primer somewhere and have it perused by my brunettes all Sundays God ever made. I think it more in my line and profitable.</p>
+			<p>Now, don't hope I'll worry your gracious self with grammars and linguist stuff. Your time's too precious to waste it that way. And after all, I'm going to strike a great idea on the Lega. This year I'll teach English not on grammarian's notions but "reading": I'll ferret out a primer somewhere and have it perused by my brunettes all Sundays God ever made. I think it more in my line and profitable.</p>
 			<p>I'm waiting for the guy from Calabria - excuse me, Illinois, - and high time indeed it'll be to hear him talk in a Southernly way of my Piedmontese - again pardon, - Chicagoan buddy. Hand him over, he'll be properly treated.</p>
 			<p>Get along with your Vision of Dollars and a good achievement may they prove also, but don't turn out a quitter, on account of them. Get me?</p>
 			<p>Thank you for the slang gift. None knows where you with liquor centers and with slang will land. What with the two of them working together?</p>
