@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,16 +11,16 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>Ad <persName ref="https://viaf.org/viaf/120757469/" type="real">Antonio Chiuminatto</persName>, Chicago.</p>
 			<p>[Torino,] 28th Aug. [1931]</p>
 			<p/>
-			<p>Dear Tony,</p>
+			<p>Dear <persName ref="https://viaf.org/viaf/120757469/" type="real">Tony</persName>,</p>
 			<p>I hope you'll have received the first package of books I sent you on the 6th of August. Here's another set and so the whole is on its way home again.</p>
 			<p>Many good things I got from them: you're truly a grand booster of USA abroad. All I knew in this line I must own from you.</p>
-			<p>I worked manly this summer and before long you'll get &quot;printed stuff&quot; to testify of it.</p>
+			<p>I worked manly this summer and before long you'll get "printed stuff" to testify of it.</p>
 			<p>Say, there's corking news for me and you to know: I'll not go under arms! I'll acquit myself with some pre-military courses, on Sundays, and remain a civilian all the time.</p>
 			<p>America looms again in the skies.</p>
 			<p>I spoke at last with Max (by the way, he's reduced to a shadow of his former self, sex-appeal appealed too much on him), we'll arrange the Rassegna affair. On the August issue there's a good article of our chum on music and movies: it means something here in Italy. America plays a standing role in it, you bet.</p>
