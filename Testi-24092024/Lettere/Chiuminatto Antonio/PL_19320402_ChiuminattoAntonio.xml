@@ -326,13 +326,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19320402_ChiuminattoAntonio.xml?person_annotation_20241209144941299",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-09T13:49:41.299Z",
+	"dcterms:modified": "2024-12-09T13:49:41.299Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19320402_ChiuminattoAntonio.xml?person_annotation_20241209144941299#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19320402_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19320402_ChiuminattoAntonio.xml?person_annotation_20241209144941299#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/William_Faulkner",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Antonio Chiuminatto</persName>, <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398" type="real">Chicago</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1932-04-02">2nd Apr. '32</date></p>
 			<p/>
-			<p>At last I'm here answering you. As for Faulkner you're right: he's a tremendous bore, till now at least: I didn't as yet get through the whole book. I buy it however as a curiosity and enclose here the dough. I cannot remember whether I'm yet owing you something: please look over your accounts-books and send me a notice.</p>
+			<p>At last I'm here answering you. As for <persName key="William Faulkner" ref="http://dbpedia.org/resource/William_Faulkner">Faulkner</persName> you're right: he's a tremendous bore, till now at least: I didn't as yet get through the whole book. I buy it however as a curiosity and enclose here the dough. I cannot remember whether I'm yet owing you something: please look over your accounts-books and send me a notice.</p>
 			<p>As for that proposition you offer me of borrowing books for a month, I don't think it available. It'd be too much trouble for you to pack and hand over like lightning, and it'd necessitate from my part, in order to get in time, more time than I can find. It'd mean expenses, perhaps you'll wreak your own Chicagoan Reputation, no more returning some books… no, it's better to buy sometime someone.</p>
 			<p>Thank you for the explanation you put down for me: it was very useful. So you're not forgetting old ways?</p>
 			<p>Say, just this evening I'm swept along by the wanderlust. I swear here to you that I cannot any more stay here in Italy. My army-duty is over at last. I've no news of my old fixing with Columbia, and don't speak about blues, boy! I dream, hope, long, die after America. I must come.</p>
