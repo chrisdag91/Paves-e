@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,21 +11,21 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>Ad <persName ref="https://viaf.org/viaf/120757469/" type="real">Antonio Chiuminatto</persName>, Chicago.</p>
 			<p>[Torino,] 11 Febb. '31</p>
 			<p/>
-			<p>My Tony,</p>
-			<p>hot letter I got, hot books, hot bill, too - I'm burning all over, fortunately the &quot;merla&quot; is here at hand and I can cool myself out.</p>
-			<p>You're right - how can you get along bothering about me and &quot;Sme&quot;, such a lazy and exacting fellow? Someday you'll send me a pineapple registered and not to be returned.</p>
+			<p>My <persName ref="https://viaf.org/viaf/120757469/" type="real">Tony</persName>,</p>
+			<p>hot letter I got, hot books, hot bill, too - I'm burning all over, fortunately the "merla" is here at hand and I can cool myself out.</p>
+			<p>You're right - how can you get along bothering about me and "Sme", such a lazy and exacting fellow? Someday you'll send me a pineapple registered and not to be returned.</p>
 			<p>No, no, be sure, I'm only kicking sometimes out of jollity, in my humble endeavours to express my comradship in a lingo which is not mine.</p>
 			<p>As for the books - they are O.K. - morphine and all - and here's the dough. So you, not only open up the account in the two inks, but already wipe it out. How about snappyness, eh?</p>
 			<p>I'll say something about the contents, when I'll have at least glanced them over: now I'm chocked with a flood of English books from a certain highbrow friend I got.</p>
 			<p>However I'm sizing up Hello Towns and see it will cause me to change something in the essay I already wrote. I fancy this fellow Anderson exceedingly, you should read something by him: he's someone.</p>
 			<p>About Lewis, I've nothing more to say. I see, we've got to be talking, not writing about: we are only this way coming to a misunderstanding: I think, the whole point is not the rendering of characteristic Americans but of men, whomsoever they be. It is not that personae become great creations by means of their being truly American, on the contrary, by means of being great creations by an American, personae become truly Americans: Babbitt, Ganty, etc. are such a living, such a truly speaking and breathing lot that they must necessarily also be true Americans, full of the rich blood of the country! And, after all, in Lewis there is so much good people as bad ones. But, avast of it! My plans of crossing to Columbia heave in sight again and I hope we'll settle this matter by living talk.</p>
-			<p>Thank you for Waal I Swan. That's the real stuff! I've here a whole family of yankees - Bostonians them all - I asked them about it, and after much blabbering and &quot;webstering&quot; they all agreed they didn't know what the saying meant. It's not just the thing. Someone suggested the following spelling: &quot;Well I'se one' and translated &quot;Bene, sono uno...!!!&quot; Isn't my Buddy the old card!</p>
+			<p>Thank you for Waal I Swan. That's the real stuff! I've here a whole family of yankees - Bostonians them all - I asked them about it, and after much blabbering and "webstering" they all agreed they didn't know what the saying meant. It's not just the thing. Someone suggested the following spelling: "Well I'se one' and translated "Bene, sono uno...!!!" Isn't my Buddy the old card!</p>
 			<p>Heartily I hope to meet him before long in his own den. I've got now only to elude the draft and I'll be on my voyage for him. And so my old asthma is turning out a wonderful stunt.</p>
 			<p>I forgot: about Anderson, don't trouble any more: only if you'll someday stumble on the Notebook (1926) pick it up. I'll send you next time a hint of summer books: but I would not abuse of your kindness.</p>
 			<p>And so you like my letters? Out of affection, I think, for, as for English I'm quite sure you're shrinking all over, in reading them. Miss Franchi already pointed out with the feminine care some blunders of mine in the corrected tasks of the Lega. Waal I swan, I must say.</p>
