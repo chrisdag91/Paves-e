@@ -168,6 +168,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310700_ChiuminattoAntonio.xml?place_annotation_20241209141704329",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-09T13:17:04.329Z",
+	"dcterms:modified": "2024-12-09T13:17:04.329Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310700_ChiuminattoAntonio.xml?place_annotation_20241209141704329#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310700_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310700_ChiuminattoAntonio.xml?place_annotation_20241209141704329#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3175395",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -175,7 +254,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, <date when="1931-07">luglio 1931</date>]</p>
 			<p/>
 			<p>Dear <persName ref="https://viaf.org/viaf/120757469/" type="real">Tony</persName>,</p>
-			<p>your letter was an oasis in the wilderness, these hot days. 'Tis bracing in the maudlin dejection of Italy to get something of a handshake from over there. Among all I liked best the opportunity to render you a favor, at last. I cannot immediately ask from Mila what's the matter about that bill, for he is now scrambling the Alps, but as soon as I can I'll fix everything. However I think things are so: Mila presented you with the first year of the "Rassegna", afterwards he forgot about it and now the company is sending his annual form letter to all subscribers. But you must not trouble about: I'll quarrel and pay what is required and you get along reading our Lothario's stuff. Who, by the way, is quite indecently misbehaving. I think the mountain-term is a veiled elopement with the Merry Widow.</p>
+			<p>your letter was an oasis in the wilderness, these hot days. 'Tis bracing in the maudlin dejection of <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="real">Italy</placeName> to get something of a handshake from over there. Among all I liked best the opportunity to render you a favor, at last. I cannot immediately ask from <persName ref="http://viaf.org/viaf/64047669/" type="real">Mila</persName> what's the matter about that bill, for he is now scrambling the Alps, but as soon as I can I'll fix everything. However I think things are so: Mila presented you with the first year of the "Rassegna", afterwards he forgot about it and now the company is sending his annual form letter to all subscribers. But you must not trouble about: I'll quarrel and pay what is required and you get along reading our Lothario's stuff. Who, by the way, is quite indecently misbehaving. I think the mountain-term is a veiled elopement with the Merry Widow.</p>
 			<p>And so you're kicking about Melville, eh? Not you alone, not you alone. Italian publishers also are kicking, but I got a crush on that fellow and would it cost me my life-blood I'll push him along. I find Moby Dick an extraordinary piece of writing, and so on, but, be cheerful, I'll not worry you with an offhand lecture on his personality. I've got other chances: before long, I scribble one of my famous essays about him and you'll hear.</p>
 			<p>Speaking about essays, I must say on defence of Anderson that the manager of the review granted me just that number of pages and nothing more (on account of the everlasting Lewis) and so I had to cramp my style and ideas to death!</p>
 			<p>Many thanks also for your undying interest in the translation of Lewis, about which I've only the doubt of coming short of all America's expectations.</p>
