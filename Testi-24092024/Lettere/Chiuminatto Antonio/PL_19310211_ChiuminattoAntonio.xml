@@ -168,6 +168,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310211_ChiuminattoAntonio.xml?date_annotation_20241209102043312",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-09T09:20:43.312Z",
+	"dcterms:modified": "2024-12-09T09:20:43.312Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310211_ChiuminattoAntonio.xml?date_annotation_20241209102043312#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310211_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310211_ChiuminattoAntonio.xml?date_annotation_20241209102043312#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1926"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -184,7 +262,7 @@
 			<p>About <persName ref="#LewisSinclair" type="real">Lewis</persName>, I've nothing more to say. I see, we've got to be talking, not writing about: we are only this way coming to a misunderstanding: I think, the whole point is not the rendering of characteristic Americans but of men, whomsoever they be. It is not that personae become great creations by means of their being truly American, on the contrary, by means of being great creations by an American, personae become truly Americans: <persName ref="#BabbittGeorgeF" type="fictional">Babbitt</persName>, <persName ref="#GantryElmer" type="fictional">Ganty</persName>, etc. are such a living, such a truly speaking and breathing lot that they must necessarily also be true Americans, full of the rich blood of the country! And, after all, in <persName ref="#LewisSinclair" type="real">Lewis</persName> there is so much good people as bad ones. But, avast of it! My plans of crossing to <orgName ref="#UniversitàdiColumbia">Columbia</orgName> heave in sight again and I hope we'll settle this matter by living talk.</p>
 			<p>Thank you for <rs ref="#WaalISwan">Waal I Swan</rs>. That's the real stuff! I've here a whole family of yankees - Bostonians them all - I asked them about it, and after much blabbering and "webstering" they all agreed they didn't know what the saying meant. It's not just the thing. Someone suggested the following spelling: "Well I'se one' and translated "Bene, sono uno...!!!" Isn't my Buddy the old card!</p>
 			<p>Heartily I hope to meet him before long in his own den. I've got now only to elude the draft and I'll be on my voyage for him. And so my old asthma is turning out a wonderful stunt.</p>
-			<p>I forgot: about <persName ref="#AndersonSherwood" type="real">Anderson</persName>, don't trouble any more: only if you'll someday stumble on the <title level="m" ref="#NoteBook">Notebook</title> (1926) pick it up. I'll send you next time a hint of summer books: but I would not abuse of your kindness.</p>
+			<p>I forgot: about <persName ref="#AndersonSherwood" type="real">Anderson</persName>, don't trouble any more: only if you'll someday stumble on the <title level="m" ref="#NoteBook">Notebook</title> (<date when="1926">1926</date>) pick it up. I'll send you next time a hint of summer books: but I would not abuse of your kindness.</p>
 			<p>And so you like my letters? Out of affection, I think, for, as for English I'm quite sure you're shrinking all over, in reading them. Miss Franchi already pointed out with the feminine care some blunders of mine in the corrected tasks of the Lega. Waal I swan, I must say.</p>
 			<p>Hello old socks auf wiedersehen</p>
 		</body>
