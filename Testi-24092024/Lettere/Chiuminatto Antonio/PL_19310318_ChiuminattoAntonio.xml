@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310318_ChiuminattoAntonio.xml?person_annotation_20241209105501135",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-09T09:55:01.135Z",
+	"dcterms:modified": "2024-12-09T09:55:01.135Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310318_ChiuminattoAntonio.xml?person_annotation_20241209105501135#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310318_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310318_ChiuminattoAntonio.xml?person_annotation_20241209105501135#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[18]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/92123053/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -267,8 +346,8 @@
 			<p>C. Sandbury, The American Songbag, Smoke and Steel, Cornhuskers (not Chicago Poems)</p>
 			<p><persName ref="http://viaf.org/viaf/73872159/" type="real">Countee Cullen</persName>, <title level="m" ref="#CarolingDusk">Caroling Dusk</title></p>
 			<p><persName ref="http://dbpedia.org/resource/James_Branch_Cabell" type="real">Cabell</persName>, anything except <title level="m" ref="http://viaf.org/viaf/1020151051810033530001/">Jurgen</title> and The Cords of Vanity</p>
-			<p>J. Moncure March, The Set-Up</p>
-			<p><persName ref="http://viaf.org/viaf/12405830/" type="real">Glenway Wescott</persName>, Goodbye Wisconsin (not <title level="m" ref="#TheGrandmothers">The Grandmothers</title>)</p>
+			<p><persName key="March, Joseph Moncure" ref="http://viaf.org/viaf/92123053/" type="real">J. Moncure March</persName>, The Set-Up</p>
+			<p><persName ref="http://viaf.org/viaf/12405830/" type="real">Glenway Wescott</persName>, <title ref="#GoodbyeWisconsin">Goodbye Wisconsin</title> (not <title level="m" ref="#TheGrandmothers">The Grandmothers</title>)</p>
 			<p><persName ref="#HugesLangston" type="real">Langston Hughes</persName>, <title level="m" ref="#PoemsAndBlues">Poems and blues</title></p>
 			<p><persName ref="#LudwigLewisohn" type="real">L. Lewisohn</persName>, <title level="m" ref="#TheCaseofMrCrump">The Case of Mr Crump</title></p>
 			<p><persName ref="http://viaf.org/viaf/7569163877689646060003/" type="real">William Carlos Williams</persName>, <title level="m" ref="#TheGreatAmericanNovel">The Great American Novel</title> or anything else</p>
