@@ -405,13 +405,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19320100_ChiuminattoAntonio.xml?title_annotation_20241209151538350",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-09T14:15:38.350Z",
+	"dcterms:modified": "2024-12-09T14:15:38.350Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19320100_ChiuminattoAntonio.xml?title_annotation_20241209151538350#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19320100_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19320100_ChiuminattoAntonio.xml?title_annotation_20241209151538350#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/182113193/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Chiuminatto, Anthony Lawrence, 1904-1973" ref="http://viaf.org/viaf/120757469/">Antonio Chiuminatto</persName>, <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398" type="real">Chicago</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, <date when="1932-01">gennaio 1932</date>]</p>
 			<p/>
-			<p>I thank you for the "<title level="j" ref="#TheBookman">Bookman</title>". "Swell" magazine! I succeeded in having it bought by a publisher of <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Turin</placeName> (he intends to translate American novels) and so, without expense I'll look it over and keep informed. He just intends to translate My Antonia.</p>
+			<p>I thank you for the "<title level="j" ref="#TheBookman">Bookman</title>". "Swell" magazine! I succeeded in having it bought by a publisher of <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Turin</placeName> (he intends to translate American novels) and so, without expense I'll look it over and keep informed. He just intends to translate <title key="Cather, Willa, 1873-1947. | My Ántonia" ref="http://viaf.org/viaf/182113193/" level="m">My Antonia</title>.</p>
 			<p>Can't you find out for me some novel by Faulkner, the new famous writer of Southern stock so spoken about just in the "Bookman"? If it's not too costly, buy it offhand and let me have it. Otherwise send word about. We'll set accounts after this.</p>
 			<p>Now, as for records, I have Dinah, I have the Chant of the Jungle, Lady Play, etc. all by the Revellers. By Whiteman I've Blue Hawaii (!!!) and Just Like a Melody.</p>
 			<p>I'll buy the Saint Louis Blues just on account of your advice. I think I'll find it by Ted Lewis.</p>
