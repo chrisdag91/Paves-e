@@ -90,15 +90,93 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310500_ChiuminattoAntonio.xml?date_annotation_20241209112847270",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-09T10:28:47.270Z",
+	"dcterms:modified": "2024-12-09T10:28:47.270Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310500_ChiuminattoAntonio.xml?date_annotation_20241209112847270#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310500_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310500_ChiuminattoAntonio.xml?date_annotation_20241209112847270#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1931-05"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName ref="https://viaf.org/viaf/120757469/" type="real">Antonio Chiuminatto</persName>, <placeName ref="https://geonames.org/4887398" type="real">Chicago</placeName>.</p>
-			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, maggio 1931]</p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, <date when="1931-05">maggio 1931</date>]</p>
 			<p/>
 			<p>Dear <persName ref="https://viaf.org/viaf/120757469/" type="real">Tony</persName>,</p>
-			<p>at last I succeeded in putting down another essay on that guy. Say it's not so damn easy to rewrite on a topic! I had to plug along like a dog, believe me. But you'll soon get it and this matters, all other things "are silence". Now let Father Parsons decide.</p>
-			<p>And I'm not due to America. 'Tis sad, honey, but 'tis so. On 1st November I'll enter under the arms. That doggone doctor found me able-bodied to war and peace service. Eleven months! Till June 1932. Adieu America! And I had already rec'd the Columbia acceptance! Surely Daddy above is a funny guy, you bet.</p>
+			<p>at last I succeeded in putting down another essay on that guy. Say it's not so damn easy to rewrite on a topic! I had to plug along like a dog, believe me. But you'll soon get it and this matters, all other things "are silence". Now let <persName ref="#PadreParsons" type="real">Father Parsons</persName> decide.</p>
+			<p>And I'm not due to <placeName ref="https://geonames.org/6252001" type="real">America</placeName>. 'Tis sad, honey, but 'tis so. On 1st November I'll enter under the arms. That doggone doctor found me able-bodied to war and peace service. Eleven months! Till June 1932. Adieu America! And I had already rec'd the Columbia acceptance! Surely Daddy above is a funny guy, you bet.</p>
 			<p>So you can forward the library-stuff, according the list you already got, I beseech you, enclose Caroling Dusk. I want it before all other books.</p>
 			<p>As you, say you like so much Anderson's Notebook, I'll mail it back, it's truly interesting and worthwhile, and I'm only sorry I read it after my Anderson was already in proofs (by the way, it'll appear before long). Together with the Notebook and the new essay on Lewis you'll get a novelty, my own translation of Our Mr Wrenn! You'll judge by your own eyes.</p>
 			<p>Say, you're really tough, my boy, when it comes down to brass-tacks. You get along with the translation of that whole grammar (methinks you'll spend less time and fatigue in writing a new one). However many thanks and... a buon rendere.</p>
