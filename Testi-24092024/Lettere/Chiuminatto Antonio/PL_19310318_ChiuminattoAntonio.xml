@@ -269,7 +269,7 @@
 			<p><persName ref="http://dbpedia.org/resource/James_Branch_Cabell" type="real">Cabell</persName>, anything except <title level="m" ref="http://viaf.org/viaf/1020151051810033530001/">Jurgen</title> and The Cords of Vanity</p>
 			<p>J. Moncure March, The Set-Up</p>
 			<p><persName ref="http://viaf.org/viaf/12405830/" type="real">Glenway Wescott</persName>, Goodbye Wisconsin (not <title level="m" ref="#TheGrandmothers">The Grandmothers</title>)</p>
-			<p><persName ref="#HugesLangston" type="real">Langston Hughes</persName>, Poems and blues</p>
+			<p><persName ref="#HugesLangston" type="real">Langston Hughes</persName>, <title level="m" ref="#PoemsAndBlues">Poems and blues</title></p>
 			<p><persName ref="#LudwigLewisohn" type="real">L. Lewisohn</persName>, <title level="m" ref="#TheCaseofMrCrump">The Case of Mr Crump</title></p>
 			<p><persName ref="http://viaf.org/viaf/7569163877689646060003/" type="real">William Carlos Williams</persName>, <title level="m" ref="#TheGreatAmericanNovel">The Great American Novel</title> or anything else</p>
 			<p><persName ref="#FrancisScottFitzgerald" type="real">Scott Fitzgerald</persName>, anything.</p>
