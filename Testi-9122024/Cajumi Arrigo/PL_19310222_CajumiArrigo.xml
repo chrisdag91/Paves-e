@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>[Torino,] 22 febbraio [1931]</p>
+			<p>Chiarissimo Dottore,</p>
+			<p>Le rimando l'Anderson riveduto e corretto, ancora pregandola di inserirlo ad ogni modo, almeno nel numero di aprile, poiché vorrebbe dir molto per me averne una copia stampata, in quel mese.</p>
+			<p>Ho avuto la seconda parte di Wrenn e l'ho riveduto alla svelta: spero di averne presto notizie e conti saldati.</p>
+			<p>Ai due autori (Dreiser e Melville) che Lei mi ha suggerito penserò, ma intanto voglio sottoporle un'idea: non andrebbe per la Cultura un articolo dal titolo Il villaggio americano, dove si parlasse della rinascita letteraria del 1910 e attuale, mostrando come la grande scoperta di quegli uomini sia stata l'America del centro, della provincia, della town, e trattando opere di cui sarebbe impossibile trattare sotto altro titolo, come intanto Main Street e Winesburg Ohio, Spoon River Anthology (G. Lee Masters) The Grandmothers (Glenway Wescott) My Antonia (Willa Cather) ecc.?</p>
+			<p>L'argomento mi pare interessante e nuovo. Veda lei.</p>
+			<p>Per ora, Le porgo i più rispettosi ossequi</p>
+			<p>suo CP.</p>
+		</body>
+	</text>
+</TEI>

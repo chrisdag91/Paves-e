@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Ad Adolfo Ruata, Torino.</p>
+			<p>[Brancaleone,] 5 novembre [1935]</p>
+			<p/>
+			<p>Caro Ruata,</p>
+			<p>benché sia improbabile che tu, sposo fresco, stipendiato e well-to-do, abbia testa da pensare a chi è rotolato per terra, pure io per passare un altro po' di questa mattinata che non vuole assolutamente finire, ti scrivo.</p>
+			<p>Mi sorprende dolorosamente che tu mi creda un riformato, in attesa della visita di controllo. Dimentichi come io sia il più corporalmente bello e integro degli amici e come abbia goduto della ferma minima. Il che non mi impedisce di saltar su, tutte le notti, in preda all'asma e ai 24 diavoli. Il resto del tempo lo passo a far flanella. Studiare è una parola; non si può far niente che valga in questa incertezza di vita, se non assaporare in tutte le sue qualità e quantità più luride, la noia, il tedio, la seccaggine, la sgonfia, lo spleen e il mal di pancia.</p>
+			<p>Esercito il più squallido dei passatempi: acchiappo mosche, traduco dal greco, mi astengo dal guardare il mare, giro i campi, fumo, tengo uno zibaldone, rileggo la corrispondenza dalla patria, serbo una inutile castità. Non capisco perché muoiono tanti padri di famiglia lasciando belle corone di orfani inconsolabili e non crepo io, orfano più che consolato. La caratteristica del Padre Eterno è evidentemente la mancanza di tatto, per cui, esagerando poi dalla parte opposta, riporta vanto di esser l'alta armonia che concilia i contrari. Prendi un esempio: ci sono delle persone cui tutto va male, di quelli che, &quot;se vendessero cappelli, la gente nascerebbe senza testa&quot;. Ebbene, il Padre Eterno mette al mondo delle altre persone cui tutto va bene, e dopo averle fatte belle e sapienti, le fa ancora vincere alla lotteria. E giustizia è fatta.</p>
+			<p>Ha persino inventato il Diavolo; per poter addossare a lui le trovate troppo enormi. Agitato da questi pensieri, mi sento quell'idiota nel racconto del quale, secondo Shakespeare, consiste la vita.</p>
+			<p>Ma tu evidentemente a quest'ora sarai tutto assorto, nel migliore dei modi possibili, nelle cure della generazione e sarebbe – peggio che un delitto – una scortesia, trattenerti oltre.</p>
+			<p>Gradisci quindi rinnovati auguri, e cordiali ringraziamenti per il tuo biglietto.</p>
+			<p>Tuo</p>
+			<p>Pav.</p>
+		</body>
+	</text>
+</TEI>

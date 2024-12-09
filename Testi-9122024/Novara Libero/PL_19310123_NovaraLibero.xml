@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Libero Novara, Parma.</p>
+			<p>[Torino,] 23 gennaio [1931]</p>
+			<p>Caro Berin,</p>
+			<p>anzitutto non mi chiamo Pavesi, ma Pavese e dichiaro che ci tengo perché di Pavese come me ce n'è uno solo e il plurale potrebbe far supporre il contrario.</p>
+			<p>Proseguendo, ho ricevuto cartolina e lettera e ti ringrazio di ambedue. Persin troppo in fretta, assassino. La tua lettera è interessantissima ed io di fatti ho già tra le mani il Diz. Mar. Ill. di cui mi fai parola. Hai ragione a propos. del gergo, ma io mi ero espresso male: desideravo conoscere i modi di dire del mestiere, i comandi appunto e le frasi correnti tra marinai a indicare le varie manovre. E tutto questo è in gran parte nel libro. Ho poi anche per le mani una trattazione di Manovra a Vela del 1850 che dà, al Giovin Marino, consigli interessantissimi. E lavoro come un martire, bestemmiando in proporzione.</p>
+			<p>Per avviare le nostre conversazioni frujesche ti propongo un problema, a cui tu risponderai con agio e sangue freddo e se avrai</p>
+			<p>voglia:</p>
+			<p>Come mai i torinesi di S. Paolo cantano di preferenza stornelli romaneschi?</p>
+			<p>E sta' sicuro che nessuno oltre a me leggerà i tuoi parti.</p>
+			<p>Come va la vitaccia, vecchio Bero? Non essere così scientifico nelle tue lettere e tira giù anche tu quattro parole di natura cardiaca.</p>
+			<p>Quanto allo stile, lascia perdere che sono balle. Non c'è che le parole di un amico, che contino, e parla bene chi parla come te.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Federico Gentile, Milano.</p>
+			<p>[Torino,] 19 gennaio 1931</p>
+			<p>Egregio Signore,</p>
+			<p>In conferma a quanto mi scrive nella Sua pregiat.ma del 15 c. m. Le dichiaro che mi assumo la traduzione del libro in questione – Moby Dick di Hermann Melville – accettando tutte le condizioni specificate nella Sua lettera e soltanto pregandoLa di un'eventuale dilazione della consegna di tutta l’opera, fino al 30 aprile.</p>
+			<p>Con stima</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

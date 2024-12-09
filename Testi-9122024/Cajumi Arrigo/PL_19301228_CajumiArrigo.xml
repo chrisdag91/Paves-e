@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>[Torino,] 28 dicembre 1930</p>
+			<p>Egregio Professore,</p>
+			<p>qui accluso è il manoscritto del Nostro Sig. Wrenn che son riuscito a finire in tempo. Anche quella difficoltà delle parole di gergo è superata, perché ho trovato modo d'informarmi direttamente qui a Torino. Come Lei vedrà ho aggiunto alcune note, assolutamente indispensabili all'intelligenza del testo, specialmente le prime e più lunghe! In esse ho tenuto un tono di volgarizzamento, ricordando la natura della collezione.</p>
+			<p>Resta la questione della p. 309 bis del manoscritto che corrisponde alla 283, nell'edizione Tauchnitz. Io l'ho riprodotta al possibile, traducendola, ma debbo però farLe presente che essa è affatto staccata dal testo e si può eliminarla senza conseguenze. Anche in Babbitt però S. Lewis ha pagine consimili, e parrebbe quindi questa una sua caratteristica non trascurabile. Decida l'editore.</p>
+			<p>Credo non sia il caso di una introduzione, data la natura della collezione ma ad ogni modo, Lei mi dirà.</p>
+			<p>Spero che la versione sia soddisfacente pensando un momento alle difficoltà di slang che presenta questo romanzo, per superare le quali ho dovuto sovente lasciarmi andare in espressioni dialettali italiane e qualche volta in veri e proprî solecismi, assolutamente indispensabili questi ultimi, a rendere il testo nella sua interezza.</p>
+			<p>Le prometto fra breve il tanto rimandato Sh. Anderson.</p>
+			<p>Naturalmente, se si presentasse qualche altra opportunità di traduzioni dall'americano, io sarei sempre a Sua disposizione.</p>
+			<p>Rispettosi e cordiali saluti.</p>
+		</body>
+	</text>
+</TEI>

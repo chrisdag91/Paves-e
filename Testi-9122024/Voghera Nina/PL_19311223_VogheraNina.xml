@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Nina Voghera, Neive.</p>
+			<p>[Torino,] 23 dicembre [1931]</p>
+			<p/>
+			<p>Congratulazioni, congratulazioni, congratulazioni.</p>
+			<p>Arrivo ora perché Arnaldo defunto ha seccato ancora una volta l'umanità facendo chiudere il provveditorato. Ma Lei era già tranquilla, anzi, eri già tranquilla – visto siamo parenti.</p>
+			<p/>
+			<p>Voghera Eufrosina 	69 040</p>
+			<p>Numero di merito per la prov. di Tor. 	198</p>
+			<p>per la prov. di Aless. 			114</p>
+			<p>Alutto Palmira 		66 823</p>
+			<p>Torino		242</p>
+			<p>Cuneo		111</p>
+			<p>Marasso Leti.            77 668</p>
+			<p>To. 		53</p>
+			<p/>
+			<p>Dove si vede che la Marasso è la più brava.</p>
+			<p>Così, tutto va bene. Congratulazioni congratulazioni congratulazioni.</p>
+			<p>Adesso che siamo in vacanza, può darsi che mi venga voglia di venire a scroccare un pranzo a Neive. Scrivimi, se mi vuoi.</p>
+			<p>I dischi crescono come conigli. Se vieni a Torino, sentirai quante belle cose.</p>
+			<p>Salutami il tuo caro papà e tutta la famiglia che non conosco. Se t'interessa, Monferini, quello ubriaco, ha preso la laurea con 110 lode, su 110. Eh!</p>
+			<p>Grazie delle mele, sono buone e tutti i giorni ne mangio una.</p>
+			<p>Auguri per il bambino.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>Caro Professore,</p>
+			<p>[Torino,] 27 settembre [1931]</p>
+			<p>Ci sono qui le bozze dell'Antologia corrette e rivedute. Spero che le mie aggiunte – secondo i consigli, sulla Palatina e sul Soulié – non saranno tanto lunghe da causare danni nella seconda imbozzatura. Pensavo di aver poco o nulla da dire e poi, al fatto, non la finivo più. Veda Lei e giudichi e disponga se ne ha voglia.</p>
+			<p>Ho finalmente ricevuto da Milano l'assicurazione che ai primi d'ottobre pagheranno... Speriamo, perché avevo già in mente di mandar laggiù, segnate in rosso, quelle tali pagine sulle avventure editoriali di Martin Eden.</p>
+			<p>Penso a nuove cose per la Cultura, e sono tuffato fino agli occhi nella storia del cinema. Mi son rifatto senz'altro alle &quot;origini&quot; e tanto è il caos che non me ne cavo più. L'articolo al sito diventa sempre più ipotetico.</p>
+			<p>Cordialmente.</p>
+		</body>
+	</text>
+</TEI>

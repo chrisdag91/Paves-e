@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Carlo e Tullio Pinelli, Alpignano.</p>
+			<p>[Torino,] 25 agosto [1930]</p>
+			<p/>
+			<p>Cari Carluccio e Tulliolo,</p>
+			<p>premetto che non scrivo per farmi invitare a passare il pomeriggio da voi, ma vi pare? Scrivo per lo stesso profondo bisogno spirituale che spinge i cani a grattarsi le pulci.</p>
+			<p>Non sapete, cari, che vivere è una delle cose più difficili che ci siano? Io sono in questo momento a una svolta della mia esistenza – che brutta strada –. Di fuori non si vede niente, di dentro neanche, ma nondimeno, non posso più nascondermelo: sono a una svolta. Non muterò di un millimetro, s'intende, il mio carattere e le mie azioni, starò sempre malaccio come au par avant, ma nondimeno ora sono tutto rami secchi e gemme. (Va là che sei carino!).</p>
+			<p>O Tullio, non ti piacerebbe essere nato monaco organista e puro folle nella cattedrale di Orvieto? E a te, Carlo, non piacerebbe essere un bel giovane robusto? A me piacerebbero tutte e due le cose, ma non si può e bisogna accontentarsi di nessuna.</p>
+			<p>Io vorrei sapere perché quando scrivo le lettere sono tutto contento e felice e invece &quot;comporre&quot; mi disgusta la vita. È difficile, difficile vivere: io non so come abbiano fatto tutti i nostri antenati, vero è, però, che sono morti.</p>
+			<p>Orbene, scrivetemi ora come state voi in villa, ma confessatevi, dite le cose massime, non che il clima è buono e così spero di voi.</p>
+			<p>Capito?</p>
+			<p>Tanti tanti saluti a voi e ai vostri.</p>
+			<p/>
+			<p>Per Tullio: Dirò a te che te ne interessi di più che oggi ho fatto una scoperta dantesca importante. Quei due versi del canzoniere:</p>
+			<p/>
+			<p>Io maledico il di' ch'io vidi in prima</p>
+			<p>la luce dei vostri occhi traditori...</p>
+			<p/>
+			<p>significano &quot;in prima classe&quot;, non ferroviaria ma scolastica – perché allora non c'erano ancora i treni e poi Dante era povero –, e ci rivelano come il poeta precocissimo a 9 anni frequentava già la prima ginnasio. Dato che un genio come lui non poteva certo essere ancora in prima elementare a quell'età.</p>
+		</body>
+	</text>
+</TEI>

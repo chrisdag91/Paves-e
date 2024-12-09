@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Tullio Pinelli, Alpignano.</p>
+			<p>Torino, 3 ottobre 1930</p>
+			<p/>
+			<p>Caro Tullio,</p>
+			<p>Non vuoi freddure? Allora senti cose serie: sappi che tutte le notti mi sveglio mezzo soffocato e rantolante e debbo correre subito ai rimedi se voglio ancora tirare il fiato, sappi che sono quasi impotente, che sono vilissimo di carattere, mentitore, ladro, invidioso e posatore, opportunista, mollusco, servile, stupido, e presuntuoso. Basta? E nota che tutti questi attributi non sono mica colori retorici, ma di ognuno potrei darti la prova precisa, citando le circostanze in cui mi si è rivelata. C’è, si capisce, la consolazione che tutti gli uomini sono così, anche gli attaccabottoni...</p>
+			<p>Ma sappi però, portinaio, che con nessuna ragazza ho tentato di farmi bello – sebbene abbia già avuto quel vizio – e che quello che ho scritto a colei e a te è pura verità, nonostante a parole l'abbia smentito. Sfido: uno mette a nudo il penetrale e l'altro gli chiede se ha parlato sul serio. Non resta che ghignare e dir più nulla.</p>
+			<p>Perciò, quantunque con indicibile rincrescimento, sono costretto a unire qui le prove di quello che ho scritto in previe lettere. Vedi un po' se in questi fogli non c'è un Pavese che ha tutt'altro per la testa che épater le sottane.</p>
+			<p>O Pinelli, sei un povero psicologo se non capisci queste cose.</p>
+			<p>Naturalmente saluta Carlino e i tuoi e anche colei che ha firmata la busta. Bacioni.</p>
+			<p/>
+			<p>N. B. Senti, se invece di neo-professore, tu mi chiamassi professore-bellezza?</p>
+			<p>Questa sì che è una freddura stupida.</p>
+		</body>
+	</text>
+</TEI>

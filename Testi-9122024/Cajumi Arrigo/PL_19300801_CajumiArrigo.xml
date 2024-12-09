@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>[Torino,] 1° agosto 1930</p>
+			<p>Chiarissimo Professore,</p>
+			<p>ricevo la Sua cartolina del 28 u. s. e La ringrazio della sollecitudine con cui Ella promette di far passare nella rivista il mio articolo.</p>
+			<p>Quanto a Sh. Anderson ho già scritto a Chicago per avere le opere che mi mancano e conto, in Novembre, di consegnarLe il saggio, sebbene questo scrittore importi uno studio più lungo e accurato data la complessità della sua figura.</p>
+			<p>Sarei lieto intanto di riuscir utile alla rivista con recensioni di cui Ella giudicasse pertinente all'indirizzo dei miei studi l'argomento.</p>
+			<p>Con ossequio.</p>
+		</body>
+	</text>
+</TEI>

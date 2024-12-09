@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Tullio Pinelli, Chiavari.</p>
+			<p>[Reaglie,] 12 luglio 1927</p>
+			<p/>
+			<p>È tornata la mia ballerina. È più bella, giovane, meravigliosa che mai. Ho trovato finalmente qual'è il suo fascino unico a ballare sul palcoscenico. Una dolcezza, una leggerezza infantile piena di una grazia terribile, vi mette, che mai mai prima ho trovato nella mia vita.</p>
+			<p>E con tutto questo sono stanco stanco.</p>
+			<p>Sono stanco di pensieri alti, stanco di pensare di lei, stanco di tutto. Non ho più a tratti che guizzi impotenti di energia verso opere, audacie fatiche, che mai saprò compiere. E, in fondo a ogni mio esaltamento, l'esaltamento supremo del pensiero del suicidio. Oh, un giorno ne avrò bene il coraggio! Lo vagheggio di ora in ora tremando. È il mio ultimo conforto. Scrivimi qualcosa, voglio sentire sentire, son troppo solo, mi smarrisco.</p>
+			<p>Nel momento stesso che la vedo così bella, mi dà tedio anche pensare di lei! Che cosa ne farei tanto? Senti: ho trovato questo raffinato strumento di tortura: ogni volta che, confusamente, come fa sempre il mio spirito, aspiro a qualche cosa, mi chiedo: che cosa ne farei tanto? e non trovo più pace.</p>
+			<p>Ah vivere vivere! comincio a capire che cosa vuol dire. (Tutta questa è una bella copia, tanto per non dimenticare il mestiere).</p>
+			<p/>
+			<p>N.B. Ti prego di non mostrare questa lettera a tutto il consiglio di famiglia, oh assestato e ubbidiente primogenito di una famiglia ancor più assestata: se mai mostrala e fattene bello con qualche bella ragazza, tu che ce ne hai l'estate piena e poi contami.</p>
+			<p>Cesare Pavese</p>
+			<p/>
+			<p>P.S. Ieri notte, uscito dal teatro dove l'ho rivista (stavo per impazzire, se non lo sono già!) son tornato sullo stradale di Reaglie e per lo stradale e per i boschi, fino a Chieri quasi, ho errato tutta la notte come un lupo. Ridivento barbaro. L'ho voluto questo. Ma è divino essere esaltato!</p>
+		</body>
+	</text>
+</TEI>

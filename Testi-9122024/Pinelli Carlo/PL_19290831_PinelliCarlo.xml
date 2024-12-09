@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Carlo Pinelli, Alpignano.</p>
+			<p>[Bibiana,] 31 agosto [1929]</p>
+			<p/>
+			<p>E chi ha mai detto niente di Giuseppe Balsamo?</p>
+			<p>Proprio a me che ho passato l'inverno rileggendo Salgari e il ciclo dei moschettieri e che se trovo un Yambo rinverdisco?</p>
+			<p>Soltanto che essendo io più intelligente di te, capisco Dumas, e capisco anche Ibsen. Salame, ti sarai messo a leggere Ibsen per vedere come andava a finire e allora sei stato fresco!</p>
+			<p>Se hai letto Hedda Gabler e non friggevi tutto davanti a quell'ambiente e a quel tipo di signora, consolati che è segno che le mie lezioni ti hanno proprio incretinito del tutto.</p>
+			<p>Non fosse che quel tipo di bibliofilo che c'è là dentro, che sembra tutto a Pavese, tu ti dovevi divertire!</p>
+			<p>Ma magari ti sei presa L'anitra selvatica, dove si tratta della morale kantiana, o la Casa di Bambola, dove tra una signora che fa la serva e un professionista-commesso, si discute di matrimonio, e sfido io! Ah castrone!</p>
+			<p>Leggi Hedda Gabler e facci attenzione. Altro che il Loco!</p>
+			<p>Fa una cosa. Musica tutto un dramma di Ibsen, a scelta. Lo faremo suonare da Ponina e cantare da Giacchero.</p>
+			<p>Io intanto sono ancora qui al fresco con un allievo che mi dà del fesso grosso come una casa e io faccio l'uomo superiore.</p>
+			<p>Verso il 15 sarò libero. Ti scriverò poi, se verrò, e quando.</p>
+			<p>Scrivimi di tuo fratello e quando ci sarà anche lui a Alpignano.</p>
+			<p>Tante carezze a Ponina.</p>
+			<p>Manda spartiti, versi, meditazioni che qua mangio di tutto.</p>
+		</body>
+	</text>
+</TEI>

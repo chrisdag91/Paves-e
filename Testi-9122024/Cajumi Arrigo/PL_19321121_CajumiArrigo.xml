@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Milano.</p>
+			<p>[Torino,] 21 novembre [1932]</p>
+			<p>Caro Cajumi,</p>
+			<p>sta bene per Typee, che ho ricevuto ieri.</p>
+			<p>A proposito di traduzioni, da qualche mese sto dimagrando dalla voglia di tradurre la Spoon River Anthology. Naturalmente il mio Frassinelli non vuol saperne, perché lui deve farsi una posizione e le poesie non si vendono; ma Ginzburg mi ha suggerito di rivolgermi a Lei, caso mai Treves fosse disposto alla speculazione: un bellissimo libro che non è poi di liriche, ma di personaggi; un libro che, a detta degli Americani stessi, contiene tutta l'America attuale: un libro insomma che non è più sicuro del fallimento di quel che lo siano molti altri pubblicati per bene da Treves. Veda se può far qualcosa.</p>
+			<p>Sono poi mortificato di includerle un altro articolo che è già stato fino a Firenze e che Ojetti non ha voluto perché – dice – ne aspetta uno di Praz sull'argomento. Naturalmente la colpa è dell'articolo e non di Praz; ma siccome i giudizi di Ojetti sono talvolta molto curiosi e, per esempio su Dos Passos, scriveva lui stesso che, secondo il personaggio che parla, nei suoi romanzi cambia lo stile, vorrei sentire da Lei, definitivamente, se l'articolo è culturabile o no.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Milly, Roma.</p>
+			<p>[Torino, marzo 1927]</p>
+			<p>Certo signorina non potrà non stupirla, per non dir peggio, questa lettera di una persona che lei non conosce affatto.</p>
+			<p>Vorrei poter farmi perdonare scrivendole che se lei non conosce me io conosco lei, ma non sarebbe sfacciata la pretesa? Pure...</p>
+			<p>Io la conosco, signorina, la conosco, ripeto, ma così, di sfuggita, l'ho seguita, l'ho osservata a lungo, talvolta, ma senza mai osare avvicinarla. Conosco le sue linee esteriori, qualche istante della sua vita e soprattutto quel po' di anima che da un viso si può rivelare a un osservatore attento.</p>
+			<p>Ma è poco, signorina, al confronto dell'immensità di ciò che vorrei conoscere in lei.</p>
+			<p>Io non sono che un comunissimo studente di 19 anni e lei è lontana, tanto lontana.</p>
+			<p>Come avrei potuto avvicinarla, qua in Torino? Sempre in compagnia la trovavo e sarebbe stato ridicolo. Del resto, anche se avessi potuto incontrarla sola, sarei stato confuso nel numero dei soliti &quot;cacciatori&quot; e tutto sarebbe finito. Questo mi spaventava e non osavo. E così per il timore di sciuparla, di sciupare l'immagine di lei che ho negli occhi, l'ho forse perduta senza riparo.</p>
+			<p>Ma non son riuscito a dimenticarla, quando fu partita. E allora cercando per tutti i giornali l'ho finalmente ritrovata a Roma.</p>
+			<p>Se non son riuscito che a farla ridere, signorina, mi getti in un angolo e sarà finita, ma se almeno un briciolo di quel che provo l'ho espresso, e lei l'ha compreso, allora non mi lasci in questo dubbio. È una speranza folle, ma pure una sua risposta benevola sarebbe tutta la mia gioia. Tante cose avrò da dirle se lei sarà tanto buona da ascoltarmi.</p>
+			<p>Vuole signorina?</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>[Torino,] 12 ottobre 1931</p>
+			<p>Caro Professore,</p>
+			<p>mi rimangio qui il Melville che, come le avrà detto Praz, Ginzburg aveva presentato a Pegaso. Mi attirava Pegaso così principesco di fronte alla Cultura tanto massaia (è ancora l'antica storia del Lewis e dell'Anderson che da Via Cappellini promettono ogni tanto di pagarmi).</p>
+			<p>Credo che l'articolo possa essere adatto alla Cultura. Me l'ha restituito Ugo Ojetti con un lusinghiero biglietto dove considerato il bisogno di cose più attuali mi dice di no dichiarandosi tuttavia lieto di accogliere i miei parti futuri. E siccome per ora di attualità americane in Italia non ce n'è rinuncio a Pegaso.</p>
+			<p>Ho in mente che questo Melville possa riuscire la cosa meno indegna che io abbia mai stampato anche perché m'ero particolarmente aguzzato l'ingegno, componendolo, per via dello scopo pubblicitario prefissomi.</p>
+			<p>Quanto al Melville-traduzione mi dice Ginzburg che ha scritto a Federico Gentile per la Collana Grigia: abbiamo pensato a questa, data l'indole del libro certo più consona a una raccolta di classici che non a una biblioteca di avventure – dice Ginzburg – ma quanto a me non mi dispiacerebbe di vedere il dotto Melville a fianco del vecchio e sempre ottimo Salgari. Comunque, la ringrazio molto della cortese sollecitudine con cui ha voluto aiutarmi, malgrado i precedenti un po’ contrastati di Wrenn.</p>
+			<p>E appena saprò qualcosa di preciso le scriverò in proposito.</p>
+			<p>Non la trattengo più oltre. Uno di questi giorni torno a toccare il tempo all'Amministrazione, questa volta in slang e sul serio. Le sarei grato se volesse dirmi al più presto qualcosa sull'articolo. Le annuncio che qualcosa sul cinema forse farò.</p>
+			<p>Abbia per ora i miei più cordiali saluti</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

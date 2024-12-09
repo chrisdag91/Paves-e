@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Carlo Frassinelli, Torino.</p>
+			<p>[Torino,] 20 marzo [1932]</p>
+			<p>Egregio Frassinelli,</p>
+			<p>I dattilografati che mancano da pag. 27-37 e da pag. 114 fino agli ultimi che avevo, li ha in revisione Antonicelli e mi dice che glieli porterà oggi lunedì.</p>
+			<p>Questi altri sono riveduti da me e da lui e portano dietro, a gruppi, il numero e la firma del visto. Possono quindi passare all’impaginatura senz’altro.</p>
+			<p>Le bozze in colonna che ho veduto vanno bene. Faccia presente che manca qualche nota nel testo così com’è. Anche le prime bozze in pagina mi paiono all’ordine.</p>
+			<p>Proceda pure a mandarmi altro materiale, ché da oggi (lunedì) sera, sarò in vacanza.</p>
+			<p>Cordiali saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

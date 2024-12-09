@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>Egregio Dottore,</p>
+			<p>[Torino,] 28 maggio 1931</p>
+			<p>Ho ricevuto le copie dell'Anderson. La ringrazio molto della sollecitudine e cortesia. Io sto pensando a qualcosa per la Cultura, che spero riuscirà non male.</p>
+			<p>Vorrei anche pregarLa d'interessarsi dei compensi per il mio Lewis (novembre 1930), che, sento da Ginzburg, dovrebbero già essermi giunti.</p>
+			<p>Rispettosi saluti.</p>
+		</body>
+	</text>
+</TEI>

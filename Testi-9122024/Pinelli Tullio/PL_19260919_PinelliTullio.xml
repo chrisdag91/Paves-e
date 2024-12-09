@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Tullio Pinelli, Alpignano.</p>
+			<p>Reaglie [in risposta a una lettera del 19 settembre 1926]</p>
+			<p/>
+			<p>Hai proprio scelto il buono per domandargli un consiglio.</p>
+			<p>Ci vorrebbe una mente imparziale, o fredda almeno, ed io non so neppure che colore abbiano queste cose. Il senso della misura non ce l'ho affatto: sono capace, per esempio, di passare tutto un anno a esaltare la civiltà americana nella letteratura nell'arte e nelle istituzioni, magari perché mi ha dato nell'occhio un'attrice di quel paese; salvo poi, se quell'attrice mi si scopre una... donna, come tutte le altre, a disperare dell'America e del mondo, a piangere, urlare, meditare di tirarmi un colpo. Così sono fatto.</p>
+			<p>Vedi dunque che bei consigli ti potrò dare.</p>
+			<p>Premesso questo ti citerò quel che ha risposto a Baraldi Monti un giorno che quel bel tipo voleva a tutti i costi farmi dissuadere dallo studiare Belle Lettere.</p>
+			<p>&quot;In fatto di professione e di matrimonio, io non darei mai pareri, lascierei che in ognuno parlasse la vocazione&quot;.</p>
+			<p>Ma il bello è che poi Monti ha dato ugualmente il consiglio.</p>
+			<p>È sempre una tentazione troppo forte questa.</p>
+			<p>Così farò io. Stammi dunque a sentire e poi fa come vuoi.</p>
+			<p>Consacrato come sei ora da un primo successo e tormentato come credo lo fosti sempre da quella giovane eterna che è la poesia, che, al contrario di tutte le innamorate terrestri, dal giorno che s'incomincia a conoscerla si scopre sempre più bella e più perfetta, credo che non vorrai abbandonare così, di botto, quelle speranze e quei sogni.</p>
+			<p>Ma, se non ti senti di porre queste cose al di sopra di ogni altra occupazione nel mondo, è segno che non sei nato per l’arte. (Predico bene, eh!)</p>
+			<p>Continuando l'immagine della &quot;giovane eterna&quot;, lo chiami amore vero, sincero, tu, quello che discute, patteggia, contratta magari? Così io credo per l’arte.</p>
+			<p>Se dunque ami davvero il teatro, se lo ami d’amore, questo dev'essere il tuo scopo ultimo, supremo e tutto quel che fai deve convergervi.</p>
+			<p>Esaminando ora sotto questo aspetto il tuo bivio, io (guarda che consiglio oggettivo) io, dico, sceglierei legge.</p>
+			<p>Che cosa vuoi? Tu dici di preferire agricoltura, perché volendo tu anche dedicarti al teatro &quot;la vita forte dei campi ti aiuterebbe molto, mentre le rigorose e aride pratiche legali manderebbero in aria tutti i tuoi bei progetti&quot;. Noto qui intanto che come dicevo poco fa, fin che vuoi solo fare anche dell'arte è ben difficile che tu vi riesca.</p>
+			<p>È un'innamorata troppo gelosa l'arte, che vuole tutto per sé, e magari, come una di quelle dame antiche che ti piacciono tanto, anche la vita dal suo fedele. Non nego che si possa tirare innanzi qualche altra occupazione parallela ai lavori d'arte, ma questa occupazione non dev'essere che un mezzo di guadagnar tempo o denaro, un riparo insomma.</p>
+			<p>Mai e poi mai dedicarsi anche all’arte. Piuttosto seppellirsi e fare il professore di matematica.</p>
+			<p>Io dunque sceglierei legge, perché, lasciando stare che con essa ci si può dare a cento occupazioni tra cui facilmente a una che lasci tempo libero per la celebrazione dei misteri, anche nell'esercizio dell'avvocatura c'è da incontrare e studiare una quantità di uomini, di caratteri, che sono la materia prima della tua arte. L'agricoltura è invece un'occupazione ben più ristretta, un mondo fermo, chiuso in se stesso.</p>
+			<p>Le &quot;aride pratiche legali&quot; poi, saran sempre meno aride, credo, dell'agricoltura. Che ti credi di studiare le Georgiche? Ci sarà un diluvio di chimica, ci saran macchine, ci sarà l'ombra di Pilo, insomma, innanzi ai tuoi occhi per tutta la vita. E poi probabilmente l'agricoltura ti costringerà a una vita di campagna, mentre la legge ti permette una città.</p>
+			<p>Ora io, non so se sia l'influenza di Walt Whitman, ma darei 27 campagne per una città come Torino. La campagna sarà buona per un riposo momentaneo dello spirito, buona per il paesaggio, vederlo e scappar via rapido in un treno elettrico, ma la vita, la vita vera moderna, come la sogno e la temo io è una grande città, piena di frastuono, di fabbriche, di palazzi enormi, di folle e di belle donne (ma tanto non le so avvicinare).</p>
+			<p>E adesso che son tutto sudato per la tirata che ho fatto, tu prendi il partito che vuoi.</p>
+			<p>Non mi resta più che scusarmi se ho tardato tanto a risponderti, perché devi sapere che quando giunse la tua lettera io ero a quel tal paese, in quella tal casa, che voglio morire se fra cent'anni non sarà monumento nazionale. Ci sono nato io, oh!</p>
+			<p>Tu insomma hai lavorato in questo mese. Auguri e mandami quella farsa che ne sono curioso curioso.</p>
+			<p>Io anche ho lavorato, ma giorno per giorno mi cresce la voglia di dare un calcio a tutto e scappar di casa senza un soldo e scorrazzare per il mondo. Così s'impara la vita, non almanaccando sui libri!</p>
+			<p>Ma ci vorrebbe del coraggio e io ne ho tanto che non ho ancora mai osato dire due parole dall'anima a una donna.</p>
+			<p>Me ne consolo personificando l'arte, ma è una magra consolazione.</p>
+			<p>A proposito, su quella long-rizzled Fiorenza, nessuna risposta. Ma tu ti sei già consolato, di certo.</p>
+			<p>Mandami tutti i cangiamenti d’indirizzo, scrivimi 27 volte al giorno e arrivederci (se sarà possibile) dinanzi a Don Brizio.</p>
+			<p>Cesare Pavese</p>
+			<p/>
+			<p>Senti. Ho trovato</p>
+			<p/>
+			<p>Aoristi forti</p>
+			<p>» deboli</p>
+			<p>» fortissimi</p>
+			<p>Ogni verbo li ha tutti e tre; oppure ci sono verbi che ne hanno uno, verbi che ne hanno un altro? La mia grammatica non spiega.</p>
+		</body>
+	</text>
+</TEI>

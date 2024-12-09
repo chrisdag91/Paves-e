@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>[Torino, 25 marzo 1931]</p>
+			<p>Le scrivo intanto per ringraziarLa del Suo aiuto per cui l'impresa di Wrenn è finalmente terminata. La prego di porgere i miei ringraziamenti per l'invio delle copie della traduzione, alla Casa Editrice. Veda, se Le è possibile, di ottenermi dalla Casa qualche altra copia di Wrenn oltre le cinque già da me ricevute. Non mi manca più ora che di ottenere il saldo del compenso pattuito, tanto più che il contratto in proposito parla di pagamento all'accettazione del manoscritto. Spero comunque che presto anche questo sarà all'ordine.</p>
+			<p>Le sarei grato se mi scrivesse qualcosa in proposito a quella mia proposta di un articolo per la Cultura, sul villaggio americano. Comunque sto pensando a Melville. Ginzburg mi dice che avrò per la fine del mese le bozze dell'Anderson. Voglia essere tanto gentile da farmele tenere in doppia copia, dovendo io d'urgenza mandare il saggio a Giuseppe Prezzolini in America. Sempre per mezzo di Ginzburg spero di ricevere in tempo da Polledro Solitudine di Anderson  e dirne qualcosa in nota al mio articolo. Dalla Cultura desidererei poi ricevere la Lettera Scarlatta di F. M. Martini, per scriverne, in caso, una nota sulla rivista. E finalmente (veda quante cose chiedo questa volta!) Le sarei gratissimo se potessi riavere dalla casa Bemporad i due volumi della Loos che io conosco soltanto nel testo. Non credo Le sarà difficile ottenermi questo.</p>
+			<p>Attendo una Sua cortese in proposito e sono ora il suo devotissimo.</p>
+			<p>Sarebbe desiderabile che la Casa Editrice mettesse in vendita Wrenn al più presto, per evitare eventuali danni dalla traduzione di Babbitt che, sento, esce in questi giorni.</p>
+		</body>
+	</text>
+</TEI>

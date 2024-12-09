@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Milly?, Torino.</p>
+			<p>[Torino,] 5-6 gennaio 1928</p>
+			<p>Le ho scritto giorni fa una mia lettera e non ne ho avuto nessuna risposta.</p>
+			<p>Tento di sperare che non le sia giunta. Forse lei non abita più in quella via. Via lo so, è una cosa pazza, ridicola, questa: lei non conosce neppure il mio nome, non sa nulla di me, e poi dovrei almeno venirle a parlare io stesso e non scriverle così alla lontana come un pauroso, ma non posso non posso ora avvicinarla, non vedo come potrei nemmeno tentarlo e poi non la trovo mai sola.</p>
+			<p>Nelle mie lettere le chiedevo poco, via, almeno una sua parola buona: tanto poco le costa. Nulla posso pretendere di più. E lei che è tanto diversa dal mondo che la circonda, nei gesti nello slancio limpido della sua arte, in tutta la sua vita, non mi dovrebbe negare almeno questo.</p>
+			<p>Forse la secco la irrito e questo mi addolora ma non vedo altra via per sfogare un po' fin il tremore orribile che ho nell'anima dalla prima volta che l'ho veduta, un anno fa.</p>
+			<p>Le ho detto, non sono che uno studente di diciannove anni senza nulla da offrirle, se non questo mio sentimento disperato.</p>
+			<p>E, ancora, non le sono un estraneo: amo lei e tutta la sua arte, perché anch'io con questa penna mi affatico in un'arte.</p>
+			<p>Una sua parola, almeno, mi è necessaria come a lei è necessaria la musica per creare il suo sogno vivo.</p>
+			<p>Mi risponda, per pietà, signorina.</p>
+		</body>
+	</text>
+</TEI>

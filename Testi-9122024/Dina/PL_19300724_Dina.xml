@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Dina, Torino.</p>
+			<p>[Torino,] 24 luglio 1930</p>
+			<p>Bambolina mia,</p>
+			<p>se tu fossi una di quelle signorine stupide, di famiglia, che non sanno nulla della vita e pretendono di fare le civette, io fingerei</p>
+			<p>d’essere innamoratissimo e sarebbe finito. Ma tu sei una ragazza buona, che sai già bastare a te stessa e che hai sofferto nell'esistenza</p>
+			<p>quanto occorre per capire ciò che è sincero e ciò che è serio.</p>
+			<p>Noi non ci amiamo, Dinah. E nemmeno lo diciamo a noi stessi. Ci cerchiamo, così, per simpatia, per un qualche interesse che ognuno di noi crede di trovare nell'altro – io, in te, vedo una bambina bella intelligente e che ama i baci – perché stando insieme ci sentiamo felici, ma, come ci diciamo sempre, non ci amiamo. Forse, anzi, noi lo diciamo troppo questo, la paura di innamorarsi non è forse già un po’ d’amore?</p>
+			<p>Tu, Dinah, hai paura che un giorno t'innamorerai. Temi che dovremo soffrire, che tu dovrai soffrire.</p>
+			<p>Carissima, la vita non è forse più bella perché da un giorno all'altro si può perderla? Non pensare al domani. È tanto triste e inutile. Perché non vuoi vivere contemplando ogni giorno questo miracolo di amore che potrebbe fiorire tra noi? Tu hai provata l’esistenza, sai com’è dura: non vuoi dunque godere di un istante che potrebbe, per tanto tempo futuro, esserti un ricordo un po’ caro?</p>
+			<p>Io non parlo per me, Dinah. Io non so se ti amo, e certo se tu mi lasciassi ora, non ne morirei. Vedi, sono sincero. Ma ti voglio</p>
+			<p>del bene, bambolina, e a non vederti più, a non baciarti più, sarei triste. Molto triste.</p>
+			<p>Se forse un giorno ci dimenticheremo, se tu mi dimenticherai, perché quel giorno dev'essere proprio ora? Lascia, la vita è già così</p>
+			<p>crudele, che s’incaricherà lei di separarci.</p>
+			<p>Tu sei allegra, Dinah. Sei una bella bambina. Io con te sono allegro pure. E se fra un mese piangeremo (chi sa?) perché piangere già ora?</p>
+			<p>Talvolta bacio l'aria e penso a te, al tuo musetto. Mi par sempre di non stringerti mai abbastanza. Ti voglio bene, Dinah. Ne vuoi tu un poco a me?</p>
+			<p>Il tuo carissimo</p>
+			<p>P.S. Certo. Non scrivere spesso. Fatti vedere. Baci.</p>
+		</body>
+	</text>
+</TEI>

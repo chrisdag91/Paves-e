@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Luigi Rusca, Milano.</p>
+			<p>[Torino,] 12 luglio 1933</p>
+			<p/>
+			<p>Gentilissimo Signor Rusca</p>
+			<p>Le mando finalmente il Dos Passos dattilografato e corretto.</p>
+			<p>Siccome la revisione ho potuto farla una volta sola, temo che qua e là sia restato qualche errore di stampa — cose di poco conto però, ortografia e simili.</p>
+			<p>Nella correzione delle bozze avrò agio di rimediare e La prego di farmi sapere verso che data mi cadrà questo lavoro.</p>
+			<p>Siccome il mio contratto parla di saldo alla consegna del dattiloscritto, vorrei pregarLa di interessarsi per un sollecito pagamento, dato che la mia estate ne dipende.</p>
+			<p>Ho considerato la Sua proposta dell'Ulysses. Badi che c’è in Italia qualche scrittore che ha ben altri diritti, che non i miei, alla precedenza in questo lavoro. Certo, prima di intraprendere tale impresa, vorrei ancora ripensarci e fare un po’ di esame di coscienza: comunque, intanto che si discorre, Le faccio presente che occorrerebbe a chiunque non meno di un anno per disporcisi e un compenso corrispondente.</p>
+			<p>Per ora, resto il suo</p>
+		</body>
+	</text>
+</TEI>

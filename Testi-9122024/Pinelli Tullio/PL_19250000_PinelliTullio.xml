@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Tullio Pinelli, Torino.</p>
+			<p>[Torino, 1925-26]</p>
+			<p/>
+			<p>Un momento non nega il passato. Dice che il passato è già stato, ha fatta la sua opera ed ora il presente deve fare la sua. &quot;Che cos'è il presente se non il figlio del passato?&quot; dice. Dice che tutto il passato è riassunto nella vita presente e che i vivi debbono elaborare la vita, dando la loro impronta presente. Non è una filosofia che nega tutto, ma che si posa al disopra di tutta la vita: e non ama questa o quest'altra azione, ma l'azione per l'azione. Ed esalta su tutto le grandi forze del suo mondo moderno: amore di libertà, amore umano, giustizia, energia, entusiasmo.</p>
+			<p>Non ha un sistema filosofico, una linea morale. È col pensiero moderno, che ha superata la linea di condotta morale. Esalta le forze che ti ho detto, perché gli piacciono. Non altro (W Walt Whitman!) Rigetta la grazia, la debolezza, la sentimentalità, perché? Non in nome di una legge divina, ma perché: &quot;Preferisco la forza&quot;. E con queste forze contribuisce la &quot;sua unione&quot;.</p>
+			<p>Del resto è un pensiero ballonzante: esalta la Democrazia, l'Unione degli Stati, poi esalta l'individuo che è l'opposto.</p>
+			<p>È un poeta in cui risuona tutta la vita moderna, che relegate le religioni al museo, non ha più linee morali, ha solo la preferenza.</p>
+		</body>
+	</text>
+</TEI>

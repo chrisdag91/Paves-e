@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Carlo Frassinelli, Torino.</p>
+			<p>[Torino, in risposta a una lettera del 16 marzo 1932?]</p>
+			<p>Egregio Frassinelli,</p>
+			<p>Visto tutto. Sono andato adagio nell'accettare le correzioni di Antonicelli che qualche volta, se fatte, mutavano il senso; se solo accennate con pallina, rivelavano particolari gusti stilistici suoi - come la prevenzione che ha contro l'espressione &quot;qualcosa del</p>
+			<p>genere&quot; o l'altra &quot;no?&quot;.</p>
+			<p>Io lui non l'ho visto. Ho sentito con piacere che anche in Armata a cavallo ci sono errori di stampa: meno male che siamo tutti</p>
+			<p>poveri peccatori.</p>
+			<p>Io mercoledì vado a Bra, tenga a mente, e poi ancora nel pomeriggio di giovedì - ma fin che mi manda 15 pgg. per volta non sono io che La faccio aspettare.</p>
+			<p>Saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

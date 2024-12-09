@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Massimo Mila, Entrèves.</p>
+			<p>[Torino, 11 agosto 1931]</p>
+			<p>Hello. Ti scrivo perché la piena degli affetti mi sospinge. Hai fatto un bel lavoro. Ho letto l'articolo sul cine da Ginzburg, urlando e muggendo di gioia. Non dirò mai più male della critica con nessuno. Un bell'articolo ben messo su, che vale una novella.</p>
+			<p>I mari del sud fluviali mi han fatto partire. C'è tutto il primitivo spiegato come va, c'è la merda a Romagnoli, il &quot;mestiere&quot; americano, Maruska, l'analisi di Ramona e di Corinne manca solo Topolino. Ma fa niente, bravo, bravo, bravo Giulietto, bravissimo.</p>
+			<p>il decaduto</p>
+			<p>N. B. Guarda che il titolo americano di Trafalgar dev'essere Lady divine.</p>
+		</body>
+	</text>
+</TEI>

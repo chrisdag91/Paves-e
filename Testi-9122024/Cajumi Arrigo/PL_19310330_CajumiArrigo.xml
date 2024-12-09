@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>Chiarissimo Professore,</p>
+			<p>[Torino,] 30 marzo 1931</p>
+			<p>Voglio anzitutto ringraziarLa per la sua cortesissima cartolina, senza la quale, a leggere la lettera dell'Amministratore Delegato sarei rimasto piuttosto male. Ma grazie a Lei, la faccenda si risolve in una burletta e grandi risate vi ha fatto sopra l'amico Ginzburg.</p>
+			<p>Le rimando intanto le bozze, rincrescendomi soltanto di non aver ancora avuto Solitudine di Polledro, come Le avevo detto, e la ringrazio dell'altra copia delle medesime e della Loos.</p>
+			<p>Quanto alle persone adatte a parlare di Wrenn, Lei certo ne conosce più di me. Ad ogni modo Le ricordo (oltre a Praz), Aldo Sorani (una copia a lui personalmente e una alla Gazzetta del Popolo), Eugenio Giovannetti (per il Giornale d'Italia), G. A. Borgese, Giordano Orsini (per la Nuova Italia – e Ginzburg scriverà personalmente a Russo), Giuseppe Prezzolini (Columbia University. City of New York), F. Olivero (Torino XX Settembre 69), Alberto Rossi, Carlo Linati, G. Titta Rosa, Lydia Rho (Via Artisti 31) e una copia al Leonardo.</p>
+			<p>Ancora mille grazie. Risponderò appena avuto l'assegno, all'Amministratore.</p>
+			<p>Cordiali saluti.</p>
+		</body>
+	</text>
+</TEI>

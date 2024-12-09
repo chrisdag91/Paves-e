@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Libero Novara, Parma.</p>
+			<p>[Torino,] 13 gennaio 1931</p>
+			<p>Egregio Berin,</p>
+			<p>la presente è per farti sapere che avrei bisogno di un favore, anzi due, di natura linguistica!</p>
+			<p>Il primo è il più difficile, ma, se mi risponderai da ubriaco, può darsi che riesca. Avrei bisogno di un bel discorso, di un numero di pagine illimitato, fatto in gergo di mare (molla a babordo e imbroglia il pappafico). Bevutomi? Non che m'importi del discorso per il contenuto, ma m'interessa la terminologia acquatica. Io penso al tuo servizio estivo sul veliero e credo che qualcosa ti ricorderai ancora.</p>
+			<p>Raccontami qualunque roba, per scritto, e tieni a mente di cacciarci dentro le frasi più correnti d'uso marino (non le tecniche ma quelle di gergo) che io ne ho bisogno per tradurre un romanzo americano che è pieno delle dette frasi.</p>
+			<p>E, se non conosci il gergo di mare come quello di S. Paolo, pazienza: inventalo.</p>
+			<p>Il secondo favore, sempre di natura insegnativa, ti seccherà di meno e anzi ti farà le veci delle serate chitarristiche che passavi a Torino. Avrei bisogno che tu, con comodo, mi buttassi giù una serie di trattazioni del genere degli insegnamenti che mi hai dato l'ultimo dell'anno: il trillo del cantino, la ricostruzione gaucha di Ramona, il modo di cantare della teppa, ecc.</p>
+			<p>Sta' bene attento che io non voglio mica far stampare questa roba per &quot;prendere i proventi io&quot; come quel signore che intingeva la penna nel suo cuore: soltanto, siccome io non me ne intendo, mi piacerebbe che tu mi insegnassi qualcosa in questo campo, dato che la sai così lunga.</p>
+			<p>Insomma, se hai voglia, scrivimi ogni tanto un pezzo, parlandomi degli usi e costumi della chitarra o &quot;fruga&quot; che dir si voglia e così resta come se discorressimo insieme. Intesi.</p>
+			<p>E, se le cose che ti chiedo ti sembrassero troppo noiose, non hai che da uscire sul momento a berne un bicchio ed io sarò teco in ispirito, da quel simpaticissimo</p>
+			<p>Cesare Pavese</p>
+			<p>che sono sempre stato.</p>
+			<p>P. S. Naturalmente i due favori richiederebbero molto lavoro, ma tu basta che mi tiri giù una pagina sintetica, per il primo, e io mi faccio l’orecchio, e per il secondo, sempre che tu sia disposto, è una cosa che può anche andare più per le lunghe e con calma. Il primo favore, invece, se è possibile, è una cosa quasi urgente, poiché sono già sotto a tradurre.</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

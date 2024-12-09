@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Federico Gentile, Milano.</p>
+			<p>[Torino,] 4 aprile 1932</p>
+			<p>Caro Dottore,</p>
+			<p>Non Le ho scritto sinora, per poterLe mandare senz'altro la recensione fatta. Veda se va. Trattandosi del primo libro che recensisco per il Leonardo non avrei voluto farne una stroncatura, ma il caso era impossibile. Ho fatto del mio meglio per tenermi nei limiti.</p>
+			<p>Comunque, La ringrazio di essersi ricordato di me e, se crede, mandi pure dell’altro.</p>
+			<p>Moby Dick è a buon punto. Presto ne avrà una copia.</p>
+			<p>Cordiali saluti.</p>
+		</body>
+	</text>
+</TEI>

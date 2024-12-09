@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Luigi Rusca?, Milano.</p>
+			<p>[Torino, in risposta a una lettera del 26 giugno 1933]</p>
+			<p>Egregio signore,</p>
+			<p>ho ricevuto la Sua del 26 giugno che mi chiede per l'Almanacco uno scritto &quot;non eccessivamente critico, ma di lettura gradevole&quot; su Dos Passos. Purtroppo dopo molto pensarci su non vedo modo di accontentarLa. Veda, m’accade, lasciando stare che quel poco che sapevo o potevo dire su Dos Passos, io l’ho già cacciato tutto in un articolo uscito nel marzo '33 sulla Cultura, mi accade che sono interamente digiuno di ogni letteratura critica sull’argomento, per la mia antica riluttanza e pigrizia di leggere riviste e &quot;tenermi al corrente&quot;.</p>
+			<p>Ora, un saggio come quello desiderato per l'Almanacco, non che richieda tutta questa bibliografia, ma può soltanto nascere in testa di chi sia al corrente del Dos Passos &quot;pubblico&quot;: pettegolezzo e confessioni. Io, Le ripeto, messo dinanzi al foglio, non saprei che ripetere su Dos Passos quanto ho già scritto; e in più, creda, sarei assolutamente incapace di scrivere una pagina che non fosse &quot;eccessivamente critica&quot; e, temo molto, noiosa.</p>
+			<p>Se tuttavia, dopo quanto Le ho detto, fossero assolutamente indispensabili per l'Almanacco quattro parole sul mio autore, mi ridurrei a farle - critiche e noiose - se potessi avere, dalla Sua cortesia, in visione almeno le seguenti opere:</p>
+			<p/>
+			<p>Nouvelle Découverte de l'Amérique. Waldo Franck (Ed. Grasset oppure l'edizione americana), A Pushcart at the Curb di J. Dos Passos e Orient Express, id.</p>
+			<p/>
+			<p>Se, con tutti i miei &quot;ma&quot;, la cosa è fattibile, voglia scrivermi sulla lunghezza del saggio e sulla data di consegna, che spero ancor molto lontana.</p>
+			<p>Avrà fra qualche giorno la traduzione del 42mo Parallelo.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Tullio Pinelli, Pinerolo.</p>
+			<p>[Torino,] 1° maggio 1929</p>
+			<p/>
+			<p>A vedere quei quartieri gialli e azzurri del vostro stemma, mi sono sentito tutto medioevale. Per l'esame d'italiano son tutto affogato adesso in poemi cavallereschi, mi sento paladino</p>
+			<p/>
+			<p>e ballo e salto e suono 'l citarino</p>
+			<p/>
+			<p>oppure</p>
+			<p/>
+			<p>Signor sappiate ch'Astolfo l'inglese</p>
+			<p/>
+			<p>ma è tutta una roba fittizia che mi illude per lasciarmi stordito a maldistomaco il giorno dopo.</p>
+			<p>Così quando lascio gli eserciti di ottave e la biblioteca, mi ritrovo sempre nello stesso mare di lacrime colle solite ossa rotte, e la febbre tra la pelle e i rimorsi e scioperataggine et onne cosa.</p>
+			<p>Ecco che volevo scriverti una lunga lettera di confessioni bizzarre, che non paresse ma fosse anche opera d'arte, ma ecco che non ne ho più voglia e ho più niente da dire</p>
+			<p>crepa</p>
+		</body>
+	</text>
+</TEI>

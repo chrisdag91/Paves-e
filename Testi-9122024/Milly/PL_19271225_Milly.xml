@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Milly?, Torino.</p>
+			<p>Torino, 25 dicembre 1927, notte</p>
+			<p>È un grande ardire questo di scriverle mentre Lei nemmeno mi Conosce. Pure, Signorina, da tanto io l'adoro dentro di me, che almeno vorrà concedermi di non fare, fin dalle prime parole, questa lettera a pezzi e buttarla in un angolo.</p>
+			<p>Che cosa posso dirle, Signorina? Al principio di quest'anno quando Lei era a Torino, io l'ho veduta la prima volta e da allora son come stato levato in un gran sogno che per tutto quel tempo non mi ha più lasciato pace. Sempre la sua figura dinanzi agli occhi. Ho barcollato a lungo, a volte sperando nella mia pazzia, altre volte smarrito sentendone tutta l'inutilità e la ridicolezza mia, pure andando innanzi sempre, attaccato disperatamente al mio sogno.</p>
+			<p>L'ho seguita a lungo.</p>
+			<p>Mai osai parlarle. Era tanto pazzesco! E poi non la vedevo mai sola.</p>
+			<p>Mi perdoni se le scrivo tutte queste cose, che a Lei possono anche parere seccanti, ma la supplico ancora un attimo, mi ascolti. Poi ai primi di Marzo andò via. Soffrii tutto il dolore. Pensai persino...</p>
+			<p>Seppi nei primi tempi che era a Roma.</p>
+			<p>Poi più nulla.</p>
+			<p>Ed ora questa sera l'ho riveduta sotto un altro nome, con altre compagne, ma Lei sempre la stessa sempre più bella e affascinante.</p>
+			<p>Ho una tale tempesta nel cuore che se Lei sapesse, avrebbe paura.</p>
+			<p>E non ho più saputo resistere, le scrivo questa lettera per rompere finalmente quel lungo spasimo che mi tormenta da allora e in questo giorno si è fatto più atroce.</p>
+			<p>Via, mi risponda una sua parola.</p>
+			<p>Io non posso offrirle nulla, non sono come quei tanti adoratori che m'immagino siano sempre intorno al suo mondo, sono un povero studente, un semplice studente di 19 anni, ma tanto diverso le giuro dagli altri studenti quanto lei è diversa dalle sue compagne. Non oso neppure, ma le offro tutta la mia anima e i suoi sogni. Via, mi risponda almeno una parola buona.</p>
+			<p>Lei ama la sua arte. Lo si vede in tutti i suoi gesti. Non può avere quindi che un'anima finissima e profonda. Anch'io mi affatico disperatamente in un'arte con questa stessa penna. Non le sono quindi così estraneo. Posso capire molte cose di Lei che nessuno vede.</p>
+			<p>Io sono certo che la sua anima, tutta la sua persona sono tanto diverse dalla volgarità (comune) quanto la sua figura è infinitamente più bella e dolorosa di tutte quelle che la circondano.</p>
+			<p>Lei, una sera di febbraio leggeva sul tram, verso casa, Mimi Bluette.</p>
+			<p>Se ha letto quel libro, e se Lei è davvero come io l'ho immaginata, deve sentire tutta l'umile immensità di ciò che le offro.</p>
+			<p>Via, mi risponda una sola parola, Signorina.</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

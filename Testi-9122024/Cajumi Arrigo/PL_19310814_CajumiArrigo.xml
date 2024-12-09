@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>[Torino,] 14 agosto [1931]</p>
+			<p>Egregio Professore,</p>
+			<p>Le unisco qua l'articolo per la Cultura che da molto tempo avevo in mente sotto forme più pedanti e che spero di aver maturato meno infelicemente nella presente. L'argomento era tanto ricco che non mi pare di averne cavato più che un semplice abbozzo, ma la natura polemica dell'impostazione non permetteva di far molto diverso.</p>
+			<p>Conto di preparare quest'estate per la Cultura qualche altro lavoro, da smaltire nel '32 quando, sotto le armi, non potrò più scherzare molto colla penna.</p>
+			<p>Penso a qualcosa sulla short-story americana, accentrando l'analisi su O. Henry (che, a proposito, si dev'essere perduto nella nebbia).</p>
+			<p>Ho poi in mente un'idea mostruosa sulla Letteratura nel Cinema Americano, che importerebbe una ricerca sulle origini del medesimo, intese a mostrare come esso sia una pianta indigena che soltanto in un secondo tempo e nelle parti caduche l'Europa ha contaminato. Vorrei mi dicesse qualcosa di questo progetto.</p>
+			<p>Veda intanto Spoon River e faccia i complimenti a Praz per la bella stroncatura delle Tauchnitz.</p>
+			<p>Cordialmente.</p>
+		</body>
+	</text>
+</TEI>

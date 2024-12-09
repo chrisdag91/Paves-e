@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>[Torino, 10 novembre 1930]</p>
+			<p>Egregio Dottore,</p>
+			<p>dato che occorre far presto si potrebbe pensare a tradurre Our Mr Wrenn che è breve, senza diritti (1914) e già in mio possesso, per cui appena ricevuto il contratto (a non meno di 1500 L.) io potrei mettermi all'opera. Ma tanto per questo, come per l'altro anch'esso breve e senza diritti Free Air (1919) più fresco, più americano, un film della Fox pare, c'è il pericolo di venir prevenuti da un'altra casa.</p>
+			<p>L'ideale sarebbero Arrowsmith o Elmer Gantry, poiché questi una volta acquistati sarebbero, m'immagino, sicuri da concorrenze ed inoltre potrebbero accompagnarsi validamente a Babbitt a comporre una trilogia. Ma per questi sarà grande la spesa e poi prima di aver concluso le trattative passerà del tempo. Non è da dimenticare inoltre che la Modernissima ha forse già pensato lei alla trilogia e quindi si potrebbe perdere in trattative del tempo prezioso. Come lunghezza questi due equivalgono Babbitt.</p>
+			<p>Riassumendo: Our Mr Wrenn e Free Air costan nulla e sono brevi ma una loro traduzione ci può uscire a due giorni di pubblicazione dalla nostra. Arrowsmith e Elmer Gantry fan magari perdere in trattative due settimane per nulla, e sono costosi e lunghi, ma se riescono, riescono.</p>
+			<p>Decida Ella stesso: nelle rispettive due classi le mie preferenze vanno a Free Air e a Elmer Gantry.</p>
+			<p>Con ossequi.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Enrico Piceni, Milano.</p>
+			<p>[Torino,] 9 febbraio 1933</p>
+			<p/>
+			<p>Va bene. Accetto di fare Dos Passos per la fine di giugno. Mi mandi il contratto.</p>
+			<p>Non mi occorre il 42nd Parallel, ma riceverei volentieri New York (Manhattan Transfer) tradotto da A. Scalero per dare un'occhiata a quello stile italiano.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Giulio Einaudi, Torino.</p>
+			<p>[Torino,] 13 gennaio 1935</p>
+			<p>Caro Einaudi,</p>
+			<p>desidero comunicarti che col seguente mese di febbraio '35 non ho piú intenzione di prestare il nome come direttore responsabile della rivista «La Cultura».</p>
+			<p>Te lo comunico sin d'ora perché tu abbia tempo di provvedere alla sostituzione.</p>
+			<p>Naturalmente sarò lieto, se se ne presenterà l'occasione, di collaborare ancora alla rivista.</p>
+			<p>Cordiali saluti</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

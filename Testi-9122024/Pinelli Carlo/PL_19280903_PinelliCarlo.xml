@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Carlo Pinelli, Alpignano.</p>
+			<p>[Torino,] 3 settembre 1928</p>
+			<p/>
+			<p>Sono stato un bel po' zitto per darti campo di respirare la campagna, ma anche perché tu preparassi del lavoro.</p>
+			<p>Ed ora, con tutta la discrezione che può avere un professore (nel quattrocento il nome corrente di questa classe di gente era &quot;i pedanti&quot;) ritorno a scuoterti e a visitarti.</p>
+			<p>Mando innanzi per ammansirti un boccone dolce e questo sarebbe la notizia che tornando poco fa a rileggere i tuoi versi liberi, me ne sono trovato ancor più contento della prima volta.</p>
+			<p>Coll'incubazione che han fatto, persino quella certa rozzezza di forma che accusavano un tempo, mi è parsa diminuita di molto: ho potuto vedere insomma, tornandoci sopra, come io avessi esagerato alquanto scrivendoti di una &quot;forma da macellaio&quot;.</p>
+			<p>Quelle due composizioni dell'usignolo e della pioggia, non sono poi in fondo tanto scarognate di stile, ma hanno, sempre con una certa approssimazione, quel dato stile, appunto perché richiedevano quello e non altro.</p>
+			<p>Mi sono abituato insomma alla tua personalità.</p>
+			<p>A proposito, ti renderò quei manoscritti appena a Torino.</p>
+			<p>Ed ora, che cosa fai?</p>
+			<p>A me duole tutta l'anima di non poterti rispondere e parlare del Figlioccio che non ho letto e per ora non posso trovare.</p>
+			<p>E in genere di tutto Tolstoi ho letto poco. Qualche novella, un'opera di critica e un pezzo di Risurrezione. L'unica cosa completa che conosco di lui è la Sonata a Kreutzer. Guarda: proprio in quest'opera Tolstoi prende la sonata di Beethoven come simbolo dell'arte perversa e inutile e se ne vale per la tesi del suo romanzo. Altrove, in Che cos'è l'Arte? striglia Wagner ch'è un piacere. È giustissima quindi la tua frase della nullità musicale di questo scrittore, anche riguardo allo stile, ché Tolstoi cerca di vestire di esempi a forti tinte e veri come la natura le sue idee e nulla più. Non si cura affatto di forma. Tutti riconoscono che hanno uno stile da ruminante. Prende le idee e le trita, le ripete, le ribadisce, come vengono in acconcio.</p>
+			<p>Unica sua grandezza credo sia la profonda verità delle passioni, la finezza della psicologia e la interezza della dedizione alla sua coscienza. Ma, come dico, non conosco le opere maggiori di lui e quindi sono in sospeso.</p>
+			<p>In genere non mi è mai andata la letteratura russa. Anche perché non ho mai cominciato seriamente a studiarla.</p>
+			<p>Parlando d'altro, ti dirò che io ho già un po' scorso Heine e letto dell'Intermezzo e del Nordsee, e se tu hai fatto altrettanto, scrivi pure che posso rispondertene.</p>
+			<p>Ma ti ricordo che soprattutto tu dovevi nell'estate vedere qualcosa di Shakespeare che sta in fondo a tutto il romanticismo e ci è quindi necessario per capire storicamente tutto quanto studiamo. E Goethe? E Leopardi? E Manzoni? E V. Hugo? E Carducci? Vedine qualcosa che se quest'anno studieremo ancora insieme avremo bisogno di averli alla mano, di sottintenderli a tutto quanto faremo.</p>
+			<p>E Poe? Ricordati che quelle due o tre ore che si dedicano a uno scrittore, facendo la lezione, non sono nulla, che lo scrittore bisogna conoscerlo, averlo fatto parte della nostra vita, solo così se ne discute con serietà.</p>
+			<p>E Kipling? E London? Tutta gente che tu hai in casa e su cui dovresti esserti già fatta un'opinione qualunque, un modo di sentire che, appena risuona il nome di uno di loro, subito ti crei uno stato d'animo diverso e che sia come il riassunto di esso nella tua anima.</p>
+			<p>So benissimo che è un mestiere infame inoculare agli altri la cultura, che è cosa che ognuno si fa da sé, ed è per questo che io in quest'anno, piuttosto che riempirti la testa di frasi mnemoniche, ho scelto di inocularti l'amore dei libri, dei miei libri, di metterteli dinanzi come li metto inanzi a me. Tu devi farti un mondo di libri di poeti, cioè di uomini che han vissuto nella vita come te e come me e solo si ricordano ancora perché hanno avuto la forza di lasciare opere degne. Amarne gli spiriti, discuterne le idee, sognarne i sogni collo scopo di costruire su di loro il nostro spirito, di trovare in discussione colle loro le nostre idee, e di sognare per esser degni di loro i nostri sogni.</p>
+			<p>Questa è ancora, insieme a quella di abbassarsi per amore alle creature più umili e vili della vita, la prova più alta della fratellanza umana.</p>
+			<p>E questo, se non sei un delinquente, lo sentirai a poco a poco sorgere dentro di te e queste mie parole saranno affatto inutili.</p>
+			<p>Ma comunque m'illudo di aiutarti e darti forza.</p>
+			<p>Ricordati che io cerco di &quot;farti la lezione&quot; collo stesso piacere disinteressato con cui si legge e ripete e spiega a un amico un'opera di uno scrittore che noi si è scoperto.</p>
+			<p>E quindi vedi bene che non si tratta più dell'&quot;ora&quot; ma di una collaborazione di tutti gli istanti.</p>
+			<p>Ecco la spiegazione di queste epistole che a te romperanno i cocci, ma a me paiono necessarie tanto quanto e forse più della puntualità alla lezione.</p>
+		</body>
+	</text>
+</TEI>

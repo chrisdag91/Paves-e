@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Federico Gentile, Milano.</p>
+			<p>[Torino, in risposta alla lettera del 13 gennaio 1932]</p>
+			<p>Ho ricevuto la Sua del 13 c. m. La ringrazio della promessa che mi fa ed anch'io spero con Lei in un successo.</p>
+			<p>Mi permetto però di ricordarLe che condizione essenziale – più che non la considerazione del compenso – per la mia accettazione di un eventuale contratto, è che il ms. passi senz'altro in tipografia e non tardi oltre aprile ad uscire. Insisto su questo, perché perdura e s'aggrava il pericolo di una concorrenza e – inoltre – ho qui a Torino proposte e sollecitazioni di pubblicazione immediata. Voglia insistere specialmente su questo col Dott. Tumminelli.</p>
+			<p>Non sto a importunarLa oltre, pregandoLa di scrivermi qualcosa immediatamente al principio della settimana ventura, benché non sia improbabile una mia corsa fino a Milano.</p>
+		</body>
+	</text>
+</TEI>

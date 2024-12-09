@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Carlo Pinelli, Alpignano.</p>
+			<p>[Torino,] 14 luglio 1928</p>
+			<p/>
+			<p>Caro Carluccio,</p>
+			<p>Ormai ti sei già goduto abbastanza le vacanze.</p>
+			<p>Ricordati, o giovane e promettente compositore, che quando uno ha deciso di far l'artista, gli è lecito di truffare, di tradire, di sedurre, di ammazzare e di dir freddure, ma non gli è lecito di fermarsi un solo istante col naso all'aria a far vita spensierata.</p>
+			<p>Non che uno debba sempre stare lì a leggere a scrivere e ad archeggiare, che allora si diventa idioti o piattole come il tuo professore ma essenzialmente (e qui cavati il cappello perché parlo serio) si deve sempre star presenti a se stessi a cogliere, e analizzare o sintetizzare, per spiegarseli, tutti i minimi moti del proprio spirito e i sentimenti e le idee, e tutto il resto.</p>
+			<p>Fare insomma l’introspezione. E continuamente paragonarne i risultati ai propri mezzi d'arte.</p>
+			<p>È utilissimo, e anzi senza di questo rodìo continuo non si conclude un accidenti.</p>
+			<p>M'immagino quindi che tu sia già stato abbastanza senza far niente.</p>
+			<p>Desidero quindi ricevere al semplicissimo indirizzo di C. P. Via Ponza 3 Torino (ci sono un giorno sì e un giorno no) un tuo messaggio dove si parli della tua vita psichica, o se non ne hai di pronta, della tua criminosa dissipazione.</p>
+			<p>Dico criminosa perché se continuerai a far niente (le guide debbono sempre opinare il peggio) tu deruberai l'Italia e il mondo di un grande compositore.</p>
+			<p>E dico poco.</p>
+			<p>Animo. Ché sei un grand'uomo.</p>
+			<p>Anch'io lo sono. E sono arrivato a questa convinzione dopo un cinque anni di torturamento indefesso. Impara.</p>
+			<p>O leggi e pensa su quei libri che ti ho detto o su altri, o componi ariette, o costruisci sistemi, o scrivi novelle (questa malinconia però sia l'ultima) ma qualcosa mandami.</p>
+			<p/>
+			<p>A far niente così</p>
+			<p>giovane come un aglio,</p>
+			<p>dicono al mio paese,</p>
+			<p>si fa persino sgiaglio.</p>
+			<p/>
+			<p>Scrivimi, col cuore in mano, che io ti farò da innamorata.</p>
+		</body>
+	</text>
+</TEI>

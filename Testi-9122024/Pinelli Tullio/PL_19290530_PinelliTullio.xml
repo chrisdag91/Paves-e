@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Tullio Pinelli, Pinerolo.</p>
+			<p>[Torino,] 30 maggio 1929</p>
+			<p/>
+			<p>Stanotte mi son sognato di te e anzi in un modo buffo, che sul treno di ritorno una tua ragazza inglese ti aveva partorito un bambino e tu arrivavi a casa tutto affaccendato scusandoti che avevi voluto provare un po' se eri capace anche tu.</p>
+			<p>Invece niente bambini ma, mi dicono i tuoi, ufficiale di cavalleria.</p>
+			<p>Adesso mi è già passata, ma in questo primo mattino avevo un tal desiderio di starti insieme che proprio mi pareva di essere innamorato. È strano, poi ci si vede e ognuno fa la sua vita con indifferenza dell'altro. Uno da solo pensa: stare insieme, parlare adagio, camminando, di cose insolite perché non si osano dire sempre, costruirsi colle parole un'ora di paradiso saggio, colla vicinanza della persona corporale dell'altro (questo più che tutto lo provavo con Baraldi) sentirsi proprio salire addosso una gioia sottile, come da una forza magnetica che si scambi.</p>
+			<p>Ci si vede e tutto questo scompare.</p>
+			<p>È un bel destino.</p>
+			<p>Mi son fermato così su questa lettera per suscitare questa vicinanza, questo contatto. Ora son di nuovo il solito sbandato Pavese. Non ti racconto della mia vita. Che miseria, qualche volta non oso più guardarmi nelle vetrine. Non è mica più vivere, questo.</p>
+			<p>Tu, bell'ufficiale, fa presto e torna che io possa rompere quest'attesa e ritrovarti estraneo e stupido come un altro di quelli che ho sottomano.</p>
+			<p/>
+			<p>Signor, sappiate che Astolfo l'inglese</p>
+			<p>non ebbe di bellezze il somigliante;</p>
+			<p>molto fu ricco, ma più fu cortese,</p>
+			<p>leggiadro nel vestire e nel sembiante:</p>
+			<p>la forza sua non veggo assai palese,</p>
+			<p>ché molte fiate cadde dal ferrante:</p>
+			<p>quel solea dir che gl'era per sciagura</p>
+			<p>e tornava a cader senza paura.</p>
+			<p/>
+			<p>Boiardo mio</p>
+		</body>
+	</text>
+</TEI>

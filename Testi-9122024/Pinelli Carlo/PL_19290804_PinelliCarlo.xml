@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Carlo Pinelli, Arenzano.</p>
+			<p>[Bibiana,] 4 agosto 1929</p>
+			<p/>
+			<p>Ti scrivo per dirti che son qua a Bibiana per far studiare un somarello che deve dar gli esami. Tu però indirizza pure a Torino.</p>
+			<p>Comincia sul serio il mio mestiere e non è neanche tanto seccante.</p>
+			<p>Dico &quot;sul serio&quot; perché le nostre lezioni erano altra cosa. E continuiamole senz'altro.</p>
+			<p>Se hai casi di coscienza, curiosità erudite, opere inedite e via, domandami senz'altro. E intanto leggi Ibsen, fammi il piacere.</p>
+			<p>Una volta o l'altra (settembre) verrò a trovarti se il meticoloso padre del mio allievo ('l sur cunt) mi concederà una giornata degli studi del figlio.</p>
+			<p>Fa' il contrario di quanto hai fatto finora e sarai grande.</p>
+			<p>Saluti.</p>
+		</body>
+	</text>
+</TEI>

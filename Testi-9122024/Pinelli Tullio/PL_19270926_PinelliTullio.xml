@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Tullio Pinelli, Alpignano.</p>
+			<p>[Torino, timbro postale 26 settembre 1927]</p>
+			<p/>
+			<p>No, non sono morto. Ho soltanto trovato modo di dire quelle &quot;parole dall'anima&quot; tanto sospirate. E sono rimasto muto per tutto questo tempo perché le grandi rivelazioni dell'anima vanno vissute in solitudine, nel deserto, come facevano i Profeti. Mai ho sognato di poter vivere così, eppure è realtà. Ti ricordi quel volto biondo e azzurro, piangente tra i gigli in quella illustrazione della Vita Nova? Così è Lei. Ma fra poco il tracollo.</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

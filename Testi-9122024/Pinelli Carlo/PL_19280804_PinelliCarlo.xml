@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Carlo Pinelli, Alpignano.</p>
+			<p>[Torino,] 4-5 agosto 1928</p>
+			<p>Dunque il signorino si è offeso a sentirsi dire una di quelle sane parole popolaresche che ristorano l'anima e che persino i bambini si affrettano a imparare per le prime insieme a quelle sacramentali di papà, mamma e no.</p>
+			<p>A questo proposito gli ricorderò un progetto che avevamo quest'inverno io e Monferini.</p>
+			<p>Riflettevamo che i vocaboli proibiti in società son molti e che difficilmente uno evita di cascarci qualche volta.</p>
+			<p>Allora pensammo di compilare cataloghi di dette parole ineffabili e di affiggerne i muri anzitutto delle strade, poi dei caffè, delle aule scolastiche, dei cessi, dei saloni, dei salotti, e di ogni altro luogo un po' pubblico affinché ciascuno con un'occhiata potesse rendersi conto di quel che è lecito e quel che no.</p>
+			<p>Naturalmente lo studio a memoria di questi cataloghi impronunciabili avrebbe dovuto diventare una delle materie scolastiche e d’esame.</p>
+			<p>Vuoi scommettere che la sempre malaticcia morale ci avrebbe guadagnato?</p>
+			<p>Tanto basti.</p>
+			<p>Dalla cautela poi di cui si fascia la tua lettera, in tono basso profondo con pedale, si vede a occhio nudo quanto ti stiano a cuore i tuoi conati di vomito (va bene così?) e come qualmente sian tutte storie quelle proteste di &quot;non lo farò più&quot; che come sai è la frase che si dice al confessore per aver carta bianca a farle più grosse.</p>
+			<p>Sempre a proposito della lettera, poi ho ammirato la tua riservatezza musicale, molto preziosa a questa stagione che qualunque fesso (vedi Pavese e Giacchero) si mette a comporre ariette negre, ma ti dico che ormai hai gli anni che hai e la composizione di una boiata qualsiasi ti spianerebbe la via ad altro più considerevole.</p>
+			<p>Comunque non insisto. &quot;Fate vobis&quot; era un vescovo.</p>
+			<p>E vengo finalmente ai lacerti che hai sacrificati per ammansire la belva.</p>
+			<p>In tutto quel che ti dirò mi sforzerò di essere il meno possibile &quot;critico letterario&quot; pure se ci cascherò ugualmente, pensa che in fondo quello è il mio mestiere.</p>
+			<p>Caro il mio nobiluomo dal naso a crochet! Con questa lettera tu mi sei cresciuto dinanzi di due palmi. Sei più degno di rispetto che non credessi!</p>
+			<p>Ed ora, testi alla mano, te lo dimostro.</p>
+			<p>Anzitutto hai una &quot;personalità&quot;.</p>
+			<p>Pensa che l'atmosfera della tua famiglia è così prepotente (mica in senso offensivo) che io stesso che son di fuori e di sangue contadino ho rischiato di subirla.</p>
+			<p>Casa simpatica la tua, ma idiotizza la gente. E non dar nelle stelle, ché ti spiego subito.</p>
+			<p>In casa tua tutto è organizzato. La cucina come l’educazione, la religione come la posta, i godimenti artistici come l'impianto elettrico, e via dicendo. L'individuo scompare in casa tua. Anche i peccati scommetto che sono tradizionali.</p>
+			<p>Ho sempre creduto insomma che da quella casa si potesse uscire Pinelli intelligenti, anche artisti se vuoi, ma sempre Pinelli. Prova ne sia tuo fratello. E tu ora mi hai dimostrato che è ancor possibile che da casa tua si esca magari cretini, farabutti, mattoidi, ma anche se stessi, personali, liberi (per quanto è possibile); che si esca Carlo insomma e non soltanto Pinelli.</p>
+			<p>Questa tua singolarità l'avevo già sospettata alquanto prima, attraverso le tue idee, il tuo contegno in famiglia, il tuo &quot;Loco&quot; ecc. ecc. ma ora in questi fogli quasi illeggibili me ne sono convinto.</p>
+			<p>Un carattere, un tipo insomma, che dalla famiglia deriva solo gli atteggiamenti migliori come la signorilità e la serietà riservata (io non li ho, ma son buoni lo stesso) e per il resto è assorto su di sé, vede molto coll'occhio suo e ha sopratutto un &quot;temperamento&quot; artistico che nulla deriva dalla cultura.</p>
+			<p>Di valore attuale quelle tue impressioni hanno poco o niente, perché son slegate, distratte, sciatte, senza riguardo al lettore, o altro.</p>
+			<p>Ma, in parte, appunto per questo, e in parte per la loro natura intima a me dicono molto.</p>
+			<p>Intanto senza accorgertene mi hai dimostrata una verità che mi ha consolato assai. St'inverno, discutendo, tu davi addosso al verso libero mentre io ti affermavo che in mezzo alla vita che ci circonda, non è più possibile scrivere in metro rimato come non è lecito andare in parrucca e spadino.</p>
+			<p>Ed ora, alla prova, tu stesso scrivendo senza pretese letterarie, ma soltanto per soddisfare un tuo ghiribizzo (ed è sempre così che si è sinceri e in accordo col tempo), non ti sei neppur sognato di stiracchiare le tue idee nelle forme metriche, ma hai lasciato che creassero esse stesse il loro ritmo.</p>
+			<p>Ricordati che il metro ebbe ragione di esistere finché la poesia fu cantata su un'arietta musicale.</p>
+			<p>E non parliamo poi della rima, che è stato un lenocinio di decadenza.</p>
+			<p>Premesso questo noto come le tue ispirazioni, pur sconclusionate, sono tue e di nessun altro, non han nulla di letterario, cosa che colla tua età e coll'uggia del professore che ti legge i classici, è un miracolo.</p>
+			<p>E poi scrivi cose chiare, semplici. Nulla di più, dici, del necessario, e questo è ancora un pregio che rientra nella non-letteratura.</p>
+			<p>Non hanno ancora un'armonia le tue poesie (oh, molte parole sono illeggibili, scrivi meglio, diavolo!) ma se ne sente, direi, l'odore, la traccia.</p>
+			<p>Guarda, hanno lo stesso andamento trasognato del &quot;loco&quot; e questo è molto perché sei già tanto te stesso, da mostrarti uguale in ogni tua opera.</p>
+			<p>La cosa meno perversa è quella dell'usignolo, che di forma è più rozza di un'aria di Ripp suonata da me, ma dice molto nella sua tenuità.</p>
+			<p>È un argomento logoro tanto l'hanno usato, l'usignolo, eppure qua è fresco. Quel riferimento del trillo all’universale, a tutta una costruzione d'armonia è quel che è: c'è la stoffa, insomma.</p>
+			<p>Insomma, letti i tuoi fogli tre cose restano bene in mente:</p>
+			<p/>
+			<p>il fiore rosso dietro alla colonna</p>
+			<p>l'usignolo che costruisce sinfonie</p>
+			<p>e i visi dei lampioni sull'asfalto.</p>
+			<p/>
+			<p>E non è poco.</p>
+			<p>Non ti consiglio di scrivere ancora poesie, perché, dicono, è un eccitamento alla corruzione, ma, visto il mio pensiero, ti dico soltanto di pensare a te e di fare, fare qualunque cosa, qualunque lavoro, che ne hai la stoffa e la forza. Ti farò il massimo elogio:</p>
+			<p>Quelle tre cose che ti ho elencate, non averle scritte io, ché son tirate giù da macellaio, ma averle pensate, colte nella vita, per adoperarle io, vorrei bene.</p>
+			<p>Ed ora scrivimi quel che vuoi ma ricordati che devi leggere libri e tenermi informato.</p>
+		</body>
+	</text>
+</TEI>

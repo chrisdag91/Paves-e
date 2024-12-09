@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>[Torino,] 16 ottobre 1930</p>
+			<p>Egregio dottore,</p>
+			<p>La ringrazio molto di aver passato il mio indirizzo all'Ed. Bompiani, benché sia stato spiacentissimo di non poter far nulla per lui.</p>
+			<p>Qui uniti troverà il Cabell e il Melville di cui ho parlato. La prego di voler essere sollecito specialmente per il secondo, e di insistere, per farsene un'idea, specialmente sui cap. VIII-IX; XXVILI; CXI-CXXII; circa CXXXI-CXXXV (non badi alle postille che feci in un tempo un po’ lontano). Inutile dirle che il richiamo di questo libro consisterà nella scoperta della vita attiva e dei mari del sud (argomenti di molto interesse in Italia per via di London e J. Lowell e Ombre Bianche) e, di più, nella luce che getta sul periodo degli Hawthorne e dei Poe, riecheggiandone a suo modo la severità puritana e l'abito della razionalità nell'inaudito e nel leggendario che ancora c'interessano in quegli autori.</p>
+			<p>Quanto a Cabell credo che andrebbe, per la ragione che già Le scrissi: un richiamo di questo genere: L'Anatole France d'America.</p>
+			<p>Non le mando Manhattan Transfer, perché molto voluminoso e anche perché credo sia già come Babbitt acquistato dalla Modernissima.</p>
+			<p>E per concludere, non andrebbe invece del Theodore Dreiser un po’ passé che ci si offriva prima, una scelta dei migliori ritratti nel recente volume di Gallery of Women? (Tauchnitz ed.).</p>
+			<p>Non tutto, poiché si ricadrebbe nell'American Tragedy, ma un florilegio sarebbe d'interesse attuale e di successo dato anche che questi ritratti sono senza dubbio l'opera sinora più riuscita e spigliata del pesante scrittore.</p>
+			<p>La ringrazio che mi promette di far passare il Lewis, anche perché l'argomento è di molta attualità e pare che in Italia ci si risvegli</p>
+			<p>al proposito.</p>
+			<p>Rispettosamente.</p>
+			<p>Suo</p>
+			<p>P.S. Il mio indirizzo è mutato. Non più Via Ponza 3, ma Via Lamarmora 35.</p>
+		</body>
+	</text>
+</TEI>

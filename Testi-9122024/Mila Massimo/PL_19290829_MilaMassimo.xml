@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Massimo Mila, Torino.</p>
+			<p>[Bibiana,] 29 agosto 1929</p>
+			<p>Vacci ché starai sempre meglio che a fare il fesso in giro con quegli altri fessi. (Ti scrivo solo una cartolina perché non ho voglia di star lì a fare il bel componimento).</p>
+			<p>Ma del resto, tornerai anche tu verso il 15 e allora saremo tutti lì, compreso il prof. Monti e faremo i fessi tutti insieme (ah, scusa...!)</p>
+			<p>Dà del... suo a Ginzburg e vivi sano e consolami Sturani, ché di poesie non ne ho più scritte.</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

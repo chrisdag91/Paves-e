@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Luigi Rusca, Milano.</p>
+			<p>[Torino,] 25 luglio 1933</p>
+			<p>Quando mi ha chiesto di Ulysses la prima volta, non le ho risposto senz’altro, perché, avendo sentito che altre case ci pensavano, credevo si dovesse correre una gara di velocità, e di tutti i libri, Ulysses è il meno passibile di questo trattamento.</p>
+			<p>Visto che Lei insiste, Le dirò che per la traduzione non chiederei eventualmente meno di un anno e da 8000 a 10000 lire di compenso.</p>
+			<p>E questo è un calcolo fatto a occhio e croce: prima di accettare l’incarico, d vorrei ancora pensare e ad ogni modo vorrei ridare un’occhiata all’opera.</p>
+			<p/>
+		</body>
+	</text>
+</TEI>

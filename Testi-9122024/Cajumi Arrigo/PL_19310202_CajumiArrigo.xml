@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Firenze.</p>
+			<p>[Torino,] 2 febbraio 1931</p>
+			<p>Chiarissimo Professore,</p>
+			<p>Le mando finalmente il tanto ritardato articolo su Anderson. Veda se è pubblicabile nella rivista e, in caso affermativo, La pregherei di farlo uscire non oltre aprile, occorrendomene le copie stampate non oltre maggio. Naturalmente correggerei io le bozze.</p>
+			<p>Con Anderson i miei antichi impegni di collaborazione sono finiti e Le sarei grato se Ella volesse pensare a qualche altro nome, o opera, o problema, della letteratura nordamericana su cui incaricarmi di comporre qualcosa.</p>
+			<p>Gradirei anche notizie di quella mia antica nota whitmaniana, che però dato l'errore (Sélincourt francese) credo non sia pubblicabile e nemmeno rabberciabile.</p>
+			<p>Rispettosi ossequii</p>
+			<p>CP</p>
+		</body>
+	</text>
+</TEI>

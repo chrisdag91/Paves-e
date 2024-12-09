@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿Ad Arrigo Cajumi, Milano.</p>
+			<p>[Torino, giugno? 1934]</p>
+			<p>Due Epistolari, Memorie di Combattenti, Velleità Anticarducciane, Lirica provenzale, li ho letti interamente, cfr.-ando le correzioni delle bozze in colonna, che le accludo, con le righe rifatte. Artemus Ward l'ho confr. anche col ms.</p>
+			<p>Quanto alle note le ho scorse, cfr. coi mss., tutte, tranne le Sue, dove farà meglio Lei. Per il talloncino che resta del mio Wilde, se è possibile, io direi di impaginarne ancora delle Sue o il Rainoni, e così lo assorbiamo; altrimenti tagli Lei dove crede nella mia nota o in precedenti.</p>
+			<p>Debbo partire per R[eaglie].</p>
+		</body>
+	</text>
+</TEI>

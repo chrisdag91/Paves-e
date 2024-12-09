@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Federico Gentile, Milano.</p>
+			<p>[Torino,] 4 dicembre [1931]</p>
+			<p>Chiarissimo Dottore,</p>
+			<p>circa un mese fa Le inviai il manoscritto della mia versione di Moby Dick di H. Melville.</p>
+			<p>Scusi la fretta, ma desidererei saper presto qualcosa di decisivo sul contratto, intanto per via della probabile concorrenza (massime dopo l'articolo di Emilio Cecchi sul Corriere) e poi anche per altri miei impegni sospesi.</p>
+			<p>Vorrebbe essere tanto gentile da scrivermene qualcosa?</p>
+			<p>Scuse e ossequii cordiali.</p>
+		</body>
+	</text>
+</TEI>

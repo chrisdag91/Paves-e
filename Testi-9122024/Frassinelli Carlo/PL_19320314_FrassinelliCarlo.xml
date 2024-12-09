@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Carlo Frassinelli, Torino.</p>
+			<p>[Torino, in risposta a una lettera del 14 marzo 1932]</p>
+			<p>Egregio Frassinelli,</p>
+			<p>ecco le bozze - le ha vedute anche Antonicelli. Mi dispiace enormemente dell'imprevisto della composizione. Va bene la dattilografia del manoscritto. Se Lei crede, mi terrò responsabile - nel limite delle mie possibilità - dell'imprevisto della composizione. Glie ne parlerò per telefono stamattina 15 verso mezzogiorno. Mi dirà intanto se per la consegna delle bozze che ho in correzione c'è ancora la premura di prima (mi dice Antonicelli che comporrà prima Cavalleria Rossa).</p>
+			<p>Scuse e saluti</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>

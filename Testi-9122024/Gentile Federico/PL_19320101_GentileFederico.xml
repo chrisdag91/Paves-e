@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>﻿A Federico Gentile, Milano.</p>
+			<p>[Torino,] 1° gennaio 1932</p>
+			<p>Chiarissimo Dottore,</p>
+			<p>sono spiacentissimo di disturbarLa ancora ma occorre che io sappia assolutamente una risposta - che spero favorevole - a proposito della pubblicazione di Moby Dick.</p>
+			<p>Voglia scusarmi se oso insistere, ma non è senza motivo. Parleremo con qualche respiro delle condizioni, ma un sì o un no mi occorre senz’altro.</p>
+			<p>Voglia gradire i miei più cordiali ringraziamenti e auguri</p>
+			<p>Pavese</p>
+		</body>
+	</text>
+</TEI>
