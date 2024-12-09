@@ -501,7 +501,7 @@
 			<p/>
 			<p>Thornton Wilder, The Woman of Andros (I read the other two ones)</p>
 			<p><persName ref="http://viaf.org/viaf/9889931/" type="real">Vachel Lindsay</persName>, anything</p>
-			<p><persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" type="real">C. Sandbury</persName>, <title ref="#TheAmericanSongbag">The American Songbag</title>, <title key="Sandburg, Carl, 1878-1967. | Smoke and steel" ref="http://viaf.org/viaf/2075162608714049820005/" level="m">Smoke and Steel</title>, Cornhuskers (not <title level="m" ref="http://viaf.org/viaf/11168897881956720008/">Chicago Poems</title>)</p>
+			<p><persName key="Sandburg, Carl, 1878-1967." ref="http://viaf.org/viaf/61588662/" type="real">C. Sandbury</persName>, <title ref="#TheAmericanSongbag">The American Songbag</title>, <title key="Sandburg, Carl, 1878-1967. | Smoke and steel" ref="http://viaf.org/viaf/2075162608714049820005/" level="m">Smoke and Steel</title>, <title level="m" ref="#Cornhuskers">Cornhuskers</title> (not <title level="m" ref="http://viaf.org/viaf/11168897881956720008/">Chicago Poems</title>)</p>
 			<p><persName ref="http://viaf.org/viaf/73872159/" type="real">Countee Cullen</persName>, <title level="m" ref="#CarolingDusk">Caroling Dusk</title></p>
 			<p><persName ref="http://dbpedia.org/resource/James_Branch_Cabell" type="real">Cabell</persName>, anything except <title level="m" ref="http://viaf.org/viaf/1020151051810033530001/">Jurgen</title> and <title level="m" ref="#TheCordsOfVanity">The Cords of Vanity</title></p>
 			<p><persName key="March, Joseph Moncure" ref="http://viaf.org/viaf/92123053/" type="real">J. Moncure March</persName>, <title level="m" ref="#TheSetUp">The Set-Up</title></p>
