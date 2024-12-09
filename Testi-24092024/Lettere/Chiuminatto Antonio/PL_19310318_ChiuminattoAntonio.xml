@@ -266,7 +266,7 @@
 			<p><persName ref="http://viaf.org/viaf/9889931/" type="real">Vachel Lindsay</persName>, anything</p>
 			<p>C. Sandbury, The American Songbag, Smoke and Steel, Cornhuskers (not Chicago Poems)</p>
 			<p><persName ref="http://viaf.org/viaf/73872159/" type="real">Countee Cullen</persName>, <title level="m" ref="#CarolingDusk">Caroling Dusk</title></p>
-			<p>Cabell, anything except Jurgen and The Cords of Vanity</p>
+			<p><persName ref="http://dbpedia.org/resource/James_Branch_Cabell" type="real">Cabell</persName>, anything except <title level="m" ref="http://viaf.org/viaf/1020151051810033530001/">Jurgen</title> and The Cords of Vanity</p>
 			<p>J. Moncure March, The Set-Up</p>
 			<p>Glenway Wescott, Goodbye Wisconsin (not The Grandmothers)</p>
 			<p>Langston Hughes, Poems and blues</p>
