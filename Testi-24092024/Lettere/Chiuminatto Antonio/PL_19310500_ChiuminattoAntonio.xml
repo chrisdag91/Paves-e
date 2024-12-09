@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,14 +11,14 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>Ad Antonio Chiuminatto, Chicago.</p>
+			<p>Ad <persName ref="https://viaf.org/viaf/120757469/" type="real">Antonio Chiuminatto</persName>, <placeName ref="https://geonames.org/4887398" type="real">Chicago</placeName>.</p>
 			<p>[Torino, maggio 1931]</p>
 			<p/>
-			<p>Dear Tony,</p>
-			<p>at last I succeeded in putting down another essay on that guy. Say it's not so damn easy to rewrite on a topic! I had to plug along like a dog, believe me. But you'll soon get it and this matters, all other things &quot;are silence&quot;. Now let Father Parsons decide.</p>
+			<p>Dear <persName ref="https://viaf.org/viaf/120757469/" type="real">Tony</persName>,</p>
+			<p>at last I succeeded in putting down another essay on that guy. Say it's not so damn easy to rewrite on a topic! I had to plug along like a dog, believe me. But you'll soon get it and this matters, all other things "are silence". Now let Father Parsons decide.</p>
 			<p>And I'm not due to America. 'Tis sad, honey, but 'tis so. On 1st November I'll enter under the arms. That doggone doctor found me able-bodied to war and peace service. Eleven months! Till June 1932. Adieu America! And I had already rec'd the Columbia acceptance! Surely Daddy above is a funny guy, you bet.</p>
 			<p>So you can forward the library-stuff, according the list you already got, I beseech you, enclose Caroling Dusk. I want it before all other books.</p>
 			<p>As you, say you like so much Anderson's Notebook, I'll mail it back, it's truly interesting and worthwhile, and I'm only sorry I read it after my Anderson was already in proofs (by the way, it'll appear before long). Together with the Notebook and the new essay on Lewis you'll get a novelty, my own translation of Our Mr Wrenn! You'll judge by your own eyes.</p>
