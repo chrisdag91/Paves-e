@@ -246,6 +246,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310326_ChiuminattoAntonio.xml?date_annotation_20241209111802231",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-09T10:18:02.231Z",
+	"dcterms:modified": "2024-12-09T10:18:02.231Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310326_ChiuminattoAntonio.xml?date_annotation_20241209111802231#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310326_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-24092024/Lettere/Chiuminatto%20Antonio/PL_19310326_ChiuminattoAntonio.xml?date_annotation_20241209111802231#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1931-04"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -257,7 +335,7 @@
 			<p>So I'll begin to put down a new essay on <persName ref="#LewisSinclair" type="real">Lewis</persName>. There's also another reason to rewrite <rs ref="#UnRomanziereAmericanoSinclairLewis">the old one</rs>, apart from the rule of "Thought", and that's this: I've got to speak to an American public, no more to Italians. And this changes things a little. I don't promise you the new article for too soon, as you know I'm already breaking myself down with work, but certainly in the month of <date when="1931-04">April</date>, it'll be done.</p>
 			<p>Now, I want only to congratulate you and arrange businesses. If some mazooma will come out of our united literary strivings, that is, if Thought will send you some doremi, we'll go fifty-fifty. Are you game?</p>
 			<p>Say, <rs ref="https://viaf.org/viaf/120757469/">Buddy</rs>, in a fortnight, my <persName ref="#AndersonSherwood" type="real">Anderson</persName> will appear!</p>
-			<p>Take your time, as for Shylock and A Jew in Love. And more time take about summer books. Perhaps I'll already be over there, by that time. In April I'll know the sentence.</p>
+			<p>Take your time, as for Shylock and A Jew in Love. And more time take about summer books. Perhaps I'll already be over there, by that time. In <date when="1931-04">April</date> I'll know the sentence.</p>
 			<p>I'm glad to hear from you good news about the fiddle - mightly glad. And so you also are hanging on, eh! Well, we'll yet turn out the Phenomenical Twins, what d'you say?</p>
 			<p>Now, I beg many - too many - pardons, and must come back to my unrelenting works.</p>
 			<p>So keep an eye on Father Parsons and you'll soon get the stuff.</p>
