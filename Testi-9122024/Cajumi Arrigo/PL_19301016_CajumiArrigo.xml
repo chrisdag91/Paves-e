@@ -1611,7 +1611,7 @@
 			<p>al proposito.</p>
 			<p>Rispettosamente.</p>
 			<p>Suo</p>
-			<p>P.S. Il mio indirizzo è mutato. Non più Via Ponza 3, ma Via Lamarmora 35.</p>
+			<p>P.S. Il mio indirizzo è mutato. Non più <placeName ref="#ViaPonza3Torino">Via Ponza 3</placeName>, ma <placeName ref="#ViaLamormora35_Torino">Via Lamarmora 35</placeName>.</p>
 		</body>
 	</text>
 </TEI>
