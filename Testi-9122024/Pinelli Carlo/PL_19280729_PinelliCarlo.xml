@@ -484,6 +484,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210113217233",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T10:32:17.233Z",
+	"dcterms:modified": "2024-12-10T10:32:17.233Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210113217233#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210113217233#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[23]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Teatro_Regio_(Turin)",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -509,7 +588,7 @@
 			<p>Sta' a vedere che se la vengono proprio a prendere colle tue cacate, i postini.</p>
 			<p>Se poi è di me che non ti fidi, ti ricordo che sono il tuo Herr Professor e tanto basti. Ehi! Che facciamo la burletta (frase toscana: annota)?</p>
 			<p>Tanto, i manoscritti si restituiscono. In quanto alla musica poi, può darsi che io non la capisca, per ignoranza, ma se anche tu mi tenessi informato, letterariamente, delle tue sinfonie, di che cosa vi hai espresso, di che cosa te ne pare, dell'effetto che ti fa la musica degli altri, e mi mandassi magari qualche copiarellina dei tuoi spartitini che io senza dir niente dell'autore mi farei suonare da qualcuno o, nel mio piccolo, strimpellerei a una mano io stesso, se anche tu facessi tutto questo, dico, non ti sforzeresti poi mica il pertugio delle erbette.</p>
-			<p>"Ha sentito l'ultima cosa del <persName ref="http://viaf.org/viaf/26865943/" type="real">Pinelli</persName>?" "Magnifico! E quando dirigeva al Regio? se lo ricorda?" "Spettacoloso!" "Sì, ma lei non mi vorrà paragonare il suo 'Coro di pazzi furiosi' con qualunque altra pagina orchestrale!" "È un fatto che sembra che adoperi delle note mai udite. E pensare che è un classico nella sua arte". "Beh, adesso lei esagera, il Pinelli è il segnacolo di tutti i compositori d'avanguardia". "Ma non dica cretinerie. Non sente che purezza di linea melodica c'è in lui!" "È un fatto, ma è anche molto complicato". "In questo ha ragione. Bel, ma capìl!"</p>
+			<p>"Ha sentito l'ultima cosa del <persName ref="http://viaf.org/viaf/26865943/" type="real">Pinelli</persName>?" "Magnifico! E quando dirigeva al <placeName key="Teatro Regio (Turin)" ref="http://dbpedia.org/resource/Teatro_Regio_(Turin)" type="real">Regio</placeName>? se lo ricorda?" "Spettacoloso!" "Sì, ma lei non mi vorrà paragonare il suo 'Coro di pazzi furiosi' con qualunque altra pagina orchestrale!" "È un fatto che sembra che adoperi delle note mai udite. E pensare che è un classico nella sua arte". "Beh, adesso lei esagera, il Pinelli è il segnacolo di tutti i compositori d'avanguardia". "Ma non dica cretinerie. Non sente che purezza di linea melodica c'è in lui!" "È un fatto, ma è anche molto complicato". "In questo ha ragione. Bel, ma capìl!"</p>
 			<p>Caro Carlino, se vorrai sentire di queste conversazioni dovrai ben cominciare da qualcuno. Sacrifica me, sarò il tuo primo apostolo. Ci capirò poco, ma tu sai benissimo che gli Apostoli, per definizione, non capivano niente.</p>
 			<p>E lavora, andiamo. A testa china, coi denti stretti, senza dir nulla, come una bestia. Vedrai che ti frutta. Su questo ti dò la mia parola d'onore.</p>
 			<p>Io un tempo smaniavo a applicarmi al tavolino, ebbene, ora, senza sforzo, mi preparo per un esame biennale, studio un mucchio di cose e di tanto in tanto dò fuori come un galletto poesie e novelle.</p>
