@@ -485,13 +485,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19300725_CajumiArrigo.xml?place_annotation_20241210172014722",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T16:20:14.722Z",
+	"dcterms:modified": "2024-12-10T16:20:14.722Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19300725_CajumiArrigo.xml?place_annotation_20241210172014722#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19300725_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19300725_CajumiArrigo.xml?place_annotation_20241210172014722#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Cajumi, Arrigo, 1899-1955" ref="http://viaf.org/viaf/12380962/" cert="high" type="real">Arrigo Cajumi</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1930-07-25">25 luglio 1930</date></p>
 			<p>Illustrissimo Professore,</p>
-			<p>qui accluso è l'articolo su <persName ref="#LewisSinclair">Sinclair Lewis</persName> da tanto tempo promesso. Ne ho ritardato la composizione poiché di parecchie opere giovanili dello scrittore ho dovuto andare a cercar le copie fino in una biblioteca pubblica degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati Uniti</placeName>. Comunque ho potuto vedere l'intero <persName cert="high" ref="#LewisSinclair" type="real">Lewis</persName> ed il mio articolo ha appunto sapore di un sintetico studio dello sviluppo e di tutta l'attività dello scrittore, in contrapposizione alle affrettate informazioni su <title key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)" level="m">Babbitt</title> o sui "vient de paraître" dell'autore del medesimo che in Europa fan sinora le veci di una critica più seria. Impossibile mi è stato mettermi al corrente di tutta la bibliografia sull'argomento, sparsa chi sa dove e, del resto, non numerosa. Ho veduto con molte difficoltà qualcosa di francese e qualcosa d'americano ma in genere non ne ho usato per il mio articolo, dove tento di porre il problema – quasi vergine problema del resto – in un modo mio personale ed insospettato anche da Régis Michaud il quale sinora è quello che su <persName ref="#LewisSinclair">Lewis</persName> ha scritto le pagine meno squallide.</p>
+			<p>qui accluso è l'articolo su <persName ref="#LewisSinclair">Sinclair Lewis</persName> da tanto tempo promesso. Ne ho ritardato la composizione poiché di parecchie opere giovanili dello scrittore ho dovuto andare a cercar le copie fino in una biblioteca pubblica degli <placeName key="North America  " ref="https://geonames.org/6255149">Stati Uniti</placeName>. Comunque ho potuto vedere l'intero <persName cert="high" ref="#LewisSinclair" type="real">Lewis</persName> ed il mio articolo ha appunto sapore di un sintetico studio dello sviluppo e di tutta l'attività dello scrittore, in contrapposizione alle affrettate informazioni su <title key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)" level="m">Babbitt</title> o sui "vient de paraître" dell'autore del medesimo che in <placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> fan sinora le veci di una critica più seria. Impossibile mi è stato mettermi al corrente di tutta la bibliografia sull'argomento, sparsa chi sa dove e, del resto, non numerosa. Ho veduto con molte difficoltà qualcosa di francese e qualcosa d'americano ma in genere non ne ho usato per il mio articolo, dove tento di porre il problema – quasi vergine problema del resto – in un modo mio personale ed insospettato anche da <persName ref="#MichaudRégis">Régis Michaud</persName> il quale sinora è quello che su <persName ref="#LewisSinclair">Lewis</persName> ha scritto le pagine meno squallide.</p>
 			<p>Spero che l'articolo corrisponderà ai suoi desideri o alle esigenze della rivista e che la lunghezza, richiesta dall'argomento, non sarà un ostacolo alla sua accettazione.</p>
 			<p>Leone Ginzburg le avrà scritto a proposito di Sh. Anderson: spero che Ella avrà potuto occuparsene e che prossimamente mi vorrà scrivere in proposito. Intanto oso pregarla d'una cortese e pronta risposta a questa mia.</p>
 			<p>P.S. Naturalmente, se sarà il caso, mi assumerò io stesso la fatica di correggere le bozze.</p>
