@@ -563,6 +563,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?date_annotation_20241210154521168",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T14:45:21.168Z",
+	"dcterms:modified": "2024-12-10T14:45:21.168Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?date_annotation_20241210154521168#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?date_annotation_20241210154521168#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1848"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -570,7 +648,7 @@
 			<p><placeName ref="https://geonames.org/6535386" type="real">Bibiana</placeName>, <date when="1929-09-05">5 settembre 1929</date></p>
 			<p/>
 			<p>Pare impossibile che a te debba scrivere solo lettere di quell'affettuosità mistico-tragica che tanto mi dona.</p>
-			<p>Mentre a <rs ref="http://viaf.org/viaf/26865943/">tuo fratello</rs> scrivo lettere sarcastico-paterne che sono uno schifo e ai colleghi più scozzonati lettere ingenuo - la so lunga che sono una pietà (alle donne, poi, mando pantani da poeta decadente '48, e a <persName ref="http://viaf.org/viaf/5057618/" type="real">Monti</persName> tirate folkloristico - vita attiva: tutto in buona fede).</p>
+			<p>Mentre a <rs ref="http://viaf.org/viaf/26865943/">tuo fratello</rs> scrivo lettere sarcastico-paterne che sono uno schifo e ai colleghi più scozzonati lettere ingenuo - la so lunga che sono una pietà (alle donne, poi, mando pantani da poeta decadente <date when="1848">'48</date>, e a <persName ref="http://viaf.org/viaf/5057618/" type="real">Monti</persName> tirate folkloristico - vita attiva: tutto in buona fede).</p>
 			<p>Con qualunque persona io parli, insomma, ho bisogno di farmi una faccia speciale adatta a una qualche particolare debolezza di detta persona, con evidente pregiudizio di quella che potrebbe essere la mia faccia vera.</p>
 			<p>Sono così anche riuscito a non saper più quale sia questa mia faccia. Che magari non c'è neanche.</p>
 			<p>Come lo chiami tu questo? Simulazione di persona? simulazione di anima? falsità, impotenza, vigliaccheria? Tutto quello che vuoi. Di questo e di altro mi sento il rimorso addosso.</p>
