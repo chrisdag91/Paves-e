@@ -173,7 +173,7 @@
 	<text>
 		<body>
 			<p>A <persName key="Tullio Pinelli" ref="http://dbpedia.org/resource/Tullio_Pinelli">Tullio Pinelli</persName>, <placeName key="Alpignano Piedmont Italy" ref="https://geonames.org/3183187" type="real">Alpignano</placeName>.</p>
-			<p>Reaglie [in risposta a una lettera del 19 settembre 1926]</p>
+			<p><placeName ref="#Reaglie" type="real">Reaglie</placeName> [in risposta a una lettera del 19 settembre 1926]</p>
 			<p/>
 			<p>Hai proprio scelto il buono per domandargli un consiglio.</p>
 			<p>Ci vorrebbe una mente imparziale, o fredda almeno, ed io non so neppure che colore abbiano queste cose. Il senso della misura non ce l'ho affatto: sono capace, per esempio, di passare tutto un anno a esaltare la civiltà americana nella letteratura nell'arte e nelle istituzioni, magari perché mi ha dato nell'occhio un'attrice di quel paese; salvo poi, se quell'attrice mi si scopre una... donna, come tutte le altre, a disperare dell'America e del mondo, a piangere, urlare, meditare di tirarmi un colpo. Così sono fatto.</p>
