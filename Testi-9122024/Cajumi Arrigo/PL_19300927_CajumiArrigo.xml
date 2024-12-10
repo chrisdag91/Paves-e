@@ -484,6 +484,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19300927_CajumiArrigo.xml?title_annotation_20241210173743505",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T16:37:43.505Z",
+	"dcterms:modified": "2024-12-10T16:37:43.505Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19300927_CajumiArrigo.xml?title_annotation_20241210173743505#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19300927_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19300927_CajumiArrigo.xml?title_annotation_20241210173743505#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/1542161332348852420009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -492,7 +571,7 @@
 			<p>Egregio Dottore,</p>
 			<p>In risposta alla Sua del <date when="1930-09-17">17 settembre</date> Le mando qui acclusa una nota sull'antologia whitmaniana della NRF uscita quest'anno. Non ho scritto a Lei per annunziargliela poiché di essa Le aveva già parlato <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">Ginzburg</persName>. Spero che servirà allo scopo e, specialmente, che non apparirà prolissa. Veda Lei.</p>
 			<p>Quanto ad <persName cert="high" ref="#AndersonSherwood" type="real">Anderson</persName> non ho ancora ricevuto le opere che mi mancano e tra queste ce n'è pure d'importanti, così ho ancora rimandato la composizione del saggio promesso.</p>
-			<p>Riguardo alla traduzione sono d'accordo con Lei che Dark Laughter è un libro non facile, ma, esclusi S. Lewis e gli altri (Anita Loos – Joan Lowell – Van Vechten ecc.) già rivelati in Italia, non so quale dei contemporanei americani possa sotto quest'aspetto che Lei dice essere popolare.</p>
+			<p>Riguardo alla traduzione sono d'accordo con Lei che <title key="Anderson, Sherwood, 1896-1941. | Dark laughter" ref="http://viaf.org/viaf/1542161332348852420009/" level="m">Dark Laughter</title> è un libro non facile, ma, esclusi <persName ref="#LewisSinclair">S. Lewis</persName> e gli altri (Anita Loos – Joan Lowell – Van Vechten ecc.) già rivelati in Italia, non so quale dei contemporanei americani possa sotto quest'aspetto che Lei dice essere popolare.</p>
 			<p>Dreiser mi pare superato e dubito anche [...] avere in Italia quel successo [...] in America ha avuto pieno.</p>
 			<p>Sto scoprendo da qualche [...] B. Cabell la cui opera [...] aristocratica come quella di [...] ha però il vantaggio di presentare un mondo culturale già introdotto in Italia da Anatole France – escluso, s'intende, l'elemento politico e sociale. La pregherei perciò di considerare la possibilità di una traduzione del capolavoro di Cabell, Jurgen, che se non sbaglio, nemmeno in francese è ancor uscito.</p>
 			<p>E veda un po' se nemmeno di Hemingway e di Dos Passos fosse possibile far qualcosa.</p>
