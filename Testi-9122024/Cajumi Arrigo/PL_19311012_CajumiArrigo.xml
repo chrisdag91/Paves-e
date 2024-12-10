@@ -1119,6 +1119,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19311012_CajumiArrigo.xml?person_annotation_20241210203241443",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T19:32:41.443Z",
+	"dcterms:modified": "2024-12-10T19:32:41.443Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19311012_CajumiArrigo.xml?person_annotation_20241210203241443#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19311012_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19311012_CajumiArrigo.xml?person_annotation_20241210203241443#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/36957491/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1126,7 +1206,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1931-10-12">12 ottobre 1931</date></p>
 			<p>Caro Professore,</p>
 			<p>mi rimangio qui il <rs ref="#HermannMelville_LaCultura" type="work">Melville</rs> che, come le avrà detto <persName key="Mario Praz" ref="http://www.wikidata.org/entity/Q981971">Praz</persName>, <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" cert="high" type="real">Ginzburg</persName> aveva presentato a <title key="Pegaso (périodique)" ref="http://viaf.org/viaf/5317151002115930280004/" level="j">Pegaso</title>. Mi attirava <title key="Pegaso (périodique)" ref="http://viaf.org/viaf/5317151002115930280004/" level="j">Pegaso</title> così principesco di fronte alla <title level="j" ref="#LaCultura">Cultura</title> tanto massaia (è ancora l'antica storia del Lewis e dell'Anderson che da Via Cappellini promettono ogni tanto di pagarmi).</p>
-			<p>Credo che l'articolo possa essere adatto alla Cultura. Me l'ha restituito Ugo Ojetti con un lusinghiero biglietto dove considerato il bisogno di cose più attuali mi dice di no dichiarandosi tuttavia lieto di accogliere i miei parti futuri. E siccome per ora di attualità americane in Italia non ce n'è rinuncio a Pegaso.</p>
+			<p>Credo che l'<rs ref="#HermanMelville_LaCultura" type="work">articolo</rs> possa essere adatto alla <title level="j" ref="#LaCultura">Cultura</title>. Me l'ha restituito <persName key="Ojetti, Ugo, 1871-1946" ref="http://viaf.org/viaf/36957491/" cert="high" type="real">Ugo Ojetti</persName> con un lusinghiero biglietto dove considerato il bisogno di cose più attuali mi dice di no dichiarandosi tuttavia lieto di accogliere i miei parti futuri. E siccome per ora di attualità americane in Italia non ce n'è rinuncio a Pegaso.</p>
 			<p>Ho in mente che questo <rs ref="#HermanMelville_LaCultura" type="work">Melville</rs> possa riuscire la cosa meno indegna che io abbia mai stampato anche perché m'ero particolarmente aguzzato l'ingegno, componendolo, per via dello scopo pubblicitario prefissomi.</p>
 			<p>Quanto al <rs ref="#MobyDick">Melville-traduzione</rs> mi dice <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" cert="high" type="real">Ginzburg</persName> che ha scritto a <persName ref="#GentileFederico">Federico Gentile</persName> per la <orgName key="Sansoni (editore)" ref="http://viaf.org/viaf/330159474312027662417/">Collana Grigia</orgName>: abbiamo pensato a questa, data l'indole del <rs ref="#MobyDick" type="work">libro</rs> certo più consona a una raccolta di classici che non a una biblioteca di avventure – dice <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" cert="high" type="real">Ginzburg</persName> – ma quanto a me non mi dispiacerebbe di vedere il dotto <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">Melville</persName> a fianco del vecchio e sempre ottimo <persName key="Emilio Salgari" ref="http://dbpedia.org/resource/Emilio_Salgari">Salgari</persName>. Comunque, la ringrazio molto della cortese sollecitudine con cui ha voluto aiutarmi, malgrado i precedenti un po’ contrastati di <title key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn" level="m">Wrenn</title>.</p>
 			<p>E appena saprò qualcosa di preciso le scriverò in proposito.</p>
