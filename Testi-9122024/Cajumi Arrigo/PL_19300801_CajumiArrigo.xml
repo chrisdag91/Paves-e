@@ -568,7 +568,7 @@
 			<p>Ad <persName key="Cajumi, Arrigo, 1899-1955" ref="http://viaf.org/viaf/12380962/" cert="high" type="real">Arrigo Cajumi</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1930-08-01">1° agosto 1930</date></p>
 			<p>Chiarissimo Professore,</p>
-			<p>ricevo la Sua cartolina del <date when="1930-07-28">28 u. s.</date> e La ringrazio della sollecitudine con cui Ella promette di far passare nella <title level="j" ref="#LaCultura">rivista</title> il mio articolo.</p>
+			<p>ricevo la Sua cartolina del <date when="1930-07-28">28 u. s.</date> e La ringrazio della sollecitudine con cui Ella promette di far passare nella <title level="j" ref="#LaCultura">rivista</title> il mio <rs ref="#SherwoodAnderson_LaCultura" type="work">articolo</rs>.</p>
 			<p>Quanto a <persName cert="high" ref="#AndersonSherwood" type="real">Sh. Anderson</persName> ho già scritto a <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> per avere le opere che mi mancano e conto, in <date when="1930-11">Novembre</date>, di consegnarLe il <rs ref="#SherwoodAnderson_LaCultura" type="work">saggio</rs>, sebbene questo scrittore importi uno studio più lungo e accurato data la complessità della sua figura.</p>
 			<p>Sarei lieto intanto di riuscir utile alla <title level="j" ref="#LaCultura">rivista</title> con recensioni di cui Ella giudicasse pertinente all'indirizzo dei miei studi l'argomento.</p>
 			<p>Con ossequio.</p>
