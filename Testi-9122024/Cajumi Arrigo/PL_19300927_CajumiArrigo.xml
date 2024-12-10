@@ -1180,7 +1180,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19300927_CajumiArrigo.xml?title_annotation_20241210174425685#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[10]/title"
+			"rdf:value": "TEI/text/body/p[10]/title[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1259,7 +1259,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19300927_CajumiArrigo.xml?title_annotation_20241210174435955#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[10]/title[2]"
+			"rdf:value": "TEI/text/body/p[10]/title[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -1923,7 +1923,7 @@
 			<p><persName key="Dreiser, Théodore, 1871-1945" ref="http://viaf.org/viaf/4944366/" cert="high" type="real">Dreiser</persName> mi pare superato e dubito anche [...] avere in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395">Italia</placeName> quel successo [...] in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> ha avuto pieno.</p>
 			<p>Sto scoprendo da qualche [...] <persName key="James Branch Cabell" ref="http://www.wikidata.org/entity/Q723374" cert="high" type="real">B. Cabell</persName> la cui opera [...] aristocratica come quella di [...] ha però il vantaggio di presentare un mondo culturale già introdotto in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395">Italia</placeName> da Anatole France – escluso, s'intende, l'elemento politico e sociale. La pregherei perciò di considerare la possibilità di una traduzione del capolavoro di <persName key="James Branch Cabell" ref="http://www.wikidata.org/entity/Q723374">Cabell</persName>, <title key="Cabell, James Branch, 1879-1958. | Jurgen a comedy of justice" ref="http://viaf.org/viaf/1020151051810033530001/" level="m">Jurgen</title>, che se non sbaglio, nemmeno in francese è ancor uscito.</p>
 			<p>E veda un po' se nemmeno di <persName ref="#HemingwayErnest">Hemingway</persName> e di <persName ref="#DosPassosJohn">Dos Passos</persName> fosse possibile far qualcosa.</p>
-			<p>In una sua lettera ultimamente <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" cert="high" type="real">Ginzburg</persName> mi ha accennato a una Sua intenzione di formare una casa editrice "la Cultura". Se probabile e se, come credo, queste edizioni saranno soltanto di modernissimi vorrei suggerirle come impresa di, credo, sicuro successo e, inoltre, di grande valore culturale una versione di almeno una tra le opere di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">H. Melville</persName> – <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">Typee</title> o <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, preferibilmente quest'ultimo.</p>
+			<p>In una sua lettera ultimamente <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" cert="high" type="real">Ginzburg</persName> mi ha accennato a una Sua intenzione di formare una casa editrice <title level="j" ref="#LaCultura">"la Cultura"</title>. Se probabile e se, come credo, queste edizioni saranno soltanto di modernissimi vorrei suggerirle come impresa di, credo, sicuro successo e, inoltre, di grande valore culturale una versione di almeno una tra le opere di <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" type="real">H. Melville</persName> – <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">Typee</title> o <title key="Moby-Dick" ref="http://dbpedia.org/resource/Moby-Dick" level="m">Moby Dick</title>, preferibilmente quest'ultimo.</p>
 		</body>
 	</text>
 </TEI>
