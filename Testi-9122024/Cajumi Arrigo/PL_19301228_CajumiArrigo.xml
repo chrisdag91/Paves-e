@@ -485,6 +485,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301228_CajumiArrigo.xml?organization_annotation_20241210190306278",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T18:03:06.278Z",
+	"dcterms:modified": "2024-12-10T18:03:06.278Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301228_CajumiArrigo.xml?organization_annotation_20241210190306278#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301228_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301228_CajumiArrigo.xml?organization_annotation_20241210190306278#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/Tauchnitz_publishers",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301228_CajumiArrigo.xml?title_annotation_20241210190321127",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T18:03:21.127Z",
+	"dcterms:modified": "2024-12-10T18:03:21.127Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301228_CajumiArrigo.xml?title_annotation_20241210190321127#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301228_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301228_CajumiArrigo.xml?title_annotation_20241210190321127#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Babbitt_(novel)",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -492,7 +650,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1930-12-28">28 dicembre 1930</date></p>
 			<p>Egregio Professore,</p>
 			<p>qui accluso è il manoscritto del <title key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn" level="m">Nostro Sig. Wrenn</title> che son riuscito a finire in tempo. Anche quella difficoltà delle parole di gergo è superata, perché ho trovato modo d'informarmi direttamente qui a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>. Come Lei vedrà ho aggiunto alcune note, assolutamente indispensabili all'intelligenza del testo, specialmente le prime e più lunghe! In esse ho tenuto un tono di volgarizzamento, ricordando la natura della collezione.</p>
-			<p>Resta la questione della p. 309 bis del manoscritto che corrisponde alla 283, nell'edizione Tauchnitz. Io l'ho riprodotta al possibile, traducendola, ma debbo però farLe presente che essa è affatto staccata dal testo e si può eliminarla senza conseguenze. Anche in Babbitt però S. Lewis ha pagine consimili, e parrebbe quindi questa una sua caratteristica non trascurabile. Decida l'editore.</p>
+			<p>Resta la questione della p. 309 bis del manoscritto che corrisponde alla 283, nell'<orgName key="Tauchnitz publishers" ref="http://dbpedia.org/resource/Tauchnitz_publishers">edizione Tauchnitz</orgName>. Io l'ho riprodotta al possibile, traducendola, ma debbo però farLe presente che essa è affatto staccata dal testo e si può eliminarla senza conseguenze. Anche in <title key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)" level="m">Babbitt</title> però S. Lewis ha pagine consimili, e parrebbe quindi questa una sua caratteristica non trascurabile. Decida l'editore.</p>
 			<p>Credo non sia il caso di una introduzione, data la natura della collezione ma ad ogni modo, Lei mi dirà.</p>
 			<p>Spero che la versione sia soddisfacente pensando un momento alle difficoltà di slang che presenta questo romanzo, per superare le quali ho dovuto sovente lasciarmi andare in espressioni dialettali italiane e qualche volta in veri e proprî solecismi, assolutamente indispensabili questi ultimi, a rendere il testo nella sua interezza.</p>
 			<p>Le prometto fra breve il tanto rimandato Sh. Anderson.</p>
