@@ -802,13 +802,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310325_CajumiArrigo.xml?person_annotation_20241210192052480",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T18:20:52.480Z",
+	"dcterms:modified": "2024-12-10T18:20:52.480Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310325_CajumiArrigo.xml?person_annotation_20241210192052480#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310325_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310325_CajumiArrigo.xml?person_annotation_20241210192052480#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/94052107/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>Ad <persName key="Cajumi, Arrigo, 1899-1955" ref="http://viaf.org/viaf/12380962/">Arrigo Cajumi</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <date when="1931-03-25">25 marzo 1931</date>]</p>
 			<p>Le scrivo intanto per ringraziarLa del Suo aiuto per cui l'impresa di <title key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn" level="m">Wrenn</title> è finalmente terminata. La prego di porgere i miei ringraziamenti per l'invio delle copie della traduzione, alla <orgName ref="#BemporadEditore">Casa Editrice</orgName>. Veda, se Le è possibile, di ottenermi dalla <orgName ref="#BemporadEditore">Casa</orgName> qualche altra copia di <title key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn" level="m">Wrenn</title> oltre le cinque già da me ricevute. Non mi manca più ora che di ottenere il saldo del compenso pattuito, tanto più che il contratto in proposito parla di pagamento all'<hi cert="high" generatedBy="human" rend="italic" xml:space="default">accettazione del manoscritto</hi>. Spero comunque che presto anche questo sarà all'ordine.</p>
-			<p>Le sarei grato se mi scrivesse qualcosa in proposito a quella mia proposta di un articolo per la <title level="j" ref="#LaCultura">Cultura</title>, sul <hi cert="high" generatedBy="human" rend="italic" xml:space="default">villaggio americano</hi>. Comunque sto pensando a <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>. <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" cert="high" type="real">Ginzburg</persName> mi dice che avrò per la fine del mese le bozze dell'<rs ref="#SherwoodAnderson_LaCultura" type="work">Anderson</rs>. Voglia essere tanto gentile da farmele tenere in doppia copia, dovendo io d'urgenza mandare il <rs ref="#SherwoodAnderson_LaCultura" type="work">saggio</rs> a <persName key="Prezzolini, Giuseppe, 1882-1982" ref="http://viaf.org/viaf/109649570/">Giuseppe Prezzolini</persName> in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. Sempre per mezzo di Ginzburg spero di ricevere in tempo da Polledro Solitudine di Anderson  e dirne qualcosa in nota al mio articolo. Dalla Cultura desidererei poi ricevere la Lettera Scarlatta di F. M. Martini, per scriverne, in caso, una nota sulla rivista. E finalmente (veda quante cose chiedo questa volta!) Le sarei gratissimo se potessi riavere dalla casa Bemporad i due volumi della Loos che io conosco soltanto nel testo. Non credo Le sarà difficile ottenermi questo.</p>
+			<p>Le sarei grato se mi scrivesse qualcosa in proposito a quella mia proposta di un articolo per la <title level="j" ref="#LaCultura">Cultura</title>, sul <hi cert="high" generatedBy="human" rend="italic" xml:space="default">villaggio americano</hi>. Comunque sto pensando a <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName>. <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" cert="high" type="real">Ginzburg</persName> mi dice che avrò per la fine del mese le bozze dell'<rs ref="#SherwoodAnderson_LaCultura" type="work">Anderson</rs>. Voglia essere tanto gentile da farmele tenere in doppia copia, dovendo io d'urgenza mandare il <rs ref="#SherwoodAnderson_LaCultura" type="work">saggio</rs> a <persName key="Prezzolini, Giuseppe, 1882-1982" ref="http://viaf.org/viaf/109649570/">Giuseppe Prezzolini</persName> in <placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. Sempre per mezzo di <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">Ginzburg</persName> spero di ricevere in tempo da Polledro Solitudine di Anderson  e dirne qualcosa in nota al mio articolo. Dalla Cultura desidererei poi ricevere la Lettera Scarlatta di F. M. Martini, per scriverne, in caso, una nota sulla rivista. E finalmente (veda quante cose chiedo questa volta!) Le sarei gratissimo se potessi riavere dalla casa Bemporad i due volumi della Loos che io conosco soltanto nel testo. Non credo Le sarà difficile ottenermi questo.</p>
 			<p>Attendo una Sua cortese in proposito e sono ora il suo devotissimo.</p>
 			<p>Sarebbe desiderabile che la Casa Editrice mettesse in vendita Wrenn al più presto, per evitare eventuali danni dalla traduzione di Babbitt che, sento, esce in questi giorni.</p>
 		</body>
