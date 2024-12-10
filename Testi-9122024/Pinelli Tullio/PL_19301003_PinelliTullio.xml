@@ -90,11 +90,168 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19301003_PinelliTullio.xml?place_annotation_20241210150257133",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T14:02:57.133Z",
+	"dcterms:modified": "2024-12-10T14:02:57.133Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19301003_PinelliTullio.xml?place_annotation_20241210150257133#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19301003_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19301003_PinelliTullio.xml?place_annotation_20241210150257133#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19301003_PinelliTullio.xml?date_annotation_20241210150311546",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T14:03:11.546Z",
+	"dcterms:modified": "2024-12-10T14:03:11.546Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19301003_PinelliTullio.xml?date_annotation_20241210150311546#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19301003_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19301003_PinelliTullio.xml?date_annotation_20241210150311546#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1930-10-03"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A <persName ref="http://dbpedia.org/resource/Tullio_Pinelli " type="real">Tullio Pinelli</persName>, <placeName key="Alpignano Piedmont Italy" ref="https://geonames.org/3183187">Alpignano</placeName>.</p>
-			<p>Torino, 3 ottobre 1930</p>
+			<p><placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, <date when="1930-10-03">3 ottobre 1930</date></p>
 			<p/>
 			<p>Caro <persName ref="http://dbpedia.org/resource/Tullio_Pinelli " type="real">Tullio</persName>,</p>
 			<p>Non vuoi freddure? Allora senti cose serie: sappi che tutte le notti mi sveglio mezzo soffocato e rantolante e debbo correre subito ai rimedi se voglio ancora tirare il fiato, sappi che sono quasi impotente, che sono vilissimo di carattere, mentitore, ladro, invidioso e posatore, opportunista, mollusco, servile, stupido, e presuntuoso. Basta? E nota che tutti questi attributi non sono mica colori retorici, ma di ognuno potrei darti la prova precisa, citando le circostanze in cui mi si è rivelata. C’è, si capisce, la consolazione che tutti gli uomini sono così, anche gli attaccabottoni...</p>
