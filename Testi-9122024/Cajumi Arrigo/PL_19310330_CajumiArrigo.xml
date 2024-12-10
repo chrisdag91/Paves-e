@@ -1181,7 +1181,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?place_annotation_20241210193905427#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/placeName"
+			"rdf:value": "TEI/text/body/p[6]/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1356,6 +1356,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?place_annotation_20241210194046364",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T18:40:46.364Z",
+	"dcterms:modified": "2024-12-10T18:40:46.364Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?place_annotation_20241210194046364#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?place_annotation_20241210194046364#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/5128581",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210194108367",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T18:41:08.367Z",
+	"dcterms:modified": "2024-12-10T18:41:08.367Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210194108367#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210194108367#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/89547717/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1364,7 +1523,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1931-03-30">30 marzo 1931</date></p>
 			<p>Voglio anzitutto ringraziarLa per la sua cortesissima cartolina, senza la quale, a leggere la lettera dell'<persName key="Bemporad, Enrico, 1868-1944" ref="http://viaf.org/viaf/3278496/" cert="high" type="real">Amministratore Delegato</persName> sarei rimasto piuttosto male. Ma grazie a Lei, la faccenda si risolve in una burletta e grandi risate vi ha fatto sopra l'amico <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">Ginzburg</persName>.</p>
 			<p>Le rimando intanto le bozze, rincrescendomi soltanto di non aver ancora avuto <title key="Anderson, Sherwood, 1876-1941. | Winesburg, Ohio" ref="http://viaf.org/viaf/314848338/" level="m">Solitudine</title> di <persName key="Polledro, Alfredo 1885-1948" ref="http://viaf.org/viaf/8705154387227530970004/">Polledro</persName>, come Le avevo detto, e la ringrazio dell'altra copia delle medesime e della <persName key="Anita Loos" ref="http://dbpedia.org/resource/Anita_Loos">Loos</persName>.</p>
-			<p>Quanto alle persone adatte a parlare di <title key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn" level="m">Wrenn</title>, Lei certo ne conosce più di me. Ad ogni modo Le ricordo (oltre a <persName key="Mario Praz" ref="http://www.wikidata.org/entity/Q981971" cert="high" type="real">Praz</persName>), Aldo Sorani (una copia a lui personalmente e una alla <title key="Gazzetta del pòpolo" ref="http://viaf.org/viaf/188593349/" level="j">Gazzetta del Popolo</title>), Eugenio Giovannetti (per il <title key="Giornale d'Italia" ref="http://www.wikidata.org/entity/Q3792745" level="j">Giornale d'Italia</title>), G. A. Borgese, Giordano Orsini (per la <title level="j" ref="#LaNuovaItalia">Nuova Italia</title> – e Ginzburg scriverà personalmente a Russo), Giuseppe Prezzolini (<orgName key="Columbia University" ref="http://www.wikidata.org/entity/Q49088">Columbia University</orgName>. City of New York), F. Olivero (<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> <placeName ref="#ViaXXSettembre69Torino">XX Settembre 69</placeName>), Alberto Rossi, Carlo Linati, G. Titta Rosa, Lydia Rho (Via Artisti 31) e una copia al <title key="Leonardo" ref="http://www.wikidata.org/entity/Q3229697" level="j">Leonardo</title>.</p>
+			<p>Quanto alle persone adatte a parlare di <title key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn" level="m">Wrenn</title>, Lei certo ne conosce più di me. Ad ogni modo Le ricordo (oltre a <persName key="Mario Praz" ref="http://www.wikidata.org/entity/Q981971" cert="high" type="real">Praz</persName>), <persName key="Sorani, Aldo" ref="http://viaf.org/viaf/89547717/" cert="high" type="real">Aldo Sorani</persName> (una copia a lui personalmente e una alla <title key="Gazzetta del pòpolo" ref="http://viaf.org/viaf/188593349/" level="j">Gazzetta del Popolo</title>), Eugenio Giovannetti (per il <title key="Giornale d'Italia" ref="http://www.wikidata.org/entity/Q3792745" level="j">Giornale d'Italia</title>), G. A. Borgese, Giordano Orsini (per la <title level="j" ref="#LaNuovaItalia">Nuova Italia</title> – e Ginzburg scriverà personalmente a Russo), Giuseppe Prezzolini (<orgName key="Columbia University" ref="http://www.wikidata.org/entity/Q49088">Columbia University</orgName>. <placeName key="New York City New York United States" ref="https://geonames.org/5128581">City of New York</placeName>), F. Olivero (<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName> <placeName ref="#ViaXXSettembre69Torino">XX Settembre 69</placeName>), Alberto Rossi, Carlo Linati, G. Titta Rosa, Lydia Rho (Via Artisti 31) e una copia al <title key="Leonardo" ref="http://www.wikidata.org/entity/Q3229697" level="j">Leonardo</title>.</p>
 			<p>Ancora mille grazie. Risponderò appena avuto l'assegno, all'<persName key="Bemporad, Enrico, 1868-1944" ref="http://viaf.org/viaf/3278496/" type="real">Amministratore</persName>.</p>
 			<p>Cordiali saluti.</p>
 		</body>
