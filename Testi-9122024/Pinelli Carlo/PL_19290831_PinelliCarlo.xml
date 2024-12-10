@@ -1226,10 +1226,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml?rs_annotation_20241210112659768",
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml?rs_annotation_20241210112758615",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-12-10T10:26:59.768Z",
-	"dcterms:modified": "2024-12-10T10:27:58.615Z",
+	"dcterms:created": "2024-12-10T10:27:58.615Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Martinogiordano",
 		"@type": [
@@ -1240,7 +1239,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml?rs_annotation_20241210112659768#Target",
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml?rs_annotation_20241210112758615#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml",
@@ -1254,7 +1253,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml?rs_annotation_20241210112659768#Selector",
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml?rs_annotation_20241210112758615#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[14]/rs"
 		}
@@ -1443,7 +1442,7 @@
 			<p>Se hai letto <title key="Hedda Gabler" ref="http://dbpedia.org/resource/Hedda_Gabler">Hedda Gabler</title> e non friggevi tutto davanti a quell'ambiente e a quel tipo di signora, consolati che è segno che le mie lezioni ti hanno proprio incretinito del tutto.</p>
 			<p>Non fosse che quel tipo di bibliofilo che c'è là dentro, che sembra tutto a Pavese, tu ti dovevi divertire!</p>
 			<p>Ma magari ti sei presa <title level="m" ref="#LAnitraSelvatica">L'anitra selvatica</title>, dove si tratta della morale kantiana, o la <title ref="#CasaDiBambola">Casa di Bambola</title>, dove tra una signora che fa la serva e un professionista-commesso, si discute di matrimonio, e sfido io! Ah castrone!</p>
-			<p>Leggi <title key="Hedda Gabler" ref="http://dbpedia.org/resource/Hedda_Gabler" level="m">Hedda Gabler</title> e facci attenzione. Altro che il Loco!</p>
+			<p>Leggi <title key="Hedda Gabler" ref="http://dbpedia.org/resource/Hedda_Gabler" level="m">Hedda Gabler</title> e facci attenzione. Altro che il <title level="m" ref="#ElLoco">Loco</title>!</p>
 			<p>Fa una cosa. Musica tutto un dramma di <persName key="Henrik Ibsen" ref="http://dbpedia.org/resource/Henrik_Ibsen">Ibsen</persName>, a scelta. Lo faremo suonare da <persName key="Ciliberti Tallone, Ponina" ref="http://viaf.org/viaf/90334974/">Ponina</persName> e cantare da Giacchero.</p>
 			<p>Io intanto sono ancora qui al fresco con un allievo che mi dà del fesso grosso come una casa e io faccio l'uomo superiore.</p>
 			<p>Verso il <date when="1929-09-15">15</date> sarò libero. Ti scriverò poi, se verrò, e quando.</p>
