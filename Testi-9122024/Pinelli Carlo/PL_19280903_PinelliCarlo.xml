@@ -326,6 +326,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml?place_annotation_20241210142344812",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T13:23:44.812Z",
+	"dcterms:modified": "2024-12-10T13:23:44.812Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml?place_annotation_20241210142344812#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml?place_annotation_20241210142344812#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -338,7 +417,7 @@
 			<p>Coll'incubazione che han fatto, persino quella certa rozzezza di forma che accusavano un tempo, mi è parsa diminuita di molto: ho potuto vedere insomma, tornandoci sopra, come io avessi esagerato alquanto scrivendoti di una "forma da macellaio".</p>
 			<p>Quelle due composizioni dell'usignolo e della pioggia, non sono poi in fondo tanto scarognate di stile, ma hanno, sempre con una certa approssimazione, quel dato stile, appunto perché richiedevano quello e non altro.</p>
 			<p>Mi sono abituato insomma alla tua personalità.</p>
-			<p>A proposito, ti renderò quei manoscritti appena a Torino.</p>
+			<p>A proposito, ti renderò quei manoscritti appena a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			<p>Ed ora, che cosa fai?</p>
 			<p>A me duole tutta l'anima di non poterti rispondere e parlare del Figlioccio che non ho letto e per ora non posso trovare.</p>
 			<p>E in genere di tutto Tolstoi ho letto poco. Qualche novella, un'opera di critica e un pezzo di Risurrezione. L'unica cosa completa che conosco di lui è la Sonata a Kreutzer. Guarda: proprio in quest'opera Tolstoi prende la sonata di Beethoven come simbolo dell'arte perversa e inutile e se ne vale per la tesi del suo romanzo. Altrove, in Che cos'è l'Arte? striglia Wagner ch'è un piacere. È giustissima quindi la tua frase della nullità musicale di questo scrittore, anche riguardo allo stile, ché Tolstoi cerca di vestire di esempi a forti tinte e veri come la natura le sue idee e nulla più. Non si cura affatto di forma. Tutti riconoscono che hanno uno stile da ruminante. Prende le idee e le trita, le ripete, le ribadisce, come vengono in acconcio.</p>
