@@ -248,11 +248,167 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19250000_PinelliTullio.xml?date_annotation_20241210142811249",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T13:28:11.249Z",
+	"dcterms:modified": "2024-12-10T13:28:11.249Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19250000_PinelliTullio.xml?date_annotation_20241210142811249#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19250000_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19250000_PinelliTullio.xml?date_annotation_20241210142811249#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1925"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19250000_PinelliTullio.xml?date_annotation_20241210142829841",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T13:28:29.841Z",
+	"dcterms:modified": "2024-12-10T13:28:29.841Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19250000_PinelliTullio.xml?date_annotation_20241210142829841#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19250000_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19250000_PinelliTullio.xml?date_annotation_20241210142829841#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1926"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A <persName key="Tullio Pinelli" ref="http://dbpedia.org/resource/Tullio_Pinelli">Tullio Pinelli</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
-			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, 1925-26]</p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, <date when="1925">1925</date>-<date when="1926">26]</date></p>
 			<p/>
 			<p>Un momento non nega il passato. Dice che il passato è già stato, ha fatta la sua opera ed ora il presente deve fare la sua. "Che cos'è il presente se non il figlio del passato?" dice. Dice che tutto il passato è riassunto nella vita presente e che i vivi debbono elaborare la vita, dando la loro impronta presente. Non è una filosofia che nega tutto, ma che si posa al disopra di tutta la vita: e non ama questa o quest'altra azione, ma l'azione per l'azione. Ed esalta su tutto le grandi forze del suo mondo moderno: amore di libertà, amore umano, giustizia, energia, entusiasmo.</p>
 			<p>Non ha un sistema filosofico, una linea morale. È col pensiero moderno, che ha superata la linea di condotta morale. Esalta le forze che ti ho detto, perché gli piacciono. Non altro (W Walt Whitman!) Rigetta la grazia, la debolezza, la sentimentalità, perché? Non in nome di una legge divina, ma perché: "Preferisco la forza". E con queste forze contribuisce la "sua unione".</p>
