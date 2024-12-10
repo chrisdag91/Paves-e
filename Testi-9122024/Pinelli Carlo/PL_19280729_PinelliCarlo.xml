@@ -388,7 +388,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?title_annotation_20241210112241146#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[11]/title"
+			"rdf:value": "TEI/text/body/p[10]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -467,7 +467,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210112652023#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[19]/placeName"
+			"rdf:value": "TEI/text/body/p[18]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -546,7 +546,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210113217233#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[23]/placeName"
+			"rdf:value": "TEI/text/body/p[22]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -625,7 +625,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?person_annotation_20241210113301736#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[23]/persName[2]"
+			"rdf:value": "TEI/text/body/p[22]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -649,7 +649,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1928-07-29">29 luglio 1928</date></p>
 			<p/>
 			<p>Scherzi a parte, è una settimana che aspetto la "lettera con qualcosa di più importante" ma mi pare che faccia come la donna dei miei sogni, non arriva mai.</p>
-			<p>Penserebbe Ella forse di prendermi in giro? Guarda che son capacissimo di fare come quel filosofo di <persName ref="#Molière" type="real">Molière</persName>, che dopo aver litigato come un facchino con un tale rientra a dire: <quote cert="high" defective="unknown" generatedBy="human" xml:space="default">"Un professeur sait recevoir comme il faut les choses et je vais composer contre lui une satyre du style de Juvenal, qui le déchirera de la belle façon"</quote>. (Ammira, brutta gorba, l'erudizione del tuo maestro).</p>
+			Penserebbe Ella forse di prendermi in giro? Guarda che son capacissimo di fare come quel filosofo di <persName ref="#Molière" type="real">Molière</persName>, che dopo aver litigato come un facchino con un tale rientra a dire: <quote cert="high" defective="unknown" generatedBy="human" xml:space="default">"Un professeur sait recevoir comme il faut les choses et je vais composer contre lui une satyre du style de Juvenal, qui le déchirera de la belle façon"</quote>. (Ammira, brutta gorba, l'erudizione del tuo maestro).
 			<p>Tutto questo, in materia oratoria, come esempio di esordio.</p>
 			<p>Non tralascio, poi, qua, l'occasione di darti un altro bell'esempio, stavolta di diligenza, comunicandoti che appena saputo del lieto evento del Buch son corso da Rosemberg (impara anche qua) a comprarmelo.</p>
 			<p>Bel libro, bonissimi fatti, peccato che ci si capisca niente.</p>
