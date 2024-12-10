@@ -569,7 +569,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1930-08-01">1° agosto 1930</date></p>
 			<p>Chiarissimo Professore,</p>
 			<p>ricevo la Sua cartolina del <date when="1930-07-28">28 u. s.</date> e La ringrazio della sollecitudine con cui Ella promette di far passare nella rivista il mio articolo.</p>
-			<p>Quanto a <persName cert="high" ref="#AndersonSherwood" type="real">Sh. Anderson</persName> ho già scritto a <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> per avere le opere che mi mancano e conto, in <date when="1930-11">Novembre</date>, di consegnarLe il saggio, sebbene questo scrittore importi uno studio più lungo e accurato data la complessità della sua figura.</p>
+			<p>Quanto a <persName cert="high" ref="#AndersonSherwood" type="real">Sh. Anderson</persName> ho già scritto a <placeName key="Chicago Illinois United States" ref="https://geonames.org/4887398">Chicago</placeName> per avere le opere che mi mancano e conto, in <date when="1930-11">Novembre</date>, di consegnarLe il <rs ref="#SherwoodAnderson_LaCultura" type="work">saggio</rs>, sebbene questo scrittore importi uno studio più lungo e accurato data la complessità della sua figura.</p>
 			<p>Sarei lieto intanto di riuscir utile alla rivista con recensioni di cui Ella giudicasse pertinente all'indirizzo dei miei studi l'argomento.</p>
 			<p>Con ossequio.</p>
 		</body>
