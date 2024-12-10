@@ -389,12 +389,250 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210193300145#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/persName"
+			"rdf:value": "TEI/text/body/p[4]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://viaf.org/viaf/94052107/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210193333273",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T18:33:33.273Z",
+	"dcterms:modified": "2024-12-10T18:33:33.273Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210193333273#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210193333273#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/3278496/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210193412480",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T18:34:12.480Z",
+	"dcterms:modified": "2024-12-10T18:34:12.480Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210193412480#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210193412480#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/8705154387227530970004/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210193432562",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T18:34:32.562Z",
+	"dcterms:modified": "2024-12-10T18:34:32.562Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210193432562#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310330_CajumiArrigo.xml?person_annotation_20241210193432562#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Anita_Loos",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -412,8 +650,8 @@
 			<p>Ad <persName key="Cajumi, Arrigo, 1899-1955" ref="http://viaf.org/viaf/12380962/" cert="high" type="real">Arrigo Cajumi</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>.</p>
 			<p>Chiarissimo Professore,</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1931-03-30">30 marzo 1931</date></p>
-			<p>Voglio anzitutto ringraziarLa per la sua cortesissima cartolina, senza la quale, a leggere la lettera dell'Amministratore Delegato sarei rimasto piuttosto male. Ma grazie a Lei, la faccenda si risolve in una burletta e grandi risate vi ha fatto sopra l'amico <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">Ginzburg</persName>.</p>
-			<p>Le rimando intanto le bozze, rincrescendomi soltanto di non aver ancora avuto Solitudine di Polledro, come Le avevo detto, e la ringrazio dell'altra copia delle medesime e della Loos.</p>
+			<p>Voglio anzitutto ringraziarLa per la sua cortesissima cartolina, senza la quale, a leggere la lettera dell'<persName key="Bemporad, Enrico, 1868-1944" ref="http://viaf.org/viaf/3278496/" cert="high" type="real">Amministratore Delegato</persName> sarei rimasto piuttosto male. Ma grazie a Lei, la faccenda si risolve in una burletta e grandi risate vi ha fatto sopra l'amico <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">Ginzburg</persName>.</p>
+			<p>Le rimando intanto le bozze, rincrescendomi soltanto di non aver ancora avuto Solitudine di <persName key="Polledro, Alfredo 1885-1948" ref="http://viaf.org/viaf/8705154387227530970004/">Polledro</persName>, come Le avevo detto, e la ringrazio dell'altra copia delle medesime e della <persName key="Anita Loos" ref="http://dbpedia.org/resource/Anita_Loos">Loos</persName>.</p>
 			<p>Quanto alle persone adatte a parlare di Wrenn, Lei certo ne conosce più di me. Ad ogni modo Le ricordo (oltre a Praz), Aldo Sorani (una copia a lui personalmente e una alla Gazzetta del Popolo), Eugenio Giovannetti (per il Giornale d'Italia), G. A. Borgese, Giordano Orsini (per la Nuova Italia – e Ginzburg scriverà personalmente a Russo), Giuseppe Prezzolini (Columbia University. City of New York), F. Olivero (Torino XX Settembre 69), Alberto Rossi, Carlo Linati, G. Titta Rosa, Lydia Rho (Via Artisti 31) e una copia al Leonardo.</p>
 			<p>Ancora mille grazie. Risponderò appena avuto l'assegno, all'Amministratore.</p>
 			<p>Cordiali saluti.</p>
