@@ -644,6 +644,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301016_CajumiArrigo.xml?person_annotation_20241210183101923",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T17:31:01.923Z",
+	"dcterms:modified": "2024-12-10T17:31:01.923Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301016_CajumiArrigo.xml?person_annotation_20241210183101923#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301016_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301016_CajumiArrigo.xml?person_annotation_20241210183101923#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/60612286/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -651,7 +731,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1930-10-16">16 ottobre 1930</date></p>
 			<p>Egregio dottore,</p>
 			<p>La ringrazio molto di aver passato il mio indirizzo all'<orgName ref="#BompianiEditore">Ed. Bompiani,</orgName> benché sia stato spiacentissimo di non poter far nulla per lui.</p>
-			<p>Qui uniti troverà il <persName key="James Branch Cabell" ref="http://www.wikidata.org/entity/Q723374">Cabell</persName> e il <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> di cui ho parlato. La prego di voler essere sollecito specialmente per il secondo, e di insistere, per farsene un'idea, specialmente sui cap. VIII-IX; XXVILI; CXI-CXXII; circa CXXXI-CXXXV (non badi alle postille che feci in un tempo un po’ lontano). Inutile dirle che il richiamo di questo libro consisterà nella scoperta della vita attiva e dei mari del sud (argomenti di molto interesse in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395">Italia</placeName> per via di <persName key="Jack London" ref="http://dbpedia.org/resource/Jack_London">London</persName> e J. Lowell e Ombre Bianche) e, di più, nella luce che getta sul periodo degli Hawthorne e dei Poe, riecheggiandone a suo modo la severità puritana e l'abito della razionalità nell'inaudito e nel leggendario che ancora c'interessano in quegli autori.</p>
+			<p>Qui uniti troverà il <persName key="James Branch Cabell" ref="http://www.wikidata.org/entity/Q723374">Cabell</persName> e il <persName key="Herman Melville" ref="http://dbpedia.org/resource/Herman_Melville" cert="high" type="real">Melville</persName> di cui ho parlato. La prego di voler essere sollecito specialmente per il secondo, e di insistere, per farsene un'idea, specialmente sui cap. VIII-IX; XXVILI; CXI-CXXII; circa CXXXI-CXXXV (non badi alle postille che feci in un tempo un po’ lontano). Inutile dirle che il richiamo di questo libro consisterà nella scoperta della vita attiva e dei mari del sud (argomenti di molto interesse in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395">Italia</placeName> per via di <persName key="Jack London" ref="http://dbpedia.org/resource/Jack_London">London</persName> e <persName key="Lowell, Joan, 1900-1967" ref="http://viaf.org/viaf/60612286/" cert="high" type="real">J. Lowell</persName> e Ombre Bianche) e, di più, nella luce che getta sul periodo degli Hawthorne e dei Poe, riecheggiandone a suo modo la severità puritana e l'abito della razionalità nell'inaudito e nel leggendario che ancora c'interessano in quegli autori.</p>
 			<p>Quanto a Cabell credo che andrebbe, per la ragione che già Le scrissi: un richiamo di questo genere: L'Anatole France d'America.</p>
 			<p>Non le mando Manhattan Transfer, perché molto voluminoso e anche perché credo sia già come Babbitt acquistato dalla Modernissima.</p>
 			<p>E per concludere, non andrebbe invece del Theodore Dreiser un po’ passé che ci si offriva prima, una scelta dei migliori ritratti nel recente volume di Gallery of Women? (Tauchnitz ed.).</p>
