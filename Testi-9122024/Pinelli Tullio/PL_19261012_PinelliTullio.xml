@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,13 +11,13 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A Tullio Pinelli, Alpignano.</p>
 			<p>Reaglie, 12 ottobre 1926</p>
 			<p/>
-			<p>Sento che ti vai lamentando che io ti risponda &quot;Lavoro&quot; senza più.</p>
+			<p>Sento che ti vai lamentando che io ti risponda "Lavoro" senza più.</p>
 			<p>Dunque non ti basta la santità della parola? Non lo sai che il lavoro nobilita l'uomo e lo rende simile alla bestia?</p>
 			<p>Ad ogni modo, se proprio lo vuoi, eccoti il grado del mio imbestiamento. Sono alle</p>
 			<p/>
@@ -43,19 +40,19 @@
 			<p>15. i Carmina di Quintus Horatius Flaccus (secolo I).</p>
 			<p/>
 			<p>(Sei ancora vivo?... Allora continuo).</p>
-			<p>Quasi tutto il mio lavoro si riduce alla comprensione e alla collocazione storica di questi scrittori, cosa che faccio con ardore, come la creazione di un dramma, e infatti è un dramma grandiosissimo che vado scoprendo e vivendo, questo di tutta la storia dell'umanità: un dramma che comprende tutti gli altri scritti e non scritti.</p>
+			<p>Quasi tutto il mio lavoro si riduce alla comprensione e alla collocazione storica di questi scrittori, cosa che faccio con ardore, come la creazione di un dramma, e infatti è un dramma grandiosissimo che vado scoprendo e <hi cert="high" generatedBy="human" rend="italic" xml:space="default">vivendo</hi>, questo di tutta la storia dell'umanità: un dramma che comprende tutti gli altri scritti e non scritti.</p>
 			<p>(Ma non pensare mica alla coccia pelata di Segre: sono ben più in alto!)</p>
 			<p>Lavoro meschino, penso a volte, e mi vergogno di durarci.</p>
 			<p>Mi pare di non aver più la forza di creare di mio.</p>
 			<p>Restano i frammenti di tutti i miei tentativi passati, ma mi fan più l'effetto di rovine che non di materiale per una costruzione futura.</p>
 			<p>Me ne sono ben accorto finalmente. Non sono che un gran debole pieno di aspirazioni che sorpassano i miei mezzi, non altro che un ammasso flaccido di sensibilità malsane.</p>
-			<p>Sono uno dei tanti figli infraciditi dell'800. Troppo grande in pensiero, sentimenti e azione è stato quel secolo; grande altrettanto, per legge storica, dev'essere l'abbattimento di quelli che non possono più credere ai suoi ideali e non ne sanno trovare risolutamente altri nuovi. Ti dirò: hanno paura a trovarne dei nuovi.</p>
+			<p>Sono uno dei tanti figli infraciditi dell'800. Troppo grande in pensiero, sentimenti e azione è stato quel secolo; grande altrettanto, per legge storica, dev'essere l'abbattimento di quelli che non possono più credere ai suoi ideali e non ne sanno trovare risolutamente altri nuovi. Ti dirò: <hi cert="high" generatedBy="human" rend="italic" xml:space="default">hanno paura</hi> a trovarne dei nuovi.</p>
 			<p>Così sono io.</p>
 			<p>Tu non ci sei stato molto dietro a quel secolo forse, e lo comprendi e lo senti poco quindi, ma io, che ne ho rivissuto (a modo mio, intendiamoci) quasi tutti gli scrittori e la vita, mi ci sono infatuato troppo.</p>
 			<p>Non per nulla meditavo (ora quasi non ci penso più, ché son certo non ci riuscirò mai) un dramma sullo sfondo della rivoluzione russa: una famiglia tutta piena delle idee nuove, che poi per l'orrore e la delusione di quei primi risultati, soffre come soffro io ora. Poiché io, la rivoluzione russa la considero l'ultimo dei tentativi di realizzazione degli ideali del più puro '800: Liberté, Egalité, Fraternité.</p>
 			<p>Ho visto bene che riuscita han fatto. Non posso più credere a quegli ideali e non ho la forza di cambiarmi l’anima. Brancico così, tra il fosco e il chiaro, pieno di sentimenti discordi, che per un istante parvero quetarmisi in quella specie di morale-estetica che ti esponevo quest'inverno con un kg di castagne sotto il braccio. Ma ora non mi basta più neppure quella. Che cosa voglio non lo so. O meglio, lo so, ma non so raggiungerlo.</p>
 			<p>Un animo forte, un carattere mi ci vorrebbe che s'imponesse su tutta quell'anarchia che mi regna entro. Il mio spirito è insomma una copia fedele di ciò che sarebbe il mondo cogli ideali dell'800 realizzati alla meglio, senza l'opposizione del '900.</p>
-			<p>E tra tutte queste delizie che provo giornalmente, la più squisita è pensare che forse tutto questo non è che un parto di una povera fantasia esaltata, non altro che un palliativo, il quale colla scusa della fatalità e della legge storica e di tutti i cristi non serve che a ricoprire una poltroneria smidollata e una vergognosa vergogna di non esser buono a nulla, mascherando tutte queste qualità di precoce vecchio impotente con pose eroiche alla Byron, alla Leopardi, alla De Musset, alla Ibsen (sono un letterato sì o no?) Ed il bello è che mi specchio in W. Whitman il quale non fa che tuonare contro queste debolezze. Se ti dico che non l'ho un centro, un perno, un capo di famiglia, un dittatore a far rigar dritto tutta quella marmaglia di sentimenti e a darle un'unità di veduta, un po’ di forza di decisione! &quot;Un ammasso flaccido di sensibilità malsane&quot;, mi piace questa frase. Suona bene e poi è più da letterato.</p>
+			<p>E tra tutte queste delizie che provo giornalmente, la più squisita è pensare che forse tutto questo non è che un parto di una povera fantasia esaltata, non altro che un palliativo, il quale colla scusa della fatalità e della legge storica e di tutti i cristi non serve che a ricoprire una poltroneria smidollata e una vergognosa vergogna di non esser buono a nulla, mascherando tutte queste qualità di precoce vecchio impotente con pose eroiche alla Byron, alla Leopardi, alla De Musset, alla Ibsen (sono un letterato sì o no?) Ed il bello è che mi specchio in W. Whitman il quale non fa che tuonare contro queste debolezze. Se ti dico che non l'ho un centro, un perno, un capo di famiglia, un dittatore a far rigar dritto tutta quella marmaglia di sentimenti e a darle un'unità di veduta, un po’ di forza di decisione! "Un ammasso flaccido di sensibilità malsane", mi piace questa frase. Suona bene e poi è più da letterato.</p>
 			<p>E così potrei continuare fino a domani.</p>
 			<p>Ma non così continueresti tu a leggermi fino a domani.</p>
 			<p>Dovresti poi mandarmi a dire il numero preciso delle tasche che questa tragicomica introspezione ti ha rotto, sì che conosca almeno la mia potenzialità di scocciatore.</p>
@@ -79,7 +76,7 @@
 			<p/>
 			<p>Tu non sai per quanto tempo ho respirato nella Vita Nova così corrotto di corpo e d'anima come sono.</p>
 			<p>Sturani, quella specie di mio fratello maggiore, ed io amiamo talvolta discorrere delle nostre due arti poetiche (?!?!?!?) come di un dolce stil novo.</p>
-			<p>Sarei poi molto curioso di sentirti predicare sul mio &quot;non-coraggio colle donne&quot;. Guarda al tuo trave! Se sei nel caso di Cirano, come mi vai confessando, neppur tu, mi pare, ne hai da buttar via del coraggio!</p>
+			<p>Sarei poi molto curioso di sentirti predicare sul mio "non-coraggio colle donne". Guarda al tuo trave! Se sei nel caso di Cirano, come mi vai confessando, neppur tu, mi pare, ne hai da buttar via del coraggio!</p>
 			<p>Ma come dico, scrivimi molto di questo, mi farai un gran piacere: scrivimi una lettera in cui non si parli che di te (e di lei, naturalmente) e d’amore.</p>
 			<p>Fa come me che in 12 pagine non ho fatto che condurre a spasso, in bella o in brutta mostra, il mio io.</p>
 			<p>E concludo con quella formola di saluto che tra noi finirà per sostituire l'Addio (a Dio) e cioè:</p>
@@ -90,21 +87,21 @@
 			<p>α) Dal 13 credo che sarò per sempre a Torino.</p>
 			<p>β) Parlami di quel film che stai rimuginando.</p>
 			<p>γ) Il Greco lo sto assaggiando per dovere professionale e per il semplice motivo che la radice di tutte le civiltà pare che sia là dentro. Voglio studiarlo a fondo quel popolo.</p>
-			<p>In quanto alla concordanza degli studi classici con W. Whitman, a parte il fatto che io ammiro ciascun grande nel suo tempo e quindi Platone nell'età di Pericle e Whitman nell'800, avrai già capito dal corpo della lettera come la concordanza non sia il mio forte. &quot;Pieno di sentimenti discordi&quot; dicevo.</p>
+			<p>In quanto alla concordanza degli studi classici con W. Whitman, a parte il fatto che io ammiro ciascun grande nel suo tempo e quindi Platone nell'età di Pericle e Whitman nell'800, avrai già capito dal corpo della lettera come la concordanza non sia il mio forte. "Pieno di sentimenti discordi" dicevo.</p>
 			<p>Ma va là, che, se io dovessi lavorare dal mattino alla sera per non morire di fame, tutte queste ubbie mi passerebbero!</p>
 			<p>δ) All'Alfieri recita Gandusio. Ci starà un mese e mezzo.</p>
 			<p>ε) Di' alla tua cugina (che io non ho il piacere di conoscere) che quei quattro versi che le han dato tanto da fare erano poi due:</p>
 			<p/>
-			<p>&quot;Benedice la corona del figliuol di S. Luigi</p>
-			<p>quel che giacque sotto il piombo del Comune di Parigi&quot;.</p>
+			<p>"Benedice la corona del figliuol di S. Luigi</p>
+			<p>quel che giacque sotto il piombo del Comune di Parigi".</p>
 			<p/>
 			<p>Dalla Sacra di Enrico V, di Giosuè Carducci, Giambi ed Epodi, Ed. Zanichelli, p. 249.</p>
 			<p>Ma di' anche a tua cugina di pensare ad altro: simili ricerche filologiche non si confanno che agli scolaretti e agli eruditi che non sanno ballare.</p>
 			<p>A. d. a. D. B.</p>
 			<p>Cesare P.</p>
 			<p/>
-			<p>&quot;Fagioli, porci, poeti e pidocchi&quot; dice F. Berni.</p>
-			<p>&quot;Quando il saggio e venerabile Anandāh incontrava Tatāgata, il suo amico poeta, gli veniva freddo&quot;.</p>
+			<p>"Fagioli, porci, poeti e pidocchi" dice F. Berni.</p>
+			<p>"Quando il saggio e venerabile Anandāh incontrava Tatāgata, il suo amico poeta, gli veniva freddo".</p>
 			<p>Collana di antichi Proverbi indiani buoni in tutte le epoche.</p>
 		</body>
 	</text>
