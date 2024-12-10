@@ -798,7 +798,7 @@
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
-		<body>
+		<body cert="high" rend="italic" xml:space="default">
 			<p>Ad <persName key="Cajumi, Arrigo, 1899-1955" ref="http://viaf.org/viaf/12380962/" cert="high" type="real">Arrigo Cajumi</persName>, <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1931-08-14">14 agosto [1931]</date></p>
 			<p>Egregio Professore,</p>
