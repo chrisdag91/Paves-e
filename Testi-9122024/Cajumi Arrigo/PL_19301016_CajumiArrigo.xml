@@ -1437,6 +1437,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301016_CajumiArrigo.xml?title_annotation_20241210183829404",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T17:38:29.404Z",
+	"dcterms:modified": "2024-12-10T17:38:29.404Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301016_CajumiArrigo.xml?title_annotation_20241210183829404#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301016_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301016_CajumiArrigo.xml?title_annotation_20241210183829404#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/174315200/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1448,7 +1527,7 @@
 			<p>Quanto a <persName key="James Branch Cabell" ref="http://www.wikidata.org/entity/Q723374" type="real">Cabell</persName> credo che andrebbe, per la ragione che già Le scrissi: un richiamo di questo genere: L'<persName key="Anatole France" ref="http://www.wikidata.org/entity/Q42443" cert="high" type="real">Anatole France</persName> d'America.</p>
 			<p>Non le mando <title key="Dos Passos, John 1896-1970 | Manhattan transfer" ref="http://viaf.org/viaf/179390279/" level="m">Manhattan Transfer</title>, perché molto voluminoso e anche perché credo sia già come <title key="Babbitt (novel)" ref="http://dbpedia.org/resource/Babbitt_(novel)" level="m">Babbitt</title> acquistato dalla Modernissima.</p>
 			<p>E per concludere, non andrebbe invece del <persName key="Theodore Dreiser" ref="http://www.wikidata.org/entity/Q486096">Theodore Dreiser</persName> un po’ passé che ci si offriva prima, una scelta dei migliori ritratti nel recente volume di <title key="Dreiser, Theodore, 1871-1945. | Gallery of women" ref="http://viaf.org/viaf/2162149068569065730001/" level="m">Gallery of Women</title>? (<orgName key="Tauchnitz publishers" ref="http://dbpedia.org/resource/Tauchnitz_publishers">Tauchnitz ed</orgName>.).</p>
-			<p>Non tutto, poiché si ricadrebbe nell'American Tragedy, ma un florilegio sarebbe d'interesse attuale e di successo dato anche che questi ritratti sono senza dubbio l'opera sinora più riuscita e spigliata del pesante scrittore.</p>
+			<p>Non tutto, poiché si ricadrebbe nell'<title key="Dreiser, Theodore (1871-1945). | An American tragedy" ref="http://viaf.org/viaf/174315200/" level="m">American Tragedy</title>, ma un florilegio sarebbe d'interesse attuale e di successo dato anche che questi ritratti sono senza dubbio l'opera sinora più riuscita e spigliata del pesante scrittore.</p>
 			<p>La ringrazio che mi promette di far passare il Lewis, anche perché l'argomento è di molta attualità e pare che in Italia ci si risvegli</p>
 			<p>al proposito.</p>
 			<p>Rispettosamente.</p>
