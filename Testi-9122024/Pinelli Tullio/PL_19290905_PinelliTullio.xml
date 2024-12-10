@@ -405,6 +405,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?person_annotation_20241210154240155",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T14:42:40.155Z",
+	"dcterms:modified": "2024-12-10T14:42:40.155Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?person_annotation_20241210154240155#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?person_annotation_20241210154240155#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Giovanni_Papini",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?title_annotation_20241210154302963",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T14:43:02.963Z",
+	"dcterms:modified": "2024-12-10T14:43:02.963Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?title_annotation_20241210154302963#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?title_annotation_20241210154302963#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/1207152200775114400006/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -428,7 +586,7 @@
 			<p>Ma cristiano non mi faccio, è inutile. Hai visto, in fondo, di che cosa mi lamento anche in questa lettera? Che non sono intelligente, che sono uno stupido. Questo mi affligge e non altro. È inutile pensare: sono maniaco di questa idea e ai maniaci il tuo <persName key="Benelli, Sem, 1877-1949" ref="http://viaf.org/viaf/59397266/">Sem</persName> fa dire soltanto "poverino!"</p>
 			<p>Ricapitolando, adesso, mi pare che non ti seccherai neanche tanto a leggermi, perché tutta la lettera è ben scritta, con bei movimenti retorici, con certo dialettismo efficace, con bei tratti pittorici e molta esperienza umana. Soprattutto questo, perché sai che adesso l'arte dev'essere profondamente vissuta.</p>
 			<p>Insomma, sono soddisfatto. Ho scritto una bella lettera introspettiva (vedi che stoffa di cristiano?)</p>
-			<p>Basta, finiamola, perché mi sento merda. Tu scrivimi intanto, per informarmi, secondo le vie del mondo e secondo l’eterno. (A proposito sappi che tutti questi bamboleggiamenti di misticismo, mi vengono dalla lettura, letteraria, di Papinone: Storia di Cristo, Omo salvatico, che bello convertirsi per scrivere così bene e paura di riaprire il libro per non ritrovarsi la millesima volta davanti al consueto problema e tremore: o convertirsi o morire coi vermi e per giunta imbecille. E allora, altro problema: ma tanto anche Dante le persone inette come me non le guarda neanche. Cioè mi farei cristiano per la gloria... all'infinito).</p>
+			<p>Basta, finiamola, perché mi sento merda. Tu scrivimi intanto, per informarmi, secondo le vie del mondo e secondo l’eterno. (A proposito sappi che tutti questi bamboleggiamenti di misticismo, mi vengono dalla lettura, letteraria, di <persName key="Giovanni Papini" ref="http://dbpedia.org/resource/Giovanni_Papini" type="real">Papinone</persName>: <title key="Papini, Giovanni, 1881-1956. | Storia di Cristo" ref="http://viaf.org/viaf/1207152200775114400006/" level="m">Storia di Cristo</title>, Omo salvatico, che bello convertirsi per scrivere così bene e paura di riaprire il libro per non ritrovarsi la millesima volta davanti al consueto problema e tremore: o convertirsi o morire coi vermi e per giunta imbecille. E allora, altro problema: ma tanto anche Dante le persone inette come me non le guarda neanche. Cioè mi farei cristiano per la gloria... all'infinito).</p>
 			<p>E, senti, te lo dico adesso perché poi in faccia non oserò più dirtelo (e già, al tempo della tua ultima licenza, mi son preso i tuoi discreti risolini "lui scrive le belle lettere!"): tu sei troppo divagato e non sei amico abbastanza. Non sei come Sturani che, pure pensando sempre soltanto al suo artistico io, sta, se gli càpita, a cianciare con me, anche di niente, fino al mattino magari. Tu sei formalizzato nella tua vita e mi senti poco.</p>
 			<p>Adesso poi, che hai le amicizie di caserma, non mi curerai neanche per ferro rotto. E, siccome io non passo da culattino per niente, vorrò invece quest'inverno goderti quasi tutto io. A meno che tu non mi torni guastato dalla nuova vita, ché allora resterei solo al mondo, perché: Sturani, grande artista, ma ti senti stupido; Monferini, spiritoso ma leva il pezzo; Ginzburg, bravo e utile ma pesante. [...].</p>
 			<p>Io ora sono in campagna con una famiglia distintissima a erudirle il pupo, un pupo di diciassette anni [...].</p>
