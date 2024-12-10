@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280804_PinelliCarlo.xml?person_annotation_20241210141814468",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T13:18:14.468Z",
+	"dcterms:modified": "2024-12-10T13:18:14.468Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280804_PinelliCarlo.xml?person_annotation_20241210141814468#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280804_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280804_PinelliCarlo.xml?person_annotation_20241210141814468#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[34]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/25158185704720062100/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -283,7 +362,7 @@
 			<p>E poi scrivi cose chiare, semplici. Nulla di più, dici, del necessario, e questo è ancora un pregio che rientra nella non-letteratura.</p>
 			<p>Non hanno ancora un'armonia le tue poesie (oh, molte parole sono illeggibili, scrivi meglio, diavolo!) ma se ne sente, direi, l'odore, la traccia.</p>
 			<p>Guarda, hanno lo stesso andamento trasognato del "loco" e questo è molto perché sei già tanto te stesso, da mostrarti uguale in ogni tua opera.</p>
-			<p>La cosa meno perversa è quella dell'usignolo, che di forma è più rozza di un'aria di Ripp suonata da me, ma dice molto nella sua tenuità.</p>
+			<p>La cosa meno perversa è quella dell'usignolo, che di forma è più rozza di un'aria di <persName key="Ripp (Compositor)" ref="http://viaf.org/viaf/25158185704720062100/" type="real">Ripp</persName> suonata da me, ma dice molto nella sua tenuità.</p>
 			<p>È un argomento logoro tanto l'hanno usato, l'usignolo, eppure qua è fresco. Quel riferimento del trillo all’universale, a tutta una costruzione d'armonia è quel che è: c'è la stoffa, insomma.</p>
 			<p>Insomma, letti i tuoi fogli tre cose restano bene in mente:</p>
 			<p/>
