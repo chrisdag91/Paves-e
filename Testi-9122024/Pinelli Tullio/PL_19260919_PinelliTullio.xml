@@ -405,6 +405,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19260919_PinelliTullio.xml?title_annotation_20241210151705928",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T14:17:05.928Z",
+	"dcterms:modified": "2024-12-10T14:17:05.928Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19260919_PinelliTullio.xml?title_annotation_20241210151705928#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19260919_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19260919_PinelliTullio.xml?title_annotation_20241210151705928#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Georgics",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -428,7 +507,7 @@
 			<p>È un'innamorata troppo gelosa l'arte, che vuole tutto per sé, e magari, come una di quelle dame antiche che ti piacciono tanto, anche la vita dal suo fedele. Non nego che si possa tirare innanzi qualche altra occupazione parallela ai lavori d'arte, ma questa occupazione non dev'essere che un mezzo di guadagnar tempo o denaro, un riparo insomma.</p>
 			<p>Mai e poi mai dedicarsi<hi cert="high" generatedBy="human" rend="italic" xml:space="default"> anche</hi> all’arte. Piuttosto seppellirsi e fare il professore di matematica.</p>
 			<p>Io dunque sceglierei legge, perché, lasciando stare che con essa ci si può dare a cento occupazioni tra cui facilmente a una che lasci tempo libero per la celebrazione dei misteri, anche nell'esercizio dell'avvocatura c'è da incontrare e studiare una quantità di uomini, di caratteri, che sono la materia prima della tua arte. L'agricoltura è invece un'occupazione ben più ristretta, un mondo fermo, chiuso in se stesso.</p>
-			<p>Le "aride pratiche legali" poi, saran sempre meno aride, credo, dell'agricoltura. Che ti credi di studiare le Georgiche? Ci sarà un diluvio di chimica, ci saran macchine, ci sarà l'ombra di Pilo, insomma, innanzi ai tuoi occhi per tutta la vita. E poi probabilmente l'agricoltura ti costringerà a una vita di campagna, mentre la legge ti permette una città.</p>
+			<p>Le "aride pratiche legali" poi, saran sempre meno aride, credo, dell'agricoltura. Che ti credi di studiare le <title key="Georgics" ref="http://dbpedia.org/resource/Georgics" level="m">Georgiche</title>? Ci sarà un diluvio di chimica, ci saran macchine, ci sarà l'ombra di Pilo, insomma, innanzi ai tuoi occhi per tutta la vita. E poi probabilmente l'agricoltura ti costringerà a una vita di campagna, mentre la legge ti permette una città.</p>
 			<p>Ora io, non so se sia l'influenza di Walt Whitman, ma darei 27 campagne per una città come Torino. La campagna sarà buona per un riposo momentaneo dello spirito, buona per il paesaggio, vederlo e scappar via rapido in un treno elettrico, ma la vita, la vita vera moderna, come la sogno e la temo io è una grande città, piena di frastuono, di fabbriche, di palazzi enormi, di folle e di belle donne (ma tanto non le so avvicinare).</p>
 			<p>E adesso che son tutto sudato per la tirata che ho fatto, tu prendi il partito che vuoi.</p>
 			<p>Non mi resta più che scusarmi se ho tardato tanto a risponderti, perché devi sapere che quando giunse la tua lettera io ero a quel tal paese, in quella tal casa, che voglio morire se fra cent'anni non sarà monumento nazionale. Ci sono nato io, oh!</p>
