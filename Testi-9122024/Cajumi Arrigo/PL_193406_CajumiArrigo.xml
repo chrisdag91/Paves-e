@@ -331,7 +331,7 @@
 		<body>
 			<p>Ad <persName key="Cajumi, Arrigo, 1899-1955" ref="http://viaf.org/viaf/12380962/">Arrigo Cajumi</persName>, <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <date when="1934-06">giugno? 1934</date>]</p>
-			<p><title level="m" ref="#DueEpistolari">Due Epistolari</title>, <title level="m" ref="#MemorieDiCombattenti">Memorie di Combattenti</title>, Velleità Anticarducciane, Lirica provenzale, li ho letti interamente, cfr.-ando le correzioni delle bozze in colonna, che le accludo, con le righe rifatte. Artemus Ward l'ho confr. anche col ms.</p>
+			<p><title level="m" ref="#DueEpistolari">Due Epistolari</title>, <title level="m" ref="#MemorieDiCombattenti">Memorie di Combattenti</title>, <title level="m" ref="#VelleitàAnticarducciane">Velleità Anticarducciane</title>, <title level="m" ref="#LiricaProvenzale">Lirica provenzale</title>, li ho letti interamente, cfr.-ando le correzioni delle bozze in colonna, che le accludo, con le righe rifatte. Artemus Ward l'ho confr. anche col ms.</p>
 			<p>Quanto alle note le ho scorse, cfr. coi mss., tutte, tranne le Sue, dove farà meglio Lei. Per il talloncino che resta del mio Wilde, se è possibile, io direi di impaginarne ancora delle Sue o il Rainoni, e così lo assorbiamo; altrimenti tagli Lei dove crede nella mia nota o in precedenti.</p>
 			<p>Debbo partire per <placeName ref="#Reaglie">R[eaglie]</placeName>.</p>
 		</body>
