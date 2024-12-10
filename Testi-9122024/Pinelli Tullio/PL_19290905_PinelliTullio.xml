@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,10 +11,89 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?place_annotation_20241210151653718",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T14:16:53.718Z",
+	"dcterms:modified": "2024-12-10T14:16:53.718Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?place_annotation_20241210151653718#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?place_annotation_20241210151653718#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3183187",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A Tullio Pinelli, Alpignano.</p>
+			<p>A <persName ref="http://dbpedia.org/resource/Tullio_Pinelli " type="real">Tullio Pinelli</persName>, <placeName key="Alpignano Piedmont Italy" ref="https://geonames.org/3183187" type="real">Alpignano</placeName>.</p>
 			<p>Bibiana, 5 settembre 1929</p>
 			<p/>
 			<p>Pare impossibile che a te debba scrivere solo lettere di quell'affettuosità mistico-tragica che tanto mi dona.</p>
@@ -27,18 +103,18 @@
 			<p>Come lo chiami tu questo? Simulazione di persona? simulazione di anima? falsità, impotenza, vigliaccheria? Tutto quello che vuoi. Di questo e di altro mi sento il rimorso addosso.</p>
 			<p>Son belli i tempi che facevo il giacobino e il progressista. Che coglione (realismo da grande scrittore). Ma come facevo a credere a quei fondi di magazzino?</p>
 			<p>Adesso mi resta ancora il pallino della maschera da poeta decadente sì, ma titanico e quello durerà finché la fatica della vita non mi avrà ridotto buon borghese a trent'anni.</p>
-			<p>Allora, da buon decadente, che mi farò cristiano? L'ultimo patema è questo: che se capitasse sarebbe o per paura della morte o per amore retorico della vita eroica del Nostro (G. Cristo). Vorrei essere per lo meno il più evangelico del mondo e gridare &quot;Eli Eli lamma sabactani&quot; (in ebraico perché a dirlo in italiano non fa quell'effetto e, poi, non mi fa correre quel brivido che sarebbe tutto il mio cristianesimo).</p>
+			<p>Allora, da buon decadente, che mi farò cristiano? L'ultimo patema è questo: che se capitasse sarebbe o per paura della morte o per amore retorico della vita eroica del Nostro (G. Cristo). Vorrei essere per lo meno il più evangelico del mondo e gridare "Eli Eli lamma sabactani" (in ebraico perché a dirlo in italiano non fa quell'effetto e, poi, non mi fa correre quel brivido che sarebbe tutto il mio cristianesimo).</p>
 			<p>E poi, se mi martirizzassero? Sei matto. Piangerei come un bambino. Basta vedere come quest'inverno seccavo l'anima a tutti con quel po' di asma e come secco ora te con una querimonia banalissima (che vorrebbe anche essere spiritosa).</p>
 			<p>Né eroe, insomma, né intelligente, né conquistatore, né poeta, né assassino: niente. E pensare che una volta credevo che avrei mangiato il mondo. Tutti ai piedi e io vestito da sàtrapo persiano coi ventagli di pavone. Oppure a cavallo, come Napoleone, a figgere lo sguardo d'aquila sui tigrotti di Mompracem. Oppure a dirigere chi sa che sinfonia nel teatro al buio e dietro tutta una città che dà nelle stelle.</p>
 			<p>Tutti gli impiegati del mondo hanno immaginato queste cose e le hanno sconfessate e adesso sono gli impiegati. Io, che ho studiato, non me ne vergogno proprio?</p>
 			<p>Tutte cose di cui mi accorgo solo adesso che sono stupide e cretine, tanto che solo a immaginarle uno si firma la patente di fesso. Prima le ho pensate in buona fede e ormai non c'è più niente da fare. Il mio autore è proprio De Amicis che ho tanto letto e commentato. Sono fesso dalla testa ai piedi.</p>
 			<p>Ma pensa, può darsi un'idea più stupida di quest'altra che ho avuto per degli anni?: Adesso mi macero ben bene il corpo e l'anima e così faccio il poeta maledetto, l'angelo decaduto, vado in giro pallido e pieno di genio, sogghigno amaramente e sto di casa nel paradiso artificiale. Questo ho avuto il coraggio di pensare. (Tutti i satanismi erano poi seghe e vinaccio subito vomitato, ché non son neanche mai stato da tanto da bere come gli altri o conquistare una pischerla). E quando uno ha avuto di questi ideali, è fesso davanti agli uomini e davanti a Dio, no?</p>
 			<p>E ho scritto delle poesie. Per fortuna che quelle di fino a un anno fa, quando le leggo, mi tirano i nervi. Le altre dopo, peut! passano ancora per l'incancrenimento del vizio, ma so, da fonte sicura, che nel '30 saranno stupide anche loro. E così quelle di un altr'anno. E così quelle dell'anno dopo. E così fino alla morte. Amen.</p>
-			<p>Ma cristiano non mi faccio, è inutile. Hai visto, in fondo, di che cosa mi lamento anche in questa lettera? Che non sono intelligente, che sono uno stupido. Questo mi affligge e non altro. È inutile pensare: sono maniaco di questa idea e ai maniaci il tuo Sem fa dire soltanto &quot;poverino!&quot;</p>
+			<p>Ma cristiano non mi faccio, è inutile. Hai visto, in fondo, di che cosa mi lamento anche in questa lettera? Che non sono intelligente, che sono uno stupido. Questo mi affligge e non altro. È inutile pensare: sono maniaco di questa idea e ai maniaci il tuo Sem fa dire soltanto "poverino!"</p>
 			<p>Ricapitolando, adesso, mi pare che non ti seccherai neanche tanto a leggermi, perché tutta la lettera è ben scritta, con bei movimenti retorici, con certo dialettismo efficace, con bei tratti pittorici e molta esperienza umana. Soprattutto questo, perché sai che adesso l'arte dev'essere profondamente vissuta.</p>
 			<p>Insomma, sono soddisfatto. Ho scritto una bella lettera introspettiva (vedi che stoffa di cristiano?)</p>
 			<p>Basta, finiamola, perché mi sento merda. Tu scrivimi intanto, per informarmi, secondo le vie del mondo e secondo l’eterno. (A proposito sappi che tutti questi bamboleggiamenti di misticismo, mi vengono dalla lettura, letteraria, di Papinone: Storia di Cristo, Omo salvatico, che bello convertirsi per scrivere così bene e paura di riaprire il libro per non ritrovarsi la millesima volta davanti al consueto problema e tremore: o convertirsi o morire coi vermi e per giunta imbecille. E allora, altro problema: ma tanto anche Dante le persone inette come me non le guarda neanche. Cioè mi farei cristiano per la gloria... all'infinito).</p>
-			<p>E, senti, te lo dico adesso perché poi in faccia non oserò più dirtelo (e già, al tempo della tua ultima licenza, mi son preso i tuoi discreti risolini &quot;lui scrive le belle lettere!&quot;): tu sei troppo divagato e non sei amico abbastanza. Non sei come Sturani che, pure pensando sempre soltanto al suo artistico io, sta, se gli càpita, a cianciare con me, anche di niente, fino al mattino magari. Tu sei formalizzato nella tua vita e mi senti poco.</p>
+			<p>E, senti, te lo dico adesso perché poi in faccia non oserò più dirtelo (e già, al tempo della tua ultima licenza, mi son preso i tuoi discreti risolini "lui scrive le belle lettere!"): tu sei troppo divagato e non sei amico abbastanza. Non sei come Sturani che, pure pensando sempre soltanto al suo artistico io, sta, se gli càpita, a cianciare con me, anche di niente, fino al mattino magari. Tu sei formalizzato nella tua vita e mi senti poco.</p>
 			<p>Adesso poi, che hai le amicizie di caserma, non mi curerai neanche per ferro rotto. E, siccome io non passo da culattino per niente, vorrò invece quest'inverno goderti quasi tutto io. A meno che tu non mi torni guastato dalla nuova vita, ché allora resterei solo al mondo, perché: Sturani, grande artista, ma ti senti stupido; Monferini, spiritoso ma leva il pezzo; Ginzburg, bravo e utile ma pesante. [...].</p>
 			<p>Io ora sono in campagna con una famiglia distintissima a erudirle il pupo, un pupo di diciassette anni [...].</p>
 			<p>Al 15 sarò via. Tu indirizza pure sempre a Torino e sappi che Ginzburg sposa la *.</p>
