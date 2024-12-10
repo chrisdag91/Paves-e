@@ -326,6 +326,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?title_annotation_20241210112241146",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T10:22:41.146Z",
+	"dcterms:modified": "2024-12-10T10:22:41.146Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?title_annotation_20241210112241146#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?title_annotation_20241210112241146#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Odyssey",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -339,7 +418,7 @@
 			<p>Bel libro, bonissimi fatti, peccato che ci si capisca niente.</p>
 			<p>Ma speriamo in Dio. Colla fede si traslocano anche le montagne.</p>
 			<p>Vengo poi al corpo della tua lettera e la esamino con tutti i miei occhiali.</p>
-			<p>Non par neanche che sia scritta da quell'assassino che l'inverno passato mi tagliava a pezzi l'Odissea colle sue gallinacee elucubrazioni estetiche. È proprio vero. La cosa più idiota, più inetta che gli uomini (cioè i professori) hanno inventato al mondo, è il componimento.</p>
+			<p>Non par neanche che sia scritta da quell'assassino che l'inverno passato mi tagliava a pezzi l'<title key="Odyssey" ref="http://dbpedia.org/resource/Odyssey" level="m">Odissea</title> colle sue gallinacee elucubrazioni estetiche. È proprio vero. La cosa più idiota, più inetta che gli uomini (cioè i professori) hanno inventato al mondo, è il componimento.</p>
 			<p>Il professore acciuffa l'argomento più cretino che gli passa per la testa, tra un lampo e l'altro di speranza di una sigaretta dopo la lezione, lo espone all'allievo raccomandandoglielo come la quintessenza della furbizia, ci fa magari con la sua parlantina asmatica un po' di esibizione intorno e poi, l'allievo, che, come meno rimbecillito, ha altro per la testa che non proprio quella tal fesseria, deve, entro un dato tempo, stillarsi l'umor cervicale a pensarci sopra, ciò che, per derivazione naturale, non può a meno di essere una fesseria compagna.</p>
 			<p>È una cosa veramente oscena. E si è visto dai frutti.</p>
 			<p>Ora invece che l'allievo aveva da rispondere, da uomo a uomo, di cose della vita, che aveva da parlare di sé (e questo, ricordatene fin che avrai fiato, sarà sempre il migliore anzi l'unico argomento), ora che aveva da dire quel che pensava, intorno a quello che più gli piaceva, coll'atteggiamento che più affezionava, ecco, che se non ancora con genialità almeno con personalità e sale mi ha espresso leggiadrissimamente una sua buonissima opinione (ozio = fermento), mi ha dimostrato, col fatto solo di rimbeccarmi, che "le piccole osservazioni, i pensieri più scemi che intelligenti" non gli mancano, e che davvero, stando in ozio, lui fermenta come il vino. Ho persino intravisto tra le linee, un abbozzo della sua nobile persona che si stravacca in campagna.</p>
