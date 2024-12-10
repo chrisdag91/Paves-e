@@ -309,7 +309,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19260919_PinelliTullio.xml?person_annotation_20241210150722676#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[7]/persName"
+			"rdf:value": "TEI/text/body/p[7]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -572,7 +572,7 @@
 			<p>Hai proprio scelto il buono per domandargli un consiglio.</p>
 			<p>Ci vorrebbe una mente imparziale, o fredda almeno, ed io non so neppure che colore abbiano queste cose. Il senso della misura non ce l'ho affatto: sono capace, per esempio, di passare tutto un anno a esaltare la civiltà americana nella letteratura nell'arte e nelle istituzioni, magari perché mi ha dato nell'occhio un'attrice di quel paese; salvo poi, se quell'attrice mi si scopre una... donna, come tutte le altre, a disperare dell'<placeName ref="https://geonames.org/6252001" type="real">America</placeName> e del mondo, a piangere, urlare, meditare di tirarmi un colpo. Così sono fatto.</p>
 			<p>Vedi dunque che bei consigli ti potrò dare.</p>
-			<p>Premesso questo ti citerò quel che ha risposto a Baraldi <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/">Monti</persName> un giorno che quel bel tipo voleva a tutti i costi farmi dissuadere dallo studiare Belle Lettere.</p>
+			<p>Premesso questo ti citerò quel che ha risposto a <persName ref="#ElicoBaraldi">Baraldi</persName> <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/">Monti</persName> un giorno che quel bel tipo voleva a tutti i costi farmi dissuadere dallo studiare Belle Lettere.</p>
 			<p>"In fatto di professione e di matrimonio, io non darei mai pareri, lascierei che in ognuno parlasse la vocazione".</p>
 			<p>Ma il bello è che poi <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/">Monti</persName> ha dato ugualmente il consiglio.</p>
 			<p>È sempre una tentazione troppo forte questa.</p>
