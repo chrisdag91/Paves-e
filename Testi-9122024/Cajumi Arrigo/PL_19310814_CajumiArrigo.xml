@@ -284,7 +284,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?organization_annotation_20241210195702778",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-12-10T18:57:02.778Z",
-	"dcterms:modified": "2024-12-10T18:57:02.778Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -311,7 +310,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?organization_annotation_20241210195702778#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/orgName"
+			"rdf:value": "TEI/text/body/p[7]/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -363,7 +362,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?person_annotation_20241210195729634",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-12-10T18:57:29.634Z",
-	"dcterms:modified": "2024-12-10T18:57:29.634Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -390,7 +388,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?person_annotation_20241210195729634#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/persName"
+			"rdf:value": "TEI/text/body/p[7]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -442,7 +440,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?title_annotation_20241210195756568",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-12-10T18:57:56.568Z",
-	"dcterms:modified": "2024-12-10T18:57:56.568Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -469,7 +466,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?title_annotation_20241210195756568#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/title"
+			"rdf:value": "TEI/text/body/p[7]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -521,7 +518,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?person_annotation_20241210195841086",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-12-10T18:58:41.086Z",
-	"dcterms:modified": "2024-12-10T18:58:41.086Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -548,7 +544,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?person_annotation_20241210195841086#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/persName"
+			"rdf:value": "TEI/text/body/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -679,7 +675,6 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?place_annotation_20241210200145317",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-12-10T19:01:45.317Z",
-	"dcterms:modified": "2024-12-10T19:01:45.317Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eleonoragatto",
 		"@type": [
@@ -706,7 +701,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?place_annotation_20241210200145317#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[7]/placeName"
+			"rdf:value": "TEI/text/body/p[6]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -809,7 +804,7 @@
 			<p>Egregio Professore,</p>
 			<p>Le unisco qua l'<rs ref="#L'AntologiaDiSpoonRiver_LaCultura" type="work">articolo</rs> per <title level="j" ref="#LaCultura">la Cultura</title> che da molto tempo avevo in mente sotto forme più pedanti e che spero di aver maturato meno infelicemente nella presente. L'argomento era tanto ricco che non mi pare di averne cavato più che un semplice abbozzo, ma la natura polemica dell'impostazione non permetteva di far molto diverso.</p>
 			<p>Conto di preparare quest'estate per <title level="j" ref="#LaCultura">la Cultura</title> qualche altro lavoro, da smaltire nel <date when="1932">'32</date> quando, sotto le armi, non potrò più scherzare molto colla penna.</p>
-			<p>Penso a qualcosa sulla <term cert="high" evaluate="all" generatedBy="human" xml:lang="ingl" xml:space="default">short-story</term> americana, accentrando l'analisi su <persName key="Porter, William Sidney, 1862-1910" ref="http://viaf.org/viaf/190723196/" cert="high" type="real">O. Henry</persName> (che, a proposito, si dev'essere perduto nella nebbia).</p>
+			Penso a qualcosa sulla short-story americana, accentrando l'analisi su <persName key="Porter, William Sidney, 1862-1910" ref="http://viaf.org/viaf/190723196/" cert="high" type="real">O. Henry</persName> (che, a proposito, si dev'essere perduto nella nebbia).
 			<p>Ho poi in mente un'idea mostruosa sulla <title level="m" ref="#LetteraturaNelCinemaAmericano">Letteratura nel Cinema Americano</title>, che importerebbe una ricerca sulle origini del medesimo, intese a mostrare come esso sia una pianta indigena che soltanto in un secondo tempo e nelle parti caduche l'<placeName key="Europe  " ref="https://geonames.org/6255148">Europa</placeName> ha contaminato. Vorrei mi dicesse qualcosa di questo progetto.</p>
 			<p>Veda intanto <title key="Masters, Edgar Lee, 1868-1950. | Spoon River anthology. Selections." ref="http://viaf.org/viaf/309523910/" level="m">Spoon River</title> e faccia i complimenti a <persName key="Mario Praz" ref="http://www.wikidata.org/entity/Q981971">Praz</persName> per la bella <rs ref="#AnthologyOfModernEnglishPoetry" type="work">stroncatura</rs> delle <orgName key="Tauchnitz publishers" ref="http://dbpedia.org/resource/Tauchnitz_publishers">Tauchnitz</orgName>.</p>
 			<p>Cordialmente.</p>
