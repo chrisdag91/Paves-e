@@ -327,6 +327,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310202_CajumiArrigo.xml?person_annotation_20241210210448074",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T20:04:48.074Z",
+	"dcterms:modified": "2024-12-10T20:04:48.074Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310202_CajumiArrigo.xml?person_annotation_20241210210448074#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310202_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310202_CajumiArrigo.xml?person_annotation_20241210210448074#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/30470182/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -335,7 +415,7 @@
 			<p>Chiarissimo Professore,</p>
 			<p>Le mando finalmente il tanto ritardato <rs ref="#SherwoodAnderson_LaCultura" type="work">articolo</rs> su <persName ref="#AndersonSherwood">Anderson</persName>. Veda se è pubblicabile nella <title level="j" ref="#LaCultura">rivista</title> e, in caso affermativo, La pregherei di farlo uscire non oltre aprile, occorrendomene le copie stampate non oltre maggio. Naturalmente correggerei io le bozze.</p>
 			<p>Con <persName cert="high" ref="#AndersonSherwood" type="real">Anderson</persName> i miei antichi impegni di collaborazione sono finiti e Le sarei grato se Ella volesse pensare a qualche altro nome, o opera, o problema, della letteratura nordamericana su cui incaricarmi di comporre qualcosa.</p>
-			<p>Gradirei anche notizie di quella mia antica <rs ref="#WaltWhitman_Articolo" type="work">nota whitmaniana</rs>, che però dato l'errore (Sélincourt francese) credo non sia pubblicabile e nemmeno rabberciabile.</p>
+			<p>Gradirei anche notizie di quella mia antica <rs ref="#WaltWhitman_Articolo" type="work">nota whitmaniana</rs>, che però dato l'errore (<persName key="De Sélincourt, Basil 1876-" ref="http://viaf.org/viaf/30470182/" cert="high" type="real">Sélincourt</persName> francese) credo non sia pubblicabile e nemmeno rabberciabile.</p>
 			<p>Rispettosi ossequii</p>
 			<p>CP</p>
 		</body>
