@@ -405,6 +405,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19301023_PinelliCarlo.xml?person_annotation_20241210142247962",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T13:22:47.962Z",
+	"dcterms:modified": "2024-12-10T13:22:47.962Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19301023_PinelliCarlo.xml?person_annotation_20241210142247962#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19301023_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19301023_PinelliCarlo.xml?person_annotation_20241210142247962#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Fyodor_Dostoevsky",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -416,7 +495,7 @@
 			<p>C'è poi un altro difetto ed è la sproporzione tra cause e effetti. Per una benedetta chiavata tanto chiasso, tanto spavento? Si sente l'inesperienza di chi è sulle prime. (Tuttavia te ne complimento). Notevole il particolare della spossatezza.</p>
 			<p>Concludendo: uno dei tuoi soliti ghiribizzi d'ingegno, prima lirichette, qua paradossini grotteschi, e il suo bello non è il pensiero o la polemica (che è bambinesca) ma, al solito, – come nelle liriche –, una felicità di narrazione ogni tanto, certi particolari "evidentemente ha sentito" "col naso in aria", certe osservazioni.</p>
 			<p>Schifo. Mi rincresce parlar di critica. È sempre quella famosa svolta che malgrado tutto, esiste.</p>
-			<p>Finiscila, tu, di fare il divertimento per famiglie coi burattini: leggi Dostojewski che fai meglio.</p>
+			<p>Finiscila, tu, di fare il divertimento per famiglie coi burattini: leggi <persName key="Fyodor Dostoevsky" ref="http://dbpedia.org/resource/Fyodor_Dostoevsky">Dostojewski</persName> che fai meglio.</p>
 			<p>Ci vedremo sicuro, perché per tutto l'inverno non avrò nulla di nuovo da fare.</p>
 			<p>Ciau e manda pure, anche musica.</p>
 		</body>
