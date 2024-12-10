@@ -720,6 +720,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301110_CajumiArrigo.xml?title_annotation_20241210185432954",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T17:54:32.954Z",
+	"dcterms:modified": "2024-12-10T17:54:32.954Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301110_CajumiArrigo.xml?title_annotation_20241210185432954#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301110_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19301110_CajumiArrigo.xml?title_annotation_20241210185432954#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Arrowsmith_(novel)",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -727,7 +806,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <date when="1930-11-10">10 novembre 1930</date>]</p>
 			<p>Egregio Dottore,</p>
 			<p>dato che occorre far presto si potrebbe pensare a tradurre <title key="Our Mr. Wrenn" ref="http://dbpedia.org/resource/Our_Mr._Wrenn" level="m">Our Mr Wrenn</title> che è breve, senza diritti (<date when="1914">1914</date>) e già in mio possesso, per cui appena ricevuto il contratto (a non meno di 1500 L.) io potrei mettermi all'opera. Ma tanto per questo, come per l'altro anch'esso breve e senza diritti <title key="Lewis, Sinclair, 1885-1951. | Free air" ref="http://viaf.org/viaf/8183153289920732770004/" level="m">Free Air</title> (<date when="1919">1919</date>) più fresco, più americano, un film della <orgName key="Fox Film" ref="http://dbpedia.org/resource/Fox_Film">Fox</orgName> pare, c'è il pericolo di venir prevenuti da un'altra casa.</p>
-			<p>L'ideale sarebbero Arrowsmith o Elmer Gantry, poiché questi una volta acquistati sarebbero, m'immagino, sicuri da concorrenze ed inoltre potrebbero accompagnarsi validamente a Babbitt a comporre una trilogia. Ma per questi sarà grande la spesa e poi prima di aver concluso le trattative passerà del tempo. Non è da dimenticare inoltre che la Modernissima ha forse già pensato lei alla trilogia e quindi si potrebbe perdere in trattative del tempo prezioso. Come lunghezza questi due equivalgono Babbitt.</p>
+			<p>L'ideale sarebbero <title key="Arrowsmith (novel)" ref="http://dbpedia.org/resource/Arrowsmith_(novel)" level="m">Arrowsmith</title> o Elmer Gantry, poiché questi una volta acquistati sarebbero, m'immagino, sicuri da concorrenze ed inoltre potrebbero accompagnarsi validamente a Babbitt a comporre una trilogia. Ma per questi sarà grande la spesa e poi prima di aver concluso le trattative passerà del tempo. Non è da dimenticare inoltre che la Modernissima ha forse già pensato lei alla trilogia e quindi si potrebbe perdere in trattative del tempo prezioso. Come lunghezza questi due equivalgono Babbitt.</p>
 			<p>Riassumendo: Our Mr Wrenn e Free Air costan nulla e sono brevi ma una loro traduzione ci può uscire a due giorni di pubblicazione dalla nostra. Arrowsmith e Elmer Gantry fan magari perdere in trattative due settimane per nulla, e sono costosi e lunghi, ma se riescono, riescono.</p>
 			<p>Decida Ella stesso: nelle rispettive due classi le mie preferenze vanno a Free Air e a Elmer Gantry.</p>
 			<p>Con ossequi.</p>
