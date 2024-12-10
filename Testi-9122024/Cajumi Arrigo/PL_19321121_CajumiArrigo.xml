@@ -1434,6 +1434,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19321121_CajumiArrigo.xml?person_annotation_20241210204550553",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T19:45:50.553Z",
+	"dcterms:modified": "2024-12-10T19:45:50.553Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19321121_CajumiArrigo.xml?person_annotation_20241210204550553#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19321121_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19321121_CajumiArrigo.xml?person_annotation_20241210204550553#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q312407",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1442,7 +1522,7 @@
 			<p>Caro <persName key="Cajumi, Arrigo, 1899-1955" ref="http://viaf.org/viaf/12380962/">Cajumi</persName>,</p>
 			<p>sta bene per <title key="Melville, Herman, 1819-1891. | Typee" ref="http://viaf.org/viaf/178419916/" level="m">Typee</title>, che ho ricevuto ieri.</p>
 			<p>A proposito di traduzioni, da qualche mese sto dimagrando dalla voglia di tradurre la <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">Spoon River Anthology</title>. Naturalmente il mio <orgName key="Edizioni Frassinelli" ref="http://viaf.org/viaf/315533589/">Frassinelli</orgName> non vuol saperne, perché lui deve farsi una posizione e le poesie non si vendono; ma <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" cert="high" type="real">Ginzburg</persName> mi ha suggerito di rivolgermi a Lei, caso mai <orgName ref="#TrevesEditore">Treves</orgName> fosse disposto alla speculazione: un bellissimo <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">libro</title> che non è poi di liriche, ma di personaggi; un <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">libro</title> che, a detta degli Americani stessi, contiene tutta l'<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName> attuale: un <title key="Masters, Edgar Lee, 1868-1950. | Spoon river anthology" ref="http://viaf.org/viaf/178834148/" level="m">libro</title> insomma che non è più sicuro del fallimento di quel che lo siano molti altri pubblicati per bene da <orgName ref="#TrevesEditore">Treves</orgName>. Veda se può far qualcosa.</p>
-			<p>Sono poi mortificato di includerle un altro articolo che è già stato fino a <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName> e che <persName key="Ojetti, Ugo, 1871-1946" ref="http://viaf.org/viaf/36957491/" type="real">Ojetti</persName> non ha voluto perché – dice – ne aspetta uno di <persName key="Mario Praz" ref="http://www.wikidata.org/entity/Q981971" cert="high" type="real">Praz</persName> sull'argomento. Naturalmente la colpa è dell'articolo e non di <persName key="Mario Praz" ref="http://www.wikidata.org/entity/Q981971" type="real">Praz</persName>; ma siccome i giudizi di <persName key="Ojetti, Ugo, 1871-1946" ref="http://viaf.org/viaf/36957491/" type="real">Ojetti</persName> sono talvolta molto curiosi e, per esempio su Dos Passos, scriveva lui stesso che, secondo il personaggio che parla, nei suoi romanzi cambia lo stile, vorrei sentire da Lei, definitivamente, se l'articolo è culturabile o no.</p>
+			<p>Sono poi mortificato di includerle un altro articolo che è già stato fino a <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959">Firenze</placeName> e che <persName key="Ojetti, Ugo, 1871-1946" ref="http://viaf.org/viaf/36957491/" type="real">Ojetti</persName> non ha voluto perché – dice – ne aspetta uno di <persName key="Mario Praz" ref="http://www.wikidata.org/entity/Q981971" cert="high" type="real">Praz</persName> sull'argomento. Naturalmente la colpa è dell'articolo e non di <persName key="Mario Praz" ref="http://www.wikidata.org/entity/Q981971" type="real">Praz</persName>; ma siccome i giudizi di <persName key="Ojetti, Ugo, 1871-1946" ref="http://viaf.org/viaf/36957491/" type="real">Ojetti</persName> sono talvolta molto curiosi e, per esempio su <persName key="John Dos Passos" ref="http://www.wikidata.org/entity/Q312407" cert="high" type="real">Dos Passos</persName>, scriveva lui stesso che, secondo il personaggio che parla, nei suoi romanzi cambia lo stile, vorrei sentire da Lei, definitivamente, se l'articolo è culturabile o no.</p>
 		</body>
 	</text>
 </TEI>
