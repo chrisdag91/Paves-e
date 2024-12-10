@@ -405,6 +405,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210112652023",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T10:26:52.023Z",
+	"dcterms:modified": "2024-12-10T10:26:52.023Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210112652023#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210112652023#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3175395",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -426,7 +505,7 @@
 			<p>Continua così, che io almeno un pacchetto di Macedonia al giorno, l'avrò assicurato per tutto l'anno.</p>
 			<p>Ma, scherzi a parte, aspetto quell'altra famosa lettera e che sia calligrafata un po' più da cristiano.</p>
 			<p>Vorrei infine sapere che cos'è quell'altra storia del "non mi fido" del "non li capisci" e via dicendo.</p>
-			<p>Non ti fidi di me o della posta? Se della posta, ti dico che hai torto a riporre così poca fiducia nello Stato (servitor del re, buon patriota, come sei, non ti vergogni?) A me non è ancora accaduto una volta di dovermi lamentare del servizio.</p>
+			<p>Non ti fidi di me o della posta? Se della posta, ti dico che hai torto a riporre così poca fiducia nello <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="real">Stato</placeName> (servitor del re, buon patriota, come sei, non ti vergogni?) A me non è ancora accaduto una volta di dovermi lamentare del servizio.</p>
 			<p>Sta' a vedere che se la vengono proprio a prendere colle tue cacate, i postini.</p>
 			<p>Se poi è di me che non ti fidi, ti ricordo che sono il tuo Herr Professor e tanto basti. Ehi! Che facciamo la burletta (frase toscana: annota)?</p>
 			<p>Tanto, i manoscritti si restituiscono. In quanto alla musica poi, può darsi che io non la capisca, per ignoranza, ma se anche tu mi tenessi informato, letterariamente, delle tue sinfonie, di che cosa vi hai espresso, di che cosa te ne pare, dell'effetto che ti fa la musica degli altri, e mi mandassi magari qualche copiarellina dei tuoi spartitini che io senza dir niente dell'autore mi farei suonare da qualcuno o, nel mio piccolo, strimpellerei a una mano io stesso, se anche tu facessi tutto questo, dico, non ti sforzeresti poi mica il pertugio delle erbette.</p>
