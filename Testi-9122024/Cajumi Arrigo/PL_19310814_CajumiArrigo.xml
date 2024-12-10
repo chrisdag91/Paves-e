@@ -566,6 +566,84 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?date_annotation_20241210200034556",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T19:00:34.556Z",
+	"dcterms:modified": "2024-12-10T19:00:34.556Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?date_annotation_20241210200034556#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Cajumi%20Arrigo/PL_19310814_CajumiArrigo.xml?date_annotation_20241210200034556#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1932"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -573,7 +651,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] 14 agosto [1931]</p>
 			<p>Egregio Professore,</p>
 			<p>Le unisco qua l'<rs ref="#L'AntologiaDiSpoonRiver_LaCultura" type="work">articolo</rs> per <title level="j" ref="#LaCultura">la Cultura</title> che da molto tempo avevo in mente sotto forme più pedanti e che spero di aver maturato meno infelicemente nella presente. L'argomento era tanto ricco che non mi pare di averne cavato più che un semplice abbozzo, ma la natura polemica dell'impostazione non permetteva di far molto diverso.</p>
-			<p>Conto di preparare quest'estate per <title level="j" ref="#LaCultura">la Cultura</title> qualche altro lavoro, da smaltire nel '32 quando, sotto le armi, non potrò più scherzare molto colla penna.</p>
+			<p>Conto di preparare quest'estate per <title level="j" ref="#LaCultura">la Cultura</title> qualche altro lavoro, da smaltire nel <date when="1932">'32</date> quando, sotto le armi, non potrò più scherzare molto colla penna.</p>
 			<p>Penso a qualcosa sulla <term cert="high" evaluate="all" generatedBy="human" xml:lang="ingl" xml:space="default">short-story</term> americana, accentrando l'analisi su <persName key="Porter, William Sidney, 1862-1910" ref="http://viaf.org/viaf/190723196/" cert="high" type="real">O. Henry</persName> (che, a proposito, si dev'essere perduto nella nebbia).</p>
 			<p>Ho poi in mente un'idea mostruosa sulla Letteratura nel Cinema Americano, che importerebbe una ricerca sulle origini del medesimo, intese a mostrare come esso sia una pianta indigena che soltanto in un secondo tempo e nelle parti caduche l'Europa ha contaminato. Vorrei mi dicesse qualcosa di questo progetto.</p>
 			<p>Veda intanto <title key="Masters, Edgar Lee, 1868-1950. | Spoon River anthology. Selections." ref="http://viaf.org/viaf/309523910/" level="m">Spoon River</title> e faccia i complimenti a <persName key="Mario Praz" ref="http://www.wikidata.org/entity/Q981971">Praz</persName> per la bella stroncatura delle <orgName key="Tauchnitz publishers" ref="http://dbpedia.org/resource/Tauchnitz_publishers">Tauchnitz</orgName>.</p>
