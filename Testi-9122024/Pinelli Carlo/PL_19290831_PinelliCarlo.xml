@@ -801,6 +801,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml?title_annotation_20241210112142194",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T10:21:42.194Z",
+	"dcterms:modified": "2024-12-10T10:21:42.194Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml?title_annotation_20241210112142194#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19290831_PinelliCarlo.xml?title_annotation_20241210112142194#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Hedda_Gabler",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -813,7 +892,7 @@
 			<p>Se hai letto <title key="Hedda Gabler" ref="http://dbpedia.org/resource/Hedda_Gabler">Hedda Gabler</title> e non friggevi tutto davanti a quell'ambiente e a quel tipo di signora, consolati che è segno che le mie lezioni ti hanno proprio incretinito del tutto.</p>
 			<p>Non fosse che quel tipo di bibliofilo che c'è là dentro, che sembra tutto a Pavese, tu ti dovevi divertire!</p>
 			<p>Ma magari ti sei presa <title level="m" ref="#LAnitraSelvatica">L'anitra selvatica</title>, dove si tratta della morale kantiana, o la <title ref="#CasaDiBambola">Casa di Bambola</title>, dove tra una signora che fa la serva e un professionista-commesso, si discute di matrimonio, e sfido io! Ah castrone!</p>
-			<p>Leggi Hedda Gabler e facci attenzione. Altro che il Loco!</p>
+			<p>Leggi <title key="Hedda Gabler" ref="http://dbpedia.org/resource/Hedda_Gabler" level="m">Hedda Gabler</title> e facci attenzione. Altro che il Loco!</p>
 			<p>Fa una cosa. Musica tutto un dramma di Ibsen, a scelta. Lo faremo suonare da Ponina e cantare da Giacchero.</p>
 			<p>Io intanto sono ancora qui al fresco con un allievo che mi dà del fesso grosso come una casa e io faccio l'uomo superiore.</p>
 			<p>Verso il 15 sarò libero. Ti scriverò poi, se verrò, e quando.</p>
