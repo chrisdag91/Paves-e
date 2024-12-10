@@ -642,6 +642,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml?person_annotation_20241210143627554",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T13:36:27.554Z",
+	"dcterms:modified": "2024-12-10T13:36:27.554Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml?person_annotation_20241210143627554#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml?person_annotation_20241210143627554#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Richard_Wagner",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -657,7 +736,7 @@
 			<p>A proposito, ti renderò quei manoscritti appena a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			<p>Ed ora, che cosa fai?</p>
 			<p>A me duole tutta l'anima di non poterti rispondere e parlare del Figlioccio che non ho letto e per ora non posso trovare.</p>
-			<p>E in genere di tutto <persName key="Leo Tolstoy" ref="http://dbpedia.org/resource/Leo_Tolstoy" type="real">Tolstoi</persName> ho letto poco. Qualche novella, un'opera di critica e un pezzo di <title level="m" ref="#Risurrezione">Risurrezione</title>. L'unica cosa completa che conosco di lui è la <title key="Tolstoj, Lev Nikolaevič 1828-1910 | Krejcerova sonata" ref="http://viaf.org/viaf/178320500/">Sonata a Kreutzer</title>. Guarda: proprio in quest'opera <persName ref="http://dbpedia.org/resource/Leo_Tolstoy" type="real">Tolstoi</persName> prende la <rs key="Beethoven, Ludwig van (1770-1827). | Sonaty. Skrzypce, fortepian. Nr 9. Op. 47. | A-dur (aranż.)" ref="http://viaf.org/viaf/3502165271983310690003/">sonata</rs> di <persName ref="#LudwigVanBeethoven" type="real">Beethoven</persName> come simbolo dell'arte perversa e inutile e se ne vale per la tesi del suo romanzo. Altrove, in Che cos'è l'Arte? striglia Wagner ch'è un piacere. È giustissima quindi la tua frase della nullità musicale di questo scrittore, anche riguardo allo stile, ché <persName ref="http://dbpedia.org/resource/Leo_Tolstoy" type="real">Tolstoi</persName> cerca di vestire di esempi a forti tinte e veri come la natura le sue idee e nulla più. Non si cura affatto di forma. Tutti riconoscono che hanno uno stile da ruminante. Prende le idee e le trita, le ripete, le ribadisce, come vengono in acconcio.</p>
+			<p>E in genere di tutto <persName key="Leo Tolstoy" ref="http://dbpedia.org/resource/Leo_Tolstoy" type="real">Tolstoi</persName> ho letto poco. Qualche novella, un'opera di critica e un pezzo di <title level="m" ref="#Risurrezione">Risurrezione</title>. L'unica cosa completa che conosco di lui è la <title key="Tolstoj, Lev Nikolaevič 1828-1910 | Krejcerova sonata" ref="http://viaf.org/viaf/178320500/">Sonata a Kreutzer</title>. Guarda: proprio in quest'opera <persName ref="http://dbpedia.org/resource/Leo_Tolstoy" type="real">Tolstoi</persName> prende la <rs key="Beethoven, Ludwig van (1770-1827). | Sonaty. Skrzypce, fortepian. Nr 9. Op. 47. | A-dur (aranż.)" ref="http://viaf.org/viaf/3502165271983310690003/">sonata</rs> di <persName ref="#LudwigVanBeethoven" type="real">Beethoven</persName> come simbolo dell'arte perversa e inutile e se ne vale per la tesi del suo romanzo. Altrove, in Che cos'è l'Arte? striglia <persName key="Richard Wagner" ref="http://dbpedia.org/resource/Richard_Wagner">Wagner</persName> ch'è un piacere. È giustissima quindi la tua frase della nullità musicale di questo scrittore, anche riguardo allo stile, ché <persName ref="http://dbpedia.org/resource/Leo_Tolstoy" type="real">Tolstoi</persName> cerca di vestire di esempi a forti tinte e veri come la natura le sue idee e nulla più. Non si cura affatto di forma. Tutti riconoscono che hanno uno stile da ruminante. Prende le idee e le trita, le ripete, le ribadisce, come vengono in acconcio.</p>
 			<p>Unica sua grandezza credo sia la profonda verità delle passioni, la finezza della psicologia e la interezza della dedizione alla sua coscienza. Ma, come dico, non conosco le opere maggiori di lui e quindi sono in sospeso.</p>
 			<p>In genere non mi è mai andata la letteratura russa. Anche perché non ho mai cominciato seriamente a studiarla.</p>
 			<p>Parlando d'altro, ti dirò che io ho già un po' scorso Heine e letto dell'Intermezzo e del Nordsee, e se tu hai fatto altrettanto, scrivi pure che posso rispondertene.</p>
