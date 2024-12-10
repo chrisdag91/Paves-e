@@ -1057,7 +1057,7 @@
 			<p>Io maledico il di' ch'io vidi in prima</p>
 			<p>la luce dei vostri occhi traditori...</p>
 			<p/>
-			<p>significano "in prima classe", non ferroviaria ma scolastica – perché allora non c'erano ancora i treni e poi <persName key="Dante Alighieri" ref="http://dbpedia.org/resource/Dante_Alighieri">Dante</persName> era povero –, e ci rivelano come il poeta precocissimo a 9 anni frequentava già la prima ginnasio. Dato che un genio come lui non poteva certo essere ancora in prima elementare a quell'età.</p>
+			<p>significano "in prima classe", non ferroviaria ma scolastica – perché allora non c'erano ancora i treni e poi <persName key="Dante Alighieri" ref="http://dbpedia.org/resource/Dante_Alighieri">Dante</persName> era povero –, e ci rivelano come <rs ref="http://dbpedia.org/resource/Dante_Alighieri">il poeta</rs> precocissimo a 9 anni frequentava già la prima ginnasio. Dato che un genio come lui non poteva certo essere ancora in prima elementare a quell'età.</p>
 		</body>
 	</text>
 </TEI>
