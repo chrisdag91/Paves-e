@@ -1037,6 +1037,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml?person_annotation_20241210145504981",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T13:55:04.981Z",
+	"dcterms:modified": "2024-12-10T13:55:04.981Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml?person_annotation_20241210145504981#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280903_PinelliCarlo.xml?person_annotation_20241210145504981#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Rudyard_Kipling",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1058,7 +1137,7 @@
 			<p>Parlando d'altro, ti dirò che io ho già un po' scorso <persName ref="#HeinrichHeine" type="real">Heine</persName> e letto dell'<title key="Heine, Heinrich, 1797-1856. | Lyrisches Intermezzo" ref="http://viaf.org/viaf/155145067400166631065/" level="m">Intermezzo</title> e del <title key="Heine, Heinrich 1797-1856 | Die Nordsee" ref="http://viaf.org/viaf/197680674/">Nordsee</title>, e se tu hai fatto altrettanto, scrivi pure che posso rispondertene.</p>
 			<p>Ma ti ricordo che soprattutto tu dovevi nell'estate vedere qualcosa di <persName ref="http://dbpedia.org/resource/William_Shakespeare" type="real">Shakespeare</persName> che sta in fondo a tutto il romanticismo e ci è quindi necessario per capire storicamente tutto quanto studiamo. E <persName key="Johann Wolfgang von Goethe" ref="http://dbpedia.org/resource/Johann_Wolfgang_von_Goethe">Goethe</persName>? E <persName ref="#LeopardiGiacomo" type="real">Leopardi</persName>? E <persName ref="#ManzoniAlessandro" type="real">Manzoni</persName>? E <persName ref="http://dbpedia.org/resource/Victor_Hugo" type="real">V. Hugo</persName>? E <persName key="Giosuè Carducci" ref="http://dbpedia.org/resource/Giosuè_Carducci">Carducci</persName>? Vedine qualcosa che se quest'anno studieremo ancora insieme avremo bisogno di averli alla mano, di sottintenderli a tutto quanto faremo.</p>
 			<p>E <persName ref="http://dbpedia.org/resource/Edgar_Allan_Poe" type="real">Poe</persName>? Ricordati che quelle due o tre ore che si dedicano a uno scrittore, facendo la lezione, non sono nulla, che lo scrittore bisogna conoscerlo, averlo fatto parte della nostra vita, solo così se ne discute con serietà.</p>
-			<p>E Kipling? E London? Tutta gente che tu hai in casa e su cui dovresti esserti già fatta un'opinione qualunque, un modo di sentire che, appena risuona il nome di uno di loro, subito ti crei uno stato d'animo diverso e che sia come il riassunto di esso nella tua anima.</p>
+			<p>E <persName key="Rudyard Kipling" ref="http://dbpedia.org/resource/Rudyard_Kipling">Kipling</persName>? E <persName ref="http://viaf.org/viaf/315943496/" type="real">London</persName>? Tutta gente che tu hai in casa e su cui dovresti esserti già fatta un'opinione qualunque, un modo di sentire che, appena risuona il nome di uno di loro, subito ti crei uno stato d'animo diverso e che sia come il riassunto di esso nella tua anima.</p>
 			<p>So benissimo che è un mestiere infame inoculare agli altri la cultura, che è cosa che ognuno si fa da sé, ed è per questo che io in quest'anno, piuttosto che riempirti la testa di frasi mnemoniche, ho scelto di inocularti l'amore dei libri, dei miei libri, di metterteli dinanzi come li metto inanzi a me. Tu devi farti un mondo di libri di poeti, cioè di uomini che han vissuto nella vita come te e come me e solo si ricordano ancora perché hanno avuto la forza di lasciare opere degne. Amarne gli spiriti, discuterne le idee, sognarne i sogni collo scopo di costruire su di loro il nostro spirito, di trovare in discussione colle loro le nostre idee, e di sognare per esser degni di loro i nostri sogni.</p>
 			<p>Questa è ancora, insieme a quella di abbassarsi per amore alle creature più umili e vili della vita, la prova più alta della fratellanza umana.</p>
 			<p>E questo, se non sei un delinquente, lo sentirai a poco a poco sorgere dentro di te e queste mie parole saranno affatto inutili.</p>
