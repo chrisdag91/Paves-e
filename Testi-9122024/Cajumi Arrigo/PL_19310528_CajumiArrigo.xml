@@ -491,7 +491,7 @@
 			<p>Egregio Dottore,</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1931-05-28">28 maggio 1931</date></p>
 			<p>Ho ricevuto le copie dell'<rs ref="#SherwoodAnderson_LaCultura" type="work">Anderson</rs>. La ringrazio molto della sollecitudine e cortesia. Io sto pensando a qualcosa per <title level="j" ref="#LaCultura">la Cultura</title>, che spero riuscirà non male.</p>
-			<p>Vorrei anche pregarLa d'interessarsi dei compensi per il mio Lewis (<date when="1930-11">novembre 1930</date>), che, sento da <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">Ginzburg</persName>, dovrebbero già essermi giunti.</p>
+			<p>Vorrei anche pregarLa d'interessarsi dei compensi per il mio <rs ref="#UnRomanziereAmericanoSinclairLewis_LaCultura" type="work">Lewis</rs> (<date when="1930-11">novembre 1930</date>), che, sento da <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">Ginzburg</persName>, dovrebbero già essermi giunti.</p>
 			<p>Rispettosi saluti.</p>
 		</body>
 	</text>
