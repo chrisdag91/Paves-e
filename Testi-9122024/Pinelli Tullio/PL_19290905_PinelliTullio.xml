@@ -326,6 +326,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?person_annotation_20241210153937961",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T14:39:37.961Z",
+	"dcterms:modified": "2024-12-10T14:39:37.961Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?person_annotation_20241210153937961#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19290905_PinelliTullio.xml?person_annotation_20241210153937961#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[18]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/59397266/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -346,7 +425,7 @@
 			<p>Tutte cose di cui mi accorgo solo adesso che sono stupide e cretine, tanto che solo a immaginarle uno si firma la patente di fesso. Prima le ho pensate in buona fede e ormai non c'è più niente da fare. Il mio autore è proprio <persName ref="#DeAmicisEdmondo" type="real">De Amicis</persName> che ho tanto letto e commentato. Sono fesso dalla testa ai piedi.</p>
 			<p>Ma pensa, può darsi un'idea più stupida di quest'altra che ho avuto per degli anni?: Adesso mi macero ben bene il corpo e l'anima e così faccio il poeta maledetto, l'angelo decaduto, vado in giro pallido e pieno di genio, sogghigno amaramente e sto di casa nel paradiso artificiale. Questo ho avuto il coraggio di pensare. (Tutti i satanismi erano poi seghe e vinaccio subito vomitato, ché non son neanche mai stato da tanto da bere come gli altri o conquistare una pischerla). E quando uno ha avuto di questi ideali, è fesso davanti agli uomini e davanti a Dio, no?</p>
 			<p>E ho scritto delle poesie. Per fortuna che quelle di fino a un anno fa, quando le leggo, mi tirano i nervi. Le altre dopo, peut! passano ancora per l'incancrenimento del vizio, ma so, da fonte sicura, che nel '30 saranno stupide anche loro. E così quelle di un altr'anno. E così quelle dell'anno dopo. E così fino alla morte. Amen.</p>
-			<p>Ma cristiano non mi faccio, è inutile. Hai visto, in fondo, di che cosa mi lamento anche in questa lettera? Che non sono intelligente, che sono uno stupido. Questo mi affligge e non altro. È inutile pensare: sono maniaco di questa idea e ai maniaci il tuo Sem fa dire soltanto "poverino!"</p>
+			<p>Ma cristiano non mi faccio, è inutile. Hai visto, in fondo, di che cosa mi lamento anche in questa lettera? Che non sono intelligente, che sono uno stupido. Questo mi affligge e non altro. È inutile pensare: sono maniaco di questa idea e ai maniaci il tuo <persName key="Benelli, Sem, 1877-1949" ref="http://viaf.org/viaf/59397266/">Sem</persName> fa dire soltanto "poverino!"</p>
 			<p>Ricapitolando, adesso, mi pare che non ti seccherai neanche tanto a leggermi, perché tutta la lettera è ben scritta, con bei movimenti retorici, con certo dialettismo efficace, con bei tratti pittorici e molta esperienza umana. Soprattutto questo, perché sai che adesso l'arte dev'essere profondamente vissuta.</p>
 			<p>Insomma, sono soddisfatto. Ho scritto una bella lettera introspettiva (vedi che stoffa di cristiano?)</p>
 			<p>Basta, finiamola, perché mi sento merda. Tu scrivimi intanto, per informarmi, secondo le vie del mondo e secondo l’eterno. (A proposito sappi che tutti questi bamboleggiamenti di misticismo, mi vengono dalla lettura, letteraria, di Papinone: Storia di Cristo, Omo salvatico, che bello convertirsi per scrivere così bene e paura di riaprire il libro per non ritrovarsi la millesima volta davanti al consueto problema e tremore: o convertirsi o morire coi vermi e per giunta imbecille. E allora, altro problema: ma tanto anche Dante le persone inette come me non le guarda neanche. Cioè mi farei cristiano per la gloria... all'infinito).</p>
