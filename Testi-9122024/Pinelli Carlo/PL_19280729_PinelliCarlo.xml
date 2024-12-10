@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,14 +11,251 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?person_annotation_20241210110446551",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T10:04:46.551Z",
+	"dcterms:modified": "2024-12-10T10:04:46.551Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?person_annotation_20241210110446551#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?person_annotation_20241210110446551#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/26865943/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210110512253",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T10:05:12.253Z",
+	"dcterms:modified": "2024-12-10T10:05:12.253Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210110512253#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210110512253#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3183187",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210110531554",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T10:05:31.554Z",
+	"dcterms:modified": "2024-12-10T10:05:31.554Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210110531554#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Carlo/PL_19280729_PinelliCarlo.xml?place_annotation_20241210110531554#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A Carlo Pinelli, Alpignano.</p>
-			<p>[Torino,] 29 luglio 1928</p>
+			<p>A <persName key="Pinelli, Carlo, 1911-2004" ref="http://viaf.org/viaf/26865943/" type="real">Carlo Pinelli</persName>, <placeName key="Alpignano Piedmont Italy" ref="https://geonames.org/3183187">Alpignano</placeName>.</p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] 29 luglio 1928</p>
 			<p/>
-			<p>Scherzi a parte, è una settimana che aspetto la &quot;lettera con qualcosa di più importante&quot; ma mi pare che faccia come la donna dei miei sogni, non arriva mai.</p>
-			<p>Penserebbe Ella forse di prendermi in giro? Guarda che son capacissimo di fare come quel filosofo di Molière, che dopo aver litigato come un facchino con un tale rientra a dire: &quot;Un professeur sait recevoir comme il faut les choses et je vais composer contre lui une satyre du style de Juvenal, qui le déchirera de la belle façon&quot;. (Ammira, brutta gorba, l'erudizione del tuo maestro).</p>
+			<p>Scherzi a parte, è una settimana che aspetto la "lettera con qualcosa di più importante" ma mi pare che faccia come la donna dei miei sogni, non arriva mai.</p>
+			<p>Penserebbe Ella forse di prendermi in giro? Guarda che son capacissimo di fare come quel filosofo di Molière, che dopo aver litigato come un facchino con un tale rientra a dire: "Un professeur sait recevoir comme il faut les choses et je vais composer contre lui une satyre du style de Juvenal, qui le déchirera de la belle façon". (Ammira, brutta gorba, l'erudizione del tuo maestro).</p>
 			<p>Tutto questo, in materia oratoria, come esempio di esordio.</p>
 			<p>Non tralascio, poi, qua, l'occasione di darti un altro bell'esempio, stavolta di diligenza, comunicandoti che appena saputo del lieto evento del Buch son corso da Rosemberg (impara anche qua) a comprarmelo.</p>
 			<p>Bel libro, bonissimi fatti, peccato che ci si capisca niente.</p>
@@ -30,16 +264,16 @@
 			<p>Non par neanche che sia scritta da quell'assassino che l'inverno passato mi tagliava a pezzi l'Odissea colle sue gallinacee elucubrazioni estetiche. È proprio vero. La cosa più idiota, più inetta che gli uomini (cioè i professori) hanno inventato al mondo, è il componimento.</p>
 			<p>Il professore acciuffa l'argomento più cretino che gli passa per la testa, tra un lampo e l'altro di speranza di una sigaretta dopo la lezione, lo espone all'allievo raccomandandoglielo come la quintessenza della furbizia, ci fa magari con la sua parlantina asmatica un po' di esibizione intorno e poi, l'allievo, che, come meno rimbecillito, ha altro per la testa che non proprio quella tal fesseria, deve, entro un dato tempo, stillarsi l'umor cervicale a pensarci sopra, ciò che, per derivazione naturale, non può a meno di essere una fesseria compagna.</p>
 			<p>È una cosa veramente oscena. E si è visto dai frutti.</p>
-			<p>Ora invece che l'allievo aveva da rispondere, da uomo a uomo, di cose della vita, che aveva da parlare di sé (e questo, ricordatene fin che avrai fiato, sarà sempre il migliore anzi l'unico argomento), ora che aveva da dire quel che pensava, intorno a quello che più gli piaceva, coll'atteggiamento che più affezionava, ecco, che se non ancora con genialità almeno con personalità e sale mi ha espresso leggiadrissimamente una sua buonissima opinione (ozio = fermento), mi ha dimostrato, col fatto solo di rimbeccarmi, che &quot;le piccole osservazioni, i pensieri più scemi che intelligenti&quot; non gli mancano, e che davvero, stando in ozio, lui fermenta come il vino. Ho persino intravisto tra le linee, un abbozzo della sua nobile persona che si stravacca in campagna.</p>
+			<p>Ora invece che l'allievo aveva da rispondere, da uomo a uomo, di cose della vita, che aveva da parlare di sé (e questo, ricordatene fin che avrai fiato, sarà sempre il migliore anzi l'unico argomento), ora che aveva da dire quel che pensava, intorno a quello che più gli piaceva, coll'atteggiamento che più affezionava, ecco, che se non ancora con genialità almeno con personalità e sale mi ha espresso leggiadrissimamente una sua buonissima opinione (ozio = fermento), mi ha dimostrato, col fatto solo di rimbeccarmi, che "le piccole osservazioni, i pensieri più scemi che intelligenti" non gli mancano, e che davvero, stando in ozio, lui fermenta come il vino. Ho persino intravisto tra le linee, un abbozzo della sua nobile persona che si stravacca in campagna.</p>
 			<p>Bravo. C'è progresso e tua madre non ha sprecato i suoi soldi.</p>
 			<p>Continua così, che io almeno un pacchetto di Macedonia al giorno, l'avrò assicurato per tutto l'anno.</p>
 			<p>Ma, scherzi a parte, aspetto quell'altra famosa lettera e che sia calligrafata un po' più da cristiano.</p>
-			<p>Vorrei infine sapere che cos'è quell'altra storia del &quot;non mi fido&quot; del &quot;non li capisci&quot; e via dicendo.</p>
+			<p>Vorrei infine sapere che cos'è quell'altra storia del "non mi fido" del "non li capisci" e via dicendo.</p>
 			<p>Non ti fidi di me o della posta? Se della posta, ti dico che hai torto a riporre così poca fiducia nello Stato (servitor del re, buon patriota, come sei, non ti vergogni?) A me non è ancora accaduto una volta di dovermi lamentare del servizio.</p>
 			<p>Sta' a vedere che se la vengono proprio a prendere colle tue cacate, i postini.</p>
 			<p>Se poi è di me che non ti fidi, ti ricordo che sono il tuo Herr Professor e tanto basti. Ehi! Che facciamo la burletta (frase toscana: annota)?</p>
 			<p>Tanto, i manoscritti si restituiscono. In quanto alla musica poi, può darsi che io non la capisca, per ignoranza, ma se anche tu mi tenessi informato, letterariamente, delle tue sinfonie, di che cosa vi hai espresso, di che cosa te ne pare, dell'effetto che ti fa la musica degli altri, e mi mandassi magari qualche copiarellina dei tuoi spartitini che io senza dir niente dell'autore mi farei suonare da qualcuno o, nel mio piccolo, strimpellerei a una mano io stesso, se anche tu facessi tutto questo, dico, non ti sforzeresti poi mica il pertugio delle erbette.</p>
-			<p>&quot;Ha sentito l'ultima cosa del Pinelli?&quot; &quot;Magnifico! E quando dirigeva al Regio? se lo ricorda?&quot; &quot;Spettacoloso!&quot; &quot;Sì, ma lei non mi vorrà paragonare il suo 'Coro di pazzi furiosi' con qualunque altra pagina orchestrale!&quot; &quot;È un fatto che sembra che adoperi delle note mai udite. E pensare che è un classico nella sua arte&quot;. &quot;Beh, adesso lei esagera, il Pinelli è il segnacolo di tutti i compositori d'avanguardia&quot;. &quot;Ma non dica cretinerie. Non sente che purezza di linea melodica c'è in lui!&quot; &quot;È un fatto, ma è anche molto complicato&quot;. &quot;In questo ha ragione. Bel, ma capìl!&quot;</p>
+			<p>"Ha sentito l'ultima cosa del Pinelli?" "Magnifico! E quando dirigeva al Regio? se lo ricorda?" "Spettacoloso!" "Sì, ma lei non mi vorrà paragonare il suo 'Coro di pazzi furiosi' con qualunque altra pagina orchestrale!" "È un fatto che sembra che adoperi delle note mai udite. E pensare che è un classico nella sua arte". "Beh, adesso lei esagera, il Pinelli è il segnacolo di tutti i compositori d'avanguardia". "Ma non dica cretinerie. Non sente che purezza di linea melodica c'è in lui!" "È un fatto, ma è anche molto complicato". "In questo ha ragione. Bel, ma capìl!"</p>
 			<p>Caro Carlino, se vorrai sentire di queste conversazioni dovrai ben cominciare da qualcuno. Sacrifica me, sarò il tuo primo apostolo. Ci capirò poco, ma tu sai benissimo che gli Apostoli, per definizione, non capivano niente.</p>
 			<p>E lavora, andiamo. A testa china, coi denti stretti, senza dir nulla, come una bestia. Vedrai che ti frutta. Su questo ti dò la mia parola d'onore.</p>
 			<p>Io un tempo smaniavo a applicarmi al tavolino, ebbene, ora, senza sforzo, mi preparo per un esame biennale, studio un mucchio di cose e di tanto in tanto dò fuori come un galletto poesie e novelle.</p>
