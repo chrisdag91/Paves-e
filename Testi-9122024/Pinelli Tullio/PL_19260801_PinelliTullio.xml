@@ -405,6 +405,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19260801_PinelliTullio.xml?person_annotation_20241210144955474",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-10T13:49:55.474Z",
+	"dcterms:modified": "2024-12-10T13:49:55.474Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19260801_PinelliTullio.xml?person_annotation_20241210144955474#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19260801_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19260801_PinelliTullio.xml?person_annotation_20241210144955474#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Carlo_Goldoni",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -414,7 +493,7 @@
 			<p>Il telegramma ti avrà già tolta la più grossa. Ora che l'Ufficio Postale mi lascia libertà di parola, ti mando l'elenco dei tuoi trionfi o, più precisamente, l'equivalente numerico (pensa che queste parole le senti per l'ultima volta) della tua maturità: Italiano 7 - Latino 7 - Greco 7 - Storia 6 - Filosofia ed Economia 7- Matematica e Fisica 6 - Storie Naturali 6 - Storia dell'Arte 7 – Educazione fisica lodevole.</p>
 			<p>Nota che io di ginnastica son soltanto "buono". Salve, baldo giovane!</p>
 			<p>A me hanno tolto un voto di italiano perché ho osato contraddirli nella correzione del componimento. Ma non protesto mica io: ammiro anzi in ciò la forza del progresso. Nel '600 mi avrebbero per lo meno bruciato vivo: adesso, più borghesemente, mi tolgono un voto dalla media. Mi chiederai che cosa c'entri questa divagazione storico-filosofica: c'entra sicuro: è l'ultimo ghigno che faccio su quella stia da capponi che è la scuola e la prima sfida che lancio libero alla vita intera com'è oggi. Qualche diavoleria la metterò certo insieme.</p>
-			<p>Mi han detto che stai sceneggiando una commedia del <persName key="Carlo Goldoni" ref="http://dbpedia.org/resource/Carlo_Goldoni">Goldoni</persName>. Io, in questi boschi, mi esalto di <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>. Se mi vorrai scrivere hai il mio indirizzo (<placeName ref="#Reaglie" type="place">Reaglie</placeName>. <placeName ref="#VillaPavese" type="place">Villa Pavese</placeName>) e, se mi avvertirai, verrò ad applaudir...lo, il Goldoni.</p>
+			<p>Mi han detto che stai sceneggiando una commedia del <persName key="Carlo Goldoni" ref="http://dbpedia.org/resource/Carlo_Goldoni">Goldoni</persName>. Io, in questi boschi, mi esalto di <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>. Se mi vorrai scrivere hai il mio indirizzo (<placeName ref="#Reaglie" type="place">Reaglie</placeName>. <placeName ref="#VillaPavese" type="place">Villa Pavese</placeName>) e, se mi avvertirai, verrò ad applaudir...lo, il <persName key="Carlo Goldoni" ref="http://dbpedia.org/resource/Carlo_Goldoni">Goldoni</persName>.</p>
 			<p>Stammi bene e non farti mangiare dal pescecane.</p>
 			<p>Cesare Pavese</p>
 		</body>
