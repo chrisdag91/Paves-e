@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?person_annotation_20241211112537619",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T10:25:37.619Z",
+	"dcterms:modified": "2024-12-11T10:25:37.619Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?person_annotation_20241211112537619#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?person_annotation_20241211112537619#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/111167802705617770374/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -257,7 +336,7 @@
 			<p>Sei una bestia. Anche se hai potuto capire che il mio lavoro è bello, sei una bestia lo stesso. Sei la bestia senza aggettivi, la bestia per eccellenza. Certi argomenti mi hai tirato fuori, certi archibugi di quelli che <persName key="Acilius Glabrio, Manius, approximately 55-95" ref="http://viaf.org/viaf/297198061/" type="real">Glabrione</persName>, il leggendario <persName ref="http://viaf.org/viaf/297198061/" type="real">Glabrione</persName> (a proposito, quando lo vedremo all'opera?) va confezionando senza curarsi delle moderne fabbriche d'esplosivi, che io sono restato lì. (Non è mica vero: invece mi han dato molto da pensare. Questo l'ho scritto per suonare un bel pezzo ben artifiziato). Sono dunque restato lì.</p>
 			<p>Ed ora ti scarico addosso le mie modernissime e infallibili batterie, coadiuvate da nembi di gas asfissianti i quali si svilupperanno man mano su di tra i fogli di questa lettera e chi si salverà sarà bello.</p>
 			<p>"Comincio dall'impostazione, ma non ti sei accorto di commettere due errori madornali?" (<persName ref="http://dbpedia.org/resource/Tullio_Pinelli " type="real">Tullio Pinelli</persName>).</p>
-			<p>Sì proprio: sono le tue stesse batterie che ti scoppiano addosso, come appunto avveniva nel beato secolo primo della polvere (inventata da Ruggero Bacone o Schwarz che sia, ma non da un Italiano, se dio vuole).</p>
+			<p>Sì proprio: sono le tue stesse batterie che ti scoppiano addosso, come appunto avveniva nel beato secolo primo della polvere (inventata da <persName key="Bacone, Ruggero, c. 1214-1294" ref="http://viaf.org/viaf/111167802705617770374/" type="real">Ruggero Bacone</persName> o Schwarz che sia, ma non da un Italiano, se dio vuole).</p>
 			<p>Il primo è che tu torci il naso perché trovi che la scena in Paradiso non è a suo posto dato che ecc. (e a me è piaciuto metterla lì, guarda un po'; andare in paradiso almeno sulle ali dell'arte: ma non ne vale la pena te lo assicuro), il secondo è che tu trovi che io per abbassare la cresta la rialzo ecc. (e guarda un po': io ho il difetto di fidarmi solo di me stesso).</p>
 			<p>Il primo tuo appunto per esempio non vale un fico perché bisogna proprio essere quella bestia di cui sopra o quel fanatico impietrito nell'amore del Pro me di cui sotto per non accorgersi che il Paradiso era l'unica capisci? l'unica scena possibile per la tragicità e la comicità fantasmagorica dei miei pensamenti (applauso).</p>
 			<p>Quando io esamino i dogmi cristiani e vedo che essi con tutte le loro pretese d'infinito e di eterno lasciano alla vita quel po' po' (per ripetere una vaghissima locuzione avverbiale della tua lettera) quel po' po', dico, di contraddizioni che mi vaneggiano davanti agli occhi come tanti pozzi bui e terribili, esalanti ombre viscide e capziose, tante copie insomma del pozzo nero del tuo dramma sacro (qua, per esempio, ho parlato tragico), io, che, parlando con rispetto, non ci credo a quelle panzane, o meglio, sforzi ammirevoli e tragici (che se hanno accontentato secoli di viventi, beati loro!) verso una felicità, non solo ho il diritto, ma ho, non so come dire, il preciso dovere artistico nonché filosofico, nonché non rompermi più le scatole, di porre in Paradiso, il luogo dove tutto è fissato per sempre (aaahh!) sotto le leggi ferree dei detti dogmi (iiihh!), una scena che mediante un seguito di argomentazioni drammatizzate mostra senza trucco o senza inganno agli intelletti più ottusi che nemmeno l'immane sforzo sofferto da secoli di pensatori è arrivato a una conclusione che possa soddisfare l'"homo logicus et pius" che vive all'ombra dei camini delle fabbriche e (guarda un po') ogni tanto si ritira anche in una chiesa ma più spesso in un casino a pensare ai casi suoi.</p>
