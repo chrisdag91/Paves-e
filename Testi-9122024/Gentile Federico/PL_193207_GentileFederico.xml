@@ -247,13 +247,93 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Gentile%20Federico/PL_193207_GentileFederico.xml?person_annotation_20241211122124644",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T11:21:24.644Z",
+	"dcterms:modified": "2024-12-11T11:21:24.644Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Gentile%20Federico/PL_193207_GentileFederico.xml?person_annotation_20241211122124644#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Gentile%20Federico/PL_193207_GentileFederico.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Gentile%20Federico/PL_193207_GentileFederico.xml?person_annotation_20241211122124644#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/19694629/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A <persName cert="high" ref="#GentileFederico" type="real">Federico Gentile</persName>, <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <date when="1932-07">luglio? 1932</date>]</p>
 			<p>Egregio Dottore,</p>
-			<p>leggo sul numero di giugno di <title level="j" ref="#Leonardo">Leonardo</title> la recensione della signorina <persName ref="#ScaleroAlessandra">Scalero</persName> al libro del Linati.</p>
+			<p>leggo sul numero di giugno di <title level="j" ref="#Leonardo">Leonardo</title> la recensione della signorina <persName ref="#ScaleroAlessandra">Scalero</persName> al libro del <persName key="Linati, Carlo, 1878-1949" ref="http://viaf.org/viaf/19694629/" cert="high" type="real">Linati</persName>.</p>
 			<p>Lei avrà certo fatto per il meglio questa sostituzione; ma avrei gradito comunque un avviso, giacché avevo ricevuto per il mio articolo la Sua approvazione.</p>
 			<p>Favorisca ad ogni modo farmi ritornare il manoscritto.</p>
 			<p>Cordiali saluti</p>
