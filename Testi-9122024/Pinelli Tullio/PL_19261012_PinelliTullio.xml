@@ -1345,6 +1345,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?person_annotation_20241211113013340",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T10:30:13.340Z",
+	"dcterms:modified": "2024-12-11T10:30:13.340Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?person_annotation_20241211113013340#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?person_annotation_20241211113013340#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[24]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Horace",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1371,7 +1450,7 @@
 			<p>12. Ho finito l'<title key="Othello" ref="http://dbpedia.org/resource/Othello" level="m">Othello</title> di <persName ref="http://dbpedia.org/resource/William_Shakespeare">William Shakespeare</persName> (<date when="1500">secolo XVI</date>),</p>
 			<p>13. il <title ref="http://dbpedia.org/resource/The_Decameron">Decamerone</title> di <persName ref="#GiovanniBoccaccio">Giovanni Boccaccio</persName> (<date when="1300">secolo XIV</date>),</p>
 			<p>14. i <title level="m" ref="#PoemsdiOssian">Poems di Ossian</title> (secolo IV),</p>
-			<p>15. i <title ref="#Carmina">Carmina</title> di Quintus Horatius Flaccus (secolo I).</p>
+			<p>15. i <title ref="#Carmina">Carmina</title> di <persName key="Horace" ref="http://dbpedia.org/resource/Horace">Quintus Horatius Flaccus</persName> (secolo I).</p>
 			<p/>
 			<p>(Sei ancora vivo?... Allora continuo).</p>
 			<p>Quasi tutto il mio lavoro si riduce alla comprensione e alla collocazione storica di questi scrittori, cosa che faccio con ardore, come la creazione di un dramma, e infatti è un dramma grandiosissimo che vado scoprendo e <hi cert="high" generatedBy="human" rend="italic" xml:space="default">vivendo</hi>, questo di tutta la storia dell'umanità: un dramma che comprende tutti gli altri scritti e non scritti.</p>
