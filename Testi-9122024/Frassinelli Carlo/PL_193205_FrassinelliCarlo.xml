@@ -334,7 +334,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <date when="1932-05">maggio 1932</date>]</p>
 			<p/>
 			<p>A te</p>
-			<p>- questo libro che</p>
+			<p>- <rs ref="#RisoNero" type="work">questo libro</rs> che</p>
 			<p>- tradotto in un triste periodo</p>
 			<p>di abbassamento delle lettere italiane</p>
 			<p>quando</p>
