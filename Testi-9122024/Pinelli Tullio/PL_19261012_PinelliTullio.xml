@@ -2053,6 +2053,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?date_annotation_20241211120135302",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T11:01:35.302Z",
+	"dcterms:modified": "2024-12-11T11:01:35.302Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?date_annotation_20241211120135302#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?date_annotation_20241211120135302#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[74]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1800"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2129,7 +2207,7 @@
 			<p>α) Dal 13 <hi cert="high" generatedBy="human" rend="italic" xml:space="default">credo</hi> che sarò per sempre a Torino.</p>
 			<p>β) Parlami di quel film che stai rimuginando.</p>
 			<p>γ) Il Greco lo sto assaggiando per dovere professionale e per il semplice motivo che la radice di tutte le civiltà pare che sia là dentro. Voglio studiarlo a fondo quel popolo.</p>
-			<p>In quanto alla concordanza degli studi classici con <persName ref="http://dbpedia.org/resource/Walt_Whitman">W. Whitman</persName>, a parte il fatto che io ammiro ciascun grande nel suo tempo e quindi Platone nell'età di <persName ref="http://dbpedia.org/resource/Pericles">Pericle</persName> e Whitman nell'800, avrai già capito dal corpo della lettera come la concordanza non sia il mio forte. "Pieno di sentimenti discordi" dicevo.</p>
+			<p>In quanto alla concordanza degli studi classici con <persName ref="http://dbpedia.org/resource/Walt_Whitman">W. Whitman</persName>, a parte il fatto che io ammiro ciascun grande nel suo tempo e quindi Platone nell'età di <persName ref="http://dbpedia.org/resource/Pericles">Pericle</persName> e <persName ref="http://dbpedia.org/resource/Walt_Whitman">Whitman</persName> nell'<date when="1800">800</date>, avrai già capito dal corpo della lettera come la concordanza non sia il mio forte. "Pieno di sentimenti discordi" dicevo.</p>
 			<p>Ma va là, che, se io dovessi lavorare dal mattino alla sera per non morire di fame, tutte queste ubbie mi passerebbero!</p>
 			<p>δ) All'Alfieri recita Gandusio. Ci starà un mese e mezzo.</p>
 			<p>ε) Di' alla tua cugina (che io non ho il piacere di conoscere) che quei quattro versi che le han dato tanto da fare erano poi due:</p>
