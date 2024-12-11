@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Milly/PL_192703_Milly.xml?place_annotation_20241211155603976",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T14:56:03.976Z",
+	"dcterms:modified": "2024-12-11T14:56:03.976Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Milly/PL_192703_Milly.xml?place_annotation_20241211155603976#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Milly/PL_192703_Milly.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Milly/PL_192703_Milly.xml?place_annotation_20241211155603976#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -257,7 +336,7 @@
 			<p>Io la conosco, signorina, la conosco, ripeto, ma così, di sfuggita, l'ho seguita, l'ho osservata a lungo, talvolta, ma senza mai osare avvicinarla. Conosco le sue linee esteriori, qualche istante della sua vita e soprattutto quel po' di anima che da un viso si può rivelare a un osservatore attento.</p>
 			<p>Ma è poco, signorina, al confronto dell'immensità di ciò che vorrei conoscere in lei.</p>
 			<p>Io non sono che un comunissimo studente di 19 anni e lei è lontana, tanto lontana.</p>
-			<p>Come avrei potuto avvicinarla, qua in Torino? Sempre in compagnia la trovavo e sarebbe stato ridicolo. Del resto, anche se avessi potuto incontrarla sola, sarei stato confuso nel numero dei soliti "cacciatori" e tutto sarebbe finito. Questo mi spaventava e non osavo. E così per il timore di sciuparla, di sciupare l'immagine di lei che ho negli occhi, l'ho forse perduta senza riparo.</p>
+			<p>Come avrei potuto avvicinarla, qua in <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>? Sempre in compagnia la trovavo e sarebbe stato ridicolo. Del resto, anche se avessi potuto incontrarla sola, sarei stato confuso nel numero dei soliti "cacciatori" e tutto sarebbe finito. Questo mi spaventava e non osavo. E così per il timore di sciuparla, di sciupare l'immagine di lei che ho negli occhi, l'ho forse perduta senza riparo.</p>
 			<p>Ma non son riuscito a dimenticarla, quando fu partita. E allora cercando per tutti i giornali l'ho finalmente ritrovata a Roma.</p>
 			<p>Se non son riuscito che a farla ridere, signorina, mi getti in un angolo e sarà finita, ma se almeno un briciolo di quel che provo l'ho espresso, e lei l'ha compreso, allora non mi lasci in questo dubbio. È una speranza folle, ma pure una sua risposta benevola sarebbe tutta la mia gioia. Tante cose avrò da dirle se lei sarà tanto buona da ascoltarmi.</p>
 			<p>Vuole signorina?</p>
