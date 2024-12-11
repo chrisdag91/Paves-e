@@ -1895,6 +1895,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?person_annotation_20241211114833783",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T10:48:33.783Z",
+	"dcterms:modified": "2024-12-11T10:48:33.783Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?person_annotation_20241211114833783#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?person_annotation_20241211114833783#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[39]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Henrik_Ibsen",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1936,7 +2015,7 @@
 			<p>Non per nulla meditavo (ora quasi non ci penso più, ché son certo non ci riuscirò mai) un dramma sullo sfondo della rivoluzione russa: una famiglia tutta piena delle idee nuove, che poi per l'orrore e la delusione di quei primi risultati, soffre come soffro io ora. Poiché io, la rivoluzione russa la considero l'ultimo dei tentativi di realizzazione degli ideali del più puro <date when="1800">'800</date>: <term cert="high" evaluate="all" generatedBy="human" xml:lang="fr" xml:space="default">Liberté, Egalité, Fraternité</term>.</p>
 			<p>Ho visto bene che riuscita han fatto. Non posso più credere a quegli ideali e non ho la forza di cambiarmi l’anima. Brancico così, tra il fosco e il chiaro, pieno di sentimenti discordi, che per un istante parvero quetarmisi in quella specie di morale-estetica che ti esponevo quest'inverno con un kg di castagne sotto il braccio. Ma ora non mi basta più neppure quella. Che cosa voglio non lo so. O meglio, lo so, ma non so raggiungerlo.</p>
 			<p>Un animo forte, un carattere mi ci vorrebbe che s'imponesse su tutta quell'anarchia che mi regna entro. Il mio spirito è insomma una copia fedele di ciò che sarebbe il mondo cogli ideali dell'<date when="1800">800</date> realizzati alla meglio, senza l'opposizione del '<date when="1900">900</date>.</p>
-			<p>E tra tutte queste delizie che provo giornalmente, la più squisita è pensare che forse tutto questo non è che un parto di una povera fantasia esaltata, non altro che un palliativo, il quale colla scusa della fatalità e della legge storica e di tutti i cristi non serve che a ricoprire una poltroneria smidollata e una vergognosa vergogna di non esser buono a nulla, mascherando tutte queste qualità di precoce vecchio impotente con pose eroiche alla <persName key="Lord Byron" ref="http://dbpedia.org/resource/Lord_Byron">Byron</persName>, alla <persName ref="#LeopardiGiacomo">Leopardi</persName>, alla <persName key="Musset, Alfred de (Louis Charles Alfred), 1810-1857" ref="http://viaf.org/viaf/2214167807257918130005/">De Musset</persName>, alla Ibsen (sono un letterato sì o no?) Ed il bello è che mi specchio in W. Whitman il quale non fa che tuonare contro queste debolezze. Se ti dico che non l'ho un centro, un perno, un capo di famiglia, un dittatore a far rigar dritto tutta quella marmaglia di sentimenti e a darle un'unità di veduta, un po’ di forza di decisione! "Un ammasso flaccido di sensibilità malsane", mi piace questa <hi cert="high" generatedBy="human" rend="italic" xml:space="default">frase</hi>. Suona bene e poi è più da letterato.</p>
+			<p>E tra tutte queste delizie che provo giornalmente, la più squisita è pensare che forse tutto questo non è che un parto di una povera fantasia esaltata, non altro che un palliativo, il quale colla scusa della fatalità e della legge storica e di tutti i cristi non serve che a ricoprire una poltroneria smidollata e una vergognosa vergogna di non esser buono a nulla, mascherando tutte queste qualità di precoce vecchio impotente con pose eroiche alla <persName key="Lord Byron" ref="http://dbpedia.org/resource/Lord_Byron">Byron</persName>, alla <persName ref="#LeopardiGiacomo">Leopardi</persName>, alla <persName key="Musset, Alfred de (Louis Charles Alfred), 1810-1857" ref="http://viaf.org/viaf/2214167807257918130005/">De Musset</persName>, alla <persName key="Henrik Ibsen" ref="http://dbpedia.org/resource/Henrik_Ibsen">Ibsen</persName> (sono un letterato sì o no?) Ed il bello è che mi specchio in W. Whitman il quale non fa che tuonare contro queste debolezze. Se ti dico che non l'ho un centro, un perno, un capo di famiglia, un dittatore a far rigar dritto tutta quella marmaglia di sentimenti e a darle un'unità di veduta, un po’ di forza di decisione! "Un ammasso flaccido di sensibilità malsane", mi piace questa <hi cert="high" generatedBy="human" rend="italic" xml:space="default">frase</hi>. Suona bene e poi è più da letterato.</p>
 			<p>E così potrei continuare fino a domani.</p>
 			<p>Ma non così continueresti tu a leggermi fino a domani.</p>
 			<p>Dovresti poi mandarmi a dire il numero preciso delle tasche che questa tragicomica introspezione ti ha rotto, sì che conosca almeno la mia potenzialità di scocciatore.</p>
