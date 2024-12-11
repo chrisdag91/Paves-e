@@ -406,13 +406,93 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Frassinelli%20Carlo/PL_19320314_FrassinelliCarlo.xml?person_annotation_20241211110800648",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T10:08:00.648Z",
+	"dcterms:modified": "2024-12-11T10:08:00.648Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleonoragatto",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleonora Gatto"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Frassinelli%20Carlo/PL_19320314_FrassinelliCarlo.xml?person_annotation_20241211110800648#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Frassinelli%20Carlo/PL_19320314_FrassinelliCarlo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Frassinelli%20Carlo/PL_19320314_FrassinelliCarlo.xml?person_annotation_20241211110800648#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/6503167202610267930004/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A <persName key="Frassinèlli, Carlo (1896-1983)." ref="http://viaf.org/viaf/8584545/" cert="high" type="real">Carlo Frassinelli</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, in risposta a una lettera del <date when="1932-03-14">14 marzo 1932</date>]</p>
 			<p>Egregio <persName key="Frassinèlli, Carlo (1896-1983)." ref="http://viaf.org/viaf/8584545/">Frassinelli</persName>,</p>
-			<p>ecco le bozze - le ha vedute anche Antonicelli. Mi dispiace enormemente dell'imprevisto della composizione. Va bene la dattilografia del manoscritto. Se Lei crede, mi terrò responsabile - nel limite delle mie possibilità - dell'imprevisto della composizione. Glie ne parlerò per telefono stamattina 15 verso mezzogiorno. Mi dirà intanto se per la consegna delle bozze che ho in correzione c'è ancora la premura di prima (mi dice Antonicelli che comporrà prima Cavalleria Rossa).</p>
+			<p>ecco le bozze - le ha vedute anche <persName key="Antonicelli, Franco (Italian photographer, flourished 1925-1949)" ref="http://viaf.org/viaf/6503167202610267930004/" cert="high" type="real">Antonicelli</persName>. Mi dispiace enormemente dell'imprevisto della composizione. Va bene la dattilografia del manoscritto. Se Lei crede, mi terrò responsabile - nel limite delle mie possibilità - dell'imprevisto della composizione. Glie ne parlerò per telefono stamattina 15 verso mezzogiorno. Mi dirà intanto se per la consegna delle bozze che ho in correzione c'è ancora la premura di prima (mi dice Antonicelli che comporrà prima Cavalleria Rossa).</p>
 			<p>Scuse e saluti</p>
 			<p>Pavese</p>
 		</body>
