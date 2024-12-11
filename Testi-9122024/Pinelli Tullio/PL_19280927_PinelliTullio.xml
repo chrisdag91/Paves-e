@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19280927_PinelliTullio.xml?place_annotation_20241211104519235",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T09:45:19.235Z",
+	"dcterms:modified": "2024-12-11T09:45:19.235Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19280927_PinelliTullio.xml?place_annotation_20241211104519235#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19280927_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19280927_PinelliTullio.xml?place_annotation_20241211104519235#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -260,7 +339,7 @@
 			<p>Una forza tra di popolo e di intelligenza pura che, con una semplicità biblica, mi metteva a nudo l’anima.</p>
 			<p>Ora tra le freddure inacidite e tra il più rancido ancora orrore per le suddette, mi sento seccare e striminzire come una pelle di coniglio al gelo.</p>
 			<p>Ma è al solito.</p>
-			<p>Se fossero via gli altri e ci fossi tu qua a Torino, scriverei che la tua cappa mi pesa, che il mondo è cambiato, che i futuristi mi tentano, che la tua anima è qualcosa d'imbottito come un materasso e tanti altri bei fiori di stile, i quali tutti, affastellati con quelli più sopra, vengono a dire soltanto e sempre la mia inconsistenza, flaccidezza e fatuità pretenziosa.</p>
+			<p>Se fossero via gli altri e ci fossi tu qua a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, scriverei che la tua cappa mi pesa, che il mondo è cambiato, che i futuristi mi tentano, che la tua anima è qualcosa d'imbottito come un materasso e tanti altri bei fiori di stile, i quali tutti, affastellati con quelli più sopra, vengono a dire soltanto e sempre la mia inconsistenza, flaccidezza e fatuità pretenziosa.</p>
 			<p>È triste, è triste. Va a sapere che cosa sono e che cosa sarò!</p>
 			<p>Ma in fondo ho meno stavolta da lamentarmi, che gli autunni passati. Mi pare, e tu scrivimi se è proprio vero, di essere riuscito a organizzare la mia arte (per uno come me che non spera più che in quello, sarebbe la salvezza. Ma chissà, poi!) di aver trovato dalla mia interiorità più istintiva il mio mondo esteriore, le mie immagini, di avere un mio, qualunque esso sia, sistema tecnico, scoperto a poco a poco faticosamente nella mia stessa sensibilità, di essere insomma al punto di far davvero le belle poesie. In altri termini, sarebbe scomparsa la natura frammentaria dei miei versi, il che veniva soltanto da insufficienza di visione, di immagine. Non resterebbe più quindi che mettersi a vivere, appunto per trovare abbondanza e novità (cioè pavesismo) di dette immagini. Ti mando alcune delle poesie che io ritengo nuove, e tu vedi un po' se c'è quel miracolo.</p>
 			<p>Ricorderai che io a giugno dicevo che o sarei tornato da R[eaglie] grande poeta, o non sarei tornato più. E pensa che son sempre in tempo per annullare quel ritorno da illuso.</p>
