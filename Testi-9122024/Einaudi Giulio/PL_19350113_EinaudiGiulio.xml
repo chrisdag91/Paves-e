@@ -489,7 +489,7 @@
 			<p>A <persName key="Giulio Einaudi" ref="http://dbpedia.org/resource/Giulio_Einaudi">Giulio Einaudi</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1935-01-13">13 gennaio 1935</date></p>
 			<p>Caro <persName key="Giulio Einaudi" ref="http://dbpedia.org/resource/Giulio_Einaudi">Einaudi</persName>,</p>
-			<p>desidero comunicarti che col seguente mese di <date when="1935-02">febbraio '35</date> non ho piú intenzione di prestare il nome come direttore responsabile della rivista «La Cultura».</p>
+			<p>desidero comunicarti che col seguente mese di <date when="1935-02">febbraio '35</date> non ho piú intenzione di prestare il nome come direttore responsabile della rivista «<title level="j" ref="#LaCultura">La Cultura</title>».</p>
 			<p>Te lo comunico sin d'ora perché tu abbia tempo di provvedere alla sostituzione.</p>
 			<p>Naturalmente sarò lieto, se se ne presenterà l'occasione, di collaborare ancora alla rivista.</p>
 			<p>Cordiali saluti</p>
