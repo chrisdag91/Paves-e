@@ -253,7 +253,7 @@
 			<p>A <persName cert="high" ref="#GentileFederico" type="real">Federico Gentile</persName>, <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1932-04-04">4 aprile 1932</date></p>
 			<p>Caro Dottore,</p>
-			<p>Non Le ho scritto sinora, per poterLe mandare senz'altro la recensione fatta. Veda se va. Trattandosi del primo libro che recensisco per il <title level="j" ref="#Leonardo">Leonardo</title> non avrei voluto farne una stroncatura, ma il caso era impossibile. Ho fatto del mio meglio per tenermi nei limiti.</p>
+			<p>Non Le ho scritto sinora, per poterLe mandare senz'altro la <rs ref="#ScrittoriAngloamericaniDOggi_Leonardo" type="work">recensione</rs> fatta. Veda se va. Trattandosi del primo libro che recensisco per il <title level="j" ref="#Leonardo">Leonardo</title> non avrei voluto farne una stroncatura, ma il caso era impossibile. Ho fatto del mio meglio per tenermi nei limiti.</p>
 			<p>Comunque, La ringrazio di essersi ricordato di me e, se crede, mandi pure dell’altro.</p>
 			<p><rs ref="#MobyDick" type="work">Moby Dick</rs> è a buon punto. Presto ne avrà una copia.</p>
 			<p>Cordiali saluti.</p>
