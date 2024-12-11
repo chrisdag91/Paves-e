@@ -175,7 +175,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>,] <date when="1932-01-01">1° gennaio 1932</date></p>
 			<p>Chiarissimo Dottore,</p>
 			<p>sono spiacentissimo di disturbarLa ancora ma occorre che io sappia assolutamente una risposta - che spero favorevole - a proposito della pubblicazione di <rs ref="#MobyDick" type="work">Moby Dick</rs>.</p>
-			<p>Voglia scusarmi se oso insistere, ma non è senza motivo. Parleremo con qualche respiro delle condizioni, ma un sì o un no mi occorre senz’altro.</p>
+			<p>Voglia scusarmi se oso insistere, ma non è senza motivo. Parleremo con qualche respiro delle condizioni, ma un <hi cert="high" generatedBy="human" rend="italic" xml:space="default">sì </hi>o un <hi cert="high" generatedBy="human" rend="italic" xml:space="default">no </hi>mi occorre senz’altro.</p>
 			<p>Voglia gradire i miei più cordiali ringraziamenti e auguri</p>
 			<p>Pavese</p>
 		</body>
