@@ -334,7 +334,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <date when="1932-07">luglio? 1932</date>]</p>
 			<p>Egregio Dottore,</p>
 			<p>leggo sul numero di giugno di <title level="j" ref="#Leonardo">Leonardo</title> la recensione della signorina <persName ref="#ScaleroAlessandra">Scalero</persName> al libro del <persName key="Linati, Carlo, 1878-1949" ref="http://viaf.org/viaf/19694629/" cert="high" type="real">Linati</persName>.</p>
-			<p>Lei avrà certo fatto per il meglio questa sostituzione; ma avrei gradito comunque un avviso, giacché avevo ricevuto per il mio articolo la Sua approvazione.</p>
+			<p>Lei avrà certo fatto per il meglio questa sostituzione; ma avrei gradito comunque un avviso, giacché avevo ricevuto per il mio <rs ref="#ScrittoriAngloamericaniDOggi_Leonardo" type="work">articolo</rs> la Sua approvazione.</p>
 			<p>Favorisca ad ogni modo farmi ritornare il manoscritto.</p>
 			<p>Cordiali saluti</p>
 		</body>
