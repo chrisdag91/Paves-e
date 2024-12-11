@@ -168,6 +168,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?person_annotation_20241211111655671",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T10:16:55.671Z",
+	"dcterms:modified": "2024-12-11T10:16:55.671Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?person_annotation_20241211111655671#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?person_annotation_20241211111655671#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/297198061/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -175,7 +254,7 @@
 			<p>[<placeName ref="#Reaglie" type="real">Reaglie</placeName>,] <date when="1927-08-18">18 agosto [1927]</date></p>
 			<p/>
 			<p>Caro <persName ref="http://dbpedia.org/resource/Tullio_Pinelli " type="real">Pinelli</persName></p>
-			<p>Sei una bestia. Anche se hai potuto capire che il mio lavoro è bello, sei una bestia lo stesso. Sei la bestia senza aggettivi, la bestia per eccellenza. Certi argomenti mi hai tirato fuori, certi archibugi di quelli che Glabrione, il leggendario Glabrione (a proposito, quando lo vedremo all'opera?) va confezionando senza curarsi delle moderne fabbriche d'esplosivi, che io sono restato lì. (Non è mica vero: invece mi han dato molto da pensare. Questo l'ho scritto per suonare un bel pezzo ben artifiziato). Sono dunque restato lì.</p>
+			<p>Sei una bestia. Anche se hai potuto capire che il mio lavoro è bello, sei una bestia lo stesso. Sei la bestia senza aggettivi, la bestia per eccellenza. Certi argomenti mi hai tirato fuori, certi archibugi di quelli che <persName key="Acilius Glabrio, Manius, approximately 55-95" ref="http://viaf.org/viaf/297198061/">Glabrione</persName>, il leggendario <persName ref="http://viaf.org/viaf/297198061/" type="real">Glabrione</persName> (a proposito, quando lo vedremo all'opera?) va confezionando senza curarsi delle moderne fabbriche d'esplosivi, che io sono restato lì. (Non è mica vero: invece mi han dato molto da pensare. Questo l'ho scritto per suonare un bel pezzo ben artifiziato). Sono dunque restato lì.</p>
 			<p>Ed ora ti scarico addosso le mie modernissime e infallibili batterie, coadiuvate da nembi di gas asfissianti i quali si svilupperanno man mano su di tra i fogli di questa lettera e chi si salverà sarà bello.</p>
 			<p>"Comincio dall'impostazione, ma non ti sei accorto di commettere due errori madornali?" (Tullio Pinelli).</p>
 			<p>Sì proprio: sono le tue stesse batterie che ti scoppiano addosso, come appunto avveniva nel beato secolo primo della polvere (inventata da Ruggero Bacone o Schwarz che sia, ma non da un Italiano, se dio vuole).</p>
