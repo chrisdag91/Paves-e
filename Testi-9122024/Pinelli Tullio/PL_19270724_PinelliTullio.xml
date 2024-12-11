@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,22 +11,180 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml?person_annotation_20241211145947828",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T13:59:47.828Z",
+	"dcterms:modified": "2024-12-11T13:59:47.828Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml?person_annotation_20241211145947828#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml?person_annotation_20241211145947828#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Tullio_Pinelli",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml?place_annotation_20241211150009401",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T14:00:09.401Z",
+	"dcterms:modified": "2024-12-11T14:00:09.401Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml?place_annotation_20241211150009401#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml?place_annotation_20241211150009401#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Chiavari",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A Tullio Pinelli, Chiavari.</p>
-			<p>[Reaglie, in risposta alla lettera del 24 luglio 1927]</p>
+			<p>A <persName key="Tullio Pinelli" ref="http://dbpedia.org/resource/Tullio_Pinelli">Tullio Pinelli</persName>, <placeName key="Chiavari" ref="http://dbpedia.org/resource/Chiavari" type="real">Chiavari</placeName>.</p>
+			<p>[<placeName ref="#Reaglie" type="real">Reaglie</placeName>, in risposta alla lettera del 24 luglio 1927]</p>
 			<p/>
-			<p>Sono stato molto contento della tua lettera, ma non mica per il solito motivo che &quot;l’amicizia si riannoda&quot; &quot;i cuori lontani battono accanto&quot; e la vita &quot;egoisticamente individualistica si allarga a una maggior comprensione umana&quot;. Niente affatto.</p>
+			<p>Sono stato molto contento della tua lettera, ma non mica per il solito motivo che "l’amicizia si riannoda" "i cuori lontani battono accanto" e la vita "egoisticamente individualistica si allarga a una maggior comprensione umana". Niente affatto.</p>
 			<p>Sono stato contento perché ricevuta la tua, proprio in questi giorni che un tedio mortale di ogni occupazione mi va desolando, posso impiegare quell'ora o mezz'ora che sia a scriverti una bella epistola di risposta e siccome ultimamente Sturani mi ha scritto che le mie lettere sono dei veri capolavori letterari, delle poesie liriche, delle sinfonie, dei miracoli, tu vedi benissimo... È inutile, proprio letterato debbo finire.</p>
 			<p>Sappi anzitutto che l'estate mi ammazza. Io non concludo più nulla. Sono morto, morto. Neanche i bei pensierini di una volta (quest'inverno) quelli sai (pun! pun!) non mi vengono più a rallegrare colla loro intensità lirica gli aristocratici ozi laboriosi di supremo rappresentante di questa schifosa società monarchico borghese capitalistica.</p>
 			<p>W la rivoluzione.</p>
 			<p>Neanche più quelli. Senza l'inverno che mi raccolga mi concentri mi riscaldi l'anima in compenso del freddo esterno e mi faccia vivere in una grande città moderna e non più nell'antiquata e impossibile natura primitiva io sono morto. Peggio: sono infrollito, tumefatto, incretinito e sopra tutto letterato, irrimediabilmente letterato.</p>
 			<p>Ma certamente non è questo che t'importa, tu vuoi sapere della mia ballerina. Premesso che, se non a te, quello importava a me per compiere la famosa epistola-sinfonia, vengo al punto e dico senz'altro che la mia (oh quanto mia!) ballerina, balla sempre.</p>
 			<p>(Cosa vuoi? volevo scriverti per lei qualcosa di lirico, ma ormai il tono disinvolto e beffardo mi ha preso la mano e non c'è più santi). Balla sempre ed ha sempre in faccia la stessa meravigliosa giovinezza, anzi di più, è più splendente, prende di più la vista. In tutto questo rialzo generale, avrà alzato anche le tariffe, certamente. Pensa un po' che, giorni fa, vado al Michelotti con mio cognato, vedo in palco una famigliola di conoscenti e finisco in palco anch'io to tantalize myself with all my heart.</p>
-			<p>I palchi del Michelotti sono come quelli dell'Odeon: uno per parte e ognuno proprio ai piedi della scena, raso raso alla ribalta. Tre metri! Avrebbero anche potuto essere un metro, ma io sdegnosamente mi sono cacciato in fondo al palco, nell'angolo dove le &quot;poltrone&quot; non potevano vedermi e dove stavo il più separato possibile dalla plebe di quella famigliola che era venuta lì per vedere Isa Bluette e non valevano le mie spiegazioni, che quella, per grazia di Dio, era la Milly, niente: volevano la Bluette e tutte le volte che la Milly compariva: &quot;questa è la Bluette!&quot; con legittima soddisfazione.</p>
-			<p>Avrei voluto esser solo, nel palco più chiuso, lontano immensamente lontano da tutto il teatro che mi respirava dietro, e veder lei, sempre, in mezzo alle compagne, ma sola sola ai miei occhi, nella sua vita. Non so. Star là sempre. Non aver da pensare, essendo fuori dal teatro, &quot;Chissà con chi è adesso?&quot;.</p>
-			<p>Ma non è mica vero che ne sia innamorato. Questo mi capita ogni volta che vedo qualche faccia strana in mezzo a circostanze ancora più strane (come per quell’attrice, come per lei ballerina). Mi fisso in quel mistero (?) e voglio attaccarmici. Poi c'è gli amici che senz'accorgersene mi spingono ancor più, ci sono i libri che danno all'avventura quel colorito, e se vuoi, quell'essenza, di bello, di ideale, di letterario e c'è infine la sempiterna aspirazione alla &quot;bella fine&quot; che cova e viene fuori al punto buono. Eccoti tutto.</p>
+			<p>I palchi del Michelotti sono come quelli dell'Odeon: uno per parte e ognuno proprio ai piedi della scena, raso raso alla ribalta. Tre metri! Avrebbero anche potuto essere un metro, ma io sdegnosamente mi sono cacciato in fondo al palco, nell'angolo dove le "poltrone" non potevano vedermi e dove stavo il più separato possibile dalla plebe di quella famigliola che era venuta lì per vedere Isa Bluette e non valevano le mie spiegazioni, che quella, per grazia di Dio, era la Milly, niente: volevano la Bluette e tutte le volte che la Milly compariva: "questa è la Bluette!" con legittima soddisfazione.</p>
+			<p>Avrei voluto esser solo, nel palco più chiuso, lontano immensamente lontano da tutto il teatro che mi respirava dietro, e veder lei, sempre, in mezzo alle compagne, ma sola sola ai miei occhi, nella sua vita. Non so. Star là sempre. Non aver da pensare, essendo fuori dal teatro, "Chissà con chi è adesso?".</p>
+			<p>Ma non è mica vero che ne sia innamorato. Questo mi capita ogni volta che vedo qualche faccia strana in mezzo a circostanze ancora più strane (come per quell’attrice, come per lei ballerina). Mi fisso in quel mistero (?) e voglio attaccarmici. Poi c'è gli amici che senz'accorgersene mi spingono ancor più, ci sono i libri che danno all'avventura quel colorito, e se vuoi, quell'essenza, di bello, di ideale, di letterario e c'è infine la sempiterna aspirazione alla "bella fine" che cova e viene fuori al punto buono. Eccoti tutto.</p>
 			<p>Ma non è mica vero che io sia innamorato. Mai io sarò innamorato. Non so cosa significhi questa parola.</p>
 			<p>Così svanì anche la ballerina. Quella passeggiata di tutta una notte per i boschi è un esempio chiarissimo di tutto l'artificiale che c'era nella posizione. Ho voluto far quel bel (?) gesto, mi ci sono costretto, tanto che dalle 2 alle 7 ho poi sonnecchiato per le strade, pensando a tutt’altro.</p>
 			<p>Per la strada a un tratto ho incontrato una gattina sperduta che miagolava dalla fame, magra come uno scheletro. Mi è corsa nelle gambe e non mi lasciava più. E io l'avevo già raccolta, deciso di portarla a casa, chiamarla Bambola e tenerla come il simbolo di quella notte e quindi di chi mi aveva causato quella notte. Perché devi sapere che le mie donne io le chiamo tutte Bambola (veramente sono io la bambola, il fantoccio). Vedi dunque che ricerca disperata di costruzione, di romanzo, di letteratura. Ma la gattina che non aveva letto Mimi Bluette, visto che lì per lì non le davo niente da mangiare e non le facevo che moine, mi scappò per andare dietro un contadino che passava e forse aveva qualcosa di più sostanziale. Una volta tanto il simbolo varrebbe.</p>
@@ -37,7 +192,7 @@
 			<p>Fanno benissimo. Ah Mimì Bluette, che poesia!</p>
 			<p>Sta bravo e riceverai la mia opera teologica.</p>
 			<p>Sono ancor tutto furioso per quel che mi ha detto Monferini l'altro giorno.</p>
-			<p>Parlavo di grandi progetti e lui ha cominciato con quella sua maniera meravigliosa ma che tira gli schiaffi: &quot;Pavese tu mi assomigli a quei mariti di provincia che alla sera, seccati, dicono alla moglie 'Guarda, che io finirò di fare una pazzia' e si tolgono la giacca. 'Guarda che la faccio' e si tolgono i calzoni. 'Guarda, sai!' e si tolgono le pantofole. 'Tu mi vuoi costringere' e si mettono la camicia da notte. 'La faccio è inutile la faccio' ed entrano nel letto e russano&quot;.</p>
+			<p>Parlavo di grandi progetti e lui ha cominciato con quella sua maniera meravigliosa ma che tira gli schiaffi: "Pavese tu mi assomigli a quei mariti di provincia che alla sera, seccati, dicono alla moglie 'Guarda, che io finirò di fare una pazzia' e si tolgono la giacca. 'Guarda che la faccio' e si tolgono i calzoni. 'Guarda, sai!' e si tolgono le pantofole. 'Tu mi vuoi costringere' e si mettono la camicia da notte. 'La faccio è inutile la faccio' ed entrano nel letto e russano".</p>
 			<p>Il giorno dopo ricominciano. Io tornando a casa bestemmiavo.</p>
 			<p>Basta. La finisco ora che almeno provo nel cuore un sentimento dolce.</p>
 		</body>
