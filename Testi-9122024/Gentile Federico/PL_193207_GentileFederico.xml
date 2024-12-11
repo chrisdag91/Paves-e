@@ -253,7 +253,7 @@
 			<p>A <persName cert="high" ref="#GentileFederico" type="real">Federico Gentile</persName>, <placeName key="Milan Lombardy Italy" ref="https://geonames.org/3173435">Milano</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524">Torino</placeName>, <date when="1932-07">luglio? 1932</date>]</p>
 			<p>Egregio Dottore,</p>
-			<p>leggo sul numero di giugno di <title level="j" ref="#Leonardo">Leonardo</title> la recensione della signorina Scalero al libro del Linati.</p>
+			<p>leggo sul numero di giugno di <title level="j" ref="#Leonardo">Leonardo</title> la recensione della signorina <persName ref="#ScaleroAlessandra">Scalero</persName> al libro del Linati.</p>
 			<p>Lei avrà certo fatto per il meglio questa sostituzione; ma avrei gradito comunque un avviso, giacché avevo ricevuto per il mio articolo la Sua approvazione.</p>
 			<p>Favorisca ad ogni modo farmi ritornare il manoscritto.</p>
 			<p>Cordiali saluti</p>
