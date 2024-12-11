@@ -1974,6 +1974,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?person_annotation_20241211115234257",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T10:52:34.257Z",
+	"dcterms:modified": "2024-12-11T10:52:34.257Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?person_annotation_20241211115234257#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19261012_PinelliTullio.xml?person_annotation_20241211115234257#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[51]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/William_Shakespeare",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2027,7 +2106,7 @@
 			<p>Finora c'è già il titolo. Le novelle, o meglio, gli elementi delle novelle, un caos di sentimenti, li ho nell’anima.</p>
 			<p>Sono a buon punto no?</p>
 			<p>Anche quest'altra notizia tienla cara, ché sei tu il primo a parteciparne.</p>
-			<p>Poi ci sarebbero i consueti progetti di aver l'amore della donna più bella del mondo, di guadagnare cinque lire col frutto del mio lavoro, di diventare un poeta almeno come Shakespeare, di conquistare, di distruggere, di costruire... e questi restano allo stato larvale come l'umile progetto che avrei di trovare almeno una cagna che mi considerasse di sfuggita.</p>
+			<p>Poi ci sarebbero i consueti progetti di aver l'amore della donna più bella del mondo, di guadagnare cinque lire col frutto del mio lavoro, di diventare un poeta almeno come <persName key="William Shakespeare" ref="http://dbpedia.org/resource/William_Shakespeare">Shakespeare</persName>, di conquistare, di distruggere, di costruire... e questi restano allo stato larvale come l'umile progetto che avrei di trovare almeno una cagna che mi considerasse di sfuggita.</p>
 			<p>A proposito di donne, mi piace questa: all'americanina non pensi più e sottentra un'italiana. Ne fai una questione di prodotti nazionali? Avresti potuto dirmene anche di più.</p>
 			<p>Non c'è nulla che mi piaccia quanto parlare e sentir parlare (ma bene) su questi argomenti. Sono ancora, in fondo, ad onta di tutti i miei ruggiti e le mie smorfie da ribelle e da scettico, l'antico trovatore di quelle corti d'amore che sai.</p>
 			<p/>
