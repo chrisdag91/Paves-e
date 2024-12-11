@@ -1371,7 +1371,7 @@
 			<p>12. Ho finito l'<title key="Othello" ref="http://dbpedia.org/resource/Othello" level="m">Othello</title> di <persName ref="http://dbpedia.org/resource/William_Shakespeare">William Shakespeare</persName> (<date when="1500">secolo XVI</date>),</p>
 			<p>13. il <title ref="http://dbpedia.org/resource/The_Decameron">Decamerone</title> di <persName ref="#GiovanniBoccaccio">Giovanni Boccaccio</persName> (<date when="1300">secolo XIV</date>),</p>
 			<p>14. i <title level="m" ref="#PoemsdiOssian">Poems di Ossian</title> (secolo IV),</p>
-			<p>15. i Carmina di Quintus Horatius Flaccus (secolo I).</p>
+			<p>15. i <title ref="#Carmina">Carmina</title> di Quintus Horatius Flaccus (secolo I).</p>
 			<p/>
 			<p>(Sei ancora vivo?... Allora continuo).</p>
 			<p>Quasi tutto il mio lavoro si riduce alla comprensione e alla collocazione storica di questi scrittori, cosa che faccio con ardore, come la creazione di un dramma, e infatti è un dramma grandiosissimo che vado scoprendo e <hi cert="high" generatedBy="human" rend="italic" xml:space="default">vivendo</hi>, questo di tutta la storia dell'umanità: un dramma che comprende tutti gli altri scritti e non scritti.</p>
