@@ -326,6 +326,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml?title_annotation_20241211152938516",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T14:29:38.516Z",
+	"dcterms:modified": "2024-12-11T14:29:38.516Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml?title_annotation_20241211152938516#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270724_PinelliTullio.xml?title_annotation_20241211152938516#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[18]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/5488153532471348820009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -346,7 +425,7 @@
 			<p>Così svanì anche la <rs ref="#Milly">ballerina</rs>. Quella passeggiata di tutta una notte per i boschi è un esempio chiarissimo di tutto l'artificiale che c'era nella posizione. Ho<hi cert="high" generatedBy="human" rend="italic" xml:space="default"> voluto </hi>far quel bel (?) gesto, mi ci sono <hi cert="high" generatedBy="human" rend="italic" xml:space="default">costretto</hi>, tanto che dalle 2 alle 7 ho poi sonnecchiato per le strade, pensando a tutt’altro.</p>
 			<p>Per la strada a un tratto ho incontrato una gattina sperduta che miagolava dalla fame, magra come uno scheletro. Mi è corsa nelle gambe e non mi lasciava più. E io l'avevo già raccolta, deciso di portarla a casa, chiamarla <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Bambola</hi> e tenerla come il simbolo di quella notte e quindi di chi mi aveva causato quella notte. Perché devi sapere che le mie donne io le chiamo tutte Bambola (veramente sono io la bambola, il fantoccio). Vedi dunque che ricerca disperata di costruzione, di romanzo, di letteratura. Ma la gattina che non aveva letto <title key="Verona, Guido da, 1881-1939. | Mimi Bluette, fiore del mio giardino" ref="http://viaf.org/viaf/5488153532471348820009/" level="m">Mimi Bluette</title>, visto che lì per lì non le davo niente da mangiare e non le facevo che moine, mi scappò per andare dietro un contadino che passava e forse aveva qualcosa di più sostanziale. Una volta tanto il simbolo varrebbe.</p>
 			<p>Ma del resto è giusto. Che diritto ho io di pretendere da loro la famosa onestà e poi io stesso voltarmi a tutte le donne che passano per vedere un po' se attacca?</p>
-			<p>Fanno benissimo. Ah Mimì Bluette, che poesia!</p>
+			<p>Fanno benissimo. Ah <title key="Verona, Guido da, 1881-1939. | Mimi Bluette, fiore del mio giardino" ref="http://viaf.org/viaf/5488153532471348820009/">Mimì Bluette</title>, che poesia!</p>
 			<p>Sta bravo e riceverai la mia opera teologica.</p>
 			<p>Sono ancor tutto furioso per quel che mi ha detto Monferini l'altro giorno.</p>
 			<p>Parlavo di grandi progetti e lui ha cominciato con quella sua maniera meravigliosa ma che tira gli schiaffi: "Pavese tu mi assomigli a quei mariti di provincia che alla sera, seccati, dicono alla moglie 'Guarda, che io finirò di fare una pazzia' e si tolgono la giacca. 'Guarda che la faccio' e si tolgono i calzoni. 'Guarda, sai!' e si tolgono le pantofole. 'Tu mi vuoi costringere' e si mettono la camicia da notte. 'La faccio è inutile la faccio' ed entrano nel letto e russano".</p>
