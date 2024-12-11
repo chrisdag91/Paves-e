@@ -2531,7 +2531,7 @@
 			<p>"Benedice la corona del figliuol di S. Luigi</p>
 			<p>quel che giacque sotto il piombo del Comune di <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507">Parigi</placeName>".</p>
 			<p/>
-			<p>Dalla Sacra di Enrico V, di <persName key="Giosuè Carducci" ref="http://dbpedia.org/resource/Giosuè_Carducci">Giosuè Carducci</persName>, <title key="Carducci, Giosuè 1835-1907 | Giambi ed epodi" ref="http://viaf.org/viaf/749145858178323022525/" level="m">Giambi ed Epodi</title>, Ed. Zanichelli, p. 249.</p>
+			<p>Dalla Sacra di Enrico V, di <persName key="Giosuè Carducci" ref="http://dbpedia.org/resource/Giosuè_Carducci">Giosuè Carducci</persName>, <title key="Carducci, Giosuè 1835-1907 | Giambi ed epodi" ref="http://viaf.org/viaf/749145858178323022525/" level="m">Giambi ed Epodi</title>, Ed. <orgName ref="#Zanichelli" type="organization">Zanichelli</orgName>, p. 249.</p>
 			<p>Ma di' anche a tua cugina di pensare ad altro: simili ricerche filologiche non si confanno che agli scolaretti e agli eruditi che non sanno ballare.</p>
 			<p>A. d. a. D. B.</p>
 			<p>Cesare P.</p>
