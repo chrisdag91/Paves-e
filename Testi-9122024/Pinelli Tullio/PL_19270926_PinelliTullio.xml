@@ -247,13 +247,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270926_PinelliTullio.xml?title_annotation_20241211110752053",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-11T10:07:52.053Z",
+	"dcterms:modified": "2024-12-11T10:07:52.053Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/irenecocuzza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Irene Cocuzza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270926_PinelliTullio.xml?title_annotation_20241211110752053#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270926_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270926_PinelliTullio.xml?title_annotation_20241211110752053#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/175488729/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A <persName ref="http://dbpedia.org/resource/Tullio_Pinelli " type="real">Tullio Pinelli</persName>, <placeName key="Alpignano Piedmont Italy" ref="https://geonames.org/3183187" type="real">Alpignano</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, timbro postale <date when="1927-09-26">26 settembre 1927</date>]</p>
 			<p/>
-			<p>No, non sono morto. Ho soltanto trovato modo di dire quelle "parole dall'anima" tanto sospirate. E sono rimasto muto per tutto questo tempo perché le grandi rivelazioni dell'anima vanno vissute in solitudine, nel deserto, come facevano i Profeti. Mai ho sognato di poter vivere così, eppure è realtà. Ti ricordi quel volto biondo e azzurro, piangente tra i gigli in quella illustrazione della Vita Nova? Così è Lei. Ma fra poco il tracollo.</p>
+			<p>No, non sono morto. Ho soltanto trovato modo di dire quelle "parole dall'anima" tanto sospirate. E sono rimasto muto per tutto questo tempo perché le grandi rivelazioni dell'anima vanno vissute in solitudine, nel deserto, come facevano i Profeti. Mai ho sognato di poter vivere così, eppure è realtà. Ti ricordi quel volto biondo e azzurro, piangente tra i gigli in quella illustrazione della <title key="Dante Alighieri, 1265-1321. | Vita nuova" ref="http://viaf.org/viaf/175488729/" level="m">Vita Nova</title>? Così è Lei. Ma fra poco il tracollo.</p>
 			<p>Pavese</p>
 		</body>
 	</text>
