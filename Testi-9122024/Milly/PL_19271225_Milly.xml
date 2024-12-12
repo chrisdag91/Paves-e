@@ -247,6 +247,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Milly/PL_19271225_Milly.xml?date_annotation_20241212110907778",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-12T10:09:07.778Z",
+	"dcterms:modified": "2024-12-12T10:09:07.778Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Milly/PL_19271225_Milly.xml?date_annotation_20241212110907778#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Milly/PL_19271225_Milly.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Milly/PL_19271225_Milly.xml?date_annotation_20241212110907778#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1928-03"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -256,7 +334,7 @@
 			<p>Che cosa posso dirle, Signorina? Al principio di quest'anno quando Lei era a Torino, io l'ho veduta la prima volta e da allora son come stato levato in un gran sogno che per tutto quel tempo non mi ha più lasciato pace. Sempre la sua figura dinanzi agli occhi. Ho barcollato a lungo, a volte sperando nella mia pazzia, altre volte smarrito sentendone tutta l'inutilità e la ridicolezza mia, pure andando innanzi sempre, attaccato disperatamente al mio sogno.</p>
 			<p>L'ho seguita a lungo.</p>
 			<p>Mai osai parlarle. Era tanto pazzesco! E poi non la vedevo mai sola.</p>
-			<p>Mi perdoni se le scrivo tutte queste cose, che a Lei possono anche parere seccanti, ma la supplico ancora un attimo, mi ascolti. Poi ai primi di Marzo andò via. Soffrii tutto il dolore. Pensai persino...</p>
+			<p>Mi perdoni se le scrivo tutte queste cose, che a Lei possono anche parere seccanti, ma la supplico ancora un attimo, mi ascolti. Poi ai primi di <date when="1928-03">Marzo</date> andò via. Soffrii tutto il dolore. Pensai persino...</p>
 			<p>Seppi nei primi tempi che era a Roma.</p>
 			<p>Poi più nulla.</p>
 			<p>Ed ora questa sera l'ho riveduta sotto un altro nome, con altre compagne, ma Lei sempre la stessa sempre più bella e affascinante.</p>
