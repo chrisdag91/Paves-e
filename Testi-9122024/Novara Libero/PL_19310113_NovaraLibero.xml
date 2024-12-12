@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,10 +11,89 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Novara%20Libero/PL_19310113_NovaraLibero.xml?place_annotation_20241212115512546",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-12T10:55:12.546Z",
+	"dcterms:modified": "2024-12-12T10:55:12.546Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Novara%20Libero/PL_19310113_NovaraLibero.xml?place_annotation_20241212115512546#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Novara%20Libero/PL_19310113_NovaraLibero.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Novara%20Libero/PL_19310113_NovaraLibero.xml?place_annotation_20241212115512546#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3171457",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>﻿A Libero Novara, Parma.</p>
+			<p>A <persName ref="#NovaraLibero">Libero Novara</persName>, <placeName key="Parma Emilia-Romagna Italy" ref="https://geonames.org/3171457" type="real">Parma</placeName>.</p>
 			<p>[Torino,] 13 gennaio 1931</p>
 			<p>Egregio Berin,</p>
 			<p>la presente è per farti sapere che avrei bisogno di un favore, anzi due, di natura linguistica!</p>
@@ -25,8 +101,8 @@
 			<p>Raccontami qualunque roba, per scritto, e tieni a mente di cacciarci dentro le frasi più correnti d'uso marino (non le tecniche ma quelle di gergo) che io ne ho bisogno per tradurre un romanzo americano che è pieno delle dette frasi.</p>
 			<p>E, se non conosci il gergo di mare come quello di S. Paolo, pazienza: inventalo.</p>
 			<p>Il secondo favore, sempre di natura insegnativa, ti seccherà di meno e anzi ti farà le veci delle serate chitarristiche che passavi a Torino. Avrei bisogno che tu, con comodo, mi buttassi giù una serie di trattazioni del genere degli insegnamenti che mi hai dato l'ultimo dell'anno: il trillo del cantino, la ricostruzione gaucha di Ramona, il modo di cantare della teppa, ecc.</p>
-			<p>Sta' bene attento che io non voglio mica far stampare questa roba per &quot;prendere i proventi io&quot; come quel signore che intingeva la penna nel suo cuore: soltanto, siccome io non me ne intendo, mi piacerebbe che tu mi insegnassi qualcosa in questo campo, dato che la sai così lunga.</p>
-			<p>Insomma, se hai voglia, scrivimi ogni tanto un pezzo, parlandomi degli usi e costumi della chitarra o &quot;fruga&quot; che dir si voglia e così resta come se discorressimo insieme. Intesi.</p>
+			<p>Sta' bene attento che io non voglio mica far stampare questa roba per "prendere i proventi io" come quel signore che intingeva la penna nel suo cuore: soltanto, siccome io non me ne intendo, mi piacerebbe che tu mi insegnassi qualcosa in questo campo, dato che la sai così lunga.</p>
+			<p>Insomma, se hai voglia, scrivimi ogni tanto un pezzo, parlandomi degli usi e costumi della chitarra o "fruga" che dir si voglia e così resta come se discorressimo insieme. Intesi.</p>
 			<p>E, se le cose che ti chiedo ti sembrassero troppo noiose, non hai che da uscire sul momento a berne un bicchio ed io sarò teco in ispirito, da quel simpaticissimo</p>
 			<p>Cesare Pavese</p>
 			<p>che sono sempre stato.</p>
