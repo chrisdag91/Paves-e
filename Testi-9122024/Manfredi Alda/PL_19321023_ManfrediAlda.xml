@@ -203,7 +203,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Manfredi%20Alda/PL_19321023_ManfrediAlda.xml?place_annotation_20241212112813365",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-12-12T10:28:13.365Z",
-	"dcterms:modified": "2024-12-12T10:28:13.365Z",
+	"dcterms:modified": "2024-12-12T10:28:40.928Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Martinogiordano",
 		"@type": [
@@ -252,7 +252,7 @@
 		<body>
 			<p>Ad <persName ref="#ManfrediAlda">Alda Manfredi</persName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1932-10-23">23 ottobre [1932]</date></p>
-			<p>Sarò a <placeName key="Stazione Porta Nuova (Turin)" ref="http://viaf.org/viaf/241218019/">Porta Nuova</placeName> venerdì alle 6,20. Son tanto contento che siamo colleghi di sventura, tanto più che io non sono sistemato in</p>
+			<p>Sarò a <placeName key="Stazione Porta Nuova (Turin)" ref="http://viaf.org/viaf/241218019/" type="real">Porta Nuova</placeName> venerdì alle 6,20. Son tanto contento che siamo colleghi di sventura, tanto più che io non sono sistemato in</p>
 			<p>nessun altro modo e concorro colle mie modeste forze alla crisi.</p>
 			<p>Toodle-oo.</p>
 		</body>
