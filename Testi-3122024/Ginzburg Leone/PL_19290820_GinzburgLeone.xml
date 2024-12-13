@@ -4518,6 +4518,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213141733123",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T13:17:33.123Z",
+	"dcterms:modified": "2024-12-13T13:17:33.123Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213141733123#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213141733123#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[69]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3164527",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213141749196",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T13:17:49.196Z",
+	"dcterms:modified": "2024-12-13T13:17:49.196Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213141749196#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213141749196#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[69]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Benito_Mussolini",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4589,7 +4747,7 @@
 			<p>Il primo giorno mi ha preso in disparte e mi ha chiesto se sono ammogliato.</p>
 			<p>Poi dice di <rs ref="#MesturiniConsolina">mia mamma</rs> "Povera donna, chissà come sarà contenta!" E finalmente "A <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName> esco sovente di sera".</p>
 			<p>Giorni dopo mi tira uno scapaccione amichevole, esclamando "Il nostro signor professore!" (Avevo detto a tutta la famiglia che mi chiamassero meglio Pavese; per giustizia intanto, e poi, c'era <rs ref="#BodoPaola">la signorina</rs>, per non farmi sembrare un barbone oleoso. Tutti ora mi chiamano spiritosamente "il signor professore"). Proseguendo, Carlo mi attacca bottoni, mi spiega chi sono certe visite, mi chiede se so andare in bicicletta, insomma mi tiranneggia. Si ha un bel essere democratici ma ci si secca. Ma che cosa sono certe famigliarità? Quando uno vive in mezzo a tutta questa nobiltà, diventa nobile in pectore, c'è poco da dire.</p>
-			<p>Mi ha contato che da 8 anni è al servizio della casa, da quando il <rs ref="#BodoPaolo">sig. Commendatore</rs> era prefetto, e a Verona hanno ricevuto Mussolini e lui serviva in tavola (Carlo, non il prefetto). Poi mi ha consigliato "Perché non fa anche lei, signor professore, la carriera da prefetto? Uno è rispettato. È bello, sa, fare il prefetto".</p>
+			<p>Mi ha contato che da 8 anni è al servizio della casa, da quando il <rs ref="#BodoPaolo">sig. Commendatore</rs> era prefetto, e a <placeName key="Verona Veneto Italy" ref="https://geonames.org/3164527" type="real">Verona</placeName> hanno ricevuto <persName key="Benito Mussolini" ref="http://dbpedia.org/resource/Benito_Mussolini" type="real">Mussolini</persName> e lui serviva in tavola (Carlo, non il prefetto). Poi mi ha consigliato "Perché non fa anche lei, signor professore, la carriera da prefetto? Uno è rispettato. È bello, sa, fare il prefetto".</p>
 			<p>Resta però sempre una cosa a cui non riesco ad adattarmi. A me, vedere quel cameriere che gira intorno a servire e lui non mangia, mi si sveglia l'89 e non riesco a digerire.</p>
 			<p>Mi vien sempre da dire "Ma si serva anche lei, ma si serva anche lei". E alle cameriere faccio lo stesso inchino che alla signora contessa.</p>
 			<p>E pensare che a tavola mi dan da servirmi subito dopo la padrona di casa, siccome ospite, e a me secca terribilmente perché non ho tempo di veder bene come si faccia a prenderne, quanto se ne prenda, come si metta in bocca e via discorrendo.</p>
