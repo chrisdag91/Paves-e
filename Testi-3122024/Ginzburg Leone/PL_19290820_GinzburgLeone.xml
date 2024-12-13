@@ -2617,6 +2617,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213134346411",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T12:43:46.411Z",
+	"dcterms:modified": "2024-12-13T12:43:46.411Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213134346411#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213134346411#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[47]/placeName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6535291",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2666,7 +2745,7 @@
 			<p/>
 			<p>III. <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Stella mattutina</hi>.</p>
 			<p>Viveva a <placeName key="Savigliano Piedmont Italy" ref="https://geonames.org/3167034" type="real">Savigliano</placeName> sullo scorcio del XVI secolo un tal Falcombello che gestiva una fabbrica di esplosivi e si ha un documento del <date when="1597">1597</date> che richiede a <rs ref="#EmanueleFilibertoDiSavoia">Testa di Ferro</rs> un marchio di fabbrica, dati i grandi servigi resi. Non risulta la risposta del Duca, ma il <rs ref="#BodoPaolo">signor commendatore</rs> non dispera di trovarla. L'erede di cotestui, un Filippo Maria Girolamo, parmi, venne da <persName ref="#CarloEmanueleIDiSavoia" type="real">Carlo Emanuele I</persName> infeudato del <placeName key="Frassino Piedmont Italy" ref="https://geonames.org/3176575" type="real">Frassino</placeName> e di <placeName key="Melle Piedmont Italy" ref="https://geonames.org/3173610" type="real">Melle</placeName>, tutta roba che è qua nel Saluzzese (e che rende fior di quattrini, aggiunge il vercellese signor commendatore).</p>
-			<p>Ma al tapino morirono giovinetti i due figli maschi in un'epidemia a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507" type="real">Parigi</placeName> (a <placeName key="Savigliano Piedmont Italy" ref="https://geonames.org/3167034" type="real">Savigliano</placeName> per chi non ci crede c'è una lapide che li ricorda) e la contea del <placeName key="Frassino Piedmont Italy" ref="https://geonames.org/3176575" type="real">Frassino</placeName> e di <placeName key="Melle Piedmont Italy" ref="https://geonames.org/3173610" type="real">Melle</placeName> minacciava di spegnersi in grembo (che bella fine) alle due figlie superstiti. Ma Filippo Girolamo non era Maria per niente e allora umilmente richiese a Sua Eccellenza che gli scambiassero Falcombello, Frassino e Melle con un feudo trasmissibile per femmine, che fu d'Albaretto, il nostro. Una figlia s'impalmò Corporato e fu a Venezia e più tardi divennero i Maffei, che ancora durano.</p>
+			<p>Ma al tapino morirono giovinetti i due figli maschi in un'epidemia a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507" type="real">Parigi</placeName> (a <placeName key="Savigliano Piedmont Italy" ref="https://geonames.org/3167034" type="real">Savigliano</placeName> per chi non ci crede c'è una lapide che li ricorda) e la contea del <placeName key="Frassino Piedmont Italy" ref="https://geonames.org/3176575" type="real">Frassino</placeName> e di <placeName key="Melle Piedmont Italy" ref="https://geonames.org/3173610" type="real">Melle</placeName> minacciava di spegnersi in grembo (che bella fine) alle due figlie superstiti. Ma Filippo Girolamo non era Maria per niente e allora umilmente richiese a Sua Eccellenza che gli scambiassero Falcombello, Frassino e Melle con un feudo trasmissibile per femmine, che fu d'<placeName key="Albaretto della Torre Piedmont Italy" ref="https://geonames.org/6535291" type="real">Albaretto</placeName>, il nostro. Una figlia s'impalmò Corporato e fu a Venezia e più tardi divennero i Maffei, che ancora durano.</p>
 			<p>L'altra sposò un Ponte e lo fé d'Albaretto. E i Ponte erano Gran ricevitori delle finanze nel Pinerolese (agenti delle imposte, insomma) del Re Cristianissimo e stavan quasi sempre a Parigi. Nelle lotte locali parteggiavano per i gigli. Quando col trattato dei Pirenei (1661) Mazarino cedé il Pinerolese ai Savoia, e acquistò alla Francia il Roussillon, i Ponte d’Albaretto vennero stigmatizzati dai Savoia, dichiarati felloni e i lor beni a Pinerolo confiscati. Ma riebbero la carica nel Rossiglione e qua, bazzicandoci, un Ponte secondogenito sposò una Lolita Campredon. Intanto il secolo s’écoulait.</p>
 			<p>I Ponte d'Albaretto al tempo della rivoluzione erano in due a Parigi, uno ammiraglio e l'altro "jouait la comédie chez le duc d’Orléans" e tra i mattacchioni era massimo. L'ammiraglio ci rimise le ghette, il poeta riparò a Girona con una moglie francese, Montcalm. Viaggiarono, poveri in canna, per mare da Barcellona a Genova e il buffone lasciò un diario dove in lettere e versi indirizzati a un amico immaginario descrive le sue peripezie.</p>
 			<p>Giunto a Torino, essendo d’Albaretto, richiese i suoi feudi ed ebbe perdono e comando di truppe nel Pinerolese. Dove scrisse altre bernerie lagnandosi di non poter dormire.</p>
