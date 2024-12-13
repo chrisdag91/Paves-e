@@ -5624,6 +5624,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213151141061",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T14:11:41.061Z",
+	"dcterms:modified": "2024-12-13T14:11:41.061Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213151141061#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213151141061#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[125]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255149",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5751,9 +5830,9 @@
 			<p>Eccolo nel viale, col codazzo. Dio, che passo ancestrale! Sembra un cammello. (Se mi conosce!) <rs ref="#CampredonDAlbarettoLaura">La contessa</rs> ha fatto la riverenza. Io son qua dietro ed ecco che il nostro semicerchio cade giù, con un largo risucchio. È stato l'inchino collettivo. È alto come la fame. Purché non mi riconosca, purché non mi riconosca!</p>
 			<p>"Buon giorno, Marchesa!"</p>
 			<p>Tac! Tac! Tac! i colpi di tacco degli attenti, mentre saluta ad uno ad uno. Alle signore bacia la mano ed agli uomini la stringe. A me, avanti. Ahi! (Purché...!) "Il professor Pavese che è qua per guarire…" Che mano grossa, Altezza!</p>
-			<p>È fatta. Pare che non mi abbia riconosciuto. S'incammina nel salone. Ma, adesso che mi ricordo, non mi sono inchinato. Viva l’America. Vuol dire che non ho l'animo servile.</p>
+			<p>È fatta. Pare che non mi abbia riconosciuto. S'incammina nel salone. Ma, adesso che mi ricordo, non mi sono inchinato. Viva l’<placeName key="North America  " ref="https://geonames.org/6255149">America</placeName>. Vuol dire che non ho l'animo servile.</p>
 			<p>Entriamo nel salone.</p>
-			<p>Sua Altezza è appollaiata sul sofà e di fianco c'è la signora contessa che cerca disperatamente qualcosa da dire. Tutt’intorno, le signore, quattro in tutto. Noi, uomini, in piedi colle signorine e l'aiutante di campo.</p>
+			<p><rs ref="#UmbertoIIDiSavoia">Sua Altezza</rs> è appollaiata sul sofà e di fianco c'è la signora contessa che cerca disperatamente qualcosa da dire. Tutt’intorno, le signore, quattro in tutto. Noi, uomini, in piedi colle signorine e l'aiutante di campo.</p>
 			<p>Non si sente cosa dice Sua Altezza. Parla adagio, a bassa voce. Appena una signora gli parla si volta premuroso. Altrimenti, sta impettito, muovendo leggermente la testa dall'alto in basso, come un tacchino. È un bel giovanotto. Cerca di incoraggiare e fa una ridacchiata catarrosa a tutte le battute delle vecchie. La Signora Contessa oramai è piena di verve. "Cosa fa V. A.?" "Si diverte V. A.?" "Dove andrà V. A.?" "Ringrazio V. A.". Vostra altezza ascolta e guarda in giro.</p>
 			<p>Ha già fatto passare tutte le pareti.</p>
 			<p>Ahi, che si ferma a guardarmi. Si volta a parlare alla Signora Contessa. Aiuto! Qua mi fa tagliare la testa.</p>
