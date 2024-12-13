@@ -563,6 +563,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?place_annotation_20241213142643768",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T13:26:43.768Z",
+	"dcterms:modified": "2024-12-13T13:26:43.768Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?place_annotation_20241213142643768#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?place_annotation_20241213142643768#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[27]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3175395",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -592,7 +671,7 @@
 			<p>Per dimostrarmi che il libero arbitrio è ancora la cosa migliore che Dio abbia dato all'uomo e che quindi è bene che ci sia il male ecc. ecc. tu dici senz'altro: lo dici anche tu. Bravo merlo! Come se io credessi a quel che dico quando parlo della Misericordia e Giustizia Divina. Come se io credessi al Paradiso quando lo descrivo. Sono <term cert="high" evaluate="all" generatedBy="human" xml:lang="en" xml:space="default">satyrical shafts</term> necessarie data la posizione che io prendo: far criticare i vostri dogmi da se stessi, mostrandone le contraddizioni. Bisognava capirlo, perbacco! Un po' più di sveltezza, ippopotamo!</p>
 			<p>Giunto a questo punto ho molto ammirato la tua sentita immagine del paradiso-garage e tutte quelle anime che emanano una luce scialba, spettrale di aureola (le automobili all'"aureola". Meraviglioso! Certo, gli occhi forniti di grazia debbono vederla così l'automobile di quell'evangelico e francescanissimo vescovo che è Mons. Gamba). Vai facendo progressi straordinarî sulla via del moderno e presto giungerai al garage del successo letterario e filosofico dove le grandi e lussuose macchine di pensiero lucidate a parole dei maggiori scrittori cavallerescamente ti attendono fremendo e ronzando per lanciarsi con te alla conquista dell'ideale! (Qua ho parlato tragico).</p>
 			<p>"Dovevi riflettere meglio". Proprio così. "Parli poi di ingiustizia – Come idea non c'è male".</p>
-			<p>Ma guarda un po' 'sto figlio d'un cane che se la prende tanto col mio cervello e afferma d'averci un cuore che <hi cert="high" generatedBy="human" rend="italic" xml:space="default">sente sente</hi> una quantità di verità nascoste e poi, dopo che io gli ho fatto un commoventissimo quadro di stragi, di sangue, di sofferenze, tutta roba patita in onore di Santa Ingiustizia, roba da far piangere persino il giudice <persName ref="#FullerAlvan">Fuller</persName> (che soddisfazione eh, dargli dell'incosciente e barbaro mostro fanatico a lui che è un americano. Peccato che quella in Italia Antica e Moderna la chiamerebbero fermezza di carattere!) mi vien fuori razionalisticamente con un "come idea non c'è male!" Hai ragione: è proprio stata una idea bellina. Un giorno che abbia tempo ti faccio una collezione di descrizioni di supplizi inflitti a gente giusta che non ha mai avuto il piacere di conoscere S. S. il Papa de Roma e poi te la mando come saggio di idea ancora più buona. Va' là, togliti il cappello e sta' zitto.</p>
+			<p>Ma guarda un po' 'sto figlio d'un cane che se la prende tanto col mio cervello e afferma d'averci un cuore che <hi cert="high" generatedBy="human" rend="italic" xml:space="default">sente sente</hi> una quantità di verità nascoste e poi, dopo che io gli ho fatto un commoventissimo quadro di stragi, di sangue, di sofferenze, tutta roba patita in onore di Santa Ingiustizia, roba da far piangere persino il giudice <persName ref="#FullerAlvan">Fuller</persName> (che soddisfazione eh, dargli dell'incosciente e barbaro mostro fanatico a lui che è un americano. Peccato che quella in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="real">Italia</placeName> Antica e Moderna la chiamerebbero fermezza di carattere!) mi vien fuori razionalisticamente con un "come idea non c'è male!" Hai ragione: è proprio stata una idea bellina. Un giorno che abbia tempo ti faccio una collezione di descrizioni di supplizi inflitti a gente giusta che non ha mai avuto il piacere di conoscere S. S. il Papa de Roma e poi te la mando come saggio di idea ancora più buona. Va' là, togliti il cappello e sta' zitto.</p>
 			<p>E finalmente come sempre in questi casi entra in scena il Crocifisso. Come in una truce tragedia greca dove i fati delle famiglie si susseguono in una vicenda di tenebre e di sangue e i balletti del coro commentano l'azione così al foglio III della tua lettera compare il Grande Martire, l'Innocente, in una specie di grande storia tragica del genere umano, dove i figli per arcana giustizia pagano per i padri e tutti soffrono e tutti anelano nel buio, fin che si apre lo spiraglio e compare un mondo sublime che fa restar tutti abbagliati. I balletti mi immagino che li fai tu, pregustando la gioia dell'apostolo che sente di tenere sotto la suggestione dei suoi detti l'uditore paziente.</p>
 			<p>Disingannati. Questo tuo argomento che secondo i tuoi canoni, fa appello non solo al cervello ma anche al cuore, vale meno di tutti gli altri che pure valevano già tanto poco.</p>
 			<p>La prima parte, la Crocifissione, non mi tange: Dio, nella vostra concezione, ché nella mia è un grande martire come molti altri, era lui il gerente responsabile, se quindi ha fatto male gli uomini e ha voluto (con leggi sue) un'espiazione, arrangiassesi, pagasse come volesse. La seconda poi, quella dell'ereditarietà del castigo, mi tange ancor meno perché non ci credo niente. Vedi dunque.</p>
