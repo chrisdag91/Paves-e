@@ -3722,6 +3722,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213135856067",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T12:58:56.067Z",
+	"dcterms:modified": "2024-12-13T12:58:56.067Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213135856067#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213135856067#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[53]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3121456",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3777,7 +3856,7 @@
 			<p>Giunto a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, essendo d’Albaretto, richiese i suoi feudi ed ebbe perdono e comando di truppe nel Pinerolese. Dove scrisse altre bernerie lagnandosi di non poter dormire.</p>
 			<p>Intanto anche in <placeName key="Kingdom of Spain  Spain" ref="https://geonames.org/2510769" type="real">Spagna</placeName> i Campredon subivano un saccheggio e pare che un vecchio padre che stringeva per mano un suo figlioletto abbia visto ardere il castello avito.</p>
 			<p>La penultima dei Campredon diede lezioni di lingue per vivere (meno male che siamo colleghi) e le due cameriere ricamavano. Ma ecco che a imparare le lingue ci viene una Pastors che finí di impalmare il bel Maurizio, l'ultimo dei Campredon.</p>
-			<p>Questa Pastors è memorabile nei fasti della famiglia Campredon, intanto per la questione granaria e poi, più che tutto, perché portò in casa due tesori inestimabili. Uno, una brutta tazza storta e doracchiata dove ci ha bevuto il cioccolato <persName key="Ferdinando VII, re di Spagna, 1784-1833" ref="http://viaf.org/viaf/165167802706717771032/" type="real">Ferdinando VII il Fedifrago</persName>, quando, mercè la Santa Alleanza, rientrava in <placeName key="Kingdom of Spain  Spain" ref="https://geonames.org/2510769" type="real">Spagna</placeName> e a Girona incomodava i Pastors, l'altro, un pendolo rococò che l'"empereur" regalava ai medesimi passando qualche anno prima per la stessa Girona. Dove si vede che in quanto a politica i Pastors erano anche in gamba. Più tardi furono Carlisti. Qua naturalmente ti stupirai di sentire versare con tanta freddezza una tale cornucopia di erudizione che tu faresti fruttare per un anno e io anche, ma così non la pensa il Signor Commendatore, che quando ha un problema difficile viene da me e io gli ho già delucidato, primo, la questione del re che ha bevuto nella tazza, che senz'altro è Ferdinando VII e non Carlo IV, come si sospettava in famiglia, secondo la questione delle statue, di cui più innanzi.</p>
+			<p>Questa Pastors è memorabile nei fasti della famiglia Campredon, intanto per la questione granaria e poi, più che tutto, perché portò in casa due tesori inestimabili. Uno, una brutta tazza storta e doracchiata dove ci ha bevuto il cioccolato <persName key="Ferdinando VII, re di Spagna, 1784-1833" ref="http://viaf.org/viaf/165167802706717771032/" type="real">Ferdinando VII il Fedifrago</persName>, quando, mercè la Santa Alleanza, rientrava in <placeName key="Kingdom of Spain  Spain" ref="https://geonames.org/2510769" type="real">Spagna</placeName> e a <placeName key="Girona Catalonia Spain" ref="https://geonames.org/3121456" type="real">Girona</placeName> incomodava i Pastors, l'altro, un pendolo rococò che l'"<term cert="high" evaluate="all" generatedBy="human" xml:lang="fr" xml:space="default">empereur</term>" regalava ai medesimi passando qualche anno prima per la stessa Girona. Dove si vede che in quanto a politica i Pastors erano anche in gamba. Più tardi furono Carlisti. Qua naturalmente ti stupirai di sentire versare con tanta freddezza una tale cornucopia di erudizione che tu faresti fruttare per un anno e io anche, ma così non la pensa il Signor Commendatore, che quando ha un problema difficile viene da me e io gli ho già delucidato, primo, la questione del re che ha bevuto nella tazza, che senz'altro è Ferdinando VII e non Carlo IV, come si sospettava in famiglia, secondo la questione delle statue, di cui più innanzi.</p>
 			<p>Esistendo a questo punto una famiglia Campredon ricca e senza titoli e, a Torino, al Ponte d'Albaretto superstite essendo scappata la moglie con ricchezze e illusioni, questo una volta tanto la smette di fare il poeta, immalinconisce sul serio ed ottiene dal Re di Sardegna (chissà chi era?) che il titolo per non estinguersi passi ai Campredon. Tanto fu concesso. E i Campredon vennero nel Pinerolese e rivissero il tempo antico sotto il nome di Campredon d'Albaretto.</p>
 			<p>Ora, e siamo al buono, l'ultima Campredon in persona della Sig. Contessa, nobildonna senza affettato, trasmette il titolo al figlio, per quel tal privilegio di cui sopra, e tutti contenti, meno il Sig. Commendatore che i titoli li ha perduti chissà dove e nei resoconti delle cerimonie è sempre in coda (o i bei tempi che era prefetto).</p>
 			<p>Naturalmente la tazza e il pendolo son fregio dell’opera.</p>
