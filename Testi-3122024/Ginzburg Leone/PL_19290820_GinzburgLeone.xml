@@ -1274,6 +1274,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?rs_annotation_20241213131300851",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T12:13:00.851Z",
+	"dcterms:modified": "2024-12-13T12:13:00.851Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?rs_annotation_20241213131300851#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?rs_annotation_20241213131300851#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[34]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://viaf.org/viaf/94052107/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1310,7 +1389,7 @@
 			<p>Ma non è mica stupido il <rs ref="#BodoPaolo">signor commendatore</rs>. Non è neanche antipatico. Figurati che è fanatico di <persName ref="http://viaf.org/viaf/5488153532471348820009/" type="fictional">Mimi Bluette</persName> e console del Siam. Da prefetto ha girato tutta Italia e adesso finisce di essere un bel tipo di nobile campagnolo (parla di <placeName key="Vercelli Piedmont Italy" ref="https://geonames.org/3164565" type="real">Vercelli</placeName>), di quelli che han sempre le forbici da fiori in tasca, per ripulire il giardino passeggiando e che alla <persName ref="#MarchesaDiRorà" type="real">Marchesa di Rorà</persName> che va in giro col bastone e colla sporta dicono "Buon dì, Marchesa". Mangiando alla sera tiene il cappello in testa e quando parla inserisce sempre un prefettizio "...diremo" come zavorra. È un che di mezzo tra il <rs ref="#PinelliFerdinando">Conte Pinelli</rs> e <persName key="Al Jolson" ref="http://dbpedia.org/resource/Al_Jolson" type="real">Al Jonston</persName> stagionato. Un vecchietto arguto. Ma sa tanta di quella storia!</p>
 			<p/>
 			<p>II. <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Rosa mistica</hi>.</p>
-			<p>La prima sera in salone, poiché bisogna sapere che alla sera, dopo la mezz'ora di eculeo sui gradini, si sta tutti nel salone seduti in cerchio a guardarci la biffa e ogni tanto si forma un focolare discorsivo che subito il peso dei cortinaggi "Contessa Maffei" soffoca, morto, io, richiestone, dicevo di star preparando sulle orribili dispense del tal dei tali una storia della rivoluzione francese veduta attraverso i suoi effetti sui gabinetti d'Europa (ma guarda che bella freddura: la rivoluzione purgante), quando il signor commendatore, abbandonato sul seggiolone reggendosi la fronte sulla destra, sentenziò: "È un buon principio! Così si considera la storia non come fatta da un uomo ma dagli uomini, che è più giusto, perché tutti e non uno solo godiamo il beneficio, diremo, del progresso".</p>
+			<p>La prima sera in salone, poiché bisogna sapere che alla sera, dopo la mezz'ora di eculeo sui gradini, si sta tutti nel salone seduti in cerchio a guardarci la biffa e ogni tanto si forma un focolare discorsivo che subito il peso dei cortinaggi "Contessa Maffei" soffoca, morto, io, richiestone, dicevo di star preparando sulle orribili dispense del <rs key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">tal dei tali</rs> una storia della rivoluzione francese veduta attraverso i suoi effetti sui gabinetti d'Europa (ma guarda che bella freddura: la rivoluzione purgante), quando il signor commendatore, abbandonato sul seggiolone reggendosi la fronte sulla destra, sentenziò: "È un buon principio! Così si considera la storia non come fatta da un uomo ma dagli uomini, che è più giusto, perché tutti e non uno solo godiamo il beneficio, diremo, del progresso".</p>
 			<p>La signora contessa, a metà della frase, levò gli occhi dal tappeto persiano che stava facendo, e voleva finire lei di dire ma il signor commendatore tagliò corto colla mano e la signora contessa tornò al lavoro.</p>
 			<p>Però è strano che il gomitolo del filo la signora contessa lo tenga sempre per terra. Mia mamma darebbe nelle stelle. Ma pazienza! Dev'essere una cosa aristocratica e alle cose aristocratiche è bene abituarsi subito per non provare poi delle delusioni.</p>
 			<p>Come una sera tardi, che tutti erano già su e io taroccavo ancora di pedagogia col commendatore, che questi riferendo un supposto pensiero sul prossimo del figlio indifferente e blasé esclamò "Che cosa me ne importa di quel coglione lì", che mi parve troppa libertà. E al più piccolo una volta, dell'erede dei del Carretto di Saluzzo, gente che ha 5 bande rosse in campo argento perché una volta un cavaliere che aveva il sangue al naso ci si è asciugate le mani, e se tutto andava bene facevan loro la barba ai conti di Savoia, venne detto: "Che rompicoglioni!" Tutti sentimmo, però non ci badammo. Non sempre insomma mi trovo nel mio ambiente. Come un'altra volta a tavola che si parlava di imprecazioni e l'allievo domanda "E sacranon?" "Oh! – fa il signor commendatore, – andiamo nelle bestemmie". "Lo dice sempre il signor professore". "Ah sì, – mi sorride la signora contessa che è alla mia destra, – però è francese". "Come sacrebleu", aggiungo io.</p>
