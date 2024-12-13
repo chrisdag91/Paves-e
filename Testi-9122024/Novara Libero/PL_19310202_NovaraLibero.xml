@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Novara%20Libero/PL_19310202_NovaraLibero.xml?person_annotation_20241213112941103",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T10:29:41.103Z",
+	"dcterms:modified": "2024-12-13T10:29:41.103Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Novara%20Libero/PL_19310202_NovaraLibero.xml?person_annotation_20241213112941103#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Novara%20Libero/PL_19310202_NovaraLibero.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Novara%20Libero/PL_19310202_NovaraLibero.xml?person_annotation_20241213112941103#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Giuseppe_Garibaldi",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -257,7 +336,7 @@
 			<p>Tu ragioni di problemi letterari meglio dei miei colleghi e conosci più libri che osterie. Bravo!</p>
 			<p>Io però casco dalle nuvole a sentire che tu, proprio <hi cert="high" generatedBy="human" rend="italic" xml:space="default">tu</hi>, vuoi che io, proprio <hi cert="high" generatedBy="human" rend="italic" xml:space="default">io</hi>, ti descriva la scena del delitto. Devi sapere che io vengo con te proprio perché, tra le altre virtù, hai quella di parlare da dio, di raccontar le cose sempre svelto, come se parlassi sempre in gergo, e a me che invece a scuola mi sono rovinata la bocca, piace più ancora del vino, stare a sentire chi parla nel tuo modo. Comunque, ecco qui lo svolgimento:</p>
 			<p>Uscii una sera col mio amico <persName ref="#NovaraLibero">Berin</persName>. Era l'ultimo dell'anno...</p>
-			<p>Basta, crepo. Dirò senz'altro che mi sono trovato a un certo punto in un ufficio con delle stampe antifratesche ai muri e Giuseppe Garibaldi e Giosuè in effigie lì vicino.</p>
+			<p>Basta, crepo. Dirò senz'altro che mi sono trovato a un certo punto in un ufficio con delle stampe antifratesche ai muri e <persName key="Giuseppe Garibaldi" ref="http://dbpedia.org/resource/Giuseppe_Garibaldi">Giuseppe Garibaldi</persName> e Giosuè in effigie lì vicino.</p>
 			<p>Berin ci mise il vino ed io ci misi il cavatappi. Indi bevemmo. Ma io non so mica bere. Bevo per amicizia. Io stavo a sentire l'amico Berin che pacioccava sulla fruia. Metteva insieme le sue note e poi spiegava. Le canzoni, che abbozzava sulla fruia, Berin le aveva già suonate in altri tempi in una tampa, con vicino una ragazza di barriera, e di fronte, che cantava cogli altri teppisti, Emiliu – uno che se avesse studiato ci fregava tutti. Io non conosco quella ragazza ma dev'essere una ben simpatica ragazza se è di quell'ambiente e se Berin me ne parla. Me la immagino svelta e intelligente, senza tante storie per la testa, come hanno quelle "del centro", e innamorata, innamorata bene. Emiliu poi me lo immagino troppo straordinario, perché sia proprio lui. È il mio ideale di uomo Emiliu – uno del popolo – sincero e semplice, ma intelligente e sveglio come i più «studiati». A metà strada tra me e Emiliu c'è Berin, che è già anche lui fatto così, metà del popolo e metà della "mente" (tanto della "mente" quanto basta per capire il popolo).</p>
 			<p>Naturalmente, a questo punto quella sera avevamo già bevuto parecchio.</p>
 			<p>Io stavo a sentire <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Ramona</hi> ridotta alla gaucha e le dotte spiegazioni. Ma pensavo alla tampa e all'"ignota" e ad Emiliu . Quei giovanotti e quelle pischerle che avevano accolto tra loro Berin, avevano cantata anche loro <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Ramona</hi> - ridotta alla gaucha. Io vedevo la scena. I prati di barriera, con case lontano, qualche raro lampione, in fondo le luci piú fitte della città e tutt'intorno silenzio o parole basse. E la chitarra e <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Ramona</hi>. Oppure</p>
