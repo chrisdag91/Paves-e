@@ -326,6 +326,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?person_annotation_20241213135421187",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T12:54:21.187Z",
+	"dcterms:modified": "2024-12-13T12:54:21.187Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?person_annotation_20241213135421187#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Pinelli%20Tullio/PL_19270818_PinelliTullio.xml?person_annotation_20241213135421187#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/100192823/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -342,7 +421,7 @@
 			<p>Quando io esamino i dogmi cristiani e vedo che essi con tutte le loro pretese d'infinito e di eterno lasciano alla vita quel po' po' (per ripetere una vaghissima locuzione avverbiale della tua lettera) quel po' po', dico, di contraddizioni che mi vaneggiano davanti agli occhi come tanti pozzi bui e terribili, esalanti ombre viscide e capziose, tante copie insomma del pozzo nero del tuo dramma sacro (qua, per esempio, ho parlato tragico), io, che, parlando con rispetto, non ci credo a quelle panzane, o meglio, sforzi ammirevoli e tragici (che se hanno accontentato secoli di viventi, beati loro!) verso una felicità, non solo ho il diritto, ma ho, non so come dire, il <hi cert="high" generatedBy="human" rend="italic" xml:space="default">preciso dovere artistico</hi> nonché filosofico, nonché non rompermi più le scatole, di porre in Paradiso, il luogo dove tutto è fissato per sempre (aaahh!) sotto le leggi ferree dei detti dogmi (iiihh!), una scena che mediante un seguito di argomentazioni drammatizzate mostra senza trucco o senza inganno agli intelletti più ottusi che nemmeno l'immane sforzo sofferto da secoli di pensatori è arrivato a una conclusione che possa soddisfare l'"<term cert="high" evaluate="all" generatedBy="human" xml:lang="latin" xml:space="default">homo logicus et pius</term>" che vive all'ombra dei camini delle fabbriche e (guarda un po') ogni tanto si ritira anche in una chiesa ma più spesso in un casino a pensare ai casi suoi.</p>
 			<p>E coll'<hi cert="high" generatedBy="human" rend="italic" xml:space="default">homo logicus</hi> abbiamo un magnifico addentellato da passare senz'altro al tuo secondo appunto che è un altro bel fico marcio.</p>
 			<p>Ti ringrazio (questo è un movimento polemico carducciano, che tu puoi trovare se hai voglia nella difesa del <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Ça Ira</hi> a pagina 418 del I vol. delle <title level="m" ref="#ConfessionieBattaglie">Confessioni e Battaglie</title>, ed. <orgName ref="#Zanichelli" type="organization">Zanichelli</orgName>, 1924) ti ringrazio coll'animo profondamente commosso della impartitami lezione d'umiltà evangelica che si trova a questo punto della tua lettera e mi affretto a comunicarti senz'altro che io da tempo ero e ancora sono molto ma molto più evangelico, e umilmente evangelico, di come vorresti tu.</p>
-			<p>Ascolta, o uomo dal cuore che sente la verità come i reumatismi sentono l'avvicinarsi del cattivo tempo (qua invece ho parlato ironico), ascolta. Io esisto. Può darsi in spirito a sé, ma in corpo certo. Questo non mi sono mai sognato di negarlo come un certo cretinissimo filosofo inglese (guarda che caso! costui era un chercuto vescovo! Per gli indotti: Giorgio Berkeley). Ho delle mani, dei piedi, una pancia, una vista (corta) una lingua (lunga) e finalmente, un cervello. Questo cervello pensa. Ci sono certe leggi in lui, che o seguirle o abdicare dal suo uso. Io le seguo e, quando non mi fa comodo seguirle, metto la sua voce temporaneamente in tacere. Soffro un po' per questo, ma pazienza. Oltre a me esiste un universo. Il mio cervello cerca di spiegarselo. Non ci capisce niente e allora dice nella sua evangelica semplicità: "Basta! non capisco niente e quindi non mi azzardo a pronunziarmi. Brancolo nel buio e lascio che quel valentissimo e bellissimo individuo che mi riveste, si diverta un po', poverino. Non ci riesce sempre perché è molto stupido, sovente anzi piange, ogni tanto poi sento che mi appoggia contro l'involucro osseo qualcosa come una canna dura, fredda, che trema un po' lì contro e poi si stacca (e dev'essere qualcosa di molto grave perché in quei momenti dal mio carissimo amico il midollo spinale mi giungono brividi estenuanti); ma insomma vivacchia". Così dice il mio cervello che è molto umile e che insieme a un cuoricino d'oro, molto sensibile e bucolico, ma un po' capricciosetto, sì che lo fa tanto soffrire per le sue aspirazioni che lui non sa spiegargli e risolvergli, è tutto il mio io, la mia esistenza, il mio ubi, l'ανεμος per cui sono e che ritrovo a giudicarmi tutte le sere senza scampo.</p>
+			<p>Ascolta, o uomo dal cuore che sente la verità come i reumatismi sentono l'avvicinarsi del cattivo tempo (qua invece ho parlato ironico), ascolta. Io esisto. Può darsi in spirito a sé, ma in corpo certo. Questo non mi sono mai sognato di negarlo come un certo cretinissimo filosofo inglese (guarda che caso! costui era un chercuto vescovo! Per gli indotti: <persName key="Berkeley, George, 1685-1753" ref="http://viaf.org/viaf/100192823/">Giorgio Berkeley</persName>). Ho delle mani, dei piedi, una pancia, una vista (corta) una lingua (lunga) e finalmente, un cervello. Questo cervello pensa. Ci sono certe leggi in lui, che o seguirle o abdicare dal suo uso. Io le seguo e, quando non mi fa comodo seguirle, metto la sua voce temporaneamente in tacere. Soffro un po' per questo, ma pazienza. Oltre a me esiste un universo. Il mio cervello cerca di spiegarselo. Non ci capisce niente e allora dice nella sua evangelica semplicità: "Basta! non capisco niente e quindi non mi azzardo a pronunziarmi. Brancolo nel buio e lascio che quel valentissimo e bellissimo individuo che mi riveste, si diverta un po', poverino. Non ci riesce sempre perché è molto stupido, sovente anzi piange, ogni tanto poi sento che mi appoggia contro l'involucro osseo qualcosa come una canna dura, fredda, che trema un po' lì contro e poi si stacca (e dev'essere qualcosa di molto grave perché in quei momenti dal mio carissimo amico il midollo spinale mi giungono brividi estenuanti); ma insomma vivacchia". Così dice il mio cervello che è molto umile e che insieme a un cuoricino d'oro, molto sensibile e bucolico, ma un po' capricciosetto, sì che lo fa tanto soffrire per le sue aspirazioni che lui non sa spiegargli e risolvergli, è tutto il mio io, la mia esistenza, il mio ubi, l'ανεμος per cui sono e che ritrovo a giudicarmi tutte le sere senza scampo.</p>
 			<p>Ma questo mio cervello è munito anche di un paio di orecchie (piccoline, due carissimi ninnoli) che lavo con cura tutti i giorni eppure son sempre sporchi. E queste mie orecchie sentono molte cose e da pettegole come sono gliele ripetono tutte a puntino. Tra l'altro han sentito giorni fa una persona dall'aspetto molto seria dire con una nobile faccia da apostolo principiante "Dogma significa..." Hanno sentito e gli han riportato tutto per filo e per segno. Tutto questo il mio cervello ha pensato: "Vi è certo un'invidiabile ingenuità nei pensamenti di questo bravo giovane, il quale chiama umiltà la pretesa di aver per le mani la ricetta per guidare il mondo a buon fine. <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Egli sente</hi> certe cose, sente l'aspirazione a certe cose, per non cadere in peccato di superbia a presumere di spiegarle col suo cervello, egli mette in tacere le sue più elementari esigenze logiche che sono per lui questione di vita o di morte, le mette in tacere e poi, umilmente, dice che col cuore sente tutto, capisce tutto: tutto, beninteso, quel po' che gli basta a starsene tranquillo per l'avvenire, ché a saper tutto proprio sarebbe nera superbia. Certo è ingenuità nient'altro che ingenuità. Beato lui! Ma la vita gli dirà qualcosa ancora". Fin qui il mio cervello.</p>
 			<p>Mi pare quindi caro Pinelli che, se io pecco di presunzione e di malaccortezza ponendo il mio cervello sul gran trono, tu faccia poco meno di me, ponendovi il cervello e il cuore uniti insieme. Anche se sotto l'égida di un Dio che sa tutto, capisce tutto, è dappertutto: proprio l'individuo che ci vuole per cavarsi da ogni impiccio presente o futuro. Non l'avete pensata male. Soltanto che il cuore e il cervello così disposati, dato che il matrimonio monosessuale è contro natura, fanno continuamente a pugni, e si contraddicono e si accazzottano, in un dissidio che venti secoli di Roma Cristiana non sono ancora riusciti a risolvere, nel cuore del mondo.</p>
 			<p>Ma questo non fa niente: voialtri per amor delle aspirazioni soddisfatte, ammazzereste anche vostro padre e vostra madre e quindi potete ben passare sopra ai disagi di un cervello e di certi altri sentimentuzzi, come quel della giustizia, che non vanno precisamente insieme come i congegni di un orologio. Ma almeno aveste il coraggio di dire forte come me: Non ci capisco niente, vado avanti così godendo il più possibile e soffrendo il meno, ma non ci capisco niente. Io sì che posso fregarmene se perdo, ma voi no. Almeno aveste il coraggio di lasciare i problemi pendenti ed aperti, ma niente affatto, voi a tutti i costi volete risolverli e stabilizzarvi nel mondo e sapere la certezza sulle aspirazioni ecc. Questo io lo chiamo desiderio di godere il più vastamente e durevolmente possibile, ma sempre desiderio, sconcissimo desiderio. Che poi a questo godimento voi troviate più comodo arrivarci praticando la famosa umiltà, questo non c'entra, (come diceva colui...). Ma umili, data la pretesa di avere per le mani la soluzione, no, non lo siete. È poi ora di finirla con questa famosa umiltà cristiana. "Chi s'abbassa sarà innalzato" dite. Un calcolo, nient'altro che un calcolo dunque: ti faccio un piacere perché tu me lo renda. Altro che l'intervento americano in guerra! Io dico, insomma, che voi non abbassate la cresta, perché sebbene voi diciate: "mi umilio a riconoscere che da solo non comprendo nulla" questo lo fate perché ci avete la pretesa di essere assicurati a un grande avvenire, di sentire la verità, e insomma, se non vi esaltate in voi stessi, vi esaltate in Dio, e dato che io Dio lo concepisco come una vostra mirabile creazione per mettervi in sesto le toppe, tu vedi bene.</p>
