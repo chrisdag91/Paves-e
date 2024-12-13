@@ -1511,6 +1511,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213132335858",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T12:23:35.858Z",
+	"dcterms:modified": "2024-12-13T12:23:35.858Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213132335858#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213132335858#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[39]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3170831",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213132357278",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T12:23:57.278Z",
+	"dcterms:modified": "2024-12-13T12:23:57.278Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213132357278#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213132357278#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[39]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3170694",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1552,7 +1710,7 @@
 			<p>Però è strano che il gomitolo del filo la <rs ref="#CampredonDAlbarettoLaura">signora contessa</rs> lo tenga sempre per terra. <rs ref="#MesturiniConsolina">Mia mamma</rs> darebbe nelle stelle. Ma pazienza! Dev'essere una cosa aristocratica e alle cose aristocratiche è bene abituarsi subito per non provare poi delle delusioni.</p>
 			<p>Come una sera tardi, che tutti erano già su e io taroccavo ancora di pedagogia col <rs ref="#BodoPaolo">commendatore</rs>, che questi riferendo un supposto pensiero sul prossimo del figlio indifferente e blasé esclamò "Che cosa me ne importa di quel coglione lì", che mi parve troppa libertà. E al più piccolo una volta, dell'erede dei del Carretto di Saluzzo, gente che ha 5 bande rosse in campo argento perché una volta un cavaliere che aveva il sangue al naso ci si è asciugate le mani, e se tutto andava bene facevan loro la barba ai conti di Savoia, venne detto: "Che rompicoglioni!" Tutti sentimmo, però non ci badammo. Non sempre insomma mi trovo nel mio ambiente. Come un'altra volta a tavola che si parlava di imprecazioni e l'<rs ref="#BodoManolo">allievo</rs> domanda "E sacranon?" "Oh! – fa il <rs ref="#BodoPaolo">signor commendatore</rs>, – andiamo nelle bestemmie". "Lo dice sempre il signor professore". "Ah sì, – mi sorride la <rs ref="#CampredonDAlbarettoLaura">signora contessa</rs> che è alla mia destra, – però è francese". "Come sacrebleu", aggiungo io.</p>
 			<p>Devi sapere che nel salone c'è attaccato al caminetto il Calendario della vita pura dell'amore e della fede. "Ho <rs key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">un amico</rs>, signora contessa, che ha tradotto <title key="Anna Karenina" ref="http://dbpedia.org/resource/Anna_Karenina" level="m">Anna Karenina</title>". "Oh, Pavese, è un libro magnifico". "Posso leggerlo io, mamma?" "No, <persName ref="#BodoPaola" type="real">Paola</persName>".</p>
-			<p>Ma torniamo alla teoria e storia della storiografia. Il <rs ref="#BodoPaolo">signor commendatore</rs> mi ha già spiegato, con tutte le frazioni, le vicende araldiche di mezzo Piemonte, un giorno che andavamo in automobile verso Pinerolo e guidava la tota e io lì di fianco pensavo che una mano inguantata femminile, poggiata sul volante, è una cosa più bella e moderna di qualunque grattacielo.</p>
+			<p>Ma torniamo alla teoria e storia della storiografia. Il <rs ref="#BodoPaolo">signor commendatore</rs> mi ha già spiegato, con tutte le frazioni, le vicende araldiche di mezzo <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831" type="real">Piemonte</placeName>, un giorno che andavamo in automobile verso <placeName key="Pinerolo Piedmont Italy" ref="https://geonames.org/3170694" type="real">Pinerolo</placeName> e guidava la tota e io lì di fianco pensavo che una mano inguantata femminile, poggiata sul volante, è una cosa più bella e moderna di qualunque grattacielo.</p>
 			<p>Pare dunque che un tal Filippo d'Acaia abbia fatto forza ai Castelvecchio, per cui Bricherasio passò per quattro quinti ai Cacherano, che a Rorà ci siano stati i frati e che Plinio dica: «Nunquam [lacuna]».</p>
 			<p>Quello scellerato d'un console del Siam mi ha poi fatto passare tutta una sera che il grosso della famiglia era andato in automobile a non so che ballo e io no perché non avevo lo smoking, tutta la sera dico, a sfogliare, pare per bibliofilia, un Digesto pidocchioso, e se lo amoreggiava senza mica averlo mai letto e discuteva animosamente sugli articoli che gli capitava di vedere e mi faceva tradurre dal greco, a prima vista, dei pezzi che c'eran lì, chissà come.</p>
 			<p>Ma se tutte le palle che gli ho contato valessero per tanti quarti, oramai io sono più nobile di lui. Che non lo è niente affatto. Ed ecco qua la macchiavellica. Delle tre o quattro volte (e non è ancora finita) che mi ha contato la storia di famiglia, non mi ha mai contato la sua, ma sempre soltanto quella della moglie. Egli è un vile plebeo o, peggio ancora, è sol nobiluomo, il che prova che la sua schiatta fu grande un dì, ma or scese a bassura.</p>
