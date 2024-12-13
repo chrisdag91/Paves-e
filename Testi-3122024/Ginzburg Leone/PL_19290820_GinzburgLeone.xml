@@ -3327,6 +3327,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213135542600",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T12:55:42.600Z",
+	"dcterms:modified": "2024-12-13T12:55:42.600Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213135542600#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213135542600#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[49]/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3176219",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213135605283",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T12:56:05.283Z",
+	"dcterms:modified": "2024-12-13T12:56:05.283Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213135605283#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213135605283#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[50]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3378,8 +3536,8 @@
 			<p>Viveva a <placeName key="Savigliano Piedmont Italy" ref="https://geonames.org/3167034" type="real">Savigliano</placeName> sullo scorcio del XVI secolo un tal Falcombello che gestiva una fabbrica di esplosivi e si ha un documento del <date when="1597">1597</date> che richiede a <rs ref="#EmanueleFilibertoDiSavoia">Testa di Ferro</rs> un marchio di fabbrica, dati i grandi servigi resi. Non risulta la risposta del Duca, ma il <rs ref="#BodoPaolo">signor commendatore</rs> non dispera di trovarla. L'erede di cotestui, un Filippo Maria Girolamo, parmi, venne da <persName ref="#CarloEmanueleIDiSavoia" type="real">Carlo Emanuele I</persName> infeudato del <placeName key="Frassino Piedmont Italy" ref="https://geonames.org/3176575" type="real">Frassino</placeName> e di <placeName key="Melle Piedmont Italy" ref="https://geonames.org/3173610" type="real">Melle</placeName>, tutta roba che è qua nel Saluzzese (e che rende fior di quattrini, aggiunge il vercellese signor commendatore).</p>
 			<p>Ma al tapino morirono giovinetti i due figli maschi in un'epidemia a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507" type="real">Parigi</placeName> (a <placeName key="Savigliano Piedmont Italy" ref="https://geonames.org/3167034" type="real">Savigliano</placeName> per chi non ci crede c'è una lapide che li ricorda) e la contea del <placeName key="Frassino Piedmont Italy" ref="https://geonames.org/3176575" type="real">Frassino</placeName> e di <placeName key="Melle Piedmont Italy" ref="https://geonames.org/3173610" type="real">Melle</placeName> minacciava di spegnersi in grembo (che bella fine) alle due figlie superstiti. Ma Filippo Girolamo non era Maria per niente e allora umilmente richiese a Sua Eccellenza che gli scambiassero Falcombello, Frassino e Melle con un feudo trasmissibile per femmine, che fu d'<placeName ref="#Albaretto" type="place">Albaretto</placeName>, il nostro. Una figlia s'impalmò Corporato e fu a <placeName key="Venice Veneto Italy" ref="https://geonames.org/3164603" type="real">Venezia</placeName> e più tardi divennero i Maffei, che ancora durano.</p>
 			<p>L'altra sposò un Ponte e lo fé d'Albaretto. E i Ponte erano Gran ricevitori delle finanze nel Pinerolese (agenti delle imposte, insomma) del Re Cristianissimo e stavan quasi sempre a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507" type="real">Parigi</placeName>. Nelle lotte locali parteggiavano per i gigli. Quando col trattato dei Pirenei (<date when="1661">1661</date>) <persName key="Cardinal Mazarin" ref="http://dbpedia.org/resource/Cardinal_Mazarin" type="real">Mazarino</persName> cedé il Pinerolese ai Savoia, e acquistò alla Francia il <placeName key="Languedoc-Roussillon Languedoc-Roussillon France" ref="https://geonames.org/3007670" type="real">Roussillon</placeName>, i Ponte d’Albaretto vennero stigmatizzati dai Savoia, dichiarati felloni e i lor beni a <placeName key="Pinerolo Piedmont Italy" ref="https://geonames.org/3170694">Pinerolo</placeName> confiscati. Ma riebbero la carica nel Rossiglione e qua, bazzicandoci, un Ponte secondogenito sposò una Lolita Campredon. Intanto il secolo s’écoulait.</p>
-			<p>I Ponte d'Albaretto al tempo della rivoluzione erano in due a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507" type="real">Parigi</placeName>, uno ammiraglio e l'altro "<term cert="high" evaluate="all" generatedBy="human" xml:lang="fr" xml:space="default">jouait la comédie chez le duc d’Orléans</term>" e tra i mattacchioni era massimo. L'ammiraglio ci rimise le ghette, il poeta riparò a <placeName key="Girona Catalonia Spain" ref="https://geonames.org/3121456" type="real">Girona</placeName> con una moglie francese, Montcalm. Viaggiarono, poveri in canna, per mare da <placeName key="Barcelona Catalonia Spain" ref="https://geonames.org/3128760" type="real">Barcellona</placeName> a Genova e il buffone lasciò un diario dove in lettere e versi indirizzati a un amico immaginario descrive le sue peripezie.</p>
-			<p>Giunto a Torino, essendo d’Albaretto, richiese i suoi feudi ed ebbe perdono e comando di truppe nel Pinerolese. Dove scrisse altre bernerie lagnandosi di non poter dormire.</p>
+			<p>I Ponte d'Albaretto al tempo della rivoluzione erano in due a <placeName key="Paris Île-de-France France" ref="https://geonames.org/2988507" type="real">Parigi</placeName>, uno ammiraglio e l'altro "<term cert="high" evaluate="all" generatedBy="human" xml:lang="fr" xml:space="default">jouait la comédie chez le duc d’Orléans</term>" e tra i mattacchioni era massimo. L'ammiraglio ci rimise le ghette, il poeta riparò a <placeName key="Girona Catalonia Spain" ref="https://geonames.org/3121456" type="real">Girona</placeName> con una moglie francese, Montcalm. Viaggiarono, poveri in canna, per mare da <placeName key="Barcelona Catalonia Spain" ref="https://geonames.org/3128760" type="real">Barcellona</placeName> a <placeName key="Genoa Liguria Italy" ref="https://geonames.org/3176219" type="real">Genova</placeName> e il buffone lasciò un diario dove in lettere e versi indirizzati a un amico immaginario descrive le sue peripezie.</p>
+			<p>Giunto a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>, essendo d’Albaretto, richiese i suoi feudi ed ebbe perdono e comando di truppe nel Pinerolese. Dove scrisse altre bernerie lagnandosi di non poter dormire.</p>
 			<p>Intanto anche in Spagna i Campredon subivano un saccheggio e pare che un vecchio padre che stringeva per mano un suo figlioletto abbia visto ardere il castello avito.</p>
 			<p>La penultima dei Campredon diede lezioni di lingue per vivere (meno male che siamo colleghi) e le due cameriere ricamavano. Ma ecco che a imparare le lingue ci viene una Pastors che finí di impalmare il bel Maurizio, l'ultimo dei Campredon.</p>
 			<p>Questa Pastors è memorabile nei fasti della famiglia Campredon, intanto per la questione granaria e poi, più che tutto, perché portò in casa due tesori inestimabili. Uno, una brutta tazza storta e doracchiata dove ci ha bevuto il cioccolato Ferdinando VII il Fedifrago, quando, mercè la Santa Alleanza, rientrava in Spagna e a Girona incomodava i Pastors, l'altro, un pendolo rococò che l'"empereur" regalava ai medesimi passando qualche anno prima per la stessa Girona. Dove si vede che in quanto a politica i Pastors erano anche in gamba. Più tardi furono Carlisti. Qua naturalmente ti stupirai di sentire versare con tanta freddezza una tale cornucopia di erudizione che tu faresti fruttare per un anno e io anche, ma così non la pensa il Signor Commendatore, che quando ha un problema difficile viene da me e io gli ho già delucidato, primo, la questione del re che ha bevuto nella tazza, che senz'altro è Ferdinando VII e non Carlo IV, come si sospettava in famiglia, secondo la questione delle statue, di cui più innanzi.</p>
