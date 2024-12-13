@@ -1827,6 +1827,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213132840428",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T12:28:40.428Z",
+	"dcterms:modified": "2024-12-13T12:28:40.428Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213132840428#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213132840428#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[40]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Pliny_the_Elder",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1869,7 +1949,7 @@
 			<p>Come una sera tardi, che tutti erano già su e io taroccavo ancora di pedagogia col <rs ref="#BodoPaolo">commendatore</rs>, che questi riferendo un supposto pensiero sul prossimo del figlio indifferente e blasé esclamò "Che cosa me ne importa di quel coglione lì", che mi parve troppa libertà. E al più piccolo una volta, dell'erede dei del Carretto di Saluzzo, gente che ha 5 bande rosse in campo argento perché una volta un cavaliere che aveva il sangue al naso ci si è asciugate le mani, e se tutto andava bene facevan loro la barba ai conti di Savoia, venne detto: "Che rompicoglioni!" Tutti sentimmo, però non ci badammo. Non sempre insomma mi trovo nel mio ambiente. Come un'altra volta a tavola che si parlava di imprecazioni e l'<rs ref="#BodoManolo">allievo</rs> domanda "E sacranon?" "Oh! – fa il <rs ref="#BodoPaolo">signor commendatore</rs>, – andiamo nelle bestemmie". "Lo dice sempre il signor professore". "Ah sì, – mi sorride la <rs ref="#CampredonDAlbarettoLaura">signora contessa</rs> che è alla mia destra, – però è francese". "Come sacrebleu", aggiungo io.</p>
 			<p>Devi sapere che nel salone c'è attaccato al caminetto il Calendario della vita pura dell'amore e della fede. "Ho <rs key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">un amico</rs>, signora contessa, che ha tradotto <title key="Anna Karenina" ref="http://dbpedia.org/resource/Anna_Karenina" level="m">Anna Karenina</title>". "Oh, Pavese, è un libro magnifico". "Posso leggerlo io, mamma?" "No, <persName ref="#BodoPaola" type="real">Paola</persName>".</p>
 			<p>Ma torniamo alla teoria e storia della storiografia. Il <rs ref="#BodoPaolo">signor commendatore</rs> mi ha già spiegato, con tutte le frazioni, le vicende araldiche di mezzo <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831" type="real">Piemonte</placeName>, un giorno che andavamo in automobile verso <placeName key="Pinerolo Piedmont Italy" ref="https://geonames.org/3170694" type="real">Pinerolo</placeName> e guidava <rs ref="#BodoPaola">la tota</rs> e io lì di fianco pensavo che una mano inguantata femminile, poggiata sul volante, è una cosa più bella e moderna di qualunque grattacielo.</p>
-			<p>Pare dunque che un tal Filippo d'Acaia abbia fatto forza ai Castelvecchio, per cui <placeName key="Bricherasio Piedmont Italy" ref="https://geonames.org/3181539" type="real">Bricherasio</placeName> passò per quattro quinti ai Cacherano, che a <placeName key="Rorà Piedmont Italy" ref="https://geonames.org/6543401" type="real">Rorà</placeName> ci siano stati i frati e che Plinio dica: «Nunquam [lacuna]».</p>
+			<p>Pare dunque che un tal Filippo d'Acaia abbia fatto forza ai Castelvecchio, per cui <placeName key="Bricherasio Piedmont Italy" ref="https://geonames.org/3181539" type="real">Bricherasio</placeName> passò per quattro quinti ai Cacherano, che a <placeName key="Rorà Piedmont Italy" ref="https://geonames.org/6543401" type="real">Rorà</placeName> ci siano stati i frati e che <persName key="Pliny the Elder" ref="http://dbpedia.org/resource/Pliny_the_Elder" cert="medium" type="real">Plinio</persName> dica: «Nunquam [lacuna]».</p>
 			<p>Quello scellerato d'un console del Siam mi ha poi fatto passare tutta una sera che il grosso della famiglia era andato in automobile a non so che ballo e io no perché non avevo lo smoking, tutta la sera dico, a sfogliare, pare per bibliofilia, un Digesto pidocchioso, e se lo amoreggiava senza mica averlo mai letto e discuteva animosamente sugli articoli che gli capitava di vedere e mi faceva tradurre dal greco, a prima vista, dei pezzi che c'eran lì, chissà come.</p>
 			<p>Ma se tutte le palle che gli ho contato valessero per tanti quarti, oramai io sono più nobile di lui. Che non lo è niente affatto. Ed ecco qua la macchiavellica. Delle tre o quattro volte (e non è ancora finita) che mi ha contato la storia di famiglia, non mi ha mai contato la sua, ma sempre soltanto quella della moglie. Egli è un vile plebeo o, peggio ancora, è sol nobiluomo, il che prova che la sua schiatta fu grande un dì, ma or scese a bassura.</p>
 			<p>La moglie sì, niente da dire. Anzi ha una specialità nell'araldica che non esiste la compagna in tutto il duro Piemonte. Avrai notato, coi tuoi soliti occhi di talpa, che si dice il Signor Commendatore, la Signora Contessa, e il Contino. Lo che, all'occhio profano, suonerebbe erroneo. Sol dal padre si eredita titolo. Ma, nel caso nostro, il feudo d'A. che è il feudo della Contessa ha il privilegio, concesso da Carlo Emanuele I e rinnovato da Vittorio Amedeo II d'essere trasmissibile, carente malo, per via femminile, per cui adesso, sopravvivendo dei Campredon d'Albaretto solo la Signora Contessa, esso feudo viene a ripapparselo il figlio allievo, il blasé, il nostro eroe. Si tratta, insomma, della prammatica sanzione. Sta' a sentire tutta la storia, che merita, e che del resto, se ha già seccato me, non c'è motivo perché non secchi anche te. Tanto più che voi sapete trovare il fondo di umanità, ecc. ecc.</p>
