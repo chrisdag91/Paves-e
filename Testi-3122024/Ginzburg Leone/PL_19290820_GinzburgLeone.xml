@@ -4913,6 +4913,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213143641572",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T13:36:41.572Z",
+	"dcterms:modified": "2024-12-13T13:36:41.572Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213143641572#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213143641572#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[90]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6543385",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5005,7 +5084,7 @@
 			<p>A tavola, come per ozio, si pose la questione di che trattamento da fare a un pranzo al Principe ereditario. Tutti eran d'accordo che a destra del primo, ci va la padrona di casa e di fronte il marito, ma ecco: e se a tavola c'è una signora più vecchia della padrona? Non andrà costei alla destra di S. A. e la padrona a sinistra? Ma qui la baronessa si scagliò contro l'uso di circondare S. A. di vecchie che puzzano (ma che naso!), fece un breve schizzo del bel quadro che godrebbe Sua Altezza se lo circondassero, invece, di giovanette impuberi sottintese loro due come ottimi elementi poiché pare che lei ci abbia le regard de Venus, raccontò delle molteplici visite a S. A., diede della crinaccia a una di <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName> che pare non l'abbia invitata, cicalò, perorò, si rifece le labbra, sputò, indi tacque.</p>
 			<p>Si sarebbe sentito volare la mosca. In fondo alla stanza Carlo mi ammiccava, se volessi ancora del <term cert="high" evaluate="all" generatedBy="human" xml:lang="fr" xml:space="default">Salade de ris à la Robespierre</term>. Ben venga maggio!</p>
 			<p>Intanto come in convalescenza si era ripreso a parlare, sempre per merito della signora contessa, e venne fuori che nell'intimità il <rs ref="#UmbertoIIDiSavoia">Principe</rs> lo chiamano Beppe.</p>
-			<p>Poi la signora contessa ha contato un bella storiella. Pare che, giorni fa, al <rs ref="#UmbertoIIDiSavoia">Principe</rs> che fa le manovre in una di queste vallate sia venuto voglia di andare a visitare un tal castello di Macello, possesso di un marchese Trotti di Milano. Manda a avvertire e arriva coll'aiutante di campo alle nove del mattino, dove è introdotto senza fracasso in una sala d’aspetto.</p>
+			<p>Poi la signora contessa ha contato un bella storiella. Pare che, giorni fa, al <rs ref="#UmbertoIIDiSavoia">Principe</rs> che fa le manovre in una di queste vallate sia venuto voglia di andare a visitare un tal castello di <placeName key="Macello Piedmont Italy" ref="https://geonames.org/6543385" type="real">Macello</placeName>, possesso di un marchese Trotti di Milano. Manda a avvertire e arriva coll'aiutante di campo alle nove del mattino, dove è introdotto senza fracasso in una sala d’aspetto.</p>
 			<p>E lì aspetta. Scende finalmente un cotale in veste da camera che gli viene a tendere la mano colla solita faccia di chi si è alzato troppo presto presentandosi: "Camillo Trotti". "Fortunatissimo, marchese", ribatte il galletto Umberto di Savoia. "O non mi chiami marchese, altrimenti io la debbo chiamare Altezza. Si sieda qua. Cosa vuole? Vedere la villa?" "Infatti..." E lì han parlato.</p>
 			<p>Il Camillo Trotti glie ne ha dette di tutti i colori. Han parlato di musica e Umbertino dice che non gli piace la musica classica. "L’è che bisognerebbe capirla", fa l'altro. Han parlato della carriera militare che fanno tutti i principi e l’altro: "Ma nel suo caso i gradi li dànno a chiunque".</p>
 			<p>Dopo un po' è scesa la marchesa, e l'anfitrione dice "Mia moglie" e, aggiungendo "la mia disgrazia".</p>
