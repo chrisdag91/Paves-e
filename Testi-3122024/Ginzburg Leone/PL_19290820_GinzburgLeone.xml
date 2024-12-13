@@ -4202,6 +4202,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213141320751",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T13:13:20.751Z",
+	"dcterms:modified": "2024-12-13T13:13:20.751Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213141320751#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213141320751#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[61]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/6255149",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4265,7 +4344,7 @@
 			<p>In fatto di cultura insomma faccio la barba a tutti.</p>
 			<p/>
 			<p>IV. <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Pendaglio da forca</hi>.</p>
-			<p>Peccato però che è gente per cui cercare i buchi nelle calze di un qualunque bel nome della nostra aristocrazia è una cosa altrettanto interessante che parlare dell'avvenire dell'America.</p>
+			<p>Peccato però che è gente per cui cercare i buchi nelle calze di un qualunque bel nome della nostra aristocrazia è una cosa altrettanto interessante che parlare dell'avvenire dell'<placeName key="North America  " ref="https://geonames.org/6255149" type="real">America</placeName>.</p>
 			<p>"Sono un popolo così ingenuo, così bambino che commuove", mi dice la signora contessa. "Io ho conosciuto una signora americana. I loro mariti, hanno una moralità così commovente". Sta a vedere che riescono a rovinarmi anche l’America.</p>
 			<p>"Noi dobbiamo lottare perché non ci riempiano il mercato del grano. C'è poco da dire, la ricchezza è tutta lì. Bene fa Mussolini... Quand'ero sotto-prefetto...", mi dice il signor commendatore, durante la passeggiata, che prima di cena facciamo sempre insieme, discorrendo discorsi consolari e salutando con un cenno della mano i contadini che si tolgono il cappello.</p>
 			<p>E siccome ultimamente abbiamo scoperto che tant'io che lui possiamo sorbire senza danno il caffè bollente, siamo oramai tutto culo e camicia.</p>
