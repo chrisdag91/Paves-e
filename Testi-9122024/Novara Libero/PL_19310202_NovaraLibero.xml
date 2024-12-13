@@ -252,7 +252,7 @@
 		<body>
 			<p>A <persName ref="#NovaraLibero">Libero Novara</persName>, <placeName key="Parma Emilia-Romagna Italy" ref="https://geonames.org/3171457" type="real">Parma</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1931-02-02">2 febbraio [1931]</date></p>
-			<p>Caro Bero,</p>
+			<p>Caro <persName ref="#NovaraLibero">Bero</persName>,</p>
 			<p>qualche giorno di intervallo per mettermi in forma e sotto.</p>
 			<p>Tu ragioni di problemi letterari meglio dei miei colleghi e conosci più libri che osterie. Bravo!</p>
 			<p>Io però casco dalle nuvole a sentire che tu, proprio <hi cert="high" generatedBy="human" rend="italic" xml:space="default">tu</hi>, vuoi che io, proprio <hi cert="high" generatedBy="human" rend="italic" xml:space="default">io</hi>, ti descriva la scena del delitto. Devi sapere che io vengo con te proprio perché, tra le altre virtù, hai quella di parlare da dio, di raccontar le cose sempre svelto, come se parlassi sempre in gergo, e a me che invece a scuola mi sono rovinata la bocca, piace più ancora del vino, stare a sentire chi parla nel tuo modo. Comunque, ecco qui lo svolgimento:</p>
