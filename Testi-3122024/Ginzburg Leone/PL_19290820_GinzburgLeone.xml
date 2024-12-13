@@ -879,6 +879,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213114545117",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T10:45:45.117Z",
+	"dcterms:modified": "2024-12-13T10:45:45.117Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213114545117#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213114545117#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/41963413/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -893,7 +972,7 @@
 			<p>Io gliel'avevo già baciata a tutte meno che a una vecchiaccia che non stava più in piedi e lì proclamandosi "La <persName ref="#MarchesaDiRorà" type="real">Marchesa di Rorà</persName>, dama d'onore a riposo di S. M. la regina d’Italia", "Il Prof. Pavese", faccio per baciargliela. Lei me la tira via e io resto scornato.</p>
 			<p>Concludendo, l'aneddoto è stupido, ma ci sono i più bei nomi della nostra aristocrazia e voi poi sapete trovare il fondo d'umanità</p>
 			<p>anche in una cartolina del pubblico.</p>
-			<p>Tornando alla signora contessa che vorrei dipingere per bene, anzitutto fammi il piacere di insultare Antonicelli. Ella è quarantacinquenne, magra, ma distinta senza affettato, conversevole e madre. Sì! Ella è nobildonna e madre. È un quidsimile ma con più stile della signora Sturani. Dagli del fesso a Antonicelli, daglielo. (Poi, siccome sei ebreo riprenditelo).</p>
+			<p>Tornando alla signora contessa che vorrei dipingere per bene, anzitutto fammi il piacere di insultare <persName key="Antonicelli, Franco." ref="http://viaf.org/viaf/41963413/" type="real">Antonicelli</persName>. Ella è quarantacinquenne, magra, ma distinta senza affettato, conversevole e madre. Sì! Ella è nobildonna e madre. È un quidsimile ma con più stile della signora Sturani. Dagli del fesso a Antonicelli, daglielo. (Poi, siccome sei ebreo riprenditelo).</p>
 			<p>Mi pare insomma di poter affermare che voi mi avete mandato qua farcendomi di vento (contandomi delle balle) e che, qua giunto, mi è toccato di rifarmi tutta l’esistenza. Ma valsi a rifarmela.</p>
 			<p>Sono diventato indispensabile. Ho già risolto alla famiglia una quantità di problemi, di cui, suo loco, dicerò ampiamente.</p>
 			<p>Ora continuo la descrizione. Ho il solito allievo intelligente, ma svogliato. Ha l’abitudine, poverino, di leggere il greco canterellando, poi di provar la voce da contadino, poi da ubriaco, poi da eunuco, e infine, se trova xaxa, ride come un melone. Io lo lascio dire, poi inesorabilmente: "Beh, traduca adesso!" E prima o poi, traduce quasi sempre. Che te ne pare?</p>
