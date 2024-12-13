@@ -800,6 +800,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213114134824",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T10:41:34.824Z",
+	"dcterms:modified": "2024-12-13T10:41:34.824Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213114134824#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213114134824#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Lucrezia_Borgia",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -810,7 +889,7 @@
 			<p>Ma a proposito che storie mi contavi? Qua si ammazza <persName key="Armando Casalini" ref="http://viaf.org/viaf/1675160791856802860007/" type="real">Casalini</persName> e si fa il <rs key="Lateran Treaty" ref="http://dbpedia.org/resource/Lateran_Treaty">Concordato</rs> in piena libertà. Qua abbiamo il <rs ref="#BodoPaolo">signor commendatore</rs> che rutta, il cameriere che interloquisce a tavola, l'<rs ref="#BodoManolo">allievo</rs> che siccome è blasé sta seduto come un sacco di patate, la <rs ref="#CampredonDAlbarettoLaura">signora contessa</rs> che in salotto tiene il cane dritto sulle ginocchia, che mostra il pistolino, la signorina (venticinque anni, coscione) che sedendosi fa vedere fin la cintura reggicalze e il figlio minore che parla di merda e di pitali e mangia il pesce col coltello!!! Tutti si dànno poi fraternamente del cretino. Però siamo religiosissimi e andiamo a messa tutti in fila per dare il buon esempio ai contadini.</p>
 			<p>Io servo di modello all'educazione del più piccolo e quando in salotto lui si piglia i piedi in mano o dice sconcezze, la contessa gli dice prima "indelicato" poi fa il confronto tra me e lui e mi fa molti complimenti.</p>
 			<p>Gran brava dama questa <rs ref="#CampredonDAlbarettoLaura">signora contessa</rs>! Quando, parlando, ha accennato a <placeName ref="#BuzanoMoferrato" type="real">Buzano Monferrato</placeName> di dov'è lei, io ho detto che, lì vicino, a <placeName key="Serralunga di Crea Piedmont Italy" ref="https://geonames.org/3166666" type="real">Serralunga</placeName>, stanno i parenti di <rs cert="high" generatedBy="human" ref="#SiniGuglielmo" xml:space="default">mio cognato</rs> e subito ci siamo fatte un mucchio di feste. Quando sono arrivato, lì per lì non le ho baciato la mano, poi ho visto che tutti glie la baciano e adesso non so più come fare, perché attaccare di punto in bianco sarebbe ridicolo; ebbene, lei non se l'è neanche presa.</p>
-			<p>A proposito di baciamani, la prima domenica, sul sagrato c'era una mandria di marchese e altre nobildonne, perché devi sapere che, come mi ha spiegato il <rs ref="#BodoPaolo">signor commendatore</rs>, da queste parti c'è il vivaio della nobiltà del <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831" type="real">Piemonte</placeName> e lì ci presentavano: "La <persName key="Montespan, Françoise-Athénaïs de Rochechouart de Mortemart 1641-1707 marquise de" ref="http://viaf.org/viaf/7399719/" type="real">marchesa di Montespan</persName>, <persName key="Pompadour, Jeanne Antoinette Poisson, marquise de, 1721-1764" ref="http://viaf.org/viaf/56628259/" type="real">Madame Pompadour</persName>, Lucrezia Borgia!". "Il Professor Pavese... il Professor Pavese... Il Professor Pavese... che è qua per guarire il nostro <persName ref="#BodoManolo" type="real">Manolo</persName> dalle ferite degli esami, ma si figuri..., ma s'immagini... oh il precettore!"</p>
+			<p>A proposito di baciamani, la prima domenica, sul sagrato c'era una mandria di marchese e altre nobildonne, perché devi sapere che, come mi ha spiegato il <rs ref="#BodoPaolo">signor commendatore</rs>, da queste parti c'è il vivaio della nobiltà del <placeName key="Piemonte Piedmont Italy" ref="https://geonames.org/3170831" type="real">Piemonte</placeName> e lì ci presentavano: "La <persName key="Montespan, Françoise-Athénaïs de Rochechouart de Mortemart 1641-1707 marquise de" ref="http://viaf.org/viaf/7399719/" type="real">marchesa di Montespan</persName>, <persName key="Pompadour, Jeanne Antoinette Poisson, marquise de, 1721-1764" ref="http://viaf.org/viaf/56628259/" type="real">Madame Pompadour</persName>, <persName key="Lucrezia Borgia" ref="http://dbpedia.org/resource/Lucrezia_Borgia" type="real">Lucrezia Borgia</persName>!". "Il Professor Pavese... il Professor Pavese... Il Professor Pavese... che è qua per guarire il nostro <persName ref="#BodoManolo" type="real">Manolo</persName> dalle ferite degli esami, ma si figuri..., ma s'immagini... oh il precettore!"</p>
 			<p>Io gliel'avevo già baciata a tutte meno che a una vecchiaccia che non stava più in piedi e lì proclamandosi "La Marchesa di Rorà, dama d'onore a riposo di S. M. la regina d’Italia", "Il Prof. Pavese", faccio per baciargliela. Lei me la tira via e io resto scornato.</p>
 			<p>Concludendo, l'aneddoto è stupido, ma ci sono i più bei nomi della nostra aristocrazia e voi poi sapete trovare il fondo d'umanità</p>
 			<p>anche in una cartolina del pubblico.</p>
