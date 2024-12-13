@@ -4360,6 +4360,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213141428372",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T13:14:28.372Z",
+	"dcterms:modified": "2024-12-13T13:14:28.372Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213141428372#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213141428372#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[63]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Benito_Mussolini",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213141512182",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T13:15:12.182Z",
+	"dcterms:modified": "2024-12-13T13:15:12.182Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213141512182#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213141512182#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[67]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4425,11 +4583,11 @@
 			<p>IV. <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Pendaglio da forca</hi>.</p>
 			<p>Peccato però che è gente per cui cercare i buchi nelle calze di un qualunque bel nome della nostra aristocrazia è una cosa altrettanto interessante che parlare dell'avvenire dell'<placeName key="North America  " ref="https://geonames.org/6255149" type="real">America</placeName>.</p>
 			<p>"Sono un popolo così ingenuo, così bambino che commuove", mi dice la signora contessa. "Io ho conosciuto una signora americana. I loro mariti, hanno una moralità così commovente". Sta a vedere che riescono a rovinarmi anche l’<placeName key="North America  " ref="https://geonames.org/6255149" type="real">America</placeName>.</p>
-			<p>"Noi dobbiamo lottare perché non ci riempiano il mercato del grano. C'è poco da dire, la ricchezza è tutta lì. Bene fa Mussolini... Quand'ero sotto-prefetto...", mi dice il signor commendatore, durante la passeggiata, che prima di cena facciamo sempre insieme, discorrendo discorsi consolari e salutando con un cenno della mano i contadini che si tolgono il cappello.</p>
+			<p>"Noi dobbiamo lottare perché non ci riempiano il mercato del grano. C'è poco da dire, la ricchezza è tutta lì. Bene fa <persName key="Benito Mussolini" ref="http://dbpedia.org/resource/Benito_Mussolini" type="real">Mussolini</persName>... Quand'ero sotto-prefetto...", mi dice il signor commendatore, durante la passeggiata, che prima di cena facciamo sempre insieme, discorrendo discorsi consolari e salutando con un cenno della mano i contadini che si tolgono il cappello.</p>
 			<p>E siccome ultimamente abbiamo scoperto che tant'io che lui possiamo sorbire senza danno il caffè bollente, siamo oramai tutto culo e camicia.</p>
 			<p>Il bello è che minaccio di diventare tutto culo e camicia anche col domestico.</p>
 			<p>Il primo giorno mi ha preso in disparte e mi ha chiesto se sono ammogliato.</p>
-			<p>Poi dice di mia mamma "Povera donna, chissà come sarà contenta!" E finalmente "A Torino esco sovente di sera".</p>
+			<p>Poi dice di mia mamma "Povera donna, chissà come sarà contenta!" E finalmente "A <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName> esco sovente di sera".</p>
 			<p>Giorni dopo mi tira uno scapaccione amichevole, esclamando "Il nostro signor professore!" (Avevo detto a tutta la famiglia che mi chiamassero meglio Pavese; per giustizia intanto, e poi, c'era la signorina, per non farmi sembrare un barbone oleoso. Tutti ora mi chiamano spiritosamente "il signor professore"). Proseguendo, Carlo mi attacca bottoni, mi spiega chi sono certe visite, mi chiede se so andare in bicicletta, insomma mi tiranneggia. Si ha un bel essere democratici ma ci si secca. Ma che cosa sono certe famigliarità? Quando uno vive in mezzo a tutta questa nobiltà, diventa nobile in pectore, c'è poco da dire.</p>
 			<p>Mi ha contato che da 8 anni è al servizio della casa, da quando il sig. Commendatore era prefetto, e a Verona hanno ricevuto Mussolini e lui serviva in tavola (Carlo, non il prefetto). Poi mi ha consigliato "Perché non fa anche lei, signor professore, la carriera da prefetto? Uno è rispettato. È bello, sa, fare il prefetto".</p>
 			<p>Resta però sempre una cosa a cui non riesco ad adattarmi. A me, vedere quel cameriere che gira intorno a servire e lui non mangia, mi si sveglia l'89 e non riesco a digerire.</p>
