@@ -4755,6 +4755,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213143008099",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T13:30:08.099Z",
+	"dcterms:modified": "2024-12-13T13:30:08.099Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213143008099#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213143008099#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[84]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/5057618/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4841,7 +4920,7 @@
 			<p>"Il professor Pavese che è qui per... La Marchesa... e la Baronessa...!" A quest'ultima acchiappo la manona, ma le calava fin sulle unghie un tal pelliccione da viaggio che là dentro mi ci son perso e le debbo aver baciato perlomeno il gomito.</p>
 			<p>Andiamo avanti. Vanno al cesso a mettersi in libertà. Poi tornano blaterando e ci sediamo nel salone. E lì cominciano. Devi sapere che <rs ref="#EmanueleFilibertoDiSavoia">il duca d'Aosta</rs> è un vecchiaccio che dorme a tutte le udienze e che, se non avesse il titolo che ha, sarebbe una vergogna, devi sapere che l'ex amante della <rs ref="#BonaparteMariaLetizia">Principessa Letizia</rs> vive con delle amiche a <placeName key="Monte-Carlo  Monaco" ref="https://geonames.org/2992741" type="real">Montecarlo</placeName> e fa il cochon, e devi sapere che, siccome la moglie di non so che altezza non si sa come nasca, puzza che fa venir male. Questa fu la prima mandata.</p>
 			<p>Confesso subito che io per tutta la sera non ho detto che una frase, e la vedrai. Altro niente. Sei matto. Quelle due eran capaci di domandarmi come nasco.</p>
-			<p>La più animosa era la baronessa, quella grossa, un puttanone che a vederla in camicia non le daresti cinque lire. Invece lì, con quella faccia dura da mercatantessa, tagliava così corto che persino il nostro commendatore pareva più striminzito del solito (pensare che è già peggio di Monti).</p>
+			<p>La più animosa era la baronessa, quella grossa, un puttanone che a vederla in camicia non le daresti cinque lire. Invece lì, con quella faccia dura da mercatantessa, tagliava così corto che persino il nostro commendatore pareva più striminzito del solito (pensare che è già peggio di <persName key="Monti, Augusto, 1881-1966" ref="http://viaf.org/viaf/5057618/" type="real">Monti</persName>).</p>
 			<p>L'altra (la vidi bene a tavola perché ce l'avevo di fronte), faceva tutto prüsin prüsin con un bel vellutino intorno al corpo che le segnava le poppette: teneva il coltello come la penna stilografica, guardava di sotto in su dal suo piatto, parlottava con tanto contegno, metteva la sozia sulla strada e poi tornando a guardare per storto il tondo, stava a sentire le spetazzate a freddo della marescialla.</p>
 			<p>I bambini di famiglia una volta tanto stavano zitti. Teneva testa sola a tutto il diluvio la signora contessa, con leggeri rinforzi del signor commendatore, ma il più faceva lei, e si disimpegnava con tanta scorrevolezza e [...] che a un certo punto volevo gridare "Qui è la patria!"</p>
 			<p>A tavola, come per ozio, si pose la questione di che trattamento da fare a un pranzo al Principe ereditario. Tutti eran d'accordo che a destra del primo, ci va la padrona di casa e di fronte il marito, ma ecco: e se a tavola c'è una signora più vecchia della padrona? Non andrà costei alla destra di S. A. e la padrona a sinistra? Ma qui la baronessa si scagliò contro l'uso di circondare S. A. di vecchie che puzzano (ma che naso!), fece un breve schizzo del bel quadro che godrebbe Sua Altezza se lo circondassero, invece, di giovanette impuberi sottintese loro due come ottimi elementi poiché pare che lei ci abbia le regard de Venus, raccontò delle molteplici visite a S. A., diede della crinaccia a una di Torino che pare non l'abbia invitata, cicalò, perorò, si rifece le labbra, sputò, indi tacque.</p>
