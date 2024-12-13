@@ -1037,6 +1037,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?rs_annotation_20241213115630498",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T10:56:30.498Z",
+	"dcterms:modified": "2024-12-13T10:56:30.498Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?rs_annotation_20241213115630498#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?rs_annotation_20241213115630498#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://viaf.org/viaf/94052107/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1058,8 +1137,8 @@
 			<p>Facciamo di gran discussioni su quest’<rs ref="#BodoManolo">allievo</rs>, lui presente, alla sera, sdraiati tutti su dei cuscini per la scala che dà sul giardino (sarà molto chic questo sistema, ma rompe la schiena peggio d'un'inculata). La <rs ref="#CampredonDAlbarettoLaura">madre</rs> sostiene che non è mica vero che il contino abbia quel carattere indifferente che vuol far credere, ma che è così blasé e beffardo per posa e che ciò forse le spezzerà il cuore. "Però si ravvederà, non crede professore?"</p>
 			<p>"Io direi, signora contessa, che questo carattere, com'è del resto di tutti i caratteri, <persName ref="#BodoManolo" type="real">Manolo</persName> se lo porterà nella tomba".</p>
 			<p>"Oh Dio, crede? Ma se è soltanto una posa! Oh Dio. No, per tutta la vita?"</p>
-			<p>"Ma appunto, signora contessa. Se uno avesse l'indifferenza come carattere ingenuo e precipuo, forse potrebbe correggersene, ma quando quest'indifferenza è una cosa voluta, viziosa, allora rivela un anteriore sforzo introspettivo, un vizio della volontà e mi par difficile... (Numi dell'olimpo, qua ci vuole il Ginzburghe!) Avrei un amico, signora contessa, che fa la psicologia a chiunque, quello sì che andrebbe bene".</p>
-			<p>Una sera la signora contessa andava in estasi dinanzi al seguente spettacolo: la luna che si toglieva la camicia dietro un nuvolone male illuminato, e disse "Che effetto meraviglioso! Che trasparenza di nuances". Il Commendatore fece eco "L’è ‘n bel spetàcul, dabún!" e la signorina guardava col mento in su appoggiato al pugno. (Il professore pensava all'anguinaglia della signorina). Allora il contino, di dov'era stravaccato sul pliant, canterellò "Che màniga di cretini".</p>
+			<p>"Ma appunto, signora contessa. Se uno avesse l'indifferenza come carattere ingenuo e precipuo, forse potrebbe correggersene, ma quando quest'indifferenza è una cosa voluta, viziosa, allora rivela un anteriore sforzo introspettivo, un vizio della volontà e mi par difficile... (Numi dell'olimpo, qua ci vuole <rs key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/">il Ginzburghe</rs>!) Avrei un amico, signora contessa, che fa la psicologia a chiunque, quello sì che andrebbe bene".</p>
+			<p>Una sera la <rs ref="#CampredonDAlbarettoLaura">signora contessa</rs> andava in estasi dinanzi al seguente spettacolo: la luna che si toglieva la camicia dietro un nuvolone male illuminato, e disse "Che effetto meraviglioso! Che trasparenza di nuances". Il Commendatore fece eco "L’è ‘n bel spetàcul, dabún!" e la signorina guardava col mento in su appoggiato al pugno. (Il professore pensava all'anguinaglia della signorina). Allora il contino, di dov'era stravaccato sul pliant, canterellò "Che màniga di cretini".</p>
 			<p>"Manolo, non mi piace che dici queste cose!" ruppe il padre.</p>
 			<p>"Se tu non capisci la poesia delle cose belle, non è un motivo per rimproverarlo ad altri!" pianse la madre.</p>
 			<p>"Tanto più quando questi altri siamo noi" (signorina).</p>
