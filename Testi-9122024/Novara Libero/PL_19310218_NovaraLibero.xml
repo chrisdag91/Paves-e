@@ -252,7 +252,7 @@
 		<body>
 			<p>A <persName ref="#NovaraLibero">Libero Novara</persName>, <placeName key="Parma Emilia-Romagna Italy" ref="https://geonames.org/3171457" type="real">Parma</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1931-02-18">18 febbraio [1931]</date></p>
-			<p>Bell’omo,</p>
+			<p><rs ref="#NovaraLibero">Bell’omo</rs>,</p>
 			<p>Non scrivevo più perché il lavoro mi ammazzava, la purilla mi succhiava, la vita era pesante, e non sapevo cosa scrivere. Ma il tuo tocco, o chirurgo, elettrizza le rane! Stammi dunque a sentire.</p>
 			<p>Fior della pampa</p>
 			<p>bevuto che ha Berin come una pompa</p>
