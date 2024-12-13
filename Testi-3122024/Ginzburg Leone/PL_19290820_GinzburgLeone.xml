@@ -5071,6 +5071,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213150015117",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T14:00:15.117Z",
+	"dcterms:modified": "2024-12-13T14:00:15.117Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213150015117#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?place_annotation_20241213150015117#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[103]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5175,8 +5254,8 @@
 			<p/>
 			<p>v. <hi cert="high" generatedBy="human" rend="italic" xml:space="default">Ora pro nobis</hi>.</p>
 			<p>Del <rs ref="#UmbertoIIDiSavoia">galletto</rs> si è ancora parlato in casa. Sono andati a un altro ballo qua vicino dove c'era anche lui. Io no perché non avevo lo smoking. Ma l'indomani sento che <rs ref="#UmbertoIIDiSavoia">il Principe</rs> verrà al tè da noi entro tre giorni. Sei matto. Lì per lì ho fatto il pudico. Volevo ritirarmi per la questione del vestito ma il <rs ref="#BodoPaolo">signor commendatore</rs> mi fa "Si metta in bleu che va benissimo. Soltanto, un colletto bianco. Lei fa parte della famiglia". E va bé.</p>
-			<p>Caro mio, ho veduto i preparativi e non vedrò più niente di così sollazzevole. Pare che il Principe accettando l'invito abbia detto "Non disturbo?" "Ma s’immagini, Altezza!" Sta' a sentire.</p>
-			<p>Sono andati coll'automobile a Torino a vuotar la casa e gli scrigni. Argenteria che pareva una descrizione di Victor Hugo. Hanno cambiato tutte le guide delle scale. Hanno messo in aria tutto il parco. Incorniciati a nuovo i ritratti della Margherita, del Vittorio e di Beppe. Messo in vista su un tavolo Il conte rosso, stancate le ginocchia della figlia per farle ripassare la riverenza. Preparata la formula "Vostra Altezza gradisce una tazza di tè". E il giorno della visita, chiesti in prestito due camerieri in più.</p>
+			<p>Caro mio, ho veduto i preparativi e non vedrò più niente di così sollazzevole. Pare che <rs ref="#UmbertoIIDiSavoia">il Principe</rs> accettando l'invito abbia detto "Non disturbo?" "Ma s’immagini, Altezza!" Sta' a sentire.</p>
+			<p>Sono andati coll'automobile a <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName> a vuotar la casa e gli scrigni. Argenteria che pareva una descrizione di Victor Hugo. Hanno cambiato tutte le guide delle scale. Hanno messo in aria tutto il parco. Incorniciati a nuovo i ritratti della Margherita, del Vittorio e di Beppe. Messo in vista su un tavolo Il conte rosso, stancate le ginocchia della figlia per farle ripassare la riverenza. Preparata la formula "Vostra Altezza gradisce una tazza di tè". E il giorno della visita, chiesti in prestito due camerieri in più.</p>
 			<p>Il bello è che il Principe sarebbe venuto così, privatamente, a far quattro chiacchiere, presenti solo quei due o tre capi di nobiltà che sono proprio indispensabili al suo smistamento.</p>
 			<p>Mi viene in mente un predicatore che diceva "Se voi doveste ricevere il re nelle vostre case, forse che non togliereste tutto l'antico, non ripulireste e rimettereste a nuovo ogni cosa, forse che non cerchereste le vivande più rare, gli oggetti più preziosi, forse che non ecc. ecc. E così, o miei fedeli parrocchiani, dobbiamo fare noi della nostra anima, preparandoci a ricevere quel pane celestiale, beatissimo e divino di cui dice S. Paolo, ecc. ecc.".</p>
 			<p>Basta, ho proprio veduto il gran vassallo che riceve il Signore.</p>
