@@ -5703,6 +5703,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213151434670",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-13T14:14:34.670Z",
+	"dcterms:modified": "2024-12-13T14:14:34.670Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213151434670#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19290820_GinzburgLeone.xml?person_annotation_20241213151434670#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[134]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/94052107/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5838,8 +5917,8 @@
 			<p>Ahi, che si ferma a guardarmi. Si volta a parlare alla <rs ref="#CampredonDAlbarettoLaura">Signora Contessa</rs>. Aiuto! Qua mi fa tagliare la testa.</p>
 			<p>"È il professore che è qua per guarire…"</p>
 			<p>Ha chiesto chi sono, se n'è ricordato. Tanto vale allora, alla partenza tornerò a non fargli l’inchino. Repubblicano fino alla morte.</p>
-			<p>Ma guarda che il Principe non si è nemmeno fatta la barba! Allora allargo le gambe anche. "Vostra Altezza gradisce una tazza di tè?"</p>
-			<p>Ma adesso caro Ginzburg sono stufo di novellare. Riassumendoti, siamo andati avanti per tutto il pomeriggio a ballonzolare intorno a quel caporalaccio ben educato, e la Vostra Altezza e che scusi e che s'immagini e ci fa troppo onore e permette una posa e avanti. E sempre quelle madame che gli facevano la riverenza. Io sarei stato più spiritoso.</p>
+			<p>Ma guarda che <rs ref="#UmbertoIIDiSavoia">il Principe</rs> non si è nemmeno fatta la barba! Allora allargo le gambe anche. "Vostra Altezza gradisce una tazza di tè?"</p>
+			<p>Ma adesso caro <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" type="real">Ginzburg</persName> sono stufo di novellare. Riassumendoti, siamo andati avanti per tutto il pomeriggio a ballonzolare intorno a quel caporalaccio ben educato, e la Vostra Altezza e che scusi e che s'immagini e ci fa troppo onore e permette una posa e avanti. E sempre quelle madame che gli facevano la riverenza. Io sarei stato più spiritoso.</p>
 			<p>Però ho avuto la soddisfazione di perseguitare colla mia biffa la mente del galletto per tutto il pomeriggio. Vedevo che ogni tanto mi scrutava. E poi non parlavano che di me. Presentavano il figlio blasé, io. Gli indicavano le statue, io. Gli vuotavano il tè nella tazza del Fedifrago, io. Mi deve avere sui coglioni mica male. "E il Signor Professore... e il Signor Professore…"</p>
 			<p>Ciau e ammirami.</p>
 			<p>P.S. Mance. Baciamano.</p>
