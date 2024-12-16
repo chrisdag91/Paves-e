@@ -335,7 +335,7 @@
 			<p>Congratulazioni, congratulazioni, congratulazioni.</p>
 			<p>Arrivo ora perché <persName key="Arnaldo Mussolini" ref="http://dbpedia.org/resource/Arnaldo_Mussolini">Arnaldo</persName> defunto ha seccato ancora una volta l'umanità facendo chiudere il provveditorato. Ma Lei era già tranquilla, anzi, eri già tranquilla – visto siamo parenti.</p>
 			<p/>
-			<p>Voghera Eufrosina 	69 040</p>
+			<p><persName ref="#VogheraEufrosina">Voghera Eufrosina</persName> 	69 040</p>
 			<p>Numero di merito per la prov. di Tor. 	198</p>
 			<p>per la prov. di Aless. 			114</p>
 			<p>Alutto Palmira 		66 823</p>
