@@ -253,7 +253,7 @@
 			<p>Ad <persName ref="#RuataAdolfo">Adolfo Ruata</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505" type="real">Brancaleone</placeName>,] <date when="1935-10-02">2 ottobre [1935]</date>
 			<p/>
-			<p>Caro Adolfo,</p>
+			<p>Caro <persName ref="#RuataAdolfo">Adolfo</persName>,</p>
 			<p>ho saputo del tuo matrimonio. Mi ha molto consolato, e non dimenticarti che c'è chi non si sposa.</p>
 			<p>Festeggiami molto la signora.</p>
 		</body>
