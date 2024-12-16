@@ -250,9 +250,9 @@
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<p>A <persName ref="#PaveseDina">Dina</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
+			<p>A Dina, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1930-07-24">24 luglio 1930</date></p>
-			<p><rs ref="#PaveseDina">Bambolina mia</rs>,</p>
+			<p>Bambolina mia,</p>
 			<p>se tu fossi una di quelle signorine stupide, di famiglia, che non sanno nulla della vita e pretendono di fare le civette, io fingerei</p>
 			<p>d’essere innamoratissimo e sarebbe finito. Ma tu sei una ragazza buona, che sai già bastare a te stessa e che hai sofferto nell'esistenza</p>
 			<p>quanto occorre per capire ciò che è sincero e ciò che è serio.</p>
