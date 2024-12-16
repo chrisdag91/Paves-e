@@ -641,6 +641,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19300820_GinzburgLeone.xml?person_annotation_20241216220312844",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-16T21:03:12.844Z",
+	"dcterms:modified": "2024-12-16T21:03:12.844Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19300820_GinzburgLeone.xml?person_annotation_20241216220312844#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19300820_GinzburgLeone.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-3122024/Ginzburg%20Leone/PL_19300820_GinzburgLeone.xml?person_annotation_20241216220312844#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/41963413/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -651,7 +730,7 @@
 			<p>Adempiuto un anno di lavoro soddisfacente Lei potrà far domanda per la completa immatricolazione nelle G. F. (Facoltà per la Laurea?)</p>
 			<p>I certificati sono due fogli uguali colla patacca rossa, dove si dice che per il <date when="1930-09-25">25 Settembre</date> io sono atteso dal direttore dai segretari e dalle dattilografe, che so l'inglese abbastanza da seguire i corsi e che esso foglio deve bastare a chiunque verifichi il mio passaporto, che il console mi darà senz'altro dietro consegna di uno di questi fogli.</p>
 			<p>Né soldi, né cattedre. <persName key="Prezzolini, Giuseppe, 1882-1982" ref="http://viaf.org/viaf/109649570/" type="real">Prezzolini</persName> è due settimane che dovrebbe avermi risposto se c'è i soldi, ma dev'essere morto.</p>
-			<p>Rispondimi presto l'indirizzo di <persName key="Farinelli, Arturo, 1867-1948" ref="http://viaf.org/viaf/64133235/" type="real">Farinelli</persName>. Intanto io cerco di saperlo da Antonicelli e appena ce l'ho gli scrivo dicendo che non è la maniera e che mi paghi i danni e gli interessi.</p>
+			<p>Rispondimi presto l'indirizzo di <persName key="Farinelli, Arturo, 1867-1948" ref="http://viaf.org/viaf/64133235/" type="real">Farinelli</persName>. Intanto io cerco di saperlo da <persName key="Antonicelli, Franco." ref="http://viaf.org/viaf/41963413/" type="real">Antonicelli</persName> e appena ce l'ho gli scrivo dicendo che non è la maniera e che mi paghi i danni e gli interessi.</p>
 			<p>Non mi pare nemmeno probabile che arrivato dal direttore, questo mi dica in una lingua che non capisco "C’è per lei 50 000 L. Aspetti che glie le do".</p>
 			<p>Comunque se Farinelli mi rispondesse che è così e che di soldi in America finora non ne han parlato per delicatezza, c'è da fidarsi?</p>
 			<p>Mi pare che le Eccellenze e i loro amici siano dei bei maiali. Ma se non vado, quest'inverno gli nascondo in tasca una poesia contro il duce e poi scrivo al medesimo segnalando l’insurrezione. Vacca Dio.</p>
