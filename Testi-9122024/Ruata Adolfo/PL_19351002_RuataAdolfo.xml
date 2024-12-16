@@ -204,7 +204,7 @@
 	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-9122024/Ruata%20Adolfo/PL_19351002_RuataAdolfo.xml?date_annotation_20241216112631611",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-12-16T10:26:31.611Z",
-	"dcterms:modified": "2024-12-16T10:26:31.611Z",
+	"dcterms:modified": "2024-12-16T10:27:01.983Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Martinogiordano",
 		"@type": [
@@ -236,7 +236,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "xsd:date",
-		"rdf:value": "1931-10-02"
+		"rdf:value": "1935-10-02"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -251,7 +251,7 @@
 	<text>
 		<body>
 			<p>Ad <persName ref="#RuataAdolfo">Adolfo Ruata</persName>, <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>.</p>
-			[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505" type="real">Brancaleone</placeName>,] <date when="1931-10-02">2 ottobre [1935]</date>
+			[<placeName key="Brancaleone Calabria Italy" ref="https://geonames.org/2525505" type="real">Brancaleone</placeName>,] <date when="1935-10-02">2 ottobre [1935]</date>
 			<p/>
 			<p>Caro Adolfo,</p>
 			<p>ho saputo del tuo matrimonio. Mi ha molto consolato, e non dimenticarti che c'è chi non si sposa.</p>
