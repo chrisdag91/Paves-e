@@ -499,7 +499,7 @@
 			<p><persName ref="#AluttoPalmira">Alutto Palmira</persName> 		66 823</p>
 			<p><placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>		242</p>
 			<p><placeName key="Cuneo Piedmont Italy" ref="https://geonames.org/3177700" type="real">Cuneo</placeName>		111</p>
-			<p>Marasso Leti.            77 668</p>
+			<p><persName ref="#MarassoLeti">Marasso Leti</persName>.            77 668</p>
 			<p>To. 		53</p>
 			<p/>
 			<p>Dove si vede che la Marasso è la più brava.</p>
