@@ -331,7 +331,7 @@
 		<body>
 			<p>A <persName key="Ginzburg, Leone, 1909-1944" ref="http://viaf.org/viaf/94052107/" type="real">Leone Ginzburg</persName>, <placeName key="Viareggio Tuscany Italy" ref="https://geonames.org/3164433" type="real">Viareggio</placeName>.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Torino</placeName>,] <date when="1930-08-20">20 agosto 1930</date></p>
-			<p>Ho ricevuto stamattina la risposta da Columbia (non da Prezzolini) che così suona:</p>
+			<p>Ho ricevuto stamattina la risposta da <orgName ref="#UniversitàDiColumbia">Columbia</orgName> (non da Prezzolini) che così suona:</p>
 			<p>Mi pregio mandarle i certificati richiesti per l'ammissione all'Università. Lei ha il permesso di iscriversi nelle Graduate Faculties (Facoltà per la laurea?) come studente fuori classifica.</p>
 			<p>Adempiuto un anno di lavoro soddisfacente Lei potrà far domanda per la completa immatricolazione nelle G. F. (Facoltà per la Laurea?)</p>
 			<p>I certificati sono due fogli uguali colla patacca rossa, dove si dice che per il 25 Settembre io sono atteso dal direttore dai segretari e dalle dattilografe, che so l'inglese abbastanza da seguire i corsi e che esso foglio deve bastare a chiunque verifichi il mio passaporto, che il console mi darà senz'altro dietro consegna di uno di questi fogli.</p>
