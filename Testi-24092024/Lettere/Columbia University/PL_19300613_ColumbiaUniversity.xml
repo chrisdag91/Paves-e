@@ -251,7 +251,7 @@
 		<body>
 			<p>Alla <orgName ref="#ColumbiaUniversity">Columbia University</orgName>, <placeName ref="#NewYork" type="real">New York</placeName>.</p>
 			<p><placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="real">Turin</placeName>, <date when="1930-06-13">13 giugno 1930</date></p>
-			<p>Dear Mr Fackenthal,</p>
+			<p>Dear <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="#MrFackenthal" xml:space="default" type="real">Mr Fackenthal</persName>,</p>
 			<p>I got both your envelopes containing the printed material you spoke about in your kind note enclosed in one of them.</p>
 			<p>The Record of Fellowships and Scholarships in <date from="1930" to="1931">1930-31</date> and the Bulletin of Information of the University.</p>
 			<p>I want to thank you infinitely. As for the further information about the precise conditions which are likely to be granted to me, I should pray you, if something is not yet on mail, to send me a kind notice of yours about.</p>
