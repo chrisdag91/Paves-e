@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A un professore, Roma.</p>
+			<p/>
+			<p>[Torino, ottobre? 1929]</p>
+			<p/>
+			<p>Egr. Profess.,</p>
+			<p>il Prof. Aldo Ricci, cui mi sono rivolto per aiuti bibliografici intorno a una tesi di laurea sulla poesia di Walt Whitman, mi ha scritto dell’assoluta insufficienza in materia delle biblioteche di Firenze e mi consiglia di rivolgermi a Lei che, mi dice, ha relazioni colla Biblioteca Americana di Roma.</p>
+			<p>Le sarei gratissimo se Ella volesse interessarsi a questa mia ricerca e vedere se esistono in Roma, - ed eventualmente come sarebbe possibile consultarli - i saggi whitmaniani di almeno i seguenti autori:</p>
+			<p/>
+			<p>S. Hodgson, &quot;Walt &quot;Whitman , Manchester 1900</p>
+			<p>W. Trimsle, Walt Whitman, London 1905</p>
+			<p>J. A. Symonds, Walt Whitman, London 1893</p>
+			<p>E. C. Stedman, Poeti of America, Boston 1885</p>
+			<p>B. Perry, Walt Whitman, Boston 1908</p>
+			<p>O’Connor, The Good Grey Poet, 1865</p>
+			<p>Johannes Schlaf, Walt Whitman, Homosexual</p>
+			<p>J. Burroughs, Notes about W. W. as a poet and as an individual, 1867</p>
+			<p>J. Burroughs, Birds and Poets, 1878</p>
+			<p>G. Sarrazin, Renaissance de la poesie anglaise, 1888</p>
+			<p>H. Traubel, With W. Whitman in Camden</p>
+			<p>Emory Holloway, Walt Whitman.</p>
+			<p/>
+			<p>Gratissimo le sarò quindi se Ella mi potrà fornire una quantunque piccola indicazione.</p>
+			<p>Le chiedo scusa del disturbo che Le reco, ma la povertà in materia delle nostre biblioteche è tale che in tutta Italia non credo esista una copia pubblica delle prose di W. W. e non parlo poi delle riviste dove pure sono disseminati molti tra i più notevoli di questi studi.</p>
+			<p/>
+			<p>Con rispettosi ossequii.</p>
+			<p>Cesare Pavese</p>
+			<p>del IV anno, Facoltà di Lettere</p>
+		</body>
+	</text>
+</TEI>

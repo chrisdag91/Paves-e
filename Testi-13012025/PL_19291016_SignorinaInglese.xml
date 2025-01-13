@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A una signorina inglese.</p>
+			<p/>
+			<p>[Torino,] 16 ottobre 1929</p>
+			<p/>
+			<p>Dear Miss,</p>
+			<p>I hope you will be remindful of that Italian student who together with Mr. Curti got rowing with you on the Po. I was acquainted by our beautiful Georgie that you remembered my company and by him also I got your adress.</p>
+			<p>Would it not bother you, I should like to had some correspondance with you and to be kept knowing about your literary England as, if you like, I will make with you for Italy.</p>
+			<p>Perhaps I will now also undertake the translation of some English or American books - novels, - and I'll be glad to receive by you a kind explanation of a lot of words and phrases - idioms, slang, americanisms, - which no dictionary makes clear.</p>
+			<p>As you can see I am enough brazen-faced, but I hope you will forgive for your similar wants’ sake.</p>
+			<p>I'll be most pleased to help you in such cases, if, though, you have such needs, knowing you Italian certainly better’n I English. However write freely me, whatever be the contents.</p>
+			<p>Besides, I pray you, send me back some notice of my greatest blunders in this letter and I'll be grateful.</p>
+			<p>Now begging your pardon and waiting</p>
+			<p/>
+			<p>Yours respectfully</p>
+			<p>Cesare Pavese</p>
+		</body>
+	</text>
+</TEI>

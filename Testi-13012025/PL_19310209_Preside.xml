@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A un preside, Carmagnola.</p>
+			<p>[Torino,] 9 febbraio 1931</p>
+			<p/>
+			<p>Chiarissimo Professore,</p>
+			<p>Non potendo per un mucchio di lavoro che mi è capitato addosso in questi ultimi tempi, fare, per ora, la promessa visita a Carmagnola, com’è mio desiderio, vorrei pregarla di farmi sapere qualcosa al proposito della &quot;vile pecunia&quot;, intorno a cui siamo rimasti in sospeso. Voglia sollecitare dalla Segretaria una risposta che credo potrà essere ormai definitiva.</p>
+			<p>Mi è dispiaciuto in questi giorni di non aver potuto prendere il posto di Vigliarli, per tornare tra loro, ma ad ogni modo spero una volta o l’altra di capitarci.</p>
+			<p>Voglia interessarsi, nella Sua cortesia, a quella faccenduola ed abbia per ora, estensibili a tutto il Corpo Insegnante, che ho conosciuto nella mia breve permanenza, i miei ossequi più rispettosi.</p>
+		</body>
+	</text>
+</TEI>

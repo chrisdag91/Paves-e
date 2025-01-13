@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Tina Pizzardo, Torino.</p>
+			<p>[Brancaleone,] 9 settembre [1935]</p>
+			<p/>
+			<p>Cara,</p>
+			<p>scrivo con la tua stilografica. Nonostante la cattiva esperienza non so resistere alla tentazione di una lettera. Non so se le cartoline che ho spedito al vostro indirizzo vi siano giunte. Quattro tue mi sono arrivate. Approfitto di questo bravo ragazzo per mandarti un ricordo. £ già usato, ma non ho altro.</p>
+			<p>Io passo le giornate (gli anni) in quello stato d’attesa che a casa provavo certi pomeriggi dalle due e mezzo alle tre. Sempre, come il primo giorno, mi sveglia al mattino la puntura della solitudine. Descriverti le mie ansie è impossibile. La mia pena non è quella scritta, sei tu; e lo sapeva bene chi ci ha così allontanati. Non scrivo tenerezze; il perché lo sappiamo; ma certo il mio ultimo ricordo umano è il 13 maggio.</p>
+			<p>Ti ringrazio di tutti i pensieri che hai avuto per me. Io per te ne ho uno solo e non cessa mai.</p>
+			<p>Tuo</p>
+		</body>
+	</text>
+</TEI>

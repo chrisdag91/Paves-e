@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A E.</p>
+			<p>[Torino, 23 ottobre 1932]</p>
+			<p/>
+			<p>verrò, come ho scritto a Manfredi, venerdì alla Stazione.</p>
+			<p>Mi dispiace che hai perduto il posto e - guarda che bello - proprio ieri avevo trovato un mio amico che diceva che gli avevano offerto il francese in un ist. comm. di Bra. &quot;Cr..., dico io, ma a Bra so già chi c’è!&quot; &quot;Cr..., dice lui, contavo su quel posto per mangiare quest’inverno&quot;. Consolati, perdi il posto, ma un bel disoccupato sottentra e si rifà le ossa.</p>
+			<p>Tu, sei sempre la stessa? Io a Torino voglio sul serio che stiamo un po’ soli insieme. Tanto più che se hai intenzione di rendermi tutti quei baci, come si fa con M.? Se non mi dici nient’altro venerdì, resta inteso che sabato mattina mi vieni a trovare... St! Zitta!... Sì, vieni e non dire niente.</p>
+			<p>Cosa vuoi sapere di me, E.? Che sono un superbo, uno stupido, un vigliacco, un bambino, un criminale in potenza, un seduttore che non ha coraggio, un letterato ignorante, un delinquente rientrato, uno stupido, stupido, stupido? Bada, dico tutto sul serio. Mi consola pensare che tutti sono come me, ma un tempo avevo la speranza di essere chissà cosa di diverso dagli altri; ora so che sono il bipede comune. Io faccio le poesie, sicuro; ma hai mai visto niente di più inetto, di più inutile, di più ingenuo, trito, misero? E anche questo lo dico sul serio. Blatero di politica; ma che cosa me ne importa, dopotutto? Non ho convinzioni, non ho ingegno, non ho capacità; passo dall’isterismo all’idiozia. Fossi almeno un buon commerciante o un operaio, ma per questi mestieri sono ormai irremediabilmente guastato. E tutto questo che ho detto, è sul serio.</p>
+			<p>Ti è piaciuta la filastrocca, E.? Vedi, come divento cinico da due soldi stando a Torino? Speriamo che tu mi cambi un po’, perché altrimenti non so come va a finire.</p>
+		</body>
+	</text>
+</TEI>

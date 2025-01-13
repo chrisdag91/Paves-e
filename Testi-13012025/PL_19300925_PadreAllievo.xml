@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Al padre d’un allievo.</p>
+			<p>[Torino,] 25 settembre 1930</p>
+			<p/>
+			<p>Egregio Signore,</p>
+			<p>qui acclusa troverà una distinta delle lezioni impartite a Suo figlio, come d’intesa con lui.</p>
+			<p>Spero che lo studente si farà vedere anche prima dei risultati, a raccontarmi le vicende dell’esame, che sono con loro a sperare e a credere riuscito.</p>
+			<p>Inoltre non mancherò di passar da Loro, appena avrò un momento libero e saprò qualche novità da parte del Prof. Monti (il cui indirizzo intanto è Corso Re Umberto 89).</p>
+			<p>Con ossequi.</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A una ragazza.</p>
+			<p>[Torino, settembre 1927?]</p>
+			<p/>
+			<p>La mia grande tristezza è di non saper più darle poesia.</p>
+			<p>Mi pare dì sentirla sempre più lontana da me.</p>
+			<p>In nome dei giorni ardenti in cui tanto ho sognato per lei, non mi abbandoni così ora. Sia mia anche solo per un attimo, ma ritorni ritorni signorina. Non le chiedo più nulla di quello che speravo un tempo, le farei troppo male ora, l'ho compreso bene, ma, via, solo per qualche istante mi sia ancora vicina, mi dia ancora qualche sogno colla sua figura e le sue parole. Sono tanto stanco di tutta la vita, che persino il ricordo di lei sovente mi pare una cosa stanca, morta.</p>
+			<p>Vede, le parlo sincero.</p>
+			<p>Solo, da tutta questa grande rovina a tratti mi s’accendono fiamme ardori per cose belle indicibili che mi danno un po' di ebbrezza e di oblio. Ma poi ricado sempre più stremato.</p>
+			<p>Non neghi alla mia tristezza la vampa l’ebbrezza della sua presenza.</p>
+			<p>Lo sa, nella vita per me non vi sono più che queste ebbrezze stanche.</p>
+			<p>Non le chiedo più nulla di male. Venga, qualche volta, e forse dal sogno della sua presenza mi rifiorirà ancora qualche canto antico.</p>
+			<p>Se qualche volta le ho dato qualche sogno bello, lo ricordi ora e mi venga a sollevare da questa irrequietezza grigia. Abbia il coraggio di proclamare in faccia al mondo la sua sincerità.</p>
+			<p>Queste elevazioni nella vita, la poesia, sono una grande purezza. Io non credo più che in esse ormai. Sono la mia sola ragione dell’esistenza.</p>
+			<p>Se anche lei lo crede, ebbene, abbia il coraggio di venire da me. Sono rassegnato tanto, lo sa.</p>
+			<p>La nostra amicizia è nata nella poesia.</p>
+			<p>Lei ricorda, in quel primo mattino meraviglioso... leggevamo...</p>
+			<p>Ebbene, se non più amore, mi doni almeno poesia.</p>
+			<p>Venga, venga qualche volta lei che sola me ne può riempire il cuore.</p>
+		</body>
+	</text>
+</TEI>

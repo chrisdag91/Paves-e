@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Paolo Bodo, Bibiana.</p>
+			<p>[Torino,] 20 agosto 1930</p>
+			<p/>
+			<p>Gent.mo Sig. Commendatore,</p>
+			<p>Secondo la promessa fatta, sono lieto di disporre finalmente della prossima settimana, per profittare del cortese invito che... risale fino ai tempi ormai mitici dell’esame di Manolo.</p>
+			<p>Ho avuto il piacere di legger tra le righe del resoconto della visita delle Ll. Altezze reali, che la Loro villeggiatura si è svolta finora felicemente, senza nemmeno la pronosticata disavventura automobilistica di Manolo, il quale purtroppo vede avvicinarsi sempre più la data fatidica e nessuna velocità riesce a sottrarvelo.</p>
+			<p>Spero che, col mio volto, non susciterò al giovanotto ricordi o anticipazioni troppo tristi e, ad ogni modo, sarà per poco tempo, poiché altro lavoro mi attende a settembre e la mia visita costì sarà soltanto una gradita ma brevissima oasi in un deserto di guai.</p>
+			<p>Conto dunque di giungere a Bibiana, Lunedì 23, col treno delle 18,51.</p>
+			<p>Con ossequio e scuse anticipate</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Paolo Bodo, Bibiana.</p>
+			<p>[Torino,] luglio 1930</p>
+			<p/>
+			<p>Gent.mo Sign. Commendatore,</p>
+			<p>la Sua lettera mi giunse graditissima specialmente per gli ormai lontani ricordi che suscita.</p>
+			<p>La ringrazio di cuore dell’invito ma ancora non posso accettare come sarebbe mio desiderio, causa un altro... pupillo che per circa un mese dovrò infarcire di latino. Poi, se Dio vuole, l’avrà in cura un mio collega che s’incaricherà di spedirlo all’esame.</p>
+			<p>Soltanto nell’ultima settimana d’agosto quindi potrò forse venire a trascorrere qualche giorno con Loro e, ad ogni modo, riscriverò, a tempo, precisando.</p>
+			<p>Godo molto quel che sento di Manolo e prego tutti Loro di convincerlo a non portarsi libri sul Monviso, caso mai ne mostrasse l’intenzione. In quanto all’automobile, lasci correre che purtroppo il giovanotto arriverà ad ottobre e colla coda tra le gambe rientrerà nel gregge.</p>
+			<p>In attesa d’incontrarli, bacio la mano alla Contessa e a tutti Loro porgo rispettosi saluti e auguri</p>
+			<p/>
+			<p>Cesare Pavese.</p>
+		</body>
+	</text>
+</TEI>

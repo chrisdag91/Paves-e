@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A una signorina inglese.</p>
+			<p>[Torino,] May 8th, 1930</p>
+			<p/>
+			<p>Dear Miss Wilson,</p>
+			<p>I want to beg your pardon for my long silence. I hope you’ll yet remember me, as I had your kindest wishes on Christmas last year.</p>
+			<p>I want yet to praise you for your surprising Italian, the wonderfullest letter I got from English or American people. I knew already you spoke it fluently, but you are also writing it exceedingly well. Best compliments!</p>
+			<p>By the bye, I want to thank you for the nice list of my blunders, followed by so dear explanations.</p>
+			<p>I cannot account for my long silence else than alleging the essay I’m after since months for my degree, notwithstanding I hope you’ll forgive me.</p>
+			<p>Say, Miss Wilson, I heard now from Mr Curti, who is running through France in order to get some appointment by a movie manager, you are asking him for an Italian comedy to teach your pupils about. If I can be of some usefulness I’ll be glad to help you in selecting and getting your book. If you agree, write me about it and also about every want you could have here in Italy.</p>
+			<p>Now, you’ll certainly have gone to the Italian Art Exhibition in London and I should like you would write me something about. Will you?</p>
+			<p/>
+		</body>
+	</text>
+</TEI>

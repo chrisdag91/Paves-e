@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A una ragazza.</p>
+			<p>[Torino,] 9 settembre 1927, notte</p>
+			<p/>
+			<p>Mi perdoni, mi perdoni se colla mia anima egoista, squilibrata e incapace di vivere le do, e le darò ancora, dispiacere, dolore e seccature.</p>
+			<p/>
+			<p>Ma io non trovo piu posa in questi giorni e non posso non pos¬ so far diverso da come faccio, mostrarmi allegro, star lontano da lei, nascondere, insomma. Non posso. Dovrei uccidermi per riu¬ scirvi e questo fatto ora sarebbe troppo enorme. E poi non ne avrei il coraggio materiale. Sono avvilito e tremo delle tristi disillusioni e delle paure che le ho inflitto. Ma non posso far diverso, non pos¬ so. Mi faccia almeno la carità, la supplico, di non trovarmi ora anti¬ patico e maltrattarmi, rispondermi male, e ridere come fa piena¬ mente cogli altri, come se io non fossi mai stato. Forse anche le di¬ venterò insopportabile - dopo di tanto sognare, e tanta ardente realtà, è straziante, bambina - ma non so, non reggo, non vedo piu nulla, soffro e tremo soltanto piu, sono in un buio orrendo dove a tratti il mio cuore ha lunghi brividi lancinanti come di febbre.</p>
+			<p/>
+			<p>Oh i giorni felici dei bei canti pieni di tristezza gioiosa per la sua bellezza, la sua diversità, la sua ammirazione pietosa al povero « fanciullo triste »!</p>
+			<p/>
+			<p>E penso che sono io, proprio io che improvvisamente, quando il sogno era piu inebriante e palpitante, vivo di realtà mai sperata, l’ho stroncato, ucciso per la troppa pienezza e per le malsane pau¬ re decadenti del mio spirito malato di egoismo e di retorica.</p>
+			<p/>
+			<p>Ma sono punito, signorina, di tutto il male che le ho potuto fa¬ re. Lei non poteva far diverso, lei mi aveva dato fin troppo, è stata per me la sola anima femminile buona nella vita, ma quando oggi mi ha morso e ieri mi aveva carezzato, quando mi ha detto che tan¬ to tutto deve finire il cuore mi è scoppiato di lagrime, le vene mi ronzavano e tremavano e negli occhi non avevo che pianto.</p>
+			<p/>
+			<p>Ma è giusto, lei non poteva e non potrà piu d’ora innanzi fare diverso, signorina, sarà già abbastanza addolorata e seccata di es¬ sersi spinta in una simile avventura. Ma è mia la colpa se di ogni fatto insignificante costruisco nella mia anima una tragedia senza</p>
+			<p/>
+			<p/>
+			<p>SETTEMBRE 1927</p>
+			<p/>
+			<p>83</p>
+			<p/>
+			<p>nome e non posso non posso mutare. Sono tanto stanco, le ho det¬ to. Da un anno penso troppo al suicidio. Non posso piu ricevere un leggerissimo affronto dalla vita, che quel pensiero mai attuato e forse inattuabile, mi investe nell’anima e mi toglie ogni forza, la¬ sciandomi flaccido e disperato come sono ora.</p>
+			<p/>
+			<p>Tutto tutto è inutile.</p>
+			<p/>
+			<p>Ma se avrò una volta - non ora, glielo giuro sul ricordo presen¬ te della sua piccola figura bionda - il coraggio di uccidermi sarà tanto lontano - e lontano da lei - che lei non ne dovrà avere il mi¬ nimo rimorso, perché tutto il male sarà stato nella mia anima, e chi mi uccide sarà la delusione della vita, non lei.</p>
+			<p/>
+			<p>E nessuno ne saprà nulla, nessuno. Scomparirò come sono scom¬ parsi infiniti sulla terra. Eppure si usa ridere della vita!</p>
+			<p/>
+			<p>Io non posso. Ma non tema non ne avrò mai il coraggio.</p>
+			<p/>
+			<p>È piu facile, piuttosto, che un giorno impazzisca.</p>
+			<p/>
+			<p>Senta, per togliere a lei quel peso odioso che in questi giorni, dato il mio contegno, gli altri le potrebbero addossare, mi vuole permettere un’ultima finzione?</p>
+			<p/>
+			<p>Farò credere a poco a poco - e saprò riuscirci questa volta - di temere di essere tisico - date le mie malattie passate dò è perfetta¬ mente verosimile - e di venirci in questa fissazione e starmene tri¬ ste ed assorto.</p>
+			<p/>
+			<p>Andrò anche dal medico.</p>
+			<p/>
+			<p>Sarà difficile, ma proveremo. Vuole?</p>
+			<p/>
+			<p>Mi risponda al piu presto, la supplico</p>
+		</body>
+	</text>
+</TEI>

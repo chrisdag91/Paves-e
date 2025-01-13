@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A Laura Campredon d'Albaretto, Torino.</p>
+			<p>[Torino,] 11 novembre [1929]</p>
+			<p/>
+			<p>Gent. Contessa,</p>
+			<p>l’incontro di ieri mi ha fatto ricordare l’impegno preso con Lei, di procurarle una copia di quel frammento inedito di Guido Gozzano, di cui parlavo a Bibiana.</p>
+			<p>È un’opera degli ultimi anni, come Lei del resto vedrà, che riflette tutto lo spirito della Signorina Felicita piena della certezza della morte imminente e della giocondità dolorosa della sua solitudine. Ritroverà anche lo spunto polemico contro G. D’Annunzio, già accennato alla Signorina Felicita.</p>
+			<p>Ella saprà conservarlo con molta discrezione poiché l’autore non ha mai dato il consentimento alla sua diffusione e si riprometteva ancora di limarlo o che altro.</p>
+			<p>Il testo, così come l’ho scritto, è stato ricopiato amichevolmente dal manoscritto originale in possesso di un antico amico del Gozzano stesso, e le ripeto non era forse neanche destinato alla pubblicità. Comunque, questo frammento mi pare vada tra le cose migliori del poeta. E penso che Ella che tanto lo ama ne avrà qualche piacere.</p>
+			<p>Con ossequii, intanto, al Signor Commendatore e alla Sua Signorina, Le ricordo i sensi della mia devozione e Le bacio la mano, suo</p>
+			<p/>
+			<p>Cesare Pavese</p>
+			<p/>
+			<p>P. S. Scusi l’antico professore che non sa resistere al mestiere e mette in nota che l’originaria favola di Ulisse parodiata da Gozzano, si ritrova nel canto ventesimosesto dell'Inferno e nei primi canti delle Laudi del Cielo del Mare della Terra e degli Eroi (I vol. Maia) di Gabriele D’Annunzio.</p>
+		</body>
+	</text>
+</TEI>

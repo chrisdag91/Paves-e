@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITOLO OPERA</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>A una ragazza, Torino.</p>
+			<p>[Torino,] 7 settembre 1927</p>
+			<p/>
+			<p>Sono rassegnato.</p>
+			<p>Sturani mi aveva detto ieri &quot;Questa tale ha una faccia molto libidinosa&quot;. Io fremevo e speravo confusamente. I tuoi fogli, leggendoli, mi hanno riempito di una tempesta stanca di disperazione e di gioia. A tratti erano sfitte soffocanti di un dolore fisico acutissimo nel cuore e nell'anima e tenerezze improvvise deliziose, gioia di sapere che tu hai amato qualcosa di grande in me e che non cercavi soltanto, per vizio, di saziarti una tua febbre di sensi &quot;libidinosi&quot;. Ti parlo sincero senza veli. Anche questo avevo sospettato nei tuoi baci, talvolta sperandolo e talvolta rabbrividendone di disgusto al pensiero. Ora sono rassegnato e mi pare anche più lieto. Ora tu sei per me null'altro che un sogno di tenerezza e di ideale. E se questo, nella mia anima squilibrata e stremata, in qualche istante mi pare non mi soddisfi, pure soprattutto provo una gioia che mi stordisce al pensiero che amo e sono riamato d'amore da una creatura eterea, bionda evanescente non soltanto nei capelli, ma anche nell'anima, al pensiero che quel logorio triste del tuo volto è davvero una malinconia sublime che hai nel cuore e che tu vivi più di poesia che di realtà. Persino quando mi parli, cosi, semplicemente, del tuo grande amore per un altro, amore fatto di dolore, che io tremante di ansia disperata non avevo mai potuto indagare appieno arrestandomi al primo spasimo oppure mi serravo in quella malinconia con una voluttà triste di sofferenza, io trovo motivo di abbellirti di più, di levare più in alto il tuo sogno Madonna bionda.</p>
+			<p>Le Madonne del Botticelli hanno un volto assorto e arrossato dal dolore come il tuo. È triste la mia anima. L'invidia e l'orgoglio sono la sua vita continua. E provo ora una gioia dolcissima di tenerezza a abbassarmi, impicciolirmi agli occhi del tuo grande amore puro, di cui non sono degno, credi, non sono degno.</p>
+			<p>Mi è un dolore terribile pensare che sei di un altro, che un altro ha potuto e potrà ancora fino all’ultimo averti intera, più bella, più intima, più pura che non io, ma mi sforzo, non voglio pensare a questa cosa orribile, non posso reggerci e tento di stordirmi piangendo nella mia miseria e nella mia stanca fiamma sovrumana di poesia.</p>
+			<p>Questa sera son tornato a stordirmi da ubriaco respirando il fumo di una sigaretta. E fantasticavo di te facendo del tuo amore un grande sogno di arte, di cose buone, di tenerezze inesprimibili.</p>
+			<p>Nella nebbia leggera che quel fumo franco mi dà al cervello e a tutto il corpo vivo un amore vaporoso che nemmeno più si tortura dei pensieri ossessionanti di un tempo: che sia una mia illusione quella di essere poeta. O dell'altro più doloroso che in poche settimane mi stancherei di te qualunque cosa facessi, e che l'amore eterno è una stucchevole invenzione di letterati.</p>
+			<p>Così in quest'onda di dolcezza trepida non penso più queste cose e seguo solo la nebbia leggera di fumo e di sogni, felice nella grande sorgente di poesia che trovo in te e nel mondo riacceso da te.</p>
+			<p>Eppure sono triste, triste da piangere, bambina.</p>
+			<p>Mi struggo per una tua carezza, un tuo contatto qualunque, un tuo sguardo ridente.</p>
+			<p>Dopo la grande sincerità che è stata tra di noi, oggi, la tua figura mi è divenuta una realtà di sogno adorabile. E le tue carezze mi fondono il cuore. Oh le carezze che mi hai fatto, in un sorriso struggente, quando ti chiedevo sommessamente se almeno mi avresti ancora permesso di darti del tu, non le potrò più dimenticare. È stato il brivido più dolce della mia vita! E mi pare ora che se ti potrò ancora baciare, mi brucierà talmente il cuore, da lasciarti l'anima tra le labbra. Piccola fata, madonna bionda, povera bambina che hai sofferto, che sacrifichi lentamente nel dolore la tua bellezza delicata e ridente!</p>
+			<p>Ti amo tanto, sai.</p>
+			<p>E mi sono ormai tanto rassegnato che nella mia mente ho paragonato il tuo amore per me a quelle sigarette che fumo la sera, disteso, per empirmi di sogni il cuore e dimenticare.</p>
+			<p>Esse sono brevi, mi dànno pochi istanti di poesia intensa, come i pochi istanti che passo accanto a te e poi come quando sono stanco e ricado nel mio male mi irritano e disgustano la gola, non lasciandomi che il rimpianto. Come esse tu mi sei ormai indispensabile. E mi fai male. Malgrado io sia rassegnato, se penso ai tanti dolori che mi farai ancora soffrire sto tanto male. Ma tante gioie pallide, di sogno, avrò ancora da te.</p>
+			<p>E se penso all'ultimo grande dolore che mi dovrai dare mi si schianta il cuore nel petto. Ma tu non ne hai colpa: me lo hai detto la prima volta, in quel mattino lontano. &quot;Mi perdonerai se ti farò soffrire?&quot; E quelle erano le prime parole d'amore, tutte piene, lo comprendo ora, della tua nuova immensa tristezza, e tu le hai pronunciate quasi piangendo, stretta a me. Non ne hai colpa bambina. Non mi hai tu forse donato una nuova alta, struggente, divina poesia per la mia anima?</p>
+			<p>Solo per questo dovrei adorarti in silenzio per sempre. Perdonami dunque tu invece se nella mia miseria vile ti dimenticherò qualche volta.</p>
+			<p>Sai qual è il mio terrore?</p>
+			<p>Di non avere un giorno più poesia per te.</p>
+		</body>
+	</text>
+</TEI>
