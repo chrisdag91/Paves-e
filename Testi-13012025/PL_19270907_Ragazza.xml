@@ -90,11 +90,89 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270907_Ragazza.xml?date_annotation_20250116153917585",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-16T14:39:17.585Z",
+	"dcterms:modified": "2025-01-16T14:39:17.585Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270907_Ragazza.xml?date_annotation_20250116153917585#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270907_Ragazza.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270907_Ragazza.xml?date_annotation_20250116153917585#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1927-09-07"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A una ragazza, Torino.</p>
-			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="Real">Torino</placeName>,] 7 settembre 1927</p>
+			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="Real">Torino</placeName>,] <date when="1927-09-07">7 settembre 1927</date></p>
 			<p/>
 			<p>Sono rassegnato.</p>
 			<p>Sturani mi aveva detto ieri "Questa tale ha una faccia molto libidinosa". Io fremevo e speravo confusamente. I tuoi fogli, leggendoli, mi hanno riempito di una tempesta stanca di disperazione e di gioia. A tratti erano sfitte soffocanti di un dolore fisico acutissimo nel cuore e nell'anima e tenerezze improvvise deliziose, gioia di sapere che tu hai amato qualcosa di grande in me e che non cercavi soltanto, per vizio, di saziarti una tua febbre di sensi "libidinosi". Ti parlo sincero senza veli. Anche questo avevo sospettato nei tuoi baci, talvolta sperandolo e talvolta rabbrividendone di disgusto al pensiero. Ora sono rassegnato e mi pare anche più lieto. Ora tu sei per me null'altro che un sogno di tenerezza e di ideale. E se questo, nella mia anima squilibrata e stremata, in qualche istante mi pare non mi soddisfi, pure soprattutto provo una gioia che mi stordisce al pensiero che amo e sono riamato d'amore da una creatura eterea, bionda evanescente non soltanto nei capelli, ma anche nell'anima, al pensiero che quel logorio triste del tuo volto è davvero una malinconia sublime che hai nel cuore e che tu vivi più di poesia che di realtà. Persino quando mi parli, cosi, semplicemente, del tuo grande amore per un altro, amore fatto di dolore, che io tremante di ansia disperata non avevo mai potuto indagare appieno arrestandomi al primo spasimo oppure mi serravo in quella malinconia con una voluttà triste di sofferenza, io trovo motivo di abbellirti di più, di levare più in alto il tuo sogno Madonna bionda.</p>
