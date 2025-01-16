@@ -168,6 +168,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270907_Ragazza.xml?person_annotation_20250116154730042",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-16T14:47:30.042Z",
+	"dcterms:modified": "2025-01-16T14:47:30.042Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270907_Ragazza.xml?person_annotation_20250116154730042#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270907_Ragazza.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270907_Ragazza.xml?person_annotation_20250116154730042#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Sandro_Botticelli",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -176,7 +255,7 @@
 			<p/>
 			<p>Sono rassegnato.</p>
 			<p><persName ref="http://viaf.org/viaf/56763727/">Sturani</persName> mi aveva detto ieri "Questa tale ha una faccia molto libidinosa". Io fremevo e speravo confusamente. I tuoi fogli, leggendoli, mi hanno riempito di una tempesta stanca di disperazione e di gioia. A tratti erano sfitte soffocanti di un dolore fisico acutissimo nel cuore e nell'anima e tenerezze improvvise deliziose, gioia di sapere che tu hai amato qualcosa di grande in me e che non cercavi soltanto, per vizio, di saziarti una tua febbre di sensi "libidinosi". Ti parlo sincero senza veli. Anche questo avevo sospettato nei tuoi baci, talvolta sperandolo e talvolta rabbrividendone di disgusto al pensiero. Ora sono rassegnato e mi pare anche più lieto. Ora tu sei per me null'altro che un sogno di tenerezza e di ideale. E se questo, nella mia anima squilibrata e stremata, in qualche istante mi pare non mi soddisfi, pure soprattutto provo una gioia che mi stordisce al pensiero che amo e sono riamato d'amore da una creatura eterea, bionda evanescente non soltanto nei capelli, ma anche nell'anima, al pensiero che quel logorio triste del tuo volto è davvero una malinconia sublime che hai nel cuore e che tu vivi più di poesia che di realtà. Persino quando mi parli, cosi, semplicemente, del tuo grande amore per un altro, amore fatto di dolore, che io tremante di ansia disperata non avevo mai potuto indagare appieno arrestandomi al primo spasimo oppure mi serravo in quella malinconia con una voluttà triste di sofferenza, io trovo motivo di abbellirti di più, di levare più in alto il tuo sogno Madonna bionda.</p>
-			<p>Le Madonne del Botticelli hanno un volto assorto e arrossato dal dolore come il tuo. È triste la mia anima. L'invidia e l'orgoglio sono la sua vita continua. E provo ora una gioia dolcissima di tenerezza a abbassarmi, impicciolirmi agli occhi del tuo grande amore puro, di cui non sono degno, credi, non sono degno.</p>
+			<p>Le Madonne del <persName key="Sandro Botticelli" ref="http://dbpedia.org/resource/Sandro_Botticelli">Botticelli</persName> hanno un volto assorto e arrossato dal dolore come il tuo. È triste la mia anima. L'invidia e l'orgoglio sono la sua vita continua. E provo ora una gioia dolcissima di tenerezza a abbassarmi, impicciolirmi agli occhi del tuo grande amore puro, di cui non sono degno, credi, non sono degno.</p>
 			<p>Mi è un dolore terribile pensare che sei di un altro, che un altro ha potuto e potrà ancora fino all’ultimo averti intera, più bella, più intima, più pura che non io, ma mi sforzo, non voglio pensare a questa cosa orribile, non posso reggerci e tento di stordirmi piangendo nella mia miseria e nella mia stanca fiamma sovrumana di poesia.</p>
 			<p>Questa sera son tornato a stordirmi da ubriaco respirando il fumo di una sigaretta. E fantasticavo di te facendo del tuo amore un grande sogno di arte, di cose buone, di tenerezze inesprimibili.</p>
 			<p>Nella nebbia leggera che quel fumo franco mi dà al cervello e a tutto il corpo vivo un amore vaporoso che nemmeno più si tortura dei pensieri ossessionanti di un tempo: che sia una mia illusione quella di essere poeta. O dell'altro più doloroso che in poche settimane mi stancherei di te qualunque cosa facessi, e che l'amore eterno è una stucchevole invenzione di letterati.</p>
