@@ -255,7 +255,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="Real">Torino</placeName>, <date when="1929-10">ottobre? 1929</date>]</p>
 			<p/>
 			<p>Egr. Profess.,</p>
-			<p>il Prof. <persName ref="#RicciAldo">Aldo Ricci</persName>, cui mi sono rivolto per aiuti bibliografici intorno a una tesi di laurea sulla poesia di Walt Whitman, mi ha scritto dell’assoluta insufficienza in materia delle biblioteche di Firenze e mi consiglia di rivolgermi a Lei che, mi dice, ha relazioni colla Biblioteca Americana di Roma.</p>
+			<p>il Prof. <persName ref="#RicciAldo">Aldo Ricci</persName>, cui mi sono rivolto per aiuti bibliografici intorno a una tesi di laurea sulla poesia di <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>, mi ha scritto dell’assoluta insufficienza in materia delle biblioteche di Firenze e mi consiglia di rivolgermi a Lei che, mi dice, ha relazioni colla Biblioteca Americana di Roma.</p>
 			<p>Le sarei gratissimo se Ella volesse interessarsi a questa mia ricerca e vedere se esistono in Roma, - ed eventualmente come sarebbe possibile consultarli - i saggi whitmaniani di almeno i seguenti autori:</p>
 			<p/>
 			<p>S. Hodgson, "Walt "Whitman , Manchester 1900</p>
