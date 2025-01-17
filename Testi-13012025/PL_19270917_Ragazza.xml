@@ -1,7 +1,4 @@
-<?xml version="1.0" ?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,12 +11,90 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270917_Ragazza.xml?date_annotation_20250117121122857",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-17T11:11:22.857Z",
+	"dcterms:modified": "2025-01-17T11:11:22.857Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270917_Ragazza.xml?date_annotation_20250117121122857#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270917_Ragazza.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19270917_Ragazza.xml?date_annotation_20250117121122857#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1927-09-17"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<p>A una ragazza.</p>
 			<p/>
-			<p>Santo Stefano Belbo, 17 settembre 1927, notte</p>
+			<p><placeName ref="http://viaf.org/viaf/233814474/" type="Real">Santo Stefano Belbo</placeName>, <date when="1927-09-17">17 settembre 1927</date>, notte</p>
 			<p/>
 			<p>Per tutto il viaggio non ho pensato che a te.</p>
 			<p>Al tuo volto e alla figura continua che tu hai sempre. Ma sopratutto, immerso in una nuvola di dolcezza segreta, ho fantasticato e mi sono inebriato a lungo del dono dolcissimo e indicibile che ho avuto da te ieri senza avere osato sperarlo mai. Nei giorni passati tu mi avevi già confuso di cose belle, di doni semplici e meravigliosi, ma ieri tu mi hai donato nella tua intimità dolce e triste il culmine della vita. Mi hai mostrato nella grandezza appassionata e rassegnata del tuo sentimento di essere una creatura altissima che vive davvero di sogni e di dolore e hai saputo nei baci, nelle carezze, nella carezza più pura del tuo corpo, colmare di gioia e insieme convincere di rassegnazione il mio cuore. Sei tornata per me quella che per un istante l’odiosità degli altri e la viltà della mia anima avevano oscurato: un fiore di poesia, un fiore delicato e indicibile, pieno di dolcezza e tristezza, datrice di spasimi e di gioie, un’immagine affinata nella bellezza di un sogno, della vita immensa e umile, di tutte le cose più alte.</p>
@@ -31,13 +106,13 @@
 			<p>Oh grazie grazie bambina.</p>
 			<p>Qua ho riveduti i colli fra cui sono nato nella dolce pianura del fiume, piena d’alberi e la terra dal largo declivio dolcissimo dove ho scorrazzato e vissuto bambino; ho riveduto i profili delle colline pallidi di lontananza dove bambino ancora, spaziavo lo sguardo col cuore gonfio, e con parole esaltate alla bocca in un’aspirazione struggente a mondi lontani, tanto lontani, dove si viveva soltanto della musica di quelle belle parole d’amore.</p>
 			<p>Amavo le nuvole in cielo, allora, a dieci anni. Da allora, di anno in anno, sempre più, il cuore mi si è gonfiato e esaltato e ha goduto dei pochi trionfi, e tristemente sofferto con una gioia che altri non trova nemmeno pallidamente nei piaceri più vivi, e sempre si è agitato e contorto, dettandomi talvolta brevi parole della sua sofferenza viva, sconvolgendosi e stremandosi nel buio, piangendo, fino a ridursi tanto stanco tanto stanco da nemmeno più ricordarsi la sua fanciullezza.</p>
-			<p>E sei venuta tu bambina a riscuoterlo per un istante e a inebriarlo ancora, di quelle parole esaltate, a farlo vivere &quot;soltanto&quot; della loro musica. Come una di quelle nuvole che mi passavano nel cielo, bambina, io ti amo ora, mio esile sogno dagli occhi perduti nei capelli biondi.</p>
+			<p>E sei venuta tu bambina a riscuoterlo per un istante e a inebriarlo ancora, di quelle parole esaltate, a farlo vivere "soltanto" della loro musica. Come una di quelle nuvole che mi passavano nel cielo, bambina, io ti amo ora, mio esile sogno dagli occhi perduti nei capelli biondi.</p>
 			<p>Ciascuno dei ricordi più dolci di quella mia fanciullezza, mi ritorna al cuore con una sorpresa di gioia all’immagine presente di te, che ravvivi e fai bella ogni cosa più vile e dimenticata del mio passato.</p>
 			<p>E da ieri sei divenuta mia, per sempre, mia senza scampo come è mio tutto il ricordo evanescente tremante dei miei primi anni e delle mie lotte buie: tu sei ora la mia grande poesia, quella che mi è nata senza che io sapessi, in questa vasta pianura disseminata di grandi alberi e rinchiusa tra sognanti colline; quella poesia che ora, dopo lunghi anni di attesa disperata, ritrovo in te, chiara e straziante, e travagliata, armoniosa, indicibile e struggente, come te, te sola.</p>
 			<p>È questo bambina, l’amore che io ho per te.</p>
 			<p>Ma tu non dovrai mai (tu sei tanto buona, non lo faresti mai) dar cagione di dolore a Lui (tu sai) distruggergli anche un solo sogno per amore di me, per lenire anche di una sola sfitta le tristezze grige della mia anima.</p>
 			<p>Pensa che, a questo, il mio dolore sarebbe forse più grande del suo. Tu ricordi, tu sai, con quanta dolcezza rassegnata ho cercato di avvicinarmelo, di conoscerlo e farmelo amico. Piangerei di vergogna e dolore fremente se lui dovesse soffrire per noi. Io che ti amo, ti adoro di una passione disperata so quanto sarebbe terribile una rovina così grande. Un colpo di rivoltella. Non altro.</p>
-			<p>E del resto dopo tutto questo tu potrai dire, con un sorriso, &quot;Bah, i poeti son sempre stati così, impetuosi, ma in breve si stancano di tutto&quot;. Io non risponderò a questo.</p>
+			<p>E del resto dopo tutto questo tu potrai dire, con un sorriso, "Bah, i poeti son sempre stati così, impetuosi, ma in breve si stancano di tutto". Io non risponderò a questo.</p>
 			<p>Sono triste triste e tanto vile. Ma credi, tutto quanto ti ho detto è la verità, la verità più pura. Tanto pura e tanto sincera che a scoprirla ho provato una gioia immensa.</p>
 			<p>Dovrò ancora soffrire tanto nell’avvenire, bambina!</p>
 			<p>E queste sono le mie sole gioie. Non distruggermele non fare anche tu come gli altri, odiosi.</p>
