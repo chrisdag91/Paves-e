@@ -418,7 +418,7 @@
 			<p/>
 			<p><title level="m" ref="#SHodgson">S. Hodgson</title>, "<persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt "Whitman</persName> , Manchester 1900</p>
 			<p><title level="m" ref="#WTrimsle">W. Trimsle</title>, <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>, London 1905</p>
-			<p>J. A. Symonds, Walt Whitman, London 1893</p>
+			<p><title level="m" ref="#JASymonds">J. A. Symonds</title>, Walt Whitman, London 1893</p>
 			<p>E. C. Stedman, Poeti of America, Boston 1885</p>
 			<p>B. Perry, <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>, Boston 1908</p>
 			<p>O’Connor, The Good Grey Poet, 1865</p>
