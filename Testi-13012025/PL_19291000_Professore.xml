@@ -1111,6 +1111,240 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml?date_annotation_20250118125911557",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-18T11:59:11.557Z",
+	"dcterms:modified": "2025-01-18T11:59:11.557Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml?date_annotation_20250118125911557#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml?date_annotation_20250118125911557#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1865"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml?date_annotation_20250118125923731",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-18T11:59:23.731Z",
+	"dcterms:modified": "2025-01-18T11:59:23.731Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml?date_annotation_20250118125923731#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml?date_annotation_20250118125923731#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1867"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml?date_annotation_20250118125932104",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-18T11:59:32.104Z",
+	"dcterms:modified": "2025-01-18T11:59:32.104Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml?date_annotation_20250118125932104#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291000_Professore.xml?date_annotation_20250118125932104#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[17]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1878"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1127,10 +1361,10 @@
 			<p><title level="m" ref="#JASymonds">J. A. Symonds</title>, Walt Whitman, <placeName key="London England United Kingdom" ref="https://geonames.org/2643743" type="Real">London</placeName> <date when="1893">1893</date></p>
 			<p><persName ref="#ECStedman">E. C. Stedman</persName>, <title level="m" ref="#PoetiOfAmerica">Poeti of America</title>, <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956" type="Real">Boston</placeName> <date when="1885">1885</date></p>
 			<p><persName ref="#BPerry">B. Perry</persName>, <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>, <placeName key="Boston Massachusetts United States" ref="https://geonames.org/4930956" type="Real">Boston</placeName> <date when="1908">1908</date></p>
-			<p><persName ref="#OConnor">O’Connor</persName>, <title level="m" ref="#TheGoodGreyPoet">The Good Grey Poet</title>, 1865</p>
+			<p><persName ref="#OConnor">O’Connor</persName>, <title level="m" ref="#TheGoodGreyPoet">The Good Grey Poet</title>, <date when="1865">1865</date></p>
 			<p><persName ref="#JohannesSchlaf">Johannes Schlaf</persName>, <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>, Homosexual</p>
-			<p><persName ref="#JBurroughs">J. Burroughs</persName>, <title level="m" ref="#NotesAboutWWAsaPoetandAsAnIndividual">Notes about W. W. as a poet and as an individual</title>, 1867</p>
-			<p><persName ref="#JBurroughs">J. Burroughs</persName>, <title ref="#BirdsAndPoets">Birds and Poets</title>, 1878</p>
+			<p><persName ref="#JBurroughs">J. Burroughs</persName>, <title level="m" ref="#NotesAboutWWAsaPoetandAsAnIndividual">Notes about W. W. as a poet and as an individual</title>, <date when="1867">1867</date></p>
+			<p><persName ref="#JBurroughs">J. Burroughs</persName>, <title ref="#BirdsAndPoets">Birds and Poets</title>, <date when="1878">1878</date></p>
 			<p><persName ref="#GSarrazin">G. Sarrazin</persName>, <title level="m" ref="#RenaissanceDeLaPoesieAnglaise">Renaissance de la poesie anglaise</title>, 1888</p>
 			<p><persName ref="#HTraubel">H. Traubel</persName>, <title ref="#WithWWithmanInCamden">With <persName ref="http://dbpedia.org/resource/Walt_Whitman">W. Whitman</persName> in Camden</title></p>
 			<p><persName ref="#EmoryHolloway">Emory Holloway</persName>, <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>.</p>
