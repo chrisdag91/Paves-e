@@ -174,7 +174,7 @@
 			<p>A una signorina inglese.</p>
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="Real">Torino</placeName>,] <date when="1930-05-08">May 8th, 1930</date></p>
 			<p/>
-			<p>Dear Miss Wilson,</p>
+			<p>Dear <persName ref="#MissWilson">Miss Wilson</persName>,</p>
 			<p>I want to beg your pardon for my long silence. I hope you’ll yet remember me, as I had your kindest wishes on Christmas last year.</p>
 			<p>I want yet to praise you for your surprising Italian, the wonderfullest letter I got from English or American people. I knew already you spoke it fluently, but you are also writing it exceedingly well. Best compliments!</p>
 			<p>By the bye, I want to thank you for the nice list of my blunders, followed by so dear explanations.</p>
