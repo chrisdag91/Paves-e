@@ -168,6 +168,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300508_SignorinaInglese.xml?place_annotation_20250118165116801",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-18T15:51:16.801Z",
+	"dcterms:modified": "2025-01-18T15:51:16.801Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300508_SignorinaInglese.xml?place_annotation_20250118165116801#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300508_SignorinaInglese.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300508_SignorinaInglese.xml?place_annotation_20250118165116801#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3175395",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -179,7 +258,7 @@
 			<p>I want yet to praise you for your surprising Italian, the wonderfullest letter I got from English or American people. I knew already you spoke it fluently, but you are also writing it exceedingly well. Best compliments!</p>
 			<p>By the bye, I want to thank you for the nice list of my blunders, followed by so dear explanations.</p>
 			<p>I cannot account for my long silence else than alleging the essay I’m after since months for my degree, notwithstanding I hope you’ll forgive me.</p>
-			<p>Say, <persName ref="#MissWilson">Miss Wilson</persName>, I heard now from <persName ref="#CurtiGiorgio">Mr Curti</persName>, who is running through France in order to get some appointment by a movie manager, you are asking him for an Italian comedy to teach your pupils about. If I can be of some usefulness I’ll be glad to help you in selecting and getting your book. If you agree, write me about it and also about every want you could have here in Italy.</p>
+			<p>Say, <persName ref="#MissWilson">Miss Wilson</persName>, I heard now from <persName ref="#CurtiGiorgio">Mr Curti</persName>, who is running through <placeName ref="#France" type="Real">France</placeName> in order to get some appointment by a movie manager, you are asking him for an Italian comedy to teach your pupils about. If I can be of some usefulness I’ll be glad to help you in selecting and getting your book. If you agree, write me about it and also about every want you could have here in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="Real">Italy</placeName>.</p>
 			<p>Now, you’ll certainly have gone to the Italian Art Exhibition in London and I should like you would write me something about. Will you?</p>
 			<p/>
 		</body>
