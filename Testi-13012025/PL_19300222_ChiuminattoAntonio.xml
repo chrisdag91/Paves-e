@@ -796,6 +796,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300222_ChiuminattoAntonio.xml?place_annotation_20250118162545159",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-18T15:25:45.159Z",
+	"dcterms:modified": "2025-01-18T15:25:45.159Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300222_ChiuminattoAntonio.xml?place_annotation_20250118162545159#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300222_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300222_ChiuminattoAntonio.xml?place_annotation_20250118162545159#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[26]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3175395",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -824,7 +903,7 @@
 			<p><persName ref="https://viaf.org/viaf/120757469/">Mr. Chiumin[atto]</persName> I beg your pardon again for my exaggerated list of slang words I sent you last time and am now waiting patiently for the comments. But I repeat you must not hurry.</p>
 			<p><persName ref="https://viaf.org/viaf/120757469/">Mr. Ch[iuminatto]</persName> I also hope that our friendship will some day blossom forth. <placeName ref="https://geonames.org/6252001" type="real">America</placeName>!</p>
 			<p>If I'll get what I am after... you'll see! Now I've only to study, study as I can, your language and your things.</p>
-			<p>And I assure you I'm not sleeping. As you know I'll get my degree this fall and I have just choiced to present an essay about an American literature topic - the poetry of W. Whitman which I've been long perusing and out of modesty I think I know better now than anybody else in Italy: I've hunted since two years all what is attainable here about him. Now I'm writing my essay and am quite satisfied the way the work goes on. Perhaps sometimes I'll want about this a favour, not a least, by an American scholar, and I'll bethink of Miss Mabel then... But now "Bottle it!" as they say in Nigger Heaven and let us go to the bed.</p>
+			<p>And I assure you I'm not sleeping. As you know I'll get my degree this fall and I have just choiced to present an essay about an American literature topic - the poetry of <persName ref="http://dbpedia.org/resource/Walt_Whitman">W. Whitman</persName> which I've been long perusing and out of modesty I think I know better now than anybody else in <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="Real">Italy</placeName>: I've hunted since two years all what is attainable here about him. Now I'm writing my essay and am quite satisfied the way the work goes on. Perhaps sometimes I'll want about this a favour, not a least, by an American scholar, and I'll bethink of Miss Mabel then... But now "Bottle it!" as they say in Nigger Heaven and let us go to the bed.</p>
 			<p>Remember: Cabel, Frank and Dos Passos. Thank you a thousand times. Good-bye.</p>
 			<p>Your Buddy</p>
 			<p>Ces</p>
