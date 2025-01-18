@@ -168,6 +168,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291016_SignorinaInglese.xml?place_annotation_20250118130531245",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-18T12:05:31.245Z",
+	"dcterms:modified": "2025-01-18T12:05:31.245Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291016_SignorinaInglese.xml?place_annotation_20250118130531245#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291016_SignorinaInglese.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291016_SignorinaInglese.xml?place_annotation_20250118130531245#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3175395",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -177,7 +256,7 @@
 			<p/>
 			<p>Dear Miss,</p>
 			<p>I hope you will be remindful of that Italian student who together with <persName ref="#CurtiGiorgio">Mr. Curti</persName> got rowing with you on the Po. I was acquainted by our beautiful Georgie that you remembered my company and by him also I got your adress.</p>
-			<p>Would it not bother you, I should like to had some correspondance with you and to be kept knowing about your literary <placeName ref="https://geonames.org/6269131" type="Real">England</placeName> as, if you like, I will make with you for Italy.</p>
+			<p>Would it not bother you, I should like to had some correspondance with you and to be kept knowing about your literary <placeName ref="https://geonames.org/6269131" type="Real">England</placeName> as, if you like, I will make with you for <placeName key="Italian Republic  Italy" ref="https://geonames.org/3175395" type="Real">Italy</placeName>.</p>
 			<p>Perhaps I will now also undertake the translation of some English or American books - novels, - and I'll be glad to receive by you a kind explanation of a lot of words and phrases - idioms, slang, americanisms, - which no dictionary makes clear.</p>
 			<p>As you can see I am enough brazen-faced, but I hope you will forgive for your similar wants’ sake.</p>
 			<p>I'll be most pleased to help you in such cases, if, though, you have such needs, knowing you Italian certainly better’n I English. However write freely me, whatever be the contents.</p>
