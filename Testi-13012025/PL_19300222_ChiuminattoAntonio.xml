@@ -640,6 +640,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300222_ChiuminattoAntonio.xml?date_annotation_20250118160550504",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-18T15:05:50.504Z",
+	"dcterms:modified": "2025-01-18T15:05:50.504Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300222_ChiuminattoAntonio.xml?date_annotation_20250118160550504#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300222_ChiuminattoAntonio.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300222_ChiuminattoAntonio.xml?date_annotation_20250118160550504#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1930-01-23"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -656,7 +734,7 @@
 			<p>Moreover should she have studied Greek and Latin, we would be both of a unique nation, for this knowledge unifies all, it is the great ground of all world entire[.] I should like to know these things about her. Won't she be so kind then?</p>
 			<p>As for us, <persName ref="https://viaf.org/viaf/120757469/">Mr. Ch.[iuminatto]</persName>, I'm reading about your success and send you a cheer up. You are on a good beginning and it seems my prophecies go effecting themselves. When I meet <persName ref="http://viaf.org/viaf/64047669/">Max</persName> I'll let him know and I'm sure he'll only be sorry that he was not in De Pere to hear, and review your exhibition. He has become a damned newspaper man and has only now concerts to advertise and musical scores to write about. But you know this all, I think you are associated with La Rassegna Musicale and stumble now and then on the glorious M.M. which has cause us to call him "duemila." So, be sure, hardly I'll be able, Max will have the book and the tidings and he also will be exceedingly glad, I'm sure.</p>
 			<p>About books, I hope now you'll have received <persName ref="#AlbertoArnulfi">Arnulfi</persName> and <persName ref="#ErichMariaRemarque">Remarque</persName> which I mailed together with the letter of <date when="1930-01-16">Jan. 16th</date>. I bethought only after the expedition their package was not so steady, but as the post-office accepted them as they were, I hope you got them not in bad state at least. However if you have not yet spoken of them in some letter which is coming tell me something about in your next.</p>
-			<p>As for the Sanssôssi I mailed on Jan. 23rd va sans dire it is a gift. Max and I send you as a token of our gratefulness for your troubles there in America on our behalf.</p>
+			<p>As for the <title level="m" ref="#Sansossi">Sanssôssi</title> I mailed on <date when="1930-01-23">Jan. 23rd</date> va sans dire it is a gift. Max and I send you as a token of our gratefulness for your troubles there in America on our behalf.</p>
 			<p>So, on your debit, there is only to enter about a dollar which makes the amount of the two books I sent together. I don't know why you would be so kind as to decrease my own debt from two dollars and a half to only two ones.</p>
 			<p>We must not begin thus, otherwise, we'll never be business-men as you intend. The more, so as you have already to waste not a little money about the stamps I reckoned your last package fifty and seven cents, more than a half-dollar. A half here and a half of deduction from the book, it is already a dollar you are losing. And so on.</p>
 			<p>No, Mr. Chium[inatto] we must be more exact. Now to cut it and make you contented, I'll send you only the dollar of difference between my debt as you state it ($2.00) and the dollar on your charge and I thank you (for the prices you can see the back of the books), but in the future we'll be more business-like. Otherwise you must think, I'll be obliged to stop my ordinations lest you may be losing in the bargain. It's very well to enclose the bills in our letters, but we must also pay some attention to them otherwise it is useless.</p>
