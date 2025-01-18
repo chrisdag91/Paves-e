@@ -423,7 +423,7 @@
 			<p><persName ref="#BPerry">B. Perry</persName>, <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>, Boston 1908</p>
 			<p><persName ref="#OConnor">O’Connor</persName>, <title level="m" ref="#TheGoodGreyPoet">The Good Grey Poet</title>, 1865</p>
 			<p><persName ref="#JohannesSchlaf">Johannes Schlaf</persName>, <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>, Homosexual</p>
-			<p>J. Burroughs, Notes about W. W. as a poet and as an individual, 1867</p>
+			<p><persName ref="#JBurroughs">J. Burroughs</persName>, Notes about W. W. as a poet and as an individual, 1867</p>
 			<p>J. Burroughs, Birds and Poets, 1878</p>
 			<p>G. Sarrazin, Renaissance de la poesie anglaise, 1888</p>
 			<p>H. Traubel, With <persName ref="http://dbpedia.org/resource/Walt_Whitman">W. Whitman</persName> in Camden</p>
