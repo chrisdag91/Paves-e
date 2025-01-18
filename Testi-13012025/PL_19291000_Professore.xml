@@ -416,7 +416,7 @@
 			<p>il Prof. <persName ref="#RicciAldo">Aldo Ricci</persName>, cui mi sono rivolto per aiuti bibliografici intorno a una tesi di laurea sulla poesia di <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>, mi ha scritto dell’assoluta insufficienza in materia delle biblioteche di <placeName key="Florence Tuscany Italy" ref="https://geonames.org/3176959" type="Real">Firenze</placeName> e mi consiglia di rivolgermi a Lei che, mi dice, ha relazioni colla <orgName ref="#BibliotecaAmericanaDiRoma" type="Real">Biblioteca Americana di Roma</orgName>.</p>
 			<p>Le sarei gratissimo se Ella volesse interessarsi a questa mia ricerca e vedere se esistono in <placeName key="Rome Lazio Italy" ref="https://geonames.org/3169070" type="Real">Roma</placeName>, - ed eventualmente come sarebbe possibile consultarli - i saggi whitmaniani di almeno i seguenti autori:</p>
 			<p/>
-			<p><title level="m" ref="#SHodgson">S. Hodgson</title>, "<persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt "Whitman</persName> , Manchester 1900</p>
+			<p><title level="m" ref="#SHodgson">S. Hodgson</title>, "<persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt "Whitman</persName> , <placeName ref="#Manchester">Manchester</placeName> 1900</p>
 			<p><title level="m" ref="#WTrimsle">W. Trimsle</title>, <persName ref="http://dbpedia.org/resource/Walt_Whitman">Walt Whitman</persName>, London 1905</p>
 			<p><title level="m" ref="#JASymonds">J. A. Symonds</title>, Walt Whitman, London 1893</p>
 			<p><persName ref="#ECStedman">E. C. Stedman</persName>, <title level="m" ref="#PoetiOfAmerica">Poeti of America</title>, Boston 1885</p>
