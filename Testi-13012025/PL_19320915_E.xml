@@ -168,6 +168,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19320915_E.xml?place_annotation_20250119120615590",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-19T11:06:15.590Z",
+	"dcterms:modified": "2025-01-19T11:06:15.590Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19320915_E.xml?place_annotation_20250119120615590#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19320915_E.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19320915_E.xml?place_annotation_20250119120615590#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -175,7 +254,7 @@
 			<p>[<placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="Real">Torino</placeName>,] <date when="1932-09-15">15 settembre 1932</date></p>
 			<p/>
 			<p>Son stato male tutto il giorno a non vederti sulla strada di Crevacuore.</p>
-			<p>E., com’è brutta Torino. E il più triste di tutto questo è che ci dimenticheremo, senza esserci quasi nemmeno conosciuti. Non so quel che tu veda in me, ma io indovino in te un miracolo di femminilità e di tenerezza, che, come mi si è formato avanti agli occhi a poco a poco in tutta l’estate, così ora colla medesima lentezza andrà svanendomi nelle nostre lettere. E., ho paura che i nostri ultimi giorni di Santo Stefano - li dimenticherai mai? - siano stati come una crisi, un punto massimo, oltre il quale non andremo. Questo per ora è un pensiero che mi dispera, ma il giorno in cui mi lascerà indifferente, ci pensi, E. ? Non è la disperazione, la sofferenza, che ci deve far paura - questo è nulla, è anzi ciò che ci può rendere più meraviglioso un altro incontro - ma il momento che non soffriremo più, che non ce ne importerà più, questo è il terribile.</p>
+			<p>E., com’è brutta <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="Real">Torino</placeName>. E il più triste di tutto questo è che ci dimenticheremo, senza esserci quasi nemmeno conosciuti. Non so quel che tu veda in me, ma io indovino in te un miracolo di femminilità e di tenerezza, che, come mi si è formato avanti agli occhi a poco a poco in tutta l’estate, così ora colla medesima lentezza andrà svanendomi nelle nostre lettere. E., ho paura che i nostri ultimi giorni di Santo Stefano - li dimenticherai mai? - siano stati come una crisi, un punto massimo, oltre il quale non andremo. Questo per ora è un pensiero che mi dispera, ma il giorno in cui mi lascerà indifferente, ci pensi, E. ? Non è la disperazione, la sofferenza, che ci deve far paura - questo è nulla, è anzi ciò che ci può rendere più meraviglioso un altro incontro - ma il momento che non soffriremo più, che non ce ne importerà più, questo è il terribile.</p>
 			<p>E pensare che probabilmente noi tra poco dovremo perderci, senza quasi esserci conosciuti, senza sapere di noi più che uno sguardo, un bacio alle dita, qualche carezza.</p>
 			<p>Che cosa pensi tu, E.? Perché tremi quando sono con te? Cosa c’è dentro i tuoi occhi quando mi guardi sorridendo e poi ti fai seria, quasi ostile, e poi torni a sorridere? Queste cose le perderò senza averle mai conosciute.</p>
 			<p>Io d’amore non so piangere, E. - piango a sentire un’ingiustizia, una crudeltà, un dolore di un bambino — e non posso nemmeno consacrarti delle lacrime per tutto il dono immenso che hai fatto a me in questi giorni. Piangerò forse quando ripenserò - e sarà tardi - al tesoro di quell’amore sprecato così, per uno che non ne vale la pena: tant’è vero che lo lascia ora morire senza nemmeno commuoversi, senza tentare di far nulla per conservarselo, meritarselo.</p>
