@@ -168,6 +168,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19301011_Preside.xml?place_annotation_20250119115356731",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-19T10:53:56.731Z",
+	"dcterms:modified": "2025-01-19T10:53:56.731Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Martinogiordano",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Martino Giordano"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19301011_Preside.xml?place_annotation_20250119115356731#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19301011_Preside.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19301011_Preside.xml?place_annotation_20250119115356731#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/3165524",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -177,7 +256,7 @@
 			<p>Egregio Professore,</p>
 			<p>ho sentito per mezzo del bidello della Facoltà di Lettere, Sig. Mangiarotti, della loro ricerca di un insegnante di Letteratura Italiana per l’Istituto.</p>
 			<p>Se crede di tenere in considerazione la mia offerta le comunico che, avendo conseguita la Laurea in Lettere nel luglio di quest’anno io sono disposto ad assumere l’impiego. Naturalmente per motivi di tempo non ho ancora potuto conseguire il diploma di abilitazione, ma questo - mi pare - non è richiesto nelle condizioni comunicatemi.</p>
-			<p>Ella potrà, se crede, appoggiare la mia domanda con referenze di S. Ecc. <persName ref="NO! http://de.dbpedia.org/resource/Arturo_Farinelli">Arturo Farinelli</persName>, dell’<orgName ref="#UniversitadiTorino" type="Real">Università di Torino</orgName>, che già ha avuto motivo di dimostrarmi la sua benevolenza in altre circostanze. Le faccio inoltre i nomi del prof. <persName ref="#NeriFerdinando">Ferdinando Neri</persName> preside della Facoltà e del prof. <persName ref="http://viaf.org/viaf/5057618/">Augusto Monti</persName> insegnante di materie letterarie nel <orgName ref="#LiceoMassimoDAzeglio" type="Real">Liceo Massimo d’Azeglio</orgName> di Torino.</p>
+			<p>Ella potrà, se crede, appoggiare la mia domanda con referenze di S. Ecc. <persName ref="NO! http://de.dbpedia.org/resource/Arturo_Farinelli">Arturo Farinelli</persName>, dell’<orgName ref="#UniversitadiTorino" type="Real">Università di Torino</orgName>, che già ha avuto motivo di dimostrarmi la sua benevolenza in altre circostanze. Le faccio inoltre i nomi del prof. <persName ref="#NeriFerdinando">Ferdinando Neri</persName> preside della Facoltà e del prof. <persName ref="http://viaf.org/viaf/5057618/">Augusto Monti</persName> insegnante di materie letterarie nel <orgName ref="#LiceoMassimoDAzeglio" type="Real">Liceo Massimo d’Azeglio</orgName> di <placeName key="Turin Piedmont Italy" ref="https://geonames.org/3165524" type="Real">Torino</placeName>.</p>
 			<p>Attendo perciò una Sua risposta, dove Ella mi precisi le condizioni e le modalità della cosa. Oso manifestarle una certa sollecitudine avendo io altri impegni in considerazione.</p>
 			<p>Con ossequi, sono il suo devotissimo</p>
 			<p/>
