@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300820_BodoPaolo.xml?place_annotation_20251023145117222",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-23T12:51:17.222Z",
+	"dcterms:modified": "2025-10-23T12:51:17.222Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300820_BodoPaolo.xml?place_annotation_20251023145117222#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300820_BodoPaolo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300820_BodoPaolo.xml?place_annotation_20251023145117222#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/6543369",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -255,9 +334,9 @@
 			<p/>
 			<p>Gent.mo <rs ref="#BodoPaolo">Sig. Commendatore</rs>,</p>
 			<p>Secondo la promessa fatta, sono lieto di disporre finalmente della prossima settimana, per profittare del cortese invito che... risale fino ai tempi ormai mitici dell’esame di <persName ref="#BodoManolo" type="real">Manolo</persName>.</p>
-			<p>Ho avuto il piacere di legger tra le righe del resoconto della visita delle Ll. Altezze reali, che la Loro villeggiatura si è svolta finora felicemente, senza nemmeno la pronosticata disavventura automobilistica di Manolo, il quale purtroppo vede avvicinarsi sempre più la data fatidica e nessuna velocità riesce a sottrarvelo.</p>
+			<p>Ho avuto il piacere di legger tra le righe del resoconto della visita delle Ll. Altezze reali, che la Loro villeggiatura si è svolta finora felicemente, senza nemmeno la pronosticata disavventura automobilistica di <persName ref="#BodoManolo" type="real">Manolo</persName>, il quale purtroppo vede avvicinarsi sempre più la data fatidica e nessuna velocità riesce a sottrarvelo.</p>
 			<p>Spero che, col mio volto, non susciterò al giovanotto ricordi o anticipazioni troppo tristi e, ad ogni modo, sarà per poco tempo, poiché altro lavoro mi attende a settembre e la mia visita costì sarà soltanto una gradita ma brevissima oasi in un deserto di guai.</p>
-			<p>Conto dunque di giungere a Bibiana, Lunedì 23, col treno delle 18,51.</p>
+			<p>Conto dunque di giungere a <placeName key="Bibiana" ref="https://sws.geonames.org/6543369">Bibiana</placeName>, Lunedì 23, col treno delle 18,51.</p>
 			<p>Con ossequio e scuse anticipate</p>
 		</body>
 	</text>
