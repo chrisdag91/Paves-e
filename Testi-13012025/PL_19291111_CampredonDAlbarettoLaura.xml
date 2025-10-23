@@ -405,6 +405,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291111_CampredonDAlbarettoLaura.xml?person_annotation_20251023143635327",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-23T12:36:35.327Z",
+	"dcterms:modified": "2025-10-23T12:36:35.327Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291111_CampredonDAlbarettoLaura.xml?person_annotation_20251023143635327#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291111_CampredonDAlbarettoLaura.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291111_CampredonDAlbarettoLaura.xml?person_annotation_20251023143635327#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/49220129",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -413,7 +492,7 @@
 			<p/>
 			<p>Gent. <rs ref="#CampredonDAlbarettoLaura">Contessa</rs>,</p>
 			<p>l’incontro di ieri mi ha fatto ricordare l’impegno preso con Lei, di procurarle una copia di quel frammento inedito di <persName key="Guido Gozzano" ref="http://dbpedia.org/resource/Guido_Gozzano" type="real">Guido Gozzano</persName>, di cui parlavo a <placeName key="Bibiana" ref="https://sws.geonames.org/6543369">Bibiana</placeName>.</p>
-			<p>È un’opera degli ultimi anni, come Lei del resto vedrà, che riflette tutto lo spirito della <title level="a" ref="#LaSignorinaFelicita">Signorina Felicita</title> piena della certezza della morte imminente e della giocondità dolorosa della sua solitudine. Ritroverà anche lo spunto polemico contro G. D’Annunzio, già accennato alla Signorina Felicita.</p>
+			<p>È un’opera degli ultimi anni, come Lei del resto vedrà, che riflette tutto lo spirito della <title level="a" ref="#LaSignorinaFelicita">Signorina Felicita</title> piena della certezza della morte imminente e della giocondità dolorosa della sua solitudine. Ritroverà anche lo spunto polemico contro <persName key="D'annunzio, Gabriele 1863-1938" ref="http://viaf.org/viaf/49220129" type="real">G. D’Annunzio</persName>, già accennato alla Signorina Felicita.</p>
 			<p>Ella saprà conservarlo con molta discrezione poiché l’autore non ha mai dato il consentimento alla sua diffusione e si riprometteva ancora di limarlo o che altro.</p>
 			<p>Il testo, così come l’ho scritto, è stato ricopiato amichevolmente dal manoscritto originale in possesso di un antico amico del Gozzano stesso, e le ripeto non era forse neanche destinato alla pubblicità. Comunque, questo frammento mi pare vada tra le cose migliori del poeta. E penso che Ella che tanto lo ama ne avrà qualche piacere.</p>
 			<p>Con ossequii, intanto, al Signor Commendatore e alla Sua Signorina, Le ricordo i sensi della mia devozione e Le bacio la mano, suo</p>
