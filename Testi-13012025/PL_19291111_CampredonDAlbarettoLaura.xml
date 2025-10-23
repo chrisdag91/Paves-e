@@ -642,6 +642,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291111_CampredonDAlbarettoLaura.xml?person_annotation_20251023144028426",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-23T12:40:28.426Z",
+	"dcterms:modified": "2025-10-23T12:40:28.426Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291111_CampredonDAlbarettoLaura.xml?person_annotation_20251023144028426#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291111_CampredonDAlbarettoLaura.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19291111_CampredonDAlbarettoLaura.xml?person_annotation_20251023144028426#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/49220129",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -657,7 +736,7 @@
 			<p/>
 			<p>Cesare Pavese</p>
 			<p/>
-			<p>P. S. Scusi l’antico professore che non sa resistere al mestiere e mette in nota che l’originaria favola di <persName ref="#Ulisse" type="fictional">Ulisse</persName> parodiata da <persName key="Guido Gozzano" ref="http://dbpedia.org/resource/Guido_Gozzano" type="real">Gozzano</persName>, si ritrova nel canto ventesimosesto dell'Inferno e nei primi canti delle Laudi del Cielo del Mare della Terra e degli Eroi (I vol. Maia) di Gabriele D’Annunzio.</p>
+			<p>P. S. Scusi l’antico professore che non sa resistere al mestiere e mette in nota che l’originaria favola di <persName ref="#Ulisse" type="fictional">Ulisse</persName> parodiata da <persName key="Guido Gozzano" ref="http://dbpedia.org/resource/Guido_Gozzano" type="real">Gozzano</persName>, si ritrova nel canto ventesimosesto dell'Inferno e nei primi canti delle Laudi del Cielo del Mare della Terra e degli Eroi (I vol. Maia) di <persName key="D'annunzio, Gabriele 1863-1938" ref="http://viaf.org/viaf/49220129" type="real">Gabriele D’Annunzio</persName>.</p>
 		</body>
 	</text>
 </TEI>
