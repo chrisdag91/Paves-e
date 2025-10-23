@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300706_BodoManolo.xml?place_annotation_20251023145525180",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-23T12:55:25.180Z",
+	"dcterms:modified": "2025-10-23T12:55:25.180Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300706_BodoManolo.xml?place_annotation_20251023145525180#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300706_BodoManolo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300706_BodoManolo.xml?place_annotation_20251023145525180#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/6543369",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -261,7 +340,7 @@
 			<p>- Ah, credevo andassi a pescare.</p>
 			<p/>
 			<p>Premesso il che, faccio i complimenti non a lei, che è il solito granduomo e non c’è neanche bisogno di dirlo, ma ai suoi nuovi maestri che sono stati così in gamba da spararla al di là. Ma non rida tanto, che l’esame di stato è sempre un esame carino.</p>
-			<p>Io non c’entro per niente nei suoi successi, non ci ho alcun merito e anzi l’estate scorsa ho imparato più io da lei che non lei da me. Ho imparato come si fa a domare corpo a corpo gli allievi ribelli, a pigliare il mestiere a cuor leggero e a star seduto con noncuranza nell’automobile. (Che belle corse deve fare Manolo quest’anno che gli tolgono la catena!) A Bibiana ho poi anche imparato a conoscere e apprezzare una classe sociale che ignoravo, quella che ha fatto il Piemonte, una classe seria e antica che ho capito soltanto allora e prima non ne sapevo niente. Ma a questo lei non arriva, scusi sa, Ella possiede altre virtù. Suo padre sì, può capir questo e ricordo appunto le passeggiate serotine in sua compagnia quando si discorreva di queste cose. La prego anzi di ossequiare il Commendatore da parte mia senza neanche aspettare il fondo della lettera.</p>
+			<p>Io non c’entro per niente nei suoi successi, non ci ho alcun merito e anzi l’estate scorsa ho imparato più io da lei che non lei da me. Ho imparato come si fa a domare corpo a corpo gli allievi ribelli, a pigliare il mestiere a cuor leggero e a star seduto con noncuranza nell’automobile. (Che belle corse deve fare <persName ref="#BodoManolo" type="real">Manolo</persName> quest’anno che gli tolgono la catena!) A <placeName key="Bibiana" ref="https://sws.geonames.org/6543369">Bibiana</placeName> ho poi anche imparato a conoscere e apprezzare una classe sociale che ignoravo, quella che ha fatto il Piemonte, una classe seria e antica che ho capito soltanto allora e prima non ne sapevo niente. Ma a questo lei non arriva, scusi sa, Ella possiede altre virtù. Suo padre sì, può capir questo e ricordo appunto le passeggiate serotine in sua compagnia quando si discorreva di queste cose. La prego anzi di ossequiare il Commendatore da parte mia senza neanche aspettare il fondo della lettera.</p>
 			<p>Ma come mai, dice Manolo, lo pseudo-professore esce in questi discorsi? Ecco qua. Allo pseudo-professore è girata la testa e ha voluto pigliar la laurea e si è dato che l’ha presa e se ormai non è ancora professore, è però già dottore in lettere e come tale uomo finito. Discorsi seri, quindi, anche se incominciano colle barzellette.</p>
 			<p>Che vuole Manolo, lei capita sempre male: l’estate scorsa un quasi professore che non sapeva il greco e il latino lì così, adesso un corrispondente tristanzuolo che si sente laureato e vuol far prediche. Sono triste. Lei domanderà agli dei che cosa gliene importi, ma non fa nulla. Sono triste e, come tale, seccante. Manolo non studiava, Manolo pigliava in giro, Manolo tirava i cuscini, Manolo era insopportabile, eppure mi rincresce e rattrista di non essere più lì a condannare in paradigmi Manolo.</p>
 			<p>Era un ottimo tipo, Manolo, e appena lasciava la mentalità della scuola (tirare i cuscini) diventava un camerata raro e diceva ragioni straordinarie. Ma del resto, aveva poi torto, Manolo, a prender la scuola così alla leggera? Mai studiar niente e cavarsela agli esami, è il mio ideale dello scolaro perfetto, futura persona intelligente. E così nella vita, Manolo, attento alla predica: fare tutto ridendo e riuscire alla fine, che nessuno se lo aspetti. Io, almeno, ho sempre fatto così, e tranne qualche vizio di malinconia e di polmoni, tiro avanti in perfetta salute.</p>
