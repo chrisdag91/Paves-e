@@ -247,6 +247,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300700_BodoPaolo.xml?place_annotation_20251023144625719",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-23T12:46:25.719Z",
+	"dcterms:modified": "2025-10-23T12:46:25.719Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alzuliani1",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alberto Luca Zuliani"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300700_BodoPaolo.xml?place_annotation_20251023144625719#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300700_BodoPaolo.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chrisdag91/Paves-e/main/Testi-13012025/PL_19300700_BodoPaolo.xml?place_annotation_20251023144625719#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/3164048",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -257,8 +336,8 @@
 			<p>la Sua lettera mi giunse graditissima specialmente per gli ormai lontani ricordi che suscita.</p>
 			<p>La ringrazio di cuore dell’invito ma ancora non posso accettare come sarebbe mio desiderio, causa un altro... pupillo che per circa un mese dovrò infarcire di latino. Poi, se Dio vuole, l’avrà in cura un mio collega che s’incaricherà di spedirlo all’esame.</p>
 			<p>Soltanto nell’ultima settimana d’agosto quindi potrò forse venire a trascorrere qualche giorno con Loro e, ad ogni modo, riscriverò, a tempo, precisando.</p>
-			<p>Godo molto quel che sento di <persName ref="#BodoManolo" type="real">Manolo</persName> e prego tutti Loro di convincerlo a non portarsi libri sul Monviso, caso mai ne mostrasse l’intenzione. In quanto all’automobile, lasci correre che purtroppo il giovanotto arriverà ad ottobre e colla coda tra le gambe rientrerà nel gregge.</p>
-			<p>In attesa d’incontrarli, bacio la mano alla Contessa e a tutti Loro porgo rispettosi saluti e auguri</p>
+			<p>Godo molto quel che sento di <persName ref="#BodoManolo" type="real">Manolo</persName> e prego tutti Loro di convincerlo a non portarsi libri sul <placeName key="Monte Viso" ref="https://sws.geonames.org/3164048">Monviso</placeName>, caso mai ne mostrasse l’intenzione. In quanto all’automobile, lasci correre che purtroppo il giovanotto arriverà ad ottobre e colla coda tra le gambe rientrerà nel gregge.</p>
+			<p>In attesa d’incontrarli, bacio la mano alla <rs ref="#CampredonDAlbarettoLaura">Contessa</rs> e a tutti Loro porgo rispettosi saluti e auguri</p>
 			<p/>
 			<p>Cesare Pavese.</p>
 		</body>
