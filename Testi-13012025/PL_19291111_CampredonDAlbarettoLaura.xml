@@ -736,7 +736,7 @@
 			<p/>
 			<p>Cesare Pavese</p>
 			<p/>
-			<p>P. S. Scusi l’antico professore che non sa resistere al mestiere e mette in nota che l’originaria favola di <persName ref="#Ulisse" type="fictional">Ulisse</persName> parodiata da <persName key="Guido Gozzano" ref="http://dbpedia.org/resource/Guido_Gozzano" type="real">Gozzano</persName>, si ritrova nel canto ventesimosesto dell'Inferno e nei primi canti delle Laudi del Cielo del Mare della Terra e degli Eroi (I vol. Maia) di <persName key="D'annunzio, Gabriele 1863-1938" ref="http://viaf.org/viaf/49220129" type="real">Gabriele D’Annunzio</persName>.</p>
+			<p>P. S. Scusi l’antico professore che non sa resistere al mestiere e mette in nota che l’originaria favola di <persName ref="#Ulisse" type="fictional">Ulisse</persName> parodiata da <persName key="Guido Gozzano" ref="http://dbpedia.org/resource/Guido_Gozzano" type="real">Gozzano</persName>, si ritrova nel canto ventesimosesto dell'<title level="a" ref="#Commedia_Inferno">Inferno</title> e nei primi canti delle Laudi del Cielo del Mare della Terra e degli Eroi (I vol. Maia) di <persName key="D'annunzio, Gabriele 1863-1938" ref="http://viaf.org/viaf/49220129" type="real">Gabriele D’Annunzio</persName>.</p>
 		</body>
 	</text>
 </TEI>
